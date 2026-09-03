@@ -7,17 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Decode queue
-        run: |
-          node <<'NODE' > queue.txt
-          const fs=require('fs'),zlib=require('zlib');
-          const raw=zlib.gunzipSync(Buffer.from(fs.readFileSync('curriculum.json.gz.b64','utf8').trim(),'base64')).toString('utf8');
-          const curriculum=JSON.parse(raw); const leaves=[];
-          for(const subject of curriculum){for(const section of subject.sections||[]){for(const leaf of section.leaves||[])leaves.push({subject,section,group:null,leaf});for(const group of section.groups||[])for(const leaf of group.leaves||[])leaves.push({subject,section,group,leaf});}}
-          leaves.slice(0,8).forEach((x,i)=>console.log(i+1, JSON.stringify({subject:x.subject.title,section:x.section.title,group:x.group&&x.group.title,lesson:x.leaf.title,base:x.leaf.base})));
-          NODE
-          cat queue.txt
-      - uses: actions/upload-artifact@v4
         with:
-          name: queue-probe
-          path: queue.txt
+          ref: main
+      - name: Build current main
+        run: |
+          npm run build
+          test -f dist/algebra/linear-equations-in-one-variable/variables-on-both-sides/explanation/index.html
+          grep -q "Variables on Both Sides" dist/algebra/linear-equations-in-one-variable/variables-on-both-sides/explanation/index.html
+          grep -q '"scheduledPages": 887' dist/audit.json
+          cat dist/audit.json
