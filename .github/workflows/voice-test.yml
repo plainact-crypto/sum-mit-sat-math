@@ -68,3 +68,5 @@ jobs:
           name: summit-natural-voice-tests
           path: voice-test-output/*.mp3
           retention-days: 7
+
+# trigger: 2026-09-03T22:02:00+03:00
