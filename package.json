@@ -1,0 +1,8 @@
+{
+  "name": "summit-sat-math",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node generate.js"
+  }
+}
