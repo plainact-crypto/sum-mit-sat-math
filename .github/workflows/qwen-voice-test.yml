@@ -1,0 +1,70 @@
+name: SUMMIT Qwen Voice Test
+
+on:
+  push:
+    paths:
+      - '.github/workflows/qwen-voice-test.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  generate-qwen-sample:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Qwen3-TTS
+        run: |
+          python -m pip install --upgrade pip
+          pip install -U qwen-tts soundfile
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+
+      - name: Generate Qwen3-TTS sample
+        run: |
+          cat > /tmp/qwen_test.py <<'PY'
+          import torch
+          import soundfile as sf
+          from qwen_tts import Qwen3TTSModel
+
+          text = (
+              'Welcome to Summit SAT Math. In this lesson, we are solving one-step linear equations. '
+              'The goal is simple: isolate the variable. If x plus seven equals twelve, subtract seven from both sides. '
+              'That gives x equals five. On the SAT, identify the operation attached to the variable, then undo it carefully.'
+          )
+
+          model = Qwen3TTSModel.from_pretrained(
+              'Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice',
+              device_map='cpu',
+              dtype=torch.float32,
+          )
+
+          wavs, sr = model.generate_custom_voice(
+              text=text,
+              language='English',
+              speaker='Aiden',
+          )
+          sf.write('qwen_aiden_raw.wav', wavs[0], sr)
+          PY
+          python /tmp/qwen_test.py
+
+      - name: Slow and master sample
+        run: |
+          mkdir -p qwen-voice-test-output
+          ffmpeg -y -i qwen_aiden_raw.wav \
+            -af "atempo=0.88,loudnorm=I=-16:TP=-1.5:LRA=7" \
+            -codec:a libmp3lame -b:a 160k \
+            qwen-voice-test-output/qwen_aiden_slow.mp3
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: summit-qwen-voice-test
+          path: qwen-voice-test-output/qwen_aiden_slow.mp3
+          retention-days: 7
