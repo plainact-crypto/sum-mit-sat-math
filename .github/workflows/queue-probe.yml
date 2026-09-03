@@ -9,10 +9,15 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-      - name: Build current main
+      - name: Verify current main and production
         run: |
           npm run build
           test -f dist/algebra/linear-equations-in-one-variable/variables-on-both-sides/explanation/index.html
           grep -q "Variables on Both Sides" dist/algebra/linear-equations-in-one-variable/variables-on-both-sides/explanation/index.html
           grep -q '"scheduledPages": 887' dist/audit.json
-          cat dist/audit.json
+          url='https://summit-sat-math.vercel.app/algebra/linear-equations-in-one-variable/variables-on-both-sides/explanation/'
+          code=$(curl -L -sS -o live.html -w '%{http_code}' "$url")
+          test "$code" = "200"
+          grep -q "Variables on Both Sides" live.html
+          grep -q "Bring the variable terms together" live.html
+          echo "LIVE_HTTP=$code"
