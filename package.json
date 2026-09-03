@@ -3,6 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build": "node generate.js && node postbuild.js"
+    "build": "node generate.js && node postbuild.js && node content-overrides.js"
   }
 }
