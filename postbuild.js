@@ -1,0 +1,1 @@
+const fs=require('fs');const path=require('path');const root=__dirname;const target=path.join(root,'dist','algebra','linear-equations-in-one-variable','solving-one-step-linear-equations','problems');fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,'one-step-problems.html'),path.join(target,'index.html'));
