@@ -9,13 +9,10 @@ on:
 permissions:
   contents: read
 
-env:
-  PYTHONUNBUFFERED: '1'
-
 jobs:
   generate-voice-samples:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
@@ -23,50 +20,21 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install Chatterbox TTS
+      - name: Install Edge TTS
         run: |
           python -m pip install --upgrade pip
-          pip install chatterbox-tts
+          pip install edge-tts
 
-      - name: Generate three natural narration styles
+      - name: Generate three natural narration voices
         run: |
-          cat > /tmp/voice_test.py <<'PY'
-          import os
-          import torchaudio as ta
-          from chatterbox.tts import ChatterboxTTS
-
-          os.makedirs('voice-test-output', exist_ok=True)
-          model = ChatterboxTTS.from_pretrained(device='cpu')
-
-          text = (
-              'Welcome to Summit SAT Math. In this lesson, we are solving one-step linear equations. '
-              'The goal is simple: isolate the variable. If x plus seven equals twelve, subtract seven from both sides. '
-              'That gives x equals five. On the SAT, identify the operation attached to the variable, then undo it carefully.'
-          )
-
-          variants = [
-              ('voice_a_balanced.wav', 0.45, 0.50),
-              ('voice_b_teacher.wav', 0.35, 0.35),
-              ('voice_c_expressive.wav', 0.62, 0.32),
-          ]
-
-          for filename, exaggeration, cfg_weight in variants:
-              wav = model.generate(text, exaggeration=exaggeration, cfg_weight=cfg_weight)
-              ta.save(os.path.join('voice-test-output', filename), wav, model.sr)
-              print('saved', filename)
-          PY
-          python /tmp/voice_test.py
-
-      - name: Convert WAV to compact MP3
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg
-          for f in voice-test-output/*.wav; do ffmpeg -y -i "$f" -af "loudnorm=I=-16:TP=-1.5:LRA=7" -codec:a libmp3lame -b:a 160k "${f%.wav}.mp3"; done
+          mkdir -p voice-test-output
+          TEXT='Welcome to Summit SAT Math. In this lesson, we are solving one-step linear equations. The goal is simple: isolate the variable. If x plus seven equals twelve, subtract seven from both sides. That gives x equals five. On the SAT, identify the operation attached to the variable, then undo it carefully.'
+          edge-tts --voice en-US-GuyNeural --rate=-5% --pitch=-2Hz --text "$TEXT" --write-media voice-test-output/voice_a_guy.mp3
+          edge-tts --voice en-US-AndrewNeural --rate=-7% --pitch=-1Hz --text "$TEXT" --write-media voice-test-output/voice_b_andrew.mp3
+          edge-tts --voice en-US-BrianNeural --rate=-6% --pitch=-2Hz --text "$TEXT" --write-media voice-test-output/voice_c_brian.mp3
 
       - uses: actions/upload-artifact@v4
         with:
           name: summit-natural-voice-tests
           path: voice-test-output/*.mp3
           retention-days: 7
-
-# trigger: 2026-09-03T22:02:00+03:00
