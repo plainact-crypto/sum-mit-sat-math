@@ -21,7 +21,7 @@ for (const subject of curriculum) {
   }
 }
 
-const start = Date.UTC(2026, 8, 3, 17, 12, 0);
+const start = Date.UTC(2026, 8, 3, 19, 0, 0);
 let slot = 0;
 const schedule = [];
 const routes = new Set();
