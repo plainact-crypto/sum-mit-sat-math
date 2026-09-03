@@ -2,12 +2,13 @@ const fs=require('fs');const path=require('path');
 const root=__dirname;const dist=path.join(root,'dist');
 const overrides=[
   {base:path.join(dist,'algebra','linear-equations-in-one-variable','linear-equation-word-problems'),files:[['answers','linear-word-problems-answers.html'],['test','linear-word-problems-test.html']]},
-  {base:path.join(dist,'algebra','linear-equations-in-two-variables','standard-form'),files:[['explanation','standard-form-explanation.html']]}
+  {base:path.join(dist,'algebra','linear-equations-in-two-variables','standard-form'),files:[['explanation','standard-form-explanation.html'],['problems','standard-form-problems.html']]}
 ];
 for(const item of overrides){for(const [dir,file] of item.files){const target=path.join(item.base,dir);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}}
 const completedRoutes=new Set([
   '/algebra/linear-equations-in-one-variable/linear-equation-word-problems/answers/',
-  '/algebra/linear-equations-in-two-variables/standard-form/explanation/'
+  '/algebra/linear-equations-in-two-variables/standard-form/explanation/',
+  '/algebra/linear-equations-in-two-variables/standard-form/problems/'
 ]);
 const schedulePath=path.join(dist,'schedule.json');
 if(fs.existsSync(schedulePath)){
