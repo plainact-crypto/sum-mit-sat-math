@@ -3,6 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build": "node source-neutralize.js && node generate.js && node postbuild.js && node content-overrides.js && node progress-build.js && node brand-guard.js && node brand-audit.js"
+    "build": "node source-neutralize.js && node generate.js && node postbuild.js && node content-overrides.js && node progress-build.js && node feedback-build.js && node brand-guard.js && node brand-audit.js"
   }
 }
