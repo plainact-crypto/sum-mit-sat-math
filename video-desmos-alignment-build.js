@@ -1,0 +1,11 @@
+const fs=require('fs');
+const path=require('path');
+const dist=path.join(__dirname,'dist');
+const configs=[
+ {lesson:'Solving One-Step Linear Equations',audio:'https://www.aidocmaker.com/g0/audio?name=a44f2a5c7bcb403b8152cf49bb97a08d',scene:['DESMOS STRATEGY','Enter x + 7 = 19','Desmos: x = 12','Manual algebra is faster · use Desmos to verify']},
+ {lesson:'Solving Multi-Step Linear Equations',audio:'https://www.aidocmaker.com/g0/audio?name=bcb9b14a3739446c8d380537ec00c719',scene:['DESMOS STRATEGY','Enter 3(x − 4) + 5 = 20','Desmos: x = 9','Check: 3(9 − 4) + 5 = 20']},
+ {lesson:'Variables on Both Sides',audio:'https://www.aidocmaker.com/g0/audio?name=38755b9cbdd1494daf8ef20f8bfb3100',scene:['DESMOS STRATEGY','Enter 3x + 5 = x + 17','Desmos: x = 6','Both sides = 23 · manual algebra remains core']}
+];
+function walk(dir,out=[]){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())walk(p,out);else if(e.name==='index.html')out.push(p)}return out}
+const pages=walk(dist).map(file=>({file,html:fs.readFileSync(file,'utf8')}));
+for(const cfg of configs){const hits=pages.filter(p=>p.html.includes(`<div class="lesson-title">${cfg.lesson}</div>`)&&p.html.includes('Video Explanation · English')&&p.html.includes('summit-native-player'));if(hits.length!==1)throw new Error(`Expected one native English video for ${cfg.lesson}; found ${hits.length}`);let h=hits[0].html;if(h.includes(`SUMMIT_VIDEO_DESMOS:${cfg.lesson}`))continue;const m=h.match(/const tracks=(\[[^;]+?\]),scenes=(\[[^;]+?\]),player=/s);if(!m)throw new Error(`Video arrays not found for ${cfg.lesson}`);const tracks=JSON.parse(m[1]),scenes=JSON.parse(m[2]);if(tracks.length!==scenes.length)throw new Error(`Pre-alignment track/scene mismatch for ${cfg.lesson}`);tracks.push(cfg.audio);scenes.push(cfg.scene);h=h.replace(m[0],`const tracks=${JSON.stringify(tracks)},scenes=${JSON.stringify(scenes)},player=`);h=h.replace(/(<span class="summit-counter" id="svCounter">1 \/ )\d+(<\/span>)/,'$1'+tracks.length+'$2');h=h.replace('<div class="summit-native-player" id="summitNativeLesson">',`<div class="summit-native-player" id="summitNativeLesson" data-desmos-aligned="true"><!-- SUMMIT_VIDEO_DESMOS:${cfg.lesson} -->`);fs.writeFileSync(hits[0].file,h);console.log(`Added narrated Desmos scene to ${cfg.lesson}`)}
