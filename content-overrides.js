@@ -16,7 +16,8 @@ const overrides=[
 ['algebra/linear-functions/slope-from-a-table',[['explanation','slope-from-a-table-explanation.html'],['problems','slope-from-a-table-problems.html'],['answers','slope-from-a-table-answers.html'],['test','slope-from-a-table-test.html']]],
 ['algebra/linear-functions/slope-from-a-graph',[['explanation','slope-from-a-graph-explanation.html'],['problems','slope-from-a-graph-problems.html'],['answers','slope-from-a-graph-answers.html'],['test','slope-from-a-graph-test.html']]],
 ['algebra/linear-functions/positive-slope',[['explanation','positive-slope-explanation.html'],['problems','positive-slope-problems.html']]],
-['algebra/linear-functions/negative-slope',[['explanation','negative-slope-explanation.html'],['problems','negative-slope-problems.html']]]
+['algebra/linear-functions/negative-slope',[['explanation','negative-slope-explanation.html'],['problems','negative-slope-problems.html']]],
+['algebra/linear-functions/zero-slope',[['explanation','zero-slope-explanation.html']]]
 ];
 for(const [base,files] of overrides)for(const [dir,file] of files){const target=path.join(dist,base,dir);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}
 const completedRoutes=new Set([
@@ -35,7 +36,8 @@ const completedRoutes=new Set([
 '/algebra/linear-functions/slope-from-a-table/explanation/','/algebra/linear-functions/slope-from-a-table/problems/','/algebra/linear-functions/slope-from-a-table/answers/',
 '/algebra/linear-functions/slope-from-a-graph/explanation/','/algebra/linear-functions/slope-from-a-graph/problems/','/algebra/linear-functions/slope-from-a-graph/answers/',
 '/algebra/linear-functions/positive-slope/explanation/','/algebra/linear-functions/positive-slope/problems/',
-'/algebra/linear-functions/negative-slope/explanation/','/algebra/linear-functions/negative-slope/problems/'
+'/algebra/linear-functions/negative-slope/explanation/','/algebra/linear-functions/negative-slope/problems/',
+'/algebra/linear-functions/zero-slope/explanation/'
 ]);
 const schedulePath=path.join(dist,'schedule.json');
 function cairoParts(ms){const d=new Date(ms);const date=new Intl.DateTimeFormat('en-US',{timeZone:'Africa/Cairo',month:'long',day:'numeric',year:'numeric'}).format(d);const time=new Intl.DateTimeFormat('en-US',{timeZone:'Africa/Cairo',hour:'numeric',minute:'2-digit',hour12:true}).format(d);const isoLocal=new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Cairo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).format(d).replace(', ','T');return{date,time,isoLocal}}
