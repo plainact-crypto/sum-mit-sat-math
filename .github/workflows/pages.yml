@@ -26,6 +26,20 @@ jobs:
           node-version: 20
       - name: Build
         run: npm run build
+      - name: Ship mobile progress CSS
+        shell: bash
+        run: |
+          cp mobile-progress-fix.css dist/mobile-progress-fix.css
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('dist/index.html')
+          s = p.read_text(encoding='utf-8')
+          marker = '</head>'
+          link = '<link rel="stylesheet" href="/mobile-progress-fix.css">'
+          if link not in s:
+              s = s.replace(marker, link + marker)
+          p.write_text(s, encoding='utf-8')
+          PY
       - name: Adapt build for GitHub Pages project path
         shell: bash
         run: |
