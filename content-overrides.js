@@ -12,7 +12,7 @@ const overrides=[
   {base:path.join(dist,'algebra','linear-functions','function-notation-for-linear-functions'),files:[['explanation','function-notation-linear-functions-explanation.html'],['problems','function-notation-linear-functions-problems.html'],['answers','function-notation-linear-functions-answers.html'],['test','function-notation-linear-functions-test.html']]},
   {base:path.join(dist,'algebra','linear-functions','slope-from-slope-intercept-form'),files:[['explanation','slope-from-slope-intercept-form-explanation.html'],['problems','slope-from-slope-intercept-form-problems.html'],['answers','slope-from-slope-intercept-form-answers.html'],['test','slope-from-slope-intercept-form-test.html']]},
   {base:path.join(dist,'algebra','linear-functions','slope-from-standard-form'),files:[['explanation','slope-from-standard-form-explanation.html'],['problems','slope-from-standard-form-problems.html'],['answers','slope-from-standard-form-answers.html'],['test','slope-from-standard-form-test.html']]},
-  {base:path.join(dist,'algebra','linear-functions','slope-from-a-table'),files:[['explanation','slope-from-a-table-explanation.html']]}
+  {base:path.join(dist,'algebra','linear-functions','slope-from-a-table'),files:[['explanation','slope-from-a-table-explanation.html'],['problems','slope-from-a-table-problems.html']]}
 ];
 for(const item of overrides){for(const [dir,file] of item.files){const target=path.join(item.base,dir);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}}
 const completedRoutes=new Set([
@@ -47,7 +47,8 @@ const completedRoutes=new Set([
   '/algebra/linear-functions/slope-from-standard-form/explanation/',
   '/algebra/linear-functions/slope-from-standard-form/problems/',
   '/algebra/linear-functions/slope-from-standard-form/answers/',
-  '/algebra/linear-functions/slope-from-a-table/explanation/'
+  '/algebra/linear-functions/slope-from-a-table/explanation/',
+  '/algebra/linear-functions/slope-from-a-table/problems/'
 ]);
 const schedulePath=path.join(dist,'schedule.json');
 if(fs.existsSync(schedulePath)){
