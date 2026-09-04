@@ -3,6 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build": "node source-neutralize.js && node generate.js && node postbuild.js && node content-overrides.js && node content-worker1-overrides.js && node content-worker2-overrides.js && node content-worker3-overrides.js && node content-worker4-overrides.js && node video-overrides.js && node progress-build.js && node availability-build.js && node feedback-build.js && node brand-guard.js && node brand-audit.js"
+    "build": "node source-neutralize.js && node generate.js && node postbuild.js && node content-overrides.js && node content-worker1-overrides.js && node content-worker2-overrides.js && node content-worker3-overrides.js && node content-worker4-overrides.js && node video-overrides.js && node progress-build.js && node availability-build.js && node feedback-build.js && node beta-growth-build.js && node brand-guard.js && node brand-audit.js"
   }
 }
