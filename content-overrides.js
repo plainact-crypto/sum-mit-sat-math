@@ -12,7 +12,7 @@ const overrides=[
 ['algebra/linear-functions/function-notation-for-linear-functions',[['explanation','function-notation-linear-functions-explanation.html'],['problems','function-notation-linear-functions-problems.html'],['answers','function-notation-linear-functions-answers.html'],['test','function-notation-linear-functions-test.html']]],
 ['algebra/linear-functions/slope-from-slope-intercept-form',[['explanation','slope-from-slope-intercept-form-explanation.html'],['problems','slope-from-slope-intercept-form-problems.html'],['answers','slope-from-slope-intercept-form-answers.html'],['test','slope-from-slope-intercept-form-test.html']]],
 ['algebra/linear-functions/slope-from-standard-form',[['explanation','slope-from-standard-form-explanation.html'],['problems','slope-from-standard-form-problems.html'],['answers','slope-from-standard-form-answers.html'],['test','slope-from-standard-form-test.html']]],
-['algebra/linear-functions/slope-from-two-points',[['explanation','slope-from-two-points-explanation.html'],['problems','slope-from-two-points-problems.html']]],
+['algebra/linear-functions/slope-from-two-points',[['explanation','slope-from-two-points-explanation.html'],['problems','slope-from-two-points-problems.html'],['answers','slope-from-two-points-answers.html'],['test','slope-from-two-points-test.html']]],
 ['algebra/linear-functions/slope-from-a-table',[['explanation','slope-from-a-table-explanation.html'],['problems','slope-from-a-table-problems.html'],['answers','slope-from-a-table-answers.html'],['test','slope-from-a-table-test.html']]],
 ['algebra/linear-functions/slope-from-a-graph',[['explanation','slope-from-a-graph-explanation.html'],['problems','slope-from-a-graph-problems.html'],['answers','slope-from-a-graph-answers.html'],['test','slope-from-a-graph-test.html']]]
 ];
@@ -29,7 +29,7 @@ const completedRoutes=new Set([
 '/algebra/linear-functions/function-notation-for-linear-functions/explanation/','/algebra/linear-functions/function-notation-for-linear-functions/problems/','/algebra/linear-functions/function-notation-for-linear-functions/answers/',
 '/algebra/linear-functions/slope-from-slope-intercept-form/explanation/','/algebra/linear-functions/slope-from-slope-intercept-form/problems/','/algebra/linear-functions/slope-from-slope-intercept-form/answers/',
 '/algebra/linear-functions/slope-from-standard-form/explanation/','/algebra/linear-functions/slope-from-standard-form/problems/','/algebra/linear-functions/slope-from-standard-form/answers/',
-'/algebra/linear-functions/slope-from-two-points/explanation/','/algebra/linear-functions/slope-from-two-points/problems/',
+'/algebra/linear-functions/slope-from-two-points/explanation/','/algebra/linear-functions/slope-from-two-points/problems/','/algebra/linear-functions/slope-from-two-points/answers/',
 '/algebra/linear-functions/slope-from-a-table/explanation/','/algebra/linear-functions/slope-from-a-table/problems/','/algebra/linear-functions/slope-from-a-table/answers/',
 '/algebra/linear-functions/slope-from-a-graph/explanation/','/algebra/linear-functions/slope-from-a-graph/problems/','/algebra/linear-functions/slope-from-a-graph/answers/'
 ]);
