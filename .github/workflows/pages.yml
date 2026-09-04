@@ -26,6 +26,23 @@ jobs:
           node-version: 20
       - name: Build
         run: npm run build
+      - name: Adapt build for GitHub Pages project path
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          base = '/sum-mit-sat-math'
+          for p in Path('dist').rglob('*.html'):
+              s = p.read_text(encoding='utf-8')
+              s = s.replace('href="/', f'href="{base}/')
+              s = s.replace('src="/', f'src="{base}/')
+              p.write_text(s, encoding='utf-8')
+          p = Path('dist/app.js')
+          s = p.read_text(encoding='utf-8')
+          s = s.replace('fetch("/curriculum.json")', f'fetch("{base}/curriculum.json")')
+          s = s.replace('href="${{l.base}}', f'href="{base}${{l.base}}')
+          p.write_text(s, encoding='utf-8')
+          PY
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
