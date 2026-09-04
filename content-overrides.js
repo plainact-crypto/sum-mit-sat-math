@@ -9,7 +9,7 @@ const overrides=[
   {base:path.join(dist,'algebra','linear-equations-in-two-variables','finding-x-intercept'),files:[['explanation','finding-x-intercept-explanation.html'],['problems','finding-x-intercept-problems.html'],['answers','finding-x-intercept-answers.html'],['test','finding-x-intercept-test.html']]},
   {base:path.join(dist,'algebra','linear-equations-in-two-variables','finding-y-intercept'),files:[['explanation','finding-y-intercept-explanation.html'],['problems','finding-y-intercept-problems.html'],['answers','finding-y-intercept-answers.html'],['test','finding-y-intercept-test.html']]},
   {base:path.join(dist,'algebra','linear-equations-in-two-variables','finding-both-intercepts'),files:[['explanation','finding-both-intercepts-explanation.html'],['problems','finding-both-intercepts-problems.html'],['answers','finding-both-intercepts-answers.html'],['test','finding-both-intercepts-test.html']]},
-  {base:path.join(dist,'algebra','linear-functions','function-notation-for-linear-functions'),files:[['explanation','function-notation-linear-functions-explanation.html']]}
+  {base:path.join(dist,'algebra','linear-functions','function-notation-for-linear-functions'),files:[['explanation','function-notation-linear-functions-explanation.html'],['problems','function-notation-linear-functions-problems.html']]}
 ];
 for(const item of overrides){for(const [dir,file] of item.files){const target=path.join(item.base,dir);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}}
 const completedRoutes=new Set([
@@ -35,7 +35,8 @@ const completedRoutes=new Set([
   '/algebra/linear-equations-in-two-variables/finding-both-intercepts/explanation/',
   '/algebra/linear-equations-in-two-variables/finding-both-intercepts/problems/',
   '/algebra/linear-equations-in-two-variables/finding-both-intercepts/answers/',
-  '/algebra/linear-functions/function-notation-for-linear-functions/explanation/'
+  '/algebra/linear-functions/function-notation-for-linear-functions/explanation/',
+  '/algebra/linear-functions/function-notation-for-linear-functions/problems/'
 ]);
 const schedulePath=path.join(dist,'schedule.json');
 if(fs.existsSync(schedulePath)){
