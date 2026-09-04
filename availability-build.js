@@ -30,7 +30,7 @@ fs.writeFileSync(path.join(dist,'lesson-availability.json'),JSON.stringify(rows,
 fs.copyFileSync(path.join(root,'availability-ui.js'),path.join(dist,'availability-ui.js'));
 const index=path.join(dist,'index.html');
 let html=fs.readFileSync(index,'utf8');
-const src='/sum-mit-sat-math/availability-ui.js';
+const src='./availability-ui.js';
 if(!html.includes('availability-ui.js'))html=html.replace('</body>',`<script src="${src}"></script></body>`);
 fs.writeFileSync(index,html);
 console.log(`Lesson availability generated for ${rows.length} lessons.`);
