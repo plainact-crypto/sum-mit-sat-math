@@ -14,7 +14,8 @@ const overrides=[
 ['algebra/linear-functions/slope-from-standard-form',[['explanation','slope-from-standard-form-explanation.html'],['problems','slope-from-standard-form-problems.html'],['answers','slope-from-standard-form-answers.html'],['test','slope-from-standard-form-test.html']]],
 ['algebra/linear-functions/slope-from-two-points',[['explanation','slope-from-two-points-explanation.html'],['problems','slope-from-two-points-problems.html'],['answers','slope-from-two-points-answers.html'],['test','slope-from-two-points-test.html']]],
 ['algebra/linear-functions/slope-from-a-table',[['explanation','slope-from-a-table-explanation.html'],['problems','slope-from-a-table-problems.html'],['answers','slope-from-a-table-answers.html'],['test','slope-from-a-table-test.html']]],
-['algebra/linear-functions/slope-from-a-graph',[['explanation','slope-from-a-graph-explanation.html'],['problems','slope-from-a-graph-problems.html'],['answers','slope-from-a-graph-answers.html'],['test','slope-from-a-graph-test.html']]]
+['algebra/linear-functions/slope-from-a-graph',[['explanation','slope-from-a-graph-explanation.html'],['problems','slope-from-a-graph-problems.html'],['answers','slope-from-a-graph-answers.html'],['test','slope-from-a-graph-test.html']]],
+['algebra/linear-functions/positive-slope',[['explanation','positive-slope-explanation.html']]]
 ];
 for(const [base,files] of overrides)for(const [dir,file] of files){const target=path.join(dist,base,dir);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}
 const completedRoutes=new Set([
@@ -31,7 +32,8 @@ const completedRoutes=new Set([
 '/algebra/linear-functions/slope-from-standard-form/explanation/','/algebra/linear-functions/slope-from-standard-form/problems/','/algebra/linear-functions/slope-from-standard-form/answers/',
 '/algebra/linear-functions/slope-from-two-points/explanation/','/algebra/linear-functions/slope-from-two-points/problems/','/algebra/linear-functions/slope-from-two-points/answers/',
 '/algebra/linear-functions/slope-from-a-table/explanation/','/algebra/linear-functions/slope-from-a-table/problems/','/algebra/linear-functions/slope-from-a-table/answers/',
-'/algebra/linear-functions/slope-from-a-graph/explanation/','/algebra/linear-functions/slope-from-a-graph/problems/','/algebra/linear-functions/slope-from-a-graph/answers/'
+'/algebra/linear-functions/slope-from-a-graph/explanation/','/algebra/linear-functions/slope-from-a-graph/problems/','/algebra/linear-functions/slope-from-a-graph/answers/',
+'/algebra/linear-functions/positive-slope/explanation/'
 ]);
 const schedulePath=path.join(dist,'schedule.json');
 function cairoParts(ms){const d=new Date(ms);const date=new Intl.DateTimeFormat('en-US',{timeZone:'Africa/Cairo',month:'long',day:'numeric',year:'numeric'}).format(d);const time=new Intl.DateTimeFormat('en-US',{timeZone:'Africa/Cairo',hour:'numeric',minute:'2-digit',hour12:true}).format(d);const isoLocal=new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Cairo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).format(d).replace(', ','T');return{date,time,isoLocal}}
