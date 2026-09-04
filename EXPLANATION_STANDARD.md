@@ -9,6 +9,8 @@ Every Explanation must be classified as exactly one of:
 - BOTH
 - NEITHER
 
+For the retrofit/build registry, `GRAPH` is the machine-readable equivalent of `GRAPH_REQUIRED` and `DESMOS` is the machine-readable equivalent of `DESMOS_USEFUL`.
+
 Do not force a graph or Desmos block into lessons where it adds no learning value.
 
 ## 2. Graph rule
@@ -65,3 +67,15 @@ Students should understand the mathematics first and also know when a graphing t
 
 ## 7. Publish gate
 An Explanation is not complete if it was classified GRAPH_REQUIRED or BOTH and the verified graph is missing. It is not complete if classified DESMOS_USEFUL or BOTH and the verified Desmos Strategy block is missing.
+
+## 8. Implementation contract for all future Explanations
+`explanation-retrofit-registry.js` is the machine-readable source of truth for every published Explanation. Before a new Explanation can become published content, its worker must add or update exactly one registry entry containing:
+- stable slug
+- exact lesson title
+- one classification
+- deterministic graph specification when GRAPH/BOTH
+- lesson-specific Desmos strategy when DESMOS/BOTH
+
+`explanation-retrofit-build.js` applies the required blocks to the built route without rewriting correct lesson prose. `explanation-retrofit-gate.js` rejects a build when a published Explanation is absent from the registry, duplicated, missing its classification marker, missing a required graph, missing a required Desmos block, or violates a special graph relationship rule.
+
+This means no future published Explanation may create new Graph/Desmos retrofit debt.
