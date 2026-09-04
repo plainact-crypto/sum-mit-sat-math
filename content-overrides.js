@@ -4,7 +4,8 @@ const overrides=[
   {base:path.join(dist,'algebra','linear-equations-in-one-variable','linear-equation-word-problems'),files:[['answers','linear-word-problems-answers.html'],['test','linear-word-problems-test.html']]},
   {base:path.join(dist,'algebra','linear-equations-in-two-variables','standard-form'),files:[['explanation','standard-form-explanation.html'],['problems','standard-form-problems.html'],['answers','standard-form-answers.html'],['test','standard-form-test.html']]},
   {base:path.join(dist,'algebra','linear-equations-in-two-variables','slope-intercept-form'),files:[['explanation','slope-intercept-form-explanation.html'],['problems','slope-intercept-form-problems.html'],['answers','slope-intercept-form-answers.html'],['test','slope-intercept-form-test.html']]},
-  {base:path.join(dist,'algebra','linear-equations-in-two-variables','point-slope-form'),files:[['explanation','point-slope-form-explanation.html'],['problems','point-slope-form-problems.html'],['answers','point-slope-form-answers.html'],['test','point-slope-form-test.html']]}
+  {base:path.join(dist,'algebra','linear-equations-in-two-variables','point-slope-form'),files:[['explanation','point-slope-form-explanation.html'],['problems','point-slope-form-problems.html'],['answers','point-slope-form-answers.html'],['test','point-slope-form-test.html']]},
+  {base:path.join(dist,'algebra','linear-equations-in-two-variables','converting-between-forms'),files:[['explanation','converting-between-forms-explanation.html']]}
 ];
 for(const item of overrides){for(const [dir,file] of item.files){const target=path.join(item.base,dir);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}}
 const completedRoutes=new Set([
@@ -17,7 +18,8 @@ const completedRoutes=new Set([
   '/algebra/linear-equations-in-two-variables/slope-intercept-form/answers/',
   '/algebra/linear-equations-in-two-variables/point-slope-form/explanation/',
   '/algebra/linear-equations-in-two-variables/point-slope-form/problems/',
-  '/algebra/linear-equations-in-two-variables/point-slope-form/answers/'
+  '/algebra/linear-equations-in-two-variables/point-slope-form/answers/',
+  '/algebra/linear-equations-in-two-variables/converting-between-forms/explanation/'
 ]);
 const schedulePath=path.join(dist,'schedule.json');
 if(fs.existsSync(schedulePath)){
