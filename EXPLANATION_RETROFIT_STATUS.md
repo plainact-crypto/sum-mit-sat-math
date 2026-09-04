@@ -10,7 +10,7 @@ Classification meanings:
 - `DESMOS` — Desmos is useful for solving/verification, but a graph is not necessary to teach the concept.
 - `NEITHER` — neither adds meaningful instructional value.
 
-Final PASS is intentionally not assigned in Steps 1–3. Final PASS requires the per-lesson QA in Step 14.
+Final PASS is intentionally not assigned in Steps 1–8. Final PASS requires the per-lesson QA in Step 14.
 
 | # | Lesson / slug | Source file | Curriculum area | Classification | Graph required | Desmos useful | Graph currently present | Desmos currently present | Retrofit / QA state |
 |---:|---|---|---|---|---|---|---|---|---|
@@ -51,27 +51,59 @@ Final PASS is intentionally not assigned in Steps 1–3. Final PASS requires the
 | 35 | zero-slope | zero-slope-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
 | 36 | solving-one-step-linear-equations | generate.js → `oneStepExplanation()` | Algebra · Linear Equations in One Variable | DESMOS | No | Yes | No | No | Classified · generator-source retrofit pending |
 
-## Step 1 result — Inventory
+## Steps 1–3 — Inventory and classification
+- Standalone `*-explanation.html` sources: **35**.
+- Additional generated Explanation source in `generate.js`: **1**.
+- Total tracked existing Explanation teaching sources: **36**.
+- Classification: `BOTH` 30, `DESMOS` 6, `GRAPH` 0, `NEITHER` 0.
 
-- Existing standalone `*-explanation.html` source files found: **35**.
-- `generate.js` contains one additional already-built Explanation source template: **Solving One-Step Linear Equations**.
-- Total existing Explanation teaching sources requiring retrofit tracking: **36**.
-- No existing Explanation teaching source identified in CURRENT main is intentionally omitted from the tracker above.
+## Step 4 — Locked retrofit execution order
+`EXPLANATION_RETROFIT_PLAN.md` now contains the fixed Batch A→G order: Slope/Graphing, Intercepts, Equation Forms/Building Equations, Linear Functions/Tables/Rate, Line Relationships, Algebra Solving, then lower-graph-value Fractions/Decimals. Workers must stay inside the earliest incomplete batch.
 
-## Step 2 result — Canonical tracker
+## Step 5 — Shared native Graph Engine
+Created `explanation-tools.js` + `explanation-tools.css` and integrated them through `explanation-tools-build.js`.
 
-This file is the canonical repository tracker for the retrofit. Future retrofit commits should update the relevant row rather than creating a second competing status list.
+The graph engine:
+- renders deterministic responsive SVG from numeric math specs rather than images;
+- supports linear functions `y=mx+b`, horizontal lines, vertical lines, multiple lines, labeled points and intersections;
+- supports explicit graph bounds and accessible labels;
+- is light/dark compatible through inherited design tokens/currentColor;
+- is designed for later extension to quadratics/exponentials/rational functions;
+- is injected into every built Explanation route by the production build.
 
-The production route for each lesson is generated from the curriculum leaf `base` plus `/explanation/`; final route verification remains mandatory in Step 14.
+## Step 6 — Graph math QA
+Created `explanation-tools-qa.js` and added it to `npm run build`.
 
-## Step 3 result — Classification summary
+Graph QA includes:
+- at least three substitution points for every linear spec;
+- y-intercept verification;
+- x-intercept verification when declared;
+- horizontal line self-test;
+- vertical line validation;
+- independent two-line intersection solving;
+- labeled-point-on-line validation;
+- malformed graph spec / invalid JSON rejection.
 
-- `BOTH`: **30**
-- `GRAPH`: **0**
-- `DESMOS`: **6**
-- `NEITHER`: **0**
-- Total classified existing Explanation teaching sources: **36 / 36**
+Any Explanation that contains a `data-summit-graph` spec with inconsistent math causes the build QA step to fail.
 
-Why there are no `NEITHER` lessons in the current inventory: the existing explanations are almost entirely linear equations/functions. Even the equation-solving lessons without a graph benefit from Desmos as a verification/alternative-method skill. Desmos must still be presented as optional when manual algebra is faster.
+## Step 7 — Shared Desmos Strategy component
+`explanation-tools.js` exposes one reusable `desmosStrategyHTML()` component with the mandatory structure:
+- Enter
+- Look for
+- Use it to answer
+- Why it works
+- Faster or not?
+- optional Math cross-check
 
-For the generated One-Step Linear Equations Explanation, manual algebra is normally faster; Desmos is classified as a verification tool only.
+The component refuses to render when a required field is missing. Existing hand-authored retrofit blocks are still accepted if they use the same mandatory labels.
+
+## Step 8 — Desmos QA
+`explanation-tools-qa.js` scans old Explanation sources containing a Desmos marker/heading and rejects a block missing any mandatory field. Mathematical claims must still be independently cross-checked per lesson during Step 9/14; the shared QA establishes the structural gate and the graph engine supplies deterministic math verification where graph results are involved.
+
+## Build integration
+`package.json` now runs:
+1. `explanation-tools-build.js`
+2. `explanation-tools-qa.js`
+3. existing brand guard/audit
+
+This means Graph/Desmos infrastructure is part of the normal production build, not a dist-only patch.
