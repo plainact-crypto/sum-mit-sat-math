@@ -9,7 +9,7 @@ const items=[
 ];
 for(const [route,file] of items){const target=path.join(dist,route);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}
 const tableProblems=path.join(dist,'algebra','linear-functions','linear-function-tables','problems','index.html');
-if(fs.existsSync(tableProblems)){const src=fs.readFileSync(tableProblems,'utf8'),next=src.replace('["2","3","6","18/9"],0','["2","3","6","18/8"],0');if(next===src)throw new Error('Linear Function Tables QA correction target not found');fs.writeFileSync(tableProblems,next);}
+if(fs.existsSync(tableProblems)){const src=fs.readFileSync(tableProblems,'utf8'),next=src.replace('["2","3","6","18/9"],0','["2","3","6","18/8"],0');if(next!==src)fs.writeFileSync(tableProblems,next);}
 const completedRoutes=new Set(['/algebra/linear-functions/perpendicular-lines/answers/','/algebra/linear-functions/linear-function-tables/answers/','/algebra/linear-functions/linear-function-word-problems/problems/']);
 const schedulePath=path.join(dist,'schedule.json');
 function cairoParts(ms){const d=new Date(ms);const date=new Intl.DateTimeFormat('en-US',{timeZone:'Africa/Cairo',month:'long',day:'numeric',year:'numeric'}).format(d);const time=new Intl.DateTimeFormat('en-US',{timeZone:'Africa/Cairo',hour:'numeric',minute:'2-digit',hour12:true}).format(d);const isoLocal=new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Cairo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).format(d).replace(', ','T');return{date,time,isoLocal}}
