@@ -18,7 +18,7 @@ const overrides=[
 ['algebra/linear-functions/positive-slope',[['explanation','positive-slope-explanation.html'],['problems','positive-slope-problems.html'],['answers','positive-slope-answers.html'],['test','positive-slope-test.html']]],
 ['algebra/linear-functions/negative-slope',[['explanation','negative-slope-explanation.html'],['problems','negative-slope-problems.html'],['answers','negative-slope-answers.html'],['test','negative-slope-test.html']]],
 ['algebra/linear-functions/zero-slope',[['explanation','zero-slope-explanation.html'],['problems','zero-slope-problems.html'],['answers','zero-slope-answers.html'],['test','zero-slope-test.html']]],
-['algebra/linear-functions/undefined-slope',[['explanation','undefined-slope-explanation.html'],['problems','undefined-slope-problems.html']]]
+['algebra/linear-functions/undefined-slope',[['explanation','undefined-slope-explanation.html'],['problems','undefined-slope-problems.html'],['answers','undefined-slope-answers.html'],['test','undefined-slope-test.html']]]
 ];
 for(const [base,files] of overrides)for(const [dir,file] of files){const target=path.join(dist,base,dir);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}
 const timedTypes=new Set(['explanation','problems','answers']);
