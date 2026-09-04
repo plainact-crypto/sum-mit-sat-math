@@ -9,7 +9,7 @@ const published=walk(dist).map(file=>({file,html:fs.readFileSync(file,'utf8')}))
 const seen=new Set();
 function fail(m){throw new Error(`[Explanation retrofit gate] ${m}`)}
 function sourceTitle(entry){const f=path.join(root,`${entry.slug}-explanation.html`);if(fs.existsSync(f)){const h=fs.readFileSync(f,'utf8');const m=h.match(/<div class="lesson-title">([^<]+)<\/div>/);if(!m)fail(`Source lesson title missing for ${entry.slug}`);return m[1]}return entry.lesson}
-function pageFor(entry){const lesson=sourceTitle(entry),exact=`<div class="lesson-title">${lesson}</div>`;const hits=published.filter(x=>x.html.includes(exact));if(hits.length!==1)fail(`Expected one published Explanation for ${entry.slug} / ${lesson}; found ${hits.length}`);return hits[0]}
+function pageFor(entry){const lesson=sourceTitle(entry),exact=`<div class="lesson-title">${lesson}</div>`;const hits=published.filter(x=>x.html.includes(exact));const suffix=`/${entry.slug}/explanation/index.html`;const routeHits=hits.filter(x=>x.file.replace(/\\/g,'/').endsWith(suffix));if(routeHits.length===1)return routeHits[0];if(hits.length===1)return hits[0];fail(`Expected one published Explanation for ${entry.slug} / ${lesson}; title hits ${hits.length}, slug hits ${routeHits.length}`)}
 function special(entry){const g=entry.graph;if(!g)return;
  if(entry.slug==='parallel-lines'){if(g.lines.length!==2||!tools.nearly(g.lines[0].m,g.lines[1].m)||tools.nearly(g.lines[0].b,g.lines[1].b))fail('Parallel Lines graph must have equal slopes and different intercepts')}
  if(entry.slug==='perpendicular-lines'){if(g.lines.length!==2||!tools.nearly(Number(g.lines[0].m)*Number(g.lines[1].m),-1))fail('Perpendicular Lines slopes must multiply to -1')}
