@@ -7,7 +7,7 @@ const overrides=[
   {base:path.join(dist,'algebra','linear-equations-in-two-variables','point-slope-form'),files:[['explanation','point-slope-form-explanation.html'],['problems','point-slope-form-problems.html'],['answers','point-slope-form-answers.html'],['test','point-slope-form-test.html']]},
   {base:path.join(dist,'algebra','linear-equations-in-two-variables','converting-between-forms'),files:[['explanation','converting-between-forms-explanation.html'],['problems','converting-between-forms-problems.html'],['answers','converting-between-forms-answers.html'],['test','converting-between-forms-test.html']]},
   {base:path.join(dist,'algebra','linear-equations-in-two-variables','finding-x-intercept'),files:[['explanation','finding-x-intercept-explanation.html'],['problems','finding-x-intercept-problems.html'],['answers','finding-x-intercept-answers.html'],['test','finding-x-intercept-test.html']]},
-  {base:path.join(dist,'algebra','linear-equations-in-two-variables','finding-y-intercept'),files:[['explanation','finding-y-intercept-explanation.html']]}
+  {base:path.join(dist,'algebra','linear-equations-in-two-variables','finding-y-intercept'),files:[['explanation','finding-y-intercept-explanation.html'],['problems','finding-y-intercept-problems.html']]}
 ];
 for(const item of overrides){for(const [dir,file] of item.files){const target=path.join(item.base,dir);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}}
 const completedRoutes=new Set([
@@ -27,7 +27,8 @@ const completedRoutes=new Set([
   '/algebra/linear-equations-in-two-variables/finding-x-intercept/explanation/',
   '/algebra/linear-equations-in-two-variables/finding-x-intercept/problems/',
   '/algebra/linear-equations-in-two-variables/finding-x-intercept/answers/',
-  '/algebra/linear-equations-in-two-variables/finding-y-intercept/explanation/'
+  '/algebra/linear-equations-in-two-variables/finding-y-intercept/explanation/',
+  '/algebra/linear-equations-in-two-variables/finding-y-intercept/problems/'
 ]);
 const schedulePath=path.join(dist,'schedule.json');
 if(fs.existsSync(schedulePath)){
