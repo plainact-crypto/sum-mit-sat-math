@@ -27,10 +27,14 @@ for(const rec of byBase.values()){
   rows.push({...rec,states,readyCount:count,total:4,complete:count===4});
 }
 fs.writeFileSync(path.join(dist,'lesson-availability.json'),JSON.stringify(rows,null,2));
-fs.copyFileSync(path.join(root,'availability-ui.js'),path.join(dist,'availability-ui.js'));
+
+// Runtime availability UI is intentionally disabled on the home page.
+// It caused mobile browsers to become unresponsive. Keep the data file only;
+// availability badges will be rendered statically in a later build step.
 const index=path.join(dist,'index.html');
-let html=fs.readFileSync(index,'utf8');
-const src='./availability-ui.js';
-if(!html.includes('availability-ui.js'))html=html.replace('</body>',`<script src="${src}"></script></body>`);
-fs.writeFileSync(index,html);
-console.log(`Lesson availability generated for ${rows.length} lessons.`);
+if(fs.existsSync(index)){
+  let html=fs.readFileSync(index,'utf8');
+  html=html.replace(/<script[^>]+availability-ui\.js[^>]*><\/script>/gi,'');
+  fs.writeFileSync(index,html);
+}
+console.log(`Lesson availability data generated for ${rows.length} lessons; runtime UI disabled.`);
