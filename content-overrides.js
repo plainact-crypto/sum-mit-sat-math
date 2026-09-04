@@ -28,7 +28,7 @@ const overrides=[
 ['algebra/linear-functions/parallel-lines',[['explanation','parallel-lines-explanation.html'],['problems','parallel-lines-problems.html'],['answers','parallel-lines-answers.html'],['test','parallel-lines-test.html']]],
 ['algebra/linear-functions/perpendicular-lines',[['explanation','perpendicular-lines-explanation.html'],['problems','perpendicular-lines-problems.html'],['answers','perpendicular-lines-answers.html'],['test','perpendicular-lines-test.html']]],
 ['algebra/linear-functions/linear-function-tables',[['explanation','linear-function-tables-explanation.html'],['problems','linear-function-tables-problems.html'],['answers','linear-function-tables-answers.html'],['test','linear-function-tables-test.html']]],
-['algebra/linear-functions/linear-function-translations',[['explanation','linear-function-translations-explanation.html']]],
+['algebra/linear-functions/linear-function-translations',[['explanation','linear-function-translations-explanation.html'],['problems','linear-function-translations-problems.html']]],
 ['algebra/linear-functions/linear-function-word-problems',[['explanation','linear-function-word-problems-explanation.html'],['problems','linear-function-word-problems-problems.html'],['answers','linear-function-word-problems-answers.html']]]
 ];
 for(const [base,files] of overrides)for(const [dir,file] of files){const target=path.join(dist,base,dir);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}
