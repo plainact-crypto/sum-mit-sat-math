@@ -25,7 +25,7 @@ const overrides=[
 ['algebra/linear-functions/building-an-equation-from-slope-and-one-point',[['explanation','building-equation-slope-one-point-explanation.html'],['problems','building-equation-slope-one-point-problems.html'],['answers','building-equation-slope-one-point-answers.html'],['test','building-equation-slope-one-point-test.html']]],
 ['algebra/linear-functions/building-an-equation-from-two-points',[['explanation','building-equation-two-points-explanation.html'],['problems','building-equation-two-points-problems.html'],['answers','building-equation-two-points-answers.html'],['test','building-equation-two-points-test.html']]],
 ['algebra/linear-functions/collinear-points',[['explanation','collinear-points-explanation.html'],['problems','collinear-points-problems.html'],['answers','collinear-points-answers.html'],['test','collinear-points-test.html']]],
-['algebra/linear-functions/parallel-lines',[['explanation','parallel-lines-explanation.html']]]
+['algebra/linear-functions/parallel-lines',[['explanation','parallel-lines-explanation.html'],['problems','parallel-lines-problems.html']]]
 ];
 for(const [base,files] of overrides)for(const [dir,file] of files){const target=path.join(dist,base,dir);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}
 const timedTypes=new Set(['explanation','problems','answers']);
