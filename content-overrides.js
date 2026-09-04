@@ -3,7 +3,7 @@ const root=__dirname;const dist=path.join(root,'dist');
 const overrides=[
   {base:path.join(dist,'algebra','linear-equations-in-one-variable','linear-equation-word-problems'),files:[['answers','linear-word-problems-answers.html'],['test','linear-word-problems-test.html']]},
   {base:path.join(dist,'algebra','linear-equations-in-two-variables','standard-form'),files:[['explanation','standard-form-explanation.html'],['problems','standard-form-problems.html'],['answers','standard-form-answers.html'],['test','standard-form-test.html']]},
-  {base:path.join(dist,'algebra','linear-equations-in-two-variables','slope-intercept-form'),files:[['explanation','slope-intercept-form-explanation.html'],['problems','slope-intercept-form-problems.html']]}
+  {base:path.join(dist,'algebra','linear-equations-in-two-variables','slope-intercept-form'),files:[['explanation','slope-intercept-form-explanation.html'],['problems','slope-intercept-form-problems.html'],['answers','slope-intercept-form-answers.html'],['test','slope-intercept-form-test.html']]}
 ];
 for(const item of overrides){for(const [dir,file] of item.files){const target=path.join(item.base,dir);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}}
 const completedRoutes=new Set([
@@ -12,7 +12,8 @@ const completedRoutes=new Set([
   '/algebra/linear-equations-in-two-variables/standard-form/problems/',
   '/algebra/linear-equations-in-two-variables/standard-form/answers/',
   '/algebra/linear-equations-in-two-variables/slope-intercept-form/explanation/',
-  '/algebra/linear-equations-in-two-variables/slope-intercept-form/problems/'
+  '/algebra/linear-equations-in-two-variables/slope-intercept-form/problems/',
+  '/algebra/linear-equations-in-two-variables/slope-intercept-form/answers/'
 ]);
 const schedulePath=path.join(dist,'schedule.json');
 if(fs.existsSync(schedulePath)){
