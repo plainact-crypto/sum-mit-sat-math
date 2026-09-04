@@ -40,7 +40,7 @@ jobs:
           p = Path('dist/app.js')
           s = p.read_text(encoding='utf-8')
           s = s.replace('fetch("/curriculum.json")', f'fetch("{base}/curriculum.json")')
-          s = s.replace('href="${{l.base}}', f'href="{base}${{l.base}}')
+          s = s.replace('href="${l.base}', 'href="' + base + '${l.base}')
           p.write_text(s, encoding='utf-8')
           PY
       - name: Configure Pages
