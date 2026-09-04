@@ -15,7 +15,7 @@ const overrides=[
 ['algebra/linear-functions/slope-from-two-points',[['explanation','slope-from-two-points-explanation.html'],['problems','slope-from-two-points-problems.html'],['answers','slope-from-two-points-answers.html'],['test','slope-from-two-points-test.html']]],
 ['algebra/linear-functions/slope-from-a-table',[['explanation','slope-from-a-table-explanation.html'],['problems','slope-from-a-table-problems.html'],['answers','slope-from-a-table-answers.html'],['test','slope-from-a-table-test.html']]],
 ['algebra/linear-functions/slope-from-a-graph',[['explanation','slope-from-a-graph-explanation.html'],['problems','slope-from-a-graph-problems.html'],['answers','slope-from-a-graph-answers.html'],['test','slope-from-a-graph-test.html']]],
-['algebra/linear-functions/positive-slope',[['explanation','positive-slope-explanation.html']]],
+['algebra/linear-functions/positive-slope',[['explanation','positive-slope-explanation.html'],['problems','positive-slope-problems.html']]],
 ['algebra/linear-functions/negative-slope',[['explanation','negative-slope-explanation.html']]]
 ];
 for(const [base,files] of overrides)for(const [dir,file] of files){const target=path.join(dist,base,dir);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}
@@ -34,7 +34,7 @@ const completedRoutes=new Set([
 '/algebra/linear-functions/slope-from-two-points/explanation/','/algebra/linear-functions/slope-from-two-points/problems/','/algebra/linear-functions/slope-from-two-points/answers/',
 '/algebra/linear-functions/slope-from-a-table/explanation/','/algebra/linear-functions/slope-from-a-table/problems/','/algebra/linear-functions/slope-from-a-table/answers/',
 '/algebra/linear-functions/slope-from-a-graph/explanation/','/algebra/linear-functions/slope-from-a-graph/problems/','/algebra/linear-functions/slope-from-a-graph/answers/',
-'/algebra/linear-functions/positive-slope/explanation/',
+'/algebra/linear-functions/positive-slope/explanation/','/algebra/linear-functions/positive-slope/problems/',
 '/algebra/linear-functions/negative-slope/explanation/'
 ]);
 const schedulePath=path.join(dist,'schedule.json');
