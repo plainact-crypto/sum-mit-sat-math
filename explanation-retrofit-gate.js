@@ -1,6 +1,6 @@
 const fs=require('fs');
 const path=require('path');
-const registry=require('./explanation-retrofit-registry');
+const registry=[...require('./explanation-retrofit-registry'),...require('./explanation-content-registry')];
 const tools=require('./explanation-tools');
 const root=__dirname;
 const dist=path.join(root,'dist');

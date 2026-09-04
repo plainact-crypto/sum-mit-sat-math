@@ -1,6 +1,6 @@
 const fs=require('fs');
 const path=require('path');
-const registry=require('./explanation-retrofit-registry');
+const registry=[...require('./explanation-retrofit-registry'),...require('./explanation-content-registry')];
 const tools=require('./explanation-tools');
 const root=__dirname,dist=path.join(root,'dist');
 function fail(m){throw new Error(`[Final Explanation QA] ${m}`)}
@@ -8,7 +8,7 @@ function walk(dir,out=[]){for(const e of fs.readdirSync(dir,{withFileTypes:true}
 if(!fs.existsSync(dist))fail('dist missing');
 const pages=walk(dist).map(file=>({file,html:fs.readFileSync(file,'utf8')}));
 const explanations=pages.filter(p=>/page-type\">Explanation</.test(p.html)&&p.html.includes('lesson-content'));
-if(registry.length!==36)fail(`Registry expected 36 entries, found ${registry.length}`);
+if(registry.length<36)fail(`Registry lost legacy entries: found ${registry.length}`);
 if(explanations.length!==registry.length)fail(`Published Explanation count ${explanations.length} != registry ${registry.length}`);
 const counts={BOTH:0,GRAPH:0,DESMOS:0,NEITHER:0};
 const seen=new Set();
@@ -30,7 +30,8 @@ for(const e of registry){
  if(!h.includes('/explanation-tools.css')||!h.includes('/explanation-tools.js'))fail(`${e.slug}: shared Explanation assets missing`);
  if(/Graph unavailable: validation failed\./.test(h))fail(`${e.slug}: graph validation error rendered`);
 }
-if(counts.BOTH!==30||counts.DESMOS!==6||counts.GRAPH!==0||counts.NEITHER!==0)fail(`Classification totals changed: ${JSON.stringify(counts)}`);
+if(counts.BOTH<30||counts.DESMOS<6)fail(`Legacy classification baseline changed: ${JSON.stringify(counts)}`);
+if(Object.values(counts).reduce((a,b)=>a+b,0)!==registry.length)fail(`Classification totals do not match registry length: ${JSON.stringify(counts)}`);
 const css=fs.readFileSync(path.join(root,'explanation-tools.css'),'utf8');
 if(!css.includes('.summit-graph-svg{display:block;width:100%;height:auto}'))fail('Responsive SVG rule missing');
 if(!/@media\(max-width:680px\)/.test(css))fail('Mobile Explanation breakpoint missing');
