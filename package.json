@@ -1,8 +1,8 @@
 {
-  "name": "summit-sat-math",
+  "name": "summit-math",
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build": "node generate.js && node postbuild.js && node content-overrides.js && node progress-build.js"
+    "build": "node generate.js && node postbuild.js && node content-overrides.js && node progress-build.js && node brand-guard.js"
   }
 }
