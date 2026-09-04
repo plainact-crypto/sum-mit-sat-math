@@ -7,3 +7,4 @@ if(!html.includes('beta-growth.css'))html=html.replace('</head>','<link rel="sty
 if(!html.includes('beta-growth.js'))html=html.replace('</body>','<script src="./beta-growth.js"></script></body>');
 fs.writeFileSync(index,html);
 console.log('Founding Beta growth assets wired into dist/index.html');
+// Build marker: founding beta acquisition + referral unlock enabled.
