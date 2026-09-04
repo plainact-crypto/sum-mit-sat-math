@@ -48,17 +48,38 @@
     });
   }
 
+  window.__summitSignedIn=false;
   window.supabase.createClient=function(...args){
     const client=originalCreateClient.apply(this,args);
     const signIn=client.auth.signInWithPassword.bind(client.auth);
     const signUp=client.auth.signUp.bind(client.auth);
+    const resend=client.auth.resend?.bind(client.auth);
     const reset=client.auth.resetPasswordForEmail?.bind(client.auth);
 
     client.auth.signInWithPassword=payload=>safeAuth(signIn(payload),'Sign in');
-    client.auth.signUp=payload=>safeAuth(signUp(payload),'Sign up');
+    client.auth.signUp=async payload=>{
+      const result=await safeAuth(signUp(payload),'Sign up');
+      if(result?.error){
+        const m=String(result.error.message||'').toLowerCase();
+        if(m.includes('rate limit')||m.includes('email rate')) result.error.message='Email delivery is temporarily busy. Please do not keep retrying. Try again later or use sign in if this account already exists.';
+      }
+      return result;
+    };
+    if(resend){
+      client.auth.resend=async payload=>{
+        const result=await safeAuth(resend(payload),'Resend confirmation');
+        if(result?.error){
+          const m=String(result.error.message||'').toLowerCase();
+          if(m.includes('rate limit')||m.includes('email rate')) result.error.message='Email delivery is temporarily busy. Please try again later.';
+        }
+        return result;
+      };
+    }
     if(reset) client.auth.resetPasswordForEmail=payload=>safeAuth(reset(payload),'Password reset');
 
-    client.auth.onAuthStateChange((event)=>{
+    client.auth.getSession().then(({data})=>{window.__summitSignedIn=!!data?.session;});
+    client.auth.onAuthStateChange((event,session)=>{
+      window.__summitSignedIn=!!session;
       if(event==='PASSWORD_RECOVERY') setTimeout(()=>showRecoveryPanel(client),0);
     });
 
@@ -67,6 +88,15 @@
   };
 
   window.addEventListener('DOMContentLoaded',()=>{
+    document.addEventListener('click',e=>{
+      const trigger=e.target.closest?.('[data-auth-open]');
+      if(!trigger || !window.__summitSignedIn)return;
+      e.preventDefault();
+      e.stopPropagation();
+      e.stopImmediatePropagation();
+      document.querySelector('#subjects')?.scrollIntoView({behavior:'smooth',block:'start'});
+    },true);
+
     document.querySelectorAll('#signinForm,#signupForm').forEach(form=>{
       form.addEventListener('submit',()=>{
         const button=form.querySelector('.auth-submit');
