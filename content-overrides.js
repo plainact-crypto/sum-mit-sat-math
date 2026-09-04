@@ -78,3 +78,27 @@ if(fs.existsSync(schedulePath)){
     fs.writeFileSync(auditPath,JSON.stringify(audit,null,2));
   }
 }
+
+// Keep every published page exam-neutral. Source lessons may still use legacy SAT wording,
+// but the production build consistently presents SUMMIT as a general math platform.
+function neutralizeMathCopy(s){
+  return s
+    .replace(/SUMMIT SAT MATH/g,'SUMMIT MATH')
+    .replace(/SUMMIT<small>SAT MATH<\/small>/g,'SUMMIT<small>MATH</small>')
+    .replace(/SUMMIT <small>SAT MATH<\/small>/g,'SUMMIT <small>MATH</small>')
+    .replace(/YOUR SAT MATH WORKSPACE/g,'YOUR MATH WORKSPACE')
+    .replace(/BUILT FOR SAT MATH/g,'BUILT FOR MATH MASTERY')
+    .replace(/SAT Math/g,'Math')
+    .replace(/SAT-style/g,'exam-style')
+    .replace(/SAT Style/g,'Exam Style')
+    .replace(/SAT STYLE/g,'EXAM STYLE')
+    .replace(/SAT Strategy/g,'Exam Strategy')
+    .replace(/SAT STRATEGY/g,'EXAM STRATEGY')
+    .replace(/SAT connection/g,'Exam connection')
+    .replace(/SAT Connection/g,'Exam Connection')
+    .replace(/SAT note/g,'Exam note')
+    .replace(/SAT Note/g,'Exam Note')
+    .replace(/\bSAT\b/g,'exam');
+}
+function walk(p){for(const name of fs.readdirSync(p)){const f=path.join(p,name),st=fs.statSync(f);if(st.isDirectory())walk(f);else if(/\.(html|js)$/i.test(name)){const src=fs.readFileSync(f,'utf8');const next=neutralizeMathCopy(src);if(next!==src)fs.writeFileSync(f,next);}}}
+if(fs.existsSync(dist))walk(dist);
