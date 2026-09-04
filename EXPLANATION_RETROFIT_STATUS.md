@@ -49,12 +49,14 @@ Final PASS is intentionally not assigned in Steps 1–3. Final PASS requires the
 | 33 | variables-both-sides | variables-both-sides-explanation.html | Algebra · Linear Equations in One Variable | DESMOS | No | Yes | No | No | Classified · retrofit pending |
 | 34 | y-intercept-as-initial-value | y-intercept-as-initial-value-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
 | 35 | zero-slope | zero-slope-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
+| 36 | solving-one-step-linear-equations | generate.js → `oneStepExplanation()` | Algebra · Linear Equations in One Variable | DESMOS | No | Yes | No | No | Classified · generator-source retrofit pending |
 
 ## Step 1 result — Inventory
 
 - Existing standalone `*-explanation.html` source files found: **35**.
-- In addition, `generate.js` contains the generated One-Step Linear Equations Explanation template; it is not a standalone `*-explanation.html` source file and must be handled through its generator source when the retrofit reaches that lesson.
-- No standalone Explanation source file from the current tree is intentionally omitted from the 35-row tracker above.
+- `generate.js` contains one additional already-built Explanation source template: **Solving One-Step Linear Equations**.
+- Total existing Explanation teaching sources requiring retrofit tracking: **36**.
+- No existing Explanation teaching source identified in CURRENT main is intentionally omitted from the tracker above.
 
 ## Step 2 result — Canonical tracker
 
@@ -66,10 +68,10 @@ The production route for each lesson is generated from the curriculum leaf `base
 
 - `BOTH`: **30**
 - `GRAPH`: **0**
-- `DESMOS`: **5**
+- `DESMOS`: **6**
 - `NEITHER`: **0**
-- Total classified standalone Explanation sources: **35 / 35**
+- Total classified existing Explanation teaching sources: **36 / 36**
 
-Why there are no `NEITHER` lessons in the current standalone inventory: the existing files are almost entirely linear equations/functions. Even the equation-solving lessons without a graph benefit from Desmos as a verification/alternative-method skill. Desmos must still be presented as optional when manual algebra is faster.
+Why there are no `NEITHER` lessons in the current inventory: the existing explanations are almost entirely linear equations/functions. Even the equation-solving lessons without a graph benefit from Desmos as a verification/alternative-method skill. Desmos must still be presented as optional when manual algebra is faster.
 
-The separate generated One-Step Linear Equations Explanation should be treated as `DESMOS` when its generator template is retrofitted: manual algebra is usually faster, while Desmos is useful as a verification tool.
+For the generated One-Step Linear Equations Explanation, manual algebra is normally faster; Desmos is classified as a verification tool only.
