@@ -52,28 +52,10 @@
     const client=originalCreateClient.apply(this,args);
     const signIn=client.auth.signInWithPassword.bind(client.auth);
     const signUp=client.auth.signUp.bind(client.auth);
-    const resend=client.auth.resend?.bind(client.auth);
     const reset=client.auth.resetPasswordForEmail?.bind(client.auth);
 
     client.auth.signInWithPassword=payload=>safeAuth(signIn(payload),'Sign in');
-    client.auth.signUp=async payload=>{
-      const result=await safeAuth(signUp(payload),'Sign up');
-      if(result?.error){
-        const m=String(result.error.message||'').toLowerCase();
-        if(m.includes('rate limit')||m.includes('email rate')) result.error.message='Email delivery is temporarily busy. Please do not keep retrying. Try again later or use sign in if this account already exists.';
-      }
-      return result;
-    };
-    if(resend){
-      client.auth.resend=async payload=>{
-        const result=await safeAuth(resend(payload),'Resend confirmation');
-        if(result?.error){
-          const m=String(result.error.message||'').toLowerCase();
-          if(m.includes('rate limit')||m.includes('email rate')) result.error.message='Email delivery is temporarily busy. Please try again later.';
-        }
-        return result;
-      };
-    }
+    client.auth.signUp=payload=>safeAuth(signUp(payload),'Sign up');
     if(reset) client.auth.resetPasswordForEmail=payload=>safeAuth(reset(payload),'Password reset');
 
     client.auth.onAuthStateChange((event)=>{
@@ -120,27 +102,6 @@
         button.disabled=false;button.textContent='Forgot password?';
         if(error){signinMessage.textContent=error.message;signinMessage.className='auth-message error';}
         else{signinMessage.textContent='Password reset email sent. Open the newest email and choose a new password.';signinMessage.className='auth-message success';}
-      });
-    }
-
-    const signupForm=document.querySelector('#signupForm');
-    const signupMessage=document.querySelector('#signupMessage');
-    if(signupForm && !document.querySelector('#resendConfirmation')){
-      const p=document.createElement('p');
-      p.className='auth-switch';
-      p.innerHTML='Already created an account but did not get a working email? <button type="button" id="resendConfirmation">Resend confirmation</button>';
-      signupForm.appendChild(p);
-      p.querySelector('button').addEventListener('click',async()=>{
-        const email=document.querySelector('#signupEmail')?.value.trim();
-        if(!email){signupMessage.textContent='Enter your email first.';signupMessage.className='auth-message error';return;}
-        const client=window.__summitSupabaseClient;
-        if(!client?.auth?.resend){signupMessage.textContent='Resend is not available right now.';signupMessage.className='auth-message error';return;}
-        const button=p.querySelector('button');
-        button.disabled=true;button.textContent='Sending…';
-        const {error}=await client.auth.resend({type:'signup',email,options:{emailRedirectTo:returnUrl()}});
-        button.disabled=false;button.textContent='Resend confirmation';
-        if(error){signupMessage.textContent=error.message;signupMessage.className='auth-message error';}
-        else{signupMessage.textContent='Confirmation email sent. Use the newest email only.';signupMessage.className='auth-message success';}
       });
     }
   });
