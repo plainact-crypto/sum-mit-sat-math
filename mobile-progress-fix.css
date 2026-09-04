@@ -1,0 +1,19 @@
+@media (max-width: 720px){
+  main{padding-left:12px;padding-right:12px}
+  .curriculum{display:block}
+  .tree-panel{padding:18px 14px;overflow:hidden}
+  .tree-head{align-items:flex-start;gap:10px}
+  .tree-head h2{font-size:30px}
+  .section-body{padding-left:8px}
+  .group{margin-left:0;padding-left:8px}
+  .leaf{padding:14px 0 16px 12px;overflow:visible}
+  .progress-leaf{display:flex;flex-direction:column;min-width:0}
+  .leaf-top{order:1;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:10px;margin-bottom:8px}
+  .leaf-title{min-width:0;margin:0;font-size:16px;line-height:1.3;overflow-wrap:anywhere}
+  .lesson-percent{font-size:11px;padding-top:2px;white-space:nowrap}
+  .lesson-states{order:2;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin:0 0 9px}
+  .lesson-states span{display:flex;align-items:center;justify-content:center;min-width:0;padding:7px 6px;font-size:10px;text-align:center;white-space:normal}
+  .mini-progress{order:3;height:6px;margin:0 0 12px;width:100%;position:relative}
+  .leaf-actions{order:4;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .leaf-actions a{display:flex;align-items:center;justify-content:center;min-height:42px;padding:9px 7px;font-size:11px;text-align:center;white-space:normal}
+}
