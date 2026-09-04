@@ -23,7 +23,7 @@ const overrides=[
 ['algebra/linear-functions/rate-of-change',[['explanation','rate-of-change-explanation.html'],['problems','rate-of-change-problems.html'],['answers','rate-of-change-answers.html'],['test','rate-of-change-test.html']]],
 ['algebra/linear-functions/building-an-equation-from-slope-and-y-intercept',[['explanation','building-equation-slope-y-intercept-explanation.html'],['problems','building-equation-slope-y-intercept-problems.html'],['answers','building-equation-slope-y-intercept-answers.html'],['test','building-equation-slope-y-intercept-test.html']]],
 ['algebra/linear-functions/building-an-equation-from-slope-and-one-point',[['explanation','building-equation-slope-one-point-explanation.html'],['problems','building-equation-slope-one-point-problems.html'],['answers','building-equation-slope-one-point-answers.html'],['test','building-equation-slope-one-point-test.html']]],
-['algebra/linear-functions/building-an-equation-from-two-points',[['explanation','building-equation-two-points-explanation.html'],['problems','building-equation-two-points-problems.html']]]
+['algebra/linear-functions/building-an-equation-from-two-points',[['explanation','building-equation-two-points-explanation.html'],['problems','building-equation-two-points-problems.html'],['answers','building-equation-two-points-answers.html'],['test','building-equation-two-points-test.html']]]
 ];
 for(const [base,files] of overrides)for(const [dir,file] of files){const target=path.join(dist,base,dir);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}
 const timedTypes=new Set(['explanation','problems','answers']);
