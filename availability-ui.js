@@ -44,23 +44,19 @@
 
   function decorate(){
     document.querySelectorAll('.progress-leaf').forEach(leaf=>{
+      if(leaf.dataset.availabilityDecorated==='1')return;
       const rec=findRecord(leaf);
       if(!rec)return;
-      const existing=leaf.querySelector('.lesson-content-status');
       const cls=rec.complete?'ready':'scheduled';
       const text=rec.complete?'Content 100% ready':'Content still being completed';
       const meta=rec.complete?'Open any lesson item':`Completes ${formatDate(rec.scheduledComplete)}`;
-      if(existing){
-        existing.className='lesson-content-status '+cls;
-        existing.innerHTML=`<span class="dot"></span><b>${text}</b><small>${meta}</small>`;
-        return;
-      }
       const badge=document.createElement('div');
       badge.className='lesson-content-status '+cls;
       badge.innerHTML=`<span class="dot"></span><b>${text}</b><small>${meta}</small>`;
       const actions=leaf.querySelector('.leaf-actions');
       if(actions)actions.parentNode.insertBefore(badge,actions);
       else leaf.appendChild(badge);
+      leaf.dataset.availabilityDecorated='1';
     });
   }
 
@@ -69,7 +65,8 @@
     .then(rows=>{
       map=new Map(rows.map(r=>[normalizePath(r.base),r]));
       decorate();
-      new MutationObserver(decorate).observe(document.body,{childList:true,subtree:true});
+      setTimeout(decorate,500);
+      setTimeout(decorate,1500);
     })
     .catch(err=>console.error('SUMMIT lesson availability:',err));
 })();
