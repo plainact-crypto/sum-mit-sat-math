@@ -33,7 +33,6 @@ const newBody=`<div class="summit-video-shell">
       <div class="summit-board-main" id="svMain"></div>
       <div class="summit-board-step" id="svStep"></div>
       <div class="summit-board-answer" id="svAnswer"></div>
-      <div class="summit-marker-line"></div>
     </div>
     <div class="summit-controls">
       <button id="svPlay" type="button" class="summit-play-btn">▶ <span>Play lesson</span></button>
@@ -52,23 +51,23 @@ const newBody=`<div class="summit-video-shell">
 .summit-board-kicker{position:relative;z-index:2;font:900 clamp(11px,2vw,15px)/1.2 Inter,system-ui,sans-serif;letter-spacing:.18em;color:#2860dc;margin-bottom:clamp(12px,2vw,22px)}
 .summit-board-main,.summit-board-step,.summit-board-answer{position:relative;z-index:2;font-family:Georgia,serif;color:#14243d;animation:svWrite .45s ease both}
 .summit-board-main{font-size:clamp(26px,6vw,58px);line-height:1.06}.summit-board-step{font-size:clamp(17px,4vw,34px);color:#2c6fd1;margin-top:clamp(14px,2.5vw,24px)}
-.summit-board-answer{display:inline-block;font-size:clamp(22px,5.4vw,50px);margin-top:clamp(14px,2.5vw,24px);padding:2px 12px 5px;color:#14243d}
-.summit-marker-line{position:absolute;left:8%;right:8%;bottom:10%;height:4px;border-radius:999px;background:#d6453d;transform:rotate(-1.5deg);opacity:.7}
+.summit-board-answer{display:inline-block;font-size:clamp(22px,5.4vw,50px);margin-top:clamp(14px,2.5vw,24px);padding:6px 16px 9px;color:#14243d;border:4px solid rgba(214,69,61,.9);border-radius:50%;transform:rotate(-2deg)}
+.summit-board-answer:before{content:"";position:absolute;inset:-8px -12px;border:2px solid rgba(214,69,61,.45);border-radius:50%;transform:rotate(4deg);pointer-events:none}
 .summit-controls{display:flex;align-items:center;gap:12px;padding:13px 14px;background:#111827;color:#fff}.summit-play-btn,.summit-fullscreen-btn{border:0;background:#fff;color:#14243d;font-weight:900;cursor:pointer}.summit-play-btn{border-radius:999px;padding:10px 15px;display:flex;align-items:center;gap:7px;white-space:nowrap}.summit-fullscreen-btn{width:42px;height:42px;border-radius:12px;font-size:22px;display:grid;place-items:center;flex:0 0 auto}
 .summit-progress{height:7px;flex:1;background:rgba(255,255,255,.18);border-radius:99px;overflow:hidden}.summit-progress span{display:block;height:100%;width:0;background:#fff;transition:width .2s linear}.summit-counter{font:700 12px/1 Inter,system-ui,sans-serif;opacity:.8;min-width:36px;text-align:right}
 .video-note{text-align:center;margin:14px 0 0;color:#697386;font-size:.95rem}@keyframes svWrite{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 .summit-native-player:fullscreen,.summit-native-player:-webkit-full-screen{width:100vw;height:100vh;border-radius:0;display:flex;flex-direction:column;background:#0f172a}.summit-native-player:fullscreen .summit-board,.summit-native-player:-webkit-full-screen .summit-board{flex:1;aspect-ratio:auto;display:flex;flex-direction:column;justify-content:center;padding:clamp(28px,6vw,80px)}.summit-native-player:fullscreen .summit-board-main,.summit-native-player:-webkit-full-screen .summit-board-main{font-size:clamp(42px,7vw,96px)}.summit-native-player:fullscreen .summit-board-step,.summit-native-player:-webkit-full-screen .summit-board-step{font-size:clamp(28px,4.8vw,62px)}.summit-native-player:fullscreen .summit-board-answer,.summit-native-player:-webkit-full-screen .summit-board-answer{font-size:clamp(34px,6vw,76px)}
-@media(max-width:640px){.summit-video-shell{margin-top:16px}.summit-native-player{border-radius:18px}.summit-board{padding:18px}.summit-controls{gap:8px;padding:10px}.summit-play-btn{padding:9px 12px;font-size:12px}.summit-play-btn span{display:none}.summit-counter{font-size:11px}.summit-fullscreen-btn{width:38px;height:38px;font-size:20px}}
+@media(max-width:640px){.summit-video-shell{margin-top:16px}.summit-native-player{border-radius:18px}.summit-board{padding:18px}.summit-board-answer{border-width:3px}.summit-controls{gap:8px;padding:10px}.summit-play-btn{padding:9px 12px;font-size:12px}.summit-play-btn span{display:none}.summit-counter{font-size:11px}.summit-fullscreen-btn{width:38px;height:38px;font-size:20px}}
 </style>
 <script>(()=>{
 const tracks=${JSON.stringify(tracks)};
 const scenes=${JSON.stringify(scenes)};
 const player=document.getElementById('summitNativeLesson'),audio=document.getElementById('svAudio'),play=document.getElementById('svPlay'),full=document.getElementById('svFullscreen'),bar=document.getElementById('svProgress'),counter=document.getElementById('svCounter');
 const k=document.getElementById('svKicker'),m=document.getElementById('svMain'),s=document.getElementById('svStep'),a=document.getElementById('svAnswer');
-let i=0,playing=false;
+let i=0;
 function draw(){const x=scenes[i];k.textContent=x[0];m.textContent=x[1];s.textContent=x[2];a.textContent=x[3];counter.textContent=(i+1)+' / '+tracks.length;[k,m,s,a].forEach(el=>{el.style.animation='none';void el.offsetWidth;el.style.animation=''})}
 function load(){audio.src=tracks[i];bar.style.width='0%';draw()}
-function setPlay(v){playing=v;play.innerHTML=v?'❚❚ <span>Pause</span>':'▶ <span>Play lesson</span>'}
+function setPlay(v){play.innerHTML=v?'❚❚ <span>Pause</span>':'▶ <span>Play lesson</span>'}
 function isFull(){return document.fullscreenElement===player||document.webkitFullscreenElement===player}
 async function enterFull(){try{if(player.requestFullscreen)await player.requestFullscreen();else if(player.webkitRequestFullscreen)player.webkitRequestFullscreen();if(screen.orientation&&screen.orientation.lock){try{await screen.orientation.lock('landscape')}catch(_){}}}catch(_){}}
 async function exitFull(){try{if(document.exitFullscreen)await document.exitFullscreen();else if(document.webkitExitFullscreen)document.webkitExitFullscreen()}catch(_){}}
@@ -83,25 +82,10 @@ load();
 })();</script>`;
 
 const matches=[];
-function walk(dir){
-  for(const name of fs.readdirSync(dir)){
-    const p=path.join(dir,name),st=fs.statSync(p);
-    if(st.isDirectory()) walk(p);
-    else if(name==='index.html'){
-      const h=fs.readFileSync(p,'utf8');
-      if(h.includes(lesson)&&h.includes(marker)) matches.push([p,h]);
-    }
-  }
-}
+function walk(dir){for(const name of fs.readdirSync(dir)){const p=path.join(dir,name),st=fs.statSync(p);if(st.isDirectory())walk(p);else if(name==='index.html'){const h=fs.readFileSync(p,'utf8');if(h.includes(lesson)&&h.includes(marker))matches.push([p,h]);}}}
 walk(dist);
-if(matches.length!==1){
-  console.error(`Expected exactly one English video page for ${lesson}; found ${matches.length}`);
-  process.exit(1);
-}
+if(matches.length!==1){console.error(`Expected exactly one English video page for ${lesson}; found ${matches.length}`);process.exit(1)}
 const [file,html]=matches[0];
-if(!html.includes(oldBody)){
-  console.error('English video page placeholder marker not found');
-  process.exit(1);
-}
+if(!html.includes(oldBody)){console.error('English video page placeholder marker not found');process.exit(1)}
 fs.writeFileSync(file,html.replace(oldBody,newBody));
 console.log(`Embedded native narrated SUMMIT lesson at ${path.relative(dist,file)}`);
