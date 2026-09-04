@@ -19,7 +19,7 @@ const overrides=[
 ['algebra/linear-functions/negative-slope',[['explanation','negative-slope-explanation.html'],['problems','negative-slope-problems.html'],['answers','negative-slope-answers.html'],['test','negative-slope-test.html']]],
 ['algebra/linear-functions/zero-slope',[['explanation','zero-slope-explanation.html'],['problems','zero-slope-problems.html'],['answers','zero-slope-answers.html'],['test','zero-slope-test.html']]],
 ['algebra/linear-functions/undefined-slope',[['explanation','undefined-slope-explanation.html'],['problems','undefined-slope-problems.html'],['answers','undefined-slope-answers.html'],['test','undefined-slope-test.html']]],
-['algebra/linear-functions/y-intercept-as-initial-value',[['explanation','y-intercept-as-initial-value-explanation.html'],['problems','y-intercept-as-initial-value-problems.html']]],
+['algebra/linear-functions/y-intercept-as-initial-value',[['explanation','y-intercept-as-initial-value-explanation.html'],['problems','y-intercept-as-initial-value-problems.html'],['answers','y-intercept-as-initial-value-answers.html'],['test','y-intercept-as-initial-value-test.html']]],
 ['algebra/linear-functions/building-an-equation-from-slope-and-y-intercept',[['explanation','building-equation-slope-y-intercept-explanation.html']]]
 ];
 for(const [base,files] of overrides)for(const [dir,file] of files){const target=path.join(dist,base,dir);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}
