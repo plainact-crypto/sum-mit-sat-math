@@ -6,7 +6,7 @@ const root = __dirname;
 const out = path.join(root, 'dist');
 const curriculumRaw = zlib.gunzipSync(Buffer.from(fs.readFileSync(path.join(root, 'curriculum.json.gz.b64'), 'utf8').trim(), 'base64')).toString('utf8');
 const curriculum = JSON.parse(curriculumRaw);
-const copyFiles = ['index.html', 'styles.css', 'marketing.css', 'app.js'];
+const copyFiles = ['index.html', 'styles.css', 'marketing.css', 'app.js', 'auth-hotfix.js'];
 
 fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(out, { recursive: true });
