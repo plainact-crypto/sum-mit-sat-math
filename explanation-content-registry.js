@@ -9,5 +9,10 @@ module.exports=[
     slug:'no-solution',lesson:'No Solution',classification:'BOTH',
     graph:{bounds:{xMin:-3,xMax:5,yMin:-8,yMax:12},lines:[{m:2,b:1,qaX:[0,1,2],yIntercept:1},{m:2,b:-3,qaX:[0,1,2],yIntercept:-3}],points:[],ariaLabel:'Parallel lines y = 2x + 1 and y = 2x - 3 with no intersection'},
     desmos:D('y = 2x + 1 and y = 2x - 3','two distinct parallel lines with no intersection','confirm that the system has no common ordered pair','both lines have slope 2 but different y-intercepts, so their vertical separation stays constant and they never meet','Slope comparison is faster here; Desmos is useful for visual confirmation.','For x=0,1,2 the first line gives 1,3,5 and the second gives -3,-1,1; each pair differs by 4. Setting the equations equal gives 1=-3, a contradiction.')
+  },
+  {
+    slug:'infinitely-many-solutions',lesson:'Infinitely Many Solutions',classification:'BOTH',
+    graph:{bounds:{xMin:-3,xMax:5,yMin:-6,yMax:12},lines:[{m:2,b:1,qaX:[0,1,2],yIntercept:1},{m:2,b:1,qaX:[0,1,2],yIntercept:1}],points:[{x:0,y:1,line:0,label:'shared (0, 1)'},{x:1,y:3,line:0,label:'shared (1, 3)'},{x:2,y:5,line:0,label:'shared (2, 5)'}],ariaLabel:'Coincident lines y = 2x + 1 and 2y = 4x + 2 showing infinitely many shared points'},
+    desmos:D('y = 2x + 1 and 2y = 4x + 2','the two graphs lying exactly on top of each other','confirm that every point on the visible line satisfies both equations','the second equation simplifies to y = 2x + 1, so both equations have the same solution set','Simplifying proportional equations is usually faster; Desmos is useful for confirming that the graphs coincide.','Divide 2y=4x+2 by 2 to get y=2x+1. At x=0,1,2 both equations give y=1,3,5, so the verified lines coincide.')
   }
 ];
