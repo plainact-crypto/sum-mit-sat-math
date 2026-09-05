@@ -21,6 +21,14 @@ const explainers = [
     graphAligned: false,
     desmosAligned: true,
     note: 'English · Teacher-style explanation · Worked examples · Desmos strategy · Quick check'
+  },
+  {
+    lesson: 'Literal Equations',
+    slug: 'literal-equations',
+    url: 'https://scrimba.com/explain/guide0sho4tu2u?claim=4t9q67hsobfihpjm&fullscreen=1',
+    graphAligned: false,
+    desmosAligned: true,
+    note: 'English · Teacher-style explanation · Formula rearranging · Worked example · Desmos check · Quick check'
   }
 ];
 
