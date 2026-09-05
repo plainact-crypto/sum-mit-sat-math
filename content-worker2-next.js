@@ -2,7 +2,8 @@ const fs=require('fs'),path=require('path');
 const root=__dirname,dist=path.join(root,'dist');
 const items=[
   {route:'algebra/systems-of-linear-equations/one-solution/explanation/',source:'one-solution-explanation.html'},
-  {route:'algebra/systems-of-linear-equations/infinitely-many-solutions/explanation/',source:'infinitely-many-solutions-explanation.html'}
+  {route:'algebra/systems-of-linear-equations/infinitely-many-solutions/explanation/',source:'infinitely-many-solutions-explanation.html'},
+  {route:'algebra/systems-of-linear-equations/infinitely-many-solutions/problems/',source:'infinitely-many-solutions-problems.html'}
 ];
 const completedRoutes=new Set();
 for(const item of items){const source=path.join(root,item.source);if(!fs.existsSync(source))continue;const target=path.join(dist,item.route);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(source,path.join(target,'index.html'));completedRoutes.add(`/${item.route}`)}
