@@ -29,7 +29,8 @@ const overrides=[
 ['algebra/linear-functions/perpendicular-lines',[['explanation','perpendicular-lines-explanation.html'],['problems','perpendicular-lines-problems.html'],['answers','perpendicular-lines-answers.html'],['test','perpendicular-lines-test.html']]],
 ['algebra/linear-functions/linear-function-tables',[['explanation','linear-function-tables-explanation.html'],['problems','linear-function-tables-problems.html'],['answers','linear-function-tables-answers.html'],['test','linear-function-tables-test.html']]],
 ['algebra/linear-functions/linear-function-translations',[['explanation','linear-function-translations-explanation.html'],['problems','linear-function-translations-problems.html'],['answers','linear-function-translations-answers.html'],['test','linear-function-translations-test.html']]],
-['algebra/linear-functions/linear-function-word-problems',[['explanation','linear-function-word-problems-explanation.html'],['problems','linear-function-word-problems-problems.html'],['answers','linear-function-word-problems-answers.html']]]
+['algebra/linear-functions/linear-function-word-problems',[['explanation','linear-function-word-problems-explanation.html'],['problems','linear-function-word-problems-problems.html'],['answers','linear-function-word-problems-answers.html']]],
+['algebra/systems-of-linear-equations/one-solution',[['explanation','one-solution-explanation.html'],['problems','one-solution-problems.html'],['answers','one-solution-answers.html']]]
 ];
 for(const [base,files] of overrides)for(const [dir,file] of files){const target=path.join(dist,base,dir);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}
 const timedTypes=new Set(['explanation','problems','answers']);
