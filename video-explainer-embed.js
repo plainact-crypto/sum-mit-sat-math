@@ -49,6 +49,7 @@ const explainers = [
   {
     lesson: 'Standard Form',
     slug: 'standard-form',
+    route: 'algebra/linear-equations-in-two-variables/standard-form/video/english/index.html',
     url: 'https://scrimba.com/explain/guide07kc5trtk?claim=vk49vnuiluk4gk6c&fullscreen=1',
     graphAligned: true,
     desmosAligned: true,
@@ -70,6 +71,7 @@ const style = `<style>.summit-video-shell{margin:22px 0 8px;max-width:100%}.summ
 
 for (const cfg of explainers) {
   const hits = allPages.filter(file => {
+    if (cfg.route && !file.split(path.sep).join('/').endsWith(cfg.route)) return false;
     const html = fs.readFileSync(file, 'utf8');
     return html.includes(`<div class="lesson-title">${cfg.lesson}</div>`) && html.includes(marker);
   });
