@@ -100,6 +100,16 @@ const explainers = [
     desmosAligned: true,
     requestedVoiceGender: 'male',
     note: 'English · Teacher-style explanation · Real-life initial value · Verified y-intercept graph · Desmos strategy · Quick check'
+  },
+  {
+    lesson: 'Finding Both Intercepts',
+    slug: 'finding-both-intercepts',
+    route: 'algebra/linear-equations-in-two-variables/finding-both-intercepts/video/english/index.html',
+    url: 'https://scrimba.com/explain/guide05j42762v?claim=6r1duf8ibaok19a1&fullscreen=1',
+    graphAligned: true,
+    desmosAligned: true,
+    requestedVoiceGender: 'female',
+    note: 'English · Teacher-style explanation · Real-life budget model · Verified intercept graph · Desmos strategy · Quick check'
   }
 ];
 
