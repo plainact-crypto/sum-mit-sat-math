@@ -63,6 +63,15 @@ const explainers = [
     graphAligned: true,
     desmosAligned: true,
     note: 'English · Teacher-style explanation · Real-life model · Built graph · Desmos strategy · Quick check'
+  },
+  {
+    lesson: 'Point-Slope Form',
+    slug: 'point-slope-form',
+    route: 'algebra/linear-equations-in-two-variables/point-slope-form/video/english/index.html',
+    url: 'https://scrimba.com/explain/guide0gom85bag?claim=e3984sopraeo2oma&fullscreen=1',
+    graphAligned: true,
+    desmosAligned: true,
+    note: 'English · Teacher-style explanation · Real-life rate example · Verified graph · Desmos strategy · Quick check'
   }
 ];
 
