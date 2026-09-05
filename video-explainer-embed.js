@@ -120,6 +120,16 @@ const explainers = [
     desmosAligned: true,
     requestedVoiceGender: 'male',
     note: 'English · Teacher-style explanation · Real-life tank example · Verified graph · Desmos strategy · Quick check'
+  },
+  {
+    lesson: 'Y-Intercept as Initial Value',
+    slug: 'y-intercept-as-initial-value',
+    route: 'algebra/linear-functions/y-intercept-as-initial-value/video/english/index.html',
+    url: 'https://scrimba.com/explain/guide0soiijri8?claim=fpr7l37m8jp94tjp&fullscreen=1',
+    graphAligned: true,
+    desmosAligned: true,
+    requestedVoiceGender: 'female',
+    note: 'English · Teacher-style explanation · Real-life bike rental example · Verified y-intercept graph · Desmos strategy · Quick check'
   }
 ];
 
