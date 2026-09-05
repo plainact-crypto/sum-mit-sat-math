@@ -14,5 +14,10 @@ module.exports=[
     slug:'infinitely-many-solutions',lesson:'Infinitely Many Solutions',classification:'BOTH',
     graph:{bounds:{xMin:-3,xMax:5,yMin:-6,yMax:12},lines:[{m:2,b:1,qaX:[0,1,2],yIntercept:1},{m:2,b:1,qaX:[0,1,2],yIntercept:1}],points:[{x:0,y:1,line:0,label:'shared (0, 1)'},{x:1,y:3,line:0,label:'shared (1, 3)'},{x:2,y:5,line:0,label:'shared (2, 5)'}],ariaLabel:'Coincident lines y = 2x + 1 and 2y = 4x + 2 showing infinitely many shared points'},
     desmos:D('y = 2x + 1 and 2y = 4x + 2','the two graphs lying exactly on top of each other','confirm that every point on the visible line satisfies both equations','the second equation simplifies to y = 2x + 1, so both equations have the same solution set','Simplifying proportional equations is usually faster; Desmos is useful for confirming that the graphs coincide.','Divide 2y=4x+2 by 2 to get y=2x+1. At x=0,1,2 both equations give y=1,3,5, so the verified lines coincide.')
+  },
+  {
+    slug:'solving-by-substitution',lesson:'Solving by Substitution',classification:'BOTH',
+    graph:{bounds:{xMin:-2,xMax:7,yMin:-2,yMax:9},lines:[{m:1,b:1,qaX:[0,1,3],yIntercept:1},{m:-1,b:7,qaX:[0,2,3],yIntercept:7}],intersections:[{a:0,b:1,x:3,y:4}],points:[{x:3,y:4,line:0,label:'solution (3, 4)'}],ariaLabel:'Lines y = x + 1 and y = -x + 7 intersecting at the substitution solution (3, 4)'},
+    desmos:D('y = x + 1 and x + y = 7','the intersection point (3, 4)','verify the ordered pair found by substitution','the intersection is the point that satisfies both equations, exactly matching the algebraic definition of a system solution','Substitution is faster when a variable is already isolated; Desmos is useful for checking the result and connecting it to the graph.','Substitute y=x+1 into x+y=7: x+(x+1)=7, so 2x=6, x=3, y=4. Check: 4=3+1 and 3+4=7.')
   }
 ];
