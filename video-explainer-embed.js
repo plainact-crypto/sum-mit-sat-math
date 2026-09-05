@@ -37,6 +37,14 @@ const explainers = [
     graphAligned: false,
     desmosAligned: true,
     note: 'English · Teacher-style explanation · Formula rearranging · Worked example · Desmos check · Quick check'
+  },
+  {
+    lesson: 'Linear Equation Word Problems',
+    slug: 'linear-equation-word-problems',
+    url: 'https://scrimba.com/explain/guide0j3m71ll3?claim=kf5epcj0ja0jl8kc&fullscreen=1',
+    graphAligned: true,
+    desmosAligned: true,
+    note: 'English · Teacher-style explanation · Real-life model · Verified graph · Desmos strategy · Quick check'
   }
 ];
 
