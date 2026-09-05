@@ -72,6 +72,15 @@ const explainers = [
     graphAligned: true,
     desmosAligned: true,
     note: 'English · Teacher-style explanation · Real-life rate example · Verified graph · Desmos strategy · Quick check'
+  },
+  {
+    lesson: 'Converting Between Forms',
+    slug: 'converting-between-forms',
+    route: 'algebra/linear-equations-in-two-variables/converting-between-forms/video/english/index.html',
+    url: 'https://scrimba.com/explain/guide0aeb463ko?claim=reed7vff1t036ccg&fullscreen=1',
+    graphAligned: true,
+    desmosAligned: true,
+    note: 'English · Teacher-style explanation · Equivalent forms · Verified graph · Desmos strategy · Quick check'
   }
 ];
 
@@ -107,5 +116,5 @@ for (const cfg of explainers) {
   const body = `<div class="summit-video-shell summit-explainer-player" data-graph-aligned="${cfg.graphAligned}" data-desmos-aligned="${cfg.desmosAligned}"><!-- ${tag} --><div class="summit-explainer-frame"><iframe src="${cfg.url}" title="${cfg.lesson} — SUMMIT MATH video lesson" loading="eager" allow="autoplay; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div><div class="summit-explainer-actions"><a href="${cfg.url}" target="_blank" rel="noopener">Open full-screen lesson ↗</a></div><p class="video-note">${cfg.note}</p></div>${style}`;
   html = html.replace(oldBody, body);
   fs.writeFileSync(file, html);
-  console.log(`Embedded SUMMIT explainer at ${path.relative(dist, file)}`);
+  console.log(`Embedded SUMMIT explainer at ${path.relative(dist,file)}`);
 }
