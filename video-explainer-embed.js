@@ -110,6 +110,16 @@ const explainers = [
     desmosAligned: true,
     requestedVoiceGender: 'female',
     note: 'English · Teacher-style explanation · Real-life budget model · Verified intercept graph · Desmos strategy · Quick check'
+  },
+  {
+    lesson: 'Rate of Change',
+    slug: 'rate-of-change',
+    route: 'algebra/linear-functions/rate-of-change/video/english/index.html',
+    url: 'https://scrimba.com/explain/guide0qvrirbu9?claim=lvl16vpk0bsdg7o2&fullscreen=1',
+    graphAligned: true,
+    desmosAligned: true,
+    requestedVoiceGender: 'male',
+    note: 'English · Teacher-style explanation · Real-life tank example · Verified graph · Desmos strategy · Quick check'
   }
 ];
 
