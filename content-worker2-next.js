@@ -5,7 +5,8 @@ const items=[
   {route:'algebra/systems-of-linear-equations/infinitely-many-solutions/explanation/',source:'infinitely-many-solutions-explanation.html'},
   {route:'algebra/systems-of-linear-equations/infinitely-many-solutions/problems/',source:'infinitely-many-solutions-problems.html'},
   {route:'algebra/systems-of-linear-equations/infinitely-many-solutions/answers/',source:'infinitely-many-solutions-answers.html'},
-  {route:'algebra/systems-of-linear-equations/no-solution/explanation/',source:'no-solution-explanation.html'}
+  {route:'algebra/systems-of-linear-equations/no-solution/explanation/',source:'no-solution-explanation.html'},
+  {route:'algebra/systems-of-linear-equations/no-solution/test/',source:'no-solution-test.html'}
 ];
 const completedRoutes=new Set();
 for(const item of items){const source=path.join(root,item.source);if(!fs.existsSync(source))continue;const target=path.join(dist,item.route);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(source,path.join(target,'index.html'));completedRoutes.add(`/${item.route}`)}
