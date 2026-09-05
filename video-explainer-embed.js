@@ -81,6 +81,15 @@ const explainers = [
     graphAligned: true,
     desmosAligned: true,
     note: 'English · Teacher-style explanation · Equivalent forms · Verified graph · Desmos strategy · Quick check'
+  },
+  {
+    lesson: 'Finding X-Intercept',
+    slug: 'finding-x-intercept',
+    route: 'algebra/linear-equations-in-two-variables/finding-x-intercept/video/english/index.html',
+    url: 'https://scrimba.com/explain/guide0inq6or1d?claim=onbfeb6f8deikhcp&fullscreen=1',
+    graphAligned: true,
+    desmosAligned: true,
+    note: 'English · Teacher-style explanation · Verified x-intercept graph · Desmos strategy · Quick check'
   }
 ];
 
