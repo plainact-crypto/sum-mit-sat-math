@@ -23,6 +23,14 @@ const explainers = [
     note: 'English · Teacher-style explanation · Worked examples · Desmos strategy · Quick check'
   },
   {
+    lesson: 'Equations with Decimals',
+    slug: 'equations-with-decimals',
+    url: 'https://scrimba.com/explain/guide0dfsje860?claim=31lf44484rfio9mm&fullscreen=1',
+    graphAligned: false,
+    desmosAligned: true,
+    note: 'English · Teacher-style explanation · Real-life example · Worked examples · Desmos strategy · Quick check'
+  },
+  {
     lesson: 'Literal Equations',
     slug: 'literal-equations',
     url: 'https://scrimba.com/explain/guide0sho4tu2u?claim=4t9q67hsobfihpjm&fullscreen=1',
