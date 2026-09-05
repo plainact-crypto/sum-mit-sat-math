@@ -90,6 +90,16 @@ const explainers = [
     graphAligned: true,
     desmosAligned: true,
     note: 'English · Teacher-style explanation · Verified x-intercept graph · Desmos strategy · Quick check'
+  },
+  {
+    lesson: 'Finding Y-Intercept',
+    slug: 'finding-y-intercept',
+    route: 'algebra/linear-equations-in-two-variables/finding-y-intercept/video/english/index.html',
+    url: 'https://scrimba.com/explain/guide004iifftq?claim=hj2u5bvn70rbuhdq&fullscreen=1',
+    graphAligned: true,
+    desmosAligned: true,
+    requestedVoiceGender: 'male',
+    note: 'English · Teacher-style explanation · Real-life initial value · Verified y-intercept graph · Desmos strategy · Quick check'
   }
 ];
 
