@@ -45,6 +45,14 @@ const explainers = [
     graphAligned: true,
     desmosAligned: true,
     note: 'English · Teacher-style explanation · Real-life model · Verified graph · Desmos strategy · Quick check'
+  },
+  {
+    lesson: 'Standard Form',
+    slug: 'standard-form',
+    url: 'https://scrimba.com/explain/guide07kc5trtk?claim=vk49vnuiluk4gk6c&fullscreen=1',
+    graphAligned: true,
+    desmosAligned: true,
+    note: 'English · Teacher-style explanation · Real-life model · Verified intercept graph · Desmos strategy · Quick check'
   }
 ];
 
