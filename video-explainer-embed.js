@@ -54,6 +54,15 @@ const explainers = [
     graphAligned: true,
     desmosAligned: true,
     note: 'English · Teacher-style explanation · Real-life model · Verified intercept graph · Desmos strategy · Quick check'
+  },
+  {
+    lesson: 'Slope-Intercept Form',
+    slug: 'slope-intercept-form',
+    route: 'algebra/linear-equations-in-two-variables/slope-intercept-form/video/english/index.html',
+    url: 'https://scrimba.com/explain/guide02n0tv5gf?claim=ni41z8zslz7qx5po&fullscreen=1',
+    graphAligned: true,
+    desmosAligned: true,
+    note: 'English · Teacher-style explanation · Real-life model · Built graph · Desmos strategy · Quick check'
   }
 ];
 
