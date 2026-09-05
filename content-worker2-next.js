@@ -7,6 +7,7 @@ const items=[
   {route:'algebra/systems-of-linear-equations/infinitely-many-solutions/answers/',source:'infinitely-many-solutions-answers.html'},
   {route:'algebra/systems-of-linear-equations/no-solution/explanation/',source:'no-solution-explanation.html'},
   {route:'algebra/systems-of-linear-equations/no-solution/test/',source:'no-solution-test.html'},
+  {route:'algebra/systems-of-linear-equations/solving-by-substitution/explanation/',source:'solving-by-substitution-explanation.html'},
   {route:'algebra/systems-of-linear-equations/solving-by-substitution/problems/',source:'solving-by-substitution-problems.html'},
   {route:'algebra/systems-of-linear-equations/solving-by-substitution/answers/',source:'solving-by-substitution-answers.html'},
   {route:'algebra/systems-of-linear-equations/solving-by-substitution/test/',source:'solving-by-substitution-test.html'},
