@@ -37,5 +37,9 @@ module.exports=[
   {
     slug:'systems-word-problems',lesson:'Systems Word Problems',classification:'DESMOS',graph:null,
     desmos:D('x + y = 18 and 9x + 5y = 126','the intersection (9, 9)','verify the adult-ticket and student-ticket counts after building the model','a common ordered pair satisfies both the total-count equation and the revenue equation, so it satisfies both facts in the situation','Building the equations is the main skill; elimination is faster for this clean system, while Desmos is useful for checking the model and solution.','From x+y=18, multiply by 5 to get 5x+5y=90. Subtract from 9x+5y=126: 4x=36, so x=9 and y=9. Check: 9+9=18 and 9(9)+5(9)=126.')
+  },
+  {
+    slug:'solving-one-variable-inequalities',lesson:'Solving One-Variable Inequalities',classification:'DESMOS',graph:null,
+    desmos:D('3x + 5 < 20','the solution region x < 5','verify the algebraic solution and test the boundary value','the inequality is true exactly for the x-values that make the left side smaller than 20, so the displayed solution region represents the same solution set','For a simple one-variable inequality, algebra is usually faster; Desmos is useful for checking the solution set and catching a sign or boundary mistake.','Subtract 5 to get 3x<15, then divide by positive 3 to get x<5. At x=4, 3(4)+5=17<20; at x=5, 20<20 is false.')
   }
 ];
