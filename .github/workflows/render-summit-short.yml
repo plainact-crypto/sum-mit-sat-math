@@ -6,11 +6,11 @@ on:
       spec:
         description: 'Path to short spec JSON'
         required: true
-        default: 'shorts/specs/yt45-equation-from-table.json'
+        default: 'shorts/specs/slope-from-two-points.json'
       voice:
         description: 'Kokoro voice (af_heart, am_adam, etc.)'
         required: false
-        default: 'af_heart'
+        default: 'am_adam'
   push:
     branches: [main]
     paths:
@@ -43,8 +43,8 @@ jobs:
       - name: Render short
         run: |
           mkdir -p shorts/output
-          SPEC="${{ github.event.inputs.spec || 'shorts/specs/yt45-equation-from-table.json' }}"
-          VOICE="${{ github.event.inputs.voice || 'af_heart' }}"
+          SPEC="${{ github.event.inputs.spec || 'shorts/specs/slope-from-two-points.json' }}"
+          VOICE="${{ github.event.inputs.voice || 'am_adam' }}"
           python shorts/render_short.py "$SPEC" \
             --voice "$VOICE" \
             --out shorts/output/summit-short.mp4
