@@ -28,7 +28,8 @@ const items=[
   {route:'algebra/linear-inequalities/solving-one-variable-inequalities/answers/',source:'solving-one-variable-inequalities-answers.html'},
   {route:'algebra/linear-inequalities/reversing-the-inequality-sign/problems/',source:'reversing-the-inequality-sign-problems.html'},
   {route:'algebra/linear-inequalities/reversing-the-inequality-sign/answers/',source:'reversing-the-inequality-sign-answers.html'},
-  {route:'algebra/linear-inequalities/compound-inequalities/problems/',source:'compound-inequalities-problems.html'}
+  {route:'algebra/linear-inequalities/compound-inequalities/problems/',source:'compound-inequalities-problems.html'},
+  {route:'algebra/linear-inequalities/compound-inequalities/answers/',source:'compound-inequalities-answers.html'}
 ];
 const completedRoutes=new Set();
 for(const item of items){const source=path.join(root,item.source);if(!fs.existsSync(source))continue;const target=path.join(dist,item.route);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(source,path.join(target,'index.html'));completedRoutes.add(`/${item.route}`)}
