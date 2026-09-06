@@ -24,5 +24,10 @@ module.exports=[
     slug:'solving-by-elimination',lesson:'Solving by Elimination',classification:'BOTH',
     graph:{bounds:{xMin:-2,xMax:6,yMin:-5,yMax:9},lines:[{m:-2,b:7,qaX:[0,1,3],yIntercept:7},{m:1,b:-2,qaX:[0,2,3],yIntercept:-2}],intersections:[{a:0,b:1,x:3,y:1}],points:[{x:3,y:1,line:0,label:'solution (3, 1)'}],ariaLabel:'Lines 2x plus y equals 7 and x minus y equals 2 intersecting at the elimination solution (3, 1)'},
     desmos:D('2x + y = 7 and x - y = 2','the intersection point (3, 1)','verify the ordered pair found by elimination','adding the equations cancels y while preserving every common solution; the remaining x-value locates the same intersection','Elimination is fastest when coefficients are already opposite; Desmos is useful for checking the result and connecting algebra to the graph.','Add the equations: 3x=9, so x=3. Then 3-y=2 gives y=1. Check: 2(3)+1=7 and 3-1=2. For graph QA, y=-2x+7 gives 7,5,1 at x=0,1,3; y=x-2 gives -2,0,1 at x=0,2,3.')
+  },
+  {
+    slug:'solving-graphically',lesson:'Solving Graphically',classification:'BOTH',
+    graph:{bounds:{xMin:-2,xMax:6,yMin:-2,yMax:10},lines:[{m:2,b:1,qaX:[0,1,2],yIntercept:1},{m:-1,b:7,qaX:[0,2,4],yIntercept:7}],intersections:[{a:0,b:1,x:2,y:5}],points:[{x:2,y:5,line:0,label:'solution (2, 5)'}],ariaLabel:'Lines y equals 2x plus 1 and y equals negative x plus 7 intersecting at the graphical solution (2, 5)'},
+    desmos:D('y = 2x + 1 and y = -x + 7','the intersection point (2, 5)','read the system solution from the common point, then verify it in both equations','every point on each graph satisfies its equation, so the intersection satisfies both equations at the same time','For graph-based questions, Desmos is often the fastest accurate tool; algebra is useful for confirming an exact intersection.','Set 2x+1=-x+7: 3x=6, so x=2 and y=5. Graph QA: y=2x+1 gives 1,3,5 at x=0,1,2; y=-x+7 gives 7,5,3 at x=0,2,4. Both give y=5 at x=2.')
   }
 ];
