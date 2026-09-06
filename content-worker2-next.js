@@ -20,7 +20,8 @@ const items=[
   {route:'algebra/systems-of-linear-equations/solving-from-tables/explanation/',source:'solving-from-tables-explanation.html'},
   {route:'algebra/systems-of-linear-equations/solving-from-tables/problems/',source:'solving-from-tables-problems.html'},
   {route:'algebra/systems-of-linear-equations/solving-from-tables/answers/',source:'solving-from-tables-answers.html'},
-  {route:'algebra/systems-of-linear-equations/solving-from-tables/test/',source:'solving-from-tables-test.html'}
+  {route:'algebra/systems-of-linear-equations/solving-from-tables/test/',source:'solving-from-tables-test.html'},
+  {route:'algebra/systems-of-linear-equations/systems-word-problems/problems/',source:'systems-word-problems-problems.html'}
 ];
 const completedRoutes=new Set();
 for(const item of items){const source=path.join(root,item.source);if(!fs.existsSync(source))continue;const target=path.join(dist,item.route);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(source,path.join(target,'index.html'));completedRoutes.add(`/${item.route}`)}
