@@ -1,64 +1,64 @@
 {
-  "title": "How to Find Slope From Two Points",
-  "lesson_url": "https://summit-sat-math.vercel.app/algebra/linear-functions/slope-from-two-points/explanation/",
+  "title": "Building an Equation from Two Points",
+  "lesson_url": "https://summit-sat-math.vercel.app/algebra/linear-functions/building-an-equation-from-two-points/explanation/",
   "voice": "am_adam",
   "lang_code": "a",
   "scenes": [
     {
-      "title": "Two points — but where does slope come from?",
+      "title": "Two points — how do you get the whole equation?",
       "body": [
-        "Slope measures vertical change compared with horizontal change.",
-        "The key is subtracting in the same order."
+        "First find how the line moves.",
+        "Then use one point to locate the line."
       ],
       "visual": "intro",
-      "narration": "If you are given two points, slope can feel like a formula you are supposed to memorize. But the idea is simpler: slope measures how much y changes compared with how much x changes. The only trap is keeping your subtraction order consistent."
+      "narration": "If you are given two points and asked for the equation of the line, there are really two jobs. First, find how the line moves. That is the slope. Then use one of the points to figure out exactly where that line sits."
     },
     {
-      "title": "Use the points (2, 5) and (6, 13)",
+      "title": "Start with (2, 5) and (6, 13)",
       "body": [
-        "From x = 2 to x = 6, the run is 4.",
-        "From y = 5 to y = 13, the rise is 8."
+        "Change in y: 13 − 5 = 8",
+        "Change in x: 6 − 2 = 4"
       ],
       "visual": "slope",
       "m": 2,
       "b": 1,
       "points": [[2,5],[6,13]],
-      "narration": "Take the points two comma five and six comma thirteen. Moving from the first point to the second, x increases by four. That is the run. Over the same move, y increases by eight. That is the rise. So the line goes up eight while it goes right four."
+      "narration": "Use the points two comma five and six comma thirteen. From the first point to the second, y increases by eight and x increases by four. Slope is change in y divided by change in x, so the slope is eight over four, which simplifies to two."
     },
     {
-      "title": "Now use the slope formula",
+      "title": "Now find the missing intercept",
       "body": [
-        "Rise is y₂ − y₁.",
-        "Run is x₂ − x₁."
+        "Use y = mx + b.",
+        "We already know m = 2."
       ],
       "visual": "formula",
-      "formula": "m = (y₂ − y₁) / (x₂ − x₁)",
-      "substitution": "m = (13 − 5) / (6 − 2)",
-      "narration": "The slope formula just writes that same idea with coordinates: m equals y two minus y one, divided by x two minus x one. Substitute the points in the same order. Thirteen minus five goes on top, and six minus two goes on the bottom."
+      "formula": "y = mx + b",
+      "substitution": "5 = 2(2) + b",
+      "narration": "Now use slope-intercept form, y equals m x plus b. We already know m is two. Pick the point two comma five. Substitute x equals two and y equals five. That gives five equals two times two plus b."
     },
     {
-      "title": "Simplify: 8 divided by 4 equals 2",
+      "title": "Solve for b",
       "body": [
-        "m = 8 / 4 = 2",
-        "Slope 2 means y rises 2 for every 1 step right."
+        "5 = 4 + b",
+        "So b = 1."
       ],
       "visual": "formula",
-      "formula": "m = 8 / 4",
-      "substitution": "m = 2",
-      "narration": "Now simplify. Eight divided by four equals two. So the slope is two. That means for every one unit x increases, y increases by two units. The fraction eight over four and the simplified slope two describe the same rate of change."
+      "formula": "5 = 4 + b",
+      "substitution": "b = 1",
+      "narration": "Simplify two times two to get four. Now five equals four plus b, so b equals one. The slope told us how the line moves, and this point told us the vertical position of the line."
     },
     {
-      "title": "Same order in both differences",
+      "title": "The equation is y = 2x + 1",
       "body": [
-        "Reverse both differences and the answer stays 2.",
-        "Reverse only one and the sign becomes wrong."
+        "Check (2,5): 2(2)+1 = 5",
+        "Check (6,13): 2(6)+1 = 13"
       ],
       "visual": "final",
-      "equation": "m = 2",
+      "equation": "y = 2x + 1",
       "m": 2,
       "b": 1,
       "points": [[2,5],[6,13]],
-      "narration": "The big idea is not just the formula. Use y change over x change, and keep the subtraction order the same in both differences. For these two points, the rise is eight, the run is four, and the slope is two. The full lesson is available on SUMMIT. Find the complete lesson below."
+      "narration": "So the equation is y equals two x plus one. Always check both original points. When x is two, y is five. When x is six, y is thirteen. Both work, so the equation is correct. The full lesson is available on SUMMIT. Find the complete lesson below."
     }
   ]
 }
