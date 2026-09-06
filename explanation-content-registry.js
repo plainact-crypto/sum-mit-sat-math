@@ -41,5 +41,9 @@ module.exports=[
   {
     slug:'solving-one-variable-inequalities',lesson:'Solving One-Variable Inequalities',classification:'DESMOS',graph:null,
     desmos:D('3x + 5 < 20','the solution region x < 5','verify the algebraic solution and test the boundary value','the inequality is true exactly for the x-values that make the left side smaller than 20, so the displayed solution region represents the same solution set','For a simple one-variable inequality, algebra is usually faster; Desmos is useful for checking the solution set and catching a sign or boundary mistake.','Subtract 5 to get 3x<15, then divide by positive 3 to get x<5. At x=4, 3(4)+5=17<20; at x=5, 20<20 is false.')
+  },
+  {
+    slug:'compound-inequalities',lesson:'Compound Inequalities',classification:'DESMOS',graph:null,
+    desmos:D('2 < x <= 7; then enter x < -2 and x >= 4 on separate lines','the bounded overlap 2 < x <= 7 in the first case, then two separate regions x < -2 or x >= 4 in the OR case','verify AND as the shared interval and OR as the union of either valid region','a compound AND keeps values satisfying both boundaries at once, while OR keeps values satisfying at least one condition','For clean compound inequalities, algebra is usually faster; Desmos is useful for checking endpoint inclusion and whether the final set is an overlap or a union.','For 2<3x-4<=17, add 4 to all parts to get 6<3x<=21, then divide by 3 to get 2<x<=7. For 4x+1<-7 OR 3x-5>=7, solve separately to get x<-2 OR x>=4. Boundary checks: x=2 fails the strict lower bound, x=7 is included, x=-2 fails the first OR branch, and x=4 satisfies the second.')
   }
 ];
