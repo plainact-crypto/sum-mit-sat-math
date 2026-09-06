@@ -11,6 +11,11 @@ on:
         description: 'Kokoro voice (af_heart, am_adam, etc.)'
         required: false
         default: 'af_heart'
+  push:
+    branches: [main]
+    paths:
+      - 'shorts/**'
+      - '.github/workflows/render-summit-short.yml'
 
 jobs:
   render:
@@ -38,8 +43,10 @@ jobs:
       - name: Render short
         run: |
           mkdir -p shorts/output
-          python shorts/render_short.py "${{ github.event.inputs.spec }}" \
-            --voice "${{ github.event.inputs.voice }}" \
+          SPEC="${{ github.event.inputs.spec || 'shorts/specs/slope-and-one-point.json' }}"
+          VOICE="${{ github.event.inputs.voice || 'af_heart' }}"
+          python shorts/render_short.py "$SPEC" \
+            --voice "$VOICE" \
             --out shorts/output/summit-short.mp4
 
       - name: Upload MP4 artifact
