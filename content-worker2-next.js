@@ -17,7 +17,8 @@ const items=[
   {route:'algebra/systems-of-linear-equations/solving-graphically/problems/',source:'solving-graphically-problems.html'},
   {route:'algebra/systems-of-linear-equations/solving-graphically/answers/',source:'solving-graphically-answers.html'},
   {route:'algebra/systems-of-linear-equations/solving-graphically/test/',source:'solving-graphically-test.html'},
-  {route:'algebra/systems-of-linear-equations/solving-from-tables/problems/',source:'solving-from-tables-problems.html'}
+  {route:'algebra/systems-of-linear-equations/solving-from-tables/problems/',source:'solving-from-tables-problems.html'},
+  {route:'algebra/systems-of-linear-equations/solving-from-tables/answers/',source:'solving-from-tables-answers.html'}
 ];
 const completedRoutes=new Set();
 for(const item of items){const source=path.join(root,item.source);if(!fs.existsSync(source))continue;const target=path.join(dist,item.route);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(source,path.join(target,'index.html'));completedRoutes.add(`/${item.route}`)}
