@@ -23,7 +23,8 @@ const items=[
   {route:'algebra/systems-of-linear-equations/solving-from-tables/test/',source:'solving-from-tables-test.html'},
   {route:'algebra/systems-of-linear-equations/systems-word-problems/explanation/',source:'systems-word-problems-explanation.html'},
   {route:'algebra/systems-of-linear-equations/systems-word-problems/problems/',source:'systems-word-problems-problems.html'},
-  {route:'algebra/systems-of-linear-equations/systems-word-problems/test/',source:'systems-word-problems-test.html'}
+  {route:'algebra/systems-of-linear-equations/systems-word-problems/test/',source:'systems-word-problems-test.html'},
+  {route:'algebra/linear-inequalities/solving-one-variable-inequalities/problems/',source:'solving-one-variable-inequalities-problems.html'}
 ];
 const completedRoutes=new Set();
 for(const item of items){const source=path.join(root,item.source);if(!fs.existsSync(source))continue;const target=path.join(dist,item.route);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(source,path.join(target,'index.html'));completedRoutes.add(`/${item.route}`)}
