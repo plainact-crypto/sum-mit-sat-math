@@ -21,6 +21,7 @@ const items=[
   {route:'algebra/systems-of-linear-equations/solving-from-tables/problems/',source:'solving-from-tables-problems.html'},
   {route:'algebra/systems-of-linear-equations/solving-from-tables/answers/',source:'solving-from-tables-answers.html'},
   {route:'algebra/systems-of-linear-equations/solving-from-tables/test/',source:'solving-from-tables-test.html'},
+  {route:'algebra/systems-of-linear-equations/systems-word-problems/explanation/',source:'systems-word-problems-explanation.html'},
   {route:'algebra/systems-of-linear-equations/systems-word-problems/problems/',source:'systems-word-problems-problems.html'}
 ];
 const completedRoutes=new Set();

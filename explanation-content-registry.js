@@ -33,5 +33,9 @@ module.exports=[
   {
     slug:'systems-with-parameters',lesson:'Systems with Parameters',classification:'DESMOS',graph:null,
     desmos:D('2x + y = 7 and kx + 2y = c','how the relationship changes as you try k=4,c=14; k=4,c=10; and k=6,c=14','verify whether a chosen parameter case gives infinitely many solutions, no solution, or one solution','the parameter values change the coefficient and constant relationships, which determines whether the equations are identical, parallel, or intersect once','Coefficient comparison is usually faster for exact parameter questions; Desmos is useful for checking cases and seeing how sliders change the system.','Double the first equation to get 4x+2y=14. Thus k=4,c=14 gives the same equation; k=4,c=10 gives 4x+2y=14 and 4x+2y=10, a contradiction; k=6,c=14 gives x=0,y=7. More generally the coefficient determinant is 4-k, so k≠4 gives one unique solution.')
+  },
+  {
+    slug:'systems-word-problems',lesson:'Systems Word Problems',classification:'DESMOS',graph:null,
+    desmos:D('x + y = 18 and 9x + 5y = 126','the intersection (9, 9)','verify the adult-ticket and student-ticket counts after building the model','a common ordered pair satisfies both the total-count equation and the revenue equation, so it satisfies both facts in the situation','Building the equations is the main skill; elimination is faster for this clean system, while Desmos is useful for checking the model and solution.','From x+y=18, multiply by 5 to get 5x+5y=90. Subtract from 9x+5y=126: 4x=36, so x=9 and y=9. Check: 9+9=18 and 9(9)+5(9)=126.')
   }
 ];
