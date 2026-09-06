@@ -45,7 +45,7 @@ Final PASS is intentionally not assigned in Steps 1–8. Final PASS requires the
 | 29 | slope-from-two-points | slope-from-two-points-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
 | 30 | slope-intercept-form | slope-intercept-form-explanation.html | Algebra · Linear Equations / Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
 | 31 | standard-form | standard-form-explanation.html | Algebra · Linear Equations in Two Variables | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
-| 32 | undefined-slope | undefined-slope-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
+| 32 | undefined-slope | undefined-slope-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-06 |
 | 33 | variables-both-sides | variables-both-sides-explanation.html | Algebra · Linear Equations in One Variable | DESMOS | No | Yes | No | No | Classified · retrofit pending |
 | 34 | y-intercept-as-initial-value | y-intercept-as-initial-value-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
 | 35 | zero-slope | zero-slope-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-06 |
