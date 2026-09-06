@@ -6,11 +6,11 @@ on:
       spec:
         description: 'Path to short spec JSON'
         required: true
-        default: 'shorts/specs/slope-from-two-points.json'
+        default: 'shorts/specs/collinear-points.json'
       voice:
         description: 'Kokoro voice (af_heart, am_adam, etc.)'
         required: false
-        default: 'am_adam'
+        default: 'af_heart'
   push:
     branches: [main]
     paths:
@@ -50,8 +50,8 @@ jobs:
       - name: Render short
         run: |
           mkdir -p shorts/output
-          SPEC="${{ github.event.inputs.spec || 'shorts/specs/slope-from-two-points.json' }}"
-          VOICE="${{ github.event.inputs.voice || 'am_adam' }}"
+          SPEC="${{ github.event.inputs.spec || 'shorts/specs/collinear-points.json' }}"
+          VOICE="${{ github.event.inputs.voice || 'af_heart' }}"
           python shorts/render_short.py "$SPEC" \
             --voice "$VOICE" \
             --out shorts/output/summit-short.mp4
@@ -67,11 +67,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git reset --hard HEAD
           git pull --rebase origin main
           git add -f shorts/output/summit-short.mp4
           if git diff --cached --quiet; then
             echo "Rendered MP4 unchanged; nothing to commit."
           else
-            git commit -m "Store rendered SUMMIT short [skip ci]"
+            git commit -m "Store rendered Collinear Points SUMMIT short [skip ci]"
             git push origin HEAD:main
           fi
