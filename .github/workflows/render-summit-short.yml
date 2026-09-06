@@ -1,0 +1,50 @@
+name: Render SUMMIT Short
+
+on:
+  workflow_dispatch:
+    inputs:
+      spec:
+        description: 'Path to short spec JSON'
+        required: true
+        default: 'shorts/specs/slope-and-one-point.json'
+      voice:
+        description: 'Kokoro voice (af_heart, am_adam, etc.)'
+        required: false
+        default: 'af_heart'
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg espeak-ng fonts-dejavu-core
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r shorts/requirements.txt
+
+      - name: Render short
+        run: |
+          mkdir -p shorts/output
+          python shorts/render_short.py "${{ github.event.inputs.spec }}" \
+            --voice "${{ github.event.inputs.voice }}" \
+            --out shorts/output/summit-short.mp4
+
+      - name: Upload MP4 artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: summit-short-mp4
+          path: shorts/output/summit-short.mp4
+          retention-days: 14
