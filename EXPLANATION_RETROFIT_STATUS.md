@@ -36,7 +36,7 @@ Final PASS is intentionally not assigned in Steps 1–8. Final PASS requires the
 | 20 | parallel-lines | parallel-lines-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
 | 21 | perpendicular-lines | perpendicular-lines-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
 | 22 | point-slope-form | point-slope-form-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
-| 23 | positive-slope | positive-slope-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
+| 23 | positive-slope | positive-slope-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-06 |
 | 24 | rate-of-change | rate-of-change-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
 | 25 | slope-from-a-graph | slope-from-a-graph-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
 | 26 | slope-from-a-table | slope-from-a-table-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
