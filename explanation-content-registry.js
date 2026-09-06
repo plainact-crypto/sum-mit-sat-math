@@ -19,5 +19,10 @@ module.exports=[
     slug:'solving-by-substitution',lesson:'Solving by Substitution',classification:'BOTH',
     graph:{bounds:{xMin:-2,xMax:7,yMin:-2,yMax:9},lines:[{m:1,b:1,qaX:[0,1,3],yIntercept:1},{m:-1,b:7,qaX:[0,2,3],yIntercept:7}],intersections:[{a:0,b:1,x:3,y:4}],points:[{x:3,y:4,line:0,label:'solution (3, 4)'}],ariaLabel:'Lines y = x + 1 and y = -x + 7 intersecting at the substitution solution (3, 4)'},
     desmos:D('y = x + 1 and x + y = 7','the intersection point (3, 4)','verify the ordered pair found by substitution','the intersection is the point that satisfies both equations, exactly matching the algebraic definition of a system solution','Substitution is faster when a variable is already isolated; Desmos is useful for checking the result and connecting it to the graph.','Substitute y=x+1 into x+y=7: x+(x+1)=7, so 2x=6, x=3, y=4. Check: 4=3+1 and 3+4=7.')
+  },
+  {
+    slug:'solving-by-elimination',lesson:'Solving by Elimination',classification:'BOTH',
+    graph:{bounds:{xMin:-2,xMax:6,yMin:-5,yMax:9},lines:[{m:-2,b:7,qaX:[0,1,3],yIntercept:7},{m:1,b:-2,qaX:[0,2,3],yIntercept:-2}],intersections:[{a:0,b:1,x:3,y:1}],points:[{x:3,y:1,line:0,label:'solution (3, 1)'}],ariaLabel:'Lines 2x plus y equals 7 and x minus y equals 2 intersecting at the elimination solution (3, 1)'},
+    desmos:D('2x + y = 7 and x - y = 2','the intersection point (3, 1)','verify the ordered pair found by elimination','adding the equations cancels y while preserving every common solution; the remaining x-value locates the same intersection','Elimination is fastest when coefficients are already opposite; Desmos is useful for checking the result and connecting algebra to the graph.','Add the equations: 3x=9, so x=3. Then 3-y=2 gives y=1. Check: 2(3)+1=7 and 3-1=2. For graph QA, y=-2x+7 gives 7,5,1 at x=0,1,3; y=x-2 gives -2,0,1 at x=0,2,3.')
   }
 ];
