@@ -1,0 +1,53 @@
+{
+  "title": "Building an Equation from Slope and One Point",
+  "lesson_url": "https://summit-sat-math.vercel.app/algebra/linear-functions/building-an-equation-from-slope-and-one-point/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Slope + one point?",
+      "body": [
+        "Having trouble writing the equation of a line from a slope and one point?",
+        "This is a basic idea, but the key is understanding what the numbers actually mean."
+      ],
+      "visual": "intro",
+      "narration": "Having trouble understanding how to write the equation of a line when you’re given a slope and one point? This is one of those basic ideas that gets much easier once you understand what the numbers actually mean. First, the slope."
+    },
+    {
+      "title": "What does slope = 3 mean?",
+      "body": [
+        "Think of 3 as 3 over 1.",
+        "Every 1 step right means 3 steps up."
+      ],
+      "visual": "slope",
+      "narration": "If the slope is three, think of it as three over one. Every time x moves one step to the right, y moves three steps up. Right one, up three. That’s what a slope of three actually means."
+    },
+    {
+      "title": "What does the point (2, 5) mean?",
+      "body": [
+        "When x = 2, y = 5.",
+        "The line must pass through that exact point."
+      ],
+      "visual": "point",
+      "narration": "Now look at the point two, five. That simply means the line must pass through x equals two, y equals five. So now we know two things: how the line moves, and one exact point it passes through. That’s enough to determine the line."
+    },
+    {
+      "title": "Use point-slope form",
+      "body": [
+        "m is the slope.",
+        "(x₁, y₁) is the point we already know."
+      ],
+      "visual": "formula",
+      "narration": "Use point-slope form: y minus y one equals m times x minus x one. Here, m is the slope, and x one, y one are the coordinates of the point we already know. Substitute the values: y minus five equals three times x minus two."
+    },
+    {
+      "title": "Now simplify",
+      "body": [
+        "The slope tells us how the line moves.",
+        "The point tells us where it has to pass."
+      ],
+      "visual": "final",
+      "narration": "Now simplify. y minus five equals three x minus six. Add five to both sides, and you get y equals three x minus one. So the slope tells us how the line moves, and the point tells us where it has to pass. Put those together, and the equation follows. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
