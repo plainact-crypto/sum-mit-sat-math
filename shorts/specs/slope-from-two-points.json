@@ -1,0 +1,64 @@
+{
+  "title": "How to Find Slope From Two Points",
+  "lesson_url": "https://summit-sat-math.vercel.app/algebra/linear-functions/slope-from-two-points/explanation/",
+  "voice": "am_adam",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Two points — but where does slope come from?",
+      "body": [
+        "Slope measures vertical change compared with horizontal change.",
+        "The key is subtracting in the same order."
+      ],
+      "visual": "intro",
+      "narration": "If you are given two points, slope can feel like a formula you are supposed to memorize. But the idea is simpler: slope measures how much y changes compared with how much x changes. The only trap is keeping your subtraction order consistent."
+    },
+    {
+      "title": "Use the points (2, 5) and (6, 13)",
+      "body": [
+        "From x = 2 to x = 6, the run is 4.",
+        "From y = 5 to y = 13, the rise is 8."
+      ],
+      "visual": "slope",
+      "m": 2,
+      "b": 1,
+      "points": [[2,5],[6,13]],
+      "narration": "Take the points two comma five and six comma thirteen. Moving from the first point to the second, x increases by four. That is the run. Over the same move, y increases by eight. That is the rise. So the line goes up eight while it goes right four."
+    },
+    {
+      "title": "Now use the slope formula",
+      "body": [
+        "Rise is y₂ − y₁.",
+        "Run is x₂ − x₁."
+      ],
+      "visual": "formula",
+      "formula": "m = (y₂ − y₁) / (x₂ − x₁)",
+      "substitution": "m = (13 − 5) / (6 − 2)",
+      "narration": "The slope formula just writes that same idea with coordinates: m equals y two minus y one, divided by x two minus x one. Substitute the points in the same order. Thirteen minus five goes on top, and six minus two goes on the bottom."
+    },
+    {
+      "title": "Simplify: 8 divided by 4 equals 2",
+      "body": [
+        "m = 8 / 4 = 2",
+        "Slope 2 means y rises 2 for every 1 step right."
+      ],
+      "visual": "formula",
+      "formula": "m = 8 / 4",
+      "substitution": "m = 2",
+      "narration": "Now simplify. Eight divided by four equals two. So the slope is two. That means for every one unit x increases, y increases by two units. The fraction eight over four and the simplified slope two describe the same rate of change."
+    },
+    {
+      "title": "Same order in both differences",
+      "body": [
+        "Reverse both differences and the answer stays 2.",
+        "Reverse only one and the sign becomes wrong."
+      ],
+      "visual": "final",
+      "equation": "m = 2",
+      "m": 2,
+      "b": 1,
+      "points": [[2,5],[6,13]],
+      "narration": "The big idea is not just the formula. Use y change over x change, and keep the subtraction order the same in both differences. For these two points, the rise is eight, the run is four, and the slope is two. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
