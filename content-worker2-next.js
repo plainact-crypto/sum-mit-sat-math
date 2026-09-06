@@ -17,6 +17,7 @@ const items=[
   {route:'algebra/systems-of-linear-equations/solving-graphically/problems/',source:'solving-graphically-problems.html'},
   {route:'algebra/systems-of-linear-equations/solving-graphically/answers/',source:'solving-graphically-answers.html'},
   {route:'algebra/systems-of-linear-equations/solving-graphically/test/',source:'solving-graphically-test.html'},
+  {route:'algebra/systems-of-linear-equations/solving-from-tables/explanation/',source:'solving-from-tables-explanation.html'},
   {route:'algebra/systems-of-linear-equations/solving-from-tables/problems/',source:'solving-from-tables-problems.html'},
   {route:'algebra/systems-of-linear-equations/solving-from-tables/answers/',source:'solving-from-tables-answers.html'},
   {route:'algebra/systems-of-linear-equations/solving-from-tables/test/',source:'solving-from-tables-test.html'}
