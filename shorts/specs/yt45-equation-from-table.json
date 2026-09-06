@@ -1,0 +1,57 @@
+{
+  "title": "How to Write a Linear Equation From a Table",
+  "lesson_url": "https://summit-sat-math.vercel.app/algebra/linear-functions/linear-function-tables/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "How do you turn a table into an equation?",
+      "body": [
+        "Students often see the numbers but miss the rule connecting them.",
+        "A linear table gives you two things: slope and starting value."
+      ],
+      "visual": "table",
+      "rows": [[0,2],[1,5],[2,8]],
+      "narration": "If a table gives you x and y values, the question is not just what comes next. The real goal is to find the rule connecting x to y. For a linear table, that rule is built from two things: the slope and the starting value."
+    },
+    {
+      "title": "First: find the slope",
+      "body": [
+        "Slope means how much y changes for each 1-step change in x.",
+        "Here, y goes up by 3 whenever x goes up by 1."
+      ],
+      "visual": "table_rate",
+      "rows": [[0,2],[1,5],[2,8]],
+      "formula": "slope = Δy / Δx = 3 / 1 = 3",
+      "narration": "Slope tells us how fast y changes compared with x. From zero to one, x increases by one and y increases from two to five, which is three. The same thing happens again from one to two. So the slope is three."
+    },
+    {
+      "title": "Next: find the starting value",
+      "body": [
+        "In y = mx + b, b is the y-value when x = 0.",
+        "The table already gives us that row."
+      ],
+      "visual": "table_intercept",
+      "rows": [[0,2],[1,5],[2,8]],
+      "narration": "Now we need the starting value. In the form y equals m x plus b, b is the y-value when x equals zero. The table shows that when x is zero, y is two. So b equals two."
+    },
+    {
+      "title": "Put the pieces into y = mx + b",
+      "body": [
+        "m = 3 is the rate of change.",
+        "b = 2 is the starting value."
+      ],
+      "visual": "table_equation",
+      "narration": "Now substitute what each part means. The slope m is three, and the starting value b is two. That gives y equals three x plus two."
+    },
+    {
+      "title": "Check the rule against the table",
+      "body": [
+        "Use a table value to verify the equation.",
+        "At x = 2, the equation gives y = 8."
+      ],
+      "visual": "table_final",
+      "narration": "Always check the rule. If x equals two, y equals three times two plus two, which is eight. That matches the table exactly. So the equation is y equals three x plus two. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
