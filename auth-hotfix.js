@@ -23,6 +23,19 @@
     }
   };
 
+  const logFailedSignup=async(client,payload,error)=>{
+    const email=String(payload?.email||'').trim().toLowerCase();
+    if(!email)return;
+    try{
+      await client.from('signup_attempts').insert({
+        email,
+        error_message:String(error?.message||'Unknown signup error').slice(0,1000),
+        page_url:location.href,
+        user_agent:navigator.userAgent
+      });
+    }catch(_){/* Never block signup UI because telemetry failed. */}
+  };
+
   const returnUrl=()=>location.hostname.endsWith('github.io')?`${location.origin}/sum-mit-sat-math/`:`${location.origin}/`;
 
   function showRecoveryPanel(client){
@@ -60,6 +73,7 @@
     client.auth.signUp=async payload=>{
       const result=await safeAuth(signUp(payload),'Sign up');
       if(result?.error){
+        await logFailedSignup(client,payload,result.error);
         const m=String(result.error.message||'').toLowerCase();
         if(m.includes('rate limit')||m.includes('email rate')) result.error.message='Email delivery is temporarily busy. Please do not keep retrying. Try again later or use sign in if this account already exists.';
       }
