@@ -45,13 +45,13 @@
       "narration": "Now substitute what each part means. The slope m is three, and the starting value b is two. That gives y equals three x plus two."
     },
     {
-      "title": "Check the rule against the table",
+      "title": "The rule is y = 3x + 2",
       "body": [
-        "Use a table value to verify the equation.",
-        "At x = 2, the equation gives y = 8."
+        "Slope 3 tells us the rate.",
+        "Starting value 2 tells us where the rule begins."
       ],
-      "visual": "table_final",
-      "narration": "Always check the rule. If x equals two, y equals three times two plus two, which is eight. That matches the table exactly. So the equation is y equals three x plus two. The full lesson is available on SUMMIT. Find the complete lesson below."
+      "visual": "table_equation",
+      "narration": "So the equation is y equals three x plus two. The three tells us the rate of change, and the two tells us the starting value. If x equals two, the rule gives eight, which matches the table. That is how the table becomes an equation. The full lesson is available on SUMMIT. Find the complete lesson below."
     }
   ]
 }
