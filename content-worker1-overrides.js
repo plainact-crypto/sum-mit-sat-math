@@ -14,7 +14,8 @@ const items=[
 ['algebra/systems-of-linear-equations/systems-with-parameters/test/','systems-with-parameters-test.html'],
 ['algebra/systems-of-linear-equations/systems-word-problems/answers/','systems-word-problems-answers.html'],
 ['algebra/linear-inequalities/solving-one-variable-inequalities/explanation/','solving-one-variable-inequalities-explanation.html'],
-['algebra/linear-inequalities/solving-one-variable-inequalities/answers/','solving-one-variable-inequalities-answers.html']
+['algebra/linear-inequalities/solving-one-variable-inequalities/answers/','solving-one-variable-inequalities-answers.html'],
+['algebra/linear-inequalities/solving-one-variable-inequalities/test/','solving-one-variable-inequalities-test.html']
 ];
 for(const [route,file] of items){const target=path.join(dist,route);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}
 const tableProblems=path.join(dist,'algebra','linear-functions','linear-function-tables','problems','index.html');
