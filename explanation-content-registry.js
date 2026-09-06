@@ -29,5 +29,9 @@ module.exports=[
     slug:'solving-graphically',lesson:'Solving Graphically',classification:'BOTH',
     graph:{bounds:{xMin:-2,xMax:6,yMin:-2,yMax:10},lines:[{m:2,b:1,qaX:[0,1,2],yIntercept:1},{m:-1,b:7,qaX:[0,2,4],yIntercept:7}],intersections:[{a:0,b:1,x:2,y:5}],points:[{x:2,y:5,line:0,label:'solution (2, 5)'}],ariaLabel:'Lines y equals 2x plus 1 and y equals negative x plus 7 intersecting at the graphical solution (2, 5)'},
     desmos:D('y = 2x + 1 and y = -x + 7','the intersection point (2, 5)','read the system solution from the common point, then verify it in both equations','every point on each graph satisfies its equation, so the intersection satisfies both equations at the same time','For graph-based questions, Desmos is often the fastest accurate tool; algebra is useful for confirming an exact intersection.','Set 2x+1=-x+7: 3x=6, so x=2 and y=5. Graph QA: y=2x+1 gives 1,3,5 at x=0,1,2; y=-x+7 gives 7,5,3 at x=0,2,4. Both give y=5 at x=2.')
+  },
+  {
+    slug:'systems-with-parameters',lesson:'Systems with Parameters',classification:'DESMOS',graph:null,
+    desmos:D('2x + y = 7 and kx + 2y = c','how the relationship changes as you try k=4,c=14; k=4,c=10; and k=6,c=14','verify whether a chosen parameter case gives infinitely many solutions, no solution, or one solution','the parameter values change the coefficient and constant relationships, which determines whether the equations are identical, parallel, or intersect once','Coefficient comparison is usually faster for exact parameter questions; Desmos is useful for checking cases and seeing how sliders change the system.','Double the first equation to get 4x+2y=14. Thus k=4,c=14 gives the same equation; k=4,c=10 gives 4x+2y=14 and 4x+2y=10, a contradiction; k=6,c=14 gives x=0,y=7. More generally the coefficient determinant is 4-k, so k≠4 gives one unique solution.')
   }
 ];
