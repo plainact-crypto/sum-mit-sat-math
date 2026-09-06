@@ -14,8 +14,13 @@ on:
   push:
     branches: [main]
     paths:
-      - 'shorts/**'
+      - 'shorts/specs/**'
+      - 'shorts/render_short.py'
+      - 'shorts/requirements.txt'
       - '.github/workflows/render-summit-short.yml'
+
+permissions:
+  contents: write
 
 jobs:
   render:
@@ -24,6 +29,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -55,3 +62,16 @@ jobs:
           name: summit-short-mp4
           path: shorts/output/summit-short.mp4
           retention-days: 14
+
+      - name: Persist MP4 for social publishing
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+          git add -f shorts/output/summit-short.mp4
+          if git diff --cached --quiet; then
+            echo "Rendered MP4 unchanged; nothing to commit."
+          else
+            git commit -m "Store rendered SUMMIT short [skip ci]"
+            git push origin HEAD:main
+          fi
