@@ -1,0 +1,63 @@
+{
+  "title": "Why the Inequality Sign Reverses",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-inequalities/reversing-the-inequality-sign/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Why does the sign flip?",
+      "body": [
+        "Solve: -2x > 6",
+        "Students often remember 'flip the sign' but forget why."
+      ],
+      "visual": "formula",
+      "formula": "-2x > 6",
+      "substitution": "divide by -2 → ?",
+      "narration": "Solve negative two x greater than six. This is where students often mix things up. They remember a rule that says flip the inequality sign, but if you only memorize the rule, it is easy to flip at the wrong time. Here is the idea: an inequality describes order, and multiplying or dividing by a negative number reverses that order."
+    },
+    {
+      "title": "A negative reverses order",
+      "body": [
+        "Start with a true statement: 2 < 5",
+        "Multiply both sides by -1."
+      ],
+      "visual": "formula",
+      "formula": "2 < 5",
+      "substitution": "-2 > -5",
+      "narration": "Look at a simpler statement first. Two is less than five. Now multiply both numbers by negative one. Two becomes negative two, and five becomes negative five. On the number line, negative two is now to the right of negative five, so negative two is greater than negative five. The order reversed, so the inequality symbol has to reverse too."
+    },
+    {
+      "title": "The rule has one trigger",
+      "body": [
+        "Flip only when multiplying or dividing BOTH sides by a negative number.",
+        "Adding or subtracting a negative does not trigger the flip."
+      ],
+      "visual": "formula",
+      "formula": "-3x ≤ 12",
+      "substitution": "÷(-3) → x ≥ -4",
+      "narration": "So the rule has one specific trigger: reverse the inequality only when you multiply or divide both sides by a negative number. This is the common mistake. Adding negative three, subtracting negative three, or simply seeing a negative sign is not enough. The flip happens because the entire order is reversed by negative multiplication or division."
+    },
+    {
+      "title": "Now solve the problem",
+      "body": [
+        "-2x > 6",
+        "Divide both sides by -2, so > becomes <."
+      ],
+      "visual": "formula",
+      "formula": "-2x > 6",
+      "substitution": "x < -3",
+      "narration": "Now return to negative two x greater than six. Divide both sides by negative two to isolate x. Because we divided by a negative number, greater than reverses to less than. Six divided by negative two is negative three, so the solution is x less than negative three."
+    },
+    {
+      "title": "Check the meaning",
+      "body": [
+        "Try x = -4, which is less than -3.",
+        "-2(-4) = 8, and 8 > 6 ✓"
+      ],
+      "visual": "formula",
+      "formula": "x < -3",
+      "substitution": "x=-4 → 8>6 ✓",
+      "narration": "Quick check: choose negative four, because negative four is less than negative three. Substitute it into the original inequality. Negative two times negative four is eight, and eight is greater than six, so it works. Remember the idea, not just the trick: a negative multiplication or division reverses order, so the inequality reverses with it. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
