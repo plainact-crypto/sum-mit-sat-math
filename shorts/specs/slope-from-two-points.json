@@ -1,64 +1,64 @@
 {
   "title": "Building an Equation from Two Points",
-  "lesson_url": "https://summit-sat-math.vercel.app/algebra/linear-functions/building-an-equation-from-two-points/explanation/",
-  "voice": "am_adam",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/building-an-equation-from-two-points/explanation/",
+  "voice": "af_heart",
   "lang_code": "a",
   "scenes": [
     {
-      "title": "Two points — how do you get the whole equation?",
+      "title": "Two points — can you build the whole line?",
       "body": [
-        "First find how the line moves.",
-        "Then use one point to locate the line."
+        "Use (2, 5) and (6, 13).",
+        "First find the line's rate, then its position."
       ],
       "visual": "intro",
-      "narration": "If you are given two points and asked for the equation of the line, there are really two jobs. First, find how the line moves. That is the slope. Then use one of the points to figure out exactly where that line sits."
+      "narration": "Suppose a line passes through two comma five and six comma thirteen. How do those two points determine one equation? Here’s the idea: two points tell us both how the line moves and where it sits. We first find the rate of change, then use either point to lock the line into position."
     },
     {
-      "title": "Start with (2, 5) and (6, 13)",
+      "title": "Find slope — but keep the order consistent",
       "body": [
-        "Change in y: 13 − 5 = 8",
-        "Change in x: 6 − 2 = 4"
+        "m = (13 − 5) / (6 − 2)",
+        "m = 8 / 4 = 2"
       ],
       "visual": "slope",
       "m": 2,
       "b": 1,
       "points": [[2,5],[6,13]],
-      "narration": "Use the points two comma five and six comma thirteen. From the first point to the second, y increases by eight and x increases by four. Slope is change in y divided by change in x, so the slope is eight over four, which simplifies to two."
+      "narration": "Slope is change in y divided by change in x. So we get thirteen minus five over six minus two, which is eight over four, or two. This is where students often mix things up: if you subtract the y-values in one direction, you must subtract the x-values in that same direction. Reversing both is fine. Reversing only one changes the sign and gives the wrong slope."
     },
     {
-      "title": "Now find the missing intercept",
+      "title": "Use one point to find b",
       "body": [
-        "Use y = mx + b.",
-        "We already know m = 2."
+        "y = mx + b",
+        "5 = 2(2) + b"
       ],
       "visual": "formula",
       "formula": "y = mx + b",
       "substitution": "5 = 2(2) + b",
-      "narration": "Now use slope-intercept form, y equals m x plus b. We already know m is two. Pick the point two comma five. Substitute x equals two and y equals five. That gives five equals two times two plus b."
+      "narration": "Now we know how steep the line is, but not where it crosses the y-axis. Put the slope into y equals m x plus b, and use one known point. With x equals two and y equals five, we get five equals two times two plus b. Notice why this works: the point must satisfy the equation because it lies on the line."
     },
     {
-      "title": "Solve for b",
+      "title": "Solve for the intercept",
       "body": [
         "5 = 4 + b",
-        "So b = 1."
+        "b = 1"
       ],
       "visual": "formula",
       "formula": "5 = 4 + b",
       "substitution": "b = 1",
-      "narration": "Simplify two times two to get four. Now five equals four plus b, so b equals one. The slope told us how the line moves, and this point told us the vertical position of the line."
+      "narration": "Simplify: five equals four plus b, so b equals one. The slope two tells us the line rises two units for every one unit to the right. The intercept one tells us the y-value when x is zero. Together they describe the entire line."
     },
     {
-      "title": "The equation is y = 2x + 1",
+      "title": "Equation: y = 2x + 1",
       "body": [
-        "Check (2,5): 2(2)+1 = 5",
-        "Check (6,13): 2(6)+1 = 13"
+        "Check (2, 5): 2(2) + 1 = 5",
+        "Check (6, 13): 2(6) + 1 = 13"
       ],
       "visual": "final",
       "equation": "y = 2x + 1",
       "m": 2,
       "b": 1,
       "points": [[2,5],[6,13]],
-      "narration": "So the equation is y equals two x plus one. Always check both original points. When x is two, y is five. When x is six, y is thirteen. Both work, so the equation is correct. The full lesson is available on SUMMIT. Find the complete lesson below."
+      "narration": "So the equation is y equals two x plus one. Quick check: two times two plus one is five, and two times six plus one is thirteen. Both original points work. The key idea is simple: two points give you the slope, and one of those points then gives you the intercept. The full lesson is available on SUMMIT. Find the complete lesson below."
     }
   ]
 }
