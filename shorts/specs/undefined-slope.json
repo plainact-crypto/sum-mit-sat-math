@@ -1,0 +1,66 @@
+{
+  "title": "Why Vertical Lines Have Undefined Slope",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/undefined-slope/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "What is the slope through (3, −2) and (3, 7)?",
+      "body": [
+        "Both points have the same x-value.",
+        "Is the slope 0 — or undefined?"
+      ],
+      "visual": "table",
+      "rows": [[3,-2],[3,7]],
+      "narration": "Find the slope of the line through three, negative two and three, seven. Both points have the same x-value. This is exactly where students often mix up zero slope and undefined slope. The answer is not zero. Here is the idea."
+    },
+    {
+      "title": "Slope measures vertical change per horizontal change",
+      "body": [
+        "m = change in y ÷ change in x",
+        "The denominator tells us how far we moved sideways."
+      ],
+      "visual": "formula",
+      "formula": "m = (y₂ − y₁) / (x₂ − x₁)",
+      "substitution": "horizontal change = 3 − 3 = 0",
+      "narration": "Slope is vertical change divided by horizontal change. The denominator matters because it tells us how much x changed. On a vertical line, x does not change at all, even though y does. So the horizontal change is zero."
+    },
+    {
+      "title": "Now calculate it carefully",
+      "body": [
+        "Δy = 7 − (−2) = 9",
+        "Δx = 3 − 3 = 0"
+      ],
+      "visual": "formula",
+      "formula": "m = 9 / 0",
+      "substitution": "division by 0 → undefined",
+      "narration": "Now calculate. The change in y is seven minus negative two, which is nine. The change in x is three minus three, which is zero. That gives nine divided by zero. Division by zero has no real-number value, so the slope is undefined."
+    },
+    {
+      "title": "Why undefined is NOT the same as zero",
+      "body": [
+        "Zero slope: Δy = 0 and Δx ≠ 0 → horizontal line.",
+        "Undefined slope: Δx = 0 → vertical line."
+      ],
+      "visual": "formula",
+      "formula": "horizontal: 0 / 6 = 0",
+      "substitution": "vertical: 9 / 0 = undefined",
+      "narration": "Notice the difference. Zero slope happens when the numerator is zero: y does not change, so the line is horizontal. Undefined slope happens when the denominator is zero: x does not change, so the line is vertical. Mixing up numerator and denominator is the common mistake."
+    },
+    {
+      "title": "Quick check: recognize the structure first",
+      "body": [
+        "Same x-coordinate for two distinct points → vertical line.",
+        "Equation form: x = a → undefined slope."
+      ],
+      "visual": "final",
+      "equation": "x = 3  →  slope is undefined",
+      "boundary": 3,
+      "inclusive": true,
+      "direction": "right",
+      "min_x": -1,
+      "max_x": 7,
+      "narration": "So before doing any arithmetic, look at the x-values. If two distinct points have the same x-coordinate, the line is vertical, its equation looks like x equals a number, and its slope is undefined. That is the idea to remember, not just a formula. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
