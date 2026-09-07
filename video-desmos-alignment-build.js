@@ -2,6 +2,7 @@ const fs=require('fs');
 const path=require('path');
 const dist=path.join(__dirname,'dist');
 const configs=[
+ {lesson:'Solving One-Step Linear Equations',audio:'https://www.aidocmaker.com/g0/audio?name=a44f2a5c7bcb403b8152cf49bb97a08d',scene:['DESMOS STRATEGY','Enter x + 7 = 19','Desmos: x = 12','Manual algebra is faster · use Desmos to verify']},
  {lesson:'Solving Multi-Step Linear Equations',audio:'https://www.aidocmaker.com/g0/audio?name=bcb9b14a3739446c8d380537ec00c719',scene:['DESMOS STRATEGY','Enter 3(x − 4) + 5 = 20','Desmos: x = 9','Check: 3(9 − 4) + 5 = 20']},
  {lesson:'Variables on Both Sides',audio:'https://www.aidocmaker.com/g0/audio?name=38755b9cbdd1494daf8ef20f8bfb3100',scene:['DESMOS STRATEGY','Enter 3x + 5 = x + 17','Desmos: x = 6','Both sides = 23 · manual algebra remains core']}
 ];
