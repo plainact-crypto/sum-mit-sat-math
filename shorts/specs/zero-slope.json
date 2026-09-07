@@ -1,0 +1,67 @@
+{
+  "title": "Zero Slope: Why a Horizontal Line Has Slope 0",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/zero-slope/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Why is a horizontal line's slope zero?",
+      "body": [
+        "Take two points: (-3, 4) and (5, 4).",
+        "The line moves sideways, but it never moves up or down."
+      ],
+      "visual": "point",
+      "m": 0,
+      "b": 4,
+      "points": [[-3,4],[5,4]],
+      "narration": "Suppose a line passes through negative three, four and five, four. What is its slope? Here is the idea: slope measures vertical change compared with horizontal change. This line moves eight units to the right, but its height never changes. That is exactly what zero slope means."
+    },
+    {
+      "title": "The confusion: zero is not undefined",
+      "body": [
+        "Slope = change in y divided by change in x.",
+        "Zero on top gives slope 0; zero on the bottom would be undefined."
+      ],
+      "visual": "formula",
+      "formula": "m = (y₂ - y₁) / (x₂ - x₁)",
+      "substitution": "m = (4 - 4) / (5 - (-3)) = 0 / 8 = 0",
+      "narration": "This is where students often mix things up. A zero numerator and a zero denominator are completely different. Here, change in y is four minus four, which is zero. Change in x is five minus negative three, which is eight. So the slope is zero divided by eight, and that equals zero. Undefined slope happens when the denominator is zero, not the numerator."
+    },
+    {
+      "title": "What slope 0 actually means",
+      "body": [
+        "As x changes, y stays constant.",
+        "No rise and no fall means a horizontal line."
+      ],
+      "visual": "slope",
+      "m": 0,
+      "b": 4,
+      "points": [[0,4]],
+      "narration": "Notice the meaning, not just the calculation. If x changes but y stays constant, there is no rise and no fall. The rate of change is zero. So every horizontal line has slope zero. For this example, the line is y equals four: whatever x you choose, y remains four."
+    },
+    {
+      "title": "Quick check with another pair",
+      "body": [
+        "Use (0, 4) and (2, 4).",
+        "Same y-values → zero vertical change."
+      ],
+      "visual": "formula",
+      "formula": "m = (4 - 4) / (2 - 0)",
+      "substitution": "m = 0 / 2 = 0",
+      "narration": "Let us verify with two different points on the same line: zero, four and two, four. The change in y is still zero, while the change in x is two. Zero divided by two is zero again. The result does not depend on which two distinct points you choose on a horizontal line."
+    },
+    {
+      "title": "Horizontal line → slope 0",
+      "body": [
+        "y = 4 has the same output everywhere.",
+        "Remember: 0 over a nonzero number is 0."
+      ],
+      "visual": "final",
+      "equation": "y = 4   →   m = 0",
+      "m": 0,
+      "b": 4,
+      "points": [[-3,4],[0,4],[5,4]],
+      "narration": "So the big idea is simple: slope asks how much y changes when x changes. On a horizontal line, y does not change at all, so the slope is zero. And remember the common mistake: zero on top gives zero slope; zero on the bottom gives undefined slope. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
