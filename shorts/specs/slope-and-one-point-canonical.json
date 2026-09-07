@@ -1,0 +1,13 @@
+{
+  "title": "Building an Equation from Slope and One Point",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/building-an-equation-from-slope-and-one-point/explanation/",
+  "voice": "am_adam",
+  "lang_code": "a",
+  "scenes": [
+    {"title":"Slope + one point?","body":["Write the equation of a line with slope 3 through (2, 5).","Understand what the numbers mean first."],"visual":"intro","narration":"Suppose you are asked to write the equation of a line with slope three that passes through the point two, five. Before using a formula, understand what those two pieces of information mean."},
+    {"title":"What slope 3 means","body":["3 = 3/1","Right 1, up 3"],"visual":"slope","narration":"Slope tells us the line's rate of change. A slope of three means three over one: every time x moves one unit to the right, y moves three units up."},
+    {"title":"Use the known point","body":["Point: (2, 5)","The line must pass through x = 2, y = 5"],"visual":"point","narration":"The point two, five tells us exactly where the line passes. When x equals two, y must equal five. Now we know the direction of the line and one exact location on it."},
+    {"title":"Point-slope form","body":["y - y1 = m(x - x1)","y - 5 = 3(x - 2)"],"visual":"formula","narration":"Use point-slope form: y minus y one equals m times x minus x one. Substitute m equals three, x one equals two, and y one equals five. That gives y minus five equals three times x minus two."},
+    {"title":"Solve and check","body":["y - 5 = 3x - 6","y = 3x - 1","Check: 5 = 3(2) - 1"],"visual":"final","narration":"Distribute the three: y minus five equals three x minus six. Add five to both sides, so y equals three x minus one. Check the point: three times two minus one equals five, so the equation is correct. The full lesson is available on SUMMIT. Find the complete lesson below."}
+  ]
+}
