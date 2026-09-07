@@ -6,7 +6,7 @@ on:
       spec:
         description: 'Path to short spec JSON'
         required: true
-        default: 'shorts/specs/reversing-inequality-sign.json'
+        default: 'shorts/specs/slope-from-two-points.json'
       voice:
         description: 'Kokoro voice (af_heart, am_adam, etc.)'
         required: false
@@ -50,7 +50,7 @@ jobs:
       - name: Render short
         run: |
           mkdir -p shorts/output
-          SPEC="${{ github.event.inputs.spec || 'shorts/specs/reversing-inequality-sign.json' }}"
+          SPEC="${{ github.event.inputs.spec || 'shorts/specs/slope-from-two-points.json' }}"
           VOICE="${{ github.event.inputs.voice || 'af_heart' }}"
           python shorts/render_short.py "$SPEC" \
             --voice "$VOICE" \
@@ -75,7 +75,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Rendered MP4 unchanged; nothing to commit."
           else
-            git commit -m "Store rendered Reversing Inequality Sign SUMMIT short [skip ci]"
+            git commit -m "Store rendered Equation from Two Points SUMMIT short [skip ci]"
             git push origin HEAD:main
           fi
-# acquisition-trigger: 2026-09-07T20:25:24+03:00
