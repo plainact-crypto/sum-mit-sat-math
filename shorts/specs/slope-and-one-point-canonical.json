@@ -1,13 +1,57 @@
 {
-  "title": "Building an Equation from Slope and One Point",
-  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/building-an-equation-from-slope-and-one-point/explanation/",
-  "voice": "am_adam",
+  "title": "How to Write a Linear Equation From a Table",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/linear-function-tables/explanation/",
+  "voice": "af_heart",
   "lang_code": "a",
   "scenes": [
-    {"title":"Slope + one point?","body":["Write the equation of a line with slope 3 through (2, 5).","Understand what the numbers mean first."],"visual":"intro","narration":"Suppose you are asked to write the equation of a line with slope three that passes through the point two, five. Before using a formula, understand what those two pieces of information mean."},
-    {"title":"What slope 3 means","body":["3 = 3/1","Right 1, up 3"],"visual":"slope","narration":"Slope tells us the line's rate of change. A slope of three means three over one: every time x moves one unit to the right, y moves three units up."},
-    {"title":"Use the known point","body":["Point: (2, 5)","The line must pass through x = 2, y = 5"],"visual":"point","narration":"The point two, five tells us exactly where the line passes. When x equals two, y must equal five. Now we know the direction of the line and one exact location on it."},
-    {"title":"Point-slope form","body":["y - y1 = m(x - x1)","y - 5 = 3(x - 2)"],"visual":"formula","narration":"Use point-slope form: y minus y one equals m times x minus x one. Substitute m equals three, x one equals two, and y one equals five. That gives y minus five equals three times x minus two."},
-    {"title":"Solve and check","body":["y - 5 = 3x - 6","y = 3x - 1","Check: 5 = 3(2) - 1"],"visual":"final","narration":"Distribute the three: y minus five equals three x minus six. Add five to both sides, so y equals three x minus one. Check the point: three times two minus one equals five, so the equation is correct. The full lesson is available on SUMMIT. Find the complete lesson below."}
+    {
+      "title": "How do you turn a table into an equation?",
+      "body": [
+        "The goal is not to guess the next number.",
+        "You are looking for the rule connecting x and y."
+      ],
+      "visual": "table",
+      "rows": [[0,2],[1,5],[2,8]],
+      "narration": "Suppose a table gives you the points zero two, one five, and two eight. A lot of students look for the next number, but that is not the real idea. We want the rule connecting x to y. If the relationship is linear, that rule has two parts: how fast y changes, and where the pattern starts."
+    },
+    {
+      "title": "First find the rate of change",
+      "body": [
+        "Compare changes, not just y-values.",
+        "Here: Δx = 1 and Δy = 3 every time."
+      ],
+      "visual": "table_rate",
+      "rows": [[0,2],[1,5],[2,8]],
+      "formula": "slope = Δy / Δx = 3 / 1 = 3",
+      "narration": "Here is where students often mix things up: slope is not just the difference between y values. It is change in y divided by change in x. From the first row to the second, x goes up by one while y goes up by three, so the slope is three over one, which is three. The same change happens again, confirming the table is linear."
+    },
+    {
+      "title": "Now find the starting value",
+      "body": [
+        "In y = mx + b, b is y when x = 0.",
+        "The table shows b = 2 directly."
+      ],
+      "visual": "table_intercept",
+      "rows": [[0,2],[1,5],[2,8]],
+      "narration": "Next we need the starting value. In y equals m x plus b, b means the value of y when x is zero. Students sometimes choose the first y-value automatically, but that only works if the first row actually has x equals zero. Here it does, and y equals two, so b equals two."
+    },
+    {
+      "title": "Build the equation from meaning",
+      "body": [
+        "m = 3 tells how much y changes per 1 x.",
+        "b = 2 tells the value when x starts at 0."
+      ],
+      "visual": "table_equation",
+      "narration": "Now the formula is no longer something to memorize blindly. The three is the rate of change, and the two is the starting value. Put those meanings into y equals m x plus b, and we get y equals three x plus two."
+    },
+    {
+      "title": "Check the rule before you trust it",
+      "body": [
+        "Use a row from the table.",
+        "For x = 2: y = 3(2) + 2 = 8."
+      ],
+      "visual": "table_final",
+      "narration": "Always check the rule with one of the original rows. If x equals two, three times two plus two equals eight, exactly matching the table. So the equation is y equals three x plus two. The key idea is rate plus starting value, not just pattern spotting. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
   ]
 }
