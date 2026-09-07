@@ -1,0 +1,22 @@
+{
+  "slug": "zero-slope",
+  "lesson": "Zero Slope",
+  "route": "/algebra/linear-functions/zero-slope/explanation/",
+  "status": "RETROFIT_DONE",
+  "classification": "BOTH",
+  "graphAdded": true,
+  "desmosAdded": true,
+  "graph": {
+    "equation": "y = 4",
+    "verifiedPoints": [[-3, 4], [0, 4], [5, 4]],
+    "slopeCheck": "(4 - 4) / (5 - (-3)) = 0 / 8 = 0"
+  },
+  "desmos": {
+    "enter": "y = 4",
+    "lookFor": "A horizontal line crossing the y-axis at 4.",
+    "useItToAnswer": "Confirm that y stays constant while x changes, so the slope is zero.",
+    "whyItWorks": "Every point on y = 4 has the same output, so delta-y is zero for any two distinct x-values.",
+    "fasterOrNot": "Recognizing y = b or equal y-values is faster by hand; Desmos is useful as a visual verification."
+  },
+  "mathCrossCheck": "Substitution gives y=4 at x=-3, 0, and 5; all three points satisfy y=4. The source Explanation already contains the deterministic native graph and lesson-specific DESMOS STRATEGY block."
+}
