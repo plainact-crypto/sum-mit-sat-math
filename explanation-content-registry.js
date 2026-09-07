@@ -45,5 +45,10 @@ module.exports=[
   {
     slug:'compound-inequalities',lesson:'Compound Inequalities',classification:'DESMOS',graph:null,
     desmos:D('2 < x <= 7; then enter x < -2 and x >= 4 on separate lines','the bounded overlap 2 < x <= 7 in the first case, then two separate regions x < -2 or x >= 4 in the OR case','verify AND as the shared interval and OR as the union of either valid region','a compound AND keeps values satisfying both boundaries at once, while OR keeps values satisfying at least one condition','For clean compound inequalities, algebra is usually faster; Desmos is useful for checking endpoint inclusion and whether the final set is an overlap or a union.','For 2<3x-4<=17, add 4 to all parts to get 6<3x<=21, then divide by 3 to get 2<x<=7. For 4x+1<-7 OR 3x-5>=7, solve separately to get x<-2 OR x>=4. Boundary checks: x=2 fails the strict lower bound, x=7 is included, x=-2 fails the first OR branch, and x=4 satisfies the second.')
+  },
+  {
+    slug:'graphing-one-variable-inequalities',lesson:'Graphing One-Variable Inequalities',classification:'GRAPH',
+    graph:{bounds:{xMin:-2,xMax:6,yMin:-1,yMax:1},lines:[{m:0,b:0,qaX:[-1,1,3],yIntercept:0}],points:[{x:-1,y:0,line:0,label:'solution x=-1'},{x:1,y:0,line:0,label:'solution x=1'},{x:3,y:0,line:0,label:'included boundary x=3'}],ariaLabel:'Number-line support for x less than or equal to 3 with included boundary at 3 and verified solution samples to the left'},
+    desmos:null
   }
 ];
