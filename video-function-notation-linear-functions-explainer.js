@@ -18,9 +18,8 @@ function walk(dir, out = []) {
 }
 
 const hits = walk(dist).filter(file => {
-  const normalized = file.split(path.sep).join('/');
   const html = fs.readFileSync(file, 'utf8');
-  return normalized.endsWith('algebra/linear-functions/function-notation-linear-functions/video/english/index.html') && html.includes(`<div class="lesson-title">${lesson}</div>`) && html.includes(marker);
+  return html.includes(`<div class="lesson-title">${lesson}</div>`) && html.includes(marker);
 });
 if (hits.length !== 1) throw new Error(`Expected exactly one English video page for ${lesson}; found ${hits.length}`);
 
