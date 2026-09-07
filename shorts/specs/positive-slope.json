@@ -1,0 +1,64 @@
+{
+  "title": "Positive Slope: What It Really Means",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/positive-slope/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Does this line have positive slope?",
+      "body": [
+        "Use the points (-1, -1) and (2, 5).",
+        "Positive slope is about direction, not just steepness."
+      ],
+      "visual": "intro",
+      "narration": "Suppose a line passes through negative one, negative one and two, five. Does it have positive slope? Here’s the idea: positive slope means that as x increases, y also increases. It describes the direction of change. It does not mean the coordinates themselves have to be positive, and it does not simply mean the line looks steep."
+    },
+    {
+      "title": "Read the direction first",
+      "body": [
+        "Move left to right: x increases.",
+        "The line rises: y increases."
+      ],
+      "visual": "slope",
+      "m": 2,
+      "b": 1,
+      "points": [[-1,-1],[2,5]],
+      "narration": "Before calculating, predict the sign. Moving from the left point to the right point, x increases from negative one to two, and y increases from negative one to five. So the line rises from left to right. That tells us the slope should be positive. This quick prediction is useful because it catches sign mistakes before they survive to the final answer."
+    },
+    {
+      "title": "Now calculate the slope",
+      "body": [
+        "m = (5 - (-1)) / (2 - (-1))",
+        "m = 6 / 3 = 2"
+      ],
+      "visual": "formula",
+      "formula": "m = Δy / Δx",
+      "substitution": "m = 6 / 3 = 2",
+      "narration": "Now use slope equals change in y over change in x. Five minus negative one is six, and two minus negative one is three. Six divided by three is two. Notice what the formula is measuring: y rises six units while x runs three units, so for every one unit to the right, the line rises two units."
+    },
+    {
+      "title": "The common sign mistake",
+      "body": [
+        "Reverse BOTH differences -> (-6)/(-3) = 2",
+        "Reverse only one -> wrong sign"
+      ],
+      "visual": "formula",
+      "formula": "(-6) / (-3) = 2",
+      "substitution": "same point order in top and bottom",
+      "narration": "This is where students often mix things up. You may reverse the point order, but you must reverse it in both differences. Then negative six divided by negative three is still positive two. If you reverse only the numerator or only the denominator, you create a false negative slope. The subtraction order is flexible, but it must be consistent."
+    },
+    {
+      "title": "Positive slope means increasing",
+      "body": [
+        "m = 2 > 0",
+        "Right 1 -> Up 2"
+      ],
+      "visual": "final",
+      "equation": "y = 2x + 1",
+      "m": 2,
+      "b": 1,
+      "points": [[-1,-1],[2,5]],
+      "narration": "So the slope is positive two. The important idea is not just the number two. Positive tells us the relationship is increasing, and two tells us the rate: each one-unit increase in x produces a two-unit increase in y. Quick check: both given points satisfy y equals two x plus one. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
