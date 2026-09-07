@@ -1,0 +1,57 @@
+{
+  "title": "Compound Inequalities: AND Means Overlap",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-inequalities/compound-inequalities/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Can x satisfy two inequalities at once?",
+      "body": [
+        "Solve: 2 < 3x - 4 ≤ 17",
+        "This is one AND condition: both boundaries must be true."
+      ],
+      "visual": "intro",
+      "narration": "Solve two less than three x minus four, less than or equal to seventeen. Here’s the idea: this is not two unrelated inequalities. It is one range, so x has to satisfy the left boundary and the right boundary at the same time. That is what AND means in a compound inequality: keep the overlap."
+    },
+    {
+      "title": "The mistake students make",
+      "body": [
+        "Whatever you do, do it to ALL THREE parts.",
+        "And watch the endpoints: < excludes, ≤ includes."
+      ],
+      "visual": "intro",
+      "narration": "This is where students often mix things up. They change the middle expression but forget one side of the inequality. Think of the chain as three expressions connected together. Any legal operation has to happen to all three parts. Also, the symbols matter: the strict less-than sign excludes equality, while less-than-or-equal includes it."
+    },
+    {
+      "title": "Step 1: remove the minus 4",
+      "body": [
+        "Add 4 to the left, middle, and right.",
+        "The order stays the same."
+      ],
+      "visual": "formula",
+      "formula": "2 < 3x - 4 ≤ 17",
+      "substitution": "6 < 3x ≤ 21",
+      "narration": "Start by undoing minus four. Add four to every part: two plus four is six, three x minus four plus four becomes three x, and seventeen plus four is twenty-one. So we get six less than three x, less than or equal to twenty-one. Notice why the inequality directions did not change: adding the same number preserves order."
+    },
+    {
+      "title": "Step 2: divide all three parts by 3",
+      "body": [
+        "6 ÷ 3 < 3x ÷ 3 ≤ 21 ÷ 3",
+        "Positive division does NOT reverse the signs."
+      ],
+      "visual": "formula",
+      "formula": "6 < 3x ≤ 21",
+      "substitution": "2 < x ≤ 7",
+      "narration": "Now divide all three parts by positive three. Six divided by three is two, three x divided by three is x, and twenty-one divided by three is seven. The solution is two less than x, less than or equal to seven. Because we divided by a positive number, the signs stay exactly as they are. Only multiplying or dividing by a negative reverses them."
+    },
+    {
+      "title": "Read the answer as a range",
+      "body": [
+        "2 < x ≤ 7 means: bigger than 2, up to and including 7.",
+        "Check: x = 3 works; x = 7 works; x = 2 does not."
+      ],
+      "visual": "intro",
+      "narration": "So do not read the answer as just symbols. Two less than x, less than or equal to seven means x can be any number bigger than two, all the way up to and including seven. Check three: it works. Check seven: it works because equality is allowed on the right. Check two: it fails because equality is not allowed on the left. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
