@@ -32,7 +32,7 @@ const overrides=[
 ['algebra/linear-functions/linear-function-word-problems',[['explanation','linear-function-word-problems-explanation.html'],['problems','linear-function-word-problems-problems.html'],['answers','linear-function-word-problems-answers.html'],['test','linear-function-word-problems-test.html']]],
 ['algebra/systems-of-linear-equations/one-solution',[['explanation','one-solution-explanation.html'],['problems','one-solution-problems.html'],['answers','one-solution-answers.html'],['test','one-solution-test.html']]],
 ['algebra/systems-of-linear-equations/no-solution',[['explanation','no-solution-explanation.html'],['problems','no-solution-problems.html'],['answers','no-solution-answers.html'],['test','no-solution-test.html']]],
-['algebra/systems-of-linear-equations/infinitely-many-solutions',[['explanation','infinitely-many-solutions-explanation.html'],['problems','infinitely-many-solutions-problems.html'],['answers','infinitely-many-solutions-answers.html']]]
+['algebra/systems-of-linear-equations/infinitely-many-solutions',[['explanation','infinitely-many-solutions-explanation.html'],['problems','infinitely-many-solutions-problems.html'],['answers','infinitely-many-solutions-answers.html'],['test','infinitely-many-solutions-test.html']]]
 ];
 for(const [base,files] of overrides)for(const [dir,file] of files){const target=path.join(dist,base,dir);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}
 const timedTypes=new Set(['explanation','problems','answers']);
