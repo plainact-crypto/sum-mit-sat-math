@@ -6,6 +6,7 @@ const items=[
 ['algebra/linear-functions/linear-function-tables/answers/','linear-function-tables-answers.html'],
 ['algebra/linear-functions/linear-function-tables/test/','linear-function-tables-test.html'],
 ['algebra/linear-functions/linear-function-word-problems/problems/','linear-function-word-problems-problems.html'],
+['algebra/linear-functions/linear-function-word-problems/test/','linear-function-word-problems-test.html'],
 ['algebra/systems-of-linear-equations/no-solution/explanation/','no-solution-explanation.html'],
 ['algebra/systems-of-linear-equations/no-solution/problems/','no-solution-problems.html'],
 ['algebra/systems-of-linear-equations/solving-graphically/explanation/','solving-graphically-explanation.html'],
