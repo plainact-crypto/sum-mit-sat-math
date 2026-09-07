@@ -50,5 +50,10 @@ module.exports=[
     slug:'graphing-one-variable-inequalities',lesson:'Graphing One-Variable Inequalities',classification:'GRAPH',
     graph:{bounds:{xMin:-2,xMax:6,yMin:-1,yMax:1},lines:[{m:0,b:0,qaX:[-1,1,3],yIntercept:0}],points:[{x:-1,y:0,line:0,label:'solution x=-1'},{x:1,y:0,line:0,label:'solution x=1'},{x:3,y:0,line:0,label:'included boundary x=3'}],ariaLabel:'Number-line support for x less than or equal to 3 with included boundary at 3 and verified solution samples to the left'},
     desmos:null
+  },
+  {
+    slug:'two-variable-linear-inequalities',lesson:'Two-Variable Linear Inequalities',classification:'BOTH',
+    graph:{bounds:{xMin:-4,xMax:4,yMin:-6,yMax:8},lines:[{m:2,b:1,qaX:[-1,0,2],yIntercept:1,xIntercept:-0.5}],points:[{x:-1,y:-1,line:0,label:'boundary (-1, -1)'},{x:0,y:1,line:0,label:'boundary (0, 1)'},{x:2,y:5,line:0,label:'boundary (2, 5)'}],ariaLabel:'Boundary line y equals 2x plus 1 for the inequality y less than or equal to 2x plus 1'},
+    desmos:D('y <= 2x + 1','a solid boundary y = 2x + 1 with the region below it shaded','confirm the boundary style, shading direction, and whether test points are solutions','the graphed region contains exactly the ordered pairs whose y-values are less than or equal to 2x+1','Desmos is fast for visual checking; for a simple exam-style graph, slope-intercept form plus one test point is often faster by hand.','Boundary checks: x=-1,0,2 give y=-1,1,5. Also (0,0) satisfies 0<=1, while (0,3) fails 3<=1.')
   }
 ];
