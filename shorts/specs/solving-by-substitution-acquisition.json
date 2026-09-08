@@ -1,0 +1,62 @@
+{
+  "title": "Solving by Substitution: Replace Equals with Equals",
+  "lesson_url": "https://summit.plain-act.com/algebra/systems-of-linear-equations/solving-by-substitution/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Two equations, two variables — where do we start?",
+      "body": [
+        "y = x + 1",
+        "x + y = 7"
+      ],
+      "visual": "formula",
+      "formula": "y = x + 1",
+      "substitution": "x + y = 7",
+      "narration": "Suppose you are given the system y equals x plus one, and x plus y equals seven. How do we find the one point that satisfies both equations? Here is the idea behind substitution: if two expressions are equal, one can replace the other without changing the mathematics. Since y is exactly x plus one, we can use x plus one anywhere the second equation uses y."
+    },
+    {
+      "title": "Substitution means replacing an equal quantity",
+      "body": [
+        "y and x + 1 represent the same value.",
+        "Replace y in the OTHER equation."
+      ],
+      "visual": "formula",
+      "formula": "x + y = 7",
+      "substitution": "x + (x + 1) = 7",
+      "narration": "Replace y in the other equation with x plus one. That gives x plus the quantity x plus one equals seven. Notice why this works: we did not invent a new equation. We replaced y with something the first equation already told us is equal to y. So every solution of the system must still satisfy this new one-variable equation."
+    },
+    {
+      "title": "This is where students often mix things up",
+      "body": [
+        "Keep the substituted expression together.",
+        "Parentheses protect the full expression."
+      ],
+      "visual": "formula",
+      "formula": "x + (x + 1) = 7",
+      "substitution": "2x + 1 = 7",
+      "narration": "This is where students often make the key mistake: they substitute only part of an expression, or drop parentheses when the replacement has several terms. Treat x plus one as one complete quantity. Here the parentheses are simple, but they matter even more when a coefficient multiplies the substituted expression. Now combine like terms: x plus x is two x, so two x plus one equals seven."
+    },
+    {
+      "title": "Solve one variable, then return for the other",
+      "body": [
+        "2x + 1 = 7 → 2x = 6 → x = 3",
+        "y = x + 1 → y = 4"
+      ],
+      "visual": "formula",
+      "formula": "2x + 1 = 7  →  x = 3",
+      "substitution": "y = 3 + 1 = 4",
+      "narration": "Now the system has become an ordinary one-variable equation. Subtract one from both sides to get two x equals six, then divide by two, so x equals three. But a system solution needs both coordinates. Return to the easiest original equation, y equals x plus one, and substitute x equals three. That gives y equals four. So our candidate solution is the point three comma four."
+    },
+    {
+      "title": "Quick check: both equations must agree",
+      "body": [
+        "4 = 3 + 1  ✓",
+        "3 + 4 = 7  ✓"
+      ],
+      "visual": "final",
+      "equation": "(3, 4) satisfies BOTH equations ✓",
+      "narration": "Always check the ordered pair in both original equations. Four equals three plus one, and three plus four equals seven, so both statements are true. The big idea is not merely a four-step recipe. Substitution works because equal quantities are interchangeable: use one equation to rewrite the other until only one variable remains, solve it, then return for the second coordinate and verify both equations. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
