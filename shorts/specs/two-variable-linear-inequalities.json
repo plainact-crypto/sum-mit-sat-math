@@ -1,0 +1,48 @@
+{
+  "title": "Two-Variable Linear Inequalities: Why We Shade a Region",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-inequalities/two-variable-linear-inequalities/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Which points satisfy y <= 2x + 1?",
+      "body": ["An equation gives one line.", "An inequality gives an entire region of points."],
+      "visual": "intro",
+      "narration": "Suppose the SAT asks you to graph y less than or equal to two x plus one. Here’s the idea: an equation tells us the points exactly on a line, but an inequality asks for every ordered pair that makes a comparison true. That is why the answer is not just a boundary line. It is a whole region of the coordinate plane."
+    },
+    {
+      "title": "The line is the boundary",
+      "body": ["Replace <= with =: y = 2x + 1", "Because equality is included, the boundary is solid."],
+      "visual": "formula",
+      "formula": "y <= 2x + 1",
+      "substitution": "boundary: y = 2x + 1  →  solid line",
+      "narration": "Start by replacing the inequality sign with equality. That gives y equals two x plus one, the boundary separating solutions from non-solutions. This is where students often mix things up: less than or equal to includes points on the boundary, so the line must be solid. If the symbol were only less than, the boundary would be dashed because points exactly on the line would not count."
+    },
+    {
+      "title": "Why do we shade below?",
+      "body": ["At x = 0, the boundary has y = 1.", "The inequality accepts y-values less than or equal to 1."],
+      "visual": "formula",
+      "formula": "x = 0  →  y <= 1",
+      "substitution": "(0,0): 0 <= 1  ✓",
+      "narration": "Now notice why the shading goes below the line. At x equals zero, the boundary value is y equals one. The inequality says y can be one or anything smaller. On a graph, smaller y-values sit below the boundary. A quick test point confirms it: zero, zero gives zero less than or equal to one, which is true, so the side containing the origin is part of the solution region."
+    },
+    {
+      "title": "A test point prevents shading mistakes",
+      "body": ["Test a point not on the boundary.", "(0,3): 3 <= 1 is false, so that side is excluded."],
+      "visual": "formula",
+      "formula": "(0,3)  →  3 <= 1  ✗",
+      "substitution": "solution side contains (0,0), not (0,3)",
+      "narration": "Do not shade from memory when the inequality is messy. Test a point that is not on the boundary. For zero, three, we get three less than or equal to one, which is false, so that side must remain unshaded. This works because every point in the same half-plane is on the same side of the boundary, so one valid test point identifies the correct region."
+    },
+    {
+      "title": "Boundary + inclusion + one test point",
+      "body": ["y <= 2x + 1: solid boundary, shade below", "Check: (0,0) works; (0,3) does not."],
+      "visual": "final",
+      "equation": "y <= 2x + 1",
+      "m": 2,
+      "b": 1,
+      "points": [[0,0],[0,3]],
+      "narration": "So the graph has three ideas working together: the equation gives the boundary, the inequality symbol tells us whether that boundary is included, and a test point tells us which side is the solution region. For y less than or equal to two x plus one, draw a solid line and shade below it. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
