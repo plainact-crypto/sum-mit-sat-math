@@ -1,0 +1,66 @@
+{
+  "title": "Point-Slope Form: Why the Subtractions Matter",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-equations-in-two-variables/point-slope-form/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Given one point and a slope — what equation fits?",
+      "body": [
+        "Slope m = -2 through the point (-4, 7).",
+        "We need every point on the line to keep the same rate from (-4, 7)."
+      ],
+      "visual": "point",
+      "m": -2,
+      "b": -1,
+      "points": [[-4, 7]],
+      "narration": "Suppose a line has slope negative two and passes through negative four comma seven. How can we write its equation without first hunting for the y-intercept? Here is the idea: slope compares the change from one point to another. If negative four comma seven is our known point, then every other point x comma y on the line must change from it at the same rate, negative two. Point-slope form is built directly from that idea."
+    },
+    {
+      "title": "Where point-slope form comes from",
+      "body": [
+        "Slope = change in y ÷ change in x.",
+        "The known point supplies the starting coordinates."
+      ],
+      "visual": "formula",
+      "formula": "m = (y - y1) / (x - x1)",
+      "substitution": "y - y1 = m(x - x1)",
+      "narration": "Start with what slope means: change in y divided by change in x. Using a known point x one comma y one, the vertical change is y minus y one, and the horizontal change is x minus x one. Multiply both sides by x minus x one, and you get y minus y one equals m times x minus x one. Notice why the formula uses subtraction: it is measuring change from the known point, not storing random signs to memorize."
+    },
+    {
+      "title": "This is where signs cause mistakes",
+      "body": [
+        "Use the coordinates as signed values first.",
+        "Subtracting -4 becomes adding 4."
+      ],
+      "visual": "formula",
+      "formula": "y - 7 = -2[x - (-4)]",
+      "substitution": "y - 7 = -2(x + 4)",
+      "narration": "Now substitute the slope negative two and the point negative four comma seven. Write y minus seven equals negative two times x minus negative four. This is where students often mix things up: they copy the coordinate sign directly and write x minus four. But the formula already contains subtraction. Since x one is negative four, x minus negative four becomes x plus four. Keeping the signed coordinate inside parentheses first prevents that mistake."
+    },
+    {
+      "title": "Why this equation must pass through the point",
+      "body": [
+        "At x = -4, the horizontal change is 0.",
+        "So the vertical change must also be 0."
+      ],
+      "visual": "formula",
+      "formula": "y - 7 = -2(-4 + 4)",
+      "substitution": "y - 7 = 0  →  y = 7",
+      "narration": "Why does this form guarantee the line passes through the given point? Put x equals negative four into the equation. The quantity x plus four becomes zero. So the right side is zero, which forces y minus seven to equal zero, giving y equals seven. The known point is built into the equation automatically. The slope controls how y changes once you move away from that point."
+    },
+    {
+      "title": "Quick check: convert and verify the slope",
+      "body": [
+        "Expand only after the point-slope equation is correct.",
+        "Slope stays -2; the line still passes through (-4, 7)."
+      ],
+      "visual": "final",
+      "equation": "y = -2x - 1   ✓",
+      "m": -2,
+      "b": -1,
+      "points": [[-4, 7]],
+      "narration": "As a quick check, expand: y minus seven equals negative two x minus eight, so y equals negative two x minus one. The slope is still negative two, and substituting x equals negative four gives y equals eight minus one, which is seven. So everything matches. The big idea is that point-slope form describes change from a known point: subtract the point's coordinates, keep their signs intact, and let the slope connect the two changes. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
