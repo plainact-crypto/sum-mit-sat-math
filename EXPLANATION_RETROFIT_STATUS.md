@@ -15,7 +15,7 @@ Final PASS is intentionally not assigned in Steps 1–8. Final PASS requires the
 | # | Lesson / slug | Source file | Curriculum area | Classification | Graph required | Desmos useful | Graph currently present | Desmos currently present | Retrofit / QA state |
 |---:|---|---|---|---|---|---|---|---|---|
 | 1 | building-equation-slope-one-point | building-equation-slope-one-point-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
-| 2 | building-equation-slope-y-intercept | building-equation-slope-y-intercept-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
+| 2 | building-equation-slope-y-intercept | building-equation-slope-y-intercept-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-08 |
 | 3 | building-equation-two-points | building-equation-two-points-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
 | 4 | collinear-points | collinear-points-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
 | 5 | converting-between-forms | converting-between-forms-explanation.html | Algebra · Linear Equations in Two Variables | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
@@ -41,7 +41,7 @@ Final PASS is intentionally not assigned in Steps 1–8. Final PASS requires the
 | 25 | slope-from-a-graph | slope-from-a-graph-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-08 |
 | 26 | slope-from-a-table | slope-from-a-table-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
 | 27 | slope-from-slope-intercept-form | slope-from-slope-intercept-form-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-08 |
-| 28 | slope-from-standard-form | slope-from-standard-form-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
+| 28 | slope-from-standard-form | slope-from-standard-form-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-08 |
 | 29 | slope-from-two-points | slope-from-two-points-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-08 |
 | 30 | slope-intercept-form | slope-intercept-form-explanation.html | Algebra · Linear Equations / Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-07 |
 | 31 | standard-form | standard-form-explanation.html | Algebra · Linear Equations in Two Variables | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
