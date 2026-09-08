@@ -1,0 +1,68 @@
+{
+  "title": "Building an Equation from Two Points",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/building-equation-two-points/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Can two points tell you the whole equation?",
+      "body": [
+        "Use the points (2, 5) and (6, 13).",
+        "Two distinct points determine exactly one straight line."
+      ],
+      "visual": "point",
+      "m": 2,
+      "b": 1,
+      "points": [[2, 5], [6, 13]],
+      "narration": "Suppose a line passes through the points two comma five and six comma thirteen. Can those two points tell you the entire equation? Yes. Here is the idea: two distinct points determine one straight line. The points tell us how steep the line is, and then one of those points tells us where that line must sit. So we need two pieces: the slope, and the position of the line."
+    },
+    {
+      "title": "First find the rate of change",
+      "body": [
+        "Slope compares vertical change to horizontal change.",
+        "Keep the SAME point order in both subtractions."
+      ],
+      "visual": "formula",
+      "formula": "m = (13 - 5) / (6 - 2)",
+      "substitution": "m = 8 / 4 = 2",
+      "narration": "First find the slope. Slope means change in y divided by change in x, because it measures how much the output changes for each one-unit horizontal change. From five to thirteen, y increases by eight. From two to six, x increases by four. Eight divided by four is two. This is where students often mix things up: if you subtract second point minus first point for y, you must use that same order for x. Reversing only one subtraction flips the sign incorrectly."
+    },
+    {
+      "title": "Slope alone is not the equation",
+      "body": [
+        "m = 2 tells us the tilt, not the location.",
+        "Use one known point to determine b."
+      ],
+      "visual": "formula",
+      "formula": "y = mx + b  →  5 = 2(2) + b",
+      "substitution": "5 = 4 + b  →  b = 1",
+      "narration": "Now notice why slope alone is not enough. Many parallel lines can all have slope two, so slope tells us the tilt but not which line we have. We use one known point to lock the line into position. Substitute x equals two and y equals five into y equals m x plus b. That gives five equals two times two plus b. So five equals four plus b, which means b equals one."
+    },
+    {
+      "title": "Now build the line",
+      "body": [
+        "m = 2 means y rises 2 for every 1 increase in x.",
+        "b = 1 means the line crosses the y-axis at 1."
+      ],
+      "visual": "final",
+      "equation": "y = 2x + 1",
+      "m": 2,
+      "b": 1,
+      "points": [[2, 5], [6, 13]],
+      "narration": "Put those two facts together and the equation is y equals two x plus one. The two is not just a number we calculated: it says that every time x increases by one, y increases by two. And the plus one tells us the line crosses the y-axis at one. That is why these pieces completely describe the line: one controls its rate of change, and the other fixes its vertical position."
+    },
+    {
+      "title": "Quick check: does the second point fit?",
+      "body": [
+        "At x = 6: y = 2(6) + 1 = 13.",
+        "Both original points lie on the same equation."
+      ],
+      "visual": "final",
+      "equation": "y = 2x + 1   ✓",
+      "m": 2,
+      "b": 1,
+      "points": [[2, 5], [6, 13]],
+      "narration": "Finally, check the point we did not use to find b. Put x equals six into the equation: two times six plus one equals thirteen, exactly the given y-value. So both original points satisfy the same equation. The big idea is: two points give you the rate of change, then one point fixes the line's location. Keep subtraction order consistent, find the slope, use a point to find the intercept, and verify the other point. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
