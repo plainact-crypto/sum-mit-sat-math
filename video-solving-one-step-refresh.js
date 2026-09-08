@@ -6,7 +6,6 @@ const marker = 'Video Explanation · English';
 const oldBody = '<div class="soon">VIDEO PAGE</div><p class="video-note">This is a separate independent video route for this lesson. Video content can be added here without changing Explanation, Problems, or Answers.</p>';
 const lesson = 'Solving One-Step Linear Equations';
 const slug = 'solving-one-step-linear-equations-refresh-2026-09-08';
-const route = 'algebra/linear-equations/solving-one-step-linear-equations/video/english/index.html';
 const url = 'https://scrimba.com/explain/guide0soskod6e?claim=l0ni48p04i02gk9i&fullscreen=1';
 
 function walk(dir, out = []) {
@@ -19,7 +18,6 @@ function walk(dir, out = []) {
 }
 
 const hits = walk(dist).filter(file => {
-  if (!file.split(path.sep).join('/').endsWith(route)) return false;
   const html = fs.readFileSync(file, 'utf8');
   return html.includes(`<div class="lesson-title">${lesson}</div>`) && html.includes(marker);
 });
