@@ -35,7 +35,22 @@ if(Object.values(counts).reduce((a,b)=>a+b,0)!==registry.length)fail(`Classifica
 const css=fs.readFileSync(path.join(root,'explanation-tools.css'),'utf8');
 if(!css.includes('.summit-graph-svg{display:block;width:100%;height:auto}'))fail('Responsive SVG rule missing');
 if(!/@media\(max-width:680px\)/.test(css))fail('Mobile Explanation breakpoint missing');
-const videoPages=pages.filter(p=>p.html.includes('Video Explanation · English')&&p.html.includes('summit-native-player'));
-if(videoPages.length!==3)fail(`Expected 3 current native English videos, found ${videoPages.length}`);
-for(const p of videoPages){if(!p.html.includes('data-desmos-aligned="true"'))fail(`Video Desmos alignment missing: ${p.file}`);const m=p.html.match(/const tracks=(\[[^;]+?\]),scenes=(\[[^;]+?\]),player=/s);if(!m)fail(`Video arrays missing: ${p.file}`);const tracks=JSON.parse(m[1]),scenes=JSON.parse(m[2]);if(tracks.length!==scenes.length)fail(`Video track/scene mismatch: ${p.file}`);if(!scenes.some(s=>Array.isArray(s)&&String(s[0]).toUpperCase()==='DESMOS STRATEGY'))fail(`Video Desmos scene missing: ${p.file}`)}
-console.log(JSON.stringify({finalExplanationQA:'PASS',publishedExplanations:explanations.length,classifications:counts,verifiedGraphLessons:counts.BOTH+counts.GRAPH,verifiedDesmosLessons:counts.BOTH+counts.DESMOS,nativeEnglishVideos:videoPages.length,videoAlignment:'PASS',responsiveGraphAndDesmosUI:'PASS',remaining:0},null,2));
+const targetLessons=['Solving One-Step Linear Equations','Solving Multi-Step Linear Equations','Variables on Both Sides'];
+const alignedVideoPages=[];
+for(const lesson of targetLessons){
+ const hits=pages.filter(p=>p.html.includes(`<div class="lesson-title">${lesson}</div>`)&&p.html.includes('Video Explanation · English'));
+ if(hits.length!==1)fail(`Expected one current English video for ${lesson}, found ${hits.length}`);
+ const p=hits[0],h=p.html;
+ if(!h.includes('data-desmos-aligned="true"'))fail(`Video Desmos alignment missing: ${p.file}`);
+ if(h.includes('summit-native-player')){
+  const m=h.match(/const tracks=(\[[^;]+?\]),scenes=(\[[^;]+?\]),player=/s);
+  if(!m)fail(`Video arrays missing: ${p.file}`);
+  const tracks=JSON.parse(m[1]),scenes=JSON.parse(m[2]);
+  if(tracks.length!==scenes.length)fail(`Video track/scene mismatch: ${p.file}`);
+  if(!scenes.some(s=>Array.isArray(s)&&String(s[0]).toUpperCase()==='DESMOS STRATEGY'))fail(`Video Desmos scene missing: ${p.file}`);
+ }else if(h.includes('summit-explainer-player')){
+  if(!h.includes('<iframe ')||!h.includes('allowfullscreen'))fail(`External explainer embed incomplete: ${p.file}`);
+ }else fail(`Unsupported English video mode: ${p.file}`);
+ alignedVideoPages.push(p);
+}
+console.log(JSON.stringify({finalExplanationQA:'PASS',publishedExplanations:explanations.length,classifications:counts,verifiedGraphLessons:counts.BOTH+counts.GRAPH,verifiedDesmosLessons:counts.BOTH+counts.DESMOS,alignedEnglishVideos:alignedVideoPages.length,videoAlignment:'PASS',responsiveGraphAndDesmosUI:'PASS',remaining:0},null,2));
