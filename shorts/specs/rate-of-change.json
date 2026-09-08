@@ -1,0 +1,65 @@
+{
+  "title": "Rate of Change: What It Really Means",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/rate-of-change/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "What does rate of change actually mean?",
+      "body": [
+        "Suppose a table goes from (1, 4) to (3, 10).",
+        "We are measuring how much y changes for each 1-unit change in x."
+      ],
+      "visual": "table",
+      "rows": [[1,4],[3,10]],
+      "narration": "Suppose a table gives you the points one, four and three, ten. Here is the idea: rate of change tells you how much the output changes for each one-unit change in the input. It is not just the change in y. It compares the change in y to the change in x."
+    },
+    {
+      "title": "This is where students often mix it up",
+      "body": [
+        "y changes by 6, but x changes by 2.",
+        "So the rate is not 6. We must compare both changes."
+      ],
+      "visual": "table_rate",
+      "rows": [[1,4],[3,10]],
+      "formula": "rate = Δy / Δx = 6 / 2 = 3",
+      "narration": "This is where students often mix things up. From four to ten, y increases by six, so six looks tempting. But x did not increase by one; it increased by two. A rate is a comparison. We divide the six-unit change in y by the two-unit change in x, giving three."
+    },
+    {
+      "title": "Why dividing works",
+      "body": [
+        "6 units of y-change happen over 2 units of x-change.",
+        "6 ÷ 2 tells us the change for exactly 1 unit of x."
+      ],
+      "visual": "formula",
+      "formula": "Δy / Δx = 6 / 2 = 3",
+      "substitution": "1 step in x → 3 steps in y",
+      "narration": "Notice why the division works. Six units of vertical change happen across two units of horizontal change. Dividing six by two converts that total change into a per-one-unit rate. So every increase of one in x corresponds to an increase of three in y."
+    },
+    {
+      "title": "Connect it to slope",
+      "body": [
+        "For a linear relationship, rate of change is the slope.",
+        "A constant rate of 3 means the line rises 3 for every 1 to the right."
+      ],
+      "visual": "slope",
+      "m": 3,
+      "b": 1,
+      "points": [[1,4]],
+      "narration": "For a linear relationship, this rate of change is exactly the slope. A slope of three means right one, up three. That is why the same number appears in a table, a graph, and an equation: all three are describing the same constant relationship."
+    },
+    {
+      "title": "Quick check",
+      "body": [
+        "From (1, 4), move x by 2.",
+        "A rate of 3 predicts y should rise by 6: 4 + 6 = 10."
+      ],
+      "visual": "final",
+      "equation": "rate of change = 3",
+      "m": 3,
+      "b": 1,
+      "points": [[1,4],[3,10]],
+      "narration": "Quick check: starting at one, four, increase x by two. If the rate is three per one unit of x, then y should increase by six. Four plus six is ten, matching the second point. So the key idea is this: rate of change is change in y per one unit of change in x, not just the change in y. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
