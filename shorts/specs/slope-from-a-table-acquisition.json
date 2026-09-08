@@ -1,0 +1,47 @@
+{
+  "title": "Slope from a Table",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/slope-from-a-table/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "What is the slope of this table?",
+      "body": ["x: 0, 4, 8", "y: 10, 18, 26", "What does slope measure?"],
+      "visual": "formula",
+      "formula": "m = change in y / change in x",
+      "substitution": "Not just the change in y",
+      "narration": "A table gives x values zero, four, eight and y values ten, eighteen, twenty-six. What is the slope? Here is the idea: slope is not how much y changes by itself. Slope compares how much the output y changes with how much the input x changes. It is a rate, so we need both changes."
+    },
+    {
+      "title": "Each row is a point",
+      "body": ["(0,10)", "(4,18)", "Same line → same rate"],
+      "visual": "formula",
+      "formula": "m = (y2 - y1) / (x2 - x1)",
+      "substitution": "Δy / Δx",
+      "narration": "Each row is really a point on the line. Use the first two rows: zero comma ten and four comma eighteen. The slope formula is just the definition of rate of change written with coordinates: change in y divided by change in x. That is why we subtract the two y-values and divide by the matching subtraction of the two x-values."
+    },
+    {
+      "title": "The common table mistake",
+      "body": ["Δy = 18 - 10 = 8", "Δx = 4 - 0 = 4", "Keep the subtraction order matched"],
+      "visual": "formula",
+      "formula": "m = 8 / 4",
+      "substitution": "Do NOT say slope = 8",
+      "narration": "This is where students often mix things up. They see y rise by eight and call the slope eight. But x did not rise by one; x rose by four. Also keep the subtraction order matched. If the numerator is eighteen minus ten, the denominator must be four minus zero. So delta y is eight and delta x is four."
+    },
+    {
+      "title": "Interpret the division",
+      "body": ["m = 8/4 = 2", "For every +1 in x", "y increases by +2"],
+      "visual": "formula",
+      "formula": "m = 2",
+      "substitution": "8 units of y across 4 units of x → 2 per 1",
+      "narration": "Now divide: eight over four equals two. Notice why this division matters. The table says y increases eight units while x increases four units. Dividing tells us the change per one unit of x: two units of y for every one unit of x. That per-one rate is exactly what slope means."
+    },
+    {
+      "title": "Quick check: use another pair",
+      "body": ["(4,18) to (8,26)", "(26 - 18)/(8 - 4) = 8/4 = 2 ✓", "Constant slope → linear table"],
+      "visual": "final",
+      "equation": "m = 2 ✓",
+      "narration": "Check the next pair. Twenty-six minus eighteen is eight, and eight minus four is four, so the slope is again eight over four, or two. That repeated rate is what makes the table linear. The big idea is to read slope as change in output per change in input, not as one difference by itself. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
