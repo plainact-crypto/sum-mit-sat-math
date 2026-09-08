@@ -21,7 +21,7 @@ Final PASS is intentionally not assigned in Steps 1–8. Final PASS requires the
 | 5 | converting-between-forms | converting-between-forms-explanation.html | Algebra · Linear Equations in Two Variables | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
 | 6 | decimals | decimals-explanation.html | Algebra · Linear Equations in One Variable | DESMOS | No | Yes | No | No | Classified · retrofit pending |
 | 7 | finding-both-intercepts | finding-both-intercepts-explanation.html | Algebra · Linear Equations in Two Variables | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-08 |
-| 8 | finding-x-intercept | finding-x-intercept-explanation.html | Algebra · Linear Equations in Two Variables | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
+| 8 | finding-x-intercept | finding-x-intercept-explanation.html | Algebra · Linear Equations in Two Variables | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-08 |
 | 9 | finding-y-intercept | finding-y-intercept-explanation.html | Algebra · Linear Equations in Two Variables | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
 | 10 | fractions | fractions-explanation.html | Algebra · Linear Equations in One Variable | DESMOS | No | Yes | No | Yes | Retrofit applied in `5ebf94d`; final QA pending |
 | 11 | function-notation-linear-functions | function-notation-linear-functions-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
