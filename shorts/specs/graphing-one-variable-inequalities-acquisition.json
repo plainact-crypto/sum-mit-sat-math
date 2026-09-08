@@ -1,0 +1,69 @@
+{
+  "title": "Graphing One-Variable Inequalities: Open or Closed Dot?",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-inequalities/graphing-one-variable-inequalities/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "How do you graph 2x + 1 ≤ 7?",
+      "body": [
+        "An inequality represents every x-value that makes the statement true.",
+        "Solve first. Then translate the solution set onto the number line."
+      ],
+      "visual": "formula",
+      "formula": "2x + 1 ≤ 7",
+      "substitution": "Which x-values make this true?",
+      "narration": "Suppose you are asked to graph two x plus one less than or equal to seven. Here is the idea: an inequality does not have just one answer. It represents a whole set of x-values that make the statement true. The number line is a picture of that solution set. So first we solve the inequality, and only then do we translate the answer into a graph."
+    },
+    {
+      "title": "Solve before you graph",
+      "body": [
+        "Subtract 1 from both sides, then divide by 2.",
+        "Dividing by positive 2 keeps the inequality direction unchanged."
+      ],
+      "visual": "formula",
+      "formula": "2x + 1 ≤ 7  →  2x ≤ 6",
+      "substitution": "x ≤ 3",
+      "narration": "Subtract one from both sides, which gives two x less than or equal to six. Then divide both sides by positive two, so x is less than or equal to three. Notice why the sign stays the same: multiplying or dividing by a positive number preserves the order. The inequality reverses only when you multiply or divide by a negative number."
+    },
+    {
+      "title": "The boundary is the common trap",
+      "body": [
+        "< or >: open circle because the boundary is excluded.",
+        "≤ or ≥: closed circle because the boundary is included."
+      ],
+      "visual": "numberline_compare",
+      "narration": "This is where students often mix things up. The circle is not decoration; it tells us whether the boundary value itself belongs to the solution. A strict less-than or greater-than excludes the boundary, so use an open circle. Less-than-or-equal-to or greater-than-or-equal-to includes the boundary, so use a closed circle. Our answer is x less than or equal to three, so three is included."
+    },
+    {
+      "title": "Which way do you shade?",
+      "body": [
+        "x ≤ 3 means 3 and every number smaller than 3.",
+        "Smaller numbers are left of 3, so shade left."
+      ],
+      "visual": "numberline",
+      "equation": "x ≤ 3",
+      "boundary": 3,
+      "inclusive": true,
+      "direction": "left",
+      "min_x": -2,
+      "max_x": 6,
+      "narration": "Now decide the direction from meaning, not memorization. X less than or equal to three means three itself and every number smaller than three. Smaller numbers lie to the left on a standard number line. So place a closed circle at three and shade left. Reading the inequality as a sentence prevents the common mistake of shading in the wrong direction."
+    },
+    {
+      "title": "Quick check with a shaded value",
+      "body": [
+        "Try x = 0: 2(0) + 1 = 1, and 1 ≤ 7 is true.",
+        "Closed at 3 and shaded left matches the mathematics."
+      ],
+      "visual": "final",
+      "equation": "2x + 1 ≤ 7  →  x ≤ 3",
+      "boundary": 3,
+      "inclusive": true,
+      "direction": "left",
+      "min_x": -2,
+      "max_x": 6,
+      "narration": "A quick check confirms the picture. Choose a shaded value such as zero. Two times zero plus one equals one, and one is less than or equal to seven, so zero really is in the solution set. The big idea is to solve first, use the circle to show whether the boundary is included, and shade toward the values that actually satisfy the inequality. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
