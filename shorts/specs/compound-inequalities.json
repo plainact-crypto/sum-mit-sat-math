@@ -1,48 +1,57 @@
 {
-  "title": "Two-Variable Linear Inequalities: Why We Shade a Region",
-  "lesson_url": "https://summit.plain-act.com/algebra/linear-inequalities/two-variable-linear-inequalities/explanation/",
+  "title": "Compound Inequalities: AND Means Overlap",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-inequalities/compound-inequalities/explanation/",
   "voice": "af_heart",
   "lang_code": "a",
   "scenes": [
     {
-      "title": "Which points satisfy y <= 2x + 1?",
-      "body": ["An equation gives one line.", "An inequality gives an entire region of points."],
+      "title": "Can x satisfy two inequalities at once?",
+      "body": [
+        "Solve: 2 < 3x - 4 ≤ 17",
+        "This is one AND condition: both boundaries must be true."
+      ],
       "visual": "intro",
-      "narration": "Suppose the SAT asks you to graph y less than or equal to two x plus one. Here’s the idea: an equation tells us the points exactly on a line, but an inequality asks for every ordered pair that makes a comparison true. That is why the answer is not just a boundary line. It is a whole region of the coordinate plane."
+      "narration": "Solve two less than three x minus four, less than or equal to seventeen. Here’s the idea: this is not two unrelated inequalities. It is one range, so x has to satisfy the left boundary and the right boundary at the same time. That is what AND means in a compound inequality: keep the overlap."
     },
     {
-      "title": "The line is the boundary",
-      "body": ["Replace <= with =: y = 2x + 1", "Because equality is included, the boundary is solid."],
+      "title": "The mistake students make",
+      "body": [
+        "Whatever you do, do it to ALL THREE parts.",
+        "And watch the endpoints: < excludes, ≤ includes."
+      ],
+      "visual": "intro",
+      "narration": "This is where students often mix things up. They change the middle expression but forget one side of the inequality. Think of the chain as three expressions connected together. Any legal operation has to happen to all three parts. Also, the symbols matter: the strict less-than sign excludes equality, while less-than-or-equal includes it."
+    },
+    {
+      "title": "Step 1: remove the minus 4",
+      "body": [
+        "Add 4 to the left, middle, and right.",
+        "The order stays the same."
+      ],
       "visual": "formula",
-      "formula": "y <= 2x + 1",
-      "substitution": "boundary: y = 2x + 1  →  solid line",
-      "narration": "Start by replacing the inequality sign with equality. That gives y equals two x plus one, the boundary separating solutions from non-solutions. This is where students often mix things up: less than or equal to includes points on the boundary, so the line must be solid. If the symbol were only less than, the boundary would be dashed because points exactly on the line would not count."
+      "formula": "2 < 3x - 4 ≤ 17",
+      "substitution": "6 < 3x ≤ 21",
+      "narration": "Start by undoing minus four. Add four to every part: two plus four is six, three x minus four plus four becomes three x, and seventeen plus four is twenty-one. So we get six less than three x, less than or equal to twenty-one. Notice why the inequality directions did not change: adding the same number preserves order."
     },
     {
-      "title": "Why do we shade below?",
-      "body": ["At x = 0, the boundary has y = 1.", "The inequality accepts y-values less than or equal to 1."],
+      "title": "Step 2: divide all three parts by 3",
+      "body": [
+        "6 ÷ 3 < 3x ÷ 3 ≤ 21 ÷ 3",
+        "Positive division does NOT reverse the signs."
+      ],
       "visual": "formula",
-      "formula": "x = 0  →  y <= 1",
-      "substitution": "(0,0): 0 <= 1  ✓",
-      "narration": "Now notice why the shading goes below the line. At x equals zero, the boundary value is y equals one. The inequality says y can be one or anything smaller. On a graph, smaller y-values sit below the boundary. A quick test point confirms it: zero, zero gives zero less than or equal to one, which is true, so the side containing the origin is part of the solution region."
+      "formula": "6 < 3x ≤ 21",
+      "substitution": "2 < x ≤ 7",
+      "narration": "Now divide all three parts by positive three. Six divided by three is two, three x divided by three is x, and twenty-one divided by three is seven. The solution is two less than x, less than or equal to seven. Because we divided by a positive number, the signs stay exactly as they are. Only multiplying or dividing by a negative reverses them."
     },
     {
-      "title": "A test point prevents shading mistakes",
-      "body": ["Test a point not on the boundary.", "(0,3): 3 <= 1 is false, so that side is excluded."],
-      "visual": "formula",
-      "formula": "(0,3)  →  3 <= 1  ✗",
-      "substitution": "solution side contains (0,0), not (0,3)",
-      "narration": "Do not shade from memory when the inequality is messy. Test a point that is not on the boundary. For zero, three, we get three less than or equal to one, which is false, so that side must remain unshaded. This works because every point in the same half-plane is on the same side of the boundary, so one valid test point identifies the correct region."
-    },
-    {
-      "title": "Boundary + inclusion + one test point",
-      "body": ["y <= 2x + 1: solid boundary, shade below", "Check: (0,0) works; (0,3) does not."],
-      "visual": "final",
-      "equation": "y <= 2x + 1",
-      "m": 2,
-      "b": 1,
-      "points": [[0,0],[0,3]],
-      "narration": "So the graph has three ideas working together: the equation gives the boundary, the inequality symbol tells us whether that boundary is included, and a test point tells us which side is the solution region. For y less than or equal to two x plus one, draw a solid line and shade below it. The full lesson is available on SUMMIT. Find the complete lesson below."
+      "title": "Read the answer as a range",
+      "body": [
+        "2 < x ≤ 7 means: bigger than 2, up to and including 7.",
+        "Check: x = 3 works; x = 7 works; x = 2 does not."
+      ],
+      "visual": "intro",
+      "narration": "So do not read the answer as just symbols. Two less than x, less than or equal to seven means x can be any number bigger than two, all the way up to and including seven. Check three: it works. Check seven: it works because equality is allowed on the right. Check two: it fails because equality is not allowed on the left. The full lesson is available on SUMMIT. Find the complete lesson below."
     }
   ]
 }
