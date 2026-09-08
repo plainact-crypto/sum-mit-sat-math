@@ -1,0 +1,64 @@
+{
+  "title": "Slope from Two Points",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/slope-from-two-points/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "What does the slope between two points actually mean?",
+      "body": [
+        "A(2, 5) and B(6, 13)",
+        "How fast does y change as x changes?"
+      ],
+      "visual": "intro",
+      "narration": "Suppose a line passes through two comma five and six comma thirteen. What is its slope, and what does that number actually mean? Here’s the idea: slope is not just a formula. It measures how much y changes for each one-unit change in x. We compare the two points because change is always about the distance from one value to another."
+    },
+    {
+      "title": "Slope compares changes, not coordinates",
+      "body": [
+        "Δy = 13 − 5 = 8",
+        "Δx = 6 − 2 = 4"
+      ],
+      "visual": "slope",
+      "m": 2,
+      "b": 1,
+      "points": [[2,5],[6,13]],
+      "narration": "From x equals two to x equals six, x increases by four. Over that same move, y rises from five to thirteen, so y increases by eight. This is where students often mix things up: slope uses changes, not thirteen divided by six or five divided by two. The raw coordinates tell you where the points are; the differences tell you how the line moves between them."
+    },
+    {
+      "title": "Why the formula is change in y over change in x",
+      "body": [
+        "m = Δy / Δx",
+        "m = (13 − 5) / (6 − 2) = 8 / 4 = 2"
+      ],
+      "visual": "formula",
+      "formula": "m = (y2 - y1) / (x2 - x1)",
+      "substitution": "m = (13 - 5) / (6 - 2) = 2",
+      "narration": "That is why the slope formula is change in y divided by change in x. We have eight units of vertical change spread across four units of horizontal change. Eight divided by four is two, so for every one unit x increases, y increases by two. Notice why the division matters: it converts the total change into a per-one-unit rate."
+    },
+    {
+      "title": "Keep subtraction order consistent",
+      "body": [
+        "Forward: (13 − 5)/(6 − 2) = 8/4 = 2",
+        "Backward: (5 − 13)/(2 − 6) = −8/−4 = 2"
+      ],
+      "visual": "formula",
+      "formula": "same direction in numerator and denominator",
+      "substitution": "(-8) / (-4) = 2",
+      "narration": "Another common mistake is changing direction in only one part of the fraction. If you go from the first point to the second in the numerator, do the same in the denominator. Reversing both is also fine: negative eight over negative four is still two. Reversing only one makes the slope negative by mistake."
+    },
+    {
+      "title": "Slope = 2 means rise 2 for every run 1",
+      "body": [
+        "Run 4 → expected rise 2 × 4 = 8",
+        "5 + 8 = 13 ✓"
+      ],
+      "visual": "final",
+      "equation": "m = 2",
+      "m": 2,
+      "b": 1,
+      "points": [[2,5],[6,13]],
+      "narration": "Quick check: the horizontal change is four. A slope of two predicts a vertical change of two times four, which is eight. Starting at y equals five, five plus eight gives thirteen, exactly the second point. So the key idea is that slope is a rate: vertical change per unit of horizontal change. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
