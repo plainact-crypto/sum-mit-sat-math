@@ -1,0 +1,47 @@
+{
+  "title": "Build a Line from Slope and One Point",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/building-equation-slope-one-point/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Slope 3 through (2,5) — what equation is it?",
+      "body": ["m = 3", "point (2,5)", "Need the line's equation"],
+      "visual": "formula",
+      "formula": "m = 3,  (2,5)",
+      "substitution": "y - 5 = 3(x - 2)",
+      "narration": "Suppose a line has slope three and passes through the point two comma five. How do we build its equation without guessing the y-intercept? Here is the idea: slope tells us how y changes when x changes, while the point tells us one exact location the line must pass through. One slope and one point pin down one unique nonvertical line."
+    },
+    {
+      "title": "Why point-slope form works",
+      "body": ["Compare any point (x,y) to the known point (x1,y1).", "change in y = slope × change in x"],
+      "visual": "formula",
+      "formula": "y - y1 = m(x - x1)",
+      "substitution": "Δy = m·Δx",
+      "narration": "Point-slope form is not a formula to memorize blindly. It comes directly from the meaning of slope. From the known point x one, y one to any other point x, y on the same line, the vertical change is y minus y one and the horizontal change is x minus x one. Since slope equals vertical change divided by horizontal change, multiplying both sides by the horizontal change gives y minus y one equals m times x minus x one."
+    },
+    {
+      "title": "The sign trap students miss",
+      "body": ["x-coordinate goes with x", "y-coordinate goes with y", "Subtract the coordinate exactly as written"],
+      "visual": "formula",
+      "formula": "y - 5 = 3(x - 2)",
+      "substitution": "If x1 = -2, then x - (-2) = x + 2",
+      "narration": "This is where students often mix things up: the x-coordinate belongs inside the parentheses with x, and the y-coordinate belongs with y. Also, keep the subtraction signs before simplifying. If a coordinate is negative, subtracting that negative becomes addition. For our point two comma five, substitute y one equals five and x one equals two, giving y minus five equals three times x minus two."
+    },
+    {
+      "title": "Now simplify — but interpret every step",
+      "body": ["y - 5 = 3(x - 2)", "y - 5 = 3x - 6", "y = 3x - 1"],
+      "visual": "formula",
+      "formula": "y - 5 = 3x - 6",
+      "substitution": "y = 3x - 1",
+      "narration": "Now distribute the three: y minus five equals three x minus six. Add five to both sides, so y equals three x minus one. Notice why the slope stayed three. We only rewrote the same line into slope-intercept form; we did not change its geometry. The negative one is the y-intercept that the given slope and point force the line to have."
+    },
+    {
+      "title": "Quick verification",
+      "body": ["At x = 2:", "y = 3(2) - 1 = 5  ✓", "Slope is still 3  ✓"],
+      "visual": "final",
+      "equation": "y = 3x - 1 ✓",
+      "narration": "Check the known point. Substitute x equals two into y equals three x minus one: y equals six minus one, which is five, so the point two comma five really lies on the line. The big idea is simple: slope describes the rate of change, the known point anchors the line, and point-slope form packages those two facts into one equation. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
