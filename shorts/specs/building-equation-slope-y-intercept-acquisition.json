@@ -1,0 +1,47 @@
+{
+  "title": "Build a Linear Equation from Slope and Y-Intercept",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/building-equation-slope-y-intercept/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "A line has slope -3 and y-intercept 5. What is its equation?",
+      "body": ["slope = -3", "y-intercept = 5", "Do not swap their jobs"],
+      "visual": "formula",
+      "formula": "y = mx + b",
+      "substitution": "m = -3, b = 5",
+      "narration": "Suppose a line has slope negative three and y-intercept five. What equation describes it? Here is the idea: slope and y-intercept tell us two different things about the same line. The slope tells us how y changes as x changes, while the y-intercept tells us where the line starts when x is zero."
+    },
+    {
+      "title": "Why y = mx + b matches those two ideas",
+      "body": ["m multiplies x → change", "b stands alone → starting value"],
+      "visual": "formula",
+      "formula": "y = mx + b",
+      "substitution": "change + starting value",
+      "narration": "That is why slope-intercept form is y equals m x plus b. The m multiplies x because slope controls the change that accumulates as x moves. The b is a constant because it is the value already there at x equals zero. So this formula is not just a pattern to memorize; its structure mirrors what the line is doing."
+    },
+    {
+      "title": "This is where students often mix things up",
+      "body": ["slope = -3 → coefficient of x", "y-intercept = 5 → constant term"],
+      "visual": "formula",
+      "formula": "y = (-3)x + 5",
+      "substitution": "not y = 5x - 3",
+      "narration": "This is where students often mix things up: they swap the slope and intercept, or they lose the negative sign. The slope belongs in front of x, so negative three must multiply x. The y-intercept is the constant term, so five stays by itself. That gives y equals negative three x plus five, not five x minus three."
+    },
+    {
+      "title": "Interpret the equation, not just the symbols",
+      "body": ["start at (0, 5)", "right 1 → down 3", "next point: (1, 2)"],
+      "visual": "formula",
+      "formula": "y = -3x + 5",
+      "substitution": "x = 1 → y = 2",
+      "narration": "Now interpret it. Because b is five, the graph crosses the y-axis at zero comma five. Because the slope is negative three, every one unit you move right makes y drop by three. Starting at five, one step right takes you to two, so one comma two is another point on the line. Notice why the coefficient really is the rate of change."
+    },
+    {
+      "title": "Quick check: does the equation preserve both facts?",
+      "body": ["x = 0 → y = 5 ✓", "x: 0 to 1 → y: 5 to 2", "change in y = -3 ✓"],
+      "visual": "final",
+      "equation": "y = -3x + 5 ✓",
+      "narration": "Quick check: set x equal to zero. The equation gives y equals five, so the y-intercept is correct. Then compare x equals zero and x equals one: y moves from five to two, a change of negative three for a one-unit change in x. So both pieces of information are preserved. The big idea is that m controls change and b controls the starting value. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
