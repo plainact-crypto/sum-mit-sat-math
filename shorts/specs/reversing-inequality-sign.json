@@ -3,6 +3,7 @@
   "lesson_url": "https://summit.plain-act.com/algebra/linear-inequalities/reversing-the-inequality-sign/explanation/",
   "voice": "af_heart",
   "lang_code": "a",
+  "creative_key": "reversing-the-inequality-sign-2026-09-08-a",
   "scenes": [
     {
       "title": "Why does the sign flip?",
@@ -24,7 +25,7 @@
       "visual": "formula",
       "formula": "2 < 5",
       "substitution": "-2 > -5",
-      "narration": "Look at a simpler statement first. Two is less than five. Now multiply both numbers by negative one. Two becomes negative two, and five becomes negative five. On the number line, negative two is now to the right of negative five, so negative two is greater than negative five. The order reversed, so the inequality symbol has to reverse too."
+      "narration": "Look at a simpler statement first. Two is less than five. Now multiply both numbers by negative one. Two becomes negative two, and five becomes negative five. On the number line, negative two is now to the right of negative five, so negative two is greater than negative five. Notice why the symbol changes: the numbers have reversed their order on the number line, so the inequality has to reverse too."
     },
     {
       "title": "The rule has one trigger",
