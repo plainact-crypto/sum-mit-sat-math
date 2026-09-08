@@ -32,7 +32,7 @@ Final PASS is intentionally not assigned in Steps 1–8. Final PASS requires the
 | 16 | linear-word-problems | linear-word-problems-explanation.html | Algebra · Linear Equations / Applications | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
 | 17 | literal-equations | literal-equations-explanation.html | Algebra · Linear Equations in One Variable | DESMOS | No | Yes | No | No | Classified · retrofit pending |
 | 18 | multi-step | multi-step-explanation.html | Algebra · Linear Equations in One Variable | DESMOS | No | Yes | No | No | Classified · retrofit pending |
-| 19 | negative-slope | negative-slope-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
+| 19 | negative-slope | negative-slope-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-08 |
 | 20 | parallel-lines | parallel-lines-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
 | 21 | perpendicular-lines | perpendicular-lines-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
 | 22 | point-slope-form | point-slope-form-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
