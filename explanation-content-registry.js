@@ -55,5 +55,10 @@ module.exports=[
     slug:'two-variable-linear-inequalities',lesson:'Two-Variable Linear Inequalities',classification:'BOTH',
     graph:{bounds:{xMin:-4,xMax:4,yMin:-6,yMax:8},lines:[{m:2,b:1,qaX:[-1,0,2],yIntercept:1,xIntercept:-0.5}],points:[{x:-1,y:-1,line:0,label:'boundary (-1, -1)'},{x:0,y:1,line:0,label:'boundary (0, 1)'},{x:2,y:5,line:0,label:'boundary (2, 5)'}],ariaLabel:'Boundary line y equals 2x plus 1 for the inequality y less than or equal to 2x plus 1'},
     desmos:D('y <= 2x + 1','a solid boundary y = 2x + 1 with the region below it shaded','confirm the boundary style, shading direction, and whether test points are solutions','the graphed region contains exactly the ordered pairs whose y-values are less than or equal to 2x+1','Desmos is fast for visual checking; for a simple exam-style graph, slope-intercept form plus one test point is often faster by hand.','Boundary checks: x=-1,0,2 give y=-1,1,5. Also (0,0) satisfies 0<=1, while (0,3) fails 3<=1.')
+  },
+  {
+    slug:'boundary-lines',lesson:'Boundary Lines',classification:'BOTH',
+    graph:{bounds:{xMin:-4,xMax:4,yMin:-3,yMax:5},lines:[{m:-1,b:2,qaX:[-2,0,2],yIntercept:2,xIntercept:2}],points:[{x:-2,y:4,line:0,label:'boundary (-2, 4)'},{x:0,y:2,line:0,label:'boundary (0, 2)'},{x:2,y:0,line:0,label:'boundary (2, 0)'}],ariaLabel:'Boundary line y equals negative x plus 2 for the strict inequality y greater than negative x plus 2'},
+    desmos:D('y > -x + 2','a dashed boundary y = -x + 2 passing through (0,2) and (2,0)','confirm the boundary equation, dashed line style, and intercepts before choosing a solution region','the edge occurs where y=-x+2, while the strict inequality excludes every point on that edge','Identifying the equality boundary by hand is faster for this simple form; Desmos is useful for checking line style and intercepts.','At x=-2,0,2 the boundary gives y=4,2,0. The y-intercept is 2 and x-intercept is 2. Also (0,3) satisfies 3>2 while (0,1) does not.')
   }
 ];
