@@ -1,0 +1,47 @@
+{
+  "title": "Boundary Lines: Why Solid vs Dashed Matters",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-inequalities/boundary-lines/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "For y > -x + 2, what line do you draw first?",
+      "body": ["y > -x + 2", "Find the boundary before shading"],
+      "visual": "formula",
+      "formula": "y > -x + 2",
+      "substitution": "boundary: y = -x + 2",
+      "narration": "Suppose you need to graph y greater than negative x plus two. Before you shade anything, ask one question: where does the inequality switch from false to true? Here is the idea: that dividing edge is the boundary line, and it happens exactly where the two sides are equal."
+    },
+    {
+      "title": "Why replace > with =?",
+      "body": ["The boundary is the equality case", "It separates the two half-planes"],
+      "visual": "formula",
+      "formula": "y = -x + 2",
+      "substitution": "slope = -1, y-intercept = 2",
+      "narration": "So we temporarily replace the greater-than sign with an equals sign. Notice why this works: points on y equals negative x plus two are exactly the transition points. On one side, y is greater than negative x plus two; on the other side, it is not. The equality gives us the geometric divider."
+    },
+    {
+      "title": "This is where students often mix things up",
+      "body": ["> or <  → dashed", ">= or <= → solid"],
+      "visual": "formula",
+      "formula": "strict inequality → boundary excluded",
+      "substitution": "inclusive inequality → boundary included",
+      "narration": "This is where students often mix things up: solid versus dashed is not a drawing preference. It records whether equality is allowed. A strict greater-than or less-than sign excludes points on the boundary, so the line is dashed. Greater-than-or-equal or less-than-or-equal includes those points, so the line is solid."
+    },
+    {
+      "title": "Graph the boundary y = -x + 2",
+      "body": ["(0, 2)", "(2, 0)", "slope = -1"],
+      "visual": "formula",
+      "formula": "(0,2) → (2,0)",
+      "substitution": "original sign is > → dashed line",
+      "narration": "Now graph the equality. The y-intercept is two, giving the point zero comma two. With slope negative one, move right two and down two to reach two comma zero. Draw the line through those points, but make it dashed because the original symbol was strictly greater than."
+    },
+    {
+      "title": "Quick check: is the boundary choice mathematically correct?",
+      "body": ["On boundary: (0,2) gives 2 = 2", "Test above: (0,3) gives 3 > 2 ✓"],
+      "visual": "final",
+      "equation": "boundary: y = -x + 2, dashed ✓",
+      "narration": "Quick check: the point zero comma two lies exactly on the equality, because two equals two. But it is not a solution to the strict inequality. A point just above it, zero comma three, gives three greater than two, which is true. So the dashed line correctly separates the solution region without being part of it. The big idea is that a boundary line comes from equality, while the original inequality tells you whether that boundary belongs to the solution. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
