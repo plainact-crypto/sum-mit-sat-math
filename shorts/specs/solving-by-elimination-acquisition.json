@@ -1,0 +1,62 @@
+{
+  "title": "Solving by Elimination: Why Cancelling a Variable Works",
+  "lesson_url": "https://summit.plain-act.com/algebra/systems-of-linear-equations/solving-by-elimination/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Can you solve this system without isolating a variable first?",
+      "body": [
+        "2x + y = 7",
+        "x − y = 2"
+      ],
+      "visual": "formula",
+      "formula": "2x + y = 7",
+      "substitution": "x − y = 2",
+      "narration": "Suppose you need to solve two x plus y equals seven, and x minus y equals two. Here is the idea behind elimination: both equations are true for the same solution, so we are allowed to add the equal left sides and add the equal right sides. If one variable has opposite coefficients, those terms cancel, leaving a simpler equation that the same solution must satisfy."
+    },
+    {
+      "title": "Why does y disappear?",
+      "body": [
+        "+y and −y are opposites.",
+        "Adding them gives exactly 0."
+      ],
+      "visual": "formula",
+      "formula": "(2x + y) + (x − y) = 7 + 2",
+      "substitution": "3x + 0y = 9",
+      "narration": "Add the equations term by term. Two x plus x becomes three x. Positive y plus negative y is zero, so y disappears. And seven plus two is nine. Notice why this is valid: we did not throw y away. Its total contribution is zero because the coefficients are opposites. That is the whole purpose of elimination."
+    },
+    {
+      "title": "This is where students often mix things up",
+      "body": [
+        "Cancel only when coefficients are opposites.",
+        "If you scale an equation, multiply EVERY term."
+      ],
+      "visual": "formula",
+      "formula": "+y + (−y) = 0",
+      "substitution": "+2y + (+2y) ≠ 0",
+      "narration": "This is where students often make the mistake: they cancel terms just because the variable letters match. The coefficients must be opposites. Positive two y and positive two y do not cancel; they make four y. And if the coefficients are not opposites, you may multiply an entire equation first, but every term on both sides must be multiplied."
+    },
+    {
+      "title": "Solve the one-variable equation, then return",
+      "body": [
+        "3x = 9 → x = 3",
+        "x − y = 2 → 3 − y = 2 → y = 1"
+      ],
+      "visual": "formula",
+      "formula": "3x = 9  →  x = 3",
+      "substitution": "3 − y = 2  →  y = 1",
+      "narration": "Now solve three x equals nine, so x equals three. Elimination gave one coordinate, not the whole system solution. Return to either original equation. Using x minus y equals two, substitute x equals three: three minus y equals two, so y equals one. Our candidate solution is three comma one."
+    },
+    {
+      "title": "Quick check: the point must satisfy both equations",
+      "body": [
+        "2(3) + 1 = 7  ✓",
+        "3 − 1 = 2  ✓"
+      ],
+      "visual": "final",
+      "equation": "(3, 1) satisfies BOTH equations ✓",
+      "narration": "Check the point in both originals. Two times three plus one is seven, and three minus one is two. Both equations agree. The big idea is that elimination preserves the common solution while combining the equations in a way that makes one variable contribute zero. Make opposite coefficients, combine carefully, solve, return for the second coordinate, and verify. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
