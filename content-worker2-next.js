@@ -34,7 +34,8 @@ const items=[
   {route:'algebra/linear-functions/linear-function-word-problems/answers/',source:'linear-function-word-problems-answers.html'},
   {route:'algebra/linear-inequalities/graphing-one-variable-inequalities/problems/',source:'graphing-one-variable-inequalities-problems.html'},
   {route:'algebra/linear-inequalities/two-variable-linear-inequalities/answers/',source:'two-variable-linear-inequalities-answers.html'},
-  {route:'algebra/linear-inequalities/boundary-lines/explanation/',source:'boundary-lines-explanation.html'}
+  {route:'algebra/linear-inequalities/boundary-lines/explanation/',source:'boundary-lines-explanation.html'},
+  {route:'algebra/linear-inequalities/boundary-lines/test/',source:'boundary-lines-test.html'}
 ];
 const completedRoutes=new Set();
 for(const item of items){const source=path.join(root,item.source);if(!fs.existsSync(source))continue;const target=path.join(dist,item.route);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(source,path.join(target,'index.html'));completedRoutes.add(`/${item.route}`)}
