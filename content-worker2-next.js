@@ -32,7 +32,8 @@ const items=[
   {route:'algebra/linear-inequalities/compound-inequalities/answers/',source:'compound-inequalities-answers.html'},
   {route:'algebra/linear-inequalities/compound-inequalities/test/',source:'compound-inequalities-test.html'},
   {route:'algebra/linear-functions/linear-function-word-problems/answers/',source:'linear-function-word-problems-answers.html'},
-  {route:'algebra/linear-inequalities/graphing-one-variable-inequalities/problems/',source:'graphing-one-variable-inequalities-problems.html'}
+  {route:'algebra/linear-inequalities/graphing-one-variable-inequalities/problems/',source:'graphing-one-variable-inequalities-problems.html'},
+  {route:'algebra/linear-inequalities/two-variable-linear-inequalities/answers/',source:'two-variable-linear-inequalities-answers.html'}
 ];
 const completedRoutes=new Set();
 for(const item of items){const source=path.join(root,item.source);if(!fs.existsSync(source))continue;const target=path.join(dist,item.route);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(source,path.join(target,'index.html'));completedRoutes.add(`/${item.route}`)}
