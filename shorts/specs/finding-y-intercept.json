@@ -1,0 +1,48 @@
+{
+  "title": "Finding the Y-Intercept: Why x Must Be Zero",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-equations-in-two-variables/finding-y-intercept/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Where does 2x + 3y = 12 cross the y-axis?",
+      "body": ["We want the y-intercept, not just a random point on the line.","The key question is: what must x equal on the y-axis?"],
+      "visual": "intro",
+      "narration": "Find the y-intercept of two x plus three y equals twelve. Here’s the idea: an intercept is not a formula trick. It is a location on the graph. The y-intercept is where the line actually touches the y-axis, so before doing any algebra, ask what is always true about every point on that axis."
+    },
+    {
+      "title": "On the y-axis, x is always zero",
+      "body": ["Every point on the y-axis has the form (0, y).","Common mix-up: setting y = 0 finds the x-intercept instead."],
+      "visual": "formula",
+      "formula": "y-intercept  →  x = 0",
+      "substitution": "x-intercept  →  y = 0",
+      "narration": "This is where students often mix things up. To find a y-intercept, set x equal to zero, because every point on the y-axis has x-coordinate zero. If you set y equal to zero, you are finding where the line hits the x-axis. So the variable you set to zero is the coordinate that vanishes on the axis you are crossing."
+    },
+    {
+      "title": "Substitute x = 0 and solve",
+      "body": ["2(0) + 3y = 12","3y = 12, so y = 4"],
+      "visual": "formula",
+      "formula": "2x + 3y = 12",
+      "substitution": "2(0) + 3y = 12  →  y = 4",
+      "narration": "Now the algebra follows the geometry. Substitute x equals zero into the equation. Two times zero disappears, leaving three y equals twelve. Divide by three and y equals four. That means when the graph is on the y-axis, its y-coordinate is four."
+    },
+    {
+      "title": "Why this matches y = mx + b",
+      "body": ["Rewrite: y = -(2/3)x + 4","The constant 4 is b because x = 0 makes the slope term disappear."],
+      "visual": "formula",
+      "formula": "y = -(2/3)x + 4",
+      "substitution": "x = 0  →  y = 4",
+      "narration": "Notice why the same answer appears in slope-intercept form. If we rewrite the equation, we get y equals negative two thirds x plus four. In y equals m x plus b, b is the y-intercept because when x is zero, the m x term becomes zero and only b remains. So b is not a memorized label; it is the output when x equals zero."
+    },
+    {
+      "title": "Write the intercept as the point (0, 4)",
+      "body": ["Check: 2(0) + 3(4) = 12 ✓","Remember: y-intercept means x = 0."],
+      "visual": "final",
+      "equation": "y-intercept = (0, 4)",
+      "m": -0.6666667,
+      "b": 4,
+      "points": [[0,4]],
+      "narration": "The y-intercept is the point zero, four, not just the number four when the question asks for a point. Check it in the original equation: two times zero plus three times four equals twelve, so the point lies on the line. The main idea is simple: the y-intercept is the output when x equals zero. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
