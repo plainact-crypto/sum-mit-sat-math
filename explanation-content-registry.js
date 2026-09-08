@@ -60,5 +60,10 @@ module.exports=[
     slug:'boundary-lines',lesson:'Boundary Lines',classification:'BOTH',
     graph:{bounds:{xMin:-4,xMax:4,yMin:-3,yMax:5},lines:[{m:-1,b:2,qaX:[-2,0,2],yIntercept:2,xIntercept:2}],points:[{x:-2,y:4,line:0,label:'boundary (-2, 4)'},{x:0,y:2,line:0,label:'boundary (0, 2)'},{x:2,y:0,line:0,label:'boundary (2, 0)'}],ariaLabel:'Boundary line y equals negative x plus 2 for the strict inequality y greater than negative x plus 2'},
     desmos:D('y > -x + 2','a dashed boundary y = -x + 2 passing through (0,2) and (2,0)','confirm the boundary equation, dashed line style, and intercepts before choosing a solution region','the edge occurs where y=-x+2, while the strict inequality excludes every point on that edge','Identifying the equality boundary by hand is faster for this simple form; Desmos is useful for checking line style and intercepts.','At x=-2,0,2 the boundary gives y=4,2,0. The y-intercept is 2 and x-intercept is 2. Also (0,3) satisfies 3>2 while (0,1) does not.')
+  },
+  {
+    slug:'shading-solution-regions',lesson:'Shading Solution Regions',classification:'BOTH',
+    graph:{bounds:{xMin:-4,xMax:4,yMin:-4,yMax:6},lines:[{m:1,b:1,qaX:[-1,0,2],yIntercept:1,xIntercept:-1}],points:[{x:-1,y:0,line:0,label:'boundary (-1, 0)'},{x:0,y:1,line:0,label:'boundary (0, 1)'},{x:2,y:3,line:0,label:'boundary (2, 3)'}],ariaLabel:'Verified boundary line y equals x plus 1 for the inequality y less than or equal to x plus 1'},
+    desmos:D('y <= x + 1','a solid boundary y = x + 1 with the solution half-plane below the line shaded','confirm the boundary style and the side containing solution points such as (0,0)','the shaded half-plane contains exactly the ordered pairs whose y-value is less than or equal to x+1','For a simple graph, boundary plus one test point is usually faster by hand; Desmos is excellent for checking the finished shaded region.','Boundary QA: x=-1,0,2 gives y=0,1,3. Test point (0,0) satisfies 0<=1; (0,3) fails 3<=1, so the solution side is the side containing (0,0).')
   }
 ];
