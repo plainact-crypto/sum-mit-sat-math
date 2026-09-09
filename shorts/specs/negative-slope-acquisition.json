@@ -1,0 +1,67 @@
+{
+  "title": "Negative Slope: Why the Sign Means the Line Falls",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/negative-slope/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Why is this slope negative?",
+      "body": [
+        "A(1, 9) and B(5, 1)",
+        "The line moves right while y moves down."
+      ],
+      "visual": "point",
+      "m": -2,
+      "b": 11,
+      "points": [[1, 9], [5, 1]],
+      "narration": "Suppose a line passes through one comma nine and five comma one. Why is its slope negative? Here is the idea: slope does not tell you whether the points themselves are positive or negative. It tells you the direction and rate of change. As x increases, this line moves downward, so y is decreasing. That opposite movement is what creates a negative slope."
+    },
+    {
+      "title": "Slope is a signed rate of change",
+      "body": [
+        "m = change in y / change in x",
+        "right + down  →  opposite signs  →  m < 0"
+      ],
+      "visual": "formula",
+      "formula": "m = (y2 - y1) / (x2 - x1)",
+      "substitution": "x increases while y decreases  →  negative slope",
+      "narration": "Slope means vertical change for each unit of horizontal change. If we move from the left point to the right point, the horizontal change is positive, but the vertical change is negative. A negative number divided by a positive number is negative. Notice why the sign matters: it records direction. The size of the slope tells steepness; the negative sign tells us the function is decreasing."
+    },
+    {
+      "title": "The common sign mistake",
+      "body": [
+        "Use the same point order in numerator and denominator.",
+        "Reverse both differences — never only one."
+      ],
+      "visual": "formula",
+      "formula": "m = (1 - 9) / (5 - 1) = -8 / 4 = -2",
+      "substitution": "reverse both: (9 - 1) / (1 - 5) = 8 / -4 = -2",
+      "narration": "Now calculate it. One minus nine is negative eight, and five minus one is four, so the slope is negative eight over four, which is negative two. This is where students often mix things up: they reverse the subtraction in only the numerator or only the denominator and accidentally turn the answer positive. You may reverse the point order, but if you do, reverse both differences. The slope still stays negative two."
+    },
+    {
+      "title": "Interpret the number, not just the formula",
+      "body": [
+        "m = -2 means: for every +1 in x, y changes by -2.",
+        "Equation through the points: y = -2x + 11"
+      ],
+      "visual": "point",
+      "m": -2,
+      "b": 11,
+      "points": [[1, 9], [2, 7], [3, 5], [4, 3], [5, 1]],
+      "narration": "What does negative two actually mean? Every time x increases by one, y decreases by two. Starting at one comma nine, move one unit right and two down: two comma seven, then three comma five, and so on. That constant right-one, down-two pattern is the mathematics behind the slope. The line is y equals negative two x plus eleven, and its coefficient of x records exactly that rate."
+    },
+    {
+      "title": "Quick check",
+      "body": [
+        "At x = 5: y = -2(5) + 11 = 1  ✓",
+        "Negative slope = decreasing rate, not negative coordinates."
+      ],
+      "visual": "final",
+      "equation": "m = -2  →  right 1, down 2",
+      "m": -2,
+      "b": 11,
+      "points": [[1, 9], [5, 1]],
+      "narration": "Quick check: substitute x equals five into y equals negative two x plus eleven. We get negative ten plus eleven, which is one, exactly the second point. So the recap is this: a negative slope means the output decreases as the input increases. Predict the direction first, keep your subtraction order consistent, and interpret the slope as a signed rate of change. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
