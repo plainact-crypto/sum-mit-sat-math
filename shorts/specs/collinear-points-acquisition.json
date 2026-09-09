@@ -1,0 +1,67 @@
+{
+  "title": "Collinear Points: Why Equal Slopes Prove One Line",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/collinear-points/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Do these three points lie on one straight line?",
+      "body": [
+        "A(1, 3), B(3, 7), C(5, 11)",
+        "The question is whether the direction stays exactly the same."
+      ],
+      "visual": "point",
+      "m": 2,
+      "b": 1,
+      "points": [[1, 3], [3, 7], [5, 11]],
+      "narration": "Suppose you are given the points A, one comma three, B, three comma seven, and C, five comma eleven. Do all three lie on one straight line? Here is the idea: two points always determine some line, so checking only two points proves nothing about the third. Collinear means every point follows one consistent direction. For a nonvertical line, slope is the number that measures that direction."
+    },
+    {
+      "title": "Why comparing slopes works",
+      "body": [
+        "Slope measures vertical change per horizontal change.",
+        "One straight line has one constant slope."
+      ],
+      "visual": "formula",
+      "formula": "m = change in y / change in x",
+      "substitution": "collinear  →  m_AB = m_BC",
+      "narration": "Slope is change in y divided by change in x. If A, B, and C really sit on one straight line, moving from A to B and then from B to C cannot suddenly change the line's steepness. That is why equal pairwise slopes prove collinearity. This is not just a formula trick; you are checking whether the rate of change stays constant from one segment to the next."
+    },
+    {
+      "title": "This is where students often mix things up",
+      "body": [
+        "Keep subtraction order consistent in each fraction.",
+        "Reverse both numerator and denominator — or neither."
+      ],
+      "visual": "formula",
+      "formula": "m_AB = (7 - 3) / (3 - 1) = 4 / 2 = 2",
+      "substitution": "m_BC = (11 - 7) / (5 - 3) = 4 / 2 = 2",
+      "narration": "Now calculate. From A to B, the rise is seven minus three, and the run is three minus one, so the slope is four over two, which is two. From B to C, the rise is eleven minus seven and the run is five minus three, again four over two, or two. This is where students often mix things up: they reverse the subtraction in the numerator but not the denominator. If you reverse an order, reverse both parts of that slope fraction."
+    },
+    {
+      "title": "Equal slopes mean one unchanged direction",
+      "body": [
+        "m_AB = 2 and m_BC = 2",
+        "So A, B, and C are collinear."
+      ],
+      "visual": "point",
+      "m": 2,
+      "b": 1,
+      "points": [[1, 3], [3, 7], [5, 11]],
+      "narration": "Both slopes equal two, so the direction from A to B is exactly the same as the direction from B to C. That means the path never bends; all three points lie on one straight line. Notice why this works geometrically: for every one unit you move right, the line rises two units everywhere, not just between one pair of points."
+    },
+    {
+      "title": "Quick check: verify with one equation",
+      "body": [
+        "The common line is y = 2x + 1.",
+        "Every point must satisfy that same equation."
+      ],
+      "visual": "final",
+      "equation": "(1,3), (3,7), (5,11)  ✓",
+      "m": 2,
+      "b": 1,
+      "points": [[1, 3], [3, 7], [5, 11]],
+      "narration": "As a quick verification, the common line is y equals two x plus one. At x equals one, y is three. At x equals three, y is seven. At x equals five, y is eleven. All three points satisfy the same equation. So the recap is simple: collinear points share one straight line, and for a nonvertical line that means one constant slope. Compare two pairwise slopes carefully, keep subtraction order consistent, and verify with the line equation when useful. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
