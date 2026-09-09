@@ -1,0 +1,67 @@
+{
+  "title": "Slope from Two Points: Why the Formula Works",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/slope-from-two-points/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "What does the slope really measure?",
+      "body": [
+        "A(2, 5) and B(6, 13)",
+        "How fast does y change as x changes?"
+      ],
+      "visual": "point",
+      "m": 2,
+      "b": 1,
+      "points": [[2, 5], [6, 13]],
+      "narration": "A line passes through two comma five and six comma thirteen. What is its slope, and what does that answer actually mean? Here is the idea: slope measures how much the output y changes for a corresponding change in the input x. We are not just plugging coordinates into a formula. We are comparing vertical movement with horizontal movement along the same line."
+    },
+    {
+      "title": "Why rise is divided by run",
+      "body": [
+        "From A to B:  Δy = 13 - 5 = 8",
+        "From A to B:  Δx = 6 - 2 = 4"
+      ],
+      "visual": "formula",
+      "formula": "m = change in y / change in x",
+      "substitution": "m = 8 / 4",
+      "narration": "From A to B, y rises from five to thirteen, a change of eight. At the same time, x moves from two to six, a change of four. We divide eight by four because we want the vertical change per one unit of horizontal change. That is why slope is rise over run: it converts the total movement into a constant rate."
+    },
+    {
+      "title": "The mistake that flips the sign",
+      "body": [
+        "m = (y2 - y1) / (x2 - x1)",
+        "Keep the SAME point order upstairs and downstairs."
+      ],
+      "visual": "formula",
+      "formula": "m = (13 - 5) / (6 - 2) = 8 / 4 = 2",
+      "substitution": "Wrong trap: (13 - 5) / (2 - 6) = -2",
+      "narration": "Now use the formula. Thirteen minus five over six minus two gives eight over four, so m equals two. This is where students often mix things up: they subtract the y-values in one point order and the x-values in the opposite order. That creates a false negative sign. Pick either point first, but keep that same order in both differences."
+    },
+    {
+      "title": "What does m = 2 mean?",
+      "body": [
+        "m = 2 means: +1 in x  →  +2 in y",
+        "The line has a constant rate of change."
+      ],
+      "visual": "point",
+      "m": 2,
+      "b": 1,
+      "points": [[2, 5], [3, 7], [4, 9], [5, 11], [6, 13]],
+      "narration": "The answer two is not just a number. It means that for every one unit x increases, y increases by two. Starting at two comma five, one step right gives three comma seven, then four comma nine, then five comma eleven. Notice why the formula works: every pair of points on this straight line gives the same vertical-change-to-horizontal-change ratio."
+    },
+    {
+      "title": "Quick verification",
+      "body": [
+        "The points fit y = 2x + 1",
+        "x = 6  →  y = 2(6) + 1 = 13  ✓"
+      ],
+      "visual": "final",
+      "equation": "m = 2 = Δy / Δx",
+      "m": 2,
+      "b": 1,
+      "points": [[2, 5], [6, 13]],
+      "narration": "Quick check: these points lie on y equals two x plus one. At x equals six, two times six plus one is thirteen, exactly our second point. So remember the idea: slope is a rate of change. Compare the y-change with the matching x-change, keep the subtraction order consistent, and interpret the result as change in y per one unit of x. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
