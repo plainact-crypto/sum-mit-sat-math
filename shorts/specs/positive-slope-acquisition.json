@@ -1,0 +1,67 @@
+{
+  "title": "Positive Slope: Why Rising Right Means Positive",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/positive-slope/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Why is this slope positive?",
+      "body": [
+        "A(1, 3) and B(5, 11)",
+        "As x increases, y increases too."
+      ],
+      "visual": "point",
+      "m": 2,
+      "b": 1,
+      "points": [[1, 3], [5, 11]],
+      "narration": "Suppose a line passes through one comma three and five comma eleven. Why do we call its slope positive? Here is the idea: slope is a signed rate of change. It tells us what happens to y when x increases. From the left point to the right point, x goes up and y also goes up, so the two changes move in the same direction. That is what a positive slope means."
+    },
+    {
+      "title": "Slope compares two changes",
+      "body": [
+        "m = change in y / change in x",
+        "right + up  →  same signs  →  m > 0"
+      ],
+      "visual": "formula",
+      "formula": "m = (y2 - y1) / (x2 - x1)",
+      "substitution": "x increases and y increases  →  positive slope",
+      "narration": "Slope compares vertical change to horizontal change. If we move from the left point to the right point, both changes are positive. A positive number divided by a positive number is positive. Notice why this matters: the sign tells direction, while the size tells the rate. A steep rising line and a gentle rising line both have positive slope, but their slope values have different magnitudes."
+    },
+    {
+      "title": "The subtraction-order trap",
+      "body": [
+        "Keep the same point order in both differences.",
+        "Reverse both differences, not just one."
+      ],
+      "visual": "formula",
+      "formula": "m = (11 - 3) / (5 - 1) = 8 / 4 = 2",
+      "substitution": "reverse both: (3 - 11) / (1 - 5) = -8 / -4 = 2",
+      "narration": "Now calculate it. Eleven minus three is eight, and five minus one is four, so the slope is eight over four, which is two. This is where students often mix things up: they reverse only the numerator or only the denominator and accidentally make the slope negative. You may reverse the point order, but you must reverse both differences. Then negative eight over negative four still gives positive two."
+    },
+    {
+      "title": "Interpret the 2",
+      "body": [
+        "m = 2 means: for every +1 in x, y changes by +2.",
+        "Equation through the points: y = 2x + 1"
+      ],
+      "visual": "point",
+      "m": 2,
+      "b": 1,
+      "points": [[1, 3], [2, 5], [3, 7], [4, 9], [5, 11]],
+      "narration": "What does two actually mean? Every time x increases by one, y increases by two. Starting at one comma three, move one right and two up: two comma five, then three comma seven, and so on. That repeating right-one, up-two pattern is the mathematics behind the slope. The line is y equals two x plus one, and the coefficient two records that constant rate."
+    },
+    {
+      "title": "Quick check",
+      "body": [
+        "At x = 5: y = 2(5) + 1 = 11  ✓",
+        "Positive slope = increasing rate, not positive coordinates."
+      ],
+      "visual": "final",
+      "equation": "m = 2  →  right 1, up 2",
+      "m": 2,
+      "b": 1,
+      "points": [[1, 3], [5, 11]],
+      "narration": "Quick check: substitute x equals five into y equals two x plus one. We get ten plus one, which is eleven, exactly the second point. So the recap is this: positive slope means the output increases as the input increases. Predict the direction first, keep your subtraction order consistent, and interpret slope as a rate, not just a number. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
