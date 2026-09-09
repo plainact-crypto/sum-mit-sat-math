@@ -1,0 +1,47 @@
+{
+  "title": "Y-Intercept as Initial Value",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/y-intercept-as-initial-value/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "What does the 12 mean?",
+      "body": ["C = 12 + 6h", "Bike rental cost", "What does 12 represent?"],
+      "visual": "formula",
+      "formula": "C = 12 + 6h",
+      "substitution": "Think: what happens when h = 0?",
+      "narration": "A bike rental costs C equals twelve plus six h dollars, where h is the number of hours. What does the twelve actually mean? Here is the idea: in a linear model, the y-intercept is the output that is already there before the input starts changing. So instead of memorizing that the last number is b, ask what the model says when the input is zero."
+    },
+    {
+      "title": "Why x = 0 finds the y-intercept",
+      "body": ["Every point on the y-axis has x = 0", "y = mx + b", "y = m(0) + b = b"],
+      "visual": "formula",
+      "formula": "x = 0  →  y = b",
+      "substitution": "That is why b is the initial output",
+      "narration": "The y-intercept is where a graph crosses the y-axis. Every point on the y-axis has x-coordinate zero. That is why setting x equal to zero works. In y equals m x plus b, the slope term becomes m times zero, which disappears, leaving y equals b. So b is not just a label in a formula; it is the function's output at input zero."
+    },
+    {
+      "title": "The intercept mix-up",
+      "body": ["Y-intercept → set x = 0", "X-intercept → set y = 0", "Do not reverse the coordinates"],
+      "visual": "formula",
+      "formula": "y-intercept = (0,b)",
+      "substitution": "A y-intercept of -5 is (0,-5), not (-5,0)",
+      "narration": "This is where students often mix things up. For the y-intercept, set x equal to zero, not y equal to zero. Setting y equal to zero finds the x-intercept. And if the y-intercept value is negative five, the point is zero comma negative five. The zero belongs in the x-coordinate because the point lies on the y-axis."
+    },
+    {
+      "title": "Interpret the starting value",
+      "body": ["C = 12 + 6h", "h = 0", "C = 12"],
+      "visual": "formula",
+      "formula": "C = 12 + 6(0) = 12",
+      "substitution": "$12 exists before any hourly charge",
+      "narration": "Now return to the rental model. Put h equal to zero: C equals twelve plus six times zero, so C equals twelve. Notice why this matters. The six is the rate, six dollars added per hour. The twelve is different: it is the starting cost before any hours are charged. In context, that is exactly what an initial value means."
+    },
+    {
+      "title": "Check the idea in another form",
+      "body": ["y = 3x + 7", "x = 0 → y = 7", "y-intercept = (0,7)"],
+      "visual": "final",
+      "equation": "f(0) = initial value ✓",
+      "narration": "Quick check: for y equals three x plus seven, set x equal to zero and you get y equals seven, so the y-intercept is zero comma seven. The big idea is simple: the y-intercept is the output before the input has changed anything. Find it by evaluating the model at input zero, then interpret what that starting amount means. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
