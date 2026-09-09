@@ -1,0 +1,66 @@
+{
+  "title": "Linear Function Tables: Find the Rule Behind the Rows",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/linear-function-tables/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Is this table really linear?",
+      "body": [
+        "(1, 5), (4, 11), (10, 23)",
+        "The y-jumps are +6 and +12 — so why can this still be linear?"
+      ],
+      "visual": "point",
+      "m": 2,
+      "b": 3,
+      "points": [[1, 5], [4, 11], [10, 23]],
+      "narration": "Look at a table with the points one comma five, four comma eleven, and ten comma twenty-three. The y-values do not increase by the same amount, so is the table still linear? Here is the idea: linear does not mean equal y-jumps by themselves. It means a constant rate of change — the same change in y for each one unit of change in x."
+    },
+    {
+      "title": "Compare rates, not raw jumps",
+      "body": [
+        "First interval: Δx = 3, Δy = 6",
+        "Second interval: Δx = 6, Δy = 12"
+      ],
+      "visual": "formula",
+      "formula": "m = Δy / Δx",
+      "substitution": "6 / 3 = 2     and     12 / 6 = 2",
+      "narration": "The first x-gap is three while the first y-gap is six, so the rate is six over three, or two. The second x-gap is six and the y-gap is twelve, so the rate is twelve over six, also two. Notice why this works: the second input change is twice as large, and the output change is twice as large too. The ratio stays the same."
+    },
+    {
+      "title": "The common table mistake",
+      "body": [
+        "Wrong test: compare only consecutive y-differences",
+        "Correct test: compare Δy / Δx over matching rows"
+      ],
+      "visual": "formula",
+      "formula": "constant Δy / Δx  →  linear",
+      "substitution": "unequal x-gaps can still produce one constant slope",
+      "narration": "This is where students often mix things up. Equal y-differences prove a constant rate only when the x-differences are equal too. If the x-gaps change, you must divide. A table is linear when the output changes proportionally to the input change, which is exactly what slope measures."
+    },
+    {
+      "title": "Turn the table into an equation",
+      "body": [
+        "Slope m = 2",
+        "Use one row to find b in y = mx + b"
+      ],
+      "visual": "formula",
+      "formula": "5 = 2(1) + b",
+      "substitution": "5 = 2 + b  →  b = 3  →  y = 2x + 3",
+      "narration": "Once we know the slope is two, the whole table follows one straight-line rule. Use the point one comma five in y equals m x plus b. Five equals two times one plus b, so b equals three. The equation is y equals two x plus three. The two records the constant rate, and the three is the output the rule would have when x is zero."
+    },
+    {
+      "title": "Quick verification",
+      "body": [
+        "At x = 10: y = 2(10) + 3 = 23  ✓",
+        "A linear table is one constant-rate rule written in rows."
+      ],
+      "visual": "final",
+      "equation": "(1,5), (4,11), (10,23)  →  y = 2x + 3",
+      "m": 2,
+      "b": 3,
+      "points": [[1, 5], [4, 11], [10, 23]],
+      "narration": "Quick check: put x equals ten into y equals two x plus three. We get twenty-three, exactly the table value. So do not ask whether the y-values jump by the same amount. Ask whether change in y divided by change in x stays constant. That constant ratio is the slope, and it is what makes the table linear. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
