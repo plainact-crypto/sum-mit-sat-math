@@ -47,7 +47,7 @@ Final PASS is intentionally not assigned in Steps 1–8. Final PASS requires the
 | 31 | standard-form | standard-form-explanation.html | Algebra · Linear Equations in Two Variables | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-08 |
 | 32 | undefined-slope | undefined-slope-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-06 |
 | 33 | variables-both-sides | variables-both-sides-explanation.html | Algebra · Linear Equations in One Variable | DESMOS | No | Yes | No | No | Classified · retrofit pending |
-| 34 | y-intercept-as-initial-value | y-intercept-as-initial-value-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | No | No | Classified · retrofit pending |
+| 34 | y-intercept-as-initial-value | y-intercept-as-initial-value-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-09 |
 | 35 | zero-slope | zero-slope-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-06 |
 | 36 | solving-one-step-linear-equations | generate.js → `oneStepExplanation()` | Algebra · Linear Equations in One Variable | DESMOS | No | Yes | No | No | Classified · generator-source retrofit pending |
 
