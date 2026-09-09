@@ -1,0 +1,47 @@
+{
+  "title": "Build a Linear Equation from Two Points",
+  "lesson_url": "https://summit.plain-act.com/algebra/linear-functions/building-equation-two-points/explanation/",
+  "voice": "af_heart",
+  "lang_code": "a",
+  "scenes": [
+    {
+      "title": "Two points — what line do they determine?",
+      "body": ["(2,5)", "(6,13)", "Find the equation"],
+      "visual": "formula",
+      "formula": "(2,5), (6,13)",
+      "substitution": "m = (13 - 5)/(6 - 2)",
+      "narration": "A line passes through two comma five and six comma thirteen. What is its equation? Here is the idea: two distinct points tell us both how steep the line is and where it sits. First we measure the rate of change between the points. Then one of the points anchors that slope to one unique line."
+    },
+    {
+      "title": "Why the slope formula works",
+      "body": ["change in y = 13 - 5 = 8", "change in x = 6 - 2 = 4", "slope = rise / run"],
+      "visual": "formula",
+      "formula": "m = Δy/Δx = 8/4 = 2",
+      "substitution": "Every +1 in x gives +2 in y",
+      "narration": "Slope is change in y divided by change in x because it measures how much the output changes for each one-unit change in the input. From x equals two to x equals six, x increases by four. Over the same move, y increases from five to thirteen, a change of eight. Eight divided by four is two, so the line rises two units for every one unit it moves right."
+    },
+    {
+      "title": "The subtraction-order trap",
+      "body": ["Use the SAME point order top and bottom", "13 - 5 over 6 - 2", "or 5 - 13 over 2 - 6"],
+      "visual": "formula",
+      "formula": "(13 - 5)/(6 - 2) = 8/4 = 2",
+      "substitution": "Reversing only one subtraction flips the sign by mistake",
+      "narration": "This is where students often mix things up. You may subtract second point minus first point, or first minus second, but the order must match in the numerator and denominator. If you reverse only one subtraction, you create the wrong sign. The geometry did not change, so our slope must still describe the same upward-moving line."
+    },
+    {
+      "title": "Use one point to locate the line",
+      "body": ["y = mx + b", "5 = 2(2) + b", "b = 1"],
+      "visual": "formula",
+      "formula": "5 = 2(2) + b",
+      "substitution": "y = 2x + 1",
+      "narration": "Now we know the steepness, but slope alone is not enough. Many parallel lines have slope two. We need one known point to locate the correct one. Substitute two comma five into y equals m x plus b. Five equals two times two plus b, so b equals one. That gives y equals two x plus one. Notice why this works: the point forces the line with slope two to pass through the required location."
+    },
+    {
+      "title": "Verify both original points",
+      "body": ["x = 2 → y = 2(2) + 1 = 5 ✓", "x = 6 → y = 2(6) + 1 = 13 ✓", "Both points lie on the same line"],
+      "visual": "final",
+      "equation": "y = 2x + 1 ✓",
+      "narration": "Check both points, not just one. At x equals two, the equation gives five. At x equals six, it gives thirteen. Both original points satisfy the equation. The big idea is that two points give a rate of change and a location: find the slope consistently, use one point to anchor the line, then verify both points. The full lesson is available on SUMMIT. Find the complete lesson below."
+    }
+  ]
+}
