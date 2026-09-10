@@ -6,6 +6,7 @@ const marker = 'Video Explanation · English';
 const oldBody = '<div class="soon">VIDEO PAGE</div><p class="video-note">This is a separate independent video route for this lesson. Video content can be added here without changing Explanation, Problems, or Answers.</p>';
 const lesson = 'Standard Form';
 const slug = 'standard-form';
+const routeNeedle = path.join('algebra', 'linear-equations-in-two-variables', 'standard-form', 'video', 'english', 'index.html');
 const url = 'https://scrimba.com/explain/guide0k9sv3sob?claim=6ca29vr3l4dbaq94&fullscreen=1';
 
 function walk(dir, out = []) {
@@ -19,7 +20,7 @@ function walk(dir, out = []) {
 
 const hits = walk(dist).filter(file => {
   const html = fs.readFileSync(file, 'utf8');
-  return html.includes(`<div class="lesson-title">${lesson}</div>`) && html.includes(marker);
+  return file.endsWith(routeNeedle) && html.includes(`<div class="lesson-title">${lesson}</div>`) && html.includes(marker);
 });
 if (hits.length !== 1) throw new Error(`Expected exactly one English video page for ${lesson}; found ${hits.length}`);
 
