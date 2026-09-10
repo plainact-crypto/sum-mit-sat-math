@@ -49,6 +49,7 @@ jobs:
           pip install google-api-python-client google-auth google-auth-httplib2
 
       - name: Render short
+        id: render_short
         run: |
           mkdir -p shorts/output
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
@@ -59,6 +60,7 @@ jobs:
             VOICE="af_heart"
             if [ -z "$SPEC" ]; then
               echo "No short spec changed in this push; skipping render."
+              echo "rendered=false" >> "$GITHUB_OUTPUT"
               exit 0
             fi
           fi
@@ -68,9 +70,10 @@ jobs:
           python shorts/render_short.py "$SPEC" \
             --voice "$VOICE" \
             --out shorts/output/summit-short.mp4
+          echo "rendered=true" >> "$GITHUB_OUTPUT"
 
       - name: Upload MP4 artifact
-        if: ${{ hashFiles('shorts/output/summit-short.mp4') != '' }}
+        if: ${{ steps.render_short.outputs.rendered == 'true' && hashFiles('shorts/output/summit-short.mp4') != '' }}
         uses: actions/upload-artifact@v4
         with:
           name: summit-short-mp4
@@ -78,7 +81,7 @@ jobs:
           retention-days: 14
 
       - name: Upload private test to YouTube
-        if: ${{ hashFiles('shorts/output/summit-short.mp4') != '' }}
+        if: ${{ steps.render_short.outputs.rendered == 'true' && hashFiles('shorts/output/summit-short.mp4') != '' }}
         env:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
@@ -159,7 +162,7 @@ jobs:
           PY
 
       - name: Persist MP4 for social publishing
-        if: ${{ hashFiles('shorts/output/summit-short.mp4') != '' }}
+        if: ${{ steps.render_short.outputs.rendered == 'true' && hashFiles('shorts/output/summit-short.mp4') != '' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
