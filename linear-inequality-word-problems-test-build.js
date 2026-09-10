@@ -1,0 +1,10 @@
+const fs=require('fs'),path=require('path');
+const root=__dirname,dist=path.join(root,'dist');
+const source=path.join(root,'linear-inequality-word-problems-test.html');
+if(!fs.existsSync(source))throw new Error('Missing linear-inequality-word-problems-test.html');
+const route='/algebra/linear-inequalities/linear-inequality-word-problems/test/';
+const target=path.join(dist,route.replace(/^\//,''));fs.mkdirSync(target,{recursive:true});fs.copyFileSync(source,path.join(target,'index.html'));
+const html=fs.readFileSync(source,'utf8');
+if((html.match(/level:'/g)||[]).length!==5)throw new Error('Lesson Test must contain exactly 5 questions');
+if(!html.includes("level:'HARD / EXAM-STYLE'"))throw new Error('Lesson Test must end at Hard / Exam-style');
+if(html.includes('Check Answer'))throw new Error('Lesson Test must not reveal feedback before Submit Test');
