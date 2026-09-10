@@ -37,7 +37,8 @@ const items=[
   {route:'algebra/linear-inequalities/boundary-lines/explanation/',source:'boundary-lines-explanation.html'},
   {route:'algebra/linear-inequalities/boundary-lines/test/',source:'boundary-lines-test.html'},
   {route:'algebra/linear-inequalities/linear-inequality-word-problems/problems/',source:'linear-inequality-word-problems-problems.html'},
-  {route:'algebra/systems-of-linear-inequalities/graphing-systems-of-inequalities/explanation/',source:'graphing-systems-of-inequalities-explanation.html'}
+  {route:'algebra/systems-of-linear-inequalities/graphing-systems-of-inequalities/explanation/',source:'graphing-systems-of-inequalities-explanation.html'},
+  {route:'algebra/systems-of-linear-inequalities/graphing-systems-of-inequalities/problems/',source:'graphing-systems-of-inequalities-problems.html'}
 ];
 const completedRoutes=new Set();
 for(const item of items){const source=path.join(root,item.source);if(!fs.existsSync(source))continue;const target=path.join(dist,item.route);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(source,path.join(target,'index.html'));completedRoutes.add(`/${item.route}`)}
