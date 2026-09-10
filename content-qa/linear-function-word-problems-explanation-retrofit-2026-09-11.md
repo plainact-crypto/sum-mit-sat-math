@@ -1,0 +1,21 @@
+# Linear Function Word Problems — Explanation Retrofit QA
+
+- Route: `/algebra/linear-functions/linear-function-word-problems/explanation/`
+- Classification: `BOTH`
+- Graph added/present: Yes — deterministic native graph from `y = 2.5x + 5`
+- Desmos added/present: Yes — lesson-specific `DESMOS STRATEGY` with Enter / Look for / Use it to answer / Why it works / Faster or not?
+- Independent math cross-check: PASS
+  - `x=0 -> y=5`
+  - `x=2 -> y=10`
+  - `x=4 -> y=15`
+  - slope from `(0,5)` to `(2,10)` is `(10-5)/(2-0)=2.5`
+  - y-intercept is `5`
+- Existing worked examples cross-checked:
+  - Bike rental: `C=7h+12`, so `C(4)=40`.
+  - Water drain: `A=-6t+90`, so `A(8)=42`.
+  - Plant data `(3,26),(7,38)`: slope `3`, intercept `17`, model `H=3d+17`.
+  - Savings: `365=25w+140` gives `w=9`.
+  - Delivery data `(6,23),(14,39)`: slope `2`, fixed fee `11`.
+  - Quick check: `C=4n+9`; `55-3(6)=37`; points `(2,18),(6,34)` give `y=4x+10`; `129=12x+45` gives `x=7`; `-2.5` means output decreases 2.5 per input unit.
+- Source preserves the existing teaching flow and already contains the verified graph and Desmos blocks; no video/audio/player files touched.
+- QA date: 2026-09-11.
