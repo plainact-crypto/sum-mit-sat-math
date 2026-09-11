@@ -130,6 +130,16 @@ const explainers = [
     desmosAligned: true,
     requestedVoiceGender: 'female',
     note: 'English · Teacher-style explanation · Real-life bike rental example · Verified y-intercept graph · Desmos strategy · Quick check'
+  },
+  {
+    lesson: 'Overlapping Solution Regions',
+    slug: 'overlapping-solution-regions',
+    route: 'algebra/systems-of-linear-inequalities/overlapping-solution-regions/video/english/index.html',
+    url: 'https://scrimba.com/explain/guide0r6es1n81?claim=6tg10mbqlskpac80&fullscreen=1',
+    graphAligned: true,
+    desmosAligned: true,
+    requestedVoiceGender: 'male',
+    note: 'English · Teacher-style explanation · Verified overlap graphs · Feasible region · Desmos strategy · Quick check'
   }
 ];
 
