@@ -30,7 +30,7 @@ Final PASS is intentionally not assigned in Steps 1–8. Final PASS requires the
 | 14 | linear-function-translations | linear-function-translations-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-11 |
 | 15 | linear-function-word-problems | linear-function-word-problems-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-11 |
 | 16 | linear-word-problems | linear-word-problems-explanation.html | Algebra · Linear Equations / Applications | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-11 |
-| 17 | literal-equations | literal-equations-explanation.html | Algebra · Linear Equations in One Variable | DESMOS | No | Yes | No | No | Classified · retrofit pending |
+| 17 | literal-equations | literal-equations-explanation.html | Algebra · Linear Equations in One Variable | DESMOS | No | Yes | No | Yes | RETROFIT_DONE · independently QA-verified 2026-09-11 |
 | 18 | multi-step | multi-step-explanation.html | Algebra · Linear Equations in One Variable | DESMOS | No | Yes | No | No | Classified · retrofit pending |
 | 19 | negative-slope | negative-slope-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-08 |
 | 20 | parallel-lines | parallel-lines-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-reverified 2026-09-11 |
