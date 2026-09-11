@@ -19,7 +19,7 @@ Final PASS is intentionally not assigned in Steps 1–8. Final PASS requires the
 | 3 | building-equation-two-points | building-equation-two-points-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-10 |
 | 4 | collinear-points | collinear-points-explanation.html | Algebra · Linear Functions | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-09 |
 | 5 | converting-between-forms | converting-between-forms-explanation.html | Algebra · Linear Equations in Two Variables | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-09 |
-| 6 | decimals | decimals-explanation.html | Algebra · Linear Equations in One Variable | DESMOS | No | Yes | No | No | Classified · retrofit pending |
+| 6 | decimals | decimals-explanation.html | Algebra · Linear Equations in One Variable | DESMOS | No | Yes | No | Yes | RETROFIT_DONE · independently QA-reverified 2026-09-11 |
 | 7 | finding-both-intercepts | finding-both-intercepts-explanation.html | Algebra · Linear Equations in Two Variables | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-08 |
 | 8 | finding-x-intercept | finding-x-intercept-explanation.html | Algebra · Linear Equations in Two Variables | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-08 |
 | 9 | finding-y-intercept | finding-y-intercept-explanation.html | Algebra · Linear Equations in Two Variables | BOTH | Yes | Yes | Yes | Yes | RETROFIT_DONE · independently QA-verified 2026-09-08 |
