@@ -1,0 +1,1 @@
+const fs=require('fs'),path=require('path');const src=path.join(__dirname,'expanding-expressions-problems.html');const out=path.join(__dirname,'dist','advanced-math','equivalent-expressions','expanding-expressions','problems');fs.mkdirSync(out,{recursive:true});fs.copyFileSync(src,path.join(out,'index.html'));
