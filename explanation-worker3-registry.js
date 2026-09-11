@@ -27,5 +27,19 @@ module.exports=[
       'For a graphing or feasible-region question, Desmos is often the fastest accurate visual check; algebra is faster for proving an exact intersection and endpoint.',
       'Set x+1=-x+7: 2x=6, so x=3 and y=4. Graph QA: y=x+1 gives 0,1,4 at x=-1,0,3; y=-x+7 gives 8,7,4. Also (0,3) satisfies 3>=1 and 3<=7; (2,4) satisfies 4>=3 and 4<=5; (4,4) fails 4>=5.'
     )
+  },
+  {
+    slug:'testing-points-in-a-system',
+    lesson:'Testing Points in a System',
+    classification:'BOTH',
+    graph:{bounds:{xMin:-2,xMax:6,yMin:-1,yMax:9},lines:[{m:1,b:1,qaX:[-1,0,2],yIntercept:1,xIntercept:-1},{m:-1,b:7,qaX:[0,2,4],yIntercept:7,xIntercept:7}],intersections:[{a:0,b:1,x:3,y:4}],points:[{x:2,y:4,label:'solution (2, 4)'},{x:4,y:4,label:'not a solution (4, 4)'},{x:3,y:4,line:0,label:'boundary intersection (3, 4)'}],caption:'For y ≥ x + 1 and y ≤ −x + 7, (2, 4) satisfies both inequalities while (4, 4) does not.',ariaLabel:'Two verified boundary lines for a system, with solution point (2, 4), non-solution point (4, 4), and boundary intersection (3, 4)'},
+    desmos:D(
+      'Enter y >= x + 1 and y <= -x + 7 on separate lines, then plot the points (2,4) and (4,4).',
+      'whether each plotted point lies inside the overlap of the two shaded solution regions; the boundaries meet at (3, 4)',
+      'verify the substitution decision: (2,4) belongs to the system, while (4,4) does not',
+      'the overlap contains exactly the ordered pairs that make every inequality true, so plotting a candidate point provides a visual check of the same substitution test',
+      'For one or two candidate points, direct substitution is faster; Desmos is useful when the system is already graphed or when several candidates must be checked visually.',
+      'For (2,4): 4>=2+1 and 4<=-2+7, so both are true. For (4,4): 4>=5 is false and 4<=3 is false. Boundary QA: y=x+1 gives 0,1,3 at x=-1,0,2; y=-x+7 gives 7,5,3 at x=0,2,4. Solving x+1=-x+7 gives (3,4).'
+    )
   }
 ];
