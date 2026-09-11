@@ -140,6 +140,16 @@ const explainers = [
     desmosAligned: true,
     requestedVoiceGender: 'male',
     note: 'English · Teacher-style explanation · Verified overlap graphs · Feasible region · Desmos strategy · Quick check'
+  },
+  {
+    lesson: 'Testing Points in a System',
+    slug: 'testing-points-in-a-system',
+    route: 'algebra/systems-of-linear-inequalities/testing-points-in-a-system/video/english/index.html',
+    url: 'https://scrimba.com/explain/guide0pdll84dl?claim=861ehpcpr4u750sc&fullscreen=1',
+    graphAligned: true,
+    desmosAligned: true,
+    requestedVoiceGender: 'female',
+    note: 'English · Teacher-style explanation · Substitution test · Verified system graph · Desmos strategy · Quick check'
   }
 ];
 
