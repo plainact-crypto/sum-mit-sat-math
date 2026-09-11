@@ -1,0 +1,20 @@
+<!doctype html><html lang="en" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/styles.css"><title>Testing Points in a System — Answers | SUMMIT MATH</title><style>.answers{width:min(920px,100%);margin:auto}.answer{margin:14px 0;padding:18px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}.answer h3{margin:0 0 8px}.answer code{display:block;margin:7px 0;white-space:normal}.footer{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:28px}</style></head><body><header class="topbar"><a class="brand" href="/"><span class="brand-mark"></span><span class="brand-copy">SUMMIT<small>MATH</small></span></a><nav><a href="/">Home</a><a href="/#subjects">Subjects</a><a href="/#subjects">Practice</a><a href="/#subjects">Progress</a></nav><div class="actions"><button class="lang">EN <span>|</span> عربي</button><button id="themeToggle" class="theme">◐</button></div></header><main class="page-shell"><div class="answers"><div class="crumb">Algebra · Systems of Linear Inequalities</div><div class="page-type">ANSWERS &amp; SOLUTIONS</div><h1>Testing Points in a System</h1><p>Check every condition. A point is a solution only when every inequality in the system is true.</p><div id="answers"></div><div class="footer"><a href="../problems/">← Back to Problems</a><a href="../test/">Take the Test →</a></div></div></main><script>const A=[
+['A — (2, 4)','4 ≥ 2 + 1 and 4 ≤ 5. Both are true.'],
+['A — (2, 3)','2 + 3 = 5 < 6 and 2 ≥ 1.'],
+['A — (0, 3)','3 > −0 + 2 and 3 < 0 + 4.'],
+['A — (2, 3)','2(2) + 3 = 7 ≤ 8, and 3 ≥ 2 − 1.'],
+['B','At (−1, 2): 2 ≥ −1 + 2 and 2 ≤ −(−1) + 2.'],
+['C','On y = 2x + 1, the two sides are equal, so y > 2x + 1 is false.'],
+['A','At (0, 0): 0 ≤ 4 and 0 > −2.'],
+['A — (3, 4)','3 ≥ 0, 4 ≥ 0, and 3 + 4 = 7 ≤ 7.'],
+['A — (2, 4)','3(2) + 2(4) = 14 > 12, and 4 ≤ 4.'],
+['B','At (1, −1): −1 ≤ 2(1) − 1 = 1 and −1 > −1 − 1 = −2.'],
+['A','At (4, 1), y ≥ x − 2 becomes 1 ≥ 2, which is false. The second condition, 4 + 1 ≤ 6, is true.'],
+['A — (8, 10)','8 + 10 = 18 ≤ 20 and 3(8) + 2(10) = 44 ≤ 48; both values are nonnegative.'],
+['A — (4, 4)','4 ≥ 0.5(4) + 2 = 4 and 4 ≤ −4 + 8 = 4.'],
+['A — (2, 3)','2 > 1, 3 ≥ 2, and 2(2) + 3 = 7 < 9.'],
+['C — 2','5 ≥ 2m + 1 gives 4 ≥ 2m, so m ≤ 2. The greatest integer is 2; also 5 ≤ 7.'],
+['A — (2, 3)','2 − 2(3) = −4 ≤ −3 and 3(2) + 3 = 9 > 5.'],
+['B — 1','5 ≥ 2(2) + k gives 5 ≥ 4 + k, so k ≤ 1. Also 5 ≤ −2 + 10 = 8. Greatest integer: 1.'],
+['D — 3','With x = 2: y > 0 and y ≤ 3. The integer values are 1, 2, and 3, so there are 3.']
+];const root=document.getElementById('answers');A.forEach((a,i)=>{const d=document.createElement('section');d.className='answer';d.innerHTML='<h3>'+(i+1)+'. '+a[0]+'</h3><code>'+a[1]+'</code>';root.appendChild(d)});if(A.length!==18)throw new Error('Answers must match all 18 current Problems');const saved=localStorage.getItem('summit-theme')||'light';document.documentElement.dataset.theme=saved;document.getElementById('themeToggle').onclick=()=>{const next=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=next;localStorage.setItem('summit-theme',next)};</script></body></html>
