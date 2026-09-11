@@ -1,6 +1,6 @@
 const fs=require('fs');
 const path=require('path');
-const registry=[...require('./explanation-retrofit-registry'),...require('./explanation-content-registry')];
+const registry=[...require('./explanation-retrofit-registry'),...require('./explanation-content-registry'),...require('./explanation-worker3-registry')];
 const tools=require('./explanation-tools');
 const root=__dirname,dist=path.join(root,'dist');
 function fail(m){throw new Error(`[Final Explanation QA] ${m}`)}
