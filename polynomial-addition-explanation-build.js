@@ -8,11 +8,13 @@ if(/summit-desmos-strategy|data-summit-graph/i.test(html))throw new Error('NEITH
 const target=path.join(dist,route.replace(/^\//,''));fs.mkdirSync(target,{recursive:true});fs.copyFileSync(source,path.join(target,'index.html'));
 const problemsSource=path.join(root,'polynomial-addition-problems.html'),problemsRoute='/advanced-math/polynomial-operations/polynomial-addition/problems/';
 if(fs.existsSync(problemsSource)){const ph=fs.readFileSync(problemsSource,'utf8');for(const marker of ['PRACTICE PROBLEMS','Polynomial Addition','18 questions','SKILL CHECK','CORE PRACTICE','EXAM-STYLE PRACTICE','CHALLENGE PROBLEMS'])if(!ph.includes(marker))throw new Error(`Problems source failed marker: ${marker}`);const pt=path.join(dist,problemsRoute.replace(/^\//,''));fs.mkdirSync(pt,{recursive:true});fs.copyFileSync(problemsSource,path.join(pt,'index.html'));}
+const answersSource=path.join(root,'polynomial-addition-answers.html'),answersRoute='/advanced-math/polynomial-operations/polynomial-addition/answers/';
+if(fs.existsSync(answersSource)){const ah=fs.readFileSync(answersSource,'utf8');for(const marker of ['ANSWERS &amp; SOLUTIONS','Polynomial Addition','Practice Questions 1–18','Answer: A) 5x - 3','Answer: A) 5x² - 5x + 5'])if(!ah.includes(marker))throw new Error(`Answers source failed marker: ${marker}`);const count=(ah.match(/class="answer"/g)||[]).length;if(count!==18)throw new Error(`Answers must contain exactly 18 solutions; found ${count}`);const at=path.join(dist,answersRoute.replace(/^\//,''));fs.mkdirSync(at,{recursive:true});fs.copyFileSync(answersSource,path.join(at,'index.html'));}
 const sp=path.join(dist,'schedule.json');
 function cairo(ms){return new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Cairo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).format(new Date(ms)).replace(', ','T')}
 if(fs.existsSync(sp)){
- const original=JSON.parse(fs.readFileSync(sp,'utf8')),completed=new Set([route]);if(fs.existsSync(problemsSource))completed.add(problemsRoute);const s=original.filter(r=>!completed.has(r.route)),removed=original.length-s.length,interval=20*60*1000,start=Math.ceil((Date.now()+60000)/interval)*interval;
- if(removed>2)throw new Error(`Expected at most two scheduled Polynomial Addition routes; removed ${removed}`);
+ const original=JSON.parse(fs.readFileSync(sp,'utf8')),completed=new Set([route]);if(fs.existsSync(problemsSource))completed.add(problemsRoute);if(fs.existsSync(answersSource))completed.add(answersRoute);const s=original.filter(r=>!completed.has(r.route)),removed=original.length-s.length,interval=20*60*1000,start=Math.ceil((Date.now()+60000)/interval)*interval;
+ if(removed>3)throw new Error(`Expected at most three scheduled Polynomial Addition routes; removed ${removed}`);
  if(removed>0){
   s.forEach((r,i)=>{r.index=i+1;r.cairo=cairo(start+i*interval)+'+03:00';r.timezone='Africa/Cairo'});
   fs.writeFileSync(sp,JSON.stringify(s,null,2));
