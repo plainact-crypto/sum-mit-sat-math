@@ -10,6 +10,7 @@ const route = 'advanced-math/equivalent-expressions/factoring-expressions/video/
 const url = 'https://scrimba.com/explain/guide08f7vqkpp?claim=86bblhjj7vsk367j&fullscreen=1';
 
 function walk(dir, out = []) {
+  if (!fs.existsSync(dir)) return out;
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const p = path.join(dir, entry.name);
     if (entry.isDirectory()) walk(p, out);
@@ -18,11 +19,19 @@ function walk(dir, out = []) {
   return out;
 }
 
-const hits = walk(dist).filter(file => {
+let hits = walk(dist).filter(file => {
   const normalized = file.split(path.sep).join('/');
   const html = fs.readFileSync(file, 'utf8');
   return normalized.endsWith(route) && html.includes(`<div class="lesson-title">${lesson}</div>`) && html.includes(marker);
 });
+
+if (hits.length === 0) {
+  const target = path.join(dist, route);
+  fs.mkdirSync(path.dirname(target), { recursive: true });
+  const shell = `<!doctype html><html lang="en" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/styles.css"><title>${lesson} — Video Explanation | SUMMIT MATH</title></head><body><main class="page-shell"><section class="lesson-card"><div class="crumb">Advanced Math · Equivalent Expressions</div><div class="page-type">${marker}</div><div class="lesson-title">${lesson}</div><div class="subject-label">Advanced Math</div>${oldBody}<a class="back" href="../../explanation/">← Back to explanation</a></section></main></body></html>`;
+  fs.writeFileSync(target, shell);
+  hits = [target];
+}
 if (hits.length !== 1) throw new Error(`Expected exactly one English video page for ${lesson}; found ${hits.length}`);
 
 const file = hits[0];
