@@ -8,5 +8,6 @@ module.exports=[
   {slug:'polynomial-addition',lesson:'Polynomial Addition',classification:'NEITHER',graph:null,desmos:null},
   {slug:'polynomial-subtraction',lesson:'Polynomial Subtraction',classification:'NEITHER',graph:null,desmos:null},
   {slug:'polynomial-multiplication',lesson:'Polynomial Multiplication',classification:'NEITHER',graph:null,desmos:null},
+  {slug:'special-polynomial-products',lesson:'Special Polynomial Products',classification:'NEITHER',graph:null,desmos:null},
   {slug:'polynomial-division',lesson:'Polynomial Division',classification:'NEITHER',graph:null,desmos:null}
 ];
