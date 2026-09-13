@@ -1,0 +1,13 @@
+const fs=require('fs'),path=require('path');
+const root=__dirname,dist=path.join(root,'dist'),source=path.join(root,'greatest-common-factor-test.html');
+if(!fs.existsSync(source))throw new Error('Missing greatest-common-factor-test.html');
+const route='/advanced-math/factoring/greatest-common-factor/test/';
+const html=fs.readFileSync(source,'utf8');
+for(const marker of ['LESSON TEST','Greatest Common Factor','Results and explanations appear only after Submit Test.','HARD / EXAM-STYLE','k ≥ 3'])if(!html.includes(marker))throw new Error(`GCF test source failed marker: ${marker}`);
+const questionCount=(html.match(/level:'/g)||[]).length;
+if(questionCount!==5)throw new Error(`Greatest Common Factor test must contain exactly 5 questions; found ${questionCount}`);
+if(!html.includes("document.getElementById('submit').onclick"))throw new Error('Test feedback must be gated behind Submit Test');
+const target=path.join(dist,route.replace(/^\//,''));fs.mkdirSync(target,{recursive:true});fs.copyFileSync(source,path.join(target,'index.html'));
+const built=fs.readFileSync(path.join(target,'index.html'),'utf8');
+for(const marker of ['LESSON TEST','Greatest Common Factor','k ≥ 3'])if(!built.includes(marker))throw new Error(`Built GCF test route failed marker: ${marker}`);
+console.log('Built Greatest Common Factor test route');
