@@ -1,0 +1,10 @@
+const fs=require('fs'),path=require('path');
+const root=__dirname,dist=path.join(root,'dist'),source=path.join(root,'greatest-common-factor-answers.html');
+if(!fs.existsSync(source))throw new Error('Missing greatest-common-factor-answers.html');
+const route='/advanced-math/factoring/greatest-common-factor/answers/';
+const html=fs.readFileSync(source,'utf8');
+if(!html.includes('Solutions correspond exactly to Practice Questions 1–18.')||(html.match(/class="answer"/g)||[]).length!==18)throw new Error('Answers source must contain exactly 18 solutions');
+const target=path.join(dist,route.replace(/^\//,''));fs.mkdirSync(target,{recursive:true});fs.copyFileSync(source,path.join(target,'index.html'));
+const sp=path.join(dist,'schedule.json');function cairo(ms){return new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Cairo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).format(new Date(ms)).replace(', ','T')}
+if(fs.existsSync(sp)){const original=JSON.parse(fs.readFileSync(sp,'utf8')),s=original.filter(r=>r.route!==route),removed=original.length-s.length,interval=20*60*1000,start=Math.ceil((Date.now()+60000)/interval)*interval;s.forEach((r,i)=>{r.index=i+1;r.cairo=cairo(start+i*interval)+'+03:00';r.timezone='Africa/Cairo'});fs.writeFileSync(sp,JSON.stringify(s,null,2));const q=v=>'"'+String(v??'').replace(/"/g,'""')+'"';fs.writeFileSync(path.join(dist,'schedule.csv'),'index,subject,section,group,lesson,pageType,route,cairo,timezone\n'+s.map(r=>[r.index,r.subject,r.section,r.group,r.lesson,r.pageType,r.route,r.cairo,r.timezone].map(q).join(',')).join('\n')+'\n');const ap=path.join(dist,'audit.json');if(fs.existsSync(ap)&&removed){const a=JSON.parse(fs.readFileSync(ap,'utf8'));a.completedContentPages=(a.completedContentPages||0)+removed;a.scheduledPages=s.length;a.contentSlotMinutes=20;fs.writeFileSync(ap,JSON.stringify(a,null,2));}}
+console.log('Built Greatest Common Factor answers.');
