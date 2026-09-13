@@ -4,7 +4,8 @@ if(!fs.existsSync(source))throw new Error('Missing special-polynomial-products-p
 const route='/advanced-math/polynomial-operations/special-polynomial-products/problems/';
 const html=fs.readFileSync(source,'utf8');
 for(const marker of ['PRACTICE PROBLEMS','Special Polynomial Products','18 questions','SKILL CHECK','CORE PRACTICE','EXAM-STYLE PRACTICE','CHALLENGE PROBLEMS'])if(!html.includes(marker))throw new Error(`Problems source failed marker: ${marker}`);
-const counts=[...html.matchAll(/\[\["(SKILL CHECK|CORE PRACTICE|EXAM-STYLE PRACTICE|CHALLENGE PROBLEMS)"/g)].length;if(counts!==4)throw new Error('Problems must contain all four locked sections');
+const lockedSections=['SKILL CHECK','CORE PRACTICE','EXAM-STYLE PRACTICE','CHALLENGE PROBLEMS'];
+if(!lockedSections.every((name,i)=>html.includes((i===0?'[["':'["')+name+'"')))throw new Error('Problems must contain all four locked sections');
 if(!html.includes("if(n!==18||groups[0][2].length!==3||groups[1][2].length!==8||groups[2][2].length!==5||groups[3][2].length!==2)"))throw new Error('Problems must enforce exactly 3/8/5/2 = 18 questions');
 const target=path.join(dist,route.replace(/^\//,''));fs.mkdirSync(target,{recursive:true});fs.copyFileSync(source,path.join(target,'index.html'));
 const sp=path.join(dist,'schedule.json');
