@@ -5,6 +5,7 @@ const items=[
   ['algebra/linear-functions/linear-function-tables/problems/','linear-function-tables-problems.html'],
   ['algebra/linear-functions/linear-function-translations/explanation/','linear-function-translations-explanation.html'],
   ['advanced-math/polynomial-operations/polynomial-multiplication/problems/','polynomial-multiplication-problems.html'],
+  ['advanced-math/polynomial-operations/polynomial-multiplication/answers/','polynomial-multiplication-answers.html'],
   ['advanced-math/polynomial-operations/polynomial-division/problems/','polynomial-division-problems.html']
 ];
 for(const [route,file] of items){const target=path.join(dist,route);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}
