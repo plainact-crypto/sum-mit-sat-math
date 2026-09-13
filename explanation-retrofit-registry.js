@@ -9,5 +9,6 @@ module.exports=[
   {slug:'polynomial-subtraction',lesson:'Polynomial Subtraction',classification:'NEITHER',graph:null,desmos:null},
   {slug:'polynomial-multiplication',lesson:'Polynomial Multiplication',classification:'NEITHER',graph:null,desmos:null},
   {slug:'special-polynomial-products',lesson:'Special Polynomial Products',classification:'NEITHER',graph:null,desmos:null},
-  {slug:'polynomial-division',lesson:'Polynomial Division',classification:'NEITHER',graph:null,desmos:null}
+  {slug:'polynomial-division',lesson:'Polynomial Division',classification:'NEITHER',graph:null,desmos:null},
+  {slug:'greatest-common-factor',lesson:'Greatest Common Factor',classification:'NEITHER',graph:null,desmos:null}
 ];
