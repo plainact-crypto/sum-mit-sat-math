@@ -45,3 +45,4 @@ if (!html.includes(tag)) {
   fs.writeFileSync(file, html);
 }
 console.log(`Embedded SUMMIT explainer at ${path.relative(dist, file)}`);
+require('./video-greatest-common-factor-explainer.js');
