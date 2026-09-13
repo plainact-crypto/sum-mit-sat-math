@@ -20,3 +20,4 @@ if(fs.existsSync(schedulePath)){
   fs.writeFileSync(schedulePath,JSON.stringify(schedule,null,2));
 }
 console.log('Built Perfect-Square Trinomials answers route');
+require('./perfect-square-trinomials-test-build.js');
