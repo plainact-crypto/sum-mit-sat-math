@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
+require('./video-factoring-trinomials-explainer.js');
+
 const dist = path.join(__dirname, 'dist');
 const lesson = 'Variables on Both Sides';
 const marker = 'Video Explanation · English';
