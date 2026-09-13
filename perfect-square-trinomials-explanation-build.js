@@ -19,3 +19,4 @@ if(fs.existsSync(sp)){
   const ap=path.join(dist,'audit.json');if(fs.existsSync(ap)){const a=JSON.parse(fs.readFileSync(ap,'utf8'));a.completedContentPages=(a.completedContentPages||0)+1;a.scheduledPages=s.length;a.contentSlotMinutes=20;fs.writeFileSync(ap,JSON.stringify(a,null,2));}
  }
 }
+require('./perfect-square-trinomials-problems-build.js');
