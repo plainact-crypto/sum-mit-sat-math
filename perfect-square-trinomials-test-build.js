@@ -26,3 +26,4 @@ if(fs.existsSync(schedulePath)){
 }
 console.log('Built Perfect-Square Trinomials test route');
 require('./factoring-by-grouping-explanation-build.js');
+require('./factoring-by-grouping-problems-build.js');
