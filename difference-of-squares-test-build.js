@@ -1,0 +1,16 @@
+const fs=require('fs'),path=require('path');
+const root=__dirname,dist=path.join(root,'dist');
+const sourceName='difference-of-squares-test.html';
+const route='/advanced-math/factoring/difference-of-squares/test/';
+const source=path.join(root,sourceName);
+if(!fs.existsSync(source))throw new Error(`Missing ${sourceName}`);
+const html=fs.readFileSync(source,'utf8');
+for(const marker of ['LESSON TEST','Difference of Squares','Results and explanations appear only after Submit Test.','HARD / EXAM-STYLE',"document.getElementById('submit').onclick"])if(!html.includes(marker))throw new Error(`${sourceName} failed marker: ${marker}`);
+const questionCount=(html.match(/level:'/g)||[]).length;
+if(questionCount!==5)throw new Error(`Difference of Squares test must contain exactly 5 questions; found ${questionCount}`);
+const target=path.join(dist,route.replace(/^\//,''));
+fs.mkdirSync(target,{recursive:true});
+fs.copyFileSync(source,path.join(target,'index.html'));
+const built=fs.readFileSync(path.join(target,'index.html'),'utf8');
+for(const marker of ['LESSON TEST','Difference of Squares','25x² - k','k = 144'])if(!built.includes(marker))throw new Error(`Built ${route} failed marker: ${marker}`);
+console.log('Built Difference of Squares lesson test route');
