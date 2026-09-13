@@ -19,4 +19,5 @@ if(fs.existsSync(schedulePath)){
   schedule.forEach((r,i)=>{r.index=i+1;r.cairo=`${cairoParts(start+i*interval)}+03:00`;r.timezone='Africa/Cairo'});
   fs.writeFileSync(schedulePath,JSON.stringify(schedule,null,2));
 }
+require('./difference-of-squares-test-build.js');
 console.log('Built Difference of Squares answers route');
