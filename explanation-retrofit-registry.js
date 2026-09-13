@@ -10,5 +10,6 @@ module.exports=[
   {slug:'polynomial-multiplication',lesson:'Polynomial Multiplication',classification:'NEITHER',graph:null,desmos:null},
   {slug:'special-polynomial-products',lesson:'Special Polynomial Products',classification:'NEITHER',graph:null,desmos:null},
   {slug:'polynomial-division',lesson:'Polynomial Division',classification:'NEITHER',graph:null,desmos:null},
-  {slug:'greatest-common-factor',lesson:'Greatest Common Factor',classification:'NEITHER',graph:null,desmos:null}
+  {slug:'greatest-common-factor',lesson:'Greatest Common Factor',classification:'NEITHER',graph:null,desmos:null},
+  {slug:'factoring-trinomials',lesson:'Factoring Trinomials',classification:'DESMOS',graph:null,desmos:{enter:'y=x^2+7x+12',lookFor:'the x-intercepts at x = -4 and x = -3',useIt:'use the zeros to check the factorization (x+4)(x+3)',why:'a zero r of the quadratic corresponds to a linear factor (x-r), so roots -4 and -3 correspond to factors (x+4) and (x+3)',faster:'Usually not for straightforward integer factoring. Algebra is faster; Desmos is useful for checking roots, signs, and a proposed factorization.',crossCheck:'For x^2+7x+12, substituting x=-4 gives 16-28+12=0 and x=-3 gives 9-21+12=0. Expanding (x+4)(x+3) gives x^2+7x+12.'}}
 ];

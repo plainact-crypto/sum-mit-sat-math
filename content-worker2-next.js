@@ -41,7 +41,8 @@ const items=[
   {route:'algebra/systems-of-linear-inequalities/graphing-systems-of-inequalities/problems/',source:'graphing-systems-of-inequalities-problems.html'},
   {route:'algebra/systems-of-linear-inequalities/testing-points-in-a-system/problems/',source:'testing-points-in-a-system-problems.html'},
   {route:'advanced-math/equivalent-expressions/combining-like-terms/problems/',source:'combining-like-terms-problems.html'},
-  {route:'advanced-math/equivalent-expressions/distributive-property/explanation/',source:'distributive-property-explanation.html'}
+  {route:'advanced-math/equivalent-expressions/distributive-property/explanation/',source:'distributive-property-explanation.html'},
+  {route:'advanced-math/factoring/factoring-trinomials/explanation/',source:'factoring-trinomials-explanation.html'}
 ];
 const completedRoutes=new Set();
 for(const item of items){const source=path.join(root,item.source);if(!fs.existsSync(source))continue;const target=path.join(dist,item.route);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(source,path.join(target,'index.html'));completedRoutes.add(`/${item.route}`)}
