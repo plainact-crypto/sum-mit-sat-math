@@ -1,0 +1,11 @@
+const fs=require('fs');
+const path=require('path');
+const source=path.join(__dirname,'factoring-trinomials-answers.html');
+const route='advanced-math/factoring/factoring-trinomials/answers';
+if(!fs.existsSync(source)) throw new Error('Missing Factoring Trinomials answers source');
+const html=fs.readFileSync(source,'utf8');
+if((html.match(/class="answer"/g)||[]).length!==18) throw new Error('Expected exactly 18 answers');
+const out=path.join(__dirname,'dist',route);
+fs.mkdirSync(out,{recursive:true});
+fs.copyFileSync(source,path.join(out,'index.html'));
+console.log('Built Factoring Trinomials answers route');
