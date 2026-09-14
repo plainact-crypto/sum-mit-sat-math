@@ -1,0 +1,11 @@
+const fs = require('fs');
+const path = require('path');
+const source = path.join(__dirname, 'completing-the-square-test.html');
+const target = path.join(__dirname, 'dist', 'advanced-math', 'quadratic-equations', 'completing-the-square', 'test');
+if (!fs.existsSync(source)) throw new Error('Missing Completing the Square test source');
+const html = fs.readFileSync(source, 'utf8');
+if (!html.includes('LESSON TEST') || !html.includes('Completing the Square')) throw new Error('Invalid Completing the Square test');
+if ((html.match(/level:'/g) || []).length !== 5) throw new Error('Lesson Test must contain exactly 5 questions');
+fs.mkdirSync(target, { recursive: true });
+fs.copyFileSync(source, path.join(target, 'index.html'));
+console.log('Built Completing the Square lesson test route');
