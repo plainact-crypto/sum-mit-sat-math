@@ -1,0 +1,11 @@
+const fs=require('fs'),path=require('path');
+const root=__dirname,dist=path.join(root,'dist');
+const sourceName='factoring-by-grouping-test.html';
+const route='/advanced-math/factoring/factoring-by-grouping/test/';
+const source=path.join(root,sourceName);
+if(!fs.existsSync(source))throw new Error(`Missing ${sourceName}`);
+const html=fs.readFileSync(source,'utf8');
+for(const marker of ['LESSON TEST','Factoring by Grouping','Results and explanations appear only after Submit Test.','HARD / EXAM-STYLE'])if(!html.includes(marker))throw new Error(`${sourceName} failed marker: ${marker}`);
+if((html.match(/level:'/g)||[]).length!==5)throw new Error('Lesson Test must contain exactly 5 questions');
+const target=path.join(dist,route.replace(/^\//,''));fs.mkdirSync(target,{recursive:true});fs.copyFileSync(source,path.join(target,'index.html'));
+console.log('Built Factoring by Grouping lesson test route');
