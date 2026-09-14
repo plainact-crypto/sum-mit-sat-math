@@ -1,3 +1,4 @@
+require('./factoring-by-grouping-problems-build.js');
 const fs=require('fs'),path=require('path');
 const root=__dirname,dist=path.join(root,'dist'),source=path.join(root,'factoring-by-grouping-answers.html');
 if(!fs.existsSync(source))throw new Error('Missing factoring-by-grouping-answers.html');
