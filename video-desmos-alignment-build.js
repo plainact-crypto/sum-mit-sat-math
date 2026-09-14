@@ -28,3 +28,4 @@ for(const cfg of configs){
  console.log(`Added narrated Desmos scene to ${cfg.lesson}`)
 }
 require('./video-solving-by-square-roots-explainer.js');
+require('./video-completing-the-square-explainer.js');
