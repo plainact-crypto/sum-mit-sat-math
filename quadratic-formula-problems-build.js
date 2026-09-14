@@ -3,6 +3,7 @@ const path=require('path');
 const root=__dirname;
 const dist=path.join(root,'dist');
 const items=[
+  {source:'quadratic-formula-explanation.html',route:'/advanced-math/quadratic-equations/quadratic-formula/explanation/',leaf:'explanation',qa:html=>html.includes('EXPLANATION_CLASSIFICATION: DESMOS_USEFUL')&&html.includes('DESMOS STRATEGY')},
   {source:'quadratic-formula-problems.html',route:'/advanced-math/quadratic-equations/quadratic-formula/problems/',leaf:'problems',qa:html=>(html.match(/class="question"/g)||[]).length===18},
   {source:'quadratic-formula-answers.html',route:'/advanced-math/quadratic-equations/quadratic-formula/answers/',leaf:'answers',qa:html=>html.includes('Answers must match current Problems 3/8/5/2')},
   {source:'quadratic-formula-test.html',route:'/advanced-math/quadratic-equations/quadratic-formula/test/',leaf:'test',qa:html=>html.includes("if(qs.length!==5)")&&html.includes('Results and explanations appear only after Submit Test.')}
@@ -26,4 +27,4 @@ if(fs.existsSync(schedulePath)){
   schedule.forEach((item,index)=>{item.index=index+1;item.cairo=cairo(start+index*slotMs)+'+03:00';item.timezone='Africa/Cairo';});
   fs.writeFileSync(schedulePath,JSON.stringify(schedule,null,2));
 }
-console.log('Built Quadratic Formula problems + answers + test routes');
+console.log('Built Quadratic Formula explanation + problems + answers + test routes');
