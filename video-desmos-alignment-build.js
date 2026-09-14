@@ -27,3 +27,4 @@ for(const cfg of configs){
  fs.writeFileSync(hits[0].file,h);
  console.log(`Added narrated Desmos scene to ${cfg.lesson}`)
 }
+require('./video-solving-by-square-roots-explainer.js');
