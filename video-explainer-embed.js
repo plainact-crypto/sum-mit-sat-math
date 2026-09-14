@@ -150,6 +150,16 @@ const explainers = [
     desmosAligned: true,
     requestedVoiceGender: 'female',
     note: 'English · Teacher-style explanation · Substitution test · Verified system graph · Desmos strategy · Quick check'
+  },
+  {
+    lesson: 'Quadratic Formula',
+    slug: 'quadratic-formula',
+    route: 'advanced-math/quadratic-equations/quadratic-formula/video/english/index.html',
+    url: 'https://scrimba.com/explain/guide094kudfrk?claim=8lrmaj9mik93km9j&fullscreen=1',
+    graphAligned: false,
+    desmosAligned: true,
+    requestedVoiceGender: 'female',
+    note: 'English · Teacher-style explanation · Worked examples · Verified root graph · Desmos verification · Quick check'
   }
 ];
 
