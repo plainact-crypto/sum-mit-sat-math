@@ -3,7 +3,8 @@ const fs=require('fs'),path=require('path');
 const root=__dirname,dist=path.join(root,'dist');
 const items=[
   {route:'/advanced-math/quadratic-equations/one-real-solution/explanation/',source:'one-real-solution-explanation.html'},
-  {route:'/advanced-math/quadratic-equations/two-real-solutions/problems/',source:'two-real-solutions-problems.html'}
+  {route:'/advanced-math/quadratic-equations/two-real-solutions/problems/',source:'two-real-solutions-problems.html'},
+  {route:'/advanced-math/quadratic-equations/two-real-solutions/answers/',source:'two-real-solutions-answers.html'}
 ];
 const completedRoutes=new Set();
 for(const item of items){const src=path.join(root,item.source),target=path.join(dist,item.route.replace(/^\//,''));if(fs.existsSync(src)){fs.mkdirSync(target,{recursive:true});fs.copyFileSync(src,path.join(target,'index.html'));completedRoutes.add(item.route);}}
