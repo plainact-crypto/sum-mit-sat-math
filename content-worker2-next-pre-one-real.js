@@ -38,6 +38,7 @@ const items=[
   {route:'algebra/linear-inequalities/boundary-lines/test/',source:'boundary-lines-test.html'},
   {route:'algebra/linear-inequalities/linear-inequality-word-problems/problems/',source:'linear-inequality-word-problems-problems.html'},
   {route:'algebra/linear-inequalities/linear-inequality-word-problems/answers/',source:'linear-inequality-word-problems-answers.html'},
+  {route:'algebra/linear-inequalities/linear-inequality-word-problems/test/',source:'linear-inequality-word-problems-test.html'},
   {route:'algebra/systems-of-linear-inequalities/graphing-systems-of-inequalities/explanation/',source:'graphing-systems-of-inequalities-explanation.html'},
   {route:'algebra/systems-of-linear-inequalities/graphing-systems-of-inequalities/problems/',source:'graphing-systems-of-inequalities-problems.html'},
   {route:'algebra/systems-of-linear-inequalities/testing-points-in-a-system/problems/',source:'testing-points-in-a-system-problems.html'},
