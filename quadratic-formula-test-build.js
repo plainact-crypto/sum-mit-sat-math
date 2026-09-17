@@ -1,0 +1,23 @@
+const fs=require('fs');
+const path=require('path');
+const root=__dirname;
+const source=path.join(root,'quadratic-formula-test.html');
+const dist=path.join(root,'dist');
+const route='/advanced-math/quadratic-equations/quadratic-formula/test/';
+const target=path.join(dist,'advanced-math','quadratic-equations','quadratic-formula','test');
+if(!fs.existsSync(source)) throw new Error('Missing Quadratic Formula test source');
+const html=fs.readFileSync(source,'utf8');
+if(!html.includes("if(qs.length!==5)throw new Error('Lesson Test must contain exactly 5 questions')")) throw new Error('Missing five-question test QA gate');
+if(!html.includes("document.getElementById('submit').onclick")) throw new Error('Test must defer feedback until Submit Test');
+fs.mkdirSync(target,{recursive:true});
+fs.copyFileSync(source,path.join(target,'index.html'));
+const schedulePath=path.join(dist,'schedule.json');
+if(fs.existsSync(schedulePath)){
+  const schedule=JSON.parse(fs.readFileSync(schedulePath,'utf8')).filter(item=>item.route!==route);
+  const slotMs=20*60*1000;
+  const start=Math.ceil((Date.now()+60000)/slotMs)*slotMs;
+  const cairo=ms=>new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Cairo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).format(new Date(ms)).replace(', ','T');
+  schedule.forEach((item,index)=>{item.index=index+1;item.cairo=cairo(start+index*slotMs)+'+03:00';item.timezone='Africa/Cairo';});
+  fs.writeFileSync(schedulePath,JSON.stringify(schedule,null,2));
+}
+console.log('Built Quadratic Formula lesson test route');
