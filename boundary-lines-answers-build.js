@@ -6,11 +6,17 @@ const route='/algebra/linear-inequalities/boundary-lines/answers/';
 const target=path.join(dist,route.replace(/^\//,''));
 fs.mkdirSync(target,{recursive:true});
 fs.copyFileSync(source,path.join(target,'index.html'));
+const explanationSource=path.join(root,'boundary-lines-explanation.html');
+if(!fs.existsSync(explanationSource))throw new Error('Missing boundary-lines-explanation.html');
+const explanationRoute='/algebra/linear-inequalities/boundary-lines/explanation/';
+const explanationTarget=path.join(dist,explanationRoute.replace(/^\//,''));
+fs.mkdirSync(explanationTarget,{recursive:true});
+fs.copyFileSync(explanationSource,path.join(explanationTarget,'index.html'));
 const schedulePath=path.join(dist,'schedule.json');
 function cairoParts(ms){const d=new Date(ms);const isoLocal=new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Cairo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).format(d).replace(', ','T');return{isoLocal}}
 if(fs.existsSync(schedulePath)){
  const original=JSON.parse(fs.readFileSync(schedulePath,'utf8'));
- const schedule=original.filter(r=>r.route!==route);
+ const schedule=original.filter(r=>r.route!==route&&r.route!==explanationRoute);
  const removed=original.length-schedule.length;
  const interval=20*60*1000,start=Math.ceil((Date.now()+60*1000)/interval)*interval;
  schedule.forEach((r,i)=>{r.index=i+1;r.cairo=`${cairoParts(start+i*interval).isoLocal}+03:00`;r.timezone='Africa/Cairo'});
