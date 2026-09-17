@@ -17,3 +17,4 @@ function embed(lessonName,lessonSlug,explainerUrl,voiceGender,note,graphAligned=
 }
 embed(lesson,slug,url,'female','English · Teacher-style explanation · Worked examples · Verified tangent graph · Desmos strategy · Quick check',true,true);
 embed('Two Real Solutions','two-real-solutions','https://scrimba.com/explain/guide0rmo6uv2n?claim=0sck3tuiqr8fh50i&fullscreen=1','male','English · Teacher-style explanation · Worked examples · Verified two-root graph · Desmos strategy · Quick check',true,true);
+embed('No Real Solutions','no-real-solutions','https://scrimba.com/explain/guide0t7dk8qkh?claim=cvm9n3flpijqv138&fullscreen=1','female','English · Teacher-style explanation · Worked examples · Verified no-root graph · Desmos strategy · Quick check',true,true);
