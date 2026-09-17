@@ -2,6 +2,7 @@ const fs=require('fs'),path=require('path');
 const root=__dirname,dist=path.join(root,'dist');
 const source=path.join(root,'boundary-lines-answers.html');
 if(!fs.existsSync(source))throw new Error('Missing boundary-lines-answers.html');
+const answers=fs.readFileSync(source,'utf8');
 const route='/algebra/linear-inequalities/boundary-lines/answers/';
 const target=path.join(dist,route.replace(/^\//,''));
 fs.mkdirSync(target,{recursive:true});
@@ -10,7 +11,16 @@ const problemsSource=path.join(root,'boundary-lines-problems.html');
 if(!fs.existsSync(problemsSource))throw new Error('Missing boundary-lines-problems.html');
 const problems=fs.readFileSync(problemsSource,'utf8');
 for(const marker of ['Boundary Lines','SKILL CHECK','CORE PRACTICE','EXAM-STYLE PRACTICE','CHALLENGE PROBLEMS'])if(!problems.includes(marker))throw new Error('Boundary Lines problems marker missing: '+marker);
-if((problems.match(/\["/g)||[]).length<18)throw new Error('Boundary Lines Problems source appears incomplete');
+const answerIndices=[...problems.matchAll(/\],(\d)\](?=,?\n|\n?\]\])/g)].map(m=>Number(m[1]));
+if(answerIndices.length!==18)throw new Error(`Boundary Lines Problems must contain exactly 18 questions; found ${answerIndices.length}`);
+const answerLetters=[...answers.matchAll(/<div class="final">Answer: ([A-D])\)/g)].map(m=>m[1].charCodeAt(0)-65);
+if(answerLetters.length!==18)throw new Error(`Boundary Lines Answers must contain exactly 18 mapped answers; found ${answerLetters.length}`);
+answerIndices.forEach((expected,i)=>{if(answerLetters[i]!==expected)throw new Error(`Boundary Lines answer ${i+1} does not match CURRENT Problems`)});
+for(const check of [
+ ['9. x-intercept','(2, 0)'],['10. y-intercept','(0, 5)'],['11. Boundary through','y ≤ 2x − 1'],
+ ['12. Intercepts','(−4, 0)'],['13. Boundary form','y = (3/2)x − 3'],['14. Boundary','(7, 0)'],
+ ['17. Strict boundary','y = −x + 3'],['18. Boundary','(−4, 0)']
+])if(!answers.includes(check[0])||!answers.includes(check[1]))throw new Error('Boundary Lines math cross-check marker missing: '+check.join(' -> '));
 const problemsRoute='/algebra/linear-inequalities/boundary-lines/problems/';
 const problemsTarget=path.join(dist,problemsRoute.replace(/^\//,''));
 fs.mkdirSync(problemsTarget,{recursive:true});
