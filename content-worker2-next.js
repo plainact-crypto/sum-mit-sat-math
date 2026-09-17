@@ -6,7 +6,8 @@ const items=[
   {route:'/advanced-math/quadratic-equations/two-real-solutions/problems/',source:'two-real-solutions-problems.html'},
   {route:'/advanced-math/quadratic-equations/two-real-solutions/answers/',source:'two-real-solutions-answers.html'},
   {route:'/advanced-math/quadratic-equations/two-real-solutions/test/',source:'two-real-solutions-test.html'},
-  {route:'/advanced-math/quadratic-equations/two-real-solutions/explanation/',source:'two-real-solutions-explanation.html'}
+  {route:'/advanced-math/quadratic-equations/two-real-solutions/explanation/',source:'two-real-solutions-explanation.html'},
+  {route:'/advanced-math/quadratic-equations/no-real-solutions/problems/',source:'no-real-solutions-problems.html'}
 ];
 const completedRoutes=new Set();
 for(const item of items){const src=path.join(root,item.source),target=path.join(dist,item.route.replace(/^\//,''));if(fs.existsSync(src)){fs.mkdirSync(target,{recursive:true});fs.copyFileSync(src,path.join(target,'index.html'));completedRoutes.add(item.route);}}
