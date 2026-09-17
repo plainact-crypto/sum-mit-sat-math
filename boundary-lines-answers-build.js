@@ -21,11 +21,19 @@ const explanationRoute='/algebra/linear-inequalities/boundary-lines/explanation/
 const explanationTarget=path.join(dist,explanationRoute.replace(/^\//,''));
 fs.mkdirSync(explanationTarget,{recursive:true});
 fs.copyFileSync(explanationSource,path.join(explanationTarget,'index.html'));
+const testSource=path.join(root,'boundary-lines-test.html');
+if(!fs.existsSync(testSource))throw new Error('Missing boundary-lines-test.html');
+const test=fs.readFileSync(testSource,'utf8');
+for(const marker of ['LESSON TEST','Boundary Lines','Submit Test'])if(!test.includes(marker))throw new Error('Boundary Lines test marker missing: '+marker);
+const testRoute='/algebra/linear-inequalities/boundary-lines/test/';
+const testTarget=path.join(dist,testRoute.replace(/^\//,''));
+fs.mkdirSync(testTarget,{recursive:true});
+fs.copyFileSync(testSource,path.join(testTarget,'index.html'));
 const schedulePath=path.join(dist,'schedule.json');
 function cairoParts(ms){const d=new Date(ms);const isoLocal=new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Cairo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).format(d).replace(', ','T');return{isoLocal}}
 if(fs.existsSync(schedulePath)){
  const original=JSON.parse(fs.readFileSync(schedulePath,'utf8'));
- const schedule=original.filter(r=>r.route!==route&&r.route!==problemsRoute&&r.route!==explanationRoute);
+ const schedule=original.filter(r=>r.route!==route&&r.route!==problemsRoute&&r.route!==explanationRoute&&r.route!==testRoute);
  const removed=original.length-schedule.length;
  const interval=20*60*1000,start=Math.ceil((Date.now()+60*1000)/interval)*interval;
  schedule.forEach((r,i)=>{r.index=i+1;r.cairo=`${cairoParts(start+i*interval).isoLocal}+03:00`;r.timezone='Africa/Cairo'});
