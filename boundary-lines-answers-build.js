@@ -6,6 +6,15 @@ const route='/algebra/linear-inequalities/boundary-lines/answers/';
 const target=path.join(dist,route.replace(/^\//,''));
 fs.mkdirSync(target,{recursive:true});
 fs.copyFileSync(source,path.join(target,'index.html'));
+const problemsSource=path.join(root,'boundary-lines-problems.html');
+if(!fs.existsSync(problemsSource))throw new Error('Missing boundary-lines-problems.html');
+const problems=fs.readFileSync(problemsSource,'utf8');
+for(const marker of ['Boundary Lines','SKILL CHECK','CORE PRACTICE','EXAM-STYLE PRACTICE','CHALLENGE PROBLEMS'])if(!problems.includes(marker))throw new Error('Boundary Lines problems marker missing: '+marker);
+if((problems.match(/\["/g)||[]).length<18)throw new Error('Boundary Lines Problems source appears incomplete');
+const problemsRoute='/algebra/linear-inequalities/boundary-lines/problems/';
+const problemsTarget=path.join(dist,problemsRoute.replace(/^\//,''));
+fs.mkdirSync(problemsTarget,{recursive:true});
+fs.copyFileSync(problemsSource,path.join(problemsTarget,'index.html'));
 const explanationSource=path.join(root,'boundary-lines-explanation.html');
 if(!fs.existsSync(explanationSource))throw new Error('Missing boundary-lines-explanation.html');
 const explanationRoute='/algebra/linear-inequalities/boundary-lines/explanation/';
@@ -16,7 +25,7 @@ const schedulePath=path.join(dist,'schedule.json');
 function cairoParts(ms){const d=new Date(ms);const isoLocal=new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Cairo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).format(d).replace(', ','T');return{isoLocal}}
 if(fs.existsSync(schedulePath)){
  const original=JSON.parse(fs.readFileSync(schedulePath,'utf8'));
- const schedule=original.filter(r=>r.route!==route&&r.route!==explanationRoute);
+ const schedule=original.filter(r=>r.route!==route&&r.route!==problemsRoute&&r.route!==explanationRoute);
  const removed=original.length-schedule.length;
  const interval=20*60*1000,start=Math.ceil((Date.now()+60*1000)/interval)*interval;
  schedule.forEach((r,i)=>{r.index=i+1;r.cairo=`${cairoParts(start+i*interval).isoLocal}+03:00`;r.timezone='Africa/Cairo'});
