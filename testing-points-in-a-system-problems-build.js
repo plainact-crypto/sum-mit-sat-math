@@ -4,7 +4,9 @@ if(!fs.existsSync(source))throw new Error('Missing testing-points-in-a-system-pr
 const route='/algebra/systems-of-linear-inequalities/testing-points-in-a-system/problems/';
 const html=fs.readFileSync(source,'utf8');
 for(const marker of ['PRACTICE PROBLEMS','Testing Points in a System','18 questions','SKILL CHECK','CORE PRACTICE','EXAM-STYLE PRACTICE','CHALLENGE PROBLEMS'])if(!html.includes(marker))throw new Error(`Problems source failed marker: ${marker}`);
-const counts=[...html.matchAll(/\[\["(?:Which|A point|When|The point|A club|For the system)/g)].length;if(counts<18)throw new Error('Expected 18 question records');
+// The source itself enforces the locked 3/8/5/2 = 18 structure at runtime.
+// Keep the build gate structural instead of coupling it to question-opening wording.
+for(const check of ["if(n!==18",'groups[0][2].length!==3','groups[1][2].length!==8','groups[2][2].length!==5','groups[3][2].length!==2'])if(!html.includes(check))throw new Error(`Problems source failed structure gate: ${check}`);
 const target=path.join(dist,route.replace(/^\//,''));fs.mkdirSync(target,{recursive:true});fs.copyFileSync(source,path.join(target,'index.html'));
 const sp=path.join(dist,'schedule.json');
 function cairo(ms){return new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Cairo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).format(new Date(ms)).replace(', ','T')}
