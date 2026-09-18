@@ -6,7 +6,7 @@ const marker = 'Video Explanation · English';
 const oldBody = '<div class="soon">VIDEO PAGE</div><p class="video-note">This is a separate independent video route for this lesson. Video content can be added here without changing Explanation, Problems, or Answers.</p>';
 const lesson = 'One Real Solution';
 const slug = 'one-real-solution';
-const url = 'https://scrimba.com/explain/guide0mes3c7jl?claim=24kth5k5f1510t6n&fullscreen=1';
+const url = 'https://scrimba.com/explain/guide02kentaoa?claim=vh2n8ob0qvcb53d0&fullscreen=1';
 function walk(dir,out=[]){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,entry.name);if(entry.isDirectory())walk(p,out);else if(entry.name==='index.html')out.push(p)}return out}
 function embed(lessonName,lessonSlug,explainerUrl,voiceGender,note,graphAligned=true,desmosAligned=true){
   const hits=walk(dist).filter(file=>{const normalized=file.split(path.sep).join('/');const html=fs.readFileSync(file,'utf8');return normalized.endsWith(`advanced-math/quadratic-equations/${lessonSlug}/video/english/index.html`)&&html.includes(`<div class="lesson-title">${lessonName}</div>`)&&html.includes(marker)});
