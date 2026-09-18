@@ -41,6 +41,7 @@ const items=[
   {route:'algebra/linear-inequalities/linear-inequality-word-problems/test/',source:'linear-inequality-word-problems-test.html'},
   {route:'algebra/systems-of-linear-inequalities/graphing-systems-of-inequalities/explanation/',source:'graphing-systems-of-inequalities-explanation.html'},
   {route:'algebra/systems-of-linear-inequalities/graphing-systems-of-inequalities/problems/',source:'graphing-systems-of-inequalities-problems.html'},
+  {route:'algebra/systems-of-linear-inequalities/graphing-systems-of-inequalities/answers/',source:'graphing-systems-of-inequalities-answers.html'},
   {route:'algebra/systems-of-linear-inequalities/testing-points-in-a-system/problems/',source:'testing-points-in-a-system-problems.html'},
   {route:'advanced-math/equivalent-expressions/combining-like-terms/problems/',source:'combining-like-terms-problems.html'},
   {route:'advanced-math/equivalent-expressions/distributive-property/explanation/',source:'distributive-property-explanation.html'},
