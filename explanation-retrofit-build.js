@@ -2,6 +2,7 @@ const fs=require('fs');
 const path=require('path');
 require('./no-real-solutions-explanation-build');
 require('./no-real-solutions-problems-build');
+require('./one-real-solution-explanation-build');
 const registry=[...require('./explanation-retrofit-registry'),...require('./explanation-content-registry'),...require('./explanation-worker3-registry')];
 const tools=require('./explanation-tools');
 const root=__dirname;
