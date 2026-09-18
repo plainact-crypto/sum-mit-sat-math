@@ -49,3 +49,11 @@ embed({
   attrs: 'data-requested-voice-gender="female" data-voice-gender-status="unavailable"',
   note: 'English · Teacher-style explanation · Worked examples · Strict/inclusive boundaries · Common mistakes · Quick check'
 });
+
+embed({
+  lesson: 'Overlapping Solution Regions',
+  slug: 'overlapping-solution-regions',
+  url: 'https://scrimba.com/explain/guide0hcc9ck29?claim=tc7k7htsukpablgk&fullscreen=1',
+  attrs: 'data-graph-aligned="true" data-desmos-aligned="true" data-requested-voice-gender="male" data-voice-gender-status="unavailable"',
+  note: 'English · Teacher-style explanation · Verified overlap graph and intersection · Feasible regions · Desmos strategy · Quick check'
+});
