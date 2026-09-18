@@ -16,5 +16,5 @@ function embed(lessonName,lessonSlug,explainerUrl,voiceGender,note,graphAligned=
   console.log(`Embedded SUMMIT explainer at ${path.relative(dist,file)}`);
 }
 embed(lesson,slug,url,'female','English · Teacher-style explanation · Worked examples · Verified tangent graph · Desmos strategy · Quick check',true,true);
-embed('Two Real Solutions','two-real-solutions','https://scrimba.com/explain/guide0rmo6uv2n?claim=0sck3tuiqr8fh50i&fullscreen=1','male','English · Teacher-style explanation · Worked examples · Verified two-root graph · Desmos strategy · Quick check',true,true);
+embed('Two Real Solutions','two-real-solutions','https://scrimba.com/explain/guide0tc64pusj?claim=28q24u89am194vu0&fullscreen=1','male','English · Teacher-style explanation · Worked examples · Verified two-root graph · Desmos strategy · Quick check',true,true);
 embed('No Real Solutions','no-real-solutions','https://scrimba.com/explain/guide0deunnaqu?claim=ldjim2deg2jnr0pa&fullscreen=1','female','English · Teacher-style explanation · Worked examples · Verified no-root graph · Desmos strategy · Quick check',true,true);
