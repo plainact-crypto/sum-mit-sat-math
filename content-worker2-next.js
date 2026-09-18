@@ -3,6 +3,7 @@ const fs=require('fs'),path=require('path');
 const root=__dirname,dist=path.join(root,'dist');
 const items=[
   {route:'/advanced-math/quadratic-equations/one-real-solution/explanation/',source:'one-real-solution-explanation.html'},
+  {route:'/advanced-math/quadratic-equations/one-real-solution/answers/',source:'one-real-solution-answers.html'},
   {route:'/advanced-math/quadratic-equations/two-real-solutions/problems/',source:'two-real-solutions-problems.html'},
   {route:'/advanced-math/quadratic-equations/two-real-solutions/answers/',source:'two-real-solutions-answers.html'},
   {route:'/advanced-math/quadratic-equations/two-real-solutions/test/',source:'two-real-solutions-test.html'},
