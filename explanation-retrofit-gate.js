@@ -5,7 +5,7 @@ const tools=require('./explanation-tools');
 const root=__dirname;
 const dist=path.join(root,'dist');
 function walk(dir,out=[]){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())walk(p,out);else if(e.name==='index.html')out.push(p)}return out}
-const published=walk(dist).map(file=>({file,html:fs.readFileSync(file,'utf8')})).filter(x=>/page-type\">Explanation</.test(x.html)&&x.html.includes('lesson-content'));
+const published=walk(dist).map(file=>({file,html:fs.readFileSync(file,'utf8')})).filter(x=>/page-type\">Explanation</.test(x.html));
 const seen=new Set();
 function fail(m){throw new Error(`[Explanation retrofit gate] ${m}`)}
 function sourceMeta(entry){const f=path.join(root,`${entry.slug}-explanation.html`);if(!fs.existsSync(f))return {lesson:entry.lesson,crumb:null};const h=fs.readFileSync(f,'utf8');const tm=h.match(/<div class="lesson-title">([^<]+)<\/div>/);if(!tm)fail(`Source lesson title missing for ${entry.slug}`);const cm=h.match(/<div class="crumb">([^<]+)<\/div>/);return {lesson:tm[1],crumb:cm?cm[1]:null}}
