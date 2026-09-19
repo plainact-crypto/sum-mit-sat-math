@@ -29,3 +29,21 @@ for(const cfg of configs){
 }
 require('./video-solving-by-square-roots-explainer.js');
 require('./video-completing-the-square-explainer.js');
+
+// External teacher-style explainer for the radical-equations Extraneous Solutions lesson.
+{
+ const lesson='Extraneous Solutions', slug='extraneous-solutions';
+ const explainerUrl='https://scrimba.com/explain/guide0rthoscq0?claim=d95hqtar5gfj513h&fullscreen=1';
+ const candidates=walk(dist).filter(file=>{const n=file.split(path.sep).join('/').toLowerCase();const h=fs.readFileSync(file,'utf8');return n.endsWith(`/${slug}/video/english/index.html`)&&n.includes('/radical')&&h.includes(`<div class="lesson-title">${lesson}</div>`)&&h.includes('Video Explanation · English')});
+ if(candidates.length!==1)throw new Error(`Expected exactly one radical-equations English video page for ${lesson}; found ${candidates.length}`);
+ const file=candidates[0]; let h=fs.readFileSync(file,'utf8');
+ const tag=`SUMMIT_EXPLAINER:${slug}`;
+ if(!h.includes(tag)){
+  const oldBody='<div class="soon">VIDEO PAGE</div><p class="video-note">This is a separate independent video route for this lesson. Video content can be added here without changing Explanation, Problems, or Answers.</p>';
+  if(!h.includes(oldBody))throw new Error(`Video placeholder marker not found for ${lesson}`);
+  const style='<style>.summit-video-shell{margin:22px 0 8px;max-width:100%}.summit-explainer-frame{position:relative;width:100%;aspect-ratio:16/9;border-radius:22px;overflow:hidden;background:#0f172a;box-shadow:0 18px 45px rgba(20,36,61,.16)}.summit-explainer-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:#fff}.summit-explainer-actions{display:flex;justify-content:flex-end;margin-top:10px}.summit-explainer-actions a{display:inline-flex;align-items:center;justify-content:center;padding:10px 14px;border-radius:999px;background:#14243d;color:#fff;text-decoration:none;font-weight:800}.video-note{text-align:center;margin:12px 0 0;color:#697386;font-size:.95rem}@media(max-width:640px){.summit-explainer-frame{border-radius:18px}.summit-explainer-actions a{width:100%}}</style>';
+  const body=`<div class="summit-video-shell summit-explainer-player" data-graph-aligned="true" data-desmos-aligned="true" data-requested-voice-gender="female"><!-- ${tag} --><div class="summit-explainer-frame"><iframe src="${explainerUrl}" title="${lesson} — SUMMIT MATH video lesson" loading="eager" allow="autoplay; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div><div class="summit-explainer-actions"><a href="${explainerUrl}" target="_blank" rel="noopener">Open full-screen lesson ↗</a></div><p class="video-note">English · Teacher-style explanation · Worked radical example · Extraneous-candidate verification · Desmos strategy · Quick check</p></div>${style}`;
+  h=h.replace(oldBody,body);fs.writeFileSync(file,h);
+ }
+ console.log(`Embedded SUMMIT explainer at ${path.relative(dist,file)}`);
+}
