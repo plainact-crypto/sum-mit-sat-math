@@ -8,6 +8,12 @@ const tools=require('./explanation-tools');
 const root=__dirname;
 const dist=path.join(root,'dist');
 if(!fs.existsSync(dist)) throw new Error('dist missing');
+const sumRootsSource=path.join(root,'sum-of-roots-explanation.html');
+const sumRootsRoute='/advanced-math/quadratic-equations/sum-of-roots/explanation/';
+if(!fs.existsSync(sumRootsSource))throw new Error('Missing Sum of Roots explanation source');
+const sumRootsOut=path.join(dist,sumRootsRoute.replace(/^\//,''));fs.mkdirSync(sumRootsOut,{recursive:true});fs.copyFileSync(sumRootsSource,path.join(sumRootsOut,'index.html'));
+const schedulePath=path.join(dist,'schedule.json');
+if(fs.existsSync(schedulePath)){const original=JSON.parse(fs.readFileSync(schedulePath,'utf8')),schedule=original.filter(r=>r.route!==sumRootsRoute),removed=original.length-schedule.length,interval=20*60*1000,start=Math.ceil((Date.now()+60000)/interval)*interval;schedule.forEach((r,i)=>{r.index=i+1;const d=new Date(start+i*interval);r.cairo=new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Cairo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hourCycle:'h23'}).format(d).replace(', ','T')+'+03:00';r.timezone='Africa/Cairo'});fs.writeFileSync(schedulePath,JSON.stringify(schedule,null,2));const q=v=>'"'+String(v??'').replace(/"/g,'""')+'"';fs.writeFileSync(path.join(dist,'schedule.csv'),'index,subject,section,group,lesson,pageType,route,cairo,timezone\n'+schedule.map(r=>[r.index,r.subject,r.section,r.group,r.lesson,r.pageType,r.route,r.cairo,r.timezone].map(q).join(',')).join('\n')+'\n');const auditPath=path.join(dist,'audit.json');if(fs.existsSync(auditPath)&&removed){const audit=JSON.parse(fs.readFileSync(auditPath,'utf8'));audit.completedContentPages=(audit.completedContentPages||0)+removed;audit.scheduledPages=schedule.length;audit.contentSlotMinutes=20;fs.writeFileSync(auditPath,JSON.stringify(audit,null,2));}}
 const escAttr=s=>String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 function walk(dir,out=[]){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())walk(p,out);else if(e.name==='index.html')out.push(p)}return out}
 const pages=walk(dist).map(file=>({file,html:fs.readFileSync(file,'utf8')})).filter(x=>/page-type\">Explanation</.test(x.html));
