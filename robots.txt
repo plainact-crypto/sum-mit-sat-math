@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://summit.plain-act.com/sitemap.xml
