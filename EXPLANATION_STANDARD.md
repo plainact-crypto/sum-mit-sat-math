@@ -1,6 +1,6 @@
 # SUMMIT Explanation Standard — Graphs + Desmos
 
-This file is the authoritative standard for every SUMMIT Explanation page, both new and retrofitted.
+This file is the authoritative standard for every SUMMIT Explanation page, both new and retrofitted.\n\nFor the complete non-video lesson package structure (Explanation + Practice + Answers + Test), see `CONTENT_STRUCTURE_STANDARD.md`. That file is authoritative for cross-page structure and exact Practice/Test counts.
 
 ## 1. Required classification before writing
 Every Explanation must be classified as exactly one of:
