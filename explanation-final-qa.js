@@ -7,7 +7,7 @@ function fail(m){throw new Error(`[Final Explanation QA] ${m}`)}
 function walk(dir,out=[]){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())walk(p,out);else if(e.name==='index.html')out.push(p)}return out}
 if(!fs.existsSync(dist))fail('dist missing');
 const pages=walk(dist).map(file=>({file,html:fs.readFileSync(file,'utf8')}));
-const explanations=pages.filter(p=>/page-type\">Explanation</.test(p.html)&&p.html.includes('lesson-content'));
+const explanations=pages.filter(p=>/page-type\">Explanation</.test(p.html));
 if(registry.length<36)fail(`Registry lost legacy entries: found ${registry.length}`);
 // Registry coverage is validated entry-by-entry below; do not compare against the narrower lesson-content page subset.
 const counts={BOTH:0,GRAPH:0,DESMOS:0,NEITHER:0};
