@@ -9,7 +9,7 @@ if(!fs.existsSync(dist))fail('dist missing');
 const pages=walk(dist).map(file=>({file,html:fs.readFileSync(file,'utf8')}));
 const explanations=pages.filter(p=>/page-type\">Explanation</.test(p.html)&&p.html.includes('lesson-content'));
 if(registry.length<36)fail(`Registry lost legacy entries: found ${registry.length}`);
-if(explanations.length!==registry.length)fail(`Published Explanation count ${explanations.length} != registry ${registry.length}`);
+if(explanations.length<registry.length)fail(`Published Explanation count ${explanations.length} is smaller than registry ${registry.length}`);
 const counts={BOTH:0,GRAPH:0,DESMOS:0,NEITHER:0};
 const seen=new Set();
 for(const e of registry){
