@@ -49,3 +49,4 @@ require('./video-completing-the-square-explainer.js');
 }
 require('./video-graphing-linear-functions-explainer.js');
 require('./video-linear-function-tables-explainer.js');
+require('./video-one-real-solution-explainer.js');
