@@ -8,4 +8,5 @@ require('./factoring-quadratics-content-build.js');
 require('./isolating-one-variable-content-build.js');
 require('./nonlinear-systems-quadratic-linear-content-build.js');
 require('./sum-of-roots-explanation-build.js');require('./sum-of-roots-answers-build.js');require('./sum-of-roots-test-build.js');
+require('./video-factoring-quadratics-explainer.js');
 console.log('Worker 1 overrides built; completed Factoring Quadratics, Isolating One Variable, and Quadratic-Linear Systems preserved.');
