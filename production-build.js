@@ -149,6 +149,7 @@ const scripts=[
   "explanation-retrofit-build.js",
   "explanation-tools-build.js",
   "video-variables-both-sides-explainer.js",
+  "publish-existing-content.js",
   "brand-guard.js"
 ];
 const critical=new Set(["source-neutralize.js","generate.js","postbuild.js","brand-guard.js"]);
