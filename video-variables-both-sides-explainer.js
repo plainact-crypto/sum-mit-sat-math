@@ -49,6 +49,15 @@ function embed(cfg) {
 }
 
 embed({
+  lesson: 'Solving Multi-Step Linear Equations',
+  tag: 'SUMMIT_EXPLAINER:solving-multi-step-linear-equations',
+  url: 'https://scrimba.com/explain/guide01lr9luao?claim=6hu3j52mpdmr5q14&fullscreen=1',
+  graphAligned: false,
+  desmosAligned: true,
+  note: 'English · Teacher-style explanation · Distribution · Variables on both sides · Fractions · Special cases · Desmos verification · Quick check'
+});
+
+embed({
   lesson: 'Variables on Both Sides',
   tag: 'SUMMIT_EXPLAINER:variables-on-both-sides',
   url: 'https://scrimba.com/explain/guide09vlv4t21?claim=j3nv2k40ii7952in&fullscreen=1',
