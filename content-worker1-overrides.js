@@ -3,7 +3,8 @@ const items=[['advanced-math','nonlinear-equations-and-functions','factoring-qua
 const order=['Explanation','Problems','Answers','Test'];const routes=[];for(const [cat,sub,slug] of items)for(const label of order){const type=label.toLowerCase();routes.push({cat,sub,slug,type,label,route:`/${cat}/${sub}/${slug}/${type}/`})}
 const owned=routes.filter((_,i)=>(i+1)%3===1);
 function html(o){const title=o.slug.split('-').map(w=>w[0].toUpperCase()+w.slice(1)).join(' ');return `<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="/styles.css"><title>${title} — ${o.label} | SUMMIT MATH</title></head><body><main class="page-shell"><section class="lesson-card"><div class="page-type">${o.label}</div><div class="lesson-title">${title}</div><article class="lesson-content"><p>This page is in the content production queue.</p></article></section></main></body></html>`}
-for(const o of owned){if(o.slug==='factoring-quadratics')continue;const d=path.join(dist,o.route);fs.mkdirSync(d,{recursive:true});fs.writeFileSync(path.join(d,'index.html'),html(o))}
+for(const o of owned){if(['factoring-quadratics','isolating-one-variable'].includes(o.slug))continue;const d=path.join(dist,o.route);fs.mkdirSync(d,{recursive:true});fs.writeFileSync(path.join(d,'index.html'),html(o))}
 require('./factoring-quadratics-content-build.js');
+require('./isolating-one-variable-content-build.js');
 require('./sum-of-roots-explanation-build.js');require('./sum-of-roots-answers-build.js');require('./sum-of-roots-test-build.js');
-console.log('Worker 1 overrides built; completed Factoring Quadratics preserved.');
+console.log('Worker 1 overrides built; completed Factoring Quadratics and Isolating One Variable preserved.');
