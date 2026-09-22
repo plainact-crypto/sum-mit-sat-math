@@ -11,6 +11,7 @@ const scripts=[
   "content-worker2-overrides.js",
   "content-worker3-overrides.js",
   "linear-function-word-problems-build.js",
+  "function-notation-linear-functions-explanation-build.js",
   "content-worker4-overrides.js",
   "content-worker2-next.js",
   "boundary-lines-answers-build.js",
