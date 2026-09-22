@@ -6,6 +6,25 @@ const root = __dirname;
 const out = path.join(root, 'dist');
 const curriculumRaw = zlib.gunzipSync(Buffer.from(fs.readFileSync(path.join(root, 'curriculum.json.gz.b64'), 'utf8').trim(), 'base64')).toString('utf8');
 const curriculum = JSON.parse(curriculumRaw);
+const absoluteValueSlugMap=new Map([
+  ['One Solution','absolute-value-one-solution'],
+  ['No Solution','absolute-value-no-solution'],
+  ['Infinitely Many Solutions','absolute-value-infinitely-many-solutions']
+]);
+for(const subject of curriculum){
+  if(subject.title!=='Advanced Math') continue;
+  for(const section of subject.sections||[]){
+    if(section.title!=='Absolute Value') continue;
+    for(const leaf of section.leaves||[]){
+      const slug=absoluteValueSlugMap.get(leaf.title);
+      if(slug) leaf.slug=slug;
+    }
+    for(const group of section.groups||[]) for(const leaf of group.leaves||[]){
+      const slug=absoluteValueSlugMap.get(leaf.title);
+      if(slug) leaf.slug=slug;
+    }
+  }
+}
 const copyFiles = ['index.html', 'styles.css', 'marketing.css', 'app.js', 'auth-hotfix.js'];
 
 fs.rmSync(out, { recursive: true, force: true });
