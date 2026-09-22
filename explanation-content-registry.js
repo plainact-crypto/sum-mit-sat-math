@@ -20,5 +20,5 @@ module.exports=[
   {slug:'circle-line-systems',lesson:'Circle Line Systems',classification:'NEITHER',graph:null,desmos:null}
 ,
   {slug:'factoring-quadratics',lesson:'Factoring Quadratics',classification:'NEITHER',graph:null,desmos:null},
-  {slug:'function-notation-for-linear-functions',lesson:'Function Notation for Linear Functions',classification:'NEITHER',graph:null,desmos:null}
+  {slug:'function-notation-for-linear-functions',lesson:'Function Notation for Linear Functions',classification:'BOTH',graph:{bounds:{xMin:-3,xMax:4,yMin:-4,yMax:12},lines:[{m:2,b:3,qaX:[-1,0,2],yIntercept:3,xIntercept:-1.5}],points:[{x:-1,y:1,line:0,label:'f(-1)=1'},{x:0,y:3,line:0,label:'f(0)=3'},{x:2,y:7,line:0,label:'f(2)=7'}],ariaLabel:'Graph of f of x equals 2x plus 3 with verified points negative 1 comma 1, 0 comma 3, and 2 comma 7'},desmos:D('y = 2x + 3','the points where x = -1, 0, and 2 give outputs 1, 3, and 7','connect f(a) to the graph point (a, f(a)) and verify evaluated function values','the graph of y=f(x) contains every input-output pair produced by the function rule','Direct substitution is faster for a single value; Desmos is useful for seeing and checking the input-output relationship across many values.','For f(x)=2x+3: f(-1)=1, f(0)=3, and f(2)=7. Substitution verifies the graph points (-1,1), (0,3), and (2,7).')}
 ];
