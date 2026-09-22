@@ -30,7 +30,7 @@ const copyFiles = ['index.html', 'styles.css', 'marketing.css', 'app.js', 'auth-
 fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(out, { recursive: true });
 for (const file of copyFiles) fs.copyFileSync(path.join(root, file), path.join(out, file));
-fs.writeFileSync(path.join(out, 'curriculum.json'), curriculumRaw);
+fs.writeFileSync(path.join(out, 'curriculum.json'), JSON.stringify(curriculum,null,2));
 
 const leaves = [];
 for (const subject of curriculum) {
