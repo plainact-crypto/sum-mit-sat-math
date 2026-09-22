@@ -82,6 +82,7 @@ const scripts=[
   "one-real-solution-problems-build.js",
   "one-real-solution-test-build.js",
   "two-real-solutions-test-build.js",
+  "video-product-of-roots-explainer.js",
   "video-solving-one-step-refresh.js",
   "video-overrides.js",
   "video-solving-one-step-refresh-cleanup.js",
