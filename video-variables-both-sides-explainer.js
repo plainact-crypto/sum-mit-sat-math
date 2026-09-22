@@ -49,6 +49,15 @@ function embed(cfg) {
 }
 
 embed({
+  lesson: 'Point-Slope Form',
+  tag: 'SUMMIT_EXPLAINER:point-slope-form',
+  url: 'https://scrimba.com/explain/guide0rujb8j91?claim=ge14dpp0ndkpsgv8&fullscreen=1',
+  graphAligned: true,
+  desmosAligned: true,
+  note: 'English · Teacher-style explanation · Point-slope formula · Signed coordinates · Conversion · Graph verification · Exam-style modeling · Quick recap'
+});
+
+embed({
   lesson: 'Solving Multi-Step Linear Equations',
   tag: 'SUMMIT_EXPLAINER:solving-multi-step-linear-equations',
   url: 'https://scrimba.com/explain/guide01lr9luao?claim=6hu3j52mpdmr5q14&fullscreen=1',
