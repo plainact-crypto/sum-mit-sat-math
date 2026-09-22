@@ -39,6 +39,8 @@ const overrides=[
 ['algebra/linear-inequalities/solving-one-variable-inequalities',[['explanation','solving-one-variable-inequalities-explanation.html'],['problems','solving-one-variable-inequalities-problems.html'],['answers','solving-one-variable-inequalities-answers.html'],['test','solving-one-variable-inequalities-test.html']]],
 ['algebra/linear-inequalities/reversing-the-inequality-sign',[['explanation','reversing-the-inequality-sign-explanation.html'],['problems','reversing-the-inequality-sign-problems.html'],['answers','reversing-the-inequality-sign-answers.html'],['test','reversing-the-inequality-sign-test.html']]],
 ['algebra/linear-inequalities/compound-inequalities',[['explanation','compound-inequalities-explanation.html'],['problems','compound-inequalities-problems.html'],['answers','compound-inequalities-answers.html'],['test','compound-inequalities-test.html']]]
+['advanced-math/polynomial-operations/polynomial-division',[['explanation','polynomial-division-explanation.html'],['problems','polynomial-division-problems.html'],['answers','polynomial-division-answers.html'],['test','polynomial-division-test.html']]],
+['advanced-math/factoring/difference-of-squares',[['explanation','difference-of-squares-explanation.html'],['problems','difference-of-squares-problems.html'],['answers','difference-of-squares-answers.html'],['test','difference-of-squares-test.html']]],
 ];
 for(const [base,files] of overrides)for(const [dir,file] of files){const target=path.join(dist,base,dir);fs.mkdirSync(target,{recursive:true});fs.copyFileSync(path.join(root,file),path.join(target,'index.html'));}
 const timedTypes=new Set(['explanation','problems','answers']);
