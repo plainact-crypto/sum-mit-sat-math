@@ -2,7 +2,10 @@ const fs=require('fs'),path=require('path');
 const root=__dirname,dist=path.join(root,'dist');
 const items=[
   ['algebra/linear-functions/graphing-linear-functions/problems/','graphing-linear-functions-problems.html'],
+  ['algebra/linear-functions/linear-function-tables/explanation/','linear-function-tables-explanation.html'],
   ['algebra/linear-functions/linear-function-tables/problems/','linear-function-tables-problems.html'],
+  ['algebra/linear-functions/linear-function-tables/answers/','linear-function-tables-answers.html'],
+  ['algebra/linear-functions/linear-function-tables/test/','linear-function-tables-test.html'],
   ['algebra/linear-functions/linear-function-translations/explanation/','linear-function-translations-explanation.html'],
   ['advanced-math/polynomial-operations/polynomial-multiplication/problems/','polynomial-multiplication-problems.html'],
   ['advanced-math/polynomial-operations/polynomial-multiplication/answers/','polynomial-multiplication-answers.html'],
