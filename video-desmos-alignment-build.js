@@ -48,3 +48,4 @@ require('./video-completing-the-square-explainer.js');
  console.log(`Embedded SUMMIT explainer at ${path.relative(dist,file)}`);
 }
 require('./video-graphing-linear-functions-explainer.js');
+require('./video-linear-function-tables-explainer.js');
