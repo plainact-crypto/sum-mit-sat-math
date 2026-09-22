@@ -19,5 +19,6 @@ module.exports=[
 ,
   {slug:'circle-line-systems',lesson:'Circle Line Systems',classification:'NEITHER',graph:null,desmos:null}
 ,
-  {slug:'factoring-quadratics',lesson:'Factoring Quadratics',classification:'NEITHER',graph:null,desmos:null}
+  {slug:'factoring-quadratics',lesson:'Factoring Quadratics',classification:'NEITHER',graph:null,desmos:null},
+  {slug:'function-notation-for-linear-functions',lesson:'Function Notation for Linear Functions',classification:'NEITHER',graph:null,desmos:null}
 ];
