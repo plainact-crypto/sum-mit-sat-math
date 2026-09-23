@@ -83,6 +83,11 @@ if(fs.existsSync(schedulePath)){
 // Full lesson video builders that are intentionally kept outside the legacy video override chain.
 require('./video-sum-of-roots-explainer.js');
 
+// Worker 2: run the complete Axis of Symmetry package after retrofit/publishing passes
+// so its canonical lesson routes cannot be replaced by scheduled COMING SOON shells.
+require('./axis-of-symmetry-content-build.js');
+require('./video-axis-of-symmetry-explainer.js');
+
 console.log('[publish-existing-content] published '+copied.length+' existing page(s)');
 for(const x of copied) console.log('[publish-existing-content] '+x.route+' <- '+x.file);
 if(skipped.length){
