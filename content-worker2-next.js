@@ -23,3 +23,5 @@ require('./video-quadratic-formula-explainer');
 require('./sum-of-roots-test-build');
 require('./video-sum-of-roots-explainer');
 require('./quadratic-parameters-full-build');
+require('./product-of-roots-content-build');
+require('./video-product-of-roots-explainer');
