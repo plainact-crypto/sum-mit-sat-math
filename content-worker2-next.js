@@ -28,3 +28,5 @@ require('./video-product-of-roots-explainer');
 require('./coefficient-root-relations-content-build');
 require('./video-coefficient-root-relations-explainer');
 require('./video-two-real-solutions-explainer');
+require('./nonlinear-systems-quadratic-linear-content-build');
+require('./video-nonlinear-systems-quadratic-linear-explainer');
