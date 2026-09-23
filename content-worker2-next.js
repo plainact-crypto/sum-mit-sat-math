@@ -34,3 +34,5 @@ require('./parabola-line-systems-content-build');
 require('./video-parabola-line-systems-explainer');
 require('./circle-line-systems-content-build');
 require('./video-circle-line-systems-explainer');
+require('./axis-of-symmetry-content-build');
+require('./video-axis-of-symmetry-explainer');
