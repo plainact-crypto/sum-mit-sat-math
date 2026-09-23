@@ -80,6 +80,9 @@ if(fs.existsSync(schedulePath)){
   }
 }
 
+// Full lesson video builders that are intentionally kept outside the legacy video override chain.
+require('./video-sum-of-roots-explainer.js');
+
 console.log('[publish-existing-content] published '+copied.length+' existing page(s)');
 for(const x of copied) console.log('[publish-existing-content] '+x.route+' <- '+x.file);
 if(skipped.length){
