@@ -51,3 +51,4 @@ require('./video-graphing-linear-functions-explainer.js');
 require('./video-linear-function-tables-explainer.js');
 require('./video-one-real-solution-explainer.js');
 require('./video-no-real-solutions-explainer.js');
+require('./tangent-intersection-cases-content-build.js');
