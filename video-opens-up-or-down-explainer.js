@@ -1,5 +1,6 @@
 const fs=require('fs');
 const path=require('path');
+require('./opens-up-or-down-publish.js');
 const dist=path.join(__dirname,'dist');
 const route=path.join(dist,'advanced-math','quadratic-functions','opens-up-or-down','video','english','index.html');
 if(!fs.existsSync(route)) throw new Error('Opens Up or Down English video route missing');
