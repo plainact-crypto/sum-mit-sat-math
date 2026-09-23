@@ -27,3 +27,4 @@ require('./product-of-roots-content-build');
 require('./video-product-of-roots-explainer');
 require('./coefficient-root-relations-content-build');
 require('./video-coefficient-root-relations-explainer');
+require('./video-two-real-solutions-explainer');
