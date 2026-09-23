@@ -21,4 +21,5 @@ if(fs.existsSync(schedulePath)){let schedule=JSON.parse(fs.readFileSync(schedule
 require('./quadratic-formula-test-build');
 require('./video-quadratic-formula-explainer');
 require('./sum-of-roots-test-build');
+require('./video-sum-of-roots-explainer');
 require('./quadratic-parameters-full-build');
