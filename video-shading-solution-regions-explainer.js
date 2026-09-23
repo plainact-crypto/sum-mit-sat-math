@@ -36,3 +36,6 @@ if (!html.includes(tag)) {
   fs.writeFileSync(file, html);
 }
 console.log(`Embedded SUMMIT explainer at ${path.relative(dist, file)}`);
+
+// Keep the next owned inequalities lesson video in the same production pass.
+require('./video-overlapping-solution-regions-explainer.js');
