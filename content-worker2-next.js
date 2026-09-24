@@ -39,3 +39,5 @@ require('./axis-of-symmetry-content-build');
 require('./video-axis-of-symmetry-explainer');
 require('./number-of-intersections-content-build');
 require('./video-number-of-intersections-explainer');
+require('./converting-between-representations-content-build');
+require('./video-converting-between-representations-explainer');
