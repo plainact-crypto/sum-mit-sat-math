@@ -24,3 +24,5 @@ if(fs.existsSync(schedulePath)){
   fs.writeFileSync(schedulePath,JSON.stringify(schedule,null,2));
 }
 console.log('Built One Real Solution lesson test route');
+// Final canonical package pass: guarantees Explanation + 18/18/5 alignment after legacy builders.
+require('./one-real-solution-content-build.js');
