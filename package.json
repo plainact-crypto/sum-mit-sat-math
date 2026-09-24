@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build": "node production-build.js && node quadratic-y-intercept-content-build.js && node quadratic-parameters-full-build.js && node extraneous-solutions-content-build.js && node video-extraneous-solutions-explainer.js && node two-real-solutions-content-build.js && node video-one-real-solution-explainer.js",
+    "build": "node production-build.js && node one-real-solution-content-build.js && node quadratic-y-intercept-content-build.js && node quadratic-parameters-full-build.js && node extraneous-solutions-content-build.js && node video-extraneous-solutions-explainer.js && node two-real-solutions-content-build.js && node video-one-real-solution-explainer.js",
     "qa:content": "node explanation-tools-qa.js && node explanation-retrofit-gate.js",
     "qa:video": "node video-alignment-gate.js",
     "qa:final": "node explanation-final-qa.js && node brand-audit.js",
