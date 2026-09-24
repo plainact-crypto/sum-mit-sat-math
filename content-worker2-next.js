@@ -37,3 +37,5 @@ require('./circle-line-systems-content-build');
 require('./video-circle-line-systems-explainer');
 require('./axis-of-symmetry-content-build');
 require('./video-axis-of-symmetry-explainer');
+require('./number-of-intersections-content-build');
+require('./video-number-of-intersections-explainer');
