@@ -1,0 +1,17 @@
+const fs=require('fs'),path=require('path'),d=require('./horizontal-translation-content.json');
+const dist=path.join(__dirname,'dist'),esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function walk(x,o=[]){for(const e of fs.readdirSync(x,{withFileTypes:true})){const p=path.join(x,e.name);e.isDirectory()?walk(p,o):e.name==='index.html'&&o.push(p)}return o}
+const pages=walk(dist).filter(f=>fs.readFileSync(f,'utf8').includes('<div class="lesson-title">'+d.lesson+'</div>'));if(pages.length!==5)throw Error('Expected 5 routes, found '+pages.length);
+function one(marker){const a=pages.filter(f=>fs.readFileSync(f,'utf8').includes(marker));if(a.length!==1)throw Error('Route mismatch '+marker+' '+a.length);return a[0]}
+function inject(f,body){let h=fs.readFileSync(f,'utf8'),re=/<div class="soon">COMING SOON<\/div><div class="release">[\s\S]*?<\/div><\/div>/;if(!re.test(h))throw Error('Placeholder missing '+f);fs.writeFileSync(f,h.replace(re,'<article class="lesson-content">'+body+'</article>'))}
+const ex=d.explanation.map((x,i)=>'<section'+(x[0]==='DESMOS STRATEGY'?' class="summit-desmos-strategy"':'')+'><span class="section-kicker">'+String(i+1).padStart(2,'0')+' · '+esc(x[0])+'</span><h2>'+esc(x[1])+'</h2><p>'+esc(x[2])+'</p></section>').join('');
+const groups=[['SKILL CHECK',0,3],['CORE PRACTICE',3,11],['EXAM-STYLE PRACTICE',11,16],['CHALLENGE PROBLEMS',16,18]];
+if(d.practice.length!==18||groups.map(x=>x[2]-x[1]).join('/')!=='3/8/5/2')throw Error('Practice QA failed');
+const pr=groups.map(([n,s,e])=>'<section><h2>'+n+'</h2>'+d.practice.slice(s,e).map((x,i)=>'<div class="question"><b>'+(s+i+1)+'. '+esc(x[0])+'</b></div>').join('')+'</section>').join('');
+const an=groups.map(([n,s,e])=>'<section><h2>'+n+'</h2>'+d.practice.slice(s,e).map((x,i)=>'<div class="solution"><h3>'+(s+i+1)+'. '+esc(x[0])+'</h3><p><strong>'+esc(x[1])+'</strong></p><p>'+esc(x[2])+'</p></div>').join('')+'</section>').join('');
+if(d.test.length!==5)throw Error('Test QA failed');
+const te='<p>Answer all five questions before checking the review.</p>'+d.test.map((x,i)=>'<section><h3>'+(i+1)+'. '+esc(x[0])+'</h3><p>'+esc(x[1])+'</p><details><summary>Review answer after submission</summary><p><strong>'+esc(x[2])+'</strong> — '+esc(x[3])+'</p></details></section>').join('');
+inject(one('<div class="page-type">Explanation</div>'),ex);inject(one('<div class="page-type">Problems</div>'),pr);inject(one('<div class="page-type">Answers</div>'),an);
+const test=pages.filter(f=>/\/test\/index\.html$/.test(f));if(test.length!==1)throw Error('Test route missing');inject(test[0],te);
+const vf=one('Video Explanation · English');let vh=fs.readFileSync(vf,'utf8'),old='<div class="soon">VIDEO PAGE</div><p class="video-note">This is a separate independent video route for this lesson. Video content can be added here without changing Explanation, Problems, or Answers.</p>';if(!vh.includes(old))throw Error('Video placeholder missing');vh=vh.replace(old,'<div class="summit-video-shell"><div style="position:relative;width:100%;aspect-ratio:16/9"><iframe src="'+d.video.url+'" title="'+d.lesson+' full lesson video" style="position:absolute;inset:0;width:100%;height:100%;border:0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><p class="video-note">'+esc(d.video.note)+'</p></div>');fs.writeFileSync(vf,vh);
+console.log('Horizontal Translation: 18 practice, 18 aligned solutions, 5 test, explanation and full video route built.');
