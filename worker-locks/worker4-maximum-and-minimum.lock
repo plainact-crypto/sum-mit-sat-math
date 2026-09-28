@@ -1,3 +1,4 @@
 lesson=maximum-and-minimum
 owner=SUMMIT Worker 4
-status=ACTIVE
+status=BLOCKED
+reason=production-build wiring write rejected by connector safety layer; content, video, and registry are staged on worker branch
