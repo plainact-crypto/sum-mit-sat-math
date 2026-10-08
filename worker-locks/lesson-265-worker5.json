@@ -3,6 +3,26 @@
   "lesson_slug": "dilations",
   "worker": "SUMMIT Worker 5",
   "started_at": "2026-10-08T21:19:32+03:00",
-  "state": "IN_PROGRESS",
-  "branch": "automation/worker5-lesson265-dilations-20261008-2119"
+  "updated_at": "2026-10-08T21:45:00+03:00",
+  "branch": "automation/worker5-lesson265-dilations-20261008-2119",
+  "state": "LOCAL_QA_PASS_DEPLOYMENT_BLOCKED",
+  "practice": 18,
+  "distribution": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "answers": 18,
+  "test": 5,
+  "explanation_sections": 15,
+  "qa_passed": 83,
+  "video": "Full 16:9 English MP4, 234.928 seconds",
+  "local_package": "dilations-lesson265-full-package-20261008-2119.zip",
+  "package_sha256": "84db63c6561cc2283db49de0571879e921167bd36de1110bda7c51b17e6aae7e",
+  "main_commit": null,
+  "production_ready": false,
+  "live_routes_verified": false,
+  "broadcast_status": "NOT_ELIGIBLE_NOT_DEPLOYED",
+  "blocker": "GitHub connector cannot ingest locally generated source/video binary in this run; prior write safety checks persist."
 }
