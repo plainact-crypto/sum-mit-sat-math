@@ -1,0 +1,217 @@
+{
+  "index": 285,
+  "title": "Completing the Square for Circle Equations",
+  "slug": "completing-the-square-for-circle-equations",
+  "base": "geometry-and-trigonometry/circles/circle-equation/completing-the-square-for-circle-equations",
+  "subject": "Geometry and Trigonometry",
+  "section": "Circles",
+  "group": "Circle Equation",
+  "practice": [
+    {
+      "group": "Skill Check",
+      "prompt": "Complete the square: x²+y²−6x+4y−12=0.",
+      "answer": "(x-3)^2+(y+2)^2=25",
+      "solution": "Add 9 and 4 to both sides: (x−3)²+(y+2)²=25. Center (3,−2), radius 5.",
+      "kind": "circle",
+      "params": []
+    },
+    {
+      "group": "Skill Check",
+      "prompt": "Complete the square: x²+y²+8x−2y+8=0.",
+      "answer": "(x+4)^2+(y-1)^2=9",
+      "solution": "Add 16 and 1 to both sides: (x+4)²+(y−1)²=9. Center (−4,1), radius 3.",
+      "kind": "circle",
+      "params": []
+    },
+    {
+      "group": "Skill Check",
+      "prompt": "Complete the square: x²+y²−2x−10y+17=0.",
+      "answer": "(x-1)^2+(y-5)^2=9",
+      "solution": "Add 1 and 25: (x−1)²+(y−5)²=9. Center (1,5), radius 3.",
+      "kind": "circle",
+      "params": []
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "Complete the square: x²+y²+4x+6y−12=0.",
+      "answer": "(x+2)^2+(y+3)^2=25",
+      "solution": "Add 4 and 9 to both sides: (x+2)²+(y+3)²=25.",
+      "kind": "circle",
+      "params": []
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "Complete the square: x²+y²−12x−8y+27=0.",
+      "answer": "(x-6)^2+(y-4)^2=25",
+      "solution": "Add 36 and 16: (x−6)²+(y−4)²=25.",
+      "kind": "circle",
+      "params": []
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "Complete the square: x²+y²+10x−14y+38=0.",
+      "answer": "(x+5)^2+(y-7)^2=36",
+      "solution": "Add 25 and 49: (x+5)²+(y−7)²=36.",
+      "kind": "circle",
+      "params": []
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "Complete the square: x²+y²−4x+2y−11=0.",
+      "answer": "(x-2)^2+(y+1)^2=16",
+      "solution": "Add 4 and 1: (x−2)²+(y+1)²=16. The exact graph has center (2,−1), radius 4.",
+      "kind": "circle",
+      "params": []
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "Complete the square: x²+y²−6x−8y=0.",
+      "answer": "(x-3)^2+(y-4)^2=25",
+      "solution": "Add 9 and 16: (x−3)²+(y−4)²=25.",
+      "kind": "circle",
+      "params": []
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "Complete the square: x²+y²+2x+2y+1=0.",
+      "answer": "(x+1)^2+(y+1)^2=1",
+      "solution": "Add 1 to each group, so (x+1)²+(y+1)²=1.",
+      "kind": "circle",
+      "params": []
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "Complete the square: x²+y²−4x+6y+9=0.",
+      "answer": "(x-2)^2+(y+3)^2=4",
+      "solution": "Add 4 and 9: (x−2)²+(y+3)²=4.",
+      "kind": "circle",
+      "params": []
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "Complete the square: x²+y²+6x−4y+9=0.",
+      "answer": "(x+3)^2+(y-2)^2=4",
+      "solution": "Add 9 and 4: (x+3)²+(y−2)²=4.",
+      "kind": "circle",
+      "params": []
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "Divide by 2, then complete the square: 2x²+2y²−8x+12y−6=0.",
+      "answer": "(x-2)^2+(y+3)^2=16",
+      "solution": "Divide all terms by 2 first; add 4 and 9: (x−2)²+(y+3)²=16.",
+      "kind": "circle",
+      "params": []
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "Complete the square: x²+y²−5x+4y−3/4=0.",
+      "answer": "(x-5/2)^2+(y+2)^2=11",
+      "solution": "Add 25/4 and 4: (x−5/2)²+(y+2)²=11. Center (5/2,−2), radius √11.",
+      "kind": "circle",
+      "params": []
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "Complete the square: x²+y²+3x−7y+1=0.",
+      "answer": "(x+3/2)^2+(y-7/2)^2=27/2",
+      "solution": "Add 9/4 and 49/4: (x+3/2)²+(y−7/2)²=27/2.",
+      "kind": "circle",
+      "params": []
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "Does x²+y²−2x+4y+5=0 represent a genuine circle?",
+      "answer": "No: radius 0",
+      "solution": "Complete squares: (x−1)²+(y+2)²=0. Only one point (1,−2), not a circle.",
+      "kind": "degenerate",
+      "params": []
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "Does x²+y²+2x−4y+10=0 have real points?",
+      "answer": "No real circle",
+      "solution": "Complete squares: (x+1)²+(y−2)²=−5. Sum of squares cannot be negative.",
+      "kind": "imaginary",
+      "params": []
+    },
+    {
+      "group": "Challenge",
+      "prompt": "Circle x²+y²+Dx−6y+9=0 has radius 5 and center right of the y-axis. Find D.",
+      "answer": "-10",
+      "solution": "r²=D²/4+9−9=D²/4=25. D=±10, but center x=−D/2>0 forces D=−10.",
+      "kind": "parameter",
+      "params": []
+    },
+    {
+      "group": "Challenge",
+      "prompt": "Circle x²+y²−8x+Ey+5=0 has radius 6 and center below the x-axis. Find E.",
+      "answer": "10",
+      "solution": "r²=16+E²/4−5=36, so E=±10. Center y=−E/2<0 forces E=10.",
+      "kind": "parameter",
+      "params": []
+    }
+  ],
+  "test": [
+    {
+      "level": "Easy",
+      "prompt": "Complete the square: x²+y²−4x+6y−3=0.",
+      "answer": "(x-2)^2+(y+3)^2=16",
+      "options": [
+        "(x-2)^2+(y+3)^2=16",
+        "(x+2)^2+(y-3)^2=16",
+        "(x-2)^2+(y+3)^2=4",
+        "(x-4)^2+(y+6)^2=16"
+      ],
+      "solution": "Add 4 and 9: (x−2)²+(y+3)²=16."
+    },
+    {
+      "level": "Easy / Medium",
+      "prompt": "Complete the square: x²+y²+6x+2y+1=0.",
+      "answer": "(x+3)^2+(y+1)^2=9",
+      "options": [
+        "(x+3)^2+(y+1)^2=9",
+        "(x-3)^2+(y-1)^2=9",
+        "(x+3)^2+(y+1)^2=11",
+        "(x+6)^2+(y+2)^2=9"
+      ],
+      "solution": "Add 9 and 1: (x+3)²+(y+1)²=9."
+    },
+    {
+      "level": "Medium",
+      "prompt": "Complete the square: x²+y²−10x+8y+16=0.",
+      "answer": "(x-5)^2+(y+4)^2=25",
+      "options": [
+        "(x-5)^2+(y+4)^2=25",
+        "(x+5)^2+(y-4)^2=25",
+        "(x-5)^2+(y+4)^2=41",
+        "(x-10)^2+(y+8)^2=25"
+      ],
+      "solution": "Add 25 and 16: (x−5)²+(y+4)²=25."
+    },
+    {
+      "level": "Medium / Hard",
+      "prompt": "Rewrite 3x²+3y²+12x−18y−24=0.",
+      "answer": "(x+2)^2+(y-3)^2=21",
+      "options": [
+        "(x+2)^2+(y-3)^2=21",
+        "(x-2)^2+(y+3)^2=21",
+        "(x+2)^2+(y-3)^2=7",
+        "(x+4)^2+(y-6)^2=21"
+      ],
+      "solution": "Divide by 3, then add 4 and 9: (x+2)²+(y−3)²=21."
+    },
+    {
+      "level": "Hard / Exam-Style",
+      "prompt": "Circle x²+y²+Dx+4y−5=0 has radius 5 and center right of y-axis. Find D.",
+      "answer": "-8",
+      "options": [
+        "-8",
+        "8",
+        "-4",
+        "4"
+      ],
+      "solution": "r²=D²/4+9=25, so D=±8. Center x=−D/2>0 means D=−8."
+    }
+  ]
+}
