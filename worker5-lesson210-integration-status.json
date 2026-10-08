@@ -1,0 +1,18 @@
+{
+  "index": 210,
+  "title": "Random Samples",
+  "slug": "random-samples",
+  "route": "/problem-solving-and-data-analysis/sampling-and-inference/random-samples/",
+  "practice": 18,
+  "distribution": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "solutions": 18,
+  "test": 5,
+  "video": "full 16:9 214s",
+  "status": "local package ready; deployment pending",
+  "broadcast": "NOT_ELIGIBLE_UNTIL_DEPLOYED"
+}
