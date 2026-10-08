@@ -1,0 +1,62 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Calculate sphere surface area and volume, recover radius or diameter, and solve SAT-style hemisphere, scaling, and hollow-shell questions."
+  ],
+  [
+    "WHAT YOU NEED TO KNOW",
+    "A sphere is the set of points in three-dimensional space at a fixed distance from its center. Radius r runs from the center to the surface; diameter d=2r. Sphere volume measures the space inside; surface area measures its outer boundary."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Radius r: center to surface. Diameter d: twice the radius. Surface area: square units covering the sphere. Volume: cubic units inside. Hemisphere: half a sphere cut through its center. A hollow shell is the region between two concentric spheres."
+  ],
+  [
+    "CORE RULE",
+    "For a sphere, surface area S=4πr² and volume V=(4/3)πr³. Diameter d=2r. A solid hemisphere has volume (2/3)πr³, curved area 2πr², and total area including the base 3πr²."
+  ],
+  [
+    "HOW IT WORKS",
+    "1. Identify whether the problem gives radius or diameter. 2. If diameter is given, divide it by 2. 3. Choose surface area for covering and volume for filling. 4. Substitute the radius, simplify powers, and keep π exact unless told to approximate. 5. Label square or cubic units correctly."
+  ],
+  [
+    "WORKED EXAMPLE 1 — SURFACE AREA",
+    "Radius 3 gives S=4π(3²)=4π(9)=36π square units. The radius is squared; do not use diameter 6 in place of r."
+  ],
+  [
+    "WORKED EXAMPLE 2 — VOLUME",
+    "Radius 6 gives V=(4/3)π(6³)=(4/3)π(216)=288π cubic units. Cubing 6 means multiplying 6×6×6."
+  ],
+  [
+    "WORKED EXAMPLE 3 — DIAMETER",
+    "A sphere of diameter 10 has radius 5. Its surface area is 4π(25)=100π, not 400π. Always halve diameter before substituting."
+  ],
+  [
+    "WORKED EXAMPLE 4 — REVERSE FORMULA",
+    "If surface area is 196π, solve 4πr²=196π. Thus r²=49, r=7, and diameter=14. Radius must be positive."
+  ],
+  [
+    "WORKED EXAMPLE 5 — HEMISPHERE",
+    "For radius 3, the curved area of a hemisphere is 2π(9)=18π. Its flat circular base adds π(9)=9π. Total exposed area is 27π; hemisphere volume is (2/3)π(27)=18π."
+  ],
+  [
+    "VERIFIED SPHERE CROSS-SECTION",
+    "The visual shows a circle representing the central cross-section of a sphere. A diameter runs through the center and is exactly twice the radius. The two-dimensional drawing is schematic: surface area and volume formulas describe the three-dimensional sphere."
+  ],
+  [
+    "SCALING AND COMPOSITE SPHERES",
+    "If radius is multiplied by k, surface area is multiplied by k² and volume by k³. A hollow spherical shell with outer radius R and inner radius r has volume (4/3)π(R³−r³). A hemisphere is exactly half a sphere by volume, but its total surface area includes a new flat circular base."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Using diameter instead of radius; forgetting the factor 4/3 in volume; using square rather than cubic units; confusing hemisphere curved area 2πr² with total area 3πr²; scaling volume by k² rather than k³."
+  ],
+  [
+    "EXAM STRATEGY AND QUICK CHECK",
+    "Keep π symbolic to avoid rounding. Quick check: radius 2 gives surface area 16π; diameter 6 gives volume 36π; surface area 144π gives radius 6. Check units and whether a hemisphere includes its base."
+  ],
+  [
+    "LESSON RECAP",
+    "Sphere: S=4πr², V=(4/3)πr³, d=2r. Hemisphere: V=(2/3)πr³; curved area 2πr²; total area 3πr². Radius scale k means surface area scale k² and volume scale k³."
+  ]
+]
