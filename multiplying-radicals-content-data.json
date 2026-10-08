@@ -1,0 +1,147 @@
+{
+  "slug": "multiplying-radicals",
+  "classification": "NEITHER",
+  "base": "/advanced-math/radical-expressions-and-equations/multiplying-radicals/",
+  "practice": [
+    {
+      "group": "Skill Check",
+      "question": "Multiply: √2 · √8.",
+      "answer": "4",
+      "solution": "√2·√8=√16=4."
+    },
+    {
+      "group": "Skill Check",
+      "question": "Multiply: √3 · √12.",
+      "answer": "6",
+      "solution": "√3·√12=√36=6."
+    },
+    {
+      "group": "Skill Check",
+      "question": "Simplify: √5 · √7.",
+      "answer": "√35",
+      "solution": "√5·√7=√35; no square factor can be extracted."
+    },
+    {
+      "group": "Core Practice",
+      "question": "Multiply: (2√3)(3√12).",
+      "answer": "36",
+      "solution": "2·3·√36=6·6=36."
+    },
+    {
+      "group": "Core Practice",
+      "question": "Simplify: √6 · √15.",
+      "answer": "3√10",
+      "solution": "√90=√(9·10)=3√10."
+    },
+    {
+      "group": "Core Practice",
+      "question": "Multiply: (4√2)√18.",
+      "answer": "24",
+      "solution": "4√36=24."
+    },
+    {
+      "group": "Core Practice",
+      "question": "For x ≥ 0, simplify √(3x) · √(12x).",
+      "answer": "6x",
+      "solution": "√(36x²)=6|x|=6x for x≥0."
+    },
+    {
+      "group": "Core Practice",
+      "question": "Simplify: √2(√8 + √18).",
+      "answer": "10",
+      "solution": "Distribute to obtain √16+√36=4+6=10."
+    },
+    {
+      "group": "Core Practice",
+      "question": "Simplify: (√5)² + √6 · √24.",
+      "answer": "17",
+      "solution": "5+√144=5+12=17."
+    },
+    {
+      "group": "Core Practice",
+      "question": "A rectangle has side lengths √12 and √27 units. What is its area?",
+      "answer": "18",
+      "solution": "Area=√324=18 square units."
+    },
+    {
+      "group": "Core Practice",
+      "question": "Simplify: (2√3)(√27 − √3).",
+      "answer": "12",
+      "solution": "√27−√3=2√3; (2√3)²=12."
+    },
+    {
+      "group": "Exam-Style",
+      "question": "Simplify: (3√5)(2√10).",
+      "answer": "30√2",
+      "solution": "6√50=30√2."
+    },
+    {
+      "group": "Exam-Style",
+      "question": "Simplify: (√2 + √8)√2.",
+      "answer": "6",
+      "solution": "Distribute: 2+√16=6."
+    },
+    {
+      "group": "Exam-Style",
+      "question": "For x ≥ 0, simplify √(2x) · √(8x³).",
+      "answer": "4x²",
+      "solution": "√(16x⁴)=4x²."
+    },
+    {
+      "group": "Exam-Style",
+      "question": "For x ≥ 0, √(3x) · √(12x) = 18. Find x.",
+      "answer": "3",
+      "solution": "6x=18, so x=3."
+    },
+    {
+      "group": "Exam-Style",
+      "question": "A floor is 2√6 units long and √24 units wide. At $7 per square unit, what is the flooring cost?",
+      "answer": "$168",
+      "solution": "Area=2√144=24; cost=24·7=$168."
+    },
+    {
+      "group": "Challenge",
+      "question": "Simplify: (√6 + √2)² − (√6 − √2)².",
+      "answer": "8√3",
+      "solution": "Use (a+b)²−(a−b)²=4ab; 4√12=8√3."
+    },
+    {
+      "group": "Challenge",
+      "question": "Solve √(x + 1) · √(x + 4) = √40 for real x.",
+      "answer": "4",
+      "solution": "Domain x≥−1. Square: (x+1)(x+4)=40; (x+9)(x−4)=0. Reject −9."
+    }
+  ],
+  "test": [
+    {
+      "level": "Easy",
+      "question": "Multiply: √3 · √27.",
+      "answer": "9",
+      "solution": "√81=9."
+    },
+    {
+      "level": "Easy / Medium",
+      "question": "Multiply: (2√5)√20.",
+      "answer": "20",
+      "solution": "2√100=20."
+    },
+    {
+      "level": "Medium",
+      "question": "For x ≥ 0, simplify √(2x) · √(18x).",
+      "answer": "6x",
+      "solution": "√(36x²)=6x for x≥0."
+    },
+    {
+      "level": "Medium / Hard",
+      "question": "Simplify: (√7 + √3)(√7 − √3).",
+      "answer": "4",
+      "solution": "Conjugates give 7−3=4."
+    },
+    {
+      "level": "Hard / Exam-Style",
+      "question": "A rectangle has sides √(12x) and 3√(3x), with x > 0. Its area is 90. Find x.",
+      "answer": "5",
+      "solution": "Area=18x, so 18x=90 and x=5."
+    }
+  ]
+}
