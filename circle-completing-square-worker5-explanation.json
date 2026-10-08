@@ -1,0 +1,62 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Convert x²+y²+Dx+Ey+F=0 into (x−h)²+(y−k)²=r² by completing the square; identify center and radius."
+  ],
+  [
+    "WHAT YOU NEED TO KNOW",
+    "General form hides the circle center and radius inside its coefficients. Completing the square recovers these geometric quantities."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "General form: x²+y²+Dx+Ey+F=0. Standard form: (x−h)²+(y−k)²=r². The center is (h,k) and a genuine real circle requires r²>0."
+  ],
+  [
+    "CORE RULE",
+    "Move F to the right. x²+Dx=(x+D/2)²−(D/2)², and similarly for y. Thus h=−D/2, k=−E/2, r²=(D²+E²)/4−F."
+  ],
+  [
+    "HOW IT WORKS",
+    "Divide by a shared leading coefficient if needed. Group x and y terms. Add (D/2)² and (E/2)² to both sides. Factor the squares and identify center and radius."
+  ],
+  [
+    "WORKED EXAMPLE 1",
+    "x²+y²−6x+4y−12=0 → (x²−6x+9)+(y²+4y+4)=12+9+4 → (x−3)²+(y+2)²=25. Center (3,−2), radius 5."
+  ],
+  [
+    "WORKED EXAMPLE 2",
+    "x²+y²+8x−2y+8=0 → (x+4)²+(y−1)²=9. Center (−4,1), radius 3."
+  ],
+  [
+    "WORKED EXAMPLE 3",
+    "2x²+2y²−8x+12y−6=0. Divide by 2 to get x²+y²−4x+6y−3=0. Add 4 and 9: (x−2)²+(y+3)²=16."
+  ],
+  [
+    "WORKED EXAMPLE 4",
+    "x²+y²−5x+4y−3/4=0 → (x−5/2)²+(y+2)²=11. The center is (5/2,−2), radius √11."
+  ],
+  [
+    "WORKED EXAMPLE 5",
+    "x²+y²−2x+4y+5=0 becomes (x−1)²+(y+2)²=0, only a point. Negative r² has no real solutions."
+  ],
+  [
+    "VERIFIED CIRCLE GRAPH",
+    "x²+y²−4x+2y−11=0 equals (x−2)²+(y+1)²=16. Center (2,−1), radius 4. Cardinal points (6,−1), (−2,−1), (2,3), (2,−5) satisfy both forms."
+  ],
+  [
+    "DESMOS STRATEGY",
+    "Enter: x^2+y^2-4x+2y-11=0 and (x-2)^2+(y+1)^2=16. Look for: two identical circles centered at (2,-1). Use it to answer: verify the equivalent equation. Why it works: the expanded forms are equal. Faster or not? Algebra is faster for exact answers."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Halve coefficients before squaring. Add the square terms to both sides. Divide by a shared leading coefficient first. Check r²>0."
+  ],
+  [
+    "QUICK CHECK",
+    "Try (1) x²+y²−2x+6y+1=0; (2) x²+y²+4x−8y+4=0; (3) x²+y²−6x+2y+5=0. Reveal: (x−1)²+(y+3)²=9; (x+2)²+(y−4)²=16; (x−3)²+(y+1)²=5."
+  ],
+  [
+    "LESSON RECAP",
+    "For x²+y²+Dx+Ey+F=0, center (−D/2,−E/2), r²=(D²+E²)/4−F. Check r² and substitute a point to verify."
+  ]
+]
