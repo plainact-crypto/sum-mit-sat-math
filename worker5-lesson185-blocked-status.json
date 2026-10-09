@@ -1,0 +1,39 @@
+{
+  "lesson": 185,
+  "slug": "mean",
+  "state": "BLOCKED_PRODUCTION_WIRING",
+  "branch": "automation/worker5-mean-lesson185-20261008-1620",
+  "committed_content": true,
+  "commit": "95adec3da56b960ed06cf6f208ca1ff5b27db84b",
+  "package": {
+    "explanation": true,
+    "practice": 18,
+    "distribution": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "solutions": 18,
+    "test": 5,
+    "video_routes": [
+      "english",
+      "arabic"
+    ]
+  },
+  "qa": {
+    "mathematical": "23/23 PASS independently",
+    "cross_page": "PASS locally",
+    "browser": "PASS Chromium set_content",
+    "local_mp4": "1280x720, 144 seconds"
+  },
+  "blockers": [
+    "production-build.js update rejected by safety checks",
+    "explanation-retrofit-registry.js update rejected by safety checks",
+    "create_pull_request rejected by safety checks",
+    "MP4 not uploaded to repository"
+  ],
+  "production": false,
+  "broadcast": "NOT_SENT",
+  "shorts": 0
+}
