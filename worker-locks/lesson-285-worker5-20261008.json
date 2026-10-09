@@ -2,7 +2,9 @@
   "lesson_index": 285,
   "slug": "completing-the-square-for-circle-equations",
   "worker": "worker5",
-  "state": "IN_PROGRESS",
+  "state": "BLOCKED",
   "base_commit": "3790c7da88d4062db1ba3bbf2d941788c85e5d43",
-  "created_at": "2026-10-08T23:24:00+03:00"
+  "created_at": "2026-10-08T23:24:00+03:00",
+  "block_reason": "GitHub pull request creation rejected by safety checks; core package remains on worker5 branch, production merge pending",
+  "last_attempt": "2026-10-09T14:21:22+03:00"
 }
