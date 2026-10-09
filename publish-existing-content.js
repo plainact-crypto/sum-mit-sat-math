@@ -94,3 +94,8 @@ if(skipped.length){
   console.log('[publish-existing-content] skipped '+skipped.length+' candidate(s) due to metadata mismatch');
   for(const x of skipped) console.log('[publish-existing-content] skipped '+x.file+' for '+x.target+'/'+x.type);
 }
+
+require('./line-of-best-fit-lesson200-explanation-build.js');
+require('./line-of-best-fit-lesson200-practice-build.js');
+require('./line-of-best-fit-lesson200-test-build.js');
+require('./line-of-best-fit-lesson200-video-build.js');
