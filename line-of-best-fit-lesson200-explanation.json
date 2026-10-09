@@ -1,0 +1,66 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Interpret and use a line of best fit for scatterplot data: estimate slope and intercept, make predictions, and calculate residuals."
+  ],
+  [
+    "CORE IDEA",
+    "A line of best fit summarizes the overall linear pattern in a scatterplot. The points usually do not all lie on the line."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Trend line: a line approximating a pattern. Slope: predicted y-change per unit x. Intercept: predicted y when x=0. Residual: observed y minus predicted y."
+  ],
+  [
+    "CORE RULE",
+    "For a fitted line y=mx+b, use x to predict y. Calculate m=(y2−y1)/(x2−x1) using TWO POINTS ON THE LINE, not necessarily the raw scattered points."
+  ],
+  [
+    "HOW IT WORKS",
+    "1. Inspect the scatterplot. 2. Choose a line following the center of the trend. 3. Use two readable points on the line to estimate slope. 4. Find intercept. 5. Predict or compute residuals."
+  ],
+  [
+    "WORKED EXAMPLE 1 — SLOPE",
+    "A fitted line through (2,5) and (6,13) has slope (13−5)/(6−2)=2. Predicted y rises by 2 for each 1-unit x increase."
+  ],
+  [
+    "WORKED EXAMPLE 2 — INTERCEPT",
+    "With slope 2 and a point (2,5), solve 5=2(2)+b, so b=1. The fitted equation is y=2x+1."
+  ],
+  [
+    "WORKED EXAMPLE 3 — PREDICTION",
+    "For y=2x+3, substituting x=7 gives predicted y=17. Include the response variable's units."
+  ],
+  [
+    "WORKED EXAMPLE 4 — RESIDUAL",
+    "A fitted line predicts 12 but an observation is 15. Residual=observed−predicted=15−12=+3; the observation lies above the line."
+  ],
+  [
+    "WORKED EXAMPLE 5 — EXTRAPOLATION",
+    "If data cover x from 2 through 10, predicting at x=8 is interpolation, while x=15 is extrapolation. Extrapolated predictions are less reliable."
+  ],
+  [
+    "VERIFIED SCATTERPLOT",
+    "The plotted points (1,4),(2,3),(3,9),(4,7),(5,12) have least-squares line y=2x+1. Their mean x=3 and mean y=7; covariance numerator 20 and x-deviation-square sum 10, giving slope 2 and intercept 1."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not force the line through every point. Do not calculate slope from two random scattered points when the task asks for slope of the fitted line. Residual sign is observed minus predicted."
+  ],
+  [
+    "EXAM STRATEGY",
+    "If an equation is supplied, substitute directly. If only a graph is given, select two widely separated readable points on the trend line. Avoid overinterpreting extrapolation or causation."
+  ],
+  [
+    "QUICK CHECK",
+    "For y=3x+1, at x=2 the prediction is 7. For slope 2 and Δx=4, predicted Δy=8. Observed 18 minus predicted 21 gives residual −3."
+  ],
+  [
+    "LESSON RECAP",
+    "Line of best fit: y=mx+b. Use slope for rate, intercept for baseline, substitution for prediction, and observed−predicted for residual."
+  ],
+  [
+    "NEXT STEP",
+    "Complete the 18 Practice Problems, check 18 aligned worked Answers, and submit the five-question Lesson Test."
+  ]
+]
