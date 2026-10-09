@@ -1,0 +1,3 @@
+const {data,code,sec,write}=require('./lesson130-shell');
+const groups=[['SKILL CHECK',0,3],['CORE PRACTICE',3,11],['EXAM-STYLE PRACTICE',11,16],['CHALLENGE PROBLEMS',16,18]];
+write('problems',sec('PRACTICE OBJECTIVE','<h2>18 original practice questions</h2>')+groups.map(([name,a,b])=>sec(name,data.practice.slice(a,b).map((q,j)=>'<div class="summit-q"><b>'+(a+j+1)+'. Simplify '+code(q[0])+'</b></div>').join(''))).join(''));
