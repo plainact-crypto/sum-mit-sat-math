@@ -1,0 +1,124 @@
+{
+  "lesson": 170,
+  "title": "Converting Rates",
+  "base": "problem-solving-and-data-analysis/units-and-unit-conversion/converting-rates",
+  "practice": [
+    [
+      "Convert 60 miles per hour to miles per minute.",
+      "1 mi/min",
+      "One hour is 60 minutes, so 60/60=1 mi/min."
+    ],
+    [
+      "Convert 3 meters per second to meters per minute.",
+      "180 m/min",
+      "Multiply by 60 seconds per minute: 3×60=180."
+    ],
+    [
+      "A bus travels 120 km in 2 hours. What is its average rate in km/h?",
+      "60 km/h",
+      "Divide distance by time: 120/2=60 km/h."
+    ],
+    [
+      "Convert 90 km/h to kilometers per minute.",
+      "1.5 km/min",
+      "Divide by 60: 90/60=1.5."
+    ],
+    [
+      "Convert 5 feet per second to feet per minute.",
+      "300 ft/min",
+      "Multiply by 60: 5×60=300."
+    ],
+    [
+      "A pump moves 24 gallons in 6 minutes. Find its rate in gallons per hour.",
+      "240 gal/h",
+      "24/6=4 gal/min; multiply by 60 to get 240 gal/h."
+    ],
+    [
+      "Convert 72 km/h to meters per second.",
+      "20 m/s",
+      "Multiply by 1000 meters/km and divide by 3600 seconds/hour: 72/3.6=20."
+    ],
+    [
+      "Convert 15 m/s to kilometers per hour.",
+      "54 km/h",
+      "Multiply by 3.6: 15×3.6=54."
+    ],
+    [
+      "Convert 2.5 liters per minute to liters per hour.",
+      "150 L/h",
+      "2.5×60=150 L/h."
+    ],
+    [
+      "A typist writes 360 words in 12 minutes. What is the rate in words per second?",
+      "0.5 word/s",
+      "360/12=30 words/min; 30/60=0.5 word/s."
+    ],
+    [
+      "Convert 0.75 miles per minute to miles per hour.",
+      "45 mph",
+      "Multiply by 60: 0.75×60=45."
+    ],
+    [
+      "A car covers 45 miles in 30 minutes. Find its average speed in mph.",
+      "90 mph",
+      "30 min=0.5 h; 45/0.5=90 mph."
+    ],
+    [
+      "A machine moves 12 meters in 4 seconds. What is its rate in meters per hour?",
+      "10800 m/h",
+      "12/4=3 m/s; 3×3600=10800 m/h."
+    ],
+    [
+      "Convert 150 centimeters per second to meters per minute.",
+      "90 m/min",
+      "150 cm=1.5 m; 1.5×60=90 m/min."
+    ],
+    [
+      "A worker earns $48 in 3 hours. At the same rate, how much in 15 minutes?",
+      "$4",
+      "$48/3=$16/h; 15 minutes is 1/4 hour, so $16/4=$4."
+    ],
+    [
+      "Which is faster, 12 m/s or 45 km/h, and by how much in m/s?",
+      "45 km/h by 0.5 m/s",
+      "45 km/h=45/3.6=12.5 m/s, which is 0.5 m/s faster than 12 m/s."
+    ],
+    [
+      "Convert 54 km/h to centimeters per second.",
+      "1500 cm/s",
+      "54×100000 cm/km÷3600 s/h=1500 cm/s."
+    ],
+    [
+      "A cyclist rides 5 miles in 12 minutes at a constant rate. Find the speed in mph and the time for 35 miles.",
+      "25 mph; 84 min",
+      "12 min=0.2 h, so 5/0.2=25 mph. 35 miles needs 35/25=1.4 h=84 min."
+    ]
+  ],
+  "test": [
+    [
+      "Convert 4 liters per minute to liters per hour.",
+      "240 L/h",
+      "Multiply by 60: 4×60=240 L/h."
+    ],
+    [
+      "Convert 108 km/h to meters per second.",
+      "30 m/s",
+      "108/3.6=30 m/s."
+    ],
+    [
+      "A conveyor moves 18 feet in 3 seconds. What is its speed in ft/min?",
+      "360 ft/min",
+      "18/3=6 ft/s; 6×60=360 ft/min."
+    ],
+    [
+      "Which is faster, 15 m/s or 50 km/h, and by how much in km/h?",
+      "15 m/s by 4 km/h",
+      "15 m/s=54 km/h, which exceeds 50 km/h by 4."
+    ],
+    [
+      "A train travels 135 km in 90 minutes at constant speed. How many meters does it travel in 48 seconds?",
+      "1200 m",
+      "90 min=1.5 h, so speed=90 km/h=25 m/s. In 48 s, distance=25×48=1200 m."
+    ]
+  ]
+}
