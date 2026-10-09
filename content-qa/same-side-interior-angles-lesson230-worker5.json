@@ -1,0 +1,160 @@
+{
+  "lesson_index": 230,
+  "lesson_title": "Same-Side Interior Angles",
+  "branch": "automation/worker5-lesson230-same-side-interior-angles-20261010-0218",
+  "checked_at": "2026-10-10T02:18:00+03:00",
+  "qa_status": "PASS",
+  "checks_total": 36,
+  "checks_passed": 36,
+  "checks": [
+    {
+      "check": "Canonical lesson #230",
+      "pass": true
+    },
+    {
+      "check": "16 explanation sections",
+      "pass": true
+    },
+    {
+      "check": "18 practice",
+      "pass": true
+    },
+    {
+      "check": "3/8/5/2 distribution",
+      "pass": true
+    },
+    {
+      "check": "18 aligned worked solutions",
+      "pass": true
+    },
+    {
+      "check": "Five test questions",
+      "pass": true
+    },
+    {
+      "check": "Original questions",
+      "pass": true
+    },
+    {
+      "check": "All options distinct",
+      "pass": true
+    },
+    {
+      "check": "Practice 1 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Practice 2 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Practice 3 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Practice 4 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Practice 5 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Practice 6 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Practice 7 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Practice 8 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Practice 9 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Practice 10 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Practice 11 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Practice 12 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Practice 13 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Practice 14 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Practice 15 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Practice 16 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Practice 17 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Practice 18 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Test 1 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Test 2 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Test 3 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Test 4 independently verified",
+      "pass": true
+    },
+    {
+      "check": "Test 5 independently verified",
+      "pass": true
+    },
+    {
+      "check": "16 Arabic video scenes",
+      "pass": true
+    },
+    {
+      "check": "Six route names",
+      "pass": true
+    },
+    {
+      "check": "Correct builder data",
+      "pass": true
+    },
+    {
+      "check": "Canonical index in builder",
+      "pass": true
+    },
+    {
+      "check": "Builder JavaScript syntax",
+      "pass": true
+    }
+  ],
+  "limitations": [
+    "Not wired into production-build.js; production routes unverified",
+    "Arabic video narration scenes authored but current Arabic route is a placeholder",
+    "Browser interaction QA not yet run"
+  ]
+}
