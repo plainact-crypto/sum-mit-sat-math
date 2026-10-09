@@ -1,0 +1,13 @@
+{
+  "lesson_index": 135,
+  "owner": "SUMMIT Worker 5",
+  "core_content": "LOCAL_COMPLETE",
+  "source_builder": "UPLOADED",
+  "preview": "READY",
+  "production": "BLOCKED",
+  "reason": "Production build and explanation registry integration could not be updated through GitHub connector safety checks; no main deployment.",
+  "broadcast": "NOT_SENT",
+  "short_form_video_count": 0,
+  "source_commit": "cd4e0971fe6d1402a003beac3a63d7a90c5c1cf2",
+  "checked_on": "2026-10-09"
+}
