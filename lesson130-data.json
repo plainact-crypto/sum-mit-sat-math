@@ -1,0 +1,146 @@
+{
+  "lesson": "Multiplying Rational Expressions",
+  "base": "advanced-math/rational-expressions/multiplying-rational-expressions",
+  "practice": [
+    [
+      "(x/3) × (6/x)",
+      "2",
+      "Multiply 6x/(3x), then cancel the nonzero x.",
+      "0"
+    ],
+    [
+      "(2x/5) × (15/x²)",
+      "6/x",
+      "Multiply to 30x/(5x²), then cancel 5x.",
+      "0"
+    ],
+    [
+      "((x+2)/4) × (8/(x+2))",
+      "2",
+      "Cancel x+2 only after noting the restriction.",
+      "−2"
+    ],
+    [
+      "((x²−9)/(x+3)) × (2/(x−3))",
+      "2",
+      "Factor x²−9=(x−3)(x+3) and cancel.",
+      "−3,3"
+    ],
+    [
+      "((x²−4)/(x+2)) × (3/(x−2))",
+      "3",
+      "Factor x²−4=(x−2)(x+2) and cancel.",
+      "−2,2"
+    ],
+    [
+      "((x²+5x+6)/(x+2)) × (1/(x+3))",
+      "1",
+      "Factor (x+2)(x+3) and cancel.",
+      "−3,−2"
+    ],
+    [
+      "(2x²/(3x−6)) × ((x−2)/(4x))",
+      "x/6",
+      "Factor 3(x−2), then reduce 2x²/(12x).",
+      "0,2"
+    ],
+    [
+      "((x²−1)/(x²+2x+1)) × ((x+1)/(x−1))",
+      "1",
+      "Factor (x−1)(x+1) and (x+1)², then cancel.",
+      "−1,1"
+    ],
+    [
+      "((x²−16)/(x²−8x+16)) × ((x−4)/(x+4))",
+      "1",
+      "Factor (x−4)(x+4) and (x−4)², then cancel.",
+      "−4,4"
+    ],
+    [
+      "((3x²−12x)/(x²−16)) × ((x+4)/(6x))",
+      "1/2",
+      "Factor 3x(x−4) and (x−4)(x+4); reduce 3/6.",
+      "−4,0,4"
+    ],
+    [
+      "((x²−6x+9)/(x²−9)) × ((x+3)/(x−3))",
+      "1",
+      "Factor (x−3)² and (x−3)(x+3); cancel.",
+      "−3,3"
+    ],
+    [
+      "((x²+7x+12)/(x²−16)) × ((x−4)/(x+3))",
+      "1",
+      "Factor (x+3)(x+4) and (x−4)(x+4); cancel.",
+      "−4,−3,4"
+    ],
+    [
+      "((x²−25)/(x²+3x−10)) × ((x+5)/(x−5))",
+      "(x+5)/(x−2)",
+      "Factor (x−5)(x+5) and (x+5)(x−2); cancel.",
+      "−5,2,5"
+    ],
+    [
+      "((2x²−8)/(x²−x−6)) × ((x−3)/(4x+8))",
+      "(x−2)/(2(x+2))",
+      "Factor 2(x−2)(x+2), (x−3)(x+2), 4(x+2); cancel.",
+      "−2,3"
+    ],
+    [
+      "((x²−4x)/(x²−16)) × ((x+4)/x²)",
+      "1/x",
+      "Factor x(x−4) and (x−4)(x+4), then cancel.",
+      "−4,0,4"
+    ],
+    [
+      "((x²−2x−15)/(x²−25)) × ((x−5)/(x+3))",
+      "(x−5)/(x+5)",
+      "Factor (x−5)(x+3) and (x−5)(x+5), then cancel.",
+      "−5,−3,5"
+    ],
+    [
+      "((x²−9)/(x²−6x+9)) × ((x−3)/(x²+6x+9))",
+      "1/(x+3)",
+      "Factor (x−3)(x+3), (x−3)² and (x+3)²; cancel.",
+      "−3,3"
+    ],
+    [
+      "((x²−4x+4)/(x²−4)) × ((x²+4x+4)/(x−2))",
+      "x+2",
+      "Factor (x−2)², (x−2)(x+2), and (x+2)²; cancel.",
+      "−2,2"
+    ]
+  ],
+  "test": [
+    [
+      "(3x/7) × (14/x)",
+      "6",
+      "42x/(7x)=6.",
+      "0"
+    ],
+    [
+      "((x²−1)/(x−1)) × (2/(x+1))",
+      "2",
+      "Factor x²−1, then cancel.",
+      "−1,1"
+    ],
+    [
+      "(x²/(x²−4)) × ((x+2)/(3x))",
+      "x/[3(x−2)]",
+      "Factor x²−4 and cancel x and x+2.",
+      "−2,0,2"
+    ],
+    [
+      "((x²−4x+3)/(x²−9)) × ((x+3)/(x−1))",
+      "1",
+      "Factor (x−1)(x−3) and (x−3)(x+3), then cancel.",
+      "−3,1,3"
+    ],
+    [
+      "((2x²−18)/(x²−6x+9)) × ((x−3)/(4x+12))",
+      "1/2",
+      "Factor 2(x−3)(x+3), (x−3)², 4(x+3); cancel.",
+      "−3,3"
+    ]
+  ]
+}
