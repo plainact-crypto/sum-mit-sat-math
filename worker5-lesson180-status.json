@@ -1,0 +1,10 @@
+{
+  "lesson": 180,
+  "slug": "frequency-tables",
+  "state": "BLOCKED_PRODUCTION_WIRING",
+  "core_nonvideo": "18 practice, 18 solutions, 5 test, explanation present on branch",
+  "video": "English full-lesson external embed referenced; Arabic lesson route is not a full translated video",
+  "blocker": "Not wired into main production-build; prior attempts to update production-build were blocked by GitHub safety checks",
+  "production": false,
+  "broadcast": "NOT_SENT"
+}
