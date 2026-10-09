@@ -1,13 +1,6 @@
+const fs=require('fs'),path=require('path');
 const {sec,write}=require('./lesson130-shell');
-const scenes=[
-['Introduction','A rational expression is a fraction made of polynomials.'],
-['Multiplication','Multiply numerators and denominators.'],
-['Restrictions','Original denominators must never be zero.'],
-['Simple example','x over 3 times 6 over x is 2, with x not zero.'],
-['Factoring','x squared minus nine is x minus three times x plus three.'],
-['Cancellation','Cancel whole factors, not added terms.'],
-['Exam example','Factor everything and keep original excluded values.'],
-['Recap','Restrictions, factor, cancel, multiply and check.']
-];
-const body=sec('FULL LESSON VIDEO','<h2>Full lesson — narrated scene sequence</h2>'+scenes.map((s,i)=>'<section class="lesson-section"><h3>Scene '+(i+1)+': '+s[0]+'</h3><p>'+s[1]+'</p></section>').join(''));
+const body=sec('FULL LESSON VIDEO','<h2>Full narrated lesson · eight scenes</h2><p>Press Play for the complete English lesson narration, not a short-form cut.</p><div style="min-height:210px;padding:2rem;border:1px solid #bac4d5"><h3 id="scene-title"></h3><p id="scene-body"></p></div><button id="play-video">▶ Play full lesson</button> <button id="stop-video">■ Stop</button>')+'<script src="/assets/lesson130-video-client.js"></script>';
 write('video/english',body);write('video/arabic',body);
+const src=path.join(__dirname,'lesson130-video-client.js'),dst=path.join(__dirname,'dist/assets/lesson130-video-client.js');
+fs.mkdirSync(path.dirname(dst),{recursive:true});fs.copyFileSync(src,dst);
