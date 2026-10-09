@@ -88,6 +88,9 @@ require('./video-sum-of-roots-explainer.js');
 require('./axis-of-symmetry-content-build.js');
 require('./video-axis-of-symmetry-explainer.js');
 
+
+// Worker 5 Lesson 195: complete core and narrated lesson routes.
+for(const f of ['positive-association-lesson195-explanation-build.js','positive-association-lesson195-practice-build.js','positive-association-lesson195-test-build.js','positive-association-lesson195-video-build.js'])require('./'+f);
 console.log('[publish-existing-content] published '+copied.length+' existing page(s)');
 for(const x of copied) console.log('[publish-existing-content] '+x.route+' <- '+x.file);
 if(skipped.length){
