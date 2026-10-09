@@ -1,14 +1,12 @@
-// SUMMIT Worker 5 lesson 130: copy six canonical routes and horizontal full lesson video.
-const fs=require('fs'),path=require('path');
-const base='advanced-math/rational-expressions/multiplying-rational-expressions';
+// SUMMIT Worker 5 lesson 130: six canonical routes generated from verified lesson data.
+require('./lesson130-explanation-answers.js');
+require('./lesson130-practice.js');
+require('./lesson130-test.js');
+require('./lesson130-video.js');
+const fs=require('fs'),path=require('path'),data=require('./lesson130-data.json');
+const base=path.join(__dirname,'dist',data.base);
 for(const route of ['explanation','problems','answers','test','video/english','video/arabic']){
-const src=path.join(__dirname,'lesson130',base,route,'index.html'),dst=path.join(__dirname,'dist',base,route,'index.html');
-if(!fs.existsSync(src))throw Error('Missing lesson130 route '+route);
-fs.mkdirSync(path.dirname(dst),{recursive:true});fs.copyFileSync(src,dst);
+if(!fs.existsSync(path.join(base,route,'index.html')))throw Error('Lesson130 missing '+route);
 }
-for(const name of ['multiplying-rational-expressions-lesson130-16x9.mp4','multiplying-rational-expressions-lesson130-poster.png']){
-const src=path.join(__dirname,'lesson130/assets',name),dst=path.join(__dirname,'dist/assets',name);
-if(!fs.existsSync(src))throw Error('Missing lesson130 video asset '+name);
-fs.mkdirSync(path.dirname(dst),{recursive:true});fs.copyFileSync(src,dst);
-}
-console.log('SUMMIT lesson130 six routes and full lesson video built');
+if(data.practice.length!==18||data.test.length!==5)throw Error('Lesson130 count QA');
+console.log('Lesson130 built: 18 practice, 18 aligned solutions, 5 test, 6 routes');
