@@ -1,0 +1,38 @@
+{
+  "lesson_index": 200,
+  "slug": "line-of-best-fit",
+  "status": "PREVIEW_PENDING",
+  "package": {
+    "explanation_sections": 16,
+    "practice": 18,
+    "distribution": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "solutions": 18,
+    "test": 5,
+    "video_routes": [
+      "english",
+      "arabic"
+    ],
+    "graph": "GRAPH"
+  },
+  "qa": {
+    "builder_syntax": "4/4 PASS",
+    "OLS_slope": 2,
+    "OLS_intercept": 1,
+    "graph_points_verified": 5,
+    "question_count": "18/18",
+    "solutions": "18/18",
+    "test": "5/5",
+    "practice_unique": true,
+    "test_distinct": true
+  },
+  "broadcast": {
+    "status": "PENDING_PRODUCTION",
+    "deployed_commit": null
+  },
+  "short_form_videos": 0
+}
