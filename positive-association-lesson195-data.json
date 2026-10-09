@@ -1,0 +1,225 @@
+{
+  "lesson_index": 195,
+  "slug": "positive-association",
+  "title": "Positive Association",
+  "base": "problem-solving-and-data-analysis/two-variable-data/positive-association",
+  "classification": "GRAPH",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "prompt": "As x increases, y generally increases. Choose the association: A positive, B negative, C none.",
+      "answer": "A",
+      "solution": "Positive association means higher x tends to accompany higher y."
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "prompt": "A scatterplot has points (1,2), (2,4), (3,6), (4,8). Choose: A positive, B negative, C none.",
+      "answer": "A",
+      "solution": "Every increase of 1 in x increases y by 2, so the points follow an upward pattern."
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "prompt": "A city's hotter days generally have higher ice-cream sales. Choose: A positive, B negative, C none.",
+      "answer": "A",
+      "solution": "As temperature increases, sales tend to increase, so the association is positive."
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "prompt": "Which relationship has positive association? A time spent studying vs score; B speed vs trip time over fixed distance; C random jersey number vs height.",
+      "answer": "A",
+      "solution": "More study time is plausibly associated with higher scores; fixed-distance travel time tends to fall as speed rises."
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "prompt": "Which line has a positive slope? A y=−2x+7; B y=3x+1; C y=5.",
+      "answer": "B",
+      "solution": "The slope in y=mx+b is m. Only option B has m>0."
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "prompt": "For x=1,2,3,4 and y=2,5,7,9, which pattern best describes the data? A increasing; B decreasing; C no trend.",
+      "answer": "A",
+      "solution": "The y-values rise as x rises; the points show a positive trend despite unequal changes."
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "prompt": "A study finds that shoe size and reading ability rise together among children. What is justified? A shoe size causes reading ability; B reading ability causes shoe growth; C association does not prove causation.",
+      "answer": "C",
+      "solution": "Both can increase with age; an observed association alone cannot establish a causal link."
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "prompt": "Points (1,2),(2,4),(3,6),(4,8),(5,0) mostly form an upward trend except one. Which is the outlier? A (2,4); B (5,0); C (4,8).",
+      "answer": "B",
+      "solution": "The first four points follow y=2x; (5,0) is far below the expected y=10."
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "prompt": "A positive trend model is y=2x+3. Predict y when x=7 (enter a number).",
+      "answer": "17",
+      "solution": "Substitute x=7: y=2(7)+3=17."
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "prompt": "Which data set shows a stronger positive linear pattern? A (1,2),(2,4),(3,6),(4,8); B (1,2),(2,8),(3,3),(4,7); C (1,8),(2,6),(3,4),(4,2).",
+      "answer": "A",
+      "solution": "A lies exactly on a rising line; B has more scatter, and C is a negative trend."
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "prompt": "In a scatterplot with x=hours practiced and y=performance, points rise left to right. What does that mean? A greater hours tend to accompany greater performance; B more hours cause lower performance; C no relationship.",
+      "answer": "A",
+      "solution": "Upward scatter means larger x-values tend to pair with larger y-values."
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "prompt": "A line of best fit passes through (2,5) and (6,13). Find its slope (enter a number).",
+      "answer": "2",
+      "solution": "Slope=(13−5)/(6−2)=8/4=2, a positive slope."
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "prompt": "Which correlation coefficient represents a strong positive linear association? A −0.91; B +0.83; C +0.05.",
+      "answer": "B",
+      "solution": "A strong positive correlation has r close to +1. +0.83 is the best choice."
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "prompt": "Which coefficient indicates a positive association? A −0.90; B +0.40; C −0.10.",
+      "answer": "B",
+      "solution": "Only +0.40 is positive; a positive r indicates an upward linear tendency."
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "prompt": "A line of best fit predicts y=14 at x=5, but the observed y is 16. Find the residual observed minus predicted.",
+      "answer": "2",
+      "solution": "Residual = observed − predicted = 16−14=2."
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "prompt": "For a model y=1.5x+4, x increases by 6. How much does the predicted y increase?",
+      "answer": "9",
+      "solution": "Change in predicted y = slope×change in x = 1.5×6=9."
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "prompt": "The ordered points (1,3),(2,5),(3,k) have strictly increasing y-values and k is an integer. What is the smallest possible k?",
+      "answer": "6",
+      "solution": "Strict increase requires k>5. The smallest integer greater than 5 is 6."
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "prompt": "Points (1,2),(2,4),(3,6),(4,8),(5,−20) include an extreme outlier. Removing (5,−20) makes the remaining pattern: A more strongly positive; B more strongly negative; C unrelated.",
+      "answer": "A",
+      "solution": "The remaining four points lie exactly on y=2x, a perfect positive linear pattern."
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "difficulty": "Easy",
+      "prompt": "A scatterplot rises from left to right. Choose: A positive, B negative, C none.",
+      "answer": "A",
+      "solution": "A rising pattern indicates positive association."
+    },
+    {
+      "index": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "Which model has positive association? A y=−4x+1; B y=0.5x+2; C y=7.",
+      "answer": "B",
+      "solution": "Only option B has positive slope 0.5."
+    },
+    {
+      "index": 3,
+      "difficulty": "Medium",
+      "prompt": "A trend line passes through (1,4) and (5,12). Find the slope.",
+      "answer": "2",
+      "solution": "(12−4)/(5−1)=8/4=2."
+    },
+    {
+      "index": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "Which correlation is strongest and positive? A +0.91; B −0.98; C +0.32.",
+      "answer": "A",
+      "solution": "Among positive correlations, +0.91 is closer to +1."
+    },
+    {
+      "index": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "A model y=3x+2 predicts y=20 at x=6. The observed y is 17. Find the residual observed minus predicted.",
+      "answer": "-3",
+      "solution": "Predicted 3(6)+2=20; residual=17−20=−3."
+    }
+  ],
+  "graph": {
+    "bounds": {
+      "xMin": 0,
+      "xMax": 6,
+      "yMin": 0,
+      "yMax": 13
+    },
+    "lines": [
+      {
+        "m": 2,
+        "b": 1,
+        "qaX": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "points": [
+      {
+        "x": 1,
+        "y": 3,
+        "line": 0,
+        "label": "(1,3)"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "line": 0,
+        "label": "(2,5)"
+      },
+      {
+        "x": 3,
+        "y": 7,
+        "line": 0,
+        "label": "(3,7)"
+      },
+      {
+        "x": 4,
+        "y": 9,
+        "line": 0,
+        "label": "(4,9)"
+      },
+      {
+        "x": 5,
+        "y": 11,
+        "line": 0,
+        "label": "(5,11)"
+      }
+    ],
+    "caption": "Exact increasing scatterplot y=2x+1. Each point is verified by substitution.",
+    "ariaLabel": "Scatterplot of positive association with five increasing points and a positive trend line"
+  }
+}
