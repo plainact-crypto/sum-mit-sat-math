@@ -1,0 +1,7 @@
+const fs=require('fs'),path=require('path'),data=require('./lesson130-data.json');
+const base=data.base;
+const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const code=s=>'<code>'+esc(s)+'</code>';
+const sec=(k,b)=>'<section class="lesson-section"><span class="section-kicker">'+k+'</span>'+b+'</section>';
+function write(route,body){const nav=['explanation','problems','answers','test','video/english','video/arabic'].map(r=>'<a style="margin-right:1rem" href="/'+base+'/'+r+'/">'+r+'</a>').join('');const html='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/styles.css"><title>'+data.lesson+' — '+route+' | SUMMIT</title><style>.summit-q{padding:1rem;margin:1rem 0;border:1px solid #bac4d5;border-radius:12px}.summit-q button{margin:.3rem;padding:.6rem}.summit-q label{display:block;margin:.5rem}</style></head><body><header class="topbar"><a class="brand" href="/">SUMMIT SAT MATH</a><nav><a href="/">Home</a></nav></header><main class="page-shell"><section class="lesson-card"><div class="crumb">Advanced Math · Rational Expressions</div><div class="page-type">'+route+'</div><div class="lesson-title">'+data.lesson+'</div><article class="lesson-content">'+body+'</article><nav>'+nav+'</nav></section></main></body></html>';const file=path.join(__dirname,'dist',base,route,'index.html');fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,html)}
+module.exports={data,base,esc,code,sec,write};
