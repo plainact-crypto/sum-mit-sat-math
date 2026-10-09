@@ -1,0 +1,11 @@
+{
+  "lesson": 175,
+  "slug": "percent-increase",
+  "state": "BLOCKED_PRODUCTION_WRITE",
+  "core_nonvideo": "present on branch, not deployed",
+  "video": "MP4 asset not present; browser-video completion attempted",
+  "blocker": "GitHub update_file safety checks rejected both math-data revision and video builder update on 2026-10-09",
+  "production": false,
+  "broadcast": "NOT_SENT",
+  "next_action": "Resume only when writes are accepted; prioritize next owned incomplete lesson."
+}
