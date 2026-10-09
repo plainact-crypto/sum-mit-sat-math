@@ -1,0 +1,37 @@
+{
+  "lesson_index": 195,
+  "slug": "positive-association",
+  "status": "PREVIEW_BUILDING",
+  "worker": "worker5",
+  "package": {
+    "explanation_sections": 16,
+    "practice": 18,
+    "groups": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "solutions": 18,
+    "test": 5,
+    "video_routes": [
+      "english",
+      "arabic"
+    ],
+    "graph_classification": "GRAPH"
+  },
+  "qa": {
+    "builder_syntax": "4/4 PASS",
+    "graph_substitution": "5/5 PASS",
+    "practice_count": "18/18",
+    "solution_alignment": "18/18",
+    "test_count": "5/5",
+    "test_distinct_from_practice": true
+  },
+  "broadcast": {
+    "status": "PENDING_PRODUCTION",
+    "deployed_commit": null,
+    "recipients_sent": 0
+  },
+  "short_form_videos": 0
+}
