@@ -1,7 +1,7 @@
 {
   "lesson_index": 190,
   "title": "Interquartile Range",
-  "base": "problem-solving-and-data-analysis/one-variable-data/interquartile-range",
+  "base": "problem-solving-and-data-analysis/measures-of-spread/interquartile-range",
   "classification": "NEITHER",
   "quartile_convention": "median-of-halves excluding central value for odd n",
   "practice": [
