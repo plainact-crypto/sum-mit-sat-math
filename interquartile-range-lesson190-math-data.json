@@ -1,0 +1,284 @@
+{
+  "lesson_index": 190,
+  "title": "Interquartile Range",
+  "base": "problem-solving-and-data-analysis/one-variable-data/interquartile-range",
+  "classification": "NEITHER",
+  "quartile_convention": "median-of-halves excluding central value for odd n",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "prompt": "Find the interquartile range of 2, 4, 6, 8.",
+      "answer": 4,
+      "solution": "Lower half 2,4 gives Q1=(2+4)/2=3; upper half 6,8 gives Q3=(6+8)/2=7; IQR=7−3=4.",
+      "dataset": [
+        2,
+        4,
+        6,
+        8
+      ]
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "prompt": "Find the IQR of 1, 3, 5, 7, 9.",
+      "answer": 6,
+      "solution": "The middle 5 is excluded. Q1=(1+3)/2=2 and Q3=(7+9)/2=8; IQR=8−2=6.",
+      "dataset": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "prompt": "Find the IQR of 4, 6, 8, 10, 12, 14.",
+      "answer": 6,
+      "solution": "The lower half 4,6,8 has median 6; the upper half 10,12,14 has median 12; IQR=12−6=6.",
+      "dataset": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ]
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "prompt": "The values are 12, 3, 9, 15, 6. Sort them, then find the IQR.",
+      "answer": 9,
+      "solution": "Sorted: 3,6,9,12,15. Exclude the middle 9. Q1=(3+6)/2=4.5; Q3=(12+15)/2=13.5; IQR=9.",
+      "dataset": [
+        12,
+        3,
+        9,
+        15,
+        6
+      ]
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "prompt": "Find the IQR of 5, 5, 7, 7, 9, 9, 11, 11.",
+      "answer": 4,
+      "solution": "Q1 is the median of 5,5,7,7: 6. Q3 is the median of 9,9,11,11: 10. IQR=10−6=4.",
+      "dataset": [
+        5,
+        5,
+        7,
+        7,
+        9,
+        9,
+        11,
+        11
+      ]
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "prompt": "Find the IQR of 2, 4, 4, 6, 8, 10, 10.",
+      "answer": 6,
+      "solution": "Exclude middle 6. Lower half 2,4,4 has median 4; upper half 8,10,10 has median 10; IQR=6.",
+      "dataset": [
+        2,
+        4,
+        4,
+        6,
+        8,
+        10,
+        10
+      ]
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "prompt": "A box plot has Q1=14 and Q3=29. What is its IQR?",
+      "answer": 15,
+      "solution": "IQR=Q3−Q1=29−14=15.",
+      "dataset": null
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "prompt": "Data A: 2,3,5,6,7,8,9,11. Data B: 1,2,4,5,6,8,11,14. By how many units does B's IQR exceed A's?",
+      "answer": 2,
+      "solution": "A: Q1=(3+5)/2=4, Q3=(8+9)/2=8.5, IQR=4.5. B: Q1=(2+4)/2=3, Q3=(8+11)/2=9.5, IQR=6.5. Difference=2.",
+      "dataset": null
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "prompt": "Find the IQR of 10,12,13,15,17,18,20,21,23.",
+      "answer": 8,
+      "solution": "Exclude the median 17. Lower half 10,12,13,15 gives Q1=12.5; upper half 18,20,21,23 gives Q3=20.5; IQR=8.",
+      "dataset": [
+        10,
+        12,
+        13,
+        15,
+        17,
+        18,
+        20,
+        21,
+        23
+      ]
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "prompt": "Every value in 3,5,7,9,11,13 is increased by 5. What is the NEW IQR?",
+      "answer": 6,
+      "solution": "Original Q1=5 and Q3=11, so IQR=6. Adding 5 to every value changes both quartiles by 5; the difference remains 6.",
+      "dataset": null
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "prompt": "Every value in 1,2,3,4,5,6,7,8 is multiplied by 3. What is the NEW IQR?",
+      "answer": 12,
+      "solution": "Original Q1=(2+3)/2=2.5 and Q3=(6+7)/2=6.5, so IQR=4. Multiplying all values by 3 triples the IQR to 12.",
+      "dataset": null
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "prompt": "The first quartile of a distribution is 18 and the IQR is 11. Find the third quartile.",
+      "answer": 29,
+      "solution": "Q3=Q1+IQR=18+11=29.",
+      "dataset": null
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "prompt": "Five-number summary: minimum 2, Q1=7, median 11, Q3=18, maximum 29. Find the IQR.",
+      "answer": 11,
+      "solution": "IQR=18−7=11. The range 29−2=27 is a different statistic.",
+      "dataset": null
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "prompt": "A frequency table has values 1,2,3,4,5, each occurring exactly twice. Find the IQR.",
+      "answer": 2,
+      "solution": "The sorted ten observations are 1,1,2,2,3,3,4,4,5,5. Lower five have median 2; upper five have median 4; IQR=2.",
+      "dataset": null
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "prompt": "Find the IQR of 1,2,4,5,7,9,10,12,15,18,20.",
+      "answer": 11,
+      "solution": "There are 11 observations, so exclude middle 9. Lower five 1,2,4,5,7 have median 4; upper five 10,12,15,18,20 have median 15; IQR=11.",
+      "dataset": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10,
+        12,
+        15,
+        18,
+        20
+      ]
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "prompt": "In 1,2,3,4,5,6,7,8, replace the largest value 8 with 100. What is the new IQR?",
+      "answer": 4,
+      "solution": "The sorted halves are 1,2,3,4 and 5,6,7,100. Q1=(2+3)/2=2.5, Q3=(6+7)/2=6.5, so IQR=4. The extreme value does not change the middle-half spread.",
+      "dataset": null
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "prompt": "The sorted values are 2,4,6,8,10,x,14,16 with 10≤x≤14. If IQR=8, find x.",
+      "answer": 12,
+      "solution": "Q1=(4+6)/2=5. Q3=(x+14)/2. Solve (x+14)/2−5=8: x+14=26, so x=12. It satisfies 10≤x≤14.",
+      "dataset": null
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "prompt": "For 2,4,6,8,10,12,14,16,40, find the UPPER outlier fence using Q3+1.5×IQR.",
+      "answer": 30,
+      "solution": "Exclude median 10. Lower half 2,4,6,8 gives Q1=5; upper half 12,14,16,40 gives Q3=15; IQR=10. Upper fence=15+1.5(10)=30; therefore 40 is above the fence and is an outlier.",
+      "dataset": null
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "difficulty": "Easy",
+      "prompt": "Find the IQR of 3,5,7,9.",
+      "answer": 4,
+      "solution": "Q1=4, Q3=8, IQR=4.",
+      "dataset": [
+        3,
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "index": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "Find the IQR of 2,4,6,8,10,12,14.",
+      "answer": 8,
+      "solution": "Exclude middle 8; Q1=4, Q3=12, IQR=8.",
+      "dataset": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ]
+    },
+    {
+      "index": 3,
+      "difficulty": "Medium",
+      "prompt": "A box plot shows Q1=16 and Q3=27. Find the IQR.",
+      "answer": 11,
+      "solution": "Subtract: 27−16=11.",
+      "dataset": null
+    },
+    {
+      "index": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "Each value of 1,3,5,7,9,11,13,15 is doubled. Find the new IQR.",
+      "answer": 16,
+      "solution": "Original Q1=(3+5)/2=4, Q3=(11+13)/2=12, IQR=8. Doubling gives 16.",
+      "dataset": null
+    },
+    {
+      "index": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "The sorted data are 1,3,5,7,9,x,13,15 with 9≤x≤13. If IQR=8, find x.",
+      "answer": 11,
+      "solution": "Q1=(3+5)/2=4; Q3=(x+13)/2. (x+13)/2−4=8 implies x=11.",
+      "dataset": null
+    }
+  ],
+  "qa": {
+    "practice": 18,
+    "distribution": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answers": 18,
+    "test": 5,
+    "independently_computed_dataset_checks": 10,
+    "passed": true
+  }
+}
