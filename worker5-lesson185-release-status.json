@@ -1,0 +1,23 @@
+{
+  "index": 185,
+  "title": "Mean",
+  "base": "problem-solving-and-data-analysis/one-variable-data/mean",
+  "classification": "NEITHER",
+  "practiceCount": 18,
+  "practiceGroups": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "solutionCount": 18,
+  "testCount": 5,
+  "videoRoutes": [
+    "video/english",
+    "video/arabic"
+  ],
+  "mathQA": "23/23 PASS",
+  "browserQA": "PASS using Chromium set_content",
+  "localArtifact": "SUMMIT_WORKER5_LESSON185_FULL_RELEASE_20261009.zip",
+  "production": false
+}
