@@ -1,0 +1,164 @@
+{
+  "lesson_index": 225,
+  "lesson": "Vertical Angles",
+  "branch": "automation/worker5-lesson225-vertical-angles-20261010-0218",
+  "checked_at": "2026-10-10T02:18:00+03:00",
+  "qa_status": "PASS",
+  "checks_total": 37,
+  "checks_passed": 37,
+  "checks": [
+    {
+      "check": "Canonical metadata",
+      "pass": true
+    },
+    {
+      "check": "Explanation sections",
+      "pass": true
+    },
+    {
+      "check": "Practice count",
+      "pass": true
+    },
+    {
+      "check": "Practice groups 3/8/5/2",
+      "pass": true
+    },
+    {
+      "check": "Solutions 1:1 and explanatory",
+      "pass": true
+    },
+    {
+      "check": "Test count",
+      "pass": true
+    },
+    {
+      "check": "Original questions",
+      "pass": true
+    },
+    {
+      "check": "Distinct options",
+      "pass": true
+    },
+    {
+      "check": "Deterministic geometry",
+      "pass": true
+    },
+    {
+      "check": "Practice 1 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Practice 2 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Practice 3 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Practice 4 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Practice 5 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Practice 6 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Practice 7 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Practice 8 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Practice 9 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Practice 10 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Practice 11 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Practice 12 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Practice 13 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Practice 14 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Practice 15 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Practice 16 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Practice 17 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Practice 18 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Test 1 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Test 2 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Test 3 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Test 4 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Test 5 arithmetic",
+      "pass": true
+    },
+    {
+      "check": "Arabic scenes",
+      "pass": true
+    },
+    {
+      "check": "Six routes builder",
+      "pass": true
+    },
+    {
+      "check": "Correct module import",
+      "pass": true
+    },
+    {
+      "check": "Canonical lesson index",
+      "pass": true
+    },
+    {
+      "check": "No social short code",
+      "pass": true
+    }
+  ],
+  "limitations": [
+    "Not wired into production-build.js or deployed",
+    "No live/browser QA performed",
+    "Arabic route currently placeholder; authored 16 Arabic narration scenes not yet wired"
+  ]
+}
