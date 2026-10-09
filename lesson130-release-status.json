@@ -1,0 +1,29 @@
+{
+  "lesson_index": 130,
+  "slug": "multiplying-rational-expressions",
+  "owner": "worker5",
+  "status": "CORE_CONTENT_PREVIEW_READY_PRODUCTION_BLOCKED",
+  "preview_commit": "9d729e53daafdc973360d5a805a7eba7c2db8b09",
+  "preview_deployment": "dpl_3T4fGUsVCH4LF2noN4Eg9mcQnunf",
+  "preview_state": "READY",
+  "math_qa": "23 symbolic identities PASS",
+  "practice": {
+    "skill_check": 3,
+    "core_practice": 8,
+    "exam_style": 5,
+    "challenge": 2
+  },
+  "solutions": 18,
+  "test": 5,
+  "video_routes": [
+    "video/english",
+    "video/arabic"
+  ],
+  "full_mp4": "local release candidate only; not uploaded to repo",
+  "production": "PENDING: main fast-forward blocked by safety checks",
+  "broadcast": {
+    "status": "NOT_SENT",
+    "reason": "production not deployed"
+  },
+  "short_form_video_count": 0
+}
