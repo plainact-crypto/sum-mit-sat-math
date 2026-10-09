@@ -1,0 +1,66 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Identify and interpret positive association in scatterplots, tables, and real-world contexts; use positive-slope trend lines to predict."
+  ],
+  [
+    "CORE IDEA",
+    "Positive association means that as one variable increases, the other tends to increase. The points generally rise from left to right."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Scatterplot: points showing paired numerical data. Association: a pattern between variables. Line of best fit: a line approximating a trend. Correlation r: a number from −1 to +1 describing linear direction and strength."
+  ],
+  [
+    "CORE RULE",
+    "An upward pattern has positive association. A positive-slope line has m>0. For a linear trend, +r indicates positive direction, and r near +1 indicates a strong positive pattern."
+  ],
+  [
+    "HOW IT WORKS",
+    "1. Read x and y labels. 2. Scan points from left to right. 3. Check whether y generally rises. 4. Assess scatter and outliers. 5. Use a best-fit line for approximate predictions."
+  ],
+  [
+    "WORKED EXAMPLE 1 — EXACT PATTERN",
+    "Points (1,3),(2,5),(3,7),(4,9),(5,11) follow y=2x+1. The positive slope 2 gives a perfect increasing pattern."
+  ],
+  [
+    "WORKED EXAMPLE 2 — NOISY TREND",
+    "Paired values (1,2),(2,5),(3,4),(4,8) still show an overall upward tendency, even though y does not increase at every single step."
+  ],
+  [
+    "WORKED EXAMPLE 3 — LINE OF FIT",
+    "A line through (2,5) and (6,13) has slope (13−5)/(6−2)=2. A positive slope confirms upward association; the model rises by 2 y-units per x-unit."
+  ],
+  [
+    "WORKED EXAMPLE 4 — PREDICTION",
+    "If the trend line is y=2x+3, at x=7 it predicts y=2(7)+3=17. A prediction is approximate when the data are scattered."
+  ],
+  [
+    "WORKED EXAMPLE 5 — RESIDUAL",
+    "If a model predicts 14 but an observation is 16, the residual is observed−predicted=16−14=2. Residuals measure deviation from the trend line."
+  ],
+  [
+    "VERIFIED SCATTERPLOT",
+    "The five plotted points (1,3),(2,5),(3,7),(4,9),(5,11) satisfy y=2x+1 exactly. The upward line is deterministic and checked by substitution."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Positive association does not require every pair to rise. A single outlier can distort the pattern. Positive association does not prove that one variable causes the other."
+  ],
+  [
+    "EXAM STRATEGY",
+    "Check the overall direction before estimating strength. Read a line's slope for rate of change; calculate residual as observed minus predicted. Avoid extrapolating far beyond the data."
+  ],
+  [
+    "QUICK CHECK",
+    "If r=+0.83, the linear association is strong and positive. If a trend line has slope −2, the association is negative. For y=3x+1, a 2-unit x increase predicts a 6-unit y increase."
+  ],
+  [
+    "LESSON RECAP",
+    "Upward trend = positive association. Positive slope and positive r support that conclusion. Association is not causation."
+  ],
+  [
+    "NEXT STEP",
+    "Complete 18 Practice Problems, read 18 aligned Answers, and submit the five-question Lesson Test."
+  ]
+]
