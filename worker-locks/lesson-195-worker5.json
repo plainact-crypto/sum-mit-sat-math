@@ -2,6 +2,8 @@
   "lesson_index": 195,
   "slug": "positive-association",
   "worker": "worker5",
-  "status": "IN_PROGRESS",
-  "started_at": "2026-10-10T00:45:00+03:00"
+  "status": "BLOCKED_MAIN_MERGE",
+  "started_at": "2026-10-10T00:45:00+03:00",
+  "reason": "Core package and Preview READY; GitHub PR/main update blocked by safety checks.",
+  "broadcast": "PENDING_PRODUCTION"
 }
