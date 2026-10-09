@@ -1,0 +1,178 @@
+{
+  "index": 185,
+  "title": "Mean",
+  "base": "problem-solving-and-data-analysis/one-variable-data/mean",
+  "classification": "NEITHER",
+  "practice": [
+    {
+      "group": "Skill Check",
+      "question": "Find the mean of 4, 6, and 8.",
+      "answer": "6",
+      "solution": "Add 4+6+8=18, then divide by 3: 18/3=6."
+    },
+    {
+      "group": "Skill Check",
+      "question": "Find the mean of 10, 12, 14, and 16.",
+      "answer": "13",
+      "solution": "The sum is 52. Divide by four values: 52/4=13."
+    },
+    {
+      "group": "Skill Check",
+      "question": "Five numbers have a total of 85. What is their mean?",
+      "answer": "17",
+      "solution": "Mean = total ÷ count = 85/5=17."
+    },
+    {
+      "group": "Core Practice",
+      "question": "Find the mean of 7, 9, 12, and 16.",
+      "answer": "11",
+      "solution": "7+9+12+16=44; 44/4=11."
+    },
+    {
+      "group": "Core Practice",
+      "question": "The five scores are 80, 90, 75, 85, and 95. Find the mean score.",
+      "answer": "85",
+      "solution": "The sum is 425. Divide by 5 to obtain 85."
+    },
+    {
+      "group": "Core Practice",
+      "question": "Four numbers have mean 12. Three are 9, 13, and 14. Find the fourth.",
+      "answer": "12",
+      "solution": "The required total is 4×12=48. The known total is 36, so the missing number is 48−36=12."
+    },
+    {
+      "group": "Core Practice",
+      "question": "Find the mean of 2, 3, 3, 4, 5, and 7.",
+      "answer": "4",
+      "solution": "The sum is 24 over six observations: 24/6=4."
+    },
+    {
+      "group": "Core Practice",
+      "question": "Values 1, 2, and 3 occur 2, 3, and 5 times respectively. Find the mean.",
+      "answer": "2.3",
+      "solution": "Weighted sum = 1×2+2×3+3×5=23. Total frequency=10. Mean=23/10=2.3."
+    },
+    {
+      "group": "Core Practice",
+      "question": "Eight students average 12 points and twelve students average 17 points. Find the combined mean.",
+      "answer": "15",
+      "solution": "Combined total=8×12+12×17=300, and combined count=20. Mean=300/20=15."
+    },
+    {
+      "group": "Core Practice",
+      "question": "Five measurements have mean 18. A sixth measurement of 30 is added. Find the new mean.",
+      "answer": "20",
+      "solution": "The original total is 5×18=90. Add 30 and divide by 6: 120/6=20."
+    },
+    {
+      "group": "Core Practice",
+      "question": "Five numbers have mean 10. Four numbers are 4, 8, 10, and 14. Find the fifth.",
+      "answer": "14",
+      "solution": "The target sum is 5×10=50. The known sum is 36. The missing value is 14."
+    },
+    {
+      "group": "Exam-Style",
+      "question": "A player scores 12, 18, 15, 20, 10, and 21 points in six games. What is the mean?",
+      "answer": "16",
+      "solution": "The total is 96 across six games, so the mean is 96/6=16."
+    },
+    {
+      "group": "Exam-Style",
+      "question": "Four measurements have mean 14. One value of 10 is replaced by 22. Find the new mean.",
+      "answer": "17",
+      "solution": "The old sum is 4×14=56. Replacing 10 with 22 adds 12, giving 68. Divide by 4: 17."
+    },
+    {
+      "group": "Exam-Style",
+      "question": "Twenty tickets cost an average of $15 each, and five more cost an average of $25 each. What is the mean cost of all 25 tickets?",
+      "answer": "17",
+      "solution": "The combined cost is 20×15+5×25=425. Divide by 25 tickets to get $17."
+    },
+    {
+      "group": "Exam-Style",
+      "question": "Values 5, 10, and 15 have frequencies 2, 3, and 5. Find the mean.",
+      "answer": "11.5",
+      "solution": "Weighted sum = 5×2+10×3+15×5=115. Total count=10, so mean=11.5."
+    },
+    {
+      "group": "Exam-Style",
+      "question": "A group of 30 scores has mean 70. Ten scores with mean 64 are removed. Find the mean of the remaining 20 scores.",
+      "answer": "73",
+      "solution": "Original total=30×70=2100. Removed total=10×64=640. Remaining total=1460 for 20 scores, so mean=73."
+    },
+    {
+      "group": "Challenge",
+      "question": "A set of n values has mean 12. Adding a value of 30 raises the mean to 15. Find n.",
+      "answer": "5",
+      "solution": "Let the old sum be 12n. Then (12n+30)/(n+1)=15, so 12n+30=15n+15; 3n=15 and n=5."
+    },
+    {
+      "group": "Challenge",
+      "question": "Group A has 12 students with mean 75. Group B has x students with mean 90. The combined mean is 81. Find x.",
+      "answer": "8",
+      "solution": "Set (12×75+90x)/(12+x)=81. Then 900+90x=972+81x, so 9x=72 and x=8."
+    }
+  ],
+  "test": [
+    {
+      "difficulty": "Easy",
+      "question": "Find the mean of 5, 7, and 9.",
+      "answer": "7",
+      "solution": "(5+7+9)/3=7.",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "21"
+      ]
+    },
+    {
+      "difficulty": "Easy / Medium",
+      "question": "Five values have a total of 125. What is their mean?",
+      "answer": "25",
+      "solution": "125/5=25.",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "120"
+      ]
+    },
+    {
+      "difficulty": "Medium",
+      "question": "Four values have mean 15. Three are 10, 12, and 18. Find the fourth.",
+      "answer": "20",
+      "solution": "The total must be 60; the known values sum to 40, so the fourth is 20.",
+      "options": [
+        "18",
+        "20",
+        "15",
+        "25"
+      ]
+    },
+    {
+      "difficulty": "Medium / Hard",
+      "question": "Values 2, 4, and 6 have frequencies 1, 3, and 2. Find the mean.",
+      "answer": "13/3",
+      "solution": "Weighted sum=2+12+12=26; total frequency=6; mean=26/6=13/3.",
+      "options": [
+        "4",
+        "13/3",
+        "5",
+        "26/3"
+      ]
+    },
+    {
+      "difficulty": "Hard / Exam-Style",
+      "question": "Eighteen scores have mean 72. Six more scores have mean 88. Find the combined mean of all 24 scores.",
+      "answer": "76",
+      "solution": "Total=18×72+6×88=1824; 1824/24=76.",
+      "options": [
+        "74",
+        "78",
+        "76",
+        "80"
+      ]
+    }
+  ]
+}
