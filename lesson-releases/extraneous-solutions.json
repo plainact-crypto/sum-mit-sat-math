@@ -1,0 +1,15 @@
+{
+  "lesson": "extraneous-solutions",
+  "builders": [
+    "extraneous-solutions-content-build.js",
+    "extraneous-solutions-lesson122-release-build.js"
+  ],
+  "routes": [
+    "/advanced-math/nonlinear-equations-and-functions/extraneous-solutions/explanation/",
+    "/advanced-math/nonlinear-equations-and-functions/extraneous-solutions/problems/",
+    "/advanced-math/nonlinear-equations-and-functions/extraneous-solutions/answers/",
+    "/advanced-math/nonlinear-equations-and-functions/extraneous-solutions/test/",
+    "/advanced-math/nonlinear-equations-and-functions/extraneous-solutions/video/english/",
+    "/advanced-math/nonlinear-equations-and-functions/extraneous-solutions/video/arabic/"
+  ]
+}
