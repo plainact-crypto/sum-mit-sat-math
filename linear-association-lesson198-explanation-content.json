@@ -1,0 +1,70 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Describe linear association in paired data by direction and strength; use a trend line for predictions, residuals, and model comparisons without confusing correlation with causation."
+  ],
+  [
+    "CORE IDEA",
+    "A scatterplot places each observation at its coordinate (x,y). An upward-sloping cluster suggests positive association, a downward-sloping cluster negative association, and a cloud with no straight-line pattern little or no linear association."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Direction describes whether y tends to rise or fall as x rises. Strength describes how tightly points cluster around a line. Correlation r ranges from -1 to +1. An outlier is unusually far from the pattern. A residual is observed y minus predicted y."
+  ],
+  [
+    "CORE RULE",
+    "For y = mx+b, m is change in y divided by change in x, and predicted y = mx+b. Residual = observed - predicted. Strength is compared by |r|. For the same data, a smaller sum of squared residuals indicates a better fit by that criterion."
+  ],
+  [
+    "HOW IT WORKS",
+    "Read the axes, assess direction, check how tightly points follow a line, and identify any outlier. Substitute x into a given trend line to predict y; subtract predicted from observed for the residual. Distinguish interpolation from extrapolation."
+  ],
+  [
+    "WORKED EXAMPLE 1 — DIRECTION",
+    "The pairs (1,2),(2,4),(3,6),(4,8),(5,10) satisfy y=2x, giving a positive trend. The pairs (1,10),(2,8),(3,6),(4,4),(5,2) satisfy y=12-2x, giving a negative trend. Substituting x=1,3,5 gives y=2,6,10 in the first line and 10,6,2 in the second."
+  ],
+  [
+    "WORKED EXAMPLE 2 — STRENGTH",
+    "Compare r=-0.92 with r=+0.48. Their absolute values are 0.92 and 0.48, so the negative association is stronger. A negative sign indicates direction, not weakness."
+  ],
+  [
+    "WORKED EXAMPLE 3 — PREDICTION",
+    "For y=3x+2, at x=8 the predicted y=3(8)+2=26. If x=8 is inside the observed range, this is interpolation; outside, it is extrapolation and is generally less reliable."
+  ],
+  [
+    "WORKED EXAMPLE 4 — RESIDUAL",
+    "For y=2x+1 at x=6, predicted y=13. If observed y=15, residual=15-13=+2, so the point lies above the line. If observed y=10, residual=10-13=-3, below the line."
+  ],
+  [
+    "WORKED EXAMPLE 5 — BETTER FIT",
+    "For points (1,3),(2,5),(3,8), line A y=2x+1 predicts 3,5,7 and has squared residual sum 0+0+1=1. Line B y=x+3 predicts 4,5,6 and has squared residual sum 1+0+4=5. Model A has smaller squared error."
+  ],
+  [
+    "GRAPH / VISUAL BLOCK",
+    "The graphs below are plotted from exact coordinate pairs and mathematically checked lines. A flat fitted line for a scattered set means no linear trend; it does not exclude nonlinear structure."
+  ],
+  [
+    "DESMOS STRATEGY",
+    "Enter: Create a table with x1 values 1,2,3,4,5 and y1 values 2,4,6,8,10; enter y1 ~ m x1 + b (use Desmos table subscripts). Look for: slope m=2 and intercept b=0. Use it to answer: confirm strong positive linear association. Why it works: all residuals for y=2x are zero. Faster or not? Direct slope is faster for a tiny exact dataset; Desmos helps with larger scatterplots. Independent check: (4-2)/(2-1)=2 and y=2x fits x=1,3,5 exactly."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not treat negative r as weak. r=0 means no linear correlation, not necessarily no nonlinear relation. Residual is observed minus predicted, not the reverse. A trend does not prove causation. Outliers can shift fitted lines."
+  ],
+  [
+    "EXAM STRATEGY",
+    "Read the direction from left to right. For strength compare |r| or scatter about the line. Substitute into a trend equation before computing a residual. Check whether a requested x is outside the observed range."
+  ],
+  [
+    "QUICK CHECK",
+    "If r=-0.85, the direction is negative and the association is fairly strong. If predicted y=12 and observed y=9, the residual is -3. Does a positive association prove causation? No. Predicting at x=9 when data cover x=1 to 6 is extrapolation."
+  ],
+  [
+    "LESSON RECAP",
+    "Positive means y tends to rise with x; negative means y tends to fall. Strength depends on closeness to a line and |r|. A trend line estimates y, and residual is observed minus predicted. Beware outliers and extrapolation."
+  ],
+  [
+    "NEXT STEP",
+    "Complete 18 Practice Problems in the required 3/8/5/2 progression, compare with 18 worked Answers & Solutions, and submit the five-question Lesson Test. English and Arabic full-lesson presentations are available."
+  ]
+]
