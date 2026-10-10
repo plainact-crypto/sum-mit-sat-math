@@ -1,6 +1,6 @@
 const fs=require('fs'),path=require('path');const dist=path.join(__dirname,'dist'),lesson='Coefficient–Root Relations';
 function walk(d,o=[]){for(const e of fs.readdirSync(d,{withFileTypes:true})){const p=path.join(d,e.name);if(e.isDirectory())walk(p,o);else if(e.name==='index.html')o.push(p)}return o}
-let hit=walk(dist).find(f=>{const h=fs.readFileSync(f,'utf8');return (h.includes('Coefficient–Root Relations')||h.includes('Coefficient-Root Relations'))&&h.includes('Explanation')});if(!hit)throw Error('Canonical Coefficient–Root Relations route not found');const lessonDir=path.dirname(path.dirname(hit)),base='/'+path.relative(dist,lessonDir).replace(/\\/g,'/')+'/';
+const base='/advanced-math/quadratic-equations/coefficient-root-relations/';const lessonDir=path.join(dist,base);fs.mkdirSync(lessonDir,{recursive:true});
 const P=[
 ['Skill Check','For x² − 9x + 14 = 0, find the sum of the roots.','9','For ax²+bx+c=0, sum = −b/a = −(−9)/1 = 9.'],
 ['Skill Check','For x² − 9x + 14 = 0, find the product of the roots.','14','Product = c/a = 14/1 = 14.'],
