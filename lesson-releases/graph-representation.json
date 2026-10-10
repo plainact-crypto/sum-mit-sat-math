@@ -1,0 +1,14 @@
+{
+  "lesson": "graph-representation",
+  "builders": [
+    "graph-representation-lesson152-build.js"
+  ],
+  "routes": [
+    "/advanced-math/nonlinear-functions/graph-representation/explanation/",
+    "/advanced-math/nonlinear-functions/graph-representation/problems/",
+    "/advanced-math/nonlinear-functions/graph-representation/answers/",
+    "/advanced-math/nonlinear-functions/graph-representation/test/",
+    "/advanced-math/nonlinear-functions/graph-representation/video/english/",
+    "/advanced-math/nonlinear-functions/graph-representation/video/arabic/"
+  ]
+}
