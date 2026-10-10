@@ -1,0 +1,1 @@
+[["COMMON MISTAKES","P(A|B) need not equal P(B|A). The denominator is the given event, not the entire population. Without replacement, the denominator changes."],["EXAM STRATEGY","Underline given. In a two-way table, identify the matching row or column total first. For reverse conditions, use the new denominator."]]
