@@ -88,6 +88,9 @@ require('./video-sum-of-roots-explainer.js');
 require('./axis-of-symmetry-content-build.js');
 require('./video-axis-of-symmetry-explainer.js');
 
+// Worker 5 Lesson 190 — generate complete IQR lesson after legacy content publication.
+for(const script of ['interquartile-range-lesson190-explanation-build.js','interquartile-range-lesson190-practice-build.js','interquartile-range-lesson190-test-build.js','interquartile-range-lesson190-video-build.js'])require('./'+script);
+
 console.log('[publish-existing-content] published '+copied.length+' existing page(s)');
 for(const x of copied) console.log('[publish-existing-content] '+x.route+' <- '+x.file);
 if(skipped.length){

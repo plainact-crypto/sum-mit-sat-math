@@ -1,0 +1,50 @@
+[
+  [
+    "What is the IQR?",
+    "The interquartile range equals Q3 minus Q1 and describes the spread of the middle fifty percent of sorted data."
+  ],
+  [
+    "Sort the observations",
+    "Always arrange data from least to greatest. Quartiles depend on position, not on the order values were written."
+  ],
+  [
+    "Split into halves",
+    "For an odd number of values, exclude the overall median from both halves. For an even number, split into equal halves."
+  ],
+  [
+    "Even-count example",
+    "Two, four, six, eight, ten, twelve, fourteen, sixteen. Q1 is five; Q3 is thirteen. The IQR is eight."
+  ],
+  [
+    "Odd-count example",
+    "One, three, five, seven, nine. Exclude five. Q1 is two, Q3 is eight, and the IQR is six."
+  ],
+  [
+    "Unsorted example",
+    "Sort twelve, three, nine, fifteen, six into three, six, nine, twelve, fifteen. The quartiles are four point five and thirteen point five."
+  ],
+  [
+    "Frequency table",
+    "Count repeated observations. If one through five each occur twice, Q1 is two and Q3 is four; IQR equals two."
+  ],
+  [
+    "Box plot",
+    "The box begins at Q1 and ends at Q3. Its numerical width is the interquartile range."
+  ],
+  [
+    "Transformation rule",
+    "Adding a constant shifts both quartiles equally, so the IQR stays the same. Multiplying values by three triples it."
+  ],
+  [
+    "Outlier fences",
+    "The upper fence is Q3 plus one point five times IQR. Values beyond it may be outliers."
+  ],
+  [
+    "SAT strategy",
+    "When Q1 and Q3 are provided, subtract immediately. For raw values, sort, split, find both half-medians, then subtract."
+  ],
+  [
+    "Final recap",
+    "IQR equals Q3 minus Q1. It measures the middle-half spread, not maximum minus minimum. Now practice all eighteen questions."
+  ]
+]

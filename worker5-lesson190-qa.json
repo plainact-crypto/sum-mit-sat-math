@@ -1,0 +1,38 @@
+{
+  "lesson_index": 190,
+  "slug": "interquartile-range",
+  "date": "2026-10-10",
+  "worker": "worker5",
+  "package": {
+    "explanation_sections": 16,
+    "practice": 18,
+    "groups": {
+      "skill_check": 3,
+      "core_practice": 8,
+      "exam_style": 5,
+      "challenge": 2
+    },
+    "answers": 18,
+    "test": 5,
+    "video_routes": [
+      "english",
+      "arabic"
+    ]
+  },
+  "qa": {
+    "builder_syntax_pass": 4,
+    "independently_recomputed_datasets": 10,
+    "quartile_convention": "median of halves, exclude overall median when odd",
+    "cross_page_alignment": "18 questions map 1:1 to solutions; five distinct test questions",
+    "preview_deployment": "dpl_4oSvjgVK3hjpSFuCwPNMzFqWqVUe",
+    "preview_status": "READY",
+    "note": "Existing unrelated noncritical builders skipped by production-build; explanation-retrofit-build reports preexisting vertex-standard-form missing."
+  },
+  "broadcast": {
+    "status": "PENDING_PRODUCTION",
+    "slug": "interquartile-range",
+    "deployed_commit": null,
+    "recipients_sent": 0
+  },
+  "shorts_created": 0
+}

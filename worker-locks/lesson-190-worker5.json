@@ -1,0 +1,12 @@
+{
+  "lesson_index": 190,
+  "slug": "interquartile-range",
+  "worker": "worker5",
+  "status": "BLOCKED_MAIN_MERGE",
+  "started_at": "2026-10-10T00:18:00+03:00",
+  "base_sha": "3790c7da88d4062db1ba3bbf2d941788c85e5d43",
+  "scope": "curriculum lesson 190",
+  "reason": "Core package and Vercel Preview READY; GitHub PR creation and main fast-forward blocked by safety checks.",
+  "preview_sha": "e4f58d1660a0b52696aec9107921c3f6cbf6a39a",
+  "broadcast": "PENDING_PRODUCTION"
+}
