@@ -1,0 +1,32 @@
+[
+  [
+    "Easy",
+    "Solve |x - 9| = 4.",
+    "x = 5 or 13",
+    "Set x - 9 = 4 or -4, giving x = 13 or 5."
+  ],
+  [
+    "Easy / Medium",
+    "Solve |2x + 5| = 9.",
+    "x = -7 or 2",
+    "The branches 2x + 5 = 9 and 2x + 5 = -9 yield 2 and -7."
+  ],
+  [
+    "Medium",
+    "Solve |x - 3| = 2x.",
+    "x = 1",
+    "Require x >= 0. The two cases give x = -3 and x = 1; reject -3 because its right side is negative."
+  ],
+  [
+    "Medium / Hard",
+    "Solve |x + 2| + |x - 4| = 8.",
+    "x = -3 or 5",
+    "Between -2 and 4 the sum is 6. To the left it is 2 - 2x = 8, giving -3. To the right it is 2x - 2 = 8, giving 5."
+  ],
+  [
+    "Hard / Exam-Style",
+    "Solve |x - 2| + |x - 6| = |2x - 8| + 3.",
+    "x = 7/2 or 9/2",
+    "For 2 <= x <= 6 the left side is 4, so |2x - 8| = 1, giving 7/2 and 9/2. Outside this interval the right side exceeds the left by 3."
+  ]
+]
