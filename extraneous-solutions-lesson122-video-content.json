@@ -1,0 +1,126 @@
+{
+  "english": [
+    {
+      "title": "Learning objective",
+      "narration": "Understand extraneous solutions: algebraic candidates that fail the original equation. Always check candidates by substitution.",
+      "math": "candidate ≠ verified solution"
+    },
+    {
+      "title": "Why squaring can mislead",
+      "narration": "Squaring both sides preserves a true equality, but reversing that step can introduce false candidates. Three and negative three have the same square.",
+      "math": "3² = (−3)², but 3 ≠ −3"
+    },
+    {
+      "title": "Domain restrictions",
+      "narration": "Principal square roots are nonnegative, and denominators cannot equal zero. Write restrictions before solving.",
+      "math": "√(x + 5) ≥ 0; x − 3 ≠ 0"
+    },
+    {
+      "title": "Radical example",
+      "narration": "Solve square root of x plus five equals x minus one. Squaring produces x equals four or negative one. Only four passes the original equation.",
+      "math": "√(x + 5) = x − 1 ⇒ x = 4"
+    },
+    {
+      "title": "Sign example",
+      "narration": "Solve square root of x plus two equals negative x. Squaring gives two or negative one. Only negative one has a nonnegative right side and checks.",
+      "math": "√(x + 2) = −x ⇒ x = −1"
+    },
+    {
+      "title": "Rational restriction",
+      "narration": "Clearing the denominator of x plus two over x minus three equals five over x minus three gives x equals three. But that makes the denominator zero. There is no solution.",
+      "math": "(x + 2)/(x − 3) = 5/(x − 3) ⇒ no solution"
+    },
+    {
+      "title": "Two valid solutions",
+      "narration": "Squaring does not always introduce an extraneous root. Square root of three x plus four equals x plus two has two valid solutions: zero and negative one.",
+      "math": "√(3x + 4) = x + 2 ⇒ x = 0 or −1"
+    },
+    {
+      "title": "Desmos strategy",
+      "narration": "Enter y equals square root of x plus five and y equals x minus one. The graphs intersect only at x equals four. Use graphing to check your algebra, not to replace exact reasoning.",
+      "math": "y = √(x + 5); y = x − 1"
+    },
+    {
+      "title": "Common mistakes",
+      "narration": "Never accept every root of a squared equation automatically. Never substitute only into the transformed equation. Always enforce denominator restrictions.",
+      "math": "Restrict → solve → check original"
+    },
+    {
+      "title": "Exam strategy",
+      "narration": "Before long algebra, eliminate impossible values using signs and domain restrictions. After squaring or clearing denominators, substitute every candidate into the original equation.",
+      "math": "Original equation = final test"
+    },
+    {
+      "title": "Challenge",
+      "narration": "Square root of x plus six equals x minus two requires x at least two. The larger quadratic root is the only valid solution.",
+      "math": "x = (5 + √33)/2"
+    },
+    {
+      "title": "Recap and next steps",
+      "narration": "You now know how to identify and reject extraneous candidates. Complete the eighteen practice problems, read the aligned solutions, and take the five-question test.",
+      "math": "18 practice · 18 solutions · 5 test"
+    }
+  ],
+  "arabic": [
+    {
+      "title": "هدف الدرس",
+      "narration": "هنتعلم نميز الحل الدخيل: قيمة بتظهر من خطوات الجبر لكنها ما بتحققش المعادلة الأصلية. لازم نعوض ونتأكد.",
+      "math": "الحل المحتمل مش دايمًا حل صحيح"
+    },
+    {
+      "title": "ليه التربيع ممكن يضللنا؟",
+      "narration": "التربيع يحافظ على التساوي الصحيح، لكن العكس مش مضمون. ثلاثة وسالب ثلاثة ليهم نفس المربع رغم إنهم مش متساويين.",
+      "math": "3² = (−3)² لكن 3 ≠ −3"
+    },
+    {
+      "title": "قيود المجال",
+      "narration": "الجذر التربيعي الأساسي ما بيكونش سالب، والمقام مينفعش يساوي صفر. اكتب القيود قبل ما تبدأ الحل.",
+      "math": "√(x + 5) ≥ 0 و x − 3 ≠ 0"
+    },
+    {
+      "title": "مثال على الجذور",
+      "narration": "جذر إكس زائد خمسة يساوي إكس ناقص واحد. بعد التربيع يظهر أربعة وسالب واحد. أربعة بس بتحقق المعادلة الأصلية.",
+      "math": "√(x + 5) = x − 1 ⇒ x = 4"
+    },
+    {
+      "title": "مثال على الإشارات",
+      "narration": "جذر إكس زائد اتنين يساوي سالب إكس. التربيع يدينا اتنين وسالب واحد. الصحيح سالب واحد فقط لأن الطرف اليمين لازم يكون غير سالب.",
+      "math": "√(x + 2) = −x ⇒ x = −1"
+    },
+    {
+      "title": "مثال على المقام",
+      "narration": "لما نمسح مقام إكس ناقص ثلاثة، ممكن نلاقي إكس يساوي ثلاثة. لكن ده يخلي المقام صفر، وبالتالي مفيش حل للمعادلة الأصلية.",
+      "math": "(x + 2)/(x − 3) = 5/(x − 3) ⇒ لا يوجد حل"
+    },
+    {
+      "title": "حلين صحيحين",
+      "narration": "مش كل تربيع بيطلع حل دخيل. جذر ثلاثة إكس زائد أربعة يساوي إكس زائد اتنين له حلين صحيحين: صفر وسالب واحد.",
+      "math": "√(3x + 4) = x + 2 ⇒ x = 0 أو −1"
+    },
+    {
+      "title": "استراتيجية ديسموس",
+      "narration": "ارسم واي يساوي جذر إكس زائد خمسة، وواي يساوي إكس ناقص واحد. التقاطع الوحيد عند إكس يساوي أربعة. استخدم الرسم للتحقق من الجبر.",
+      "math": "y = √(x + 5) و y = x − 1"
+    },
+    {
+      "title": "أخطاء شائعة",
+      "narration": "متقبلش كل جذور المعادلة بعد التربيع، ومتنساش القيود على المقام. لازم تعوض في المعادلة الأصلية.",
+      "math": "القيود ← الحل ← التحقق"
+    },
+    {
+      "title": "استراتيجية الامتحان",
+      "narration": "قبل خطوات الجبر الطويلة، استبعد القيم المستحيلة من الإشارة والمجال. وبعد التربيع عوض كل حل محتمل في الأصل.",
+      "math": "المعادلة الأصلية هي الحكم النهائي"
+    },
+    {
+      "title": "تحدي",
+      "narration": "جذر إكس زائد ستة يساوي إكس ناقص اتنين، فلازم إكس أكبر من أو يساوي اتنين. الجذر الأكبر فقط هو الصحيح.",
+      "math": "x = (5 + √33)/2"
+    },
+    {
+      "title": "الخلاصة والخطوة التالية",
+      "narration": "دلوقتي تقدر تكتشف الحلول الدخيلة. حل التمنتاشر سؤال، راجع الحلول المقابلة، وبعدها اختبر نفسك في خمس أسئلة.",
+      "math": "18 تدريب · 18 حل · 5 اختبار"
+    }
+  ]
+}
