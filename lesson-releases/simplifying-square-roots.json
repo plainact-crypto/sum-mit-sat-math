@@ -1,0 +1,14 @@
+{
+  "lesson": "simplifying-square-roots",
+  "builders": [
+    "simplifying-square-roots-lesson117-build.js"
+  ],
+  "routes": [
+    "/advanced-math/radical-expressions-and-equations/simplifying-square-roots/explanation/",
+    "/advanced-math/radical-expressions-and-equations/simplifying-square-roots/problems/",
+    "/advanced-math/radical-expressions-and-equations/simplifying-square-roots/answers/",
+    "/advanced-math/radical-expressions-and-equations/simplifying-square-roots/test/",
+    "/advanced-math/radical-expressions-and-equations/simplifying-square-roots/video/english/",
+    "/advanced-math/radical-expressions-and-equations/simplifying-square-roots/video/arabic/"
+  ]
+}
