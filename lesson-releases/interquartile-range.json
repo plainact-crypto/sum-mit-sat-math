@@ -1,0 +1,17 @@
+{
+  "lesson": "interquartile-range",
+  "builders": [
+    "interquartile-range-lesson190-explanation-build.js",
+    "interquartile-range-lesson190-practice-build.js",
+    "interquartile-range-lesson190-test-build.js",
+    "interquartile-range-lesson190-video-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/measures-of-spread/interquartile-range/explanation/",
+    "/problem-solving-and-data-analysis/measures-of-spread/interquartile-range/problems/",
+    "/problem-solving-and-data-analysis/measures-of-spread/interquartile-range/answers/",
+    "/problem-solving-and-data-analysis/measures-of-spread/interquartile-range/test/",
+    "/problem-solving-and-data-analysis/measures-of-spread/interquartile-range/video/english/",
+    "/problem-solving-and-data-analysis/measures-of-spread/interquartile-range/video/arabic/"
+  ]
+}
