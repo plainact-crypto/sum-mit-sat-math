@@ -2,9 +2,18 @@
   "lesson": 180,
   "slug": "frequency-tables",
   "state": "BLOCKED_PRODUCTION_WIRING",
-  "core_nonvideo": "18 practice, 18 solutions, 5 test, explanation present on branch",
-  "video": "English full-lesson external embed referenced; Arabic lesson route is not a full translated video",
-  "blocker": "Not wired into main production-build; prior attempts to update production-build were blocked by GitHub safety checks",
-  "production": false,
-  "broadcast": "NOT_SENT"
+  "core": "COMPLETE_ON_BRANCH",
+  "practice": "18 (3/8/5/2)",
+  "solutions": 18,
+  "test": 5,
+  "video_routes": [
+    "video/english",
+    "video/arabic"
+  ],
+  "video_chapters_each": 12,
+  "branch_build_emulation": "6/6 PASS",
+  "main_merge": false,
+  "production_live": false,
+  "broadcast": "NOT_SENT",
+  "blocker": "GitHub safety checks prevent production-build.js wiring. English and Arabic full lesson video routes now complete on branch."
 }
