@@ -1,0 +1,15 @@
+{
+  "lesson": "maximum-and-minimum",
+  "builders": [
+    "maximum-and-minimum-standard-form-content-build.js",
+    "maximum-and-minimum-standard-form-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/quadratic-functions/standard-form/maximum-and-minimum/explanation/",
+    "/advanced-math/quadratic-functions/standard-form/maximum-and-minimum/problems/",
+    "/advanced-math/quadratic-functions/standard-form/maximum-and-minimum/answers/",
+    "/advanced-math/quadratic-functions/standard-form/maximum-and-minimum/test/",
+    "/advanced-math/quadratic-functions/standard-form/maximum-and-minimum/video/english/",
+    "/advanced-math/quadratic-functions/standard-form/maximum-and-minimum/video/arabic/"
+  ]
+}
