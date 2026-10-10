@@ -1,0 +1,10 @@
+{
+  "lesson_index": 203,
+  "lesson": "Residuals",
+  "slug": "residuals",
+  "canonical_base": "/problem-solving-and-data-analysis/two-variable-data/residuals",
+  "worker": "worker3",
+  "date": "2026-10-11",
+  "status": "IN_PROGRESS",
+  "note": "Advanced after Lesson 198 core package passed isolated QA but release remained blocked by explanation registry update and unverified full build."
+}
