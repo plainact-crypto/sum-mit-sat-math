@@ -1,7 +1,11 @@
 {
   "lesson": "negative-exponents",
   "builders": [
-    "negative-exponents-lesson114-build.js"
+    "negative-exponents-lesson114-explanation-build.js",
+    "negative-exponents-lesson114-practice-build.js",
+    "negative-exponents-lesson114-test-build.js",
+    "negative-exponents-lesson114-video-build.js",
+    "negative-exponents-lesson114-qa-build.js"
   ],
   "routes": [
     "/advanced-math/exponents/negative-exponents/explanation/",
