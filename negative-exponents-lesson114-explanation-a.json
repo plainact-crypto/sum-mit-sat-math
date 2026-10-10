@@ -1,0 +1,26 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "<h2>Rewrite negative powers using positive exponents</h2><p>Evaluate numerical negative powers and simplify products, quotients, and powers of variables.</p><div class=\"equation-callout\"><strong>a^(-n)=1/a^n, a nonzero</strong></div>"
+  ],
+  [
+    "WHAT YOU NEED TO KNOW",
+    "<h2>Negative exponent means reciprocal, not negative value</h2><p>2^(-3)=1/8, not -8. Divide 2^2 by 2^5: subtraction gives 2^(-3), while canceling common factors gives 1/2^3. These are equal.</p>"
+  ],
+  [
+    "KEY DEFINITIONS",
+    "<p><b>Base:</b> expression raised to a power. <b>Exponent:</b> number describing the power. <b>Reciprocal:</b> 1 divided by a nonzero expression. <b>Restriction:</b> excluded input making a denominator zero.</p>"
+  ],
+  [
+    "CORE RULE",
+    "<p>For nonzero a, a^(-n)=1/a^n. For nonzero a,b, (a/b)^(-n)=(b/a)^n. Product rule: a^m a^n=a^(m+n). Quotient rule: a^m/a^n=a^(m-n). Power rule: (a^m)^n=a^(mn).</p>"
+  ],
+  [
+    "HOW IT WORKS",
+    "<ol><li>Identify each base and its exponent.</li><li>Combine same-base factors or distribute an outside power.</li><li>Move factors with negative powers across the fraction bar.</li><li>Simplify coefficients and keep original nonzero restrictions.</li></ol>"
+  ],
+  [
+    "WORKED EXAMPLES 1–2",
+    "<h3>Example 1: numerical power</h3><p>2^(-3)=1/2^3=<b>1/8</b>.</p><h3>Example 2: fraction</h3><p>(1/3)^(-2)=(3/1)^2=<b>9</b>. The negative exponent inverts the entire fraction.</p>"
+  ]
+]
