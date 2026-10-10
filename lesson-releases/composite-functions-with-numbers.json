@@ -1,0 +1,14 @@
+{
+  "lesson": "composite-functions-with-numbers",
+  "builders": [
+    "composite-functions-with-numbers-lesson107-build.js"
+  ],
+  "routes": [
+    "/advanced-math/functions/composite-functions-with-numbers/explanation/",
+    "/advanced-math/functions/composite-functions-with-numbers/problems/",
+    "/advanced-math/functions/composite-functions-with-numbers/answers/",
+    "/advanced-math/functions/composite-functions-with-numbers/test/",
+    "/advanced-math/functions/composite-functions-with-numbers/video/english/",
+    "/advanced-math/functions/composite-functions-with-numbers/video/arabic/"
+  ]
+}
