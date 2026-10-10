@@ -1,1 +1,23 @@
-{"lesson":25,"slug":"undefined-slope","status":"BLOCKED_BUILDER_WRITE","reason":"Repeated repository safety-check rejections of full-video builder. Chapter data committed; manifest and build pending."}
+{
+  "lesson": 25,
+  "slug": "undefined-slope",
+  "status": "BLOCKED_PREVIEW_QUOTA",
+  "head": "78a12b4eb65388c1296b2bfba4651e383ce4f234",
+  "lastVerifiedPreview": "41b7ea81321cd385db3ead342de0f5b4a9575483",
+  "lastVerifiedDeployment": "dpl_Eut6oE3MGqM7HoXD1zXTRAqx6VNw",
+  "checks": {
+    "practice": 18,
+    "distribution": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answers": 18,
+    "test": 5,
+    "independentAnswerAlignment": "23/23 PASS",
+    "bilingualChapters": "12+12 PASS",
+    "releaseRoutes": "6/6 PASS at preview commit"
+  },
+  "reason": "Vercel HTTP 402 daily deployment limit; final submit-once test commit has not passed fresh full build; PR creation also rejected by safety checks. Do not merge or mark LIVE_VERIFIED until current head builds and six routes pass."
+}
