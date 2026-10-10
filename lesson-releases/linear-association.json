@@ -1,0 +1,17 @@
+{
+  "lesson": "linear-association",
+  "builders": [
+    "linear-association-lesson198-explanation-build.js",
+    "linear-association-lesson198-practice-build.js",
+    "linear-association-lesson198-test-build.js",
+    "linear-association-lesson198-video-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/two-variable-data/linear-association/explanation/",
+    "/problem-solving-and-data-analysis/two-variable-data/linear-association/problems/",
+    "/problem-solving-and-data-analysis/two-variable-data/linear-association/answers/",
+    "/problem-solving-and-data-analysis/two-variable-data/linear-association/test/",
+    "/problem-solving-and-data-analysis/two-variable-data/linear-association/video/english/",
+    "/problem-solving-and-data-analysis/two-variable-data/linear-association/video/arabic/"
+  ]
+}
