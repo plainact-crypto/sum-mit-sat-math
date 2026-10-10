@@ -1,0 +1,47 @@
+[
+  [
+    "Find intersections: y = x^2 and y = 4.",
+    "(-2,4), (2,4)",
+    "Set x^2 = 4, so x = +/-2 and y = 4."
+  ],
+  [
+    "Find intersections: y = x^2 and y = x.",
+    "(0,0), (1,1)",
+    "Set x^2 = x; factor x(x - 1) = 0, then use y = x."
+  ],
+  [
+    "Find intersections: y = x^2 + 1 and y = 2.",
+    "(-1,2), (1,2)",
+    "Set x^2 = 1. Both roots have y = 2."
+  ],
+  [
+    "Solve y = x^2 - 4 and y = 0.",
+    "(-2,0), (2,0)",
+    "Factor x^2 - 4 = (x - 2)(x + 2). Each point has y = 0."
+  ],
+  [
+    "Solve y = x^2 - 3x and y = 0.",
+    "(0,0), (3,0)",
+    "Factor x(x - 3) = 0. Roots 0 and 3 each give y = 0."
+  ],
+  [
+    "Solve y = x^2 - 4x + 1 and y = x - 3.",
+    "(1,-2), (4,1)",
+    "Equate: x^2 - 5x + 4 = (x - 1)(x - 4) = 0. Then y = x - 3."
+  ],
+  [
+    "How many intersections: y = (x + 1)^2 and y = 0? Give the point.",
+    "One: (-1,0)",
+    "A repeated root x = -1 gives exactly one point with y = 0."
+  ],
+  [
+    "Solve y = x^2 + 4 and y = 0 over the reals.",
+    "No real intersections",
+    "x^2 = -4 is impossible for real x."
+  ],
+  [
+    "Solve y = x^2 - 2x and y = 2x.",
+    "(0,0), (4,8)",
+    "Equate to get x(x - 4) = 0. Use y = 2x for both points."
+  ]
+]
