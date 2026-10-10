@@ -1,0 +1,15 @@
+{
+  "lesson": "zeros-of-polynomial-functions",
+  "builders": [
+    "zeros-of-polynomial-functions-lesson98-content-build.js",
+    "zeros-of-polynomial-functions-lesson98-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/polynomial-equations/zeros-of-polynomial-functions/explanation/",
+    "/advanced-math/polynomial-equations/zeros-of-polynomial-functions/problems/",
+    "/advanced-math/polynomial-equations/zeros-of-polynomial-functions/answers/",
+    "/advanced-math/polynomial-equations/zeros-of-polynomial-functions/test/",
+    "/advanced-math/polynomial-equations/zeros-of-polynomial-functions/video/english/",
+    "/advanced-math/polynomial-equations/zeros-of-polynomial-functions/video/arabic/"
+  ]
+}
