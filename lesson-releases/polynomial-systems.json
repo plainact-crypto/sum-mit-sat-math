@@ -1,0 +1,14 @@
+{
+  "lesson": "polynomial-systems",
+  "builders": [
+    "polynomial-systems-lesson147-build.js"
+  ],
+  "routes": [
+    "/advanced-math/nonlinear-equations-and-systems/polynomial-systems/explanation/",
+    "/advanced-math/nonlinear-equations-and-systems/polynomial-systems/problems/",
+    "/advanced-math/nonlinear-equations-and-systems/polynomial-systems/answers/",
+    "/advanced-math/nonlinear-equations-and-systems/polynomial-systems/test/",
+    "/advanced-math/nonlinear-equations-and-systems/polynomial-systems/video/english/",
+    "/advanced-math/nonlinear-equations-and-systems/polynomial-systems/video/arabic/"
+  ]
+}
