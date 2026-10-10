@@ -1,0 +1,17 @@
+{
+  "lesson": "absolute-value-infinitely-many-solutions",
+  "builders": [
+    "infinitely-many-solutions-lesson143-explanation-build.js",
+    "infinitely-many-solutions-lesson143-practice-build.js",
+    "infinitely-many-solutions-lesson143-test-build.js",
+    "infinitely-many-solutions-lesson143-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/absolute-value/infinitely-many-solutions/explanation/",
+    "/advanced-math/absolute-value/infinitely-many-solutions/problems/",
+    "/advanced-math/absolute-value/infinitely-many-solutions/answers/",
+    "/advanced-math/absolute-value/infinitely-many-solutions/test/",
+    "/advanced-math/absolute-value/infinitely-many-solutions/video/english/",
+    "/advanced-math/absolute-value/infinitely-many-solutions/video/arabic/"
+  ]
+}
