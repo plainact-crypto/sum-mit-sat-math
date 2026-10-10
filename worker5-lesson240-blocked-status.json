@@ -1,0 +1,28 @@
+{
+  "worker": "SUMMIT Worker 5",
+  "index": 240,
+  "slug": "45-45-90-triangles",
+  "state": "BLOCKED_REPOSITORY_CONTENT_UPLOAD",
+  "date": "2026-10-10",
+  "local_core_package_complete": true,
+  "practice": 18,
+  "groups": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "solutions": 18,
+  "test": 5,
+  "explanation_sections": 16,
+  "video_routes": [
+    "english",
+    "arabic"
+  ],
+  "video_chapters_each": 12,
+  "math_and_browser_QA": "23/23 math, 90/90 Chromium",
+  "release_artifact": "SUMMIT_WORKER5_LESSON240_FULL_RELEASE_20261010.zip",
+  "production_deployed": false,
+  "announcement_sent": false,
+  "blocker": "Large curriculum source upload rejected by safety checks; production-build and live verification remain unavailable. Continue next owned lesson."
+}
