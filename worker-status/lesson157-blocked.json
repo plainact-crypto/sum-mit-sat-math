@@ -1,0 +1,16 @@
+{
+  "lesson_index": 157,
+  "slug": "equivalent-ratios",
+  "state": "BLOCKED_PENDING_BUILDER_WRITE",
+  "manifest_commit": "d43cc36728604a6caac42dd1185035085ec1683b",
+  "local_package": "summit-lesson157-release-ready.zip",
+  "local_qa": "18 practice (3/8/5/2), 18 aligned answers, 5 progressive test questions, six local HTML routes; math and JS local QA passed",
+  "blockers": [
+    "GitHub connector safety check rejected full builder content write on 2026-10-10",
+    "Explanation retrofit registry not committed",
+    "Repository production build and canonical route gate not executed",
+    "No merge, production verification, or email announcement"
+  ],
+  "video_note": "English/Arabic routes in local package are instructional scene pages, not playable encoded video",
+  "live_verified": false
+}
