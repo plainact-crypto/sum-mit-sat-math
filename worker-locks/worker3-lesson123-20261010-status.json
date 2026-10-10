@@ -1,0 +1,23 @@
+{
+  "lesson_index": 123,
+  "slug": "exponential-growth",
+  "state": "LOCAL_QA_PASSED_RELEASE_PENDING",
+  "as_of": "2026-10-10",
+  "branch": "worker3-lesson123-20261010",
+  "complete": [
+    "Explanation with deterministic graph and Desmos strategy, correctly ordered",
+    "Exactly 18 practice problems (3/8/5/2) with 18 aligned worked solutions",
+    "Five progressive scored test questions",
+    "English and Arabic full-lesson landscape presentations (14 scenes each)",
+    "Unique committed lesson release manifest with two required builders and six canonical routes",
+    "Isolated execution produced all six non-placeholder HTML routes",
+    "Independent math QA passed for all 18 practice and five test questions"
+  ],
+  "missing": [
+    "Full repository production build and global CI validation",
+    "Safe PR merge to main",
+    "Vercel production READY for deployed commit",
+    "Live route verification and deduplicated registered-user email announcement"
+  ],
+  "next": "Run full CI and release gates, merge only if green, then verify Vercel production and six live routes."
+}

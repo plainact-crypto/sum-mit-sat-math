@@ -1,0 +1,15 @@
+{
+  "lesson": "exponential-growth",
+  "builders": [
+    "exponential-growth-lesson123-content-build.js",
+    "exponential-growth-lesson123-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/exponential-functions/exponential-growth/explanation/",
+    "/advanced-math/exponential-functions/exponential-growth/problems/",
+    "/advanced-math/exponential-functions/exponential-growth/answers/",
+    "/advanced-math/exponential-functions/exponential-growth/test/",
+    "/advanced-math/exponential-functions/exponential-growth/video/english/",
+    "/advanced-math/exponential-functions/exponential-growth/video/arabic/"
+  ]
+}
