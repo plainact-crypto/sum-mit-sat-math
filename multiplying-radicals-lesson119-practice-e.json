@@ -1,0 +1,14 @@
+[
+  [
+    "Core Practice",
+    "Simplify sqrt(2a) times sqrt(8a^3), where a is nonnegative.",
+    "4a^2",
+    "sqrt(16a^4)=4a^2."
+  ],
+  [
+    "Core Practice",
+    "Expand (sqrt(5)+sqrt(2)) times sqrt(5).",
+    "5+sqrt(10)",
+    "Distribute: sqrt(25)+sqrt(10)=5+sqrt(10)."
+  ]
+]
