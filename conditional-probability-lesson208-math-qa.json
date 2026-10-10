@@ -1,0 +1,1 @@
+{"lesson":"conditional-probability","rule":"P(A given B) = P(A and B) / P(B), for P(B) > 0","verified_example":{"total":40,"group_B":16,"both_A_and_B":6,"conditional_probability":0.375}}
