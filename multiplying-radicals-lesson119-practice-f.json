@@ -1,0 +1,20 @@
+[
+  [
+    "Exam-Style",
+    "A rectangle has sides sqrt(18) and sqrt(8) units. Find its area.",
+    "12 square units",
+    "Area is sqrt(144)=12 square units."
+  ],
+  [
+    "Exam-Style",
+    "For x nonnegative, sqrt(2x) times sqrt(8x) equals 20. Find x.",
+    "5",
+    "Product is sqrt(16x^2)=4x, so 4x=20 and x=5."
+  ],
+  [
+    "Exam-Style",
+    "Simplify (3sqrt(2))(2sqrt(8)).",
+    "24",
+    "6sqrt(16)=24."
+  ]
+]
