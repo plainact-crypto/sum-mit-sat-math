@@ -4,6 +4,15 @@
   "title": "Converting Area Units",
   "worker": "SUMMIT Worker 3",
   "branch": "worker3-lesson168-20261010",
-  "status": "IN_PROGRESS",
-  "locked_at": "2026-10-10T21:00:00+03:00"
+  "status": "BLOCKED_RELEASE",
+  "locked_at": "2026-10-10T21:00:00+03:00",
+  "full_build": "PASS",
+  "routes": "6/6 non-placeholder",
+  "mathematical_qa": "23/23 checks PASS",
+  "blockers": [
+    "GitHub PR creation blocked by safety checks",
+    "Vercel API deployment daily quota HTTP 402",
+    "Existing unrelated collinear-points retrofit QA marker"
+  ],
+  "note": "Content complete; retry PR/production release, continue producing new owned lessons."
 }
