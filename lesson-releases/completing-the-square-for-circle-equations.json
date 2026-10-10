@@ -1,0 +1,15 @@
+{
+  "lesson": "completing-the-square-for-circle-equations",
+  "builders": [
+    "circle-completing-square-content-build.js",
+    "circle-completing-square-lesson285-video-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/circles/circle-equation/completing-the-square-for-circle-equations/explanation/",
+    "/geometry-and-trigonometry/circles/circle-equation/completing-the-square-for-circle-equations/problems/",
+    "/geometry-and-trigonometry/circles/circle-equation/completing-the-square-for-circle-equations/answers/",
+    "/geometry-and-trigonometry/circles/circle-equation/completing-the-square-for-circle-equations/test/",
+    "/geometry-and-trigonometry/circles/circle-equation/completing-the-square-for-circle-equations/video/english/",
+    "/geometry-and-trigonometry/circles/circle-equation/completing-the-square-for-circle-equations/video/arabic/"
+  ]
+}
