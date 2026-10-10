@@ -1,1 +1,28 @@
-{"lessonIndex":178,"slug":"repeated-percent-change","owner":"SUMMIT Worker 3","status":"IN_PROGRESS","startedAt":"2026-10-10T22:00:00+03:00"}
+{
+  "lessonIndex": 178,
+  "slug": "repeated-percent-change",
+  "owner": "SUMMIT Worker 3",
+  "status": "CORE_COMPLETE_RELEASE_PENDING",
+  "startedAt": "2026-10-10T22:00:00+03:00",
+  "isolatedQA": {
+    "practice": 18,
+    "distribution": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "solutions": 18,
+    "test": 5,
+    "videoScenesEnglish": 14,
+    "videoScenesArabic": 14,
+    "routes": 6,
+    "mathChecks": 23
+  },
+  "releaseManifest": "lesson-releases/repeated-percent-change.json",
+  "blockers": [
+    "Full repository build not yet verified",
+    "Draft PR creation rejected by repository safety checks",
+    "Vercel production READY and live routes not yet verified"
+  ]
+}
