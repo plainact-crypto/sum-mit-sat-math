@@ -1,0 +1,12 @@
+'use strict';
+const {shell,write,esc}=require('./finding-the-whole-lesson173-layout');
+const {test}=require('./finding-the-whole-lesson173-data');
+const levels=['Easy','Easy / Medium','Medium','Medium / Hard','Hard / Exam-Style'];
+if(test.length!==5||new Set(test.map(x=>x.q)).size!==5)throw Error('Exactly five original test questions required');
+for(const [i,x] of test.entries())if(Math.abs(x.whole*x.p/100-x.part)>1e-8||x.choices.length!==4||new Set(x.choices).size!==4||!x.choices[x.correct].includes(String(x.whole)))throw Error('Test math QA '+(i+1));
+const form=test.map((t,i)=>'<fieldset class="quiz-field"><legend>Question '+(i+1)+' · '+levels[i]+'</legend><p>'+esc(t.q)+'</p>'+t.choices.map((choice,j)=>'<label><input type="radio" name="q'+i+'" value="'+j+'" '+(j===0?'required':'')+'> '+String.fromCharCode(65+j)+'. '+esc(choice)+'</label>').join('')+'</fieldset>').join('');
+const review=JSON.stringify(test.map(t=>({correct:t.correct,why:t.why,choice:t.choices[t.correct]})));
+const script='<script>(function(){const form=document.getElementById("lesson-test"),result=document.getElementById("result"),key='+review+';let submitted=false;form.addEventListener("submit",function(e){e.preventDefault();if(submitted)return;let score=0;const list=document.createElement("ol");key.forEach(function(item,i){const selected=form.querySelector("input[name=q"+i+"]:checked");const ok=selected&&Number(selected.value)===item.correct;if(ok)score++;const li=document.createElement("li");li.textContent="Question "+(i+1)+": "+(ok?"Correct. ":"Review. ")+"Correct answer: "+item.choice+". "+item.why;list.appendChild(li)});submitted=true;form.querySelectorAll("input,button").forEach(el=>el.disabled=true);const heading=document.createElement("h2");heading.textContent="Final score: "+score+"/5";result.appendChild(heading);result.appendChild(list);result.hidden=false;result.focus()})})();</script>';
+const body='<p>Complete all five questions before submission. No answers or correctness feedback appear until you press Submit Test.</p><form id="lesson-test">'+form+'<button type="submit">Submit Test</button></form><section id="result" tabindex="-1" aria-live="polite" hidden></section>'+script;
+write('test',shell('Lesson Test',body));
+console.log('Lesson 173 test: five progressive independently checked questions; score revealed only after final submission.');
