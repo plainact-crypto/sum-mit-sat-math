@@ -1,0 +1,15 @@
+{
+  "lesson": "finding-roots",
+  "builders": [
+    "finding-roots-lesson93-content-build.js",
+    "finding-roots-lesson93-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/quadratic-functions/intercept-form/finding-roots/explanation/",
+    "/advanced-math/quadratic-functions/intercept-form/finding-roots/problems/",
+    "/advanced-math/quadratic-functions/intercept-form/finding-roots/answers/",
+    "/advanced-math/quadratic-functions/intercept-form/finding-roots/test/",
+    "/advanced-math/quadratic-functions/intercept-form/finding-roots/video/english/",
+    "/advanced-math/quadratic-functions/intercept-form/finding-roots/video/arabic/"
+  ]
+}
