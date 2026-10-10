@@ -1,0 +1,14 @@
+[
+  [
+    "Challenge",
+    "Expand (2sqrt(3)+sqrt(5))(sqrt(3)-2sqrt(5)).",
+    "-4-3sqrt(15)",
+    "FOIL: 6-4sqrt(15)+sqrt(15)-10=-4-3sqrt(15)."
+  ],
+  [
+    "Challenge",
+    "For x at least 1/2, sqrt(2x+1) times sqrt(2x-1) equals sqrt(15). Find x.",
+    "2",
+    "Square: (2x+1)(2x-1)=15, so 4x^2=16 and x=2 after the domain check."
+  ]
+]
