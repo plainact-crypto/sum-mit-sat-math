@@ -4,13 +4,19 @@
   "slug": "box-plots",
   "worker": "worker3",
   "branch": "worker3-lesson183-box-plots-20261010",
-  "status": "CONTENT_COMMITTED_PENDING_BUILD",
+  "status": "LOCAL_QA_PASSED_RELEASE_BLOCKED",
   "date": "2026-10-10",
   "qa": {
     "numeric": 23,
     "practice": 18,
     "answers": 18,
     "test": 5,
-    "video_scenes_each": 14
-  }
+    "video_scenes_each": 14,
+    "isolated_routes": 6
+  },
+  "blockers": [
+    "Vercel build rate limit",
+    "PR creation rejected",
+    "full build and production checks pending"
+  ]
 }
