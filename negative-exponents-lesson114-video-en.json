@@ -1,0 +1,42 @@
+[
+  [
+    "Reciprocal rule",
+    "A negative exponent does not make a number negative. It means take the reciprocal of the positive power. For nonzero a, a to the negative n equals one over a to the n.",
+    "a^(-n)=1/a^n"
+  ],
+  [
+    "Numerical example",
+    "Two to the negative three equals one divided by two cubed, which is one eighth. Five to the negative one equals one fifth.",
+    "2^(-3)=1/8; 5^(-1)=1/5"
+  ],
+  [
+    "Why it works",
+    "Two squared divided by two to the fifth is two to the negative third by exponent subtraction. Canceling the common factors gives one eighth.",
+    "2^2/2^5=2^(-3)=1/8"
+  ],
+  [
+    "Multiply and raise powers",
+    "For equal bases, multiply by adding exponents. For a power raised to a power, multiply the exponents. Three to the negative two times three to the fifth is twenty-seven.",
+    "3^(-2)×3^5=27"
+  ],
+  [
+    "Negative exponent on a fraction",
+    "One third to the negative second becomes three squared, or nine. Invert the entire fraction, not only the numerator.",
+    "(1/3)^(-2)=9"
+  ],
+  [
+    "Variable quotient",
+    "Six x to the negative two divided by three x cubed simplifies to two divided by x to the fifth. Remember that x cannot be zero.",
+    "6x^(-2)/(3x^3)=2/x^5"
+  ],
+  [
+    "Mixed variables",
+    "Two x to the negative two y cubed divided by four x y to the negative one becomes y to the fourth divided by two x cubed. Subtract exponents separately.",
+    "2x^(-2)y^3/(4xy^(-1))=y^4/(2x^3)"
+  ],
+  [
+    "Exam recap",
+    "Negative power means reciprocal. Combine exponents first, simplify fractions, and retain restrictions. Continue with eighteen practice problems and the five-question test.",
+    "a^(-n)=1/a^n, a≠0"
+  ]
+]
