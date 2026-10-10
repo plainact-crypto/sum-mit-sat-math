@@ -1,0 +1,524 @@
+{
+  "lesson_index": 185,
+  "title": "Mean",
+  "slug": "mean",
+  "base": "problem-solving-and-data-analysis/measures-of-center/mean",
+  "classification": "NEITHER",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "kind": "mean",
+      "values": [
+        4,
+        6,
+        8
+      ],
+      "prompt": "Find the mean of 4, 6, and 8.",
+      "answer": 6,
+      "solution": "Add 4+6+8=18, then divide by 3: 18/3=6."
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "kind": "mean",
+      "values": [
+        2,
+        4,
+        9
+      ],
+      "prompt": "Find the arithmetic mean of 2, 4, and 9.",
+      "answer": 5,
+      "solution": "The total is 15 across 3 values, so 15/3=5."
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "kind": "mean",
+      "values": [
+        10,
+        14,
+        18,
+        22
+      ],
+      "prompt": "Find the mean of 10, 14, 18, and 22.",
+      "answer": 16,
+      "solution": "The total is 64; 64/4=16."
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "kind": "mean",
+      "values": [
+        3,
+        7,
+        8,
+        10
+      ],
+      "prompt": "Find the mean of the data set 3, 7, 8, 10.",
+      "answer": 7,
+      "solution": "The sum is 28 and the count is 4; 28/4=7."
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "kind": "mean",
+      "values": [
+        1,
+        1,
+        5,
+        9
+      ],
+      "prompt": "Find the mean of 1, 1, 5, 9. Count repeated values.",
+      "answer": 4,
+      "solution": "All four entries count: 1+1+5+9=16; 16/4=4."
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "kind": "mean",
+      "values": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "prompt": "Find the mean of the five consecutive even values 2, 4, 6, 8, 10.",
+      "answer": 6,
+      "solution": "Their sum is 30; 30/5=6. The center of this evenly spaced list is also 6."
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "kind": "mean",
+      "values": [
+        12,
+        16,
+        20
+      ],
+      "prompt": "A runner logs 12, 16, and 20 km on three days. Find the mean daily distance in km.",
+      "answer": 16,
+      "solution": "Total distance 48 km divided by 3 days gives 16 km per day."
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "kind": "total",
+      "values": [
+        4,
+        9
+      ],
+      "prompt": "Four numbers have a mean of 9. What is their total?",
+      "answer": 36,
+      "solution": "Total = mean × count = 9×4=36."
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "kind": "mean",
+      "values": [
+        8,
+        9,
+        11,
+        13,
+        14
+      ],
+      "prompt": "Find the mean of 8, 9, 11, 13, and 14.",
+      "answer": 11,
+      "solution": "Sum 55 divided by five observations gives 11."
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "kind": "mean",
+      "values": [
+        80,
+        90,
+        100
+      ],
+      "prompt": "Three test scores are 80, 90, and 100. Find the mean score.",
+      "answer": 90,
+      "solution": "270/3=90."
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "kind": "missing",
+      "values": [
+        [
+          3,
+          7,
+          11
+        ],
+        4,
+        9
+      ],
+      "prompt": "The mean of 3, 7, 11, and x is 9. Find x.",
+      "answer": 15,
+      "solution": "Four values need total 4×9=36. The known values sum to 21; x=36−21=15."
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "kind": "missing",
+      "values": [
+        [
+          2,
+          4,
+          6,
+          8
+        ],
+        5,
+        7
+      ],
+      "prompt": "The five values 2, 4, 6, 8, x have a mean of 7. Find x.",
+      "answer": 15,
+      "solution": "Target sum is 5×7=35. Known sum is 20, so x=15."
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "kind": "frequency",
+      "values": [
+        [
+          2,
+          4,
+          8
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "prompt": "A frequency table lists value 2 once, value 4 twice, and value 8 once. Find the mean.",
+      "answer": 4.5,
+      "solution": "Weighted total = 2×1+4×2+8×1=18; frequency total=4; mean=18/4=4.5."
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "kind": "combined",
+      "values": [
+        [
+          4,
+          10
+        ],
+        [
+          6,
+          15
+        ]
+      ],
+      "prompt": "Four students average 10 points and six students average 15 points. Find the mean for all ten students.",
+      "answer": 13,
+      "solution": "Group totals are 4×10=40 and 6×15=90; combined mean=130/10=13."
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "kind": "increase",
+      "values": [
+        5,
+        12,
+        15
+      ],
+      "prompt": "The mean of five measurements rises from 12 to 15. By how much does their total increase?",
+      "answer": 15,
+      "solution": "The total rises from 5×12=60 to 5×15=75; increase=15."
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "kind": "remove",
+      "values": [
+        6,
+        8,
+        20
+      ],
+      "prompt": "Six values have a mean of 8. One value, 20, is removed. Find the mean of the remaining five.",
+      "answer": 5.6,
+      "solution": "Original total=6×8=48. Remaining total=28; remaining mean=28/5=5.6."
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "kind": "missing",
+      "values": [
+        [
+          4,
+          6,
+          10,
+          12
+        ],
+        5,
+        10
+      ],
+      "prompt": "The five numbers 4, 6, 10, 12, x have a mean of 10. Find x.",
+      "answer": 18,
+      "solution": "Required sum=50; known sum=32; x=18."
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "kind": "combined",
+      "values": [
+        [
+          5,
+          8
+        ],
+        [
+          3,
+          16
+        ]
+      ],
+      "prompt": "One group of five has mean 8; another group of three has mean 16. Find the combined mean.",
+      "answer": 11,
+      "solution": "Weighted total=5×8+3×16=40+48=88 across 8 values; 88/8=11."
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "group": "Easy",
+      "kind": "mean",
+      "values": [
+        5,
+        7,
+        9
+      ],
+      "prompt": "Find the mean of 5, 7, 9.",
+      "answer": 7,
+      "solution": "(5+7+9)/3=21/3=7."
+    },
+    {
+      "index": 2,
+      "group": "Easy / Medium",
+      "kind": "mean",
+      "values": [
+        2,
+        4,
+        8,
+        10
+      ],
+      "prompt": "Find the mean of 2, 4, 8, 10.",
+      "answer": 6,
+      "solution": "24/4=6."
+    },
+    {
+      "index": 3,
+      "group": "Medium",
+      "kind": "total",
+      "values": [
+        5,
+        12
+      ],
+      "prompt": "Five measurements have a mean of 12. Find their total.",
+      "answer": 60,
+      "solution": "Total=5×12=60."
+    },
+    {
+      "index": 4,
+      "group": "Medium / Hard",
+      "kind": "missing",
+      "values": [
+        [
+          5,
+          9,
+          11
+        ],
+        4,
+        10
+      ],
+      "prompt": "The mean of 5, 9, 11, x is 10. Find x.",
+      "answer": 15,
+      "solution": "Four values must total 40; 5+9+11=25, so x=15."
+    },
+    {
+      "index": 5,
+      "group": "Hard / Exam-Style",
+      "kind": "combined",
+      "values": [
+        [
+          6,
+          14
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "prompt": "Six values have mean 14 and four values have mean 9. Find the combined mean.",
+      "answer": 12,
+      "solution": "Totals 84 and 36 sum to 120 over ten values; mean=12."
+    }
+  ],
+  "explanation": [
+    {
+      "heading": "LESSON OBJECTIVE",
+      "body": "Compute and interpret an arithmetic mean; recover missing values, work with frequency tables, and combine groups correctly."
+    },
+    {
+      "heading": "CORE IDEA",
+      "body": "The mean is an equal-share value: redistribute the total equally across all observations without changing the total."
+    },
+    {
+      "heading": "KEY DEFINITIONS",
+      "body": "An observation is one recorded value. The count n includes repeated observations. The sum is the total of all values."
+    },
+    {
+      "heading": "CORE RULE",
+      "body": "Arithmetic mean = (sum of all observed values) ÷ (number of observed values). For n values, total = n × mean."
+    },
+    {
+      "heading": "HOW IT WORKS",
+      "body": "Add every value, count every observation, divide sum by count, and label units where appropriate. Recheck by multiplying the mean by n."
+    },
+    {
+      "heading": "WORKED EXAMPLE 1 — BASIC",
+      "body": "For 4, 6, 8, sum=18 and n=3, so mean=18/3=6. Check: 3×6=18."
+    },
+    {
+      "heading": "WORKED EXAMPLE 2 — REPEATS",
+      "body": "For 1, 1, 5, 9, sum=16 and n=4, so mean=4. Both 1s must be counted."
+    },
+    {
+      "heading": "WORKED EXAMPLE 3 — MISSING VALUE",
+      "body": "The mean of 3, 7, 11, x is 9. Required total=4×9=36; known total=21; x=15."
+    },
+    {
+      "heading": "WORKED EXAMPLE 4 — FREQUENCY TABLE",
+      "body": "Value 2 occurs once, 4 twice, 8 once. Weighted total=2+8+8=18; total frequency=4; mean=4.5."
+    },
+    {
+      "heading": "WORKED EXAMPLE 5 — COMBINED GROUPS",
+      "body": "Four scores average 10 and six average 15. Combined total=4×10+6×15=130; count=10; mean=13, not 12.5."
+    },
+    {
+      "heading": "TRANSFORMATIONS",
+      "body": "Adding c to every value increases the mean by c; multiplying every value by k multiplies the mean by k. An outlier can pull the mean strongly."
+    },
+    {
+      "heading": "COMMON MISTAKES",
+      "body": "Do not divide by the number of distinct values when there are repeats. Do not average group means unless the groups have equal counts."
+    },
+    {
+      "heading": "EXAM STRATEGY",
+      "body": "For missing values, write target total=n×mean first. For combined groups, compute each group's total and divide by combined count."
+    },
+    {
+      "heading": "QUICK CHECK",
+      "body": "Find the mean of 2, 4, 9 (5). Four numbers have mean 7: what is their total? (28). If 10 is divided by 5, what is the mean? (2)."
+    },
+    {
+      "heading": "LESSON RECAP",
+      "body": "Mean=total/count; total=mean×count. Use frequencies as weights and group sizes as weights when combining samples."
+    },
+    {
+      "heading": "NEXT STEP",
+      "body": "Try all 18 practice questions, check the 18 aligned worked solutions, and submit the five-question lesson test."
+    }
+  ],
+  "videos": {
+    "english": [
+      {
+        "title": "Objective",
+        "narration": "The arithmetic mean is a fair-share value: total divided by the number of observations."
+      },
+      {
+        "title": "Core formula",
+        "narration": "Add every value, then divide by how many values there are. Include duplicates."
+      },
+      {
+        "title": "Example one",
+        "narration": "Four, six, and eight total eighteen. Divide by three to get six."
+      },
+      {
+        "title": "Example two",
+        "narration": "One, one, five, and nine total sixteen across four values. The mean is four."
+      },
+      {
+        "title": "Why repeats count",
+        "narration": "Repeated values are separate observations. Never divide by the count of distinct numbers."
+      },
+      {
+        "title": "Reverse the mean",
+        "narration": "If four values average nine, their total is thirty-six. Multiply mean by count."
+      },
+      {
+        "title": "Find a missing value",
+        "narration": "Three, seven, eleven, and x average nine. Total thirty-six, known sum twenty-one, so x equals fifteen."
+      },
+      {
+        "title": "Frequency tables",
+        "narration": "Multiply each value by its frequency, add the products, then divide by total frequency."
+      },
+      {
+        "title": "Combined groups",
+        "narration": "Four people average ten and six average fifteen. Weighted total one hundred thirty divided by ten is thirteen."
+      },
+      {
+        "title": "Mean and outliers",
+        "narration": "An extreme value changes the total and can move the mean considerably."
+      },
+      {
+        "title": "SAT strategy",
+        "narration": "For missing data, compute the target sum first. For grouped data, weight each mean by its group size."
+      },
+      {
+        "title": "Recap",
+        "narration": "Mean equals sum over count. Practice the eighteen problems, review solutions, then take the five-question test."
+      }
+    ],
+    "arabic": [
+      {
+        "title": "الهدف",
+        "narration": "المتوسط الحسابي هو مجموع القيم مقسوماً على عددها، وهو يمثل التوزيع المتساوي للمجموع."
+      },
+      {
+        "title": "القانون",
+        "narration": "اجمع كل القيم ثم اقسم على عدد المشاهدات، واحسب القيم المتكررة كل مرة تظهر فيها."
+      },
+      {
+        "title": "مثال أول",
+        "narration": "الأعداد أربعة وستة وثمانية مجموعها ثمانية عشر، وبالقسمة على ثلاثة يكون المتوسط ستة."
+      },
+      {
+        "title": "مثال ثان",
+        "narration": "واحد وواحد وخمسة وتسعة مجموعها ستة عشر، وعدد القيم أربع، لذلك المتوسط أربعة."
+      },
+      {
+        "title": "التكرار مهم",
+        "narration": "القيمة المتكررة تمثل أكثر من مشاهدة، فلا تقسّم على عدد القيم المختلفة فقط."
+      },
+      {
+        "title": "عكس القانون",
+        "narration": "إذا كان متوسط أربع قيم تسعة فإن مجموعها يساوي أربعة في تسعة، أي ستة وثلاثين."
+      },
+      {
+        "title": "إيجاد المجهول",
+        "narration": "متوسط ثلاثة وسبعة وأحد عشر وسين يساوي تسعة. المجموع المطلوب ستة وثلاثون، إذن سين يساوي خمسة عشر."
+      },
+      {
+        "title": "جدول التكرار",
+        "narration": "اضرب كل قيمة في تكرارها، واجمع النتائج، ثم اقسم على مجموع التكرارات."
+      },
+      {
+        "title": "دمج المجموعات",
+        "narration": "أربعة أشخاص متوسطهم عشرة وستة أشخاص متوسطهم خمسة عشر. المجموع الكلي مئة وثلاثون، والمتوسط ثلاثة عشر."
+      },
+      {
+        "title": "القيم المتطرفة",
+        "narration": "القيمة البعيدة جداً تؤثر في المجموع وقد تغيّر المتوسط الحسابي بشكل ملحوظ."
+      },
+      {
+        "title": "استراتيجية الامتحان",
+        "narration": "عند وجود قيمة مجهولة احسب المجموع المطلوب أولاً، وعند دمج مجموعتين استخدم عدد عناصر كل مجموعة."
+      },
+      {
+        "title": "الخلاصة",
+        "narration": "المتوسط يساوي المجموع على العدد. حل ثمانية عشر سؤال تدريب، وراجع الحلول، ثم اختبر نفسك بخمسة أسئلة."
+      }
+    ]
+  }
+}
