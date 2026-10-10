@@ -1,0 +1,14 @@
+{
+  "lesson": "undefined-slope",
+  "builders": [
+    "undefined-slope-lesson25-full-video-build.js"
+  ],
+  "routes": [
+    "/algebra/linear-functions/undefined-slope/explanation/",
+    "/algebra/linear-functions/undefined-slope/problems/",
+    "/algebra/linear-functions/undefined-slope/answers/",
+    "/algebra/linear-functions/undefined-slope/test/",
+    "/algebra/linear-functions/undefined-slope/video/english/",
+    "/algebra/linear-functions/undefined-slope/video/arabic/"
+  ]
+}
