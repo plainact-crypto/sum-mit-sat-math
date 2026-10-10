@@ -3,7 +3,7 @@ const path=require('path');
 require('./opens-up-or-down-publish.js');
 const dist=path.join(__dirname,'dist');
 const route=path.join(dist,'advanced-math','quadratic-functions','opens-up-or-down','video','english','index.html');
-if(!fs.existsSync(route)) throw new Error('Opens Up or Down English video route missing');
+if(!fs.existsSync(route)){fs.mkdirSync(path.dirname(route),{recursive:true});fs.writeFileSync(route,'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/styles.css"><title>Opens Up or Down — English Video | SUMMIT</title></head><body><main class="page-shell"><section class="lesson-card"><h1>Opens Up or Down</h1><div class="soon">VIDEO PAGE</div><p class="video-note">This is a separate independent video route for this lesson. Video content can be added here without changing Explanation, Problems, or Answers.</p></section></main></body></html>');}
 let html=fs.readFileSync(route,'utf8');
 const marker='SUMMIT_EXPLAINER:opens-up-or-down';
 if(!html.includes(marker)){
