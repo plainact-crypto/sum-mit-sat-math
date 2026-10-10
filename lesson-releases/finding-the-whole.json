@@ -1,0 +1,17 @@
+{
+  "lesson": "finding-the-whole",
+  "builders": [
+    "finding-the-whole-lesson173-explanation-build.js",
+    "finding-the-whole-lesson173-practice-build.js",
+    "finding-the-whole-lesson173-test-build.js",
+    "finding-the-whole-lesson173-video-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/percentages/finding-the-whole/explanation/",
+    "/problem-solving-and-data-analysis/percentages/finding-the-whole/problems/",
+    "/problem-solving-and-data-analysis/percentages/finding-the-whole/answers/",
+    "/problem-solving-and-data-analysis/percentages/finding-the-whole/test/",
+    "/problem-solving-and-data-analysis/percentages/finding-the-whole/video/english/",
+    "/problem-solving-and-data-analysis/percentages/finding-the-whole/video/arabic/"
+  ]
+}
