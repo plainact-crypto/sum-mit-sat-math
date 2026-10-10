@@ -1,0 +1,372 @@
+{
+  "slug": "quadratic-function-word-problems",
+  "title": "Quadratic Function Word Problems",
+  "index": 97,
+  "location": [
+    "Advanced Math",
+    "Quadratic Functions",
+    "Other Quadratic Function Leaves"
+  ],
+  "classification": "DESMOS",
+  "explanation": [
+    [
+      "LESSON OBJECTIVE",
+      "Solve real-world quadratic function problems.",
+      "Identify variables and domains, optimize a model or solve a target equation, and report meaningful units."
+    ],
+    [
+      "WHAT YOU NEED TO KNOW / CORE IDEA",
+      "Quadratics model changing rates and turning points.",
+      "Area, revenue, profit, and height can follow f(x)=ax²+bx+c. Negative a gives a maximum; positive a gives a minimum."
+    ],
+    [
+      "KEY DEFINITIONS",
+      "Model, domain, vertex, root, break-even.",
+      "A model represents a situation. Its domain contains allowed inputs. The vertex is the turning point; roots give output zero. Break-even means profit zero."
+    ],
+    [
+      "CORE RULE",
+      "Use vertex for an optimum and roots for a target.",
+      "For f(x)=ax²+bx+c, vertex x=−b/(2a), y=f(−b/(2a)). For target T solve f(x)=T and check domain."
+    ],
+    [
+      "HOW IT WORKS",
+      "Read, model, solve, interpret, check.",
+      "Define x and units; build the quadratic; identify the valid domain; choose vertex or target equation; solve and reject invalid roots."
+    ],
+    [
+      "WORKED EXAMPLE 1",
+      "Revenue from price and demand.",
+      "If demand is 60−3p, R(p)=p(60−3p)=−3p²+60p. Vertex p=10 gives maximum revenue $300."
+    ],
+    [
+      "WORKED EXAMPLE 2",
+      "Area with a fencing constraint.",
+      "For 40 m of fence along three sides, A(x)=x(40−2x)=−2(x−10)²+200. The maximum area is 200 m²."
+    ],
+    [
+      "WORKED EXAMPLE 3",
+      "Maximum height.",
+      "For h(t)=−4t²+16t+2, the vertex is at t=2 seconds and h=18 meters."
+    ],
+    [
+      "WORKED EXAMPLE 4",
+      "Two quantities can meet one target.",
+      "If p=50−2q, R(q)=50q−2q². Solve R(q)=300: (q−10)(q−15)=0, so q=10 or 15."
+    ],
+    [
+      "GRAPH / VISUAL BLOCK",
+      "Verified revenue graph.",
+      "R(q)=50q−2q² has vertex (12.5,312.5), zeros 0 and 25, and outputs R(10)=R(15)=300."
+    ],
+    [
+      "COMMON MISTAKES",
+      "Do not ignore the context.",
+      "Reject negative time or length, keep units, distinguish vertex input from output, and distinguish revenue from profit."
+    ],
+    [
+      "EXAM STRATEGY",
+      "Choose an exact method first.",
+      "Use −b/(2a) for extrema; factor or use the quadratic formula for target equations; verify by substitution."
+    ],
+    [
+      "QUICK CHECK",
+      "Try these before continuing.",
+      "R(q)=q(20−q) gives R(5)=75. For h(t)=−5t²+20t+1, h(1)=16. For C(x)=2(x−3)²+32, minimum is 32."
+    ],
+    [
+      "LESSON RECAP",
+      "Interpret every mathematical result.",
+      "State the model and domain, solve for vertex or target, check roots, and give units."
+    ]
+  ],
+  "practice": [
+    {
+      "number": 1,
+      "group": "Skill Check",
+      "question": "For h(t)=−5t²+20t+1 meters, find h(1).",
+      "answer": "16 m",
+      "solution": "Substitute: −5+20+1=16 m."
+    },
+    {
+      "number": 2,
+      "group": "Skill Check",
+      "question": "Revenue R(q)=q(20−q) dollars. Find R(5).",
+      "answer": "$75",
+      "solution": "5(20−5)=75."
+    },
+    {
+      "number": 3,
+      "group": "Skill Check",
+      "question": "Profit P(x)=−(x−4)²+16 is in hundreds of dollars. State its maximum.",
+      "answer": "$1,600 at x=4",
+      "solution": "The square is minimized at x=4; P(4)=16 hundreds."
+    },
+    {
+      "number": 4,
+      "group": "Core Practice",
+      "question": "Forty meters of fence cover three sides of a rectangle against a wall. The perpendicular sides are x m. Find maximum area.",
+      "answer": "200 m² at x=10 m",
+      "solution": "A(x)=x(40−2x)=−2(x−10)²+200, with 0<x<20."
+    },
+    {
+      "number": 5,
+      "group": "Core Practice",
+      "question": "A ball follows h(t)=−4t²+16t+2 meters. Find its maximum height and time.",
+      "answer": "18 m at 2 s",
+      "solution": "Vertex time −16/(2·−4)=2; h(2)=18."
+    },
+    {
+      "number": 6,
+      "group": "Core Practice",
+      "question": "At price p dollars, a store sells 60−3p items. Find price and maximum revenue.",
+      "answer": "$10; $300",
+      "solution": "R(p)=−3p²+60p. Vertex p=10 and R(10)=300."
+    },
+    {
+      "number": 7,
+      "group": "Core Practice",
+      "question": "A rectangle has width x m, length x+6 m, and area 72 m². Find its dimensions.",
+      "answer": "6 m by 12 m",
+      "solution": "x(x+6)=72 gives (x+12)(x−6)=0. Reject x=−12."
+    },
+    {
+      "number": 8,
+      "group": "Core Practice",
+      "question": "Profit P(x)=−(x−2)(x−10) for 0≤x≤12. Find break-even and positive-profit ranges.",
+      "answer": "Break-even x=2,10; profit positive for 2<x<10",
+      "solution": "Roots are 2 and 10; the negative product is positive between roots."
+    },
+    {
+      "number": 9,
+      "group": "Core Practice",
+      "question": "Height h(t)=−5t²+25t meters. Find the positive time when the ball lands.",
+      "answer": "5 s",
+      "solution": "−5t(t−5)=0, so t=0 or 5; t=5 is landing."
+    },
+    {
+      "number": 10,
+      "group": "Core Practice",
+      "question": "Revenue R(p)=p(100−4p), 0≤p≤25. Find the maximizing price and revenue.",
+      "answer": "$12.50; $625",
+      "solution": "Vertex of −4p²+100p is p=12.5, giving 625."
+    },
+    {
+      "number": 11,
+      "group": "Core Practice",
+      "question": "Cost C(x)=2x²−12x+50 dollars. Find minimum cost.",
+      "answer": "$32 at x=3",
+      "solution": "C(x)=2(x−3)²+32."
+    },
+    {
+      "number": 12,
+      "group": "Exam-Style",
+      "question": "Height h(t)=−5t²+30t+10 meters. When does it return to launch height 10 m?",
+      "answer": "6 s",
+      "solution": "Set h=10: −5t(t−6)=0; take the later root."
+    },
+    {
+      "number": 13,
+      "group": "Exam-Style",
+      "question": "Demand p=50−2q. Find quantities 0≤q≤25 that yield $300 revenue.",
+      "answer": "q=10 or 15",
+      "solution": "R(q)=50q−2q²; R=300 gives (q−10)(q−15)=0."
+    },
+    {
+      "number": 14,
+      "group": "Exam-Style",
+      "question": "A rectangle has perimeter 60 m and area 200 m². Find side lengths.",
+      "answer": "10 m and 20 m",
+      "solution": "x(30−x)=200 gives (x−10)(x−20)=0."
+    },
+    {
+      "number": 15,
+      "group": "Exam-Style",
+      "question": "Profit P(x)=−2x²+24x−40 dollars. Find maximum profit.",
+      "answer": "$32 at x=6",
+      "solution": "Vertex x=6; P(6)=−72+144−40=32."
+    },
+    {
+      "number": 16,
+      "group": "Exam-Style",
+      "question": "Height h(t)=−5t²+20t+15 meters. Find positive ground-hit time exactly and to two decimals.",
+      "answer": "2+√7 ≈ 4.65 s",
+      "solution": "Set h=0: t²−4t−3=0, so t=2±√7. Reject negative time."
+    },
+    {
+      "number": 17,
+      "group": "Challenge",
+      "question": "Profit P(x)=−(x−8)²+64 dollars. Find all x≥0 for which profit is at least $48.",
+      "answer": "4≤x≤12",
+      "solution": "(x−8)²≤16 implies 4≤x≤12."
+    },
+    {
+      "number": 18,
+      "group": "Challenge",
+      "question": "Profit P(x)=−3x²+48x−60 dollars. Find its maximum and exact break-even levels.",
+      "answer": "Maximum $132 at x=8; break-even x=8±2√11",
+      "solution": "P=−3(x−8)²+132; set P=0 to get (x−8)²=44."
+    }
+  ],
+  "test": [
+    {
+      "number": 1,
+      "difficulty": "Easy",
+      "question": "For h(t)=−4t²+12t+1, what is h(1)?",
+      "options": [
+        "5",
+        "9",
+        "13",
+        "17"
+      ],
+      "correct": 1,
+      "solution": "−4+12+1=9."
+    },
+    {
+      "number": 2,
+      "difficulty": "Easy / Medium",
+      "question": "For A(x)=x(20−x), what is the maximum area?",
+      "options": [
+        "50",
+        "80",
+        "100",
+        "200"
+      ],
+      "correct": 2,
+      "solution": "A(x)=−(x−10)²+100; maximum 100."
+    },
+    {
+      "number": 3,
+      "difficulty": "Medium",
+      "question": "For R(q)=40q−q², which quantities give revenue 300?",
+      "options": [
+        "5 and 35",
+        "10 and 30",
+        "15 and 25",
+        "20 only"
+      ],
+      "correct": 1,
+      "solution": "q²−40q+300=(q−10)(q−30)=0."
+    },
+    {
+      "number": 4,
+      "difficulty": "Medium / Hard",
+      "question": "For P(x)=−2x²+16x−18, what is maximum profit?",
+      "options": [
+        "14",
+        "18",
+        "30",
+        "32"
+      ],
+      "correct": 0,
+      "solution": "At vertex x=4, P(4)=14."
+    },
+    {
+      "number": 5,
+      "difficulty": "Hard / Exam-Style",
+      "question": "For h(t)=−5t²+20t+5, at which times is h=20?",
+      "options": [
+        "t=1 only",
+        "t=3 only",
+        "t=1 and t=3",
+        "t=2 and t=4"
+      ],
+      "correct": 2,
+      "solution": "t²−4t+3=(t−1)(t−3)=0."
+    }
+  ],
+  "desmos": {
+    "enter": "y=50x-2x^2",
+    "lookFor": "Vertex (12.5,312.5), zeros 0 and 25, and y=300 intersections x=10 and 15.",
+    "useIt": "Check maximum revenue and quantities producing $300 within 0≤x≤25.",
+    "why": "The downward parabola has its maximum at the vertex; horizontal intersections solve target revenue.",
+    "faster": "Exact vertex algebra and factoring are faster; Desmos verifies graph interpretation.",
+    "mathCheck": "−50/(2·−2)=12.5, R(12.5)=312.5, R(10)=R(15)=300."
+  },
+  "video": {
+    "english": [
+      [
+        "Introduction",
+        "Quadratic word problems model area, revenue, profit, and height. Define your variables and units."
+      ],
+      [
+        "Domain",
+        "Real-world inputs may be restricted to nonnegative time, positive length, or feasible sales."
+      ],
+      [
+        "Vertex rule",
+        "The vertex input is −b/(2a). A negative leading coefficient gives a maximum."
+      ],
+      [
+        "Revenue",
+        "R(p)=p(60−3p)=−3p²+60p; optimal price $10 yields $300 revenue."
+      ],
+      [
+        "Area",
+        "With 40 meters of fencing for three sides, A(x)=x(40−2x)=−2(x−10)²+200."
+      ],
+      [
+        "Height",
+        "For h(t)=−4t²+16t+2, maximum height is 18 meters after 2 seconds."
+      ],
+      [
+        "Target values",
+        "To find revenue 300, set R(q)=300, not just the vertex."
+      ],
+      [
+        "Two roots",
+        "For R(q)=50q−2q², quantities 10 and 15 both give $300."
+      ],
+      [
+        "Graph and Desmos",
+        "The revenue vertex is (12.5,312.5); roots are 0 and 25. Algebra confirms the graph."
+      ],
+      [
+        "Recap",
+        "Choose vertex or equation, respect domain, check by substitution, and state units."
+      ]
+    ],
+    "arabic": [
+      [
+        "مقدمة",
+        "المسائل الكلامية التربيعية تمثل المساحة والإيراد والربح والارتفاع. حدد المتغيرات ووحداتها."
+      ],
+      [
+        "المجال",
+        "الزمن غير سالب والطول موجب والكمية المباعة ضمن حدود الطلب."
+      ],
+      [
+        "قاعدة الرأس",
+        "إحداثي الرأس الأفقي هو −b/(2a). المعامل السالب لـ x² يعني قيمة عظمى."
+      ],
+      [
+        "الإيراد",
+        "R(p)=p(60−3p)=−3p²+60p؛ السعر الأمثل 10 دولارات والإيراد 300 دولار."
+      ],
+      [
+        "المساحة",
+        "باستخدام 40 متراً من السياج لثلاثة أضلاع: A(x)=x(40−2x)=−2(x−10)²+200."
+      ],
+      [
+        "الارتفاع",
+        "في h(t)=−4t²+16t+2 تكون القمة 18 متراً بعد ثانيتين."
+      ],
+      [
+        "القيمة المطلوبة",
+        "لإيجاد كمية تحقق إيراد 300 نحل R(q)=300، وليس فقط الرأس."
+      ],
+      [
+        "جذران",
+        "في R(q)=50q−2q² تحقق الكميتان 10 و15 إيراد 300 دولار."
+      ],
+      [
+        "الرسم وديسموس",
+        "رأس منحنى الإيراد (12.5,312.5) وجذراه صفر و25. الجبر يؤكد الرسم."
+      ],
+      [
+        "الخلاصة",
+        "اختر الرأس أو المعادلة، واحترم المجال، وتحقق بالتعويض، واكتب الوحدات."
+      ]
+    ]
+  }
+}
