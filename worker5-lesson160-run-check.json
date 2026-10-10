@@ -1,1 +1,21 @@
-{"lesson":160,"slug":"unit-rates","state":"LOCAL_PACKAGE_QA_PASS","math":"23/23","browser":"61/61","full_video":"16:9","production":"PENDING"}
+{
+  "lesson": 160,
+  "slug": "unit-rates",
+  "state": "BLOCKED_PRODUCTION_WIRING",
+  "core": "COMPLETE_ON_BRANCH",
+  "practice": "18 (3/8/5/2)",
+  "solutions": 18,
+  "test": 5,
+  "explanation": 16,
+  "video_routes": [
+    "video/english",
+    "video/arabic"
+  ],
+  "math_qa": "23/23 PASS",
+  "browser_qa_local": "61/61 PASS",
+  "branch_build_emulation": "6/6 routes PASS",
+  "main_merge": false,
+  "production_live": false,
+  "broadcast": "NOT_SENT",
+  "blocker": "GitHub safety checks rejected production-build.js update and PR creation; continue new lesson production."
+}
