@@ -1,0 +1,17 @@
+{
+  "lesson": "part-to-part-ratios",
+  "builders": [
+    "part-to-part-ratios-lesson158-explanation-build.js",
+    "part-to-part-ratios-lesson158-practice-build.js",
+    "part-to-part-ratios-lesson158-test-build.js",
+    "part-to-part-ratios-lesson158-video-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/ratios/part-to-part-ratios/explanation/",
+    "/problem-solving-and-data-analysis/ratios/part-to-part-ratios/problems/",
+    "/problem-solving-and-data-analysis/ratios/part-to-part-ratios/answers/",
+    "/problem-solving-and-data-analysis/ratios/part-to-part-ratios/test/",
+    "/problem-solving-and-data-analysis/ratios/part-to-part-ratios/video/english/",
+    "/problem-solving-and-data-analysis/ratios/part-to-part-ratios/video/arabic/"
+  ]
+}
