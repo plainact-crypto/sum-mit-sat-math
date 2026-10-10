@@ -1,0 +1,66 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Find every real input that makes a rational expression undefined, including restrictions hidden by cancellation or division. The governing rule is denominator ≠ 0."
+  ],
+  [
+    "CORE IDEA",
+    "A rational expression is defined wherever its original denominator is nonzero. Always determine restrictions before simplifying: a canceled factor still creates an excluded input in the original expression."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Domain: all permitted inputs. Undefined value: an input that makes a denominator zero. Excluded value: a number omitted from the domain. Removable hole: an excluded input that disappears from a simplified formula."
+  ],
+  [
+    "CORE RULE",
+    "For P(x)/Q(x), solve Q(x)=0 and exclude those real roots. If dividing by a rational expression A(x)/B(x), also require A(x)≠0 because the divisor cannot equal zero."
+  ],
+  [
+    "HOW IT WORKS",
+    "1. Identify every original denominator. 2. Factor each denominator or solve its zeros. 3. If dividing, exclude zeros of the divisor itself. 4. Apply any contextual constraints. 5. State the domain before cancellation."
+  ],
+  [
+    "WORKED EXAMPLE 1 — LINEAR DENOMINATOR",
+    "For 1/(x−4), solve x−4=0 to get x=4. The domain is all real numbers except 4. The numerator being 1 creates no restriction."
+  ],
+  [
+    "WORKED EXAMPLE 2 — FACTORED QUADRATIC",
+    "For (x+3)/(x²−9), factor x²−9=(x−3)(x+3). The denominator vanishes at x=−3 and x=3. Even though x+3 cancels algebraically, both exclusions remain."
+  ],
+  [
+    "WORKED EXAMPLE 3 — REPEATED FACTOR",
+    "For (x²−16)/(x²−8x+16), factor the denominator as (x−4)². Only x=4 is forbidden; a repeated zero is still one distinct excluded input."
+  ],
+  [
+    "WORKED EXAMPLE 4 — DIVIDING RATIONAL EXPRESSIONS",
+    "For ((x−1)/(x+1)) ÷ ((x−1)/(x−3)), the denominators require x≠−1,3. The divisor (x−1)/(x−3) must also be nonzero, so x≠1. Final exclusions: −1,1,3."
+  ],
+  [
+    "WORKED EXAMPLE 5 — CONTEXT AND PARAMETERS",
+    "If R(t)=t/(t−5) models positive time t, the context requires t>0 and the denominator requires t≠5. For D(x)=x²−(k+1)x+k=(x−1)(x−k), forbidden inputs are 1 and k."
+  ],
+  [
+    "WORKED EXAMPLE 6 — NO REAL RESTRICTION",
+    "For 1/(x²+1), x²≥0 for all real x, so x²+1≥1 and never vanishes. Its real domain is all real numbers."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not exclude zeros of a numerator unless that expression is the divisor. Do not restore a canceled denominator zero. Do not assume a quadratic always has real zeros. Check context limits separately."
+  ],
+  [
+    "EXAM STRATEGY",
+    "Find restrictions from the ORIGINAL expression before doing any algebraic cancellation. Factoring denominators is usually fastest; use the discriminant or completing the square when a quadratic does not factor over the reals."
+  ],
+  [
+    "QUICK CHECK",
+    "1) 5/(x+2) is undefined at x=−2. 2) (x²−25)/(x−5) still excludes x=5 after simplification. 3) 1/(x²+1) has no real exclusions. 4) A zero numerator alone does not make a fraction undefined."
+  ],
+  [
+    "LESSON RECAP",
+    "Denominator zeros are forbidden. Record restrictions first, factor carefully, preserve holes, and for division also exclude inputs that make the divisor zero. Apply real-world domain constraints."
+  ],
+  [
+    "NEXT STEP",
+    "Complete the 18 Practice Problems, review the 18 aligned Answers & Solutions, take the five-question Lesson Test, then study the English or Arabic full lesson video."
+  ]
+]
