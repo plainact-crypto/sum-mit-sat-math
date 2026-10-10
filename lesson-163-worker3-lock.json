@@ -8,8 +8,11 @@
   "content_qa": "PASS",
   "isolated_routes": "6/6",
   "blockers": [
-    "GitHub PR creation safety-check failures",
-    "Vercel deployment API HTTP 402 daily quota"
+    "GitHub PR creation blocked by safety checks",
+    "Vercel deployment API daily quota HTTP 402"
   ],
-  "note": "Keep producing new lessons; retry release without duplicating manifest."
+  "note": "Keep producing new lessons; retry release without duplicating manifest.",
+  "full_build": "PASS",
+  "production_routes": "6/6 generated and non-placeholder in full build",
+  "production_release": "PENDING"
 }
