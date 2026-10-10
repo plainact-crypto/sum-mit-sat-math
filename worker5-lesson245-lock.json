@@ -2,8 +2,10 @@
   "worker": "SUMMIT Worker 5",
   "lesson_index": 245,
   "slug": "square-area",
-  "state": "IN_PROGRESS",
+  "state": "BLOCKED_REPOSITORY_CONTENT_UPLOAD",
   "date": "2026-10-10",
   "ownership": "indices divisible by 5",
-  "branch": "automation/worker5-lesson245-square-area-20261008-1930"
+  "branch": "automation/worker5-lesson245-square-area-20261008-1930",
+  "local_core_complete": true,
+  "qa": "23/23 math, 90/90 browser"
 }
