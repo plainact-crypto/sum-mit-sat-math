@@ -1,0 +1,27 @@
+{
+  "lesson_index": 275,
+  "lesson_slug": "inscribed-angles",
+  "worker": "SUMMIT Worker 5",
+  "started_at": "2026-10-10T14:19:27+03:00",
+  "branch": "automation/worker5-lesson275-inscribed-angles-20261010-1419",
+  "state": "LOCAL_CORE_COMPLETE_REPOSITORY_INTEGRATION_BLOCKED",
+  "practice": 18,
+  "distribution": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "answers": 18,
+  "test": 5,
+  "explanation_sections": 16,
+  "math_qa": "23/23 PASS",
+  "static_route_qa": "6/6 PASS",
+  "browser_qa": "BLOCKED_BY_ADMINISTRATOR",
+  "video": "English 1280x720 MP4 203.5s; English/Arabic narrated routes",
+  "release_manifest": "lesson-releases/inscribed-angles.json (local; not committed)",
+  "production_ready": false,
+  "live_routes_verified": false,
+  "broadcast_status": "NOT_ELIGIBLE",
+  "blocker": "Local file transfer into GitHub connector unavailable; Chromium navigation blocked by administrator. Source, manifest, production build, and live routes require integration before release."
+}
