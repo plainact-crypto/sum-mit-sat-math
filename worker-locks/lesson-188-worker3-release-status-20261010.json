@@ -1,0 +1,28 @@
+{
+  "lesson_index": 188,
+  "slug": "weighted-mean",
+  "worker": "worker3",
+  "date": "2026-10-10",
+  "status": "RELEASE_BLOCKED",
+  "completed": [
+    "18 practice questions (3/8/5/2)",
+    "18 aligned solutions",
+    "5 progressive test questions",
+    "16-section explanation",
+    "14 English and 14 Arabic full-lesson scenes",
+    "4 required builder scripts",
+    "unique release manifest"
+  ],
+  "qa": {
+    "independent_math_checks": "23/23 PASS",
+    "builder_syntax": "4/4 PASS"
+  },
+  "outstanding": [
+    "Explanation classification registry update blocked",
+    "Full repository build not verified",
+    "Six dist HTML routes not verified",
+    "No main merge",
+    "No Vercel READY production verification",
+    "No announcement email sent"
+  ]
+}
