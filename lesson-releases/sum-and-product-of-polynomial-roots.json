@@ -1,0 +1,15 @@
+{
+  "lesson": "sum-and-product-of-polynomial-roots",
+  "builders": [
+    "sum-and-product-of-polynomial-roots-content-build.js",
+    "sum-and-product-of-polynomial-roots-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/polynomial-equations/sum-and-product-of-polynomial-roots/explanation/",
+    "/advanced-math/polynomial-equations/sum-and-product-of-polynomial-roots/problems/",
+    "/advanced-math/polynomial-equations/sum-and-product-of-polynomial-roots/answers/",
+    "/advanced-math/polynomial-equations/sum-and-product-of-polynomial-roots/test/",
+    "/advanced-math/polynomial-equations/sum-and-product-of-polynomial-roots/video/english/",
+    "/advanced-math/polynomial-equations/sum-and-product-of-polynomial-roots/video/arabic/"
+  ]
+}
