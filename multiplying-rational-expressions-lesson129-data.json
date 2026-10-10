@@ -1,0 +1,135 @@
+{
+  "lesson": "Multiplying Rational Expressions",
+  "slug": "multiplying-rational-expressions",
+  "classification": "NEITHER",
+  "groups": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "practice": [
+    [
+      "Multiply (2/x)(3/5). State restrictions.",
+      "6/(5x); x≠0",
+      "Multiply numerators 2·3=6 and denominators x·5=5x. The original denominator excludes x=0."
+    ],
+    [
+      "Simplify (x/4)(8/x), stating restrictions.",
+      "2; x≠0",
+      "Cancel the nonzero x and reduce 8/4=2. x=0 remains excluded."
+    ],
+    [
+      "Multiply (3x/5)(10/(9x²)).",
+      "2/(3x); x≠0",
+      "30x/(45x²)=2/(3x), with x≠0 from the original denominator."
+    ],
+    [
+      "Simplify ((x²−9)/(x+2))((x+2)/(x−3)).",
+      "x+3; x≠−2,3",
+      "Factor x²−9=(x−3)(x+3). Cancel x−3 and x+2 only after recording original denominator restrictions."
+    ],
+    [
+      "Simplify ((x²−4)/(x²−1))((x−1)/(x+2)).",
+      "(x−2)/(x+1); x≠−2,−1,1",
+      "Factor x²−4=(x−2)(x+2), x²−1=(x−1)(x+1). Cancel x+2 and x−1; keep all original exclusions."
+    ],
+    [
+      "Simplify ((x²+5x+6)/(x²−4))((x−2)/(x+3)).",
+      "1; x≠−3,−2,2",
+      "Factor numerator (x+2)(x+3) and denominator (x−2)(x+2); every factor cancels where the original product is defined."
+    ],
+    [
+      "Multiply (4x²/(3y))(9y²/(8x)).",
+      "3xy/2; x≠0, y≠0",
+      "Multiply to get 36x²y²/(24xy), then reduce to 3xy/2. Both original denominators must be nonzero."
+    ],
+    [
+      "Simplify ((x²−16)/(2x))((6x)/(x+4)).",
+      "3(x−4); x≠0,−4",
+      "Use x²−16=(x−4)(x+4), cancel x and x+4, and simplify 6/2=3."
+    ],
+    [
+      "Simplify ((x²−5x)/(x²−25))((x+5)/x).",
+      "1; x≠−5,0,5",
+      "Factor x(x−5)/[(x−5)(x+5)] and multiply by (x+5)/x; all factors cancel on the original domain."
+    ],
+    [
+      "Simplify ((x²+3x+2)/(x²−1))((x−1)/(x+4)).",
+      "(x+2)/(x+4); x≠−4,−1,1",
+      "Factor (x+1)(x+2)/[(x−1)(x+1)] and cancel x+1 and x−1 against the second numerator."
+    ],
+    [
+      "Simplify ((x²−4x+4)/(x²−4))((x+2)/(x−1)).",
+      "(x−2)/(x−1); x≠−2,1,2",
+      "Factor (x−2)²/[(x−2)(x+2)]; cancel one x−2 and x+2, leaving (x−2)/(x−1)."
+    ],
+    [
+      "A student simplifies ((x²−6x+9)/(x²−9))((x+3)/(x−3)) to 1. Which x-values are excluded?",
+      "x≠−3,3",
+      "The simplification is 1 because (x−3)²/[(x−3)(x+3)]·(x+3)/(x−3)=1, but original denominators exclude ±3."
+    ],
+    [
+      "Simplify ((x²+2x−15)/(x²−25))((x−5)/(x+5)).",
+      "(x−3)/(x+5); x≠−5,5",
+      "Factor (x+5)(x−3)/[(x−5)(x+5)] and cancel the x−5 factor in the second numerator."
+    ],
+    [
+      "Simplify ((x²−2x−8)/(x²+5x+6))((x+2)/(x−4)).",
+      "(x+2)/(x+3); x≠−3,−2,4",
+      "Factor (x−4)(x+2)/[(x+2)(x+3)] and cancel x−4 and one x+2."
+    ],
+    [
+      "Simplify ((x²−1)/(x²+2x+1))((x+1)/(2x−2)).",
+      "1/2; x≠−1,1",
+      "Factor (x−1)(x+1)/(x+1)² times (x+1)/[2(x−1)], cancel nonzero factors."
+    ],
+    [
+      "An area is x²−9 square units and its width is x−3 units. Multiply the length (area/width) by 2x/(x+3). Assume x>3.",
+      "2x",
+      "Length=(x²−9)/(x−3)=x+3; multiplying by 2x/(x+3) gives 2x. x>3 ensures positive dimensions and valid denominators."
+    ],
+    [
+      "For real a, ((x²−a²)/(x²−9))((x−3)/(x+a)) simplifies to (x−4)/(x+3). Find a and list exclusions for that value.",
+      "a=4; x≠−4,−3,3",
+      "Factor x²−a²=(x−a)(x+a) and x²−9=(x−3)(x+3). The product becomes (x−a)/(x+3), so a=4; original denominators exclude x=±3 and x=−4."
+    ],
+    [
+      "Simplify ((x²−1)/(x²−4x+3))((x²−9)/(x²+4x+3)); give all exclusions.",
+      "1; x≠−3,−1,1,3",
+      "Factor (x−1)(x+1)/[(x−1)(x−3)] times (x−3)(x+3)/[(x+1)(x+3)]. Every factor cancels, but all four original denominator zeros remain excluded."
+    ]
+  ],
+  "tests": [
+    [
+      "Easy",
+      "Multiply (5/x)(2/3). State the restriction.",
+      "10/(3x); x≠0",
+      "Numerators 5·2=10, denominators 3x; x cannot be zero."
+    ],
+    [
+      "Easy / Medium",
+      "Simplify ((x²−25)/(x−5))(3/(x+5)). State restrictions.",
+      "3; x≠−5,5",
+      "Factor x²−25=(x−5)(x+5); cancel both factors, preserving both original restrictions."
+    ],
+    [
+      "Medium",
+      "Simplify ((x²+7x+12)/(x²−16))((x−4)/(x+3)).",
+      "1; x≠−4,−3,4",
+      "Factor (x+3)(x+4)/[(x−4)(x+4)] times (x−4)/(x+3); cancel, keep restrictions."
+    ],
+    [
+      "Medium / Hard",
+      "Simplify ((x²−2x−15)/(x²−9))((x−3)/(x+5)). State restrictions.",
+      "(x−5)/(x+5); x≠−5,−3,3",
+      "Factor (x−5)(x+3)/[(x−3)(x+3)] times (x−3)/(x+5); cancel x−3 and x+3, leaving (x−5)/(x+5)."
+    ],
+    [
+      "Hard / Exam-Style",
+      "A student claims ((x²−16)/(x²−8x+16))((x−4)/(x+4))=1 for all real x. Correct the claim.",
+      "1 for x≠−4,4",
+      "Factor (x−4)(x+4)/(x−4)² times (x−4)/(x+4)=1. Original denominators exclude x=4 and x=−4."
+    ]
+  ]
+}
