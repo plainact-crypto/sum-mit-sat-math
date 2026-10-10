@@ -1,0 +1,386 @@
+{
+  "title": "Polynomial Systems",
+  "slug": "polynomial-systems",
+  "base": "/advanced-math/nonlinear-equations-and-systems/polynomial-systems",
+  "subject": "Advanced Math",
+  "section": "Nonlinear Equations and Systems",
+  "classification": "DESMOS",
+  "explanation": [
+    {
+      "heading": "LESSON OBJECTIVE",
+      "text": "Solve polynomial systems by substitution and check all real ordered pairs in both original equations."
+    },
+    {
+      "heading": "WHAT YOU NEED TO KNOW / CORE IDEA",
+      "text": "An intersection point satisfies both equations. A system can have zero, one, two, or more real solutions."
+    },
+    {
+      "heading": "KEY DEFINITIONS",
+      "text": "Polynomial: an expression using nonnegative integer powers. Solution: an ordered pair satisfying both equations. Intersection: a common point of two graphs."
+    },
+    {
+      "heading": "CORE RULE",
+      "text": "Isolate a variable, substitute, solve the resulting polynomial, back-substitute, and verify each ordered pair in BOTH equations."
+    },
+    {
+      "heading": "HOW IT WORKS",
+      "text": "1. Express y in terms of x when possible. 2. Substitute. 3. Factor or use the quadratic formula. 4. Recover y. 5. Check both equations."
+    },
+    {
+      "heading": "WORKED EXAMPLE 1 — PARABOLA AND LINE",
+      "text": "For y=x² and y=x+2, solve x²=x+2, or (x−2)(x+1)=0. x=−1 gives y=1; x=2 gives y=4. Both satisfy both equations."
+    },
+    {
+      "heading": "WORKED EXAMPLE 2 — TANGENT OR NONE",
+      "text": "For y=x²+4 and y=4, x²=0 gives one point (0,4). For y=x²+1 and y=0, x²=−1 gives no real intersection."
+    },
+    {
+      "heading": "WORKED EXAMPLE 3 — CIRCLE AND LINE",
+      "text": "For x²+y²=25 and y=3, substitute x²+9=25. Then x=±4, giving (−4,3) and (4,3)."
+    },
+    {
+      "heading": "WORKED EXAMPLE 4 — TWO POLYNOMIALS",
+      "text": "If x²+y²=25 and x+y=7, then 49=25+2xy, so xy=12. Numbers with sum 7 and product 12 are 3 and 4; solutions (3,4),(4,3)."
+    },
+    {
+      "heading": "DESMOS STRATEGY",
+      "text": "Enter: y=x² and y=x+2. Look for: intersections (−1,1) and (2,4). Use it to answer: read both ordered pairs and check in both equations. Why it works: a shared point satisfies both graphs. Faster or not? Desmos is quick for intersections, but algebra is safer for exact radical answers. Check: (−1)²=1=−1+2 and 2²=4=2+2."
+    },
+    {
+      "heading": "COMMON MISTAKES",
+      "text": "Do not stop after solving x; calculate y. Keep negative roots. Exclude non-real roots and check all candidates in both equations."
+    },
+    {
+      "heading": "EXAM STRATEGY",
+      "text": "When both equations equal y, equate the expressions immediately. For a circle and a line, substitute and solve the quadratic; use the discriminant to count real intersections."
+    },
+    {
+      "heading": "QUICK CHECK",
+      "text": "y=x² and y=9 gives (−3,9),(3,9). y=x²+1 and y=1 gives (0,1). y=x²+1 and y=0 gives no real solution."
+    },
+    {
+      "heading": "LESSON RECAP",
+      "text": "Substitute → solve polynomial → back-substitute → verify. Report ALL real ordered pairs."
+    },
+    {
+      "heading": "NEXT STEP",
+      "text": "Complete 18 practice problems, review 18 worked solutions, and submit the five-question test. Full English and Arabic instructional routes follow."
+    }
+  ],
+  "practice": [
+    {
+      "number": 1,
+      "group": "Skill Check",
+      "question": "Find every real ordered-pair solution to the system: y=x²; y=9.",
+      "answer": "(−3,9), (3,9)",
+      "solution": "Substitute y=9: x²=9, so x=−3 or 3; y=9."
+    },
+    {
+      "number": 2,
+      "group": "Skill Check",
+      "question": "Find every real ordered-pair solution to the system: y=x²+4; y=4.",
+      "answer": "(0,4)",
+      "solution": "x²+4=4 gives x²=0. One tangent intersection (0,4)."
+    },
+    {
+      "number": 3,
+      "group": "Skill Check",
+      "question": "Find every real ordered-pair solution to the system: y=x²+1; y=0.",
+      "answer": "No real solution",
+      "solution": "x²+1=0 means x²=−1, impossible over the reals."
+    },
+    {
+      "number": 4,
+      "group": "Core Practice",
+      "question": "Find every real ordered-pair solution to the system: y=x²; y=x+2.",
+      "answer": "(−1,1), (2,4)",
+      "solution": "x²−x−2=(x−2)(x+1)=0. Substitute each x into y=x+2."
+    },
+    {
+      "number": 5,
+      "group": "Core Practice",
+      "question": "Find every real ordered-pair solution to the system: y=x²−2x; y=0.",
+      "answer": "(0,0), (2,0)",
+      "solution": "x²−2x=x(x−2)=0, so x=0 or 2 and y=0."
+    },
+    {
+      "number": 6,
+      "group": "Core Practice",
+      "question": "Find every real ordered-pair solution to the system: y=x²+2x; y=3.",
+      "answer": "(−3,3), (1,3)",
+      "solution": "x²+2x−3=(x+3)(x−1)=0; y=3 for both roots."
+    },
+    {
+      "number": 7,
+      "group": "Core Practice",
+      "question": "Find every real ordered-pair solution to the system: y=x²−1; y=2x+2.",
+      "answer": "(−1,0), (3,8)",
+      "solution": "x²−1=2x+2 gives (x−3)(x+1)=0; use y=2x+2."
+    },
+    {
+      "number": 8,
+      "group": "Core Practice",
+      "question": "Find every real ordered-pair solution to the system: y=x²+3; y=2x+6.",
+      "answer": "(−1,4), (3,12)",
+      "solution": "x²+3=2x+6 gives (x−3)(x+1)=0; then y=2x+6."
+    },
+    {
+      "number": 9,
+      "group": "Core Practice",
+      "question": "Find every real ordered-pair solution to the system: y=x²−4x+3; y=0.",
+      "answer": "(1,0), (3,0)",
+      "solution": "x²−4x+3=(x−1)(x−3)=0; both points have y=0."
+    },
+    {
+      "number": 10,
+      "group": "Core Practice",
+      "question": "Find every real ordered-pair solution to the system: y=x²+2; y=−x+4.",
+      "answer": "(−2,6), (1,3)",
+      "solution": "x²+2=−x+4 gives (x+2)(x−1)=0; then y=−x+4."
+    },
+    {
+      "number": 11,
+      "group": "Core Practice",
+      "question": "Find every real ordered-pair solution to the system: y=x²−6x+8; y=0.",
+      "answer": "(2,0), (4,0)",
+      "solution": "Factor x²−6x+8=(x−2)(x−4). Both y-values are zero."
+    },
+    {
+      "number": 12,
+      "group": "Exam-Style",
+      "question": "Find every real ordered-pair solution to the system: x²+y²=25; y=3.",
+      "answer": "(−4,3), (4,3)",
+      "solution": "x²+9=25 gives x²=16; hence x=±4."
+    },
+    {
+      "number": 13,
+      "group": "Exam-Style",
+      "question": "Find every real ordered-pair solution to the system: x²+y²=20; y=x.",
+      "answer": "(−√10,−√10), (√10,√10)",
+      "solution": "2x²=20 gives x=±√10; y=x, preserving the signs."
+    },
+    {
+      "number": 14,
+      "group": "Exam-Style",
+      "question": "Find every real ordered-pair solution to the system: x²+y²=13; y=x+1.",
+      "answer": "(−3,−2), (2,3)",
+      "solution": "x²+(x+1)²=13 becomes (x+3)(x−2)=0; y=x+1."
+    },
+    {
+      "number": 15,
+      "group": "Exam-Style",
+      "question": "Find every real ordered-pair solution to the system: y=x²−5x+4; y=x−2.",
+      "answer": "(3−√3,1−√3), (3+√3,1+√3)",
+      "solution": "x²−6x+6=0 gives x=3±√3; y=x−2 gives y=1±√3."
+    },
+    {
+      "number": 16,
+      "group": "Exam-Style",
+      "question": "Find every real ordered-pair solution to the system: x²+y²=25; y=2x.",
+      "answer": "(−√5,−2√5), (√5,2√5)",
+      "solution": "5x²=25, so x=±√5; use y=2x for matching signs."
+    },
+    {
+      "number": 17,
+      "group": "Challenge",
+      "question": "Find every real ordered-pair solution to the system: x²+y²=25; x+y=7.",
+      "answer": "(3,4), (4,3)",
+      "solution": "49=25+2xy gives xy=12; sum 7 and product 12 mean coordinates 3 and 4."
+    },
+    {
+      "number": 18,
+      "group": "Challenge",
+      "question": "Find every real ordered-pair solution to the system: x²+y²=13; xy=6.",
+      "answer": "(−3,−2), (−2,−3), (2,3), (3,2)",
+      "solution": "(x+y)²=13+12=25, so x+y=±5. Solve t²∓5t+6=0."
+    }
+  ],
+  "test": [
+    {
+      "difficulty": "Easy",
+      "question": "Solve y=x² and y=16.",
+      "choices": [
+        "(−4,16) and (4,16)",
+        "(4,16) only",
+        "(−16,4) and (16,4)",
+        "No real solution"
+      ],
+      "correct": 0,
+      "solution": "x²=16 gives x=±4; y=16."
+    },
+    {
+      "difficulty": "Easy / Medium",
+      "question": "Solve y=x²+2x and y=8.",
+      "choices": [
+        "(−2,8) and (4,8)",
+        "(−4,8) and (2,8)",
+        "(−4,−8) and (2,8)",
+        "(0,8) only"
+      ],
+      "correct": 1,
+      "solution": "x²+2x−8=(x+4)(x−2)=0."
+    },
+    {
+      "difficulty": "Medium",
+      "question": "Solve y=x²+1 and y=3x−1.",
+      "choices": [
+        "(−1,−4) and (2,5)",
+        "(1,1) and (2,4)",
+        "(1,2) and (2,5)",
+        "No real solution"
+      ],
+      "correct": 2,
+      "solution": "x²−3x+2=(x−1)(x−2)=0; substitute into y=3x−1."
+    },
+    {
+      "difficulty": "Medium / Hard",
+      "question": "Solve x²+y²=13 and y=x−1.",
+      "choices": [
+        "(−3,−2) and (2,3)",
+        "(−2,3) and (3,−2)",
+        "(−2,−3) only",
+        "(−2,−3) and (3,2)"
+      ],
+      "correct": 3,
+      "solution": "x²+(x−1)²=13 gives (x−3)(x+2)=0; y=x−1."
+    },
+    {
+      "difficulty": "Hard / Exam-Style",
+      "question": "A point satisfies x²+y²=25 and x+y=8. How many real ordered-pair solutions exist?",
+      "choices": [
+        "Exactly 2",
+        "Exactly 1",
+        "None",
+        "Infinitely many"
+      ],
+      "correct": 2,
+      "solution": "(x+y)²≤2(x²+y²)=50, but 8²=64>50, so no real intersection."
+    }
+  ],
+  "video": {
+    "english": [
+      {
+        "title": "Objective",
+        "narration": "Find every real solution of a polynomial system.",
+        "math": "y=x²; y=x+2"
+      },
+      {
+        "title": "Meaning",
+        "narration": "A solution is an ordered pair that satisfies both equations.",
+        "math": "(x,y) satisfies both"
+      },
+      {
+        "title": "Substitute",
+        "narration": "Set the two expressions for y equal.",
+        "math": "x²=x+2"
+      },
+      {
+        "title": "Factor",
+        "narration": "Move all terms to one side and factor.",
+        "math": "(x−2)(x+1)=0"
+      },
+      {
+        "title": "Recover y",
+        "narration": "Calculate y for each x-root.",
+        "math": "(−1,1), (2,4)"
+      },
+      {
+        "title": "Verify",
+        "narration": "Check each point in both original equations.",
+        "math": "(−1)²=1=−1+2"
+      },
+      {
+        "title": "No intersection",
+        "narration": "A negative square target has no real root.",
+        "math": "x²=−1 → none"
+      },
+      {
+        "title": "Tangent",
+        "narration": "A repeated root can produce one point.",
+        "math": "x²=0 → (0,4)"
+      },
+      {
+        "title": "Circle and line",
+        "narration": "Substitute a line into a circle.",
+        "math": "x²+y²=25; y=3"
+      },
+      {
+        "title": "Two polynomials",
+        "narration": "Use sum and product identities.",
+        "math": "x+y=7; xy=12"
+      },
+      {
+        "title": "Desmos",
+        "narration": "Enter both equations and check intersection coordinates.",
+        "math": "y=x²; y=x+2"
+      },
+      {
+        "title": "Recap",
+        "narration": "Substitute, solve, back-substitute, verify, then practice.",
+        "math": "18 + 18 + 5"
+      }
+    ],
+    "arabic": [
+      {
+        "title": "هدف الدرس",
+        "narration": "هنلاقي كل الحلول الحقيقية لنظام معادلات كثيرات حدود.",
+        "math": "y=x²; y=x+2"
+      },
+      {
+        "title": "معنى الحل",
+        "narration": "الزوج المرتب لازم يحقق المعادلتين مع بعض.",
+        "math": "(x,y) يحقق المعادلتين"
+      },
+      {
+        "title": "التعويض",
+        "narration": "نساوي التعبيرين اللي بيساووا واي.",
+        "math": "x²=x+2"
+      },
+      {
+        "title": "التحليل",
+        "narration": "ننقل الحدود لطرف واحد ونحلل.",
+        "math": "(x−2)(x+1)=0"
+      },
+      {
+        "title": "إيجاد واي",
+        "narration": "نحسب واي لكل جذر من جذور إكس.",
+        "math": "(−1,1), (2,4)"
+      },
+      {
+        "title": "التحقق",
+        "narration": "نراجع كل نقطة في المعادلتين الأصليتين.",
+        "math": "(−1)²=1=−1+2"
+      },
+      {
+        "title": "بدون تقاطع",
+        "narration": "المربع ما يساويش عدد سالب في الأعداد الحقيقية.",
+        "math": "x²=−1 → لا يوجد"
+      },
+      {
+        "title": "التماس",
+        "narration": "الجذر المكرر ممكن ينتج نقطة واحدة.",
+        "math": "x²=0 → (0,4)"
+      },
+      {
+        "title": "دائرة ومستقيم",
+        "narration": "نعوض المستقيم في معادلة الدائرة.",
+        "math": "x²+y²=25; y=3"
+      },
+      {
+        "title": "معادلتان",
+        "narration": "نستخدم مجموع المتغيرين وحاصل ضربهم.",
+        "math": "x+y=7; xy=12"
+      },
+      {
+        "title": "ديسموس",
+        "narration": "ندخل المعادلتين ونراجع نقاط التقاطع.",
+        "math": "y=x²; y=x+2"
+      },
+      {
+        "title": "الخلاصة",
+        "narration": "نعوض ونحل ونحسب واي ونتحقق ثم نتدرب.",
+        "math": "18 + 18 + 5"
+      }
+    ]
+  }
+}
