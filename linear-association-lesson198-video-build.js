@@ -1,0 +1,13 @@
+'use strict';
+const fs=require('fs'),path=require('path'),d=require('./linear-association-lesson198-math-data.json');
+const e=require('./linear-association-lesson198-explanation-content.json'),a=require('./linear-association-lesson198-video-arabic.json');
+const en=[0,1,2,3,4,5,6,7,8,9,10,11,12,15].map(i=>e[i]);
+for(const [name,scenes,lang] of [['english',en,'en-US'],['arabic',a,'ar-EG']]){
+ if(scenes.length!==14||scenes.some(s=>s.length!==2||!s[1]))throw Error('14 full scenes required');
+ const js='<script>(()=>{const scenes='+JSON.stringify(scenes)+',lang="'+lang+'";let i=0,on=false;const h=document.getElementById("h"),p=document.getElementById("p"),n=document.getElementById("n");function show(){h.textContent=scenes[i][0];p.textContent=scenes[i][1];n.textContent=(i+1)+"/14"}function stop(){on=false;if(window.speechSynthesis)speechSynthesis.cancel()}function say(){if(!on)return;show();if(!window.speechSynthesis){on=false;return}const u=new SpeechSynthesisUtterance(scenes[i].join(". "));u.lang=lang;u.rate=.88;u.onend=()=>{if(on&&i<13){i++;say()}else on=false};u.onerror=()=>{on=false};speechSynthesis.speak(u)}document.getElementById("play").onclick=()=>{stop();on=true;say()};document.getElementById("stop").onclick=stop;document.getElementById("prev").onclick=()=>{stop();i=Math.max(0,i-1);show()};document.getElementById("next").onclick=()=>{stop();i=Math.min(13,i+1);show()};show()})();</script>';
+ const player='<div style="aspect-ratio:16/9;background:#102e52;color:white;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:4%;overflow:auto;box-sizing:border-box"><small id="n"></small><h2 id="h"></h2><p id="p" style="max-width:60ch;line-height:1.5"></p></div><p><button id="prev">Previous</button> <button id="play">Play Full Lesson</button> <button id="stop">Stop</button> <button id="next">Next</button></p><p>Narration uses browser speech; all captions remain visible.</p>';
+ const nav=['explanation','problems','answers','test'].map(x=>'<a href="/'+d.base+'/'+x+'/">'+x+'</a>').join(' · ');
+ const html='<!doctype html><html lang="'+lang.slice(0,2)+'"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/styles.css"><title>'+d.title+' — Full Lesson '+name+'</title></head><body><main class="page-shell"><section class="lesson-card"><div class="page-type">Full Lesson Video · '+name+'</div><h1>'+d.title+'</h1>'+player+'<nav>'+nav+'</nav></section></main>'+js+'</body></html>';
+ const out=path.join(__dirname,'dist',d.base,'video',name);fs.mkdirSync(out,{recursive:true});fs.writeFileSync(path.join(out,'index.html'),html);
+}
+console.log('Lesson 198 full English/Arabic narrated 14-scene routes built');
