@@ -1,0 +1,5 @@
+const fs=require('fs'),path=require('path');
+const {d}=require('./vertical-translation-build-core');
+const key=JSON.stringify(d.test.map(q=>({correct:q.correct,answer:q.options[q.correct],solution:q.solution})));
+const client='(function(){const key='+key+';const button=document.getElementById("submitTest");if(!button)return;button.addEventListener("click",function(){let selected=[];for(let i=1;i<=5;i++){const chosen=document.querySelector("input[name=q"+i+"]:checked");if(!chosen){document.getElementById("testResult").textContent="Answer all five questions before submitting.";return;}selected.push(Number(chosen.value));}const score=selected.filter((v,i)=>v===key[i].correct).length;button.disabled=true;document.querySelectorAll("input").forEach(x=>x.disabled=true);const lines=["Final score: "+score+"/5"];key.forEach((q,i)=>lines.push("Question "+(i+1)+": "+(selected[i]===q.correct?"Correct":"Incorrect")+". Correct answer: "+q.answer+". "+q.solution));document.getElementById("testResult").textContent=lines.join("\\n\\n");});})();';
+fs.writeFileSync(path.join(__dirname,'dist','vertical-translation-test.js'),client);

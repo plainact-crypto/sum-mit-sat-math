@@ -1,0 +1,19 @@
+{
+  "lesson": "vertical-translation",
+  "builders": [
+    "vertical-translation-content-build.js",
+    "vertical-translation-build-explanation.js",
+    "vertical-translation-build-practice.js",
+    "vertical-translation-build-test.js",
+    "vertical-translation-build-video.js",
+    "vertical-translation-build-test-runtime.js"
+  ],
+  "routes": [
+    "/advanced-math/quadratic-functions/vertex-form/vertical-translation/explanation/",
+    "/advanced-math/quadratic-functions/vertex-form/vertical-translation/problems/",
+    "/advanced-math/quadratic-functions/vertex-form/vertical-translation/answers/",
+    "/advanced-math/quadratic-functions/vertex-form/vertical-translation/test/",
+    "/advanced-math/quadratic-functions/vertex-form/vertical-translation/video/english/",
+    "/advanced-math/quadratic-functions/vertex-form/vertical-translation/video/arabic/"
+  ]
+}
