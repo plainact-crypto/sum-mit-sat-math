@@ -1,0 +1,27 @@
+{
+  "lesson_index": 270,
+  "lesson_slug": "circumference",
+  "worker": "SUMMIT Worker 5",
+  "started_at": "2026-10-10T14:19:27+03:00",
+  "branch": "automation/worker5-lesson270-circumference-20261010-1419",
+  "state": "LOCAL_CORE_COMPLETE_REPOSITORY_INTEGRATION_BLOCKED",
+  "practice": 18,
+  "distribution": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "answers": 18,
+  "test": 5,
+  "explanation_sections": 16,
+  "math_qa": "23/23 PASS",
+  "static_route_qa": "6/6 PASS",
+  "browser_qa": "BLOCKED_BY_ADMINISTRATOR",
+  "video": "English 1280x720 MP4 234s; English/Arabic narrated routes",
+  "release_manifest": "lesson-releases/circumference.json (local; not committed)",
+  "production_ready": false,
+  "live_routes_verified": false,
+  "broadcast_status": "NOT_ELIGIBLE",
+  "blocker": "Connector cannot read locally generated files for GitHub create_file; Chromium navigation blocked by administrator. Do not merge until full source and manifest are committed and production tests pass."
+}
