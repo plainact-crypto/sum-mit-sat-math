@@ -1,0 +1,15 @@
+{
+  "lesson": "power-of-a-power",
+  "builders": [
+    "power-of-a-power-lesson113-content-build.js",
+    "power-of-a-power-lesson113-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/exponents/power-of-a-power/explanation/",
+    "/advanced-math/exponents/power-of-a-power/problems/",
+    "/advanced-math/exponents/power-of-a-power/answers/",
+    "/advanced-math/exponents/power-of-a-power/test/",
+    "/advanced-math/exponents/power-of-a-power/video/english/",
+    "/advanced-math/exponents/power-of-a-power/video/arabic/"
+  ]
+}
