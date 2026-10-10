@@ -1,0 +1,9 @@
+'use strict';
+const fs=require('fs'),path=require('path');
+const base='/problem-solving-and-data-analysis/proportional-relationships/direct-proportions',title='Direct Proportions';
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const links='<nav class="lesson-next"><a href="../explanation/">Explanation</a> · <a href="../problems/">Practice</a> · <a href="../answers/">Solutions</a> · <a href="../test/">Test</a> · <a href="../video/english/">English Video</a> · <a href="../video/arabic/">Arabic Video</a></nav>';
+const style='<style>.lesson-next{display:flex;gap:16px;flex-wrap:wrap;margin:28px 0}.lesson-section,.problem,.quiz-field{background:white;border:1px solid #dce6f1;border-radius:14px;padding:20px;margin:16px 0;line-height:1.6}.group{margin:30px 0}.math-graph{max-width:100%;height:auto}.quiz-field label{display:block;margin:10px}.quiz-result{padding:20px;background:#eef8ef}.slide[hidden]{display:none!important}</style>';
+function shell(type,body,extra=''){return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/styles.css"><title>'+esc(title)+' — '+esc(type)+'</title>'+style+extra+'</head><body><header class="topbar"><a class="brand" href="/">SUMMIT SAT MATH</a><nav><a href="/">Home</a><a href="/#subjects">Subjects</a></nav></header><main class="page-shell"><div class="crumb">Problem-Solving and Data Analysis · Proportional Relationships</div><div class="page-type">'+esc(type)+'</div><div class="lesson-title">'+title+'</div><div class="subject-label">Problem-Solving and Data Analysis</div>'+body+links+'</main></body></html>'}
+function write(route,html){let d=path.join(__dirname,'dist',base.replace(/^\//,''),route);fs.mkdirSync(d,{recursive:true});fs.writeFileSync(path.join(d,'index.html'),html)}
+module.exports={base,title,esc,shell,write};

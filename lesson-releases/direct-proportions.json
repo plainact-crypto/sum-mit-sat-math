@@ -1,0 +1,17 @@
+{
+  "lesson": "direct-proportions",
+  "builders": [
+    "direct-proportions-lesson163-explanation-build.js",
+    "direct-proportions-lesson163-practice-build.js",
+    "direct-proportions-lesson163-test-build.js",
+    "direct-proportions-lesson163-video-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/proportional-relationships/direct-proportions/explanation/",
+    "/problem-solving-and-data-analysis/proportional-relationships/direct-proportions/problems/",
+    "/problem-solving-and-data-analysis/proportional-relationships/direct-proportions/answers/",
+    "/problem-solving-and-data-analysis/proportional-relationships/direct-proportions/test/",
+    "/problem-solving-and-data-analysis/proportional-relationships/direct-proportions/video/english/",
+    "/problem-solving-and-data-analysis/proportional-relationships/direct-proportions/video/arabic/"
+  ]
+}

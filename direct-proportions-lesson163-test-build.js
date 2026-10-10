@@ -1,0 +1,12 @@
+'use strict';
+const {shell,write,esc}=require('./direct-proportions-lesson163-layout');
+const tests=require('./direct-proportions-lesson163-tests');
+if(tests.length!==5)throw Error('Exactly five progressive test questions required');
+for(const [i,t] of tests.entries())if(!t.check()||t.choices.length!==4||new Set(t.choices).size!==4||t.correct<0||t.correct>3)throw Error('Test QA failed: '+(i+1));
+const levels=['Easy','Easy / Medium','Medium','Medium / Hard','Hard / Exam-Style'];
+const questions=tests.map((t,i)=>'<fieldset class="quiz-field"><legend>Question '+(i+1)+' · '+levels[i]+'</legend><p>'+esc(t.q)+'</p>'+t.choices.map((choice,j)=>'<label><input type="radio" name="q'+i+'" value="'+j+'" '+(j===0?'required':'')+'> '+String.fromCharCode(65+j)+'. '+esc(choice)+'</label>').join('')+'</fieldset>').join('');
+const review=JSON.stringify(tests.map(t=>({correct:t.correct,why:t.why})));
+const script='<script>(function(){const f=document.getElementById("lesson-test"),r=document.getElementById("result"),data='+review+';let submitted=false;f.addEventListener("submit",function(e){e.preventDefault();if(submitted)return;let score=0;const list=document.createElement("ol");data.forEach(function(item,i){const choice=f.querySelector("input[name=q"+i+"]:checked");const ok=choice&&Number(choice.value)===item.correct;if(ok)score++;const li=document.createElement("li");li.textContent="Question "+(i+1)+": "+(ok?"Correct. ":"Review. ")+item.why;list.appendChild(li)});submitted=true;f.querySelectorAll("input,button").forEach(el=>el.disabled=true);const h=document.createElement("h2");h.textContent="Final score: "+score+"/5";r.appendChild(h);r.appendChild(list);r.hidden=false;r.focus()})})();</script>';
+const body='<p>Five questions increase from Easy to Hard / Exam-Style. Answers and feedback are withheld until you submit the complete test.</p><form id="lesson-test">'+questions+'<button class="quiz-submit" type="submit">Submit Test</button></form><section id="result" class="quiz-result" tabindex="-1" hidden aria-live="polite"></section>'+script;
+write('test',shell('Lesson Test',body));
+console.log('Lesson 163 test QA PASS: 5 progressive, independently checked questions; feedback only after submission');

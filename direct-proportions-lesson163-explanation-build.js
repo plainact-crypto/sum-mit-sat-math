@@ -1,0 +1,14 @@
+'use strict';
+const {shell,write,esc}=require('./direct-proportions-lesson163-layout');
+const a=require('./direct-proportions-lesson163-explanation-a'),b=require('./direct-proportions-lesson163-explanation-b');
+if(a.length!==8||b.length!==7)throw Error('Expected 15 authored explanation sections');
+const k=2.5,points=[[0,0],[4,10],[8,20],[10,25]];
+for(const [x,y] of points)if(k*x!==y)throw Error('Graph point QA failed');
+const X=x=>60+44*x,Y=y=>270-10*y;
+const grid=[0,2,4,6,8,10].map(x=>'<line x1="'+X(x)+'" y1="20" x2="'+X(x)+'" y2="270" stroke="#dae5f1"/><text x="'+X(x)+'" y="290" text-anchor="middle" font-size="12">'+x+'</text>').join('')+[0,5,10,15,20,25].map(y=>'<line x1="60" y1="'+Y(y)+'" x2="500" y2="'+Y(y)+'" stroke="#dae5f1"/><text x="44" y="'+(Y(y)+4)+'" text-anchor="end" font-size="12">'+y+'</text>').join('');
+const graph='<section class="lesson-section" data-retrofit-graph="true"><h2>VERIFIED GRAPH — y = 2.5x</h2><p>The line goes through the origin. Every marked coordinate was calculated from y = 2.5x, not drawn by estimation.</p><svg class="math-graph" viewBox="0 0 560 320" role="img" aria-label="Direct proportion y equals 2.5 x, passing through origin and points 4 comma 10 and 8 comma 20">'+grid+'<line x1="60" y1="270" x2="510" y2="270" stroke="#334d68" stroke-width="2"/><line x1="60" y1="280" x2="60" y2="14" stroke="#334d68" stroke-width="2"/><line x1="'+X(0)+'" y1="'+Y(0)+'" x2="'+X(10)+'" y2="'+Y(25)+'" stroke="#176cbe" stroke-width="4"/>'+points.slice(0,3).map(([x,y])=>'<circle cx="'+X(x)+'" cy="'+Y(y)+'" r="5" fill="#e66c36"/><text x="'+(X(x)+8)+'" y="'+(Y(y)-8)+'" font-size="13">('+x+', '+y+')</text>').join('')+'<text x="520" y="287">x</text><text x="48" y="14">y</text></svg><p><b>Graph QA:</b> 2.5 × 0 = 0, 2.5 × 4 = 10, 2.5 × 8 = 20. Slope 2.5; intercept 0.</p></section>';
+const desmos='<section class="lesson-section summit-desmos-strategy"><h2>DESMOS STRATEGY</h2><p><b>Enter:</b> y = 2.5x, then plot (4,10) and (8,20).</p><p><b>Look for:</b> one straight line through (0,0) and both given points.</p><p><b>Use it to answer:</b> verify the constant k = 2.5 and predict y = 15 at x = 6.</p><p><b>Why it works:</b> every pair on y = kx has the same quotient y/x when x is nonzero.</p><p><b>Faster or not?</b> Direct division 10/4 is faster for one exact value. Desmos is useful to compare many points or identify a nonzero intercept.</p><p><b>Independent check:</b> 2.5 × 6 = 15 and 2.5 × 8 = 20.</p></section>';
+const section=v=>'<section class="lesson-section"><h2>'+esc(v[0])+'</h2>'+v[1]+'</section>';
+const content='<article class="lesson-content"><!-- SUMMIT_RETROFIT:direct-proportions:BOTH -->'+a.map(section).join('')+graph+desmos+b.map(section).join('')+'</article>';
+write('explanation',shell('Explanation',content));
+console.log('Lesson 163 explanation: 15 authored sections, verified deterministic graph, Desmos strategy');
