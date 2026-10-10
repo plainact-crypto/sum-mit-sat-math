@@ -120,15 +120,15 @@
     ],
     [
       "Medium / Hard",
-      "The roots of 3x²+bx−12=0 have sum 2. Find b.",
-      "−6",
-      "−b/3=2 gives b=−6."
+      "The roots of 3x³+bx²+5x+c=0 have sum 2 and product −4. Find b+c.",
+      "6",
+      "−b/3=2 gives b=−6; −c/3=−4 gives c=12; b+c=6."
     ],
     [
       "Hard / Exam-Style",
-      "A cubic has roots 1,−2,5 and leading coefficient 2. Find its constant term.",
-      "20",
-      "Product=−10=−d/2, hence d=20."
+      "A cubic with leading coefficient 2 has roots 1, −2, and 5. Find the sum of its x² coefficient, x coefficient, and constant term.",
+      "−2",
+      "The monic polynomial is (x−1)(x+2)(x−5)=x³−4x²−7x+10. Multiply by 2: 2x³−8x²−14x+20. Thus −8−14+20=−2."
     ]
   ]
 }
