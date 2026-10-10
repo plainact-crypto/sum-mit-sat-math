@@ -1,0 +1,10 @@
+'use strict';
+const {P}=require('./negative-exponents-lesson114-lib');
+const {esc,sec,write}=require('./negative-exponents-lesson114-shell');
+const groups=[['SKILL CHECK',0,3],['CORE PRACTICE',3,11],['EXAM-STYLE PRACTICE',11,16],['CHALLENGE PROBLEMS',16,18]];
+const expected=[...Array(3).fill('Skill Check'),...Array(8).fill('Core Practice'),...Array(5).fill('Exam-Style'),...Array(2).fill('Challenge')];
+if(P.length!==18||P.some((q,i)=>q[0]!==expected[i]||q.length!==4||!q[2]||!q[3])||new Set(P.map(q=>q[1])).size!==18)throw Error('Practice/solutions QA failed');
+const problems=groups.map(g=>sec(g[0],P.slice(g[1],g[2]).map((q,i)=>'<div class="question"><h3>Question '+(g[1]+i+1)+'</h3><p>'+esc(q[1])+'</p></div>').join(''))).join('');
+const answers=groups.map(g=>sec(g[0],P.slice(g[1],g[2]).map((q,i)=>'<div class="solution"><h3>Solution '+(g[1]+i+1)+'</h3><p>'+esc(q[1])+'</p><p>'+esc(q[3])+'</p><strong>Answer: '+esc(q[2])+'</strong></div>').join(''))).join('');
+write('problems','Practice Problems',problems);write('answers','Answers & Solutions',answers);
+console.log('Lesson 114: 18 practice and 18 aligned answers');
