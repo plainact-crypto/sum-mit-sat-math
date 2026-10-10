@@ -1,9 +1,1 @@
-{
-  "lesson_index": 213,
-  "slug": "population-parameters",
-  "worker": "worker3",
-  "status": "BLOCKED_ATOMIC_CONTENT_WRITE",
-  "date": "2026-10-11",
-  "blocker": "GitHub create_tree for full 12-file lesson package rejected by tool safety checks on 2026-10-11; no package was committed",
-  "next": "Retry smaller individual writes; if persistent, advance to owned lesson 218"
-}
+{"lesson_index":213,"slug":"population-parameters","worker":"worker3","status":"RELEASE_BLOCKED","qa":"23/23 math, 4/4 builders, 6/6 isolated routes pass","blocker":"Registry update blocked; full build and production verification pending","next":"218"}
