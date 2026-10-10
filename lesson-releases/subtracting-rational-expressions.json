@@ -1,0 +1,15 @@
+{
+  "lesson": "subtracting-rational-expressions",
+  "builders": [
+    "subtracting-rational-expressions-lesson133-content-build.js",
+    "subtracting-rational-expressions-lesson133-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/rational-expressions-and-functions/subtracting-rational-expressions/explanation/",
+    "/advanced-math/rational-expressions-and-functions/subtracting-rational-expressions/problems/",
+    "/advanced-math/rational-expressions-and-functions/subtracting-rational-expressions/answers/",
+    "/advanced-math/rational-expressions-and-functions/subtracting-rational-expressions/test/",
+    "/advanced-math/rational-expressions-and-functions/subtracting-rational-expressions/video/english/",
+    "/advanced-math/rational-expressions-and-functions/subtracting-rational-expressions/video/arabic/"
+  ]
+}
