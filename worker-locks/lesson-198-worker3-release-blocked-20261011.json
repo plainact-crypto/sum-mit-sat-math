@@ -1,0 +1,33 @@
+{
+  "lesson_index": 198,
+  "slug": "linear-association",
+  "worker": "worker3",
+  "date": "2026-10-11",
+  "status": "RELEASE_BLOCKED",
+  "canonical_base": "/problem-solving-and-data-analysis/two-variable-data/linear-association",
+  "qa": {
+    "practice": 18,
+    "distribution": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "aligned_answers": 18,
+    "test": 5,
+    "math_and_logic": "23/23 PASS",
+    "builders": "4/4 PASS isolated",
+    "routes": "6/6 PASS isolated",
+    "explanation_sections": 17,
+    "graph_count": 4,
+    "english_full_lesson_scenes": 14,
+    "arabic_full_lesson_scenes": 14
+  },
+  "manifest": "lesson-releases/linear-association.json",
+  "blockers": [
+    "Explanation registry update rejected by repository safety checks",
+    "Full repository build not yet run",
+    "Not merged or deployed to production"
+  ],
+  "email_sent": false
+}
