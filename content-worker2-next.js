@@ -41,3 +41,5 @@ require('./number-of-intersections-content-build');
 require('./video-number-of-intersections-explainer');
 require('./converting-between-representations-content-build');
 require('./video-converting-between-representations-explainer');
+
+require('./vertical-translation-content-build');

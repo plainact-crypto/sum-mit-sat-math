@@ -1,0 +1,365 @@
+{
+  "slug": "vertical-translation",
+  "title": "Vertical Translation",
+  "index": 92,
+  "classification": "DESMOS",
+  "location": [
+    "Advanced Math",
+    "Quadratic Functions",
+    "Vertex Form"
+  ],
+  "objective": "Translate a quadratic vertically by adding or subtracting a constant outside the function, and track the resulting vertex, values, and intercepts.",
+  "explanation": [
+    [
+      "LESSON OBJECTIVE",
+      "Move a quadratic up or down without changing its shape.",
+      "Given g(x)=f(x)+k, determine the direction and size of the vertical shift, the new vertex, and changes to values and intercepts."
+    ],
+    [
+      "WHAT YOU NEED TO KNOW / CORE IDEA",
+      "A vertical translation changes outputs, not inputs.",
+      "For every input x, the new output is f(x)+k. All points (x,y) on the old graph move to (x,y+k) on the new graph. The graph's shape, opening direction, and axis of symmetry remain unchanged."
+    ],
+    [
+      "KEY DEFINITIONS",
+      "Vertical translation; vertex; axis of symmetry.",
+      "A vertical translation moves all points by the same distance up or down. The vertex is the turning point of the parabola. The axis of symmetry is the vertical line through that vertex."
+    ],
+    [
+      "CORE RULE",
+      "g(x)=f(x)+k moves the graph up k units if k>0 and down |k| units if k<0.",
+      "For f(x)=a(x−h)²+c, the translated function is g(x)=a(x−h)²+(c+k). The vertex moves from (h,c) to (h,c+k); the axis remains x=h."
+    ],
+    [
+      "HOW IT WORKS",
+      "Read the number added outside the function.",
+      "Step 1: Identify the entire original f(x). Step 2: Compute g(x)−f(x)=k. Step 3: Add k to every y-value, including the vertex. Step 4: Keep each x-value fixed. Step 5: Recalculate x-intercepts if asked; they generally change."
+    ],
+    [
+      "WORKED EXAMPLE 1 — BASIC",
+      "From y=x² to y=x²+4.",
+      "The parent vertex is (0,0). Since g(x)=f(x)+4, each point moves up 4. The new vertex is (0,4), and the parabola still opens upward."
+    ],
+    [
+      "WORKED EXAMPLE 2 — VERTEX FORM",
+      "From f(x)=2(x−3)²−1 to g(x)=f(x)−6.",
+      "Combine the outside constants: g(x)=2(x−3)²−7. The original vertex (3,−1) moves down 6 to (3,−7). The axis x=3 and the upward opening stay the same."
+    ],
+    [
+      "WORKED EXAMPLE 3 — A POINT AND AN UNKNOWN SHIFT",
+      "Find k if f(2)=9 and g(2)=1 with g(x)=f(x)+k.",
+      "Substitute the given values: 1=9+k, so k=−8. The graph moves down 8; the point (2,9) becomes (2,1)."
+    ],
+    [
+      "WORKED EXAMPLE 4 — EXAM APPLICATION",
+      "Find k if f(x)=(x−1)²−5 and g(x)=f(x)+k has minimum value 2.",
+      "The original minimum is −5 at x=1. Translation changes the minimum to −5+k. Solve −5+k=2, giving k=7. The new vertex is (1,2)."
+    ],
+    [
+      "COMMON MISTAKES",
+      "The sign outside controls vertical motion.",
+      "Adding +5 outside moves UP 5, not down. Adding inside the parentheses changes horizontal position, not vertical position. Do not change the vertex x-coordinate. Do not assume the x-intercepts stay the same."
+    ],
+    [
+      "EXAM STRATEGY",
+      "Use the vertex before expanding.",
+      "When a problem asks for a maximum/minimum or a parameter k, compare the original and new vertex y-values directly. If the graph just touches the x-axis, its vertex y-value is zero. Use algebra to confirm any changed roots."
+    ],
+    [
+      "QUICK CHECK",
+      "Try before revealing.",
+      "1) y=(x+2)²+3 vs y=(x+2)²: up 3, vertex (−2,3). 2) g(x)=f(x)−9: each y-value decreases by 9. 3) Original vertex (4,−6), translated up 10: new vertex (4,4)."
+    ],
+    [
+      "LESSON RECAP",
+      "Same x-values, shifted y-values.",
+      "g(x)=f(x)+k; k>0 means up, k<0 means down. Vertex (h,c) becomes (h,c+k). Axis, shape, and opening are unchanged; x-intercepts may change."
+    ]
+  ],
+  "graph": {
+    "parent": "f(x)=(x−1)²",
+    "translated": "g(x)=(x−1)²−3",
+    "shift": -3,
+    "originalVertex": [
+      1,
+      0
+    ],
+    "translatedVertex": [
+      1,
+      -3
+    ]
+  },
+  "desmos": {
+    "enter": "y=(x-1)^2 and y=(x-1)^2-3",
+    "lookFor": "Vertices (1,0) and (1,−3), with matching x-coordinates.",
+    "useIt": "Read the vertical difference between the two vertices: −3.",
+    "why": "Subtracting 3 from the function subtracts 3 from every y-value while leaving x unchanged.",
+    "faster": "For a stated vertical translation, reading the outside constant is faster than Desmos. Graphing helps verify a diagram or an unfamiliar form.",
+    "mathCheck": "At x=0, the outputs are 1 and −2; at x=1 they are 0 and −3; at x=2 they are 1 and −2. Every difference is −3."
+  },
+  "practice": [
+    {
+      "number": 1,
+      "group": "Skill Check",
+      "question": "The parent is f(x)=x² and g(x)=x²+5. Describe the vertical translation.",
+      "answer": "Up 5 units.",
+      "solution": "Since g(x)=f(x)+5, every y-value increases by 5."
+    },
+    {
+      "number": 2,
+      "group": "Skill Check",
+      "question": "Compare g(x)=(x−2)²−4 with f(x)=(x−2)². State the translation.",
+      "answer": "Down 4 units.",
+      "solution": "Subtracting 4 outside the square lowers every output by 4; x-coordinates stay the same."
+    },
+    {
+      "number": 3,
+      "group": "Skill Check",
+      "question": "If f(x)=x²−3 and g(x)=f(x)+7, give the shift and new vertex.",
+      "answer": "Up 7 units; vertex (0,4).",
+      "solution": "The original vertex is (0,−3). Add 7 to its y-coordinate: −3+7=4."
+    },
+    {
+      "number": 4,
+      "group": "Core Practice",
+      "question": "The vertex of f is (2,−1). If g(x)=f(x)+6, what is the vertex of g?",
+      "answer": "(2,5)",
+      "solution": "A vertical shift keeps the x-coordinate 2 and changes the y-coordinate to −1+6=5."
+    },
+    {
+      "number": 5,
+      "group": "Core Practice",
+      "question": "For f(x)=−x²+3, define g(x)=f(x)−8. Give the vertex and maximum of g.",
+      "answer": "Vertex (0,−5); maximum −5.",
+      "solution": "f has vertex (0,3) and opens downward. Subtracting 8 moves the vertex to (0,−5), retaining the maximum."
+    },
+    {
+      "number": 6,
+      "group": "Core Practice",
+      "question": "The point (3,7) lies on y=f(x). Which point lies on y=f(x)−4?",
+      "answer": "(3,3)",
+      "solution": "Keep x=3 and subtract 4 from the original y-value: 7−4=3."
+    },
+    {
+      "number": 7,
+      "group": "Core Practice",
+      "question": "Given f(1)=4 and g(1)=−2 with g(x)=f(x)+k, find k.",
+      "answer": "k=−6",
+      "solution": "Substitute the given outputs: −2=4+k, so k=−6 (a shift down 6)."
+    },
+    {
+      "number": 8,
+      "group": "Core Practice",
+      "question": "If f(x)=(x+4)²+2 and g(x)=f(x)−9, write g in vertex form and state its vertex.",
+      "answer": "g(x)=(x+4)²−7; vertex (−4,−7).",
+      "solution": "Combine the outside constants: 2−9=−7. The squared factor is unchanged, so h=−4."
+    },
+    {
+      "number": 9,
+      "group": "Core Practice",
+      "question": "Let f(x)=2(x−1)²−3 and g(x)=f(x)+5. Give g's minimum value and where it occurs.",
+      "answer": "Minimum 2 at x=1.",
+      "solution": "g(x)=2(x−1)²+2. Since the square is nonnegative, the minimum is 2 at x=1."
+    },
+    {
+      "number": 10,
+      "group": "Core Practice",
+      "question": "Compare y=(x−3)²−5 with y=(x−3)². State the shift and axis of symmetry.",
+      "answer": "Down 5 units; axis x=3.",
+      "solution": "The outside −5 moves the graph down without changing the squared factor, so its axis remains x=3."
+    },
+    {
+      "number": 11,
+      "group": "Core Practice",
+      "question": "If f(0)=−6 and g(x)=f(x)+10, find the y-intercept of g.",
+      "answer": "(0,4)",
+      "solution": "g(0)=f(0)+10=−6+10=4; the y-intercept is (0,4)."
+    },
+    {
+      "number": 12,
+      "group": "Exam-Style",
+      "question": "For f(x)=x²−4x+7, let g(x)=f(x)−3. Find g's vertex and determine whether it touches the x-axis.",
+      "answer": "Vertex (2,0); it touches the x-axis once.",
+      "solution": "Complete the square: f(x)=(x−2)²+3. Thus g(x)=(x−2)² and has vertex (2,0), its only x-intercept."
+    },
+    {
+      "number": 13,
+      "group": "Exam-Style",
+      "question": "The functions f(x)=−(x+2)²+3 and g(x)=−(x+2)²+8 differ by what shift? What is g's maximum?",
+      "answer": "Up 5 units; maximum 8.",
+      "solution": "g(x)−f(x)=8−3=5 for every x. The downward parabola has vertex (−2,8), so its maximum is 8."
+    },
+    {
+      "number": 14,
+      "group": "Exam-Style",
+      "question": "If f(x)=a(x−4)²−2 and g(x)=f(x)+k has vertex (4,9), find k.",
+      "answer": "k=11",
+      "solution": "The original vertex y-coordinate is −2. Since −2+k=9, k=11."
+    },
+    {
+      "number": 15,
+      "group": "Exam-Style",
+      "question": "For f(x)=x²−6x+5, g(x)=f(x)+q has minimum value 2. Find q.",
+      "answer": "q=6",
+      "solution": "Complete the square: f(x)=(x−3)²−4, so its minimum is −4. Solve −4+q=2 to get q=6."
+    },
+    {
+      "number": 16,
+      "group": "Exam-Style",
+      "question": "Let f(x)=2(x+1)²−6 and g(x)=f(x)+8. How many real x-intercepts does g have?",
+      "answer": "0 real x-intercepts.",
+      "solution": "g(x)=2(x+1)²+2≥2>0 for every real x. It never meets y=0."
+    },
+    {
+      "number": 17,
+      "group": "Challenge",
+      "question": "For f(x)=−2(x−3)²+10, choose k so that g(x)=f(x)+k has exactly one x-intercept. Find k and the intercept.",
+      "answer": "k=−10; intercept (3,0).",
+      "solution": "A downward parabola touches the x-axis once only when its maximum equals 0. The original maximum is 10, so 10+k=0, giving k=−10."
+    },
+    {
+      "number": 18,
+      "group": "Challenge",
+      "question": "Let f(x)=x²−4x+1. The vertical translation g(x)=f(x)+k passes through (5,10). Find k, the vertex of g, and whether g has real x-intercepts.",
+      "answer": "k=4; vertex (2,1); no real x-intercepts.",
+      "solution": "f(5)=25−20+1=6, so k=10−6=4. Since f(x)=(x−2)²−3, g(x)=(x−2)²+1>0 and has vertex (2,1)."
+    }
+  ],
+  "test": [
+    {
+      "number": 1,
+      "difficulty": "Easy",
+      "question": "The graph of g(x)=x²−7 is obtained from f(x)=x² by which shift?",
+      "options": [
+        "Up 7",
+        "Down 7",
+        "Right 7",
+        "Left 7"
+      ],
+      "correct": 1,
+      "solution": "The −7 is outside the function, so every y-value decreases by 7."
+    },
+    {
+      "number": 2,
+      "difficulty": "Easy / Medium",
+      "question": "The vertex of f is (−1,4). If g(x)=f(x)+3, what is g's vertex?",
+      "options": [
+        "(2,4)",
+        "(−1,1)",
+        "(−1,7)",
+        "(−4,4)"
+      ],
+      "correct": 2,
+      "solution": "The x-coordinate remains −1; the y-coordinate increases from 4 to 7."
+    },
+    {
+      "number": 3,
+      "difficulty": "Medium",
+      "question": "For f(x)=3(x−2)²−5, g(x)=f(x)+k has vertex y-coordinate −1. Find k.",
+      "options": [
+        "−4",
+        "1",
+        "4",
+        "6"
+      ],
+      "correct": 2,
+      "solution": "The original vertex y-value is −5. Solve −5+k=−1 to obtain k=4."
+    },
+    {
+      "number": 4,
+      "difficulty": "Medium / Hard",
+      "question": "Let f(x)=x²+2x−3 and g(x)=f(x)+5. Which statement is correct?",
+      "options": [
+        "g has minimum −3",
+        "g has two x-intercepts",
+        "g has minimum 1 and no x-intercepts",
+        "g has vertex (1,1)"
+      ],
+      "correct": 2,
+      "solution": "Complete the square: f(x)=(x+1)²−4, so g(x)=(x+1)²+1. Its minimum is 1, above the x-axis."
+    },
+    {
+      "number": 5,
+      "difficulty": "Hard / Exam-Style",
+      "question": "For f(x)=−x²+6x−5, g(x)=f(x)+k is tangent to the x-axis. What is k?",
+      "options": [
+        "4",
+        "−5",
+        "0",
+        "−4"
+      ],
+      "correct": 3,
+      "solution": "Complete the square: f(x)=−(x−3)²+4. Exactly one x-intercept requires the maximum 4+k=0, so k=−4."
+    }
+  ],
+  "video": {
+    "english": [
+      [
+        "The idea",
+        "A vertical translation adds the same constant to every output of a function."
+      ],
+      [
+        "The rule",
+        "g(x)=f(x)+k. Positive k moves up; negative k moves down. The x-coordinate of each point stays fixed."
+      ],
+      [
+        "See it on a graph",
+        "Compare y=(x−1)² with y=(x−1)²−3. The vertices are (1,0) and (1,−3). Every point moves down three units."
+      ],
+      [
+        "Vertex form",
+        "If f(x)=2(x−3)²−1 and g(x)=f(x)−6, then g(x)=2(x−3)²−7. The new vertex is (3,−7)."
+      ],
+      [
+        "Find the shift",
+        "If f(2)=9 and g(2)=1, solve 1=9+k to find k=−8."
+      ],
+      [
+        "Exam application",
+        "If f(x)=(x−1)²−5 and the new minimum is 2, solve −5+k=2, so k=7."
+      ],
+      [
+        "Desmos and quick check",
+        "Enter both equations to check the difference in vertices. For y=(x+2)²+3 the vertex is (−2,3). The outside +3 moves the parent up three."
+      ],
+      [
+        "Recap",
+        "Vertical translation changes y-values, not x-values. Check roots again because x-intercepts can change."
+      ]
+    ],
+    "arabic": [
+      [
+        "الفكرة",
+        "الإزاحة الرأسية تعني إضافة العدد نفسه إلى كل قيمة ناتجة من الدالة."
+      ],
+      [
+        "القاعدة",
+        "إذا كانت g(x)=f(x)+k، فإن k الموجب يحرك المنحنى لأعلى، وk السالب يحركه لأسفل. إحداثي x لا يتغير."
+      ],
+      [
+        "مثال على الرسم",
+        "قارن y=(x−1)² مع y=(x−1)²−3. ينتقل الرأس من (1,0) إلى (1,−3)، أي لأسفل ثلاث وحدات."
+      ],
+      [
+        "صيغة الرأس",
+        "إذا كانت f(x)=2(x−3)²−1 وg(x)=f(x)−6، فإن g(x)=2(x−3)²−7 ورأسها (3,−7)."
+      ],
+      [
+        "إيجاد مقدار الإزاحة",
+        "إذا كانت f(2)=9 وg(2)=1، نحل 1=9+k فنجد k=−8."
+      ],
+      [
+        "تطبيق امتحاني",
+        "إذا كانت القيمة الصغرى الأصلية −5 وأصبحت 2، فإن −5+k=2 وبالتالي k=7."
+      ],
+      [
+        "ديسموس وتحقق سريع",
+        "أدخل المعادلتين وتحقق من فرق ارتفاع الرأسين. في y=(x+2)²+3 يكون الرأس (−2,3)."
+      ],
+      [
+        "الخلاصة",
+        "الإزاحة الرأسية تغير قيم y فقط، وتبقى قيم x كما هي. نقاط التقاطع مع محور x قد تتغير."
+      ]
+    ]
+  }
+}
