@@ -1,0 +1,17 @@
+{
+  "lesson": "absolute-value-equations",
+  "builders": [
+    "absolute-value-equations-lesson138-explanation-build.js",
+    "absolute-value-equations-lesson138-practice-build.js",
+    "absolute-value-equations-lesson138-test-build.js",
+    "absolute-value-equations-lesson138-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/absolute-value/absolute-value-equations/explanation/",
+    "/advanced-math/absolute-value/absolute-value-equations/problems/",
+    "/advanced-math/absolute-value/absolute-value-equations/answers/",
+    "/advanced-math/absolute-value/absolute-value-equations/test/",
+    "/advanced-math/absolute-value/absolute-value-equations/video/english/",
+    "/advanced-math/absolute-value/absolute-value-equations/video/arabic/"
+  ]
+}
