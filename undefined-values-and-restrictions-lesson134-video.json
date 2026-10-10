@@ -1,0 +1,86 @@
+{
+  "english": [
+    [
+      "Goal",
+      "Find all real inputs that make an original rational expression undefined.",
+      "Denominator ≠ 0"
+    ],
+    [
+      "Linear restriction",
+      "For one over x minus four, the denominator is zero when x equals four.",
+      "1/(x−4): x≠4"
+    ],
+    [
+      "Factor first",
+      "For x plus three over x squared minus nine, factor the denominator and exclude both roots.",
+      "x²−9=(x−3)(x+3): x≠−3,3"
+    ],
+    [
+      "Cancellation keeps holes",
+      "Even when x plus three cancels, the original expression still cannot use x equals negative three.",
+      "Canceling ≠ restoring the domain"
+    ],
+    [
+      "Repeated factors",
+      "The denominator x minus four squared has only one distinct forbidden value.",
+      "(x−4)²=0 at x=4"
+    ],
+    [
+      "Division adds a restriction",
+      "When dividing by a rational expression, the divisor itself cannot equal zero. Check its numerator too.",
+      "(x−1)/(x−3) ≠ 0 ⇒ x≠1,3"
+    ],
+    [
+      "No restriction and context",
+      "One over x squared plus one is defined for every real x. Context such as positive time may impose extra limits.",
+      "x²+1≥1; t>0 may also apply"
+    ],
+    [
+      "Exam recap",
+      "Check original denominators, factor, list all excluded inputs, then simplify. Practice eighteen questions and finish the five-question test.",
+      "Original denominator → zeros → exclusions"
+    ]
+  ],
+  "arabic": [
+    [
+      "الهدف",
+      "حدد كل قيمة حقيقية تجعل المقدار الكسري الجبري الأصلي غير معرف.",
+      "المقام ≠ 0"
+    ],
+    [
+      "قيد خطي",
+      "في واحد على إكس ناقص أربعة يصبح المقام صفراً عندما إكس تساوي أربعة.",
+      "1/(x−4): x≠4"
+    ],
+    [
+      "التحليل أولاً",
+      "في إكس زائد ثلاثة على إكس تربيع ناقص تسعة، حلل المقام واستبعد الجذرين.",
+      "x²−9=(x−3)(x+3): x≠−3,3"
+    ],
+    [
+      "الاختصار لا يلغي الثغرات",
+      "حتى إذا اختصر العامل إكس زائد ثلاثة، تظل القيمة سالب ثلاثة ممنوعة في التعبير الأصلي.",
+      "الاختصار لا يعيد القيمة الممنوعة"
+    ],
+    [
+      "العوامل المتكررة",
+      "المقام إكس ناقص أربعة الكل تربيع له قيمة ممنوعة واحدة مميزة وهي أربعة.",
+      "(x−4)²=0 عند x=4"
+    ],
+    [
+      "القسمة تضيف قيداً",
+      "عند القسمة على كسر جبري يجب ألا يساوي المقسوم عليه صفراً. افحص بسطه أيضاً.",
+      "(x−1)/(x−3) ≠ 0 ⇒ x≠1,3"
+    ],
+    [
+      "لا توجد قيود وسياق المسألة",
+      "واحد على إكس تربيع زائد واحد معرف لكل عدد حقيقي، لكن الزمن الموجب يضيف شرطاً من سياق المسألة.",
+      "x²+1≥1؛ وقد يلزم t>0"
+    ],
+    [
+      "مراجعة الاختبار",
+      "افحص المقامات الأصلية، حلل، اكتب القيم الممنوعة ثم اختصر. تدرب على ثمانية عشر سؤالاً وأكمل اختبار الخمسة أسئلة.",
+      "المقام الأصلي ← الأصفار ← القيم الممنوعة"
+    ]
+  ]
+}
