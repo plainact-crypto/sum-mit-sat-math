@@ -1,0 +1,20 @@
+[
+  [
+    "Exam-Style",
+    "Simplify (x^(-2)+y^(-2))/(x^(-2)y^(-2)), variables nonzero.",
+    "x^2+y^2",
+    "Multiply numerator by x^2y^2: y^2+x^2."
+  ],
+  [
+    "Exam-Style",
+    "Solve 2^(k-3)=1/8.",
+    "0",
+    "Since 1/8=2^(-3), k-3=-3 and k=0."
+  ],
+  [
+    "Exam-Style",
+    "Simplify (3a^(-2)b)^(-2), variables nonzero.",
+    "a^4/(9b^2)",
+    "Distribute the power: 3^(-2)a^4b^(-2)=a^4/(9b^2)."
+  ]
+]
