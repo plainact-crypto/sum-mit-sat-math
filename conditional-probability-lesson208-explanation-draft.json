@@ -1,0 +1,1 @@
+[["LESSON OBJECTIVE","Compute conditional probability from a two-way table."],["CORE RULE","P(A given B)=P(A and B)/P(B), provided P(B)>0."],["WORKED EXAMPLE","Of 40 students, 16 play chess and 6 of those also play soccer. Given chess, the probability of soccer is 6/16=3/8=0.375."]]
