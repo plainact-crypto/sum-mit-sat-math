@@ -1,0 +1,17 @@
+{
+  "lesson": "population-parameters",
+  "builders": [
+    "population-parameters-lesson213-explanation-build.js",
+    "population-parameters-lesson213-practice-build.js",
+    "population-parameters-lesson213-test-build.js",
+    "population-parameters-lesson213-video-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/sampling-and-inference/population-parameters/explanation/",
+    "/problem-solving-and-data-analysis/sampling-and-inference/population-parameters/problems/",
+    "/problem-solving-and-data-analysis/sampling-and-inference/population-parameters/answers/",
+    "/problem-solving-and-data-analysis/sampling-and-inference/population-parameters/test/",
+    "/problem-solving-and-data-analysis/sampling-and-inference/population-parameters/video/english/",
+    "/problem-solving-and-data-analysis/sampling-and-inference/population-parameters/video/arabic/"
+  ]
+}
