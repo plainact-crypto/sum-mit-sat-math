@@ -1,0 +1,155 @@
+{
+  "index": 154,
+  "slug": "converting-between-representations",
+  "title": "Converting Between Representations",
+  "base": "advanced-math/nonlinear-functions/converting-between-representations",
+  "classification": "DESMOS",
+  "explanation": [
+    [
+      "LESSON OBJECTIVE",
+      "Convert nonlinear functions among equations, tables, graphs and real-world descriptions, preserving exact ordered pairs, features and domain."
+    ],
+    [
+      "CORE IDEA",
+      "The same function can be represented in different ways. Every representation must give the same output for each allowed input."
+    ],
+    [
+      "KEY DEFINITIONS",
+      "An equation is a symbolic rule; a table contains ordered pairs; a graph plots those pairs; context defines quantities and domain; a vertex is a quadratic turning point; a growth factor is an exponential multiplier."
+    ],
+    [
+      "CORE RULE",
+      "With equally spaced inputs, constant first differences indicate linear behavior, constant second differences indicate quadratic behavior, and constant nonzero ratios indicate exponential behavior. Check every candidate equation against known pairs."
+    ],
+    [
+      "HOW IT WORKS",
+      "Identify the function family, extract key features (vertex, roots, initial value, ratio), write the equation or table, verify with an independent point, and preserve units and domain."
+    ],
+    [
+      "WORKED EXAMPLE 1 — EQUATION TO TABLE",
+      "For y=x²−4 at x=−2,−1,0,1,2 the outputs are 0,−3,−4,−3,0. The vertex is (0,−4)."
+    ],
+    [
+      "WORKED EXAMPLE 2 — TABLE TO EXPONENTIAL",
+      "At x=0,1,2,3 the outputs 3,6,12,24 double. Initial value 3 and growth factor 2 give y=3·2^x."
+    ],
+    [
+      "WORKED EXAMPLE 3 — GRAPH TO EQUATION",
+      "A parabola has vertex (2,−1) and passes through (3,2). y=a(x−2)²−1 and 2=a−1 imply a=3, so y=3(x−2)²−1."
+    ],
+    [
+      "WORKED EXAMPLE 4 — CONTEXT TO FUNCTION",
+      "A population begins at 500 and grows 8% annually. P(t)=500(1.08)^t for t≥0; P(0)=500."
+    ],
+    [
+      "DESMOS STRATEGY",
+      "Enter y=3(x−2)^2−1 and point (3,2). Look for vertex (2,−1) and the point on the curve. Use it to verify equivalent representations. Why it works: they share ordered pairs. Faster or not? Algebraic substitution is faster for exact coefficients; Desmos checks visually."
+    ],
+    [
+      "COMMON MISTAKES",
+      "Use ratios only for equal input steps. A 20% decrease uses factor 0.80, not 0.20. Preserve domain t≥0. Sketches may be approximate, so use exact labeled coordinates."
+    ],
+    [
+      "EXAM STRATEGY",
+      "Look for vertex, roots, initial value or growth factor first. Convert using that feature, then verify an additional point to eliminate wrong options."
+    ],
+    [
+      "QUICK CHECK",
+      "y=(x−1)²+2 has vertex (1,2). Outputs 4,12,36 have ratio 3. A 20% decrease uses factor 0.80."
+    ],
+    [
+      "LESSON RECAP",
+      "Equivalent representations preserve ordered pairs, vertices, roots, initial values and domain. Identify the family, translate and verify."
+    ],
+    [
+      "NEXT STEP",
+      "Solve 18 Practice Problems, review 18 aligned Answers & Solutions, then complete five Test questions before seeing the result."
+    ]
+  ],
+  "video": {
+    "english": [
+      [
+        "One function, four representations",
+        "Equations give rules, tables list pairs, graphs show pairs, and contexts explain quantities.",
+        "Same (x,y) pairs"
+      ],
+      [
+        "Choose the family",
+        "With equal input steps, first differences suggest linear, second differences quadratic, constant ratios exponential.",
+        "Difference vs. ratio"
+      ],
+      [
+        "Equation to table",
+        "For y=x²−4, inputs −2 through 2 give outputs 0,−3,−4,−3,0.",
+        "y=x²−4"
+      ],
+      [
+        "Table to equation",
+        "3,6,12,24 double, so y equals three times two to the x.",
+        "y=3·2^x"
+      ],
+      [
+        "Vertex and point",
+        "Vertex (2,−1) and point (3,2) give a=3 in vertex form.",
+        "y=3(x−2)²−1"
+      ],
+      [
+        "Translate context",
+        "500 growing eight percent annually is 500 times 1.08 to the t, t nonnegative.",
+        "P(t)=500(1.08)^t"
+      ],
+      [
+        "Desmos verification",
+        "Enter the equation and a labeled point; verify vertex and point. Substitution is faster for exact coefficients.",
+        "y=3(x−2)²−1"
+      ],
+      [
+        "Exam recap",
+        "Identify features, translate, verify another point and preserve the domain.",
+        "Features → rule → check"
+      ]
+    ],
+    "arabic": [
+      [
+        "دالة واحدة بأربع طرق",
+        "المعادلة قاعدة، والجدول أزواج، والرسم بيوضحهم، والسياق بيشرح الكميات.",
+        "نفس الأزواج (x,y)"
+      ],
+      [
+        "حدد النوع",
+        "الفرق الأول ثابت في الخطية، والفرق الثاني في التربيعية، والنسبة ثابتة في الأسية.",
+        "الفرق والنسبة"
+      ],
+      [
+        "المعادلة للجدول",
+        "في y=x²−4 القيم من سالب اتنين لاتنين بتدي صفر وسالب تلاتة وسالب أربعة وسالب تلاتة وصفر.",
+        "y=x²−4"
+      ],
+      [
+        "الجدول للمعادلة",
+        "تلاتة وستة واتناشر وأربعة وعشرين بتتضاعف، فالدالة تلاتة في اتنين أس إكس.",
+        "y=3·2^x"
+      ],
+      [
+        "الرأس والنقطة",
+        "الرأس اتنين وسالب واحد، والنقطة تلاتة واتنين، وبالتعويض المعامل تلاتة.",
+        "y=3(x−2)²−1"
+      ],
+      [
+        "السياق",
+        "البداية خمسمية والنمو تمانية في المية سنويا، عامل النمو واحد فاصلة صفر تمانية.",
+        "P(t)=500(1.08)^t"
+      ],
+      [
+        "ديسموس",
+        "ادخل المعادلة والنقطة وتأكد من الرأس؛ الجبر أسرع للمعامل الدقيق.",
+        "y=3(x−2)²−1"
+      ],
+      [
+        "الملخص",
+        "حدد الخاصية واكتب القاعدة وتأكد بنقطة إضافية والمجال.",
+        "الخاصية ← القاعدة ← التحقق"
+      ]
+    ]
+  }
+}
