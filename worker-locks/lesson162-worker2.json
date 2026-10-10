@@ -1,0 +1,11 @@
+{
+  "worker": "SUMMIT Worker 2",
+  "lesson_index": 162,
+  "total_lessons": 298,
+  "ownership_rule": "indices congruent to 2 modulo 5",
+  "canonical_slug": null,
+  "status": "LOCKED_PENDING_CANONICAL_CURRICULUM_LOOKUP",
+  "date": "2026-10-10",
+  "branch": "worker2/lesson162-20261010",
+  "note": "Do not infer slug or generate a release manifest until canonical title and path are read from curriculum; lesson 157 is separately recorded as blocked."
+}
