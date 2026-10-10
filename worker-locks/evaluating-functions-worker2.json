@@ -1,1 +1,9 @@
-{"lesson":"evaluating-functions","canonicalIndex":102,"worker":"SUMMIT Worker 2","status":"IN_PROGRESS","claimedAt":"2026-10-10T10:57:00Z"}
+{
+  "lesson": "evaluating-functions",
+  "canonicalIndex": 102,
+  "worker": "SUMMIT Worker 2",
+  "status": "BLOCKED_GITHUB_WRITE_SAFETY",
+  "claimedAt": "2026-10-10T10:57:00Z",
+  "lastAttemptAt": "2026-10-10T11:02:00Z",
+  "note": "Complete lesson package drafted during run but content create_file was blocked before commit; retry in next run. Do not mark complete."
+}
