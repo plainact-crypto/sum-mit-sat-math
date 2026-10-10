@@ -1,0 +1,20 @@
+[
+  [
+    "Skill Check",
+    "Multiply the square roots of 3 and 12.",
+    "6",
+    "Their product is the square root of 36, which is 6."
+  ],
+  [
+    "Skill Check",
+    "Multiply the square root of 5 by itself.",
+    "5",
+    "The principal square root of 25 is 5."
+  ],
+  [
+    "Core Practice",
+    "Simplify sqrt(6) times sqrt(15).",
+    "3sqrt(10)",
+    "The square root of 90 is 3 times the square root of 10."
+  ]
+]
