@@ -1,0 +1,24 @@
+{
+  "lesson_index": 128,
+  "slug": "exponential-function-word-problems",
+  "state": "LOCAL_QA_PASSED_RELEASE_PENDING",
+  "as_of": "2026-10-10",
+  "branch": "worker3-lesson128-20261010",
+  "checks": {
+    "practice": "18/18",
+    "distribution": "3/8/5/2",
+    "solutions": "18/18",
+    "tests": "5/5",
+    "routes": "6/6",
+    "full_lesson_scenes": {
+      "english": 14,
+      "arabic": 14
+    },
+    "manifest": "committed"
+  },
+  "blockers": [
+    "Vercel build-rate-limit status prevents full production CI",
+    "Await merge and live verification"
+  ],
+  "pull_request": 7
+}
