@@ -1,0 +1,14 @@
+{
+  "lesson": "mean",
+  "builders": [
+    "mean-lesson185-complete-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/measures-of-center/mean/explanation/",
+    "/problem-solving-and-data-analysis/measures-of-center/mean/problems/",
+    "/problem-solving-and-data-analysis/measures-of-center/mean/answers/",
+    "/problem-solving-and-data-analysis/measures-of-center/mean/test/",
+    "/problem-solving-and-data-analysis/measures-of-center/mean/video/english/",
+    "/problem-solving-and-data-analysis/measures-of-center/mean/video/arabic/"
+  ]
+}
