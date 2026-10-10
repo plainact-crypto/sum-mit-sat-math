@@ -1,0 +1,17 @@
+{
+  "lesson": "repeated-percent-change",
+  "builders": [
+    "repeated-percent-change-lesson178-explanation-build.js",
+    "repeated-percent-change-lesson178-practice-build.js",
+    "repeated-percent-change-lesson178-test-build.js",
+    "repeated-percent-change-lesson178-video-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/percentages/repeated-percent-change/explanation/",
+    "/problem-solving-and-data-analysis/percentages/repeated-percent-change/problems/",
+    "/problem-solving-and-data-analysis/percentages/repeated-percent-change/answers/",
+    "/problem-solving-and-data-analysis/percentages/repeated-percent-change/test/",
+    "/problem-solving-and-data-analysis/percentages/repeated-percent-change/video/english/",
+    "/problem-solving-and-data-analysis/percentages/repeated-percent-change/video/arabic/"
+  ]
+}
