@@ -1,0 +1,364 @@
+{
+  "slug": "simplifying-square-roots",
+  "title": "Simplifying Square Roots",
+  "index": 117,
+  "classification": "NEITHER",
+  "location": [
+    "Advanced Math",
+    "Radical Expressions and Equations",
+    null
+  ],
+  "explanation": [
+    [
+      "LESSON OBJECTIVE",
+      "Extract perfect-square factors and preserve the principal root.",
+      "Simplify square roots such as √72=6√2 and √(27x²)=3|x|√3. Work exactly without decimal approximations unless the radical is a perfect square."
+    ],
+    [
+      "WHAT YOU NEED TO KNOW / CORE IDEA",
+      "Square roots undo squaring, but the principal root is nonnegative.",
+      "√a is the nonnegative number whose square is a (for a≥0). A radical is simplified by taking perfect-square factors outside the root. For example, 72=36·2, so √72=6√2."
+    ],
+    [
+      "KEY DEFINITIONS",
+      "Radicand, perfect square, principal square root.",
+      "The radicand is the quantity inside √. A perfect square is the square of an integer or algebraic expression. The principal square root is always nonnegative. For real x, √(x²)=|x|, not necessarily x."
+    ],
+    [
+      "CORE RULE",
+      "Factor out perfect squares.",
+      "For A,B≥0, √(AB)=√A·√B. For A≥0 and B>0, √(A/B)=√A/√B. In particular √(k²m)=|k|√m when m≥0. If k is known nonnegative, |k|=k."
+    ],
+    [
+      "HOW IT WORKS",
+      "Find the largest useful perfect-square factor.",
+      "1. Look for a perfect-square factor of the radicand (4, 9, 16, 25, 36, ...). 2. Split the radical into the square factor and the remainder. 3. Take the principal root of the square factor. 4. Leave a square-free radicand. 5. For variables, use absolute values when a squared expression could be negative before squaring."
+    ],
+    [
+      "WORKED EXAMPLE 1 — NUMERIC",
+      "Simplify √72.",
+      "72=36·2, so √72=√36·√2=6√2. Check: (6√2)²=36·2=72."
+    ],
+    [
+      "WORKED EXAMPLE 2 — FRACTION",
+      "Simplify √(5/16).",
+      "Since the denominator is positive, √(5/16)=√5/√16=√5/4. No square factor greater than 1 divides 5."
+    ],
+    [
+      "WORKED EXAMPLE 3 — VARIABLES",
+      "Simplify √(48x²y⁴) for real x,y.",
+      "48=16·3, √(x²)=|x|, and √(y⁴)=y². Therefore √(48x²y⁴)=4|x|y²√3. If x=−2 and y=1, both sides equal 8√3."
+    ],
+    [
+      "WORKED EXAMPLE 4 — EXAM EQUATION",
+      "Solve √(2x²)=3√2.",
+      "Write the left side as √2|x|. Divide both sides by √2 to get |x|=3. Hence x=−3 or x=3; substituting either gives 3√2."
+    ],
+    [
+      "COMMON MISTAKES",
+      "Do not drop absolute value or split a sum.",
+      "Wrong: √(x²)=x for all real x; correct: |x|. Wrong: √(a+b)=√a+√b; this generally fails (√9=3 but √4+√5≠3). Do not use ± when evaluating the principal square root √49=7; ± appears when solving x²=49."
+    ],
+    [
+      "EXAM STRATEGY",
+      "Use exact forms and check the radicand.",
+      "Factor the largest square first: √98=√(49·2)=7√2. For √(x²), write |x| unless x≥0 is given. On the SAT, exact radical answers are safer than early rounding."
+    ],
+    [
+      "QUICK CHECK",
+      "Try before looking at the results.",
+      "A) √(9·7)=3√7. B) √(64/25)=8/5. C) √(x²)=|x| for real x. D) √18+√8=5√2."
+    ],
+    [
+      "LESSON RECAP",
+      "Perfect squares leave the radical; square-free factors stay.",
+      "Use √(k²m)=|k|√m. For numerical k≥0, this is k√m. The square root symbol denotes the nonnegative root; equations may have two solutions."
+    ],
+    [
+      "NEXT STEP",
+      "Apply exact radicals to mixed SAT questions.",
+      "Work through the 18 Practice Problems and their 18 aligned worked solutions, then complete the five-question Lesson Test. The English and Arabic full-lesson presentations reinforce the method."
+    ]
+  ],
+  "practice": [
+    {
+      "number": 1,
+      "group": "Skill Check",
+      "question": "Evaluate the principal square root √49.",
+      "answer": "7",
+      "solution": "The principal square root is nonnegative; 7²=49, so √49=7."
+    },
+    {
+      "number": 2,
+      "group": "Skill Check",
+      "question": "Simplify √(9·5).",
+      "answer": "3√5",
+      "solution": "Extract the perfect square 9: √(9·5)=√9·√5=3√5."
+    },
+    {
+      "number": 3,
+      "group": "Skill Check",
+      "question": "Simplify √72.",
+      "answer": "6√2",
+      "solution": "Factor 72=36·2. Then √72=√36·√2=6√2."
+    },
+    {
+      "number": 4,
+      "group": "Core Practice",
+      "question": "Simplify √48.",
+      "answer": "4√3",
+      "solution": "Factor 48=16·3 and take √16=4 outside the radical."
+    },
+    {
+      "number": 5,
+      "group": "Core Practice",
+      "question": "Simplify √125.",
+      "answer": "5√5",
+      "solution": "125=25·5, so √125=√25√5=5√5."
+    },
+    {
+      "number": 6,
+      "group": "Core Practice",
+      "question": "Evaluate the principal square root √(1/4).",
+      "answer": "1/2",
+      "solution": "√(1/4)=√1/√4=1/2; use the nonnegative root."
+    },
+    {
+      "number": 7,
+      "group": "Core Practice",
+      "question": "Evaluate √0.81 exactly.",
+      "answer": "0.9",
+      "solution": "0.81=81/100, so √0.81=9/10=0.9."
+    },
+    {
+      "number": 8,
+      "group": "Core Practice",
+      "question": "For real x, simplify √(27x²).",
+      "answer": "3|x|√3",
+      "solution": "√(27x²)=√9·√3·√(x²)=3√3|x|. The absolute value is necessary if x is negative."
+    },
+    {
+      "number": 9,
+      "group": "Core Practice",
+      "question": "For real a, simplify √(75a⁴).",
+      "answer": "5a²√3",
+      "solution": "75=25·3, and √(a⁴)=a² because a²≥0; hence 5a²√3."
+    },
+    {
+      "number": 10,
+      "group": "Core Practice",
+      "question": "Simplify √12·√3.",
+      "answer": "6",
+      "solution": "Both radicands are nonnegative: √12√3=√36=6. Equivalently, 2√3·√3=6."
+    },
+    {
+      "number": 11,
+      "group": "Core Practice",
+      "question": "Simplify √72/√2.",
+      "answer": "6",
+      "solution": "For positive denominator, √72/√2=√36=6."
+    },
+    {
+      "number": 12,
+      "group": "Exam-Style",
+      "question": "Simplify √(5/16) exactly.",
+      "answer": "√5/4",
+      "solution": "Use √(5/16)=√5/√16=√5/4. The numerator 5 has no square factor greater than 1."
+    },
+    {
+      "number": 13,
+      "group": "Exam-Style",
+      "question": "Simplify √50+√8.",
+      "answer": "7√2",
+      "solution": "√50=5√2 and √8=2√2. Combine like radicals: 5√2+2√2=7√2."
+    },
+    {
+      "number": 14,
+      "group": "Exam-Style",
+      "question": "For real x,y, simplify √(48x²y⁴).",
+      "answer": "4|x|y²√3",
+      "solution": "48=16·3, √(x²)=|x| and √(y⁴)=y². Multiply to obtain 4|x|y²√3."
+    },
+    {
+      "number": 15,
+      "group": "Exam-Style",
+      "question": "Solve √(2x²)=3√2 for all real x.",
+      "answer": "x=−3 or x=3",
+      "solution": "√(2x²)=√2·|x|. Divide by √2>0: |x|=3, so x=±3."
+    },
+    {
+      "number": 16,
+      "group": "Exam-Style",
+      "question": "A square has area 98 m². Express its side length in simplest radical form.",
+      "answer": "7√2 m",
+      "solution": "If side length s≥0, s²=98, so s=√98=√(49·2)=7√2 meters."
+    },
+    {
+      "number": 17,
+      "group": "Challenge",
+      "question": "For real a,b with a<0, simplify √(a²b⁴). Then evaluate when a=−3 and b=2.",
+      "answer": "−ab² (equivalently |a|b²); value 12",
+      "solution": "√(a²b⁴)=√(a²)√(b⁴)=|a|b². Since a<0, |a|=−a, giving −ab². Substitute a=−3,b=2: 3·4=12."
+    },
+    {
+      "number": 18,
+      "group": "Challenge",
+      "question": "For real x, simplify √(50x⁶)/√2. Evaluate the expression at x=−2.",
+      "answer": "5|x³|; at x=−2 the value is 40",
+      "solution": "The quotient is √(25x⁶)=5√(x⁶)=5|x³|. For x=−2, |x³|=8, so the value is 5·8=40."
+    }
+  ],
+  "test": [
+    {
+      "number": 1,
+      "difficulty": "Easy",
+      "question": "What is the principal square root √81?",
+      "options": [
+        "−9",
+        "9",
+        "±9",
+        "8"
+      ],
+      "correct": 1,
+      "solution": "9²=81 and the principal square root is nonnegative, so √81=9."
+    },
+    {
+      "number": 2,
+      "difficulty": "Easy / Medium",
+      "question": "Simplify √45.",
+      "options": [
+        "9√5",
+        "5√3",
+        "3√5",
+        "15√3"
+      ],
+      "correct": 2,
+      "solution": "45=9·5, so √45=√9√5=3√5."
+    },
+    {
+      "number": 3,
+      "difficulty": "Medium",
+      "question": "Evaluate √0.49 exactly.",
+      "options": [
+        "0.7",
+        "0.07",
+        "7",
+        "0.49"
+      ],
+      "correct": 0,
+      "solution": "0.49=49/100, so √0.49=7/10=0.7."
+    },
+    {
+      "number": 4,
+      "difficulty": "Medium / Hard",
+      "question": "For any real x, which expression equals √(32x²)?",
+      "options": [
+        "8x√2",
+        "4x√2",
+        "16|x|",
+        "4|x|√2"
+      ],
+      "correct": 3,
+      "solution": "32=16·2, and √(x²)=|x|. Thus √(32x²)=4|x|√2."
+    },
+    {
+      "number": 5,
+      "difficulty": "Hard / Exam-Style",
+      "question": "Find all real x such that √(8x²)=4√2.",
+      "options": [
+        "x=2 only",
+        "x=−2 only",
+        "x=−2 or x=2",
+        "x=−4 or x=4"
+      ],
+      "correct": 2,
+      "solution": "√(8x²)=2√2|x|. Divide by 2√2: |x|=2, so x=−2 or x=2."
+    }
+  ],
+  "video": {
+    "english": [
+      [
+        "Full lesson objective",
+        "Today we simplify square roots exactly by removing perfect-square factors. We also explain why the principal square root is nonnegative and why variables sometimes require absolute values."
+      ],
+      [
+        "What a square root means",
+        "The symbol √a denotes the nonnegative number whose square is a. So √49=7, not plus or minus 7. By contrast, solving x²=49 gives x=7 and x=−7."
+      ],
+      [
+        "Perfect-square factors",
+        "To simplify √72, factor 72 as 36 times 2. Take √36 outside to obtain 6√2. Squaring 6√2 gives 72, confirming the result."
+      ],
+      [
+        "A second number example",
+        "For √125, factor 125=25·5. The square root of 25 is 5, so √125=5√5. Leave the 5 inside because it has no nontrivial perfect-square factor."
+      ],
+      [
+        "Fractions and decimals",
+        "For √(5/16), take √16=4 in the denominator to obtain √5/4. For √0.81, use 81/100 and get 9/10=0.9."
+      ],
+      [
+        "Variables and absolute value",
+        "For any real x, √(x²)=|x|. If x=−3, √(x²)=√9=3, not −3. Therefore √(27x²)=3|x|√3."
+      ],
+      [
+        "Multiple variable powers",
+        "Simplify √(48x²y⁴). Extract √16=4, √(x²)=|x| and √(y⁴)=y². The result is 4|x|y²√3."
+      ],
+      [
+        "SAT equation example",
+        "Solve √(2x²)=3√2. Divide by √2 and get |x|=3. The two solutions are x=−3 and x=3. Check both in the original equation."
+      ],
+      [
+        "Common mistakes and exact answers",
+        "Do not split √(a+b) into √a+√b. Do not replace √(x²) by x without a sign condition. Avoid decimal approximations when the question asks for simplest radical form."
+      ],
+      [
+        "Recap and practice",
+        "Find a perfect-square factor, extract its nonnegative root, and leave a square-free radicand. Keep absolute values for unknown signs. Now complete 18 practice problems and the five-question test."
+      ]
+    ],
+    "arabic": [
+      [
+        "هدف الدرس الكامل",
+        "سنتعلم تبسيط الجذور التربيعية بإخراج العوامل التي تمثل مربعات كاملة، مع فهم الجذر الرئيسي والقيمة المطلقة عند وجود متغيرات."
+      ],
+      [
+        "معنى الجذر التربيعي",
+        "الرمز √a يعني الجذر غير السالب. لذلك √49=7 فقط. لكن عند حل المعادلة x²=49 نجد حلين هما 7 و−7."
+      ],
+      [
+        "استخراج المربعات الكاملة",
+        "لتبسيط √72 نكتب 72=36×2، ثم نخرج √36=6، فنحصل على 6√2. ويمكن التحقق بتربيع الناتج."
+      ],
+      [
+        "مثال عددي آخر",
+        "في √125 نكتب 125=25×5، ثم √25=5، فيكون الناتج 5√5. العدد 5 داخل الجذر لا يحتوي عاملًا مربعًا كاملًا أكبر من 1."
+      ],
+      [
+        "الكسور والأعداد العشرية",
+        "في √(5/16) نأخذ √16=4 في المقام فنحصل على √5/4. وأما √0.81 فنكتب 81/100 ونجد 9/10=0.9."
+      ],
+      [
+        "المتغيرات والقيمة المطلقة",
+        "لأي عدد حقيقي x لدينا √(x²)=|x|. فإذا كان x=−3، فإن √9=3. لذلك √(27x²)=3|x|√3."
+      ],
+      [
+        "قوى متغيرات متعددة",
+        "نبسط √(48x²y⁴) بإخراج √16=4، و√(x²)=|x|، و√(y⁴)=y²، فتكون النتيجة 4|x|y²√3."
+      ],
+      [
+        "مسألة امتحان",
+        "نحل √(2x²)=3√2 بقسمة الطرفين على √2 فنحصل على |x|=3، وبالتالي x=−3 أو x=3. نتحقق من الحلين في المعادلة الأصلية."
+      ],
+      [
+        "أخطاء شائعة",
+        "لا نفصل جذر المجموع إلى مجموع الجذور. ولا نكتب √(x²)=x دون معرفة إشارة x. استخدم الصورة الجذرية الدقيقة بدل التقريب المبكر."
+      ],
+      [
+        "الخلاصة والتدريب",
+        "ابحث عن مربع كامل داخل الجذر، وأخرج جذره غير السالب، واترك الباقي داخل الجذر. استخدم القيمة المطلقة عند الحاجة، ثم حل مسائل التدريب الثماني عشرة واختبار الدرس."
+      ]
+    ]
+  }
+}
