@@ -1,0 +1,11 @@
+{
+  "lesson_index": 205,
+  "lesson": "probability-from-tables",
+  "worker": "SUMMIT Worker 5",
+  "status": "BLOCKED_ARABIC_BUILDER_UPDATE",
+  "arabic_chapters_commit": "aeb04a506741a0d306b08108a8e489fefa2e500a",
+  "reason": "Twelve complete Arabic chapters committed; existing builder still renders Arabic narration pending placeholder. GitHub source update rejected by safety checks. No release manifest or production merge until builder passes.",
+  "production_verified": false,
+  "broadcast_status": "PENDING_PRODUCTION",
+  "updated_at": "2026-10-10"
+}
