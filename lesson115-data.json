@@ -1,0 +1,325 @@
+{
+  "index": 115,
+  "title": "Negative Exponents",
+  "base": "advanced-math/radical-expressions-and-equations/negative-exponents",
+  "explanation": [
+    [
+      "LESSON OBJECTIVE",
+      "Rewrite expressions with negative exponents using positive exponents, and evaluate numerical powers accurately."
+    ],
+    [
+      "WHAT YOU NEED TO KNOW",
+      "A negative exponent means reciprocal, not a negative value. The base must be nonzero."
+    ],
+    [
+      "KEY DEFINITIONS",
+      "Base: the repeated factor. Exponent: the power. Reciprocal: one divided by a nonzero quantity."
+    ],
+    [
+      "CORE RULE",
+      "For a ≠ 0, a^(−n)=1/a^n. For a/b ≠ 0, (a/b)^(−n)=(b/a)^n."
+    ],
+    [
+      "HOW IT WORKS",
+      "Move a factor with a negative exponent across the fraction bar, then change its exponent to positive. Do not move unrelated factors."
+    ],
+    [
+      "WORKED EXAMPLE 1 — BASIC",
+      "2^(−3)=1/2³=1/8. The result is positive because the base is positive."
+    ],
+    [
+      "WORKED EXAMPLE 2 — NEGATIVE BASE",
+      "(−2)^(−3)=1/(−2)³=−1/8. Parentheses matter: −2^(−3) is a different expression."
+    ],
+    [
+      "WORKED EXAMPLE 3 — VARIABLES",
+      "6x^(−1)y²=6y²/x, provided x ≠ 0. Only x has the negative exponent."
+    ],
+    [
+      "WORKED EXAMPLE 4 — POWER OF A POWER",
+      "(x^(−2))³=x^(−6)=1/x⁶ for x ≠ 0. Multiply the exponents first."
+    ],
+    [
+      "WORKED EXAMPLE 5 — FRACTION",
+      "(2/3)^(−3)=(3/2)³=27/8. Invert the fraction, then cube."
+    ],
+    [
+      "WORKED EXAMPLE 6 — COMBINING LAWS",
+      "x³·x^(−5)=x^(−2)=1/x². When multiplying like bases, add exponents."
+    ],
+    [
+      "DOMAIN NOTE",
+      "A negative power of zero is undefined. State all variables originally raised to negative powers are nonzero."
+    ],
+    [
+      "COMMON MISTAKES",
+      "Do not turn 5^(−2) into −25. Do not apply a negative exponent to only the numerator when the entire fraction is grouped."
+    ],
+    [
+      "EXAM STRATEGY",
+      "Combine exponent laws before moving factors across a fraction bar. Convert to positive exponents only at the end."
+    ],
+    [
+      "QUICK CHECK",
+      "3^(−2)=1/9. (x/y)^(−2)=y²/x², with x and y nonzero."
+    ],
+    [
+      "LESSON RECAP & NEXT STEP",
+      "Negative exponent means reciprocal. Use product, quotient, and power laws consistently; practice 18 problems, review 18 solutions, then take the five-question test."
+    ]
+  ],
+  "problems": [
+    [
+      "Evaluate 2^(−3).",
+      "1/8",
+      "Reciprocal rule: 2^(−3)=1/2³=1/8."
+    ],
+    [
+      "Rewrite x^(−4) with positive exponents (x ≠ 0).",
+      "1/x⁴",
+      "Move x^(−4) into the denominator: 1/x⁴."
+    ],
+    [
+      "Evaluate (3/5)^(−1).",
+      "5/3",
+      "Invert 3/5 to 5/3 and raise to the first power."
+    ],
+    [
+      "Evaluate 5^(−2).",
+      "1/25",
+      "5^(−2)=1/5²=1/25."
+    ],
+    [
+      "Evaluate (−2)^(−3).",
+      "−1/8",
+      "(−2)³=−8; its reciprocal is −1/8."
+    ],
+    [
+      "Rewrite (2x)^(−2) with positive exponents.",
+      "1/(4x²)",
+      "(2x)^(−2)=1/(2x)²=1/(4x²)."
+    ],
+    [
+      "Simplify x³·x^(−5) with positive exponents.",
+      "1/x²",
+      "Add powers of x: x^(3−5)=x^(−2)=1/x²."
+    ],
+    [
+      "Rewrite a^(−2)b³ with positive exponents.",
+      "b³/a²",
+      "Move a^(−2) into the denominator; b³ stays in the numerator."
+    ],
+    [
+      "Simplify (x^(−2))³.",
+      "1/x⁶",
+      "Power of a power: x^(−2·3)=x^(−6)=1/x⁶."
+    ],
+    [
+      "Rewrite 6x^(−1)y² with positive exponents.",
+      "6y²/x",
+      "The negative exponent applies only to x: 6y²/x."
+    ],
+    [
+      "Simplify (4a^(−3))/(2a^(−1)).",
+      "2/a²",
+      "Divide coefficients: 4/2=2. Subtract exponents: −3−(−1)=−2. Thus 2/a²."
+    ],
+    [
+      "Evaluate (2/3)^(−3).",
+      "27/8",
+      "Invert 2/3 and cube: (3/2)³=27/8."
+    ],
+    [
+      "Simplify (x^(−2)y³)/(xy^(−1)).",
+      "y⁴/x³",
+      "Subtract exponents: x^(−2−1)y^(3−(−1))=x^(−3)y⁴=y⁴/x³."
+    ],
+    [
+      "Simplify (3x^(−2))^(−2).",
+      "x⁴/9",
+      "Raise each factor: 3^(−2)x⁴=x⁴/9."
+    ],
+    [
+      "Solve 2^(−x)=1/32 for x.",
+      "5",
+      "1/32=2^(−5). Equate exponents: −x=−5, so x=5."
+    ],
+    [
+      "Write 0.00045 in scientific notation.",
+      "4.5 × 10^(−4)",
+      "Move the decimal four places right to obtain 4.5, so the power is −4."
+    ],
+    [
+      "Simplify ((a^(−2)b³)^(−2))/(ab^(−1)).",
+      "a³/b⁵",
+      "The numerator becomes a⁴b^(−6). Divide by ab^(−1): a³b^(−5)=a³/b⁵."
+    ],
+    [
+      "Simplify ((2x^(−1)y²)^(−2))/(4x^(−3)y).",
+      "x⁵/(16y⁵)",
+      "Numerator is x²/(4y⁴). Dividing by 4x^(−3)y multiplies by x³/(4y), giving x⁵/(16y⁵)."
+    ]
+  ],
+  "tests": [
+    {
+      "level": "Easy",
+      "prompt": "Evaluate 10^(−2).",
+      "options": [
+        "−100",
+        "1/100",
+        "−1/100",
+        "100"
+      ],
+      "correct": 1,
+      "why": "10^(−2)=1/10²=1/100."
+    },
+    {
+      "level": "Easy / Medium",
+      "prompt": "Rewrite (2a)^(−3) using positive exponents.",
+      "options": [
+        "1/(8a³)",
+        "−8a³",
+        "1/(2a³)",
+        "8/a³"
+      ],
+      "correct": 0,
+      "why": "(2a)³=8a³; the negative exponent takes its reciprocal."
+    },
+    {
+      "level": "Medium",
+      "prompt": "Simplify x^(−4)/x^(−2).",
+      "options": [
+        "x²",
+        "1/x²",
+        "1/x⁶",
+        "x⁶"
+      ],
+      "correct": 1,
+      "why": "Subtract exponents: −4−(−2)=−2, so 1/x²."
+    },
+    {
+      "level": "Medium / Hard",
+      "prompt": "Evaluate (3/2)^(−2).",
+      "options": [
+        "9/4",
+        "−9/4",
+        "4/9",
+        "−4/9"
+      ],
+      "correct": 2,
+      "why": "Invert to 2/3 and square: 4/9."
+    },
+    {
+      "level": "Hard / Exam-Style",
+      "prompt": "If 5^(2x−1)=1/125, find x.",
+      "options": [
+        "−2",
+        "−1",
+        "1",
+        "2"
+      ],
+      "correct": 1,
+      "why": "1/125=5^(−3), so 2x−1=−3 and x=−1."
+    }
+  ],
+  "video_en": [
+    [
+      "Welcome",
+      "Negative exponents are a shorthand for reciprocals, not negative numbers."
+    ],
+    [
+      "Core rule",
+      "For any nonzero a, a to the negative n equals one divided by a to the positive n."
+    ],
+    [
+      "First example",
+      "Two to the negative three is one over two cubed, which is one eighth."
+    ],
+    [
+      "Negative bases",
+      "Negative two to the negative three, with parentheses, equals negative one eighth."
+    ],
+    [
+      "Variable factors",
+      "Six x to the negative one times y squared becomes six y squared divided by x."
+    ],
+    [
+      "Power of a power",
+      "x to the negative two, cubed, becomes x to the negative six, or one over x to the sixth."
+    ],
+    [
+      "Fraction example",
+      "Two thirds to the negative three becomes three halves cubed, which is twenty seven eighths."
+    ],
+    [
+      "Exponent products",
+      "x cubed times x to the negative five becomes x to the negative two, or one over x squared."
+    ],
+    [
+      "Domains",
+      "Zero cannot be raised to a negative power, because division by zero is undefined."
+    ],
+    [
+      "Exam strategy",
+      "Combine exponent laws first. Then rewrite the final answer with positive exponents."
+    ],
+    [
+      "Quick check",
+      "Three to the negative two is one ninth. Remember to invert the whole base."
+    ],
+    [
+      "Practice",
+      "Now solve eighteen practice questions and a five question test."
+    ]
+  ],
+  "video_ar": [
+    [
+      "مقدمة",
+      "الأس السالب معناه مقلوب العدد، مش إن الناتج سالب."
+    ],
+    [
+      "القاعدة",
+      "أي عدد غير صفر مرفوع لأس سالب يساوي واحد على نفس العدد بأس موجب."
+    ],
+    [
+      "مثال",
+      "اتنين أس سالب تلاتة يساوي واحد على تمانية."
+    ],
+    [
+      "العدد السالب",
+      "سالب اتنين أس سالب تلاتة بين قوسين يساوي سالب واحد على تمانية."
+    ],
+    [
+      "المتغيرات",
+      "ستة إكس أس سالب واحد في واي تربيع تساوي ستة واي تربيع على إكس."
+    ],
+    [
+      "أس القوة",
+      "إكس أس سالب اتنين الكل تكعيب يساوي واحد على إكس أس ستة."
+    ],
+    [
+      "الكسور",
+      "اتنين على تلاتة أس سالب تلاتة يساوي سبعة وعشرين على تمانية."
+    ],
+    [
+      "ضرب القوى",
+      "إكس تكعيب في إكس أس سالب خمسة يساوي واحد على إكس تربيع."
+    ],
+    [
+      "المجال",
+      "الصفر ماينفعش نرفعه لأس سالب لأن القسمة على صفر غير معرفة."
+    ],
+    [
+      "نصيحة الامتحان",
+      "اجمع قوانين الأسس الأول وبعدين حول الأسس السالبة لموجبة."
+    ],
+    [
+      "مراجعة",
+      "تلاتة أس سالب اتنين تساوي واحد على تسعة."
+    ],
+    [
+      "التدريب",
+      "دلوقتي حل تمنتاشر سؤال تدريب وخمس أسئلة اختبار."
+    ]
+  ]
+}
