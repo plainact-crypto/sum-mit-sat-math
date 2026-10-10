@@ -1,0 +1,364 @@
+{
+  "slug": "composite-functions-with-numbers",
+  "title": "Composite Functions with Numbers",
+  "index": 107,
+  "location": [
+    "Advanced Math",
+    "Functions",
+    null
+  ],
+  "classification": "NEITHER",
+  "explanation": [
+    [
+      "LESSON OBJECTIVE",
+      "Evaluate a composition of two functions at a number.",
+      "Find f(g(a)) by evaluating the inner function g at a, then using that output as the input of f. Check both functions' domains."
+    ],
+    [
+      "WHAT YOU NEED TO KNOW / CORE IDEA",
+      "A composition passes one output into another function.",
+      "f(g(3)) means calculate g(3) first, then apply f. In general f(g(a)) and g(f(a)) are different because the order changes."
+    ],
+    [
+      "KEY DEFINITIONS",
+      "Inner function, outer function, composition, domain.",
+      "In f(g(a)), g is the inner function and f is the outer function. The composition f∘g uses the output of g as the input of f; both steps must be defined."
+    ],
+    [
+      "CORE RULE",
+      "Inside first, outside second.",
+      "For f(g(a)): Step 1 compute b=g(a). Step 2 compute f(b). Step 3 check a is allowed by g and b is allowed by f. Never multiply f and g."
+    ],
+    [
+      "HOW IT WORKS",
+      "Read the parentheses from the inside out.",
+      "Write the inner value on a separate line, substitute that exact number into the outer rule, simplify carefully, and check denominators, radicals, or piecewise conditions."
+    ],
+    [
+      "WORKED EXAMPLE 1",
+      "Two formulas, one composition.",
+      "If f(x)=2x+3 and g(x)=x²−1, then g(3)=9−1=8 and f(g(3))=f(8)=2(8)+3=19."
+    ],
+    [
+      "WORKED EXAMPLE 2",
+      "Reversing the order changes the result.",
+      "With the same functions, f(3)=9, so g(f(3))=g(9)=9²−1=80. Compare 80 with f(g(3))=19; the order matters."
+    ],
+    [
+      "WORKED EXAMPLE 3",
+      "A composition can be undefined.",
+      "If f(x)=1/(x−2) and g(x)=x+4, then f(g(−1))=f(3)=1. But g(−2)=2 and f(2) is undefined because its denominator is zero."
+    ],
+    [
+      "WORKED EXAMPLE 4",
+      "Compose functions given by tables.",
+      "Suppose g(1)=3 and f(3)=9. Then f(g(1))=f(3)=9. Use the inner table first and the outer table second; no formula is needed."
+    ],
+    [
+      "WORKED EXAMPLE 5",
+      "Use the correct piecewise branch.",
+      "Let f(x)=x² for x≥0 and f(x)=x+5 for x<0, with g(x)=3−2x. Since g(2)=−1, use the negative branch: f(g(2))=f(−1)=4."
+    ],
+    [
+      "COMMON MISTAKES",
+      "Do not reverse order or skip the domain check.",
+      "f(g(2)) is not g(f(2)). Do not replace the outer input by the original 2. If g(2) produces a forbidden denominator or radical input for f, the composition is undefined."
+    ],
+    [
+      "EXAM STRATEGY",
+      "Draw a two-arrow chain.",
+      "Write a → g(a) → f(g(a)). For a table, trace two lookups; for a formula, perform two substitutions. Exact arithmetic is generally faster than graphing for numeric compositions."
+    ],
+    [
+      "QUICK CHECK",
+      "Compare two compositions.",
+      "If f(x)=x+2 and g(x)=3x, then f(g(2))=f(6)=8, but g(f(2))=g(4)=12. Check which function is inside before calculating."
+    ],
+    [
+      "LESSON RECAP",
+      "Output of inner → input of outer.",
+      "Evaluate from the innermost parentheses, preserve signs, use the correct table row or piecewise branch, and verify both domains. Continue with 18 problems, aligned solutions, and the 5-question test."
+    ]
+  ],
+  "practice": [
+    {
+      "number": 1,
+      "group": "Skill Check",
+      "question": "Let f(x)=x+4 and g(x)=2x. Find f(g(3)).",
+      "answer": "10",
+      "solution": "g(3)=6; f(6)=6+4=10."
+    },
+    {
+      "number": 2,
+      "group": "Skill Check",
+      "question": "Let f(x)=3x and g(x)=x−1. Find f(g(5)).",
+      "answer": "12",
+      "solution": "g(5)=4; f(4)=3(4)=12."
+    },
+    {
+      "number": 3,
+      "group": "Skill Check",
+      "question": "Let f(x)=x² and g(x)=x+1. Find f(g(2)).",
+      "answer": "9",
+      "solution": "g(2)=3; f(3)=3²=9."
+    },
+    {
+      "number": 4,
+      "group": "Core Practice",
+      "question": "Let f(x)=2x−1 and g(x)=x². Find f(g(−2)).",
+      "answer": "7",
+      "solution": "g(−2)=4; f(4)=2(4)−1=7."
+    },
+    {
+      "number": 5,
+      "group": "Core Practice",
+      "question": "Let f(x)=x²−3 and g(x)=2x+1. Find f(g(1)).",
+      "answer": "6",
+      "solution": "g(1)=3; f(3)=9−3=6."
+    },
+    {
+      "number": 6,
+      "group": "Core Practice",
+      "question": "Let f(x)=x+5 and g(x)=3x−2. Find g(f(1)).",
+      "answer": "16",
+      "solution": "f(1)=6; g(6)=3(6)−2=16. The outer function is g."
+    },
+    {
+      "number": 7,
+      "group": "Core Practice",
+      "question": "Let f(x)=|x| and g(x)=x−6. Find f(g(2)).",
+      "answer": "4",
+      "solution": "g(2)=−4; f(−4)=|−4|=4."
+    },
+    {
+      "number": 8,
+      "group": "Core Practice",
+      "question": "Let f(x)=1/(x+1) and g(x)=x². Find f(g(2)).",
+      "answer": "1/5",
+      "solution": "g(2)=4; f(4)=1/(4+1)=1/5."
+    },
+    {
+      "number": 9,
+      "group": "Core Practice",
+      "question": "Let f(x)=√x and g(x)=x+9. Find f(g(7)).",
+      "answer": "4",
+      "solution": "g(7)=16; f(16)=√16=4."
+    },
+    {
+      "number": 10,
+      "group": "Core Practice",
+      "question": "A table gives f(1)=7, f(2)=4, f(3)=9 and g(0)=2, g(1)=3, g(2)=1. Find f(g(1)).",
+      "answer": "9",
+      "solution": "From the g table, g(1)=3. From the f table, f(3)=9."
+    },
+    {
+      "number": 11,
+      "group": "Core Practice",
+      "question": "Let f(x)=2x+3 and g(x)=x²−1. Find both f(g(2)) and g(f(2)).",
+      "answer": "f(g(2))=9; g(f(2))=48",
+      "solution": "g(2)=3 so f(3)=9; f(2)=7 so g(7)=49−1=48."
+    },
+    {
+      "number": 12,
+      "group": "Exam-Style",
+      "question": "Let f(x)=x²+1 and g(x)=x/2. Find f(g(6)).",
+      "answer": "10",
+      "solution": "g(6)=3; f(3)=9+1=10."
+    },
+    {
+      "number": 13,
+      "group": "Exam-Style",
+      "question": "Let f(x)=2x−5 and g(x)=3−x. Find f(g(−2)).",
+      "answer": "5",
+      "solution": "g(−2)=3−(−2)=5; f(5)=10−5=5."
+    },
+    {
+      "number": 14,
+      "group": "Exam-Style",
+      "question": "Let f(x)=x/(x−2) and g(x)=x+1. Is f(g(1)) defined? Explain.",
+      "answer": "Undefined",
+      "solution": "g(1)=2, and f(2)=2/(2−2) divides by zero. The composition is undefined."
+    },
+    {
+      "number": 15,
+      "group": "Exam-Style",
+      "question": "Let f(x)=x²−4 and g(x)=√(x+1). Find f(g(8)).",
+      "answer": "5",
+      "solution": "g(8)=√9=3; f(3)=9−4=5."
+    },
+    {
+      "number": 16,
+      "group": "Exam-Style",
+      "question": "Let f(x)=x+3 when x<0 and f(x)=2x when x≥0. Let g(x)=1−x. Find f(g(4)).",
+      "answer": "0",
+      "solution": "g(4)=−3, so use f(x)=x+3: f(−3)=−3+3=0."
+    },
+    {
+      "number": 17,
+      "group": "Challenge",
+      "question": "Let f(x)=(x−1)/(x+2) and g(x)=2x−5. Find f(g(3)) and the input x that makes f(g(x)) undefined.",
+      "answer": "f(g(3))=0; undefined at x=3/2",
+      "solution": "g(3)=1, so f(1)=0/3=0. The outer denominator is g(x)+2=2x−3, which is zero at x=3/2."
+    },
+    {
+      "number": 18,
+      "group": "Challenge",
+      "question": "Let f(x)=x²−2x and g(x)=ax+1. If f(g(2))=8 and a>0, find a.",
+      "answer": "3/2",
+      "solution": "g(2)=2a+1. Then f(g(2))=(2a+1)²−2(2a+1)=4a²−1=8, so a²=9/4 and a=3/2 since a>0."
+    }
+  ],
+  "test": [
+    {
+      "number": 1,
+      "difficulty": "Easy",
+      "question": "Let f(x)=x+1 and g(x)=2x. What is f(g(4))?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "correct": 1,
+      "solution": "g(4)=8; f(8)=9."
+    },
+    {
+      "number": 2,
+      "difficulty": "Easy / Medium",
+      "question": "Let f(x)=x² and g(x)=x−2. What is g(f(3))?",
+      "options": [
+        "5",
+        "7",
+        "9",
+        "11"
+      ],
+      "correct": 1,
+      "solution": "f(3)=9; g(9)=9−2=7."
+    },
+    {
+      "number": 3,
+      "difficulty": "Medium",
+      "question": "Let f(x)=3x−1 and g(x)=x²+2. What is f(g(−1))?",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "10"
+      ],
+      "correct": 2,
+      "solution": "g(−1)=1+2=3; f(3)=9−1=8."
+    },
+    {
+      "number": 4,
+      "difficulty": "Medium / Hard",
+      "question": "Let f(x)=1/(x−4) and g(x)=2x. Which statement is correct?",
+      "options": [
+        "f(g(2))=0",
+        "f(g(2)) is undefined",
+        "f(g(2))=1/2",
+        "f(g(2))=4"
+      ],
+      "correct": 1,
+      "solution": "g(2)=4; f(4)=1/(4−4) is undefined because division by zero is forbidden."
+    },
+    {
+      "number": 5,
+      "difficulty": "Hard / Exam-Style",
+      "question": "Let f(x)=x²−1 and g(x)=kx+2, where k>0. If f(g(1))=24, what is f(g(2))?",
+      "options": [
+        "24",
+        "35",
+        "48",
+        "63"
+      ],
+      "correct": 3,
+      "solution": "(k+2)²−1=24 implies k+2=5 (k>0), so k=3. Then g(2)=8 and f(8)=64−1=63."
+    }
+  ],
+  "video": {
+    "english": [
+      [
+        "Introduction",
+        "A composite function feeds one function's output into another. f(g(a)) is read from the inside out."
+      ],
+      [
+        "Function notation",
+        "f(g(3)) is not multiplication. First find g(3), then evaluate f at that result."
+      ],
+      [
+        "Simple example",
+        "For f(x)=x+4 and g(x)=2x, g(3)=6 and f(g(3))=f(6)=10."
+      ],
+      [
+        "Order matters",
+        "For f(x)=2x+3 and g(x)=x²−1, f(g(3))=19 but g(f(3))=80."
+      ],
+      [
+        "Negative inputs",
+        "Keep parentheses around negative inputs. If g(2)=−4 and f(x)=|x|, the composition equals 4."
+      ],
+      [
+        "Tables",
+        "Use the g table to find the inner output, then the f table to look up the final output."
+      ],
+      [
+        "Restricted domains",
+        "If the inner output is a forbidden denominator or square-root input for the outer function, the composition is undefined."
+      ],
+      [
+        "Piecewise composition",
+        "Choose the outer function's branch using the inner output, not the original input."
+      ],
+      [
+        "Exam strategy",
+        "Write a → g(a) → f(g(a)). Check both steps, then use exact arithmetic."
+      ],
+      [
+        "Recap",
+        "Inner first, outer second, check domain. Continue to practice, solutions, and the lesson test."
+      ]
+    ],
+    "arabic": [
+      [
+        "مقدمة",
+        "تركيب الدوال يعني استخدام مخرج دالة كمدخل لدالة أخرى. نقرأ f(g(a)) من الداخل للخارج."
+      ],
+      [
+        "معنى الرمز",
+        "f(g(3)) ليس ضرباً. احسب g(3) أولاً ثم عوض بالناتج داخل f."
+      ],
+      [
+        "مثال بسيط",
+        "إذا كانت f(x)=x+4 و g(x)=2x فإن g(3)=6 ثم f(g(3))=10."
+      ],
+      [
+        "الترتيب مهم",
+        "إذا كانت f(x)=2x+3 و g(x)=x²−1 فإن f(g(3))=19 بينما g(f(3))=80."
+      ],
+      [
+        "المدخل السالب",
+        "استخدم الأقواس مع السالب. إذا كانت g(2)=−4 و f(x)=|x| فإن الناتج 4."
+      ],
+      [
+        "الجداول",
+        "ابحث عن ناتج الدالة الداخلية في جدول g، ثم استخدمه كمدخل في جدول f."
+      ],
+      [
+        "قيود المجال",
+        "إذا أدى الناتج الداخلي إلى قسمة على صفر أو جذر تربيعي غير معرف، فإن التركيب غير معرف."
+      ],
+      [
+        "الدالة على أجزاء",
+        "اختر فرع الدالة الخارجية بناءً على الناتج الداخلي وليس المدخل الأصلي."
+      ],
+      [
+        "استراتيجية الاختبار",
+        "اكتب a ثم g(a) ثم f(g(a)). تحقق من الخطوتين واستخدم الحساب الدقيق."
+      ],
+      [
+        "الخلاصة",
+        "الداخل أولاً ثم الخارج مع فحص المجال. تابع التدريب والحلول واختبار الدرس."
+      ]
+    ]
+  }
+}
