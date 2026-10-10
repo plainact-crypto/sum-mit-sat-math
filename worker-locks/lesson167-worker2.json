@@ -1,0 +1,13 @@
+{
+  "worker": "SUMMIT Worker 2",
+  "lesson_index": 167,
+  "total_lessons": 298,
+  "ownership_rule": "indices congruent to 2 modulo 5",
+  "canonical_title": "Converting Length Units",
+  "canonical_slug": "converting-length-units",
+  "canonical_route": "/problem-solving-and-data-analysis/units-and-unit-conversion/converting-length-units/",
+  "status": "LOCKED_PENDING_CONTENT_BUILD",
+  "date": "2026-10-11",
+  "branch": "worker2/converting-length-units-167-20261011",
+  "notes": "Canonical lesson index, title and slug verified against 298-lesson curriculum. Route path must be checked against generate.js slugify before creating release manifest. Lesson 162 locally QA-passed but GitHub content writes remain blocked."
+}
