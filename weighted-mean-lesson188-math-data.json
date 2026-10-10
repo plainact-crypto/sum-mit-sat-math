@@ -1,0 +1,435 @@
+{
+  "lesson_index": 188,
+  "title": "Weighted Mean",
+  "slug": "weighted-mean",
+  "base": "problem-solving-and-data-analysis/one-variable-data/weighted-mean",
+  "classification": "NEITHER",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "prompt": "Compute the mean of 4 and 8 when each has weight 1.",
+      "values": [
+        4,
+        8
+      ],
+      "weights": [
+        1,
+        1
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 6,
+      "solution": "Weighted mean = (4 × 1 + 8 × 1) / (1 + 1) = 12 / 2 = 6."
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "prompt": "A score of 70 has weight 1 and 90 has weight 3. Find the weighted mean.",
+      "values": [
+        70,
+        90
+      ],
+      "weights": [
+        1,
+        3
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 85,
+      "solution": "Weighted mean = (70 × 1 + 90 × 3) / (1 + 3) = 340 / 4 = 85."
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "prompt": "The values 2, 5, 8 have frequencies 1, 2, 1. Find the mean.",
+      "values": [
+        2,
+        5,
+        8
+      ],
+      "weights": [
+        1,
+        2,
+        1
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 5,
+      "solution": "Weighted mean = (2 × 1 + 5 × 2 + 8 × 1) / (1 + 2 + 1) = 20 / 4 = 5."
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "prompt": "The values 10, 20, 30 have frequencies 2, 3, 5. Find the mean.",
+      "values": [
+        10,
+        20,
+        30
+      ],
+      "weights": [
+        2,
+        3,
+        5
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 23,
+      "solution": "Weighted mean = (10 × 2 + 20 × 3 + 30 × 5) / (2 + 3 + 5) = 230 / 10 = 23."
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "prompt": "Three students scored 60 and five scored 80. Find the class mean.",
+      "values": [
+        60,
+        80
+      ],
+      "weights": [
+        3,
+        5
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 72.5,
+      "solution": "Weighted mean = (60 × 3 + 80 × 5) / (3 + 5) = 580 / 8 = 72.5."
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "prompt": "A quiz score of 80 counts 25% and an exam score of 92 counts 75%. Find the course average.",
+      "values": [
+        80,
+        92
+      ],
+      "weights": [
+        25,
+        75
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 89,
+      "solution": "Weighted mean = (80 × 25 + 92 × 75) / (25 + 75) = 8900 / 100 = 89."
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "prompt": "Values 3, 7, 11 occur 2, 4, 2 times. Find their weighted mean.",
+      "values": [
+        3,
+        7,
+        11
+      ],
+      "weights": [
+        2,
+        4,
+        2
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 7,
+      "solution": "Weighted mean = (3 × 2 + 7 × 4 + 11 × 2) / (2 + 4 + 2) = 56 / 8 = 7."
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "prompt": "A product rated 5 by three people and 9 by one person has what mean rating?",
+      "values": [
+        5,
+        9
+      ],
+      "weights": [
+        3,
+        1
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 6,
+      "solution": "Weighted mean = (5 × 3 + 9 × 1) / (3 + 1) = 24 / 4 = 6."
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "prompt": "A survey records values 12, 18, 30 with frequencies 2, 3, 1. Find the mean.",
+      "values": [
+        12,
+        18,
+        30
+      ],
+      "weights": [
+        2,
+        3,
+        1
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 18,
+      "solution": "Weighted mean = (12 × 2 + 18 × 3 + 30 × 1) / (2 + 3 + 1) = 108 / 6 = 18."
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "prompt": "Find the mean of 1, 4, 10 with frequencies 1, 2, 3.",
+      "values": [
+        1,
+        4,
+        10
+      ],
+      "weights": [
+        1,
+        2,
+        3
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 6.5,
+      "solution": "Weighted mean = (1 × 1 + 4 × 2 + 10 × 3) / (1 + 2 + 3) = 39 / 6 = 6.5."
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "prompt": "A store sells 2 items at $50, 3 at $70, and 5 at $90. Find the average selling price.",
+      "values": [
+        50,
+        70,
+        90
+      ],
+      "weights": [
+        2,
+        3,
+        5
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 76,
+      "solution": "Weighted mean = (50 × 2 + 70 × 3 + 90 × 5) / (2 + 3 + 5) = 760 / 10 = 76."
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "prompt": "A score of 70 counts twice and an unknown score counts three times. The weighted mean is 82. Find the unknown score.",
+      "values": [
+        70,
+        null
+      ],
+      "weights": [
+        2,
+        3
+      ],
+      "kind": "missingScore",
+      "target": 82,
+      "answer": 90,
+      "solution": "Weighted total must be 82 × 5 = 410. Known contribution is 140. Divide the remaining 270 by weight 3 to get 90."
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "prompt": "Group A has 12 students averaging 75; group B has 18 averaging 85. Find the combined average.",
+      "values": [
+        75,
+        85
+      ],
+      "weights": [
+        12,
+        18
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 81,
+      "solution": "Weighted mean = (75 × 12 + 85 × 18) / (12 + 18) = 2430 / 30 = 81."
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "prompt": "Three grade categories are 78 at 20%, 88 at 30%, and 94 at 50%. Find the final grade.",
+      "values": [
+        78,
+        88,
+        94
+      ],
+      "weights": [
+        20,
+        30,
+        50
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 89,
+      "solution": "Weighted mean = (78 × 20 + 88 × 30 + 94 × 50) / (20 + 30 + 50) = 8900 / 100 = 89."
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "prompt": "Four machines produce 12 units each and six produce 20 units each. Find the mean output per machine.",
+      "values": [
+        12,
+        20
+      ],
+      "weights": [
+        4,
+        6
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 16.8,
+      "solution": "Weighted mean = (12 × 4 + 20 × 6) / (4 + 6) = 168 / 10 = 16.8."
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "prompt": "Team A has 5 players averaging 72 and team B has 7 averaging 84. Find the overall mean.",
+      "values": [
+        72,
+        84
+      ],
+      "weights": [
+        5,
+        7
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 79,
+      "solution": "Weighted mean = (72 × 5 + 84 × 7) / (5 + 7) = 948 / 12 = 79."
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "prompt": "A score of 60 has weight 2 and a score of 90 has unknown weight w. If the mean is 78, find w.",
+      "values": [
+        60,
+        90
+      ],
+      "weights": [
+        2,
+        null
+      ],
+      "kind": "missingWeight",
+      "target": 78,
+      "answer": 3,
+      "solution": "Set (120 + 90w)/(2 + w) = 78. Then 120 + 90w = 156 + 78w, giving w = 3."
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "prompt": "Three groups have sizes 2, 4, 4 and respective means 18, 24, 28. Find the combined mean.",
+      "values": [
+        18,
+        24,
+        28
+      ],
+      "weights": [
+        2,
+        4,
+        4
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 24.4,
+      "solution": "Weighted mean = (18 × 2 + 24 × 4 + 28 × 4) / (2 + 4 + 4) = 244 / 10 = 24.4."
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "difficulty": "Easy",
+      "prompt": "Two scores, 6 and 10, each have weight 1. Find the mean.",
+      "values": [
+        6,
+        10
+      ],
+      "weights": [
+        1,
+        1
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 8,
+      "solution": "Weighted mean = (6 × 1 + 10 × 1) / (1 + 1) = 16 / 2 = 8."
+    },
+    {
+      "index": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "A score of 60 has weight 1 and a score of 80 weight 3. Find the mean.",
+      "values": [
+        60,
+        80
+      ],
+      "weights": [
+        1,
+        3
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 75,
+      "solution": "Weighted mean = (60 × 1 + 80 × 3) / (1 + 3) = 300 / 4 = 75."
+    },
+    {
+      "index": 3,
+      "difficulty": "Medium",
+      "prompt": "Four students average 70 and six students average 90. Find the overall mean.",
+      "values": [
+        70,
+        90
+      ],
+      "weights": [
+        4,
+        6
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 82,
+      "solution": "Weighted mean = (70 × 4 + 90 × 6) / (4 + 6) = 820 / 10 = 82."
+    },
+    {
+      "index": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "A score of 75 counts twice and an unknown score counts three times. The weighted mean is 87. Find the unknown score.",
+      "values": [
+        75,
+        null
+      ],
+      "weights": [
+        2,
+        3
+      ],
+      "kind": "missingScore",
+      "target": 87,
+      "answer": 95,
+      "solution": "Weighted total must be 87 × 5 = 435. Known contribution is 150. Divide the remaining 285 by weight 3 to get 95."
+    },
+    {
+      "index": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "Groups of 2, 3, and 5 students average 60, 75, and 90. Two more students each score 93. Find the new combined mean.",
+      "values": [
+        60,
+        75,
+        90,
+        93
+      ],
+      "weights": [
+        2,
+        3,
+        5,
+        2
+      ],
+      "kind": "mean",
+      "target": null,
+      "answer": 81.75,
+      "solution": "Weighted mean = (60 × 2 + 75 × 3 + 90 × 5 + 93 × 2) / (2 + 3 + 5 + 2) = 981 / 12 = 81.75."
+    }
+  ],
+  "qa": {
+    "practice": 18,
+    "distribution": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answers": 18,
+    "test": 5,
+    "independent_numeric_checks": 23,
+    "passed": true
+  }
+}
