@@ -1,0 +1,56 @@
+{
+  "english": [
+    [
+      "What a domain means",
+      "The domain is the set of all input values for which a function is defined over the real numbers.",
+      "Check each restriction before simplifying."
+    ],
+    [
+      "Polynomials and denominators",
+      "A polynomial accepts every real input. For a rational function, set the denominator unequal to zero.",
+      "1/(x−5): x≠5"
+    ],
+    [
+      "Even roots",
+      "For a square root, the expression inside must be at least zero. When the root is in a denominator, it must be greater than zero.",
+      "√(x−4): x≥4; 1/√(x−4): x>4"
+    ],
+    [
+      "Combine conditions",
+      "For √(3x−12)/(x−5), the square root requires x≥4 and the denominator excludes x=5.",
+      "x≥4 and x≠5"
+    ],
+    [
+      "Sign charts and SAT strategy",
+      "For √((x−2)/(x+1)), use critical points −1 and 2. Test each interval and include allowed zeros but never denominator zeros.",
+      "x<−1 or x≥2"
+    ]
+  ],
+  "arabic": [
+    [
+      "يعني إيه مجال الدالة",
+      "المجال هو كل قيم الإدخال الحقيقية اللي الدالة ينفع تتحسب عندها. لازم نفحص القيود قبل التبسيط.",
+      "المجال = قيم x المسموح بها"
+    ],
+    [
+      "كثيرات الحدود والمقام",
+      "كثير الحدود مجاله كل الأعداد الحقيقية. لو فيه كسر، المقام ما ينفعش يساوي صفر.",
+      "1/(x−5): x≠5"
+    ],
+    [
+      "الجذر التربيعي",
+      "اللي تحت الجذر التربيعي لازم يكون أكبر من أو يساوي صفر. ولو الجذر في المقام، لازم يكون أكبر من صفر فقط.",
+      "√(x−4): x≥4; 1/√(x−4): x>4"
+    ],
+    [
+      "نجمع الشروط",
+      "في √(3x−12)/(x−5)، شرط الجذر x أكبر من أو يساوي أربعة، والمقام يستبعد خمسة.",
+      "x≥4 و x≠5"
+    ],
+    [
+      "جدول الإشارات",
+      "في √((x−2)/(x+1))، نحدد سالب واحد واتنين، ونختبر إشارات الفترات. نضم الصفر المسموح ونستبعد صفر المقام.",
+      "x<−1 أو x≥2"
+    ]
+  ]
+}

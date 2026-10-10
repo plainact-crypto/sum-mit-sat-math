@@ -1,0 +1,134 @@
+{
+  "lesson": "Domain",
+  "classification": "DESMOS",
+  "groups": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "practice": [
+    [
+      "Find the domain of f(x)=3x−7.",
+      "All real numbers.",
+      "A linear polynomial has no denominator or even root, so every real input works."
+    ],
+    [
+      "Find the domain of f(x)=√(x−4).",
+      "x≥4.",
+      "The radicand must satisfy x−4≥0, giving x≥4."
+    ],
+    [
+      "Find the domain of f(x)=1/(x−5).",
+      "x≠5.",
+      "The denominator x−5 cannot equal zero."
+    ],
+    [
+      "Find the domain of f(x)=√(2x+6).",
+      "x≥−3.",
+      "Solve 2x+6≥0: x≥−3."
+    ],
+    [
+      "Find the domain of f(x)=1/(x²−9).",
+      "x≠−3 and x≠3.",
+      "Factor x²−9=(x−3)(x+3); exclude both zeros."
+    ],
+    [
+      "Find the domain of f(x)=√(10−2x).",
+      "x≤5.",
+      "Solve 10−2x≥0. Dividing by −2 reverses the sign: x≤5."
+    ],
+    [
+      "Find the domain of f(x)=(x+2)/(x²+x−6).",
+      "x≠−3 and x≠2.",
+      "Factor denominator (x+3)(x−2); exclude −3 and 2."
+    ],
+    [
+      "Find the domain of f(x)=√(x²−16).",
+      "x≤−4 or x≥4.",
+      "(x−4)(x+4)≥0 outside the two zeros."
+    ],
+    [
+      "Find the domain of f(x)=1/√(x−1).",
+      "x>1.",
+      "A square root in a denominator must be strictly positive: x−1>0."
+    ],
+    [
+      "Find the domain of f(x)=√(9−x²).",
+      "−3≤x≤3.",
+      "9−x²≥0 means x²≤9, hence −3≤x≤3."
+    ],
+    [
+      "Find the domain of f(x)=√((x−2)/(x+1)).",
+      "x<−1 or x≥2.",
+      "Critical points are −1 (excluded denominator) and 2 (included zero). The ratio is nonnegative on (−∞,−1) and [2,∞)."
+    ],
+    [
+      "Find the domain of f(x)=1/(x²−4x).",
+      "x≠0 and x≠4.",
+      "Factor x(x−4); both factors must be nonzero."
+    ],
+    [
+      "Find the domain of f(x)=√(3x−12)/(x−5).",
+      "x≥4 and x≠5.",
+      "The radicand requires x≥4, while the denominator excludes 5."
+    ],
+    [
+      "Find the domain of f(x)=√((x+3)(x−1)).",
+      "x≤−3 or x≥1.",
+      "The product is nonnegative outside roots −3 and 1; include both endpoints."
+    ],
+    [
+      "Find the domain of f(x)=1/√(25−x²).",
+      "−5<x<5.",
+      "The denominator root must be positive: 25−x²>0."
+    ],
+    [
+      "Find the domain of f(x)=√(x−2)+√(7−x).",
+      "2≤x≤7.",
+      "Require both x−2≥0 and 7−x≥0; intersect the conditions."
+    ],
+    [
+      "Find the domain of f(x)=√((x−1)/(x−4)).",
+      "x≤1 or x>4.",
+      "Sign chart at 1 and 4: ratio nonnegative for x≤1 or x>4; exclude 4."
+    ],
+    [
+      "Find the domain of f(x)=√(x²−5x+6)/(x−3).",
+      "x≤2 or x>3.",
+      "Radicand (x−2)(x−3)≥0 gives x≤2 or x≥3; exclude denominator zero at 3."
+    ]
+  ],
+  "tests": [
+    [
+      "Easy",
+      "Find the domain of f(x)=x²+2.",
+      "All real numbers.",
+      "Every polynomial is defined for all real x."
+    ],
+    [
+      "Easy / Medium",
+      "Find the domain of f(x)=√(x+5).",
+      "x≥−5.",
+      "Require x+5≥0."
+    ],
+    [
+      "Medium",
+      "Find the domain of f(x)=1/(x²−1).",
+      "x≠−1 and x≠1.",
+      "Factor x²−1=(x−1)(x+1) and exclude its zeros."
+    ],
+    [
+      "Medium / Hard",
+      "Find the domain of f(x)=√(6−x)/(x−2).",
+      "x≤6 and x≠2.",
+      "Require 6−x≥0, and exclude denominator zero x=2."
+    ],
+    [
+      "Hard / Exam-Style",
+      "Find the domain of f(x)=√((x+2)/(x−3)).",
+      "x≤−2 or x>3.",
+      "A sign chart at −2 and 3 gives a nonnegative ratio for x≤−2 or x>3; x=3 is undefined."
+    ]
+  ]
+}

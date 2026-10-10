@@ -1,0 +1,15 @@
+{
+  "lesson": "domain",
+  "builders": [
+    "domain-content-build.js",
+    "domain-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/functions/domain/explanation/",
+    "/advanced-math/functions/domain/problems/",
+    "/advanced-math/functions/domain/answers/",
+    "/advanced-math/functions/domain/test/",
+    "/advanced-math/functions/domain/video/english/",
+    "/advanced-math/functions/domain/video/arabic/"
+  ]
+}
