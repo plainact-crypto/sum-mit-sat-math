@@ -1,0 +1,7 @@
+const fs=require('fs'),path=require('path'),s='conditional-probability-lesson208-',b='problem-solving-and-data-analysis/probability/conditional-probability';
+const q=['test-a','test-b1','test-b2'].flatMap(n=>require('./'+s+n+'.json'));
+if(q.length!==5||q.some((v,i)=>v.index!==i+1||Math.abs(v.answer-v.qa[0]/v.qa[1])>1e-8))throw Error('test QA');
+const inputs=q.map(v=>'<p>'+v.index+'. '+v.prompt+'</p><input required type="number" step="any" name="q'+v.index+'">').join('');
+const js='<script>const a='+JSON.stringify(q.map(v=>[v.answer,v.solution]))+';document.querySelector("form").onsubmit=e=>{e.preventDefault();let n=0;const o=a.map((v,i)=>{const x=Number(document.querySelector("[name=q"+(i+1)+"]").value),ok=Math.abs(x-v[0])<0.0006;if(ok)n++;return "<li>"+(ok?"Correct":"Incorrect")+": "+v[1]+"</li>"});document.querySelector("form").remove();document.querySelector("#result").innerHTML="<h2>"+n+"/5</h2><ol>"+o.join("")+"</ol>"};</script>';
+const h='<!doctype html><html><link rel="stylesheet" href="/styles.css"><main class="page-shell"><section class="lesson-card"><h1>Conditional Probability — Test</h1><form>'+inputs+'<button>Submit Test</button></form><div id="result"></div></section></main>'+js+'</html>';
+const d=path.join('dist',b,'test');fs.mkdirSync(d,{recursive:true});fs.writeFileSync(path.join(d,'index.html'),h);
