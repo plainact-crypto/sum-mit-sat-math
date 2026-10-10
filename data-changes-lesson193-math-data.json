@@ -1,0 +1,463 @@
+{
+  "lesson_index": 193,
+  "title": "Effect of Data Changes on Center and Spread",
+  "slug": "effect-of-data-changes-on-center-and-spread",
+  "base": "problem-solving-and-data-analysis/measures-of-spread/effect-of-data-changes-on-center-and-spread",
+  "classification": "NEITHER",
+  "quartile_convention": "median of lower and upper halves, excluding overall median for odd n",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "prompt": "Data 2, 4, 6: add 3 to every value. What is the new mean?",
+      "baseValues": [
+        2,
+        4,
+        6
+      ],
+      "change": {
+        "kind": "affine",
+        "a": 1,
+        "b": 3
+      },
+      "metric": "mean",
+      "answer": 7,
+      "solution": "Original data: 2, 4, 6. After the change: 5, 7, 9. Original MEAN = 4; new MEAN = 7."
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "prompt": "Data 1, 5, 9: add 4 to every value. What is the new range?",
+      "baseValues": [
+        1,
+        5,
+        9
+      ],
+      "change": {
+        "kind": "affine",
+        "a": 1,
+        "b": 4
+      },
+      "metric": "range",
+      "answer": 8,
+      "solution": "Original data: 1, 5, 9. After the change: 5, 9, 13. Original RANGE = 8; new RANGE = 8."
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "prompt": "Data 2, 6, 10: double every value. What is the new median?",
+      "baseValues": [
+        2,
+        6,
+        10
+      ],
+      "change": {
+        "kind": "affine",
+        "a": 2,
+        "b": 0
+      },
+      "metric": "median",
+      "answer": 12,
+      "solution": "Original data: 2, 6, 10. After the change: 4, 12, 20. Original MEDIAN = 6; new MEDIAN = 12."
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "prompt": "Data 10, 15, 20: add 7 to every value. Find the new mean.",
+      "baseValues": [
+        10,
+        15,
+        20
+      ],
+      "change": {
+        "kind": "affine",
+        "a": 1,
+        "b": 7
+      },
+      "metric": "mean",
+      "answer": 22,
+      "solution": "Original data: 10, 15, 20. After the change: 17, 22, 27. Original MEAN = 15; new MEAN = 22."
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "prompt": "Data 4, 8, 12: subtract 5 from every value. Find the new median.",
+      "baseValues": [
+        4,
+        8,
+        12
+      ],
+      "change": {
+        "kind": "affine",
+        "a": 1,
+        "b": -5
+      },
+      "metric": "median",
+      "answer": 3,
+      "solution": "Original data: 4, 8, 12. After the change: -1, 3, 7. Original MEDIAN = 8; new MEDIAN = 3."
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "prompt": "Data 1, 7, 15: subtract 9 from every value. Find the new range.",
+      "baseValues": [
+        1,
+        7,
+        15
+      ],
+      "change": {
+        "kind": "affine",
+        "a": 1,
+        "b": -9
+      },
+      "metric": "range",
+      "answer": 14,
+      "solution": "Original data: 1, 7, 15. After the change: -8, -2, 6. Original RANGE = 14; new RANGE = 14."
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "prompt": "Data 2, 4, 6, 8, 10: triple every value. Find the new IQR using the median-of-halves convention.",
+      "baseValues": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "change": {
+        "kind": "affine",
+        "a": 3,
+        "b": 0
+      },
+      "metric": "iqr",
+      "answer": 18,
+      "solution": "Original data: 2, 4, 6, 8, 10. After the change: 6, 12, 18, 24, 30. Original IQR = 6; new IQR = 18."
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "prompt": "Data 1, 5, 9: multiply every value by -2. Find the new range.",
+      "baseValues": [
+        1,
+        5,
+        9
+      ],
+      "change": {
+        "kind": "affine",
+        "a": -2,
+        "b": 0
+      },
+      "metric": "range",
+      "answer": 16,
+      "solution": "Original data: 1, 5, 9. After the change: -2, -10, -18. Original RANGE = 8; new RANGE = 16."
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "prompt": "Data 8, 12, 16: multiply every value by -3. Find the new median.",
+      "baseValues": [
+        8,
+        12,
+        16
+      ],
+      "change": {
+        "kind": "affine",
+        "a": -3,
+        "b": 0
+      },
+      "metric": "median",
+      "answer": -36,
+      "solution": "Original data: 8, 12, 16. After the change: -24, -36, -48. Original MEDIAN = 12; new MEDIAN = -36."
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "prompt": "Data 3, 5, 7: multiply each value by 4 and subtract 3. Find the new mean.",
+      "baseValues": [
+        3,
+        5,
+        7
+      ],
+      "change": {
+        "kind": "affine",
+        "a": 4,
+        "b": -3
+      },
+      "metric": "mean",
+      "answer": 17,
+      "solution": "Original data: 3, 5, 7. After the change: 9, 17, 25. Original MEAN = 5; new MEAN = 17."
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "prompt": "Data 2, 4, 6, 8, 10: multiply every value by -0.5. Find the new IQR.",
+      "baseValues": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "change": {
+        "kind": "affine",
+        "a": -0.5,
+        "b": 0
+      },
+      "metric": "iqr",
+      "answer": 3,
+      "solution": "Original data: 2, 4, 6, 8, 10. After the change: -1, -2, -3, -4, -5. Original IQR = 6; new IQR = 3."
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "prompt": "Data 4, 8, 12, 16, 20: increase only the largest value by 10. Find the new mean.",
+      "baseValues": [
+        4,
+        8,
+        12,
+        16,
+        20
+      ],
+      "change": {
+        "kind": "replace",
+        "index": 4,
+        "newValue": 30
+      },
+      "metric": "mean",
+      "answer": 14,
+      "solution": "Original data: 4, 8, 12, 16, 20. After the change: 4, 8, 12, 16, 30. Original MEAN = 12; new MEAN = 14."
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "prompt": "Data 1, 3, 5, 7, 9: replace only 9 with 19. Find the new median.",
+      "baseValues": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "change": {
+        "kind": "replace",
+        "index": 4,
+        "newValue": 19
+      },
+      "metric": "median",
+      "answer": 5,
+      "solution": "Original data: 1, 3, 5, 7, 9. After the change: 1, 3, 5, 7, 19. Original MEDIAN = 5; new MEDIAN = 5."
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "prompt": "Data 2, 4, 6, 8, 10: add 4 to every value. Find the new Q3 (exclude the overall median from halves).",
+      "baseValues": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "change": {
+        "kind": "affine",
+        "a": 1,
+        "b": 4
+      },
+      "metric": "q3",
+      "answer": 13,
+      "solution": "Original data: 2, 4, 6, 8, 10. After the change: 6, 8, 10, 12, 14. Original Q3 = 9; new Q3 = 13."
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "prompt": "Data 1, 3, 5, 7, 9: transform each x to -3x + 2. Find the new IQR.",
+      "baseValues": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "change": {
+        "kind": "affine",
+        "a": -3,
+        "b": 2
+      },
+      "metric": "iqr",
+      "answer": 18,
+      "solution": "Original data: 1, 3, 5, 7, 9. After the change: -1, -7, -13, -19, -25. Original IQR = 6; new IQR = 18."
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "prompt": "Data 10, 10, 20, 20, 20, 20, 30, 30: replace one 10 with 26. Find the new mean.",
+      "baseValues": [
+        10,
+        10,
+        20,
+        20,
+        20,
+        20,
+        30,
+        30
+      ],
+      "change": {
+        "kind": "replace",
+        "index": 0,
+        "newValue": 26
+      },
+      "metric": "mean",
+      "answer": 22,
+      "solution": "Original data: 10, 10, 20, 20, 20, 20, 30, 30. After the change: 26, 10, 20, 20, 20, 20, 30, 30. Original MEAN = 20; new MEAN = 22."
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "prompt": "Data 4, 8, 12: transform each x to 2x + c. If the new mean is 21, find c.",
+      "baseValues": [
+        4,
+        8,
+        12
+      ],
+      "change": {
+        "kind": "solveShift",
+        "a": 2,
+        "targetMean": 21
+      },
+      "metric": "shift",
+      "answer": 5,
+      "solution": "Original mean = 8. New mean = 2 × 8 + c = 21. Thus c = 21 − 16 = 5."
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "prompt": "Data 2, 4, 6, 8, 10: replace only 10 with 30. Find the new IQR.",
+      "baseValues": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "change": {
+        "kind": "replace",
+        "index": 4,
+        "newValue": 30
+      },
+      "metric": "iqr",
+      "answer": 16,
+      "solution": "Original data: 2, 4, 6, 8, 10. After the change: 2, 4, 6, 8, 30. Original IQR = 6; new IQR = 16."
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "difficulty": "Easy",
+      "prompt": "Data 4, 6, 8: add 2 to every value. Find the new mean.",
+      "baseValues": [
+        4,
+        6,
+        8
+      ],
+      "change": {
+        "kind": "affine",
+        "a": 1,
+        "b": 2
+      },
+      "metric": "mean",
+      "answer": 8,
+      "solution": "Original data: 4, 6, 8. After the change: 6, 8, 10. Original MEAN = 6; new MEAN = 8."
+    },
+    {
+      "index": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "Data 2, 6, 14: multiply every value by 3. Find the new range.",
+      "baseValues": [
+        2,
+        6,
+        14
+      ],
+      "change": {
+        "kind": "affine",
+        "a": 3,
+        "b": 0
+      },
+      "metric": "range",
+      "answer": 36,
+      "solution": "Original data: 2, 6, 14. After the change: 6, 18, 42. Original RANGE = 12; new RANGE = 36."
+    },
+    {
+      "index": 3,
+      "difficulty": "Medium",
+      "prompt": "Data 5, 7, 9: transform each x to -2x + 5. Find the new median.",
+      "baseValues": [
+        5,
+        7,
+        9
+      ],
+      "change": {
+        "kind": "affine",
+        "a": -2,
+        "b": 5
+      },
+      "metric": "median",
+      "answer": -9,
+      "solution": "Original data: 5, 7, 9. After the change: -5, -9, -13. Original MEDIAN = 7; new MEDIAN = -9."
+    },
+    {
+      "index": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "Data 8, 10, 12, 14, 16, 24: replace 24 with 42. Find the new mean.",
+      "baseValues": [
+        8,
+        10,
+        12,
+        14,
+        16,
+        24
+      ],
+      "change": {
+        "kind": "replace",
+        "index": 5,
+        "newValue": 42
+      },
+      "metric": "mean",
+      "answer": 17,
+      "solution": "Original data: 8, 10, 12, 14, 16, 24. After the change: 8, 10, 12, 14, 16, 42. Original MEAN = 14; new MEAN = 17."
+    },
+    {
+      "index": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "Data 1, 3, 5, 7, 9: replace only 9 with 29. Find the new IQR (median of halves).",
+      "baseValues": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "change": {
+        "kind": "replace",
+        "index": 4,
+        "newValue": 29
+      },
+      "metric": "iqr",
+      "answer": 16,
+      "solution": "Original data: 1, 3, 5, 7, 9. After the change: 1, 3, 5, 7, 29. Original IQR = 6; new IQR = 16."
+    }
+  ],
+  "qa": {
+    "practice": 18,
+    "distribution": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answers": 18,
+    "test": 5,
+    "independent_numeric_checks": 23,
+    "passed": true
+  }
+}
