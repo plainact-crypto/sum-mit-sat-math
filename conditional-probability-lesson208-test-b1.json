@@ -1,0 +1,1 @@
+[{"index":3,"difficulty":"Medium","prompt":"50 people have no car; 15 bike. Find P(bikes | no car).","answer":0.3,"solution":"15/50=0.3.","qa":[15,50]}]
