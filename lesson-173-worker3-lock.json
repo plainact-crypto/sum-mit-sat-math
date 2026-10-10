@@ -1,1 +1,14 @@
-{"lessonIndex":173,"slug":"finding-the-whole","owner":"SUMMIT Worker 3","status":"IN_PROGRESS","startedAt":"2026-10-10T21:55:32+03:00"}
+{
+  "lessonIndex": 173,
+  "slug": "finding-the-whole",
+  "owner": "SUMMIT Worker 3",
+  "status": "BLOCKED_RELEASE",
+  "startedAt": "2026-10-10T21:55:32+03:00",
+  "blockers": [
+    "GitHub rejected explanation registry update",
+    "GitHub rejected correction of reverse-discount worked-example heading",
+    "GitHub rejected draft PR creation",
+    "Full repository production build and merge not verified"
+  ],
+  "isolatedQa": "PASS: 6/6 routes, 18/18 practice/solutions, 5 tests, 14+14 video scenes, 23 mathematical checks"
+}
