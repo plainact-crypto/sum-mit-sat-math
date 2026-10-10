@@ -1,0 +1,14 @@
+{
+  "lesson": "collinear-points",
+  "builders": [
+    "collinear-points-lesson30-full-video-build.js"
+  ],
+  "routes": [
+    "/algebra/linear-functions/collinear-points/explanation/",
+    "/algebra/linear-functions/collinear-points/problems/",
+    "/algebra/linear-functions/collinear-points/answers/",
+    "/algebra/linear-functions/collinear-points/test/",
+    "/algebra/linear-functions/collinear-points/video/english/",
+    "/algebra/linear-functions/collinear-points/video/arabic/"
+  ]
+}
