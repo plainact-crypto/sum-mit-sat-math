@@ -1,0 +1,365 @@
+{
+  "slug": "quotient-rule",
+  "title": "Quotient Rule",
+  "index": 112,
+  "classification": "NEITHER",
+  "location": [
+    "Advanced Math",
+    "Exponents",
+    null
+  ],
+  "objective": "Apply the quotient rule for exponents with nonzero bases.",
+  "explanation": [
+    [
+      "LESSON OBJECTIVE",
+      "Simplify quotients of powers with the same nonzero base.",
+      "Use a^m/a^n=a^(m−n), for a≠0. You will simplify numerical and algebraic quotients, write positive exponents, and solve for unknown powers."
+    ],
+    [
+      "WHAT YOU NEED TO KNOW / CORE IDEA",
+      "Division cancels matching factors.",
+      "When two powers share a base, the denominator removes as many copies of that base as its exponent counts. For example, x^6/x^2 leaves four x factors. You subtract exponents because you are dividing, not multiplying."
+    ],
+    [
+      "KEY DEFINITIONS",
+      "Base, exponent, quotient, and nonzero restriction.",
+      "The base is the repeated factor; the exponent counts how many copies. A quotient is a division expression. A denominator cannot equal zero, so a^m/a^n requires a≠0."
+    ],
+    [
+      "CORE RULE",
+      "Keep the base. Subtract denominator exponent from numerator exponent.",
+      "For a≠0: a^m/a^n=a^(m−n). If m=n, the result is a^0=1. If m<n, the exponent is negative; for positive-exponent form, a^(−r)=1/a^r."
+    ],
+    [
+      "HOW IT WORKS",
+      "Check the bases, subtract powers, simplify.",
+      "1. Verify that the powers have the SAME base; rewrite a compound base such as 9 as 3^2 if helpful. 2. Divide numerical coefficients separately. 3. Subtract exponent expressions in numerator-minus-denominator order. 4. Move factors with negative exponents across the fraction bar. 5. Keep all denominator nonzero restrictions."
+    ],
+    [
+      "WORKED EXAMPLE 1 — BASIC",
+      "Simplify x^9/x^4 for x≠0.",
+      "Same base x: x^(9−4)=x^5. Check with x=2: 2^9/2^4=512/16=32=2^5."
+    ],
+    [
+      "WORKED EXAMPLE 2 — NEGATIVE EXPONENT",
+      "Simplify y^3/y^8 for y≠0.",
+      "Subtract 3−8=−5, so y^3/y^8=y^(−5)=1/y^5. The negative exponent does not make the expression negative."
+    ],
+    [
+      "WORKED EXAMPLE 3 — MULTIPLE VARIABLES",
+      "Simplify (12a^7b^2)/(4a^3b^6) for a,b≠0.",
+      "Coefficients: 12/4=3. For a: 7−3=4. For b: 2−6=−4. The result is 3a^4b^(−4)=3a^4/b^4."
+    ],
+    [
+      "WORKED EXAMPLE 4 — EXAM PARAMETER",
+      "If x^(2k+5)/x^(k−1)=x^12 for every x>0, find k.",
+      "The exponent difference is (2k+5)−(k−1)=k+6. Since the identity holds for all positive x, k+6=12, so k=6. Check: numerator exponent 17, denominator exponent 5, difference 12."
+    ],
+    [
+      "COMMON MISTAKES",
+      "Subtract exponents, not bases or coefficients.",
+      "Wrong: x^7/x^3=x^(7/3). Correct: x^4. Wrong: x^3/x^8=−x^5. Correct: 1/x^5. Always subtract the entire denominator exponent, including parentheses. Never cancel across addition without factoring or dividing every term."
+    ],
+    [
+      "EXAM STRATEGY",
+      "Rewrite first when bases differ.",
+      "For 3^9/9^3, rewrite 9^3=(3^2)^3=3^6 and subtract to get 3^3=27. For x^(2n+1)/x^(n−2), use parentheses: 2n+1−(n−2)=n+3. This is usually faster and more exact than a calculator."
+    ],
+    [
+      "QUICK CHECK",
+      "Try these before opening the answers.",
+      "A) z^6/z^2, z≠0. B) r^3/r^7, r≠0. C) (8p^5)/(2p^2), p≠0. Answers: A) z^4; B) 1/r^4; C) 4p^3."
+    ],
+    [
+      "LESSON RECAP",
+      "Same base: subtract exponents.",
+      "a^m/a^n=a^(m−n) when a≠0. Divide coefficients separately; work variable by variable; rewrite negative exponents as reciprocals; and preserve domain restrictions."
+    ],
+    [
+      "NEXT STEP",
+      "Apply the quotient rule across the lesson.",
+      "Complete the 18 Practice Problems, compare each with its aligned worked solution, take the five-question Lesson Test, and study the English or Arabic full-lesson presentation."
+    ]
+  ],
+  "practice": [
+    {
+      "number": 1,
+      "group": "Skill Check",
+      "question": "For x≠0, simplify x^8/x^3.",
+      "answer": "x^5",
+      "solution": "Subtract exponents of the same nonzero base: x^(8−3)=x^5."
+    },
+    {
+      "number": 2,
+      "group": "Skill Check",
+      "question": "For m≠0, simplify m^4/m^4.",
+      "answer": "1",
+      "solution": "Subtract the exponents: m^(4−4)=m^0=1 for m≠0."
+    },
+    {
+      "number": 3,
+      "group": "Skill Check",
+      "question": "Evaluate 2^7/2^4.",
+      "answer": "8",
+      "solution": "Use 2^(7−4)=2^3=8; division subtracts exponents, not bases."
+    },
+    {
+      "number": 4,
+      "group": "Core Practice",
+      "question": "For a≠0, rewrite a^3/a^9 using positive exponents.",
+      "answer": "1/a^6",
+      "solution": "a^(3−9)=a^(−6)=1/a^6; the original denominator requires a≠0."
+    },
+    {
+      "number": 5,
+      "group": "Core Practice",
+      "question": "For x≠0, simplify (12x^9)/(3x^5).",
+      "answer": "4x^4",
+      "solution": "Divide coefficients 12/3=4 and subtract powers x^(9−5)=x^4."
+    },
+    {
+      "number": 6,
+      "group": "Core Practice",
+      "question": "For p,q≠0, simplify (p^7q^2)/(p^3q^5) using positive exponents.",
+      "answer": "p^4/q^3",
+      "solution": "Subtract separately: p^(7−3)q^(2−5)=p^4q^(−3)=p^4/q^3."
+    },
+    {
+      "number": 7,
+      "group": "Core Practice",
+      "question": "For y≠0, simplify y^(−2)/y^4 using positive exponents.",
+      "answer": "1/y^6",
+      "solution": "Subtract exponents: −2−4=−6, so y^(−6)=1/y^6."
+    },
+    {
+      "number": 8,
+      "group": "Core Practice",
+      "question": "For z≠0, simplify (z^8/z^3)/z^2.",
+      "answer": "z^3",
+      "solution": "First z^8/z^3=z^5, then z^5/z^2=z^(5−2)=z^3."
+    },
+    {
+      "number": 9,
+      "group": "Core Practice",
+      "question": "For r,s≠0, simplify (15r^4s^8)/(5r^7s^2) with positive exponents.",
+      "answer": "3s^6/r^3",
+      "solution": "15/5=3, r^(4−7)=r^(−3), s^(8−2)=s^6; rewrite as 3s^6/r^3."
+    },
+    {
+      "number": 10,
+      "group": "Core Practice",
+      "question": "Evaluate 3^9/9^3 without expanding the large powers.",
+      "answer": "27",
+      "solution": "Rewrite 9^3=(3^2)^3=3^6, then 3^9/3^6=3^3=27."
+    },
+    {
+      "number": 11,
+      "group": "Core Practice",
+      "question": "A culture has 2^12 cells and a smaller sample has 2^7 cells. How many times as many cells are in the culture?",
+      "answer": "32 times",
+      "solution": "Form the ratio 2^12/2^7=2^5=32. The units cancel in the ratio."
+    },
+    {
+      "number": 12,
+      "group": "Exam-Style",
+      "question": "For all t>0, suppose t^14/t^q=t^6. Find q.",
+      "answer": "q=8",
+      "solution": "The quotient rule gives t^(14−q)=t^6 for all positive t. Equate exponents: 14−q=6, so q=8."
+    },
+    {
+      "number": 13,
+      "group": "Exam-Style",
+      "question": "For nonzero a,b, simplify (4a^(−3)b^7)/(2a^2b^(−1)) using positive exponents.",
+      "answer": "2b^8/a^5",
+      "solution": "4/2=2; a exponent −3−2=−5; b exponent 7−(−1)=8. Hence 2a^(−5)b^8=2b^8/a^5."
+    },
+    {
+      "number": 14,
+      "group": "Exam-Style",
+      "question": "For all x>0, (x^(2n+1))/(x^(n−2))=x^10. Find n.",
+      "answer": "n=7",
+      "solution": "Subtract exponent expressions: (2n+1)−(n−2)=n+3. Set n+3=10, giving n=7."
+    },
+    {
+      "number": 15,
+      "group": "Exam-Style",
+      "question": "For x≠0, simplify ((x^8/x^3)^2)/x^6.",
+      "answer": "x^4",
+      "solution": "Inside: x^(8−3)=x^5. Square to x^10, then divide by x^6: x^(10−6)=x^4."
+    },
+    {
+      "number": 16,
+      "group": "Exam-Style",
+      "question": "For x≠0, simplify (2x^7+6x^5)/(2x^3).",
+      "answer": "x^4+3x^2",
+      "solution": "Divide each numerator term by 2x^3: (2x^7)/(2x^3)=x^4 and (6x^5)/(2x^3)=3x^2."
+    },
+    {
+      "number": 17,
+      "group": "Challenge",
+      "question": "For all x>0, x^m/x^n=x^(−4) and x^m·x^n=x^10. Find m and n.",
+      "answer": "m=3, n=7",
+      "solution": "Quotient rule: m−n=−4. Product rule: m+n=10. Adding gives 2m=6, so m=3; then n=7."
+    },
+    {
+      "number": 18,
+      "group": "Challenge",
+      "question": "For a,b≠0, simplify [(6a^7b^(−2))/(9a^(−1)b^3)] ÷ [(2a^2)/(3b)] with positive exponents.",
+      "answer": "a^6/b^4",
+      "solution": "First quotient is (2/3)a^(7−(−1))b^(−2−3)=(2/3)a^8/b^5. Dividing by (2a^2)/(3b) means multiplying by (3b)/(2a^2); coefficients cancel and powers give a^(8−2)b^(−5+1)=a^6/b^4."
+    }
+  ],
+  "test": [
+    {
+      "number": 1,
+      "difficulty": "Easy",
+      "question": "For x≠0, what is x^9/x^4?",
+      "options": [
+        "x^13",
+        "x^5",
+        "x^36",
+        "1/x^5"
+      ],
+      "correct": 1,
+      "solution": "9−4=5, so the quotient is x^5."
+    },
+    {
+      "number": 2,
+      "difficulty": "Easy / Medium",
+      "question": "For a≠0, simplify (10a^6)/(2a^2).",
+      "options": [
+        "8a^4",
+        "5a^8",
+        "5a^4",
+        "5a^3"
+      ],
+      "correct": 2,
+      "solution": "Divide coefficients 10/2=5 and subtract powers 6−2=4 to obtain 5a^4."
+    },
+    {
+      "number": 3,
+      "difficulty": "Medium",
+      "question": "For p,q≠0, simplify (p^3q^8)/(p^7q^2) using positive exponents.",
+      "options": [
+        "q^6/p^4",
+        "p^4/q^6",
+        "p^10q^10",
+        "1/(p^4q^6)"
+      ],
+      "correct": 0,
+      "solution": "The p exponent is 3−7=−4 and the q exponent is 8−2=6, giving q^6/p^4."
+    },
+    {
+      "number": 4,
+      "difficulty": "Medium / Hard",
+      "question": "Evaluate 3^9/9^3.",
+      "options": [
+        "3",
+        "9",
+        "81",
+        "27"
+      ],
+      "correct": 3,
+      "solution": "9^3=(3^2)^3=3^6. Then 3^9/3^6=3^3=27."
+    },
+    {
+      "number": 5,
+      "difficulty": "Hard / Exam-Style",
+      "question": "For all x>0, (4x^(k+2))/(2x^(3−k))=2x^11. What is k?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": 2,
+      "solution": "Coefficients give 4/2=2. The exponent difference is (k+2)−(3−k)=2k−1. Set 2k−1=11, so k=6."
+    }
+  ],
+  "video": {
+    "english": [
+      [
+        "Full lesson goal",
+        "Today we simplify quotients of powers with the same base. By the end you will know when to subtract exponents, how to handle negative results, and how to solve an unknown exponent on a test."
+      ],
+      [
+        "Why subtraction works",
+        "Think of x^6 divided by x^2. The numerator has six x factors and the denominator cancels two. Four factors remain: x^4. This cancellation explains the rule, not just a memory trick."
+      ],
+      [
+        "The quotient rule",
+        "For a nonzero base a, a^m divided by a^n equals a^(m−n). The base stays the same. The denominator exponent is subtracted from the numerator exponent."
+      ],
+      [
+        "Zero and negative results",
+        "x^5 divided by x^5 is x^0=1 for x≠0. And y^3 divided by y^8 is y^(−5)=1/y^5. A negative exponent means reciprocal, not a negative number."
+      ],
+      [
+        "Coefficients and variables",
+        "Simplify 12a^7b^2 divided by 4a^3b^6. First 12/4=3. Then a^(7−3)=a^4 and b^(2−6)=1/b^4. The answer is 3a^4/b^4."
+      ],
+      [
+        "Different-looking bases",
+        "For 3^9 divided by 9^3, rewrite 9 as 3^2. Then 9^3=3^6, and 3^9/3^6=3^3=27. Never subtract exponents before matching the bases."
+      ],
+      [
+        "Algebraic exponents",
+        "Suppose x^(2k+5) divided by x^(k−1) equals x^12 for every positive x. The exponent is 2k+5−(k−1)=k+6, so k=6."
+      ],
+      [
+        "Common SAT traps",
+        "Do not divide the exponents. Do not turn a negative exponent into a negative value. When the numerator is a sum, divide each term or factor first. Preserve a≠0 whenever the original denominator contains a."
+      ],
+      [
+        "Try the skill",
+        "Practice three checks: z^6/z^2=z^4; r^3/r^7=1/r^4; and 8p^5/(2p^2)=4p^3. Explain each exponent difference aloud."
+      ],
+      [
+        "Recap and next step",
+        "Keep the same base and subtract numerator minus denominator powers. Simplify coefficients separately and express negative powers as reciprocals. Now solve the 18 practice questions and take the five-question test."
+      ]
+    ],
+    "arabic": [
+      [
+        "هدف الدرس الكامل",
+        "سنتعلم تبسيط قسمة القوى التي لها نفس الأساس، وطرح الأسس، والتعامل مع الأس السالب، وإيجاد أس مجهول في مسائل الامتحان."
+      ],
+      [
+        "لماذا نطرح الأسس؟",
+        "عند قسمة x^6 على x^2 توجد ستة عوامل x في البسط وعاملان في المقام، فنختصر عاملين ويتبقى x^4. هذه هي فكرة القاعدة."
+      ],
+      [
+        "قاعدة قسمة القوى",
+        "إذا كان a لا يساوي صفرًا، فإن a^m مقسومة على a^n تساوي a^(m−n). نحتفظ بالأساس ونطرح أس المقام من أس البسط."
+      ],
+      [
+        "الأس صفر والأس السالب",
+        "x^5/x^5=x^0=1 بشرط x لا يساوي صفرًا. وأيضًا y^3/y^8=y^(−5)=1/y^5. الأس السالب يعني المقلوب وليس قيمة سالبة."
+      ],
+      [
+        "المعاملات والمتغيرات",
+        "نبسط 12a^7b^2 على 4a^3b^6. نقسم 12 على 4 فنحصل على 3، ونطرح 7−3=4، و2−6=−4، فتكون النتيجة 3a^4/b^4."
+      ],
+      [
+        "أساسات تبدو مختلفة",
+        "في 3^9/9^3 نكتب 9=3^2، فيصبح المقام 3^6. إذن الناتج 3^(9−6)=3^3=27. نوحد الأساس قبل طرح الأسس."
+      ],
+      [
+        "إيجاد الأس المجهول",
+        "إذا كانت x^(2k+5)/x^(k−1)=x^12 لكل x موجب، فالأس الناتج k+6. نحل k+6=12 لنجد k=6."
+      ],
+      [
+        "أخطاء شائعة في الامتحان",
+        "لا نقسم الأسس على بعضها. لا نضع إشارة سالب أمام الناتج بسبب الأس السالب. عند وجود جمع في البسط نقسم كل حد أو نحلل أولًا. المقام لا يجوز أن يساوي صفرًا."
+      ],
+      [
+        "تحقق سريع",
+        "جرب z^6/z^2 فتجد z^4، وجرب r^3/r^7 فتجد 1/r^4، وأخيرًا 8p^5/(2p^2)=4p^3."
+      ],
+      [
+        "الخلاصة والخطوة التالية",
+        "نحتفظ بالأساس ونطرح أس المقام من أس البسط، ونبسط المعاملات بشكل مستقل، ونحول الأسس السالبة إلى مقلوب. بعد ذلك حل 18 مسألة تدريب واختبار الدرس المكون من خمسة أسئلة."
+      ]
+    ]
+  }
+}
