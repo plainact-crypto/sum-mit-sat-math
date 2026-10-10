@@ -1,0 +1,14 @@
+{
+  "lesson": "undefined-values-and-restrictions",
+  "builders": [
+    "undefined-values-and-restrictions-lesson134-build.js"
+  ],
+  "routes": [
+    "/advanced-math/rational-expressions-and-functions/undefined-values-and-restrictions/explanation/",
+    "/advanced-math/rational-expressions-and-functions/undefined-values-and-restrictions/problems/",
+    "/advanced-math/rational-expressions-and-functions/undefined-values-and-restrictions/answers/",
+    "/advanced-math/rational-expressions-and-functions/undefined-values-and-restrictions/test/",
+    "/advanced-math/rational-expressions-and-functions/undefined-values-and-restrictions/video/english/",
+    "/advanced-math/rational-expressions-and-functions/undefined-values-and-restrictions/video/arabic/"
+  ]
+}
