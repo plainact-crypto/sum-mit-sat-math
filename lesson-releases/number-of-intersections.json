@@ -1,0 +1,14 @@
+{
+  "lesson": "number-of-intersections",
+  "builders": [
+    "number-of-intersections-lesson150-build.js"
+  ],
+  "routes": [
+    "/advanced-math/nonlinear-equations-and-systems/number-of-intersections/explanation/",
+    "/advanced-math/nonlinear-equations-and-systems/number-of-intersections/problems/",
+    "/advanced-math/nonlinear-equations-and-systems/number-of-intersections/answers/",
+    "/advanced-math/nonlinear-equations-and-systems/number-of-intersections/test/",
+    "/advanced-math/nonlinear-equations-and-systems/number-of-intersections/video/english/",
+    "/advanced-math/nonlinear-equations-and-systems/number-of-intersections/video/arabic/"
+  ]
+}
