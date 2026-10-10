@@ -1,0 +1,394 @@
+{
+  "title": "No Solution",
+  "slug": "absolute-value-no-solution",
+  "base": "advanced-math/absolute-value/no-solution",
+  "classification": "DESMOS",
+  "practice": [
+    {
+      "q": "Classify |x + 3| = −2.",
+      "c": [
+        "One solution",
+        "No solution",
+        "Two solutions",
+        "Infinitely many solutions"
+      ],
+      "a": 1,
+      "work": "For every real x, |x + 3| ≥ 0. A nonnegative number cannot equal −2, so there is no solution."
+    },
+    {
+      "q": "How many real solutions does |2x − 5| = 0 have?",
+      "c": [
+        "None",
+        "Exactly one",
+        "Exactly two",
+        "Infinitely many"
+      ],
+      "a": 1,
+      "work": "An absolute value is zero only when its inside is zero. 2x − 5 = 0 gives x = 5/2, exactly one solution."
+    },
+    {
+      "q": "Classify |x − 4| + 3 = 2.",
+      "c": [
+        "No solution",
+        "One solution",
+        "Two solutions",
+        "All real x"
+      ],
+      "a": 0,
+      "work": "Subtract 3: |x − 4| = −1. Absolute value cannot be negative, so there is no solution."
+    },
+    {
+      "q": "Solve 4|x − 1| = −12.",
+      "c": [
+        "x = −2",
+        "x = 4",
+        "No solution",
+        "x = 1"
+      ],
+      "a": 2,
+      "work": "Divide by the positive 4: |x − 1| = −3. Since absolute value is never negative, the equation has no solution."
+    },
+    {
+      "q": "Which values solve |x + 6| = 7?",
+      "c": [
+        "x = 1 only",
+        "x = −13 only",
+        "No solution",
+        "x = 1 or x = −13"
+      ],
+      "a": 3,
+      "work": "Set x + 6 = 7 or x + 6 = −7. These give x = 1 and x = −13. Both check in the original equation."
+    },
+    {
+      "q": "Solve |3x + 2| + 5 = 5.",
+      "c": [
+        "x = −2/3",
+        "No solution",
+        "x = 2/3",
+        "Two distinct solutions"
+      ],
+      "a": 0,
+      "work": "Subtract 5 to get |3x + 2| = 0. Then 3x + 2 = 0, so x = −2/3. It is the unique solution."
+    },
+    {
+      "q": "Classify 2|x − 4| + 1 = −1.",
+      "c": [
+        "x = 3",
+        "x = 5",
+        "No solution",
+        "Two solutions"
+      ],
+      "a": 2,
+      "work": "The left side is at least 1 because |x − 4| ≥ 0. It cannot equal −1, so there is no solution."
+    },
+    {
+      "q": "Can |x − 3| = x − 5 hold for a real x?",
+      "c": [
+        "Yes, x = 4",
+        "Yes, x = 8",
+        "Yes, x = −1",
+        "No real solution"
+      ],
+      "a": 3,
+      "work": "For all real x, |x − 3| ≥ x − 3, and x − 3 > x − 5. The left side is always strictly greater than the right side."
+    },
+    {
+      "q": "Classify |x + 2| = −x − 5.",
+      "c": [
+        "No solution",
+        "One solution",
+        "Two solutions",
+        "All x ≤ −5"
+      ],
+      "a": 0,
+      "work": "For all x, |x + 2| ≥ −(x + 2) = −x − 2. Since −x − 2 > −x − 5, equality is impossible."
+    },
+    {
+      "q": "Solve |2x − 1| = 7.",
+      "c": [
+        "x = 3 or −4",
+        "x = 4 or −3",
+        "x = 4 only",
+        "No solution"
+      ],
+      "a": 1,
+      "work": "Set 2x − 1 = 7 or 2x − 1 = −7. The solutions are x = 4 and x = −3; both give absolute value 7."
+    },
+    {
+      "q": "Classify |x − 2| + |x + 2| = 3.",
+      "c": [
+        "One solution",
+        "Two solutions",
+        "No solution",
+        "Infinitely many solutions"
+      ],
+      "a": 2,
+      "work": "The triangle inequality gives |x − 2| + |x + 2| ≥ |(x − 2) − (x + 2)| = 4. It cannot equal 3."
+    },
+    {
+      "q": "For which values of k does |x − 6| = k − 4 have no real solution?",
+      "c": [
+        "k < 4",
+        "k ≤ 4",
+        "k > 4",
+        "k ≥ 4"
+      ],
+      "a": 0,
+      "work": "The right side must be negative for no solution: k − 4 < 0, so k < 4. At k = 4 there is one solution x = 6."
+    },
+    {
+      "q": "For which real m does |2x + 3| + 5 = m have no solution?",
+      "c": [
+        "m > 5",
+        "m ≥ 5",
+        "m ≤ 5",
+        "m < 5"
+      ],
+      "a": 3,
+      "work": "Because |2x + 3| ≥ 0, the left side has minimum 5, attained at x = −3/2. Thus m < 5 gives no solution."
+    },
+    {
+      "q": "Does |x − 4| = x − 7 have any real solution?",
+      "c": [
+        "Yes, x = 7",
+        "Yes, x = 11/2",
+        "No solution",
+        "Yes, x = 4"
+      ],
+      "a": 2,
+      "work": "For all x, |x − 4| ≥ x − 4 > x − 7. The left side always exceeds the right side, so no real x works."
+    },
+    {
+      "q": "How many real solutions does 3|x + 1| + 2 = 2 have?",
+      "c": [
+        "None",
+        "One, x = −1",
+        "Two, x = ±1",
+        "Infinitely many"
+      ],
+      "a": 1,
+      "work": "Subtract 2 and divide by 3: |x + 1| = 0. Therefore x = −1, the only solution."
+    },
+    {
+      "q": "Two checkpoints lie at 1 km and 7 km on a straight road. Can a position x be 4 km in TOTAL from both checkpoints, so |x − 1| + |x − 7| = 4?",
+      "c": [
+        "Yes, x = 4",
+        "Yes, x = 1",
+        "Yes, x = 7",
+        "No solution"
+      ],
+      "a": 3,
+      "work": "The distance between checkpoints is 7 − 1 = 6 km. For any x, |x − 1| + |x − 7| ≥ 6, so a total of 4 km is impossible."
+    },
+    {
+      "q": "Classify ||x − 2| + 3| = 2.",
+      "c": [
+        "No solution",
+        "x = 1 or 3",
+        "x = 2",
+        "Infinitely many solutions"
+      ],
+      "a": 0,
+      "work": "The inner expression |x − 2| + 3 is at least 3 and already nonnegative. Its outer absolute value is also at least 3, never 2."
+    },
+    {
+      "q": "For what values of c does |x − 5| + |x + 1| = c have NO real solution?",
+      "c": [
+        "c ≤ 6",
+        "c < 6",
+        "c > 6",
+        "c ≥ 6"
+      ],
+      "a": 1,
+      "work": "The sum of distances to 5 and −1 is at least 6, the distance between the two fixed points. The minimum 6 occurs for every −1 ≤ x ≤ 5. Thus no solution exactly when c < 6."
+    }
+  ],
+  "test": [
+    {
+      "level": "Easy",
+      "q": "What is the solution status of |x + 2| = −4?",
+      "c": [
+        "One solution",
+        "No solution",
+        "Two solutions",
+        "All real numbers"
+      ],
+      "a": 1,
+      "why": "Absolute value is nonnegative for every real x, so it cannot equal −4."
+    },
+    {
+      "level": "Easy / Medium",
+      "q": "Which values solve |2x − 1| = 5?",
+      "c": [
+        "x = 3 or −2",
+        "x = 2 or −3",
+        "x = 3 only",
+        "No solution"
+      ],
+      "a": 0,
+      "why": "2x − 1 = ±5 gives x = 3 or x = −2; each makes the absolute value 5."
+    },
+    {
+      "level": "Medium",
+      "q": "How many solutions does |x − 1| + 5 = 5 have?",
+      "c": [
+        "None",
+        "Two",
+        "One",
+        "Infinitely many"
+      ],
+      "a": 2,
+      "why": "Subtract 5: |x − 1| = 0, so x = 1 is the only solution."
+    },
+    {
+      "level": "Medium / Hard",
+      "q": "Classify |x − 2| = x − 5.",
+      "c": [
+        "One solution at x = 5",
+        "Two solutions",
+        "Infinitely many solutions",
+        "No solution"
+      ],
+      "a": 3,
+      "why": "|x − 2| ≥ x − 2 > x − 5 for every real x. Equality is impossible."
+    },
+    {
+      "level": "Hard / Exam-Style",
+      "q": "For which values of k does |x − 2| + |x + 4| = k have no real solution?",
+      "c": [
+        "k ≤ 6",
+        "k < 6",
+        "k > 6",
+        "k ≥ 6"
+      ],
+      "a": 1,
+      "why": "The total distance from x to −4 and 2 is at least 6. The minimum 6 is attained on −4 ≤ x ≤ 2, so no solution requires k < 6."
+    }
+  ],
+  "video": {
+    "english": [
+      [
+        "The goal",
+        "Today we will decide when an absolute value equation has no real solution. We will not guess. We will use a nonnegative bound and verify it.",
+        "Absolute value is never negative."
+      ],
+      [
+        "Meaning of absolute value",
+        "Absolute value measures distance from zero. Every distance is zero or positive, never negative.",
+        "|u| ≥ 0 for every real u"
+      ],
+      [
+        "The first impossibility",
+        "The equation absolute value of x plus three equals negative two has no solution. The left side cannot fall below zero.",
+        "|x + 3| = −2: impossible"
+      ],
+      [
+        "Isolate first",
+        "If absolute value of x minus four plus three equals two, subtract three. That gives absolute value equals negative one. There is no solution.",
+        "|x − 4| = −1"
+      ],
+      [
+        "The zero boundary",
+        "Absolute value equals zero is different. It has one solution when the inside is zero. For absolute value of three x plus two equals zero, x is negative two thirds.",
+        "|3x + 2| = 0 → x = −2/3"
+      ],
+      [
+        "Positive target",
+        "When the right side is positive, solve two cases. Absolute value of two x minus one equals seven gives x equal four or negative three.",
+        "2x − 1 = ±7"
+      ],
+      [
+        "A hidden impossibility",
+        "The inequality absolute value of x minus three is at least x minus three. It is therefore always greater than x minus five.",
+        "|x − 3| > x − 5"
+      ],
+      [
+        "Distance sum",
+        "The total distance to two checkpoints cannot be shorter than the distance between them. The distance to one and seven totals at least six.",
+        "|x − 1| + |x − 7| ≥ 6"
+      ],
+      [
+        "A parameter question",
+        "For absolute value of x minus six equals k minus four, no solution means the target is negative. Therefore k is less than four.",
+        "k − 4 < 0 → k < 4"
+      ],
+      [
+        "Desmos check",
+        "Enter y equals absolute value of x minus two and y equals negative three. The V shaped graph never meets the horizontal line below the x axis.",
+        "y=abs(x−2); y=−3"
+      ],
+      [
+        "Exam strategy",
+        "First isolate the absolute value. Check whether the target is negative, zero, or positive. For sums of distances, find the minimum possible total.",
+        "Negative: none. Zero: one. Positive: usually two."
+      ],
+      [
+        "Final check",
+        "Try absolute value of x minus two plus absolute value of x plus four equals five. The checkpoints are six units apart, so the answer is no solution.",
+        "Minimum distance sum = 6 > 5"
+      ]
+    ],
+    "arabic": [
+      [
+        "هدف الدرس",
+        "هنتعلم إزاي نعرف إن معادلة القيمة المطلقة مالهاش حل حقيقي، باستخدام أقل قيمة ممكنة للطرف الشمال بدل التخمين.",
+        "القيمة المطلقة لا يمكن أن تكون سالبة."
+      ],
+      [
+        "معنى القيمة المطلقة",
+        "القيمة المطلقة بتمثل المسافة عن الصفر. أي مسافة لازم تكون صفر أو موجبة، ومستحيل تكون سالبة.",
+        "|u| ≥ 0"
+      ],
+      [
+        "أول حالة مستحيلة",
+        "القيمة المطلقة لإكس زائد ثلاثة لا يمكن تساوي سالب اتنين، لأن الطرف الشمال مش ممكن ينزل تحت الصفر.",
+        "|x + 3| = −2 مستحيلة"
+      ],
+      [
+        "اعزل القيمة المطلقة",
+        "لو القيمة المطلقة لإكس ناقص أربعة زائد ثلاثة تساوي اتنين، اطرح ثلاثة من الطرفين. هتلاقي القيمة المطلقة بتساوي سالب واحد، وبالتالي مفيش حل.",
+        "|x − 4| = −1"
+      ],
+      [
+        "لما الناتج صفر",
+        "لو القيمة المطلقة تساوي صفر، يبقى اللي جواها لازم يساوي صفر. القيمة المطلقة لثلاثة إكس زائد اتنين تساوي صفر وحلها إكس سالب اتنين على ثلاثة.",
+        "x = −2/3"
+      ],
+      [
+        "لما الناتج موجب",
+        "لو الناتج موجب، بنحل حالتين. القيمة المطلقة لاتنين إكس ناقص واحد تساوي سبعة، فتكون إكس أربعة أو سالب ثلاثة.",
+        "2x − 1 = ±7"
+      ],
+      [
+        "استحالة مش واضحة",
+        "القيمة المطلقة لإكس ناقص ثلاثة أكبر من أو تساوي إكس ناقص ثلاثة، وده أكبر من إكس ناقص خمسة. إذن المساواة مستحيلة.",
+        "|x − 3| > x − 5"
+      ],
+      [
+        "مجموع المسافات",
+        "مجموع المسافتين من نقطة لمكانين مختلفين ما ينفعش يقل عن المسافة بين المكانين. لو النقطتين عند واحد وسبعة، أقل مجموع ستة.",
+        "|x − 1| + |x − 7| ≥ 6"
+      ],
+      [
+        "سؤال فيه باراميتر",
+        "لو القيمة المطلقة لإكس ناقص ستة تساوي كيه ناقص أربعة، مفيش حل لما كيه ناقص أربعة تكون سالبة. يعني كيه أصغر من أربعة.",
+        "k < 4"
+      ],
+      [
+        "التحقق على ديسموس",
+        "اكتب واي تساوي القيمة المطلقة لإكس ناقص اتنين، وبعدها واي تساوي سالب ثلاثة. المنحنى على شكل حرف في مش هيقاطع الخط اللي تحت محور إكس.",
+        "y=abs(x−2); y=−3"
+      ],
+      [
+        "استراتيجية الامتحان",
+        "اعزل القيمة المطلقة الأول. لو الناتج سالب مفيش حل، لو صفر حل واحد، ولو موجب غالبا حلين. ومع مجموع المسافات احسب الحد الأدنى.",
+        "سالب: لا حل. صفر: حل واحد."
+      ],
+      [
+        "المراجعة النهائية",
+        "جرب مجموع المسافة من إكس لاتنين ومن إكس لسالب أربعة يساوي خمسة. أقل مجموع ستة، فمستحيل يساوي خمسة.",
+        "الحد الأدنى 6 أكبر من 5"
+      ]
+    ]
+  }
+}
