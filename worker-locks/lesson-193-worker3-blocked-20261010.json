@@ -1,0 +1,21 @@
+{
+  "lesson_index": 193,
+  "slug": "effect-of-data-changes-on-center-and-spread",
+  "status": "BLOCKED",
+  "practice": 18,
+  "answers": 18,
+  "test": 5,
+  "math_qa": "23/23",
+  "committed": [
+    "data-changes-lesson193-math-data.json",
+    "data-changes-lesson193-practice-build.js"
+  ],
+  "missing": [
+    "explanation builder",
+    "test builder",
+    "video builder",
+    "unique release manifest"
+  ],
+  "blocker": "Repeated GitHub create_file safety rejection",
+  "date": "2026-10-10"
+}
