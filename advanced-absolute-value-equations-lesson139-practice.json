@@ -1,0 +1,92 @@
+[
+  [
+    "Solve |x - 7| = 5.",
+    "x = 2 or 12",
+    "Solve x - 7 = +/-5. The results 2 and 12 both have distance 5 from 7."
+  ],
+  [
+    "Solve |3x + 2| = 11.",
+    "x = 3 or -13/3",
+    "3x + 2 = 11 gives 3; 3x + 2 = -11 gives -13/3. Check both."
+  ],
+  [
+    "Solve |x + 4| = 0.",
+    "x = -4",
+    "The inside must be zero: x + 4 = 0, so x = -4."
+  ],
+  [
+    "Solve |2x - 5| = x + 1.",
+    "x = 4/3 or 6",
+    "Require x >= -1. Cases 2x - 5 = x + 1 and 2x - 5 = -(x + 1) yield 6 and 4/3; both check."
+  ],
+  [
+    "Solve |x + 3| = 2x - 1.",
+    "x = 4",
+    "Require x >= 1/2. The branches yield 4 and -2/3. Reject -2/3 because the right side is negative."
+  ],
+  [
+    "Solve |4 - x| = 2x + 1.",
+    "x = 1",
+    "Require x >= -1/2. Cases 4 - x = 2x + 1 and x - 4 = 2x + 1 yield 1 and -5. Reject -5."
+  ],
+  [
+    "Solve |2x + 1| = |x - 5|.",
+    "x = -6 or 4/3",
+    "Set 2x + 1 = x - 5 or 2x + 1 = -(x - 5). These yield -6 and 4/3."
+  ],
+  [
+    "Solve ||x - 2| - 3| = 1.",
+    "x = -2, 0, 4, 6",
+    "Let u = |x - 2|. From |u - 3| = 1, u = 4 or 2. Solve each inner absolute value."
+  ],
+  [
+    "Solve |x - 1| + |x + 2| = 5.",
+    "x = -3 or 2",
+    "Break at -2 and 1. Left interval: -2x - 1 = 5 gives -3. Middle: sum 3. Right: 2x + 1 = 5 gives 2."
+  ],
+  [
+    "Solve |x + 1| - |x - 3| = 2.",
+    "x = 2",
+    "Break at -1 and 3. Middle expression is 2x - 2, giving x = 2. Outside, the difference is -4 or 4."
+  ],
+  [
+    "Solve |x - 2| + |x + 2| = 4.",
+    "-2 <= x <= 2",
+    "For x in [-2,2], (2 - x) + (x + 2) = 4. Outside, the sum exceeds 4."
+  ],
+  [
+    "Does |2x - 3| = x - 6 have a real solution?",
+    "No real solution",
+    "Require x >= 6; then 2x - 3 = x - 6 gives x = -3, which contradicts x >= 6."
+  ],
+  [
+    "Solve |x^2 - 5x + 4| = 0.",
+    "x = 1 or 4",
+    "Set x^2 - 5x + 4 = 0. Factor (x - 1)(x - 4) = 0."
+  ],
+  [
+    "Solve |x^2 - 4| = 5 over the reals.",
+    "x = -3 or 3",
+    "The positive branch gives x^2 = 9. The negative branch gives x^2 = -1, impossible over the reals."
+  ],
+  [
+    "Solve |x - 4| = |2x + 1| + 1.",
+    "x = -4 or 2/3",
+    "Break at -1/2 and 4. Left case 4 - x = -2x gives -4. Middle case 4 - x = 2x + 2 gives 2/3. Right case has no valid root."
+  ],
+  [
+    "For which k does |x - 2| + |x - 6| = k have infinitely many solutions? State x.",
+    "k = 4; 2 <= x <= 6",
+    "On [2,6], the sum is (x - 2) + (6 - x) = 4. Only k = 4 produces a full solution interval."
+  ],
+  [
+    "Solve |x - 1| + |x - 4| = |2x - 5|.",
+    "x <= 1 or x >= 4",
+    "For x <= 1, both sides equal 5 - 2x. For x >= 4, both equal 2x - 5. In (1,4), the left side is 3 and right side is smaller."
+  ],
+  [
+    "For which a does |x - a| + |x + a| = 10 have infinitely many solutions x?",
+    "a = -5 or 5",
+    "The distance sum is constant at its minimum 2|a| between -|a| and |a|. For a plateau at 10, require 2|a| = 10; hence a = +/-5."
+  ]
+]
