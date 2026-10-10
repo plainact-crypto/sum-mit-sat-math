@@ -1,0 +1,14 @@
+{
+  "lesson": "dilations",
+  "builders": [
+    "dilations-lesson265-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/coordinate-geometry/dilations/explanation/",
+    "/geometry-and-trigonometry/coordinate-geometry/dilations/problems/",
+    "/geometry-and-trigonometry/coordinate-geometry/dilations/answers/",
+    "/geometry-and-trigonometry/coordinate-geometry/dilations/test/",
+    "/geometry-and-trigonometry/coordinate-geometry/dilations/video/english/",
+    "/geometry-and-trigonometry/coordinate-geometry/dilations/video/arabic/"
+  ]
+}
