@@ -1,1 +1,15 @@
-{"lesson_index":163,"slug":"direct-proportions","worker":"SUMMIT Worker 3","status":"IN_PROGRESS","locked_at":"2026-10-10T20:55:14+03:00"}
+{
+  "lesson_index": 163,
+  "slug": "direct-proportions",
+  "worker": "SUMMIT Worker 3",
+  "status": "BLOCKED_RELEASE",
+  "locked_at": "2026-10-10T20:55:14+03:00",
+  "branch": "worker3-lesson163-release-20261010",
+  "content_qa": "PASS",
+  "isolated_routes": "6/6",
+  "blockers": [
+    "GitHub PR creation safety-check failures",
+    "Vercel deployment API HTTP 402 daily quota"
+  ],
+  "note": "Keep producing new lessons; retry release without duplicating manifest."
+}
