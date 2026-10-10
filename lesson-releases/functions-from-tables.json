@@ -1,0 +1,15 @@
+{
+  "lesson": "functions-from-tables",
+  "builders": [
+    "functions-from-tables-lesson103-content-build.js",
+    "functions-from-tables-lesson103-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/functions/functions-from-tables/explanation/",
+    "/advanced-math/functions/functions-from-tables/problems/",
+    "/advanced-math/functions/functions-from-tables/answers/",
+    "/advanced-math/functions/functions-from-tables/test/",
+    "/advanced-math/functions/functions-from-tables/video/english/",
+    "/advanced-math/functions/functions-from-tables/video/arabic/"
+  ]
+}
