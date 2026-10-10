@@ -1,0 +1,10 @@
+{
+  "lesson_index": 193,
+  "lesson": "Effect of Data Changes on Center and Spread",
+  "slug": "effect-of-data-changes-on-center-and-spread",
+  "canonical_base": "/problem-solving-and-data-analysis/measures-of-spread/effect-of-data-changes-on-center-and-spread",
+  "worker": "worker3",
+  "status": "IN_PROGRESS",
+  "date": "2026-10-10",
+  "note": "Lesson 188 canonical package built in isolation; release blocked by registry update and full-build gate. Proceeding to next owned lesson."
+}
