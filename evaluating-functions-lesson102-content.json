@@ -1,0 +1,364 @@
+{
+  "slug": "evaluating-functions",
+  "title": "Evaluating Functions",
+  "index": 102,
+  "location": [
+    "Advanced Math",
+    "Functions",
+    null
+  ],
+  "classification": "NEITHER",
+  "explanation": [
+    [
+      "LESSON OBJECTIVE",
+      "Evaluate functions accurately from rules, tables, and context.",
+      "Given an input such as f(−2), replace the variable with −2, calculate, and interpret the output. Function notation f(a) names the output for input a; it is not multiplication."
+    ],
+    [
+      "WHAT YOU NEED TO KNOW / CORE IDEA",
+      "A function assigns an output to each allowed input.",
+      "If f(x)=3x+2, then f(4)=3(4)+2=14. Every occurrence of x must be replaced by the same input. The input can be negative, fractional, or algebraic."
+    ],
+    [
+      "KEY DEFINITIONS",
+      "Input, output, function notation, domain.",
+      "The input is the value supplied; the output is the result. f(a) means evaluate f at a. The domain is the set of allowed inputs. An undefined input has no output for that rule."
+    ],
+    [
+      "CORE RULE",
+      "Substitute first; apply order of operations second.",
+      "To evaluate f(a), replace every x in the function rule with (a), then simplify parentheses, exponents, multiplication/division, and addition/subtraction. Keep parentheses around negative inputs."
+    ],
+    [
+      "HOW IT WORKS",
+      "A reliable four-step method.",
+      "1. Identify the requested input. 2. Replace each variable with the input in parentheses. 3. Simplify using order of operations. 4. Check whether the input is in the domain and state units in context."
+    ],
+    [
+      "WORKED EXAMPLE 1",
+      "Evaluate a linear function at a positive input.",
+      "For f(x)=5−2x, f(3)=5−2(3)=5−6=−1. Check: the original rule gives −1 when x=3."
+    ],
+    [
+      "WORKED EXAMPLE 2",
+      "Evaluate a quadratic at a negative input.",
+      "For g(x)=x²+3x−4, g(−2)=(−2)²+3(−2)−4=4−6−4=−6. Squaring the whole negative input gives +4, not −4."
+    ],
+    [
+      "WORKED EXAMPLE 3",
+      "Evaluate from a table, not a formula.",
+      "If a table lists x values −1, 0, 4 with outputs 8, 2, −5, then f(4)=−5. Read the output in the same row as input 4; do not infer an unprovided formula."
+    ],
+    [
+      "WORKED EXAMPLE 4",
+      "Substitute an expression and simplify.",
+      "If h(x)=2x²−1, then h(t+1)=2(t+1)²−1=2(t²+2t+1)−1=2t²+4t+1. Parentheses prevent the common error of squaring only t."
+    ],
+    [
+      "WORKED EXAMPLE 5",
+      "Check a piecewise rule and its boundary.",
+      "Let p(x)=x+3 when x<2 and p(x)=x²−1 when x≥2. Then p(1)=4 using the first rule, while p(2)=3 using the second. The equality sign at x=2 decides the branch."
+    ],
+    [
+      "COMMON MISTAKES",
+      "Watch signs, parentheses, and restricted inputs.",
+      "f(−3) is not −f(3). For x², (−3)²=9. f(2) is not 2f. Do not use a denominator of zero, a negative radicand in real-number square roots, or the wrong piecewise branch."
+    ],
+    [
+      "EXAM STRATEGY",
+      "Substitution usually beats graphing for a single input.",
+      "Circle the input, rewrite the rule with parentheses, and simplify. If a question supplies a table, use the matching row. If it supplies a contextual function, carry the units and domain into your answer."
+    ],
+    [
+      "QUICK CHECK",
+      "Try three independent evaluations.",
+      "For f(x)=x²−1, f(−3)=8. For g(x)=4x+1, g(1/2)=3. For h(x)=10/(x−2), h(2) is undefined because the denominator is zero."
+    ],
+    [
+      "LESSON RECAP",
+      "Input → substitute → simplify → check.",
+      "Function notation identifies the input and output. Use parentheses, respect the domain, and use the correct table row or piecewise branch. Next, practice 18 questions, review aligned solutions, and take the 5-question test."
+    ]
+  ],
+  "practice": [
+    {
+      "number": 1,
+      "group": "Skill Check",
+      "question": "For f(x)=3x+2, find f(4).",
+      "answer": "14",
+      "solution": "Replace x with 4: f(4)=3(4)+2=12+2=14."
+    },
+    {
+      "number": 2,
+      "group": "Skill Check",
+      "question": "For g(x)=x²−5, find g(−2).",
+      "answer": "−1",
+      "solution": "g(−2)=(−2)²−5=4−5=−1. The negative input must be squared inside parentheses."
+    },
+    {
+      "number": 3,
+      "group": "Skill Check",
+      "question": "For h(t)=10−2t, find h(3).",
+      "answer": "4",
+      "solution": "h(3)=10−2(3)=10−6=4."
+    },
+    {
+      "number": 4,
+      "group": "Core Practice",
+      "question": "For f(x)=2x²−3x+1, find f(−1).",
+      "answer": "6",
+      "solution": "f(−1)=2(−1)²−3(−1)+1=2+3+1=6."
+    },
+    {
+      "number": 5,
+      "group": "Core Practice",
+      "question": "For g(x)=(x+4)/3, find g(5).",
+      "answer": "3",
+      "solution": "g(5)=(5+4)/3=9/3=3."
+    },
+    {
+      "number": 6,
+      "group": "Core Practice",
+      "question": "For h(x)=|x−7|, find h(2).",
+      "answer": "5",
+      "solution": "h(2)=|2−7|=|−5|=5."
+    },
+    {
+      "number": 7,
+      "group": "Core Practice",
+      "question": "A function table pairs x=−2,0,3 with f(x)=7,1,−5 respectively. Find f(3).",
+      "answer": "−5",
+      "solution": "Read the table row with input x=3: its output is −5."
+    },
+    {
+      "number": 8,
+      "group": "Core Practice",
+      "question": "For f(x)=x²+2x, simplify f(a+1).",
+      "answer": "a²+4a+3",
+      "solution": "Substitute (a+1): (a+1)²+2(a+1)=a²+2a+1+2a+2=a²+4a+3."
+    },
+    {
+      "number": 9,
+      "group": "Core Practice",
+      "question": "For f(x)=4−x², find f(−3)+f(2).",
+      "answer": "−5",
+      "solution": "f(−3)=4−9=−5 and f(2)=4−4=0; sum −5+0=−5."
+    },
+    {
+      "number": 10,
+      "group": "Core Practice",
+      "question": "For f(x)=2x−1, simplify f(3k).",
+      "answer": "6k−1",
+      "solution": "Replace x with 3k: 2(3k)−1=6k−1."
+    },
+    {
+      "number": 11,
+      "group": "Core Practice",
+      "question": "Let p(x)=2x+3 for x<1 and p(x)=x²−1 for x≥1. Find p(1) and p(0).",
+      "answer": "p(1)=0; p(0)=3",
+      "solution": "At x=1 use x²−1, giving 1−1=0. At x=0 use 2x+3, giving 3."
+    },
+    {
+      "number": 12,
+      "group": "Exam-Style",
+      "question": "For f(x)=x²−4x+2, find f(5)−f(1).",
+      "answer": "8",
+      "solution": "f(5)=25−20+2=7; f(1)=1−4+2=−1. Difference 7−(−1)=8."
+    },
+    {
+      "number": 13,
+      "group": "Exam-Style",
+      "question": "For g(x)=3/(x−2), find g(5), and explain whether g(2) exists.",
+      "answer": "g(5)=1; g(2) undefined",
+      "solution": "g(5)=3/(5−2)=1. g(2) would divide by zero, so the function is undefined there."
+    },
+    {
+      "number": 14,
+      "group": "Exam-Style",
+      "question": "A taxi fare is C(m)=4+2.5m dollars for m miles. What is C(8), and what does it represent?",
+      "answer": "$24 for an 8-mile trip",
+      "solution": "C(8)=4+2.5(8)=4+20=24 dollars; this is the total cost for 8 miles."
+    },
+    {
+      "number": 15,
+      "group": "Exam-Style",
+      "question": "For f(x)=√(x+5), find f(11) and state the real-number domain.",
+      "answer": "f(11)=4; domain x≥−5",
+      "solution": "f(11)=√16=4. Real square roots require x+5≥0, so x≥−5."
+    },
+    {
+      "number": 16,
+      "group": "Exam-Style",
+      "question": "For f(x)=x²−2x, simplify f(−a)−f(a).",
+      "answer": "4a",
+      "solution": "f(−a)=a²+2a and f(a)=a²−2a. Subtract: (a²+2a)−(a²−2a)=4a."
+    },
+    {
+      "number": 17,
+      "group": "Challenge",
+      "question": "For f(x)=(x²−9)/(x−3) with x≠3, find f(5). Is f(3) defined after simplification?",
+      "answer": "f(5)=8; f(3) undefined",
+      "solution": "Factor x²−9=(x−3)(x+3). For x≠3, f(x)=x+3, so f(5)=8. The original denominator is zero at x=3, so that input stays excluded."
+    },
+    {
+      "number": 18,
+      "group": "Challenge",
+      "question": "For f(x)=x²+px+4, f(−2)=10. Find p and then f(3).",
+      "answer": "p=−1; f(3)=10",
+      "solution": "Use f(−2)=4−2p+4=10, so −2p=2 and p=−1. Then f(3)=9−3+4=10."
+    }
+  ],
+  "test": [
+    {
+      "number": 1,
+      "difficulty": "Easy",
+      "question": "If f(x)=5x−4, what is f(2)?",
+      "options": [
+        "4",
+        "6",
+        "10",
+        "14"
+      ],
+      "correct": 1,
+      "solution": "5(2)−4=6."
+    },
+    {
+      "number": 2,
+      "difficulty": "Easy / Medium",
+      "question": "If g(x)=x²+3, what is g(−4)?",
+      "options": [
+        "−13",
+        "7",
+        "16",
+        "19"
+      ],
+      "correct": 3,
+      "solution": "(−4)²+3=16+3=19."
+    },
+    {
+      "number": 3,
+      "difficulty": "Medium",
+      "question": "For f(x)=2(x−1)², find f(4)−f(1).",
+      "options": [
+        "0",
+        "9",
+        "18",
+        "24"
+      ],
+      "correct": 2,
+      "solution": "f(4)=2(3)²=18 and f(1)=0; difference 18."
+    },
+    {
+      "number": 4,
+      "difficulty": "Medium / Hard",
+      "question": "Let p(x)=x+5 for x<0 and p(x)=x²+1 for x≥0. Find p(−2)+p(2).",
+      "options": [
+        "3",
+        "5",
+        "8",
+        "10"
+      ],
+      "correct": 2,
+      "solution": "p(−2)=−2+5=3, p(2)=4+1=5; sum 8."
+    },
+    {
+      "number": 5,
+      "difficulty": "Hard / Exam-Style",
+      "question": "For f(x)=x²+ax−3, f(−2)=9. What is f(3)?",
+      "options": [
+        "−6",
+        "−3",
+        "0",
+        "6"
+      ],
+      "correct": 0,
+      "solution": "f(−2)=4−2a−3=1−2a=9, so a=−4. Then f(3)=9−12−3=−6."
+    }
+  ],
+  "video": {
+    "english": [
+      [
+        "Introduction",
+        "Function notation f(a) means the output of function f when the input is a; it is not f times a."
+      ],
+      [
+        "Input and output",
+        "For f(x)=3x+2, the input 4 produces f(4)=14. Every occurrence of x receives the same input."
+      ],
+      [
+        "Order of operations",
+        "Replace first, then simplify parentheses, exponents, multiplication, and addition."
+      ],
+      [
+        "Negative inputs",
+        "If g(x)=x²−5, g(−2)=(−2)²−5=−1. Keep parentheses around negative inputs."
+      ],
+      [
+        "Tables",
+        "Find the row containing the requested input; the output is the paired value in that row."
+      ],
+      [
+        "Expression inputs",
+        "For h(x)=2x²−1, h(t+1)=2(t+1)²−1=2t²+4t+1."
+      ],
+      [
+        "Piecewise rules",
+        "Check the inequality before substituting. At a boundary, use the branch containing the equality sign."
+      ],
+      [
+        "Domains",
+        "For 3/(x−2), input 2 is forbidden. For √(x+5), real inputs require x≥−5."
+      ],
+      [
+        "Word problems",
+        "For C(m)=4+2.5m, C(8)=$24 represents the cost of an eight-mile trip."
+      ],
+      [
+        "Exam strategy and recap",
+        "Circle the input, substitute with parentheses, simplify, check restrictions, and include units. Practice, solutions, and test follow."
+      ]
+    ],
+    "arabic": [
+      [
+        "المقدمة",
+        "الرمز f(a) يعني ناتج الدالة f عند إدخال القيمة a، وليس ضرب f في a."
+      ],
+      [
+        "المدخل والمخرج",
+        "إذا كانت f(x)=3x+2 فإن f(4)=14. نعوض بالقيمة نفسها مكان كل x."
+      ],
+      [
+        "ترتيب العمليات",
+        "نعوض أولاً، ثم نبسط الأقواس والأسس والضرب والجمع حسب الترتيب الصحيح."
+      ],
+      [
+        "المدخل السالب",
+        "إذا كانت g(x)=x²−5 فإن g(−2)=(−2)²−5=−1. نضع العدد السالب بين قوسين."
+      ],
+      [
+        "الجداول",
+        "ابحث عن الصف الذي يحتوي على المدخل المطلوب ثم اقرأ المخرج المقابل له."
+      ],
+      [
+        "التعويض بتعبير",
+        "إذا كانت h(x)=2x²−1 فإن h(t+1)=2(t+1)²−1=2t²+4t+1."
+      ],
+      [
+        "الدوال المعرفة على أجزاء",
+        "حدد شرط الفرع أولاً. عند نقطة الفصل اختر الفرع الذي يتضمن علامة المساواة."
+      ],
+      [
+        "المجال",
+        "الدالة 3/(x−2) غير معرفة عند x=2، وللدالة √(x+5) يلزم x≥−5 في الأعداد الحقيقية."
+      ],
+      [
+        "مسألة تطبيقية",
+        "إذا كانت C(m)=4+2.5m فإن C(8)=24 دولاراً، وهي تكلفة رحلة طولها ثمانية أميال."
+      ],
+      [
+        "استراتيجية الاختبار والخلاصة",
+        "حدد المدخل وعوض باستخدام الأقواس ثم بسط وتحقق من المجال والوحدات. بعد ذلك حل التدريب وراجع الإجابات وأكمل الاختبار."
+      ]
+    ]
+  }
+}
