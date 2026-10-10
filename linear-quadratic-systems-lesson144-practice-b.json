@@ -1,0 +1,47 @@
+[
+  [
+    "Solve y = x^2 - 6x + 8 and y = 2.",
+    "(3 - sqrt(3),2), (3 + sqrt(3),2)",
+    "Set x^2 - 6x + 6 = 0. Formula gives x = 3 +/- sqrt(3); y = 2."
+  ],
+  [
+    "Solve y = x^2 - 1 and y = 2x + 2.",
+    "(-1,0), (3,8)",
+    "Equate: x^2 - 2x - 3 = (x - 3)(x + 1) = 0. The line gives y = 0 or 8."
+  ],
+  [
+    "How many real intersections: y = x^2 + 2x + 5 and y = 2x + 1?",
+    "Zero",
+    "Equating gives x^2 + 4 = 0, impossible over the reals."
+  ],
+  [
+    "For which b does y = x^2 + bx + 1 touch y = x + 1 exactly once?",
+    "b = 1; point (0,1)",
+    "Equation x(x + b - 1) = 0 has a repeated root only if b = 1. Then x = 0 and y = 1."
+  ],
+  [
+    "For which k does y = (x + 1)^2 meet y = k exactly once?",
+    "k = 0; point (-1,0)",
+    "(x + 1)^2 = k has one real solution only at the vertex height k = 0."
+  ],
+  [
+    "For which m does y = x^2 - 5x + 6 touch y = mx + 6?",
+    "m = -5; point (0,6)",
+    "Equation x(x - m - 5) = 0 has a double root when m = -5."
+  ],
+  [
+    "Projectile height h(t) = -t^2 + 6t meters. When is h = 8 for t >= 0?",
+    "t = 2 s and t = 4 s",
+    "Solve t^2 - 6t + 8 = (t - 2)(t - 4) = 0; both times are valid."
+  ],
+  [
+    "Can y = x^2 - 2x - 3 and y = mx + 1 have zero real intersections?",
+    "No; always two real intersections",
+    "Equation x^2 - (m + 2)x - 4 = 0 has D = (m + 2)^2 + 16 > 0 for all real m."
+  ],
+  [
+    "Find all m making y = x^2 - 2x + 4 tangent to y = mx, and the touching points.",
+    "m = 2 at (2,4); m = -6 at (-2,12)",
+    "Set D = (m + 2)^2 - 16 = 0, giving m = 2 or -6. The repeated roots x = 2 or -2 yield the stated points."
+  ]
+]
