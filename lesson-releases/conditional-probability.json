@@ -1,0 +1,17 @@
+{
+  "lesson": "conditional-probability",
+  "builders": [
+    "conditional-probability-lesson208-explanation-build.js",
+    "conditional-probability-lesson208-practice-build.js",
+    "conditional-probability-lesson208-test-build.js",
+    "conditional-probability-lesson208-video-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/probability/conditional-probability/explanation/",
+    "/problem-solving-and-data-analysis/probability/conditional-probability/problems/",
+    "/problem-solving-and-data-analysis/probability/conditional-probability/answers/",
+    "/problem-solving-and-data-analysis/probability/conditional-probability/test/",
+    "/problem-solving-and-data-analysis/probability/conditional-probability/video/english/",
+    "/problem-solving-and-data-analysis/probability/conditional-probability/video/arabic/"
+  ]
+}
