@@ -1,0 +1,172 @@
+{
+  "lesson_index": 218,
+  "slug": "experiments",
+  "title": "Experiments",
+  "base": "problem-solving-and-data-analysis/statistical-studies/experiments",
+  "classification": "NEITHER",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "prompt": "Which is an experiment? A assign a new study method, B observe existing study habits, C review old grades.",
+      "answer": "A",
+      "solution": "An experiment deliberately assigns an explanatory treatment."
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "prompt": "In an experiment testing a tutoring program, what is the response variable? A assigned tutor, B test score, C room number.",
+      "answer": "B",
+      "solution": "Test score is the measured outcome."
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "prompt": "Why randomly assign participants to treatment groups? A balance potential confounders on average, B guarantee equal outcomes, C ensure population representativeness.",
+      "answer": "A",
+      "solution": "Random assignment tends to distribute lurking factors between groups."
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "prompt": "Researchers assign fertilizer types to plots. Is this A an experiment, B an observational study, C a census?",
+      "answer": "A",
+      "solution": "The researchers actively assign the treatments."
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "prompt": "What is the control group? A the group with most participants, B the group measured first, C the group receiving standard or no treatment.",
+      "answer": "C",
+      "solution": "A control group provides the baseline comparison."
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "prompt": "Which distinction is correct? A random sampling and assignment are identical, B sampling selects participants while assignment allocates treatments, C assignment guarantees representativeness.",
+      "answer": "B",
+      "solution": "Random sampling concerns selection; random assignment concerns treatment allocation."
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "prompt": "In a trial of 100 people, 50 receive treatment. What proportion receive treatment?",
+      "answer": "0.5",
+      "solution": "50/100=0.5."
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "prompt": "Treatment succeeds for 70 of 100; control for 50 of 100. Find treatment minus control success-rate difference.",
+      "answer": "0.2",
+      "solution": "70/100−50/100=0.20."
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "prompt": "Treatment mean score is 82 and control mean score is 74. Find observed mean difference.",
+      "answer": "8",
+      "solution": "82−74=8 points."
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "prompt": "What does a placebo help control? A expectations unrelated to active treatment, B sample size, C measurement units.",
+      "answer": "A",
+      "solution": "A placebo can isolate the effect of the active treatment from expectations."
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "prompt": "Why blind outcome assessors to treatment assignments? A increase treatment dose, B reduce measurement bias, C remove all random variation.",
+      "answer": "B",
+      "solution": "Blinding helps prevent assessor expectations from influencing recorded outcomes."
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "prompt": "A new drug is tested while the treatment group also exercises more. What is the concern? A larger sample, B perfect randomization, C exercise may confound the comparison.",
+      "answer": "C",
+      "solution": "Differences in exercise can affect outcomes independently of the drug."
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "prompt": "Treatment: 30 successes in 60; control: 18 in 60. Find success-rate difference.",
+      "answer": "0.2",
+      "solution": "30/60−18/60=0.5−0.3=0.2."
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "prompt": "A randomized experiment uses volunteers from one school. What is justified? A causal evidence may be stronger within the study, but generalization is limited, B it represents every school, C random assignment means random sampling.",
+      "answer": "A",
+      "solution": "Assignment supports causal comparison; volunteer recruitment limits external validity."
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "prompt": "Each patient receives treatment and placebo in random order. Which design? A census, B matched-pairs crossover, C observational survey.",
+      "answer": "B",
+      "solution": "The same patient acts as a paired comparison under two conditions."
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "prompt": "A trial randomly allocates 120 participants equally to three groups. How many per group?",
+      "answer": "40",
+      "solution": "120/3=40 participants."
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "prompt": "Treatment succeeds for 80% and control for 65%. Difference in percentage points?",
+      "answer": "15",
+      "solution": "80−65=15 percentage points."
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "prompt": "In a trial, 40 of 100 treated participants drop out versus 10 of 100 controls. Biggest concern? A guaranteed causation, B differential attrition may bias results, C the groups are identical.",
+      "answer": "B",
+      "solution": "Unequal dropout may make the observed groups systematically different."
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "difficulty": "Easy",
+      "prompt": "Researchers assign two different teaching methods. Is it A an experiment, B a survey, C a census?",
+      "answer": "A",
+      "solution": "Assigned treatments make this an experiment."
+    },
+    {
+      "index": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "What does random assignment mainly help? A guarantee generalization, B reduce systematic group differences, C eliminate all chance variation.",
+      "answer": "B",
+      "solution": "Random allocation helps balance confounders across groups."
+    },
+    {
+      "index": 3,
+      "difficulty": "Medium",
+      "prompt": "Treatment has 45 successes in 90; control 30 in 90. Express the rate difference as a simplified fraction.",
+      "answer": "1/6",
+      "solution": "45/90−30/90=15/90=1/6."
+    },
+    {
+      "index": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "Which is true? A random assignment chooses a representative sample, B random sampling proves causation, C sampling and assignment address different questions.",
+      "answer": "C",
+      "solution": "Sampling supports generalization; assignment supports causal comparisons."
+    },
+    {
+      "index": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "In a trial, 60 of 100 treated and 45 of 100 controls improve. Difference in percentage points?",
+      "answer": "15",
+      "solution": "60%−45%=15 percentage points."
+    }
+  ]
+}
