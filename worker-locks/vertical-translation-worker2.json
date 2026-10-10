@@ -1,1 +1,10 @@
-{"lesson":"vertical-translation","index":92,"worker":"SUMMIT Worker 2","status":"IN_PROGRESS","started":"2026-10-10","scope":"curriculum core plus standard full video"}
+{
+  "lesson": "vertical-translation",
+  "index": 92,
+  "worker": "SUMMIT Worker 2",
+  "status": "BLOCKED_PENDING_RELEASE",
+  "started": "2026-10-10",
+  "scope": "curriculum core plus standard full video",
+  "blocked_at": "2026-10-10",
+  "reason": "Core and manifest committed on release branch; GitHub PR write safety blocks merge workflow; Vercel free deployment limit 100/day blocks preview and production verification (retry after 24h)."
+}
