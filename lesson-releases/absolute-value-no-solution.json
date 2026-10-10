@@ -1,0 +1,14 @@
+{
+  "lesson": "absolute-value-no-solution",
+  "builders": [
+    "absolute-value-no-solution-lesson142-build.js"
+  ],
+  "routes": [
+    "/advanced-math/absolute-value/no-solution/explanation/",
+    "/advanced-math/absolute-value/no-solution/problems/",
+    "/advanced-math/absolute-value/no-solution/answers/",
+    "/advanced-math/absolute-value/no-solution/test/",
+    "/advanced-math/absolute-value/no-solution/video/english/",
+    "/advanced-math/absolute-value/no-solution/video/arabic/"
+  ]
+}
