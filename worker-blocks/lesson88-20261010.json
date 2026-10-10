@@ -1,0 +1,34 @@
+{
+  "lesson_index": 88,
+  "slug": "maximum-and-minimum",
+  "status": "BLOCKED_RELEASE",
+  "updated_at": "2026-10-10",
+  "ready_artifacts": [
+    "maximum-and-minimum-standard-form-content-build.js",
+    "maximum-and-minimum-standard-form-video-build.js",
+    "lesson-releases/maximum-and-minimum.json"
+  ],
+  "checks": {
+    "canonical_route": "verified against 298-lesson curriculum",
+    "syntax": "PASS",
+    "practice": 18,
+    "distribution": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "solutions": 18,
+    "test": 5,
+    "video_scenes": {
+      "english": 14,
+      "arabic": 14
+    }
+  },
+  "blockers": [
+    "GitHub update_file to explanation-worker3-registry.js rejected by safety checks",
+    "GitHub create_pull_request rejected by safety checks",
+    "No production deployment of the new commit; no live verification"
+  ],
+  "next": "Resume release when GitHub writes/PR are available; avoid duplicate announcement until deployed."
+}
