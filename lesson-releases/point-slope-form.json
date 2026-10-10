@@ -1,0 +1,14 @@
+{
+  "lesson": "point-slope-form",
+  "builders": [
+    "point-slope-lesson10-full-build.js"
+  ],
+  "routes": [
+    "/algebra/linear-equations-in-two-variables/point-slope-form/explanation/",
+    "/algebra/linear-equations-in-two-variables/point-slope-form/problems/",
+    "/algebra/linear-equations-in-two-variables/point-slope-form/answers/",
+    "/algebra/linear-equations-in-two-variables/point-slope-form/test/",
+    "/algebra/linear-equations-in-two-variables/point-slope-form/video/english/",
+    "/algebra/linear-equations-in-two-variables/point-slope-form/video/arabic/"
+  ]
+}
