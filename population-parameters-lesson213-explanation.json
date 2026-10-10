@@ -1,0 +1,66 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Identify exact population parameters and distinguish them from sample statistics."
+  ],
+  [
+    "CORE IDEA",
+    "A parameter describes every member of a defined population; a statistic describes only a sample."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "N: population size. μ: population mean. p: population proportion. σ²: population variance. σ: population standard deviation. Census: complete enumeration."
+  ],
+  [
+    "CORE RULE",
+    "μ=Σx/N; p=k/N; σ²=Σ(x−μ)²/N; σ=√σ². Population variance uses N, not N−1."
+  ],
+  [
+    "HOW IT WORKS",
+    "Define the population, determine whether every member was measured, and choose the formula matching the quantity requested."
+  ],
+  [
+    "WORKED EXAMPLE 1 — MEAN",
+    "For 2,4,6,8: μ=(2+4+6+8)/4=5."
+  ],
+  [
+    "WORKED EXAMPLE 2 — PROPORTION",
+    "For 24 supporters among all 80 voters, p=24/80=0.3."
+  ],
+  [
+    "WORKED EXAMPLE 3 — VARIANCE",
+    "For 3,3,7,7: μ=5, squared deviations total 16, σ²=16/4=4, σ=2."
+  ],
+  [
+    "WORKED EXAMPLE 4 — SAMPLE",
+    "Measuring only 20 of 1,000 trees gives a sample statistic, not the exact population mean."
+  ],
+  [
+    "WORKED EXAMPLE 5 — WEIGHTED MEAN",
+    "For group sizes 20 and 30 with means 12 and 18: μ=[20(12)+30(18)]/50=15.6."
+  ],
+  [
+    "WORKED EXAMPLE 6 — TRANSFORMATIONS",
+    "Adding 4 to every value changes the mean by 4 but leaves population standard deviation unchanged."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not use N−1 for population variance or assume a sample estimate equals the exact population parameter."
+  ],
+  [
+    "EXAM STRATEGY",
+    "Check the population definition and sample coverage before calculating; weight subgroup means by group sizes."
+  ],
+  [
+    "QUICK CHECK",
+    "All 50 students measured: parameter. Nine out of all 30 devices fail: p=0.3. Population 1,3: variance=1."
+  ],
+  [
+    "LESSON RECAP",
+    "A parameter describes the complete population; mean, proportion, variance and standard deviation follow their population formulas."
+  ],
+  [
+    "NEXT STEP",
+    "Solve 18 practice problems, review 18 solutions, and submit the five-question test."
+  ]
+]
