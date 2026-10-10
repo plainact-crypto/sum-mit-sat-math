@@ -1,0 +1,200 @@
+{
+  "lesson": "Horizontal Translation",
+  "slug": "horizontal-translation",
+  "classification": "BOTH",
+  "explanation": [
+    [
+      "LESSON OBJECTIVE",
+      "Translate a function left or right.",
+      "Recognize f(x-h) as a shift right by h and f(x+h) as a shift left by h."
+    ],
+    [
+      "CORE IDEA",
+      "Horizontal changes happen inside the input.",
+      "A horizontal translation moves every point the same distance left or right without changing the graph's shape. The visible sign appears opposite the direction because the input must compensate to produce the same original output."
+    ],
+    [
+      "KEY DEFINITIONS",
+      "Translation · Horizontal translation · Landmark point",
+      "A translation is a slide with no stretch, reflection, or rotation. A horizontal translation is a left/right shift. A landmark point is an easy point such as a vertex, endpoint, or intercept used to track the shift."
+    ],
+    [
+      "CORE RULE",
+      "Inside minus → right. Inside plus → left.",
+      "If (a,b) lies on y=f(x), then (a+h,b) lies on y=f(x-h), while (a-h,b) lies on y=f(x+h). Only x-coordinates change."
+    ],
+    [
+      "HOW IT WORKS",
+      "Five-step method",
+      "1) Identify f. 2) Locate the change inside the input. 3) Reverse the visible sign to get horizontal direction. 4) Move every x-coordinate by that amount and keep y unchanged. 5) Check a landmark point."
+    ],
+    [
+      "WORKED EXAMPLES",
+      "Four verified examples",
+      "1) f(x)=x², g(x)=(x-4)²: vertex (0,0)→(4,0), right 4. 2) f(x)=|x|, g(x)=|x+3|: vertex (0,0)→(-3,0), left 3. 3) If (2,7) is on f and g(x)=f(x-6), the point becomes (8,7). 4) f(x)=√x, g(x)=√(x+5): endpoint (0,0)→(-5,0), left 5."
+    ],
+    [
+      "VERIFIED GRAPH",
+      "Compare y=x² and y=(x-4)².",
+      "Verified points on f: (-2,4), (0,0), (2,4). On g they are (2,4), (4,0), (6,4). Every x-coordinate increases by 4 and y stays the same."
+    ],
+    [
+      "DESMOS STRATEGY",
+      "Enter y=x^2 and y=(x-4)^2.",
+      "Look for vertices (0,0) and (4,0). Use them to confirm a 4-unit right shift. Why it works: replacing x by x-4 requires an input 4 larger for the same output. Faster or not? Reading the algebra is faster; Desmos is useful as a check."
+    ],
+    [
+      "COMMON MISTAKES",
+      "Avoid sign and direction errors.",
+      "f(x-5) is right 5, not left 5. Do not change y-values. Do not confuse f(x)-5 (down 5) with f(x-5) (right 5). A translation preserves shape."
+    ],
+    [
+      "EXAM STRATEGY",
+      "Read the inside change first.",
+      "Reverse the visible sign for horizontal direction. If a point is given, move only its x-coordinate. Use a landmark point to eliminate wrong choices quickly."
+    ],
+    [
+      "QUICK CHECK",
+      "Three checks",
+      "f(x+5): left 5. f(x-2): right 2. If (-1,4) is on f, under f(x-3) it becomes (2,4)."
+    ],
+    [
+      "LESSON RECAP",
+      "One rule to remember.",
+      "f(x-h): right h. f(x+h): left h. Horizontal translations change x-coordinates only and preserve shape."
+    ],
+    [
+      "NEXT STEP",
+      "Continue the lesson.",
+      "Practice Problems · Answers & Solutions · Lesson Test · English Video"
+    ]
+  ],
+  "practice": [
+    [
+      "Describe the translation from y=f(x) to y=f(x-3).",
+      "Right 3 units",
+      "The input is x-3, so the graph shifts 3 units right."
+    ],
+    [
+      "Describe the translation from y=f(x) to y=f(x+6).",
+      "Left 6 units",
+      "The input is x+6, so the graph shifts 6 units left."
+    ],
+    [
+      "If (2,5) lies on f, where is the corresponding point on g(x)=f(x-4)?",
+      "(6,5)",
+      "A right shift of 4 adds 4 to x and keeps y unchanged."
+    ],
+    [
+      "The vertex of f is (1,-2). Find the vertex of g(x)=f(x-7).",
+      "(8,-2)",
+      "Shift right 7: 1+7=8."
+    ],
+    [
+      "The endpoint of f is (-3,4). Find the endpoint of g(x)=f(x+5).",
+      "(-8,4)",
+      "Shift left 5: -3-5=-8."
+    ],
+    [
+      "Write a transformation of f that shifts its graph right 9 units.",
+      "g(x)=f(x-9)",
+      "A right shift h uses f(x-h)."
+    ],
+    [
+      "Write a transformation of f that shifts its graph left 2 units.",
+      "g(x)=f(x+2)",
+      "A left shift h uses f(x+h)."
+    ],
+    [
+      "For f(x)=x², give the vertex of g(x)=(x+4)².",
+      "(-4,0)",
+      "The parent vertex shifts left 4."
+    ],
+    [
+      "For f(x)=|x|, give the vertex of g(x)=|x-5|.",
+      "(5,0)",
+      "The parent vertex shifts right 5."
+    ],
+    [
+      "A point (7,-1) lies on g(x)=f(x-3). Find the corresponding point on f.",
+      "(4,-1)",
+      "Undo the right shift: 7-3=4."
+    ],
+    [
+      "The domain of f is [2,10]. Find the domain of g(x)=f(x+4).",
+      "[-2,6]",
+      "A left shift of 4 moves both endpoints left 4."
+    ],
+    [
+      "Which shifts y=√x right 6: √(x+6), √(x-6), √x+6, or √x-6?",
+      "√(x-6)",
+      "A horizontal right shift uses x-6 inside."
+    ],
+    [
+      "A graph has x-intercept 3. After g(x)=f(x+8), what is the new x-intercept?",
+      "-5",
+      "Shift left 8: 3-8=-5."
+    ],
+    [
+      "The vertex of y=(x-2)² is translated left 7 units. Write the new equation.",
+      "y=(x+5)²",
+      "The vertex moves from x=2 to x=-5, giving (x+5)²."
+    ],
+    [
+      "If f(-2)=9 and g(x)=f(x-5), find the x-value where g(x)=9 corresponding to that input.",
+      "x=3",
+      "Set x-5=-2, so x=3."
+    ],
+    [
+      "A graph is shifted so (-4,6) moves to (3,6). Write g in terms of f.",
+      "g(x)=f(x-7)",
+      "The point moved right 7, so use f(x-7)."
+    ],
+    [
+      "For g(x)=f(x-h), (2,11) on f corresponds to (9,11) on g. Find h.",
+      "h=7",
+      "The x-coordinate increased by 7."
+    ],
+    [
+      "A function has domain [-6,4] and x-intercepts -2 and 3. It is translated so its new domain is [1,11]. Give the transformation and new intercepts.",
+      "g(x)=f(x-7); intercepts 5 and 10",
+      "The domain moved right 7. Apply +7 to each intercept."
+    ]
+  ],
+  "test": [
+    [
+      "Easy",
+      "Describe the translation from f(x) to f(x-8).",
+      "Right 8 units",
+      "Inside minus means right."
+    ],
+    [
+      "Easy / Medium",
+      "If (3,-2) lies on f, where is the corresponding point on f(x+4)?",
+      "(-1,-2)",
+      "Shift left 4."
+    ],
+    [
+      "Medium",
+      "For f(x)=|x|, write the equation after shifting left 7 units.",
+      "y=|x+7|",
+      "Left 7 uses x+7 inside."
+    ],
+    [
+      "Medium / Hard",
+      "If g(x)=f(x-h) and (-5,2) on f becomes (1,2) on g, find h.",
+      "h=6",
+      "The x-coordinate increased by 6."
+    ],
+    [
+      "Hard / Exam-Style",
+      "The domain of f is [-3,5], with x-intercept 2. After a horizontal translation the domain is [4,12]. Write g in terms of f and find the new intercept.",
+      "g(x)=f(x-7); new intercept 9",
+      "The graph shifted right 7; 2+7=9."
+    ]
+  ],
+  "video": {
+    "url": "https://scrimba.com/explain/guide0unas8gsu?claim=j6rtrc0kohctf2eo&fullscreen=1",
+    "note": "English · Full lesson · Horizontal shift rules, point mapping, worked examples, Desmos strategy, and quick check"
+  }
+}
