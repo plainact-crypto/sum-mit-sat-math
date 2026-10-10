@@ -2,7 +2,9 @@
   "lesson_index": 290,
   "slug": "finding-a-missing-side",
   "worker": "worker5",
-  "state": "IN_PROGRESS",
+  "state": "BLOCKED_BUILDER_UPLOAD",
   "branch": "automation/worker5-lesson290-full-release-20261010-1522",
-  "created_at": "2026-10-10T15:22:15+03:00"
+  "created_at": "2026-10-10T15:22:15+03:00",
+  "last_attempt": "2026-10-10T15:22:15+03:00",
+  "block_reason": "GitHub safety checks rejected complete builder upload. Full local package passed 117/117 mathematical/route checks and 43/43 browser checks; release manifest and builder remain local only."
 }
