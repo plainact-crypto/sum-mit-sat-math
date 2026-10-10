@@ -1,0 +1,70 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Solve a system containing one linear equation and one quadratic equation. Identify zero, one, or two real intersection points and verify each ordered pair."
+  ],
+  [
+    "WHAT YOU NEED TO KNOW",
+    "An intersection is a point (x,y) satisfying both equations. A line and a parabola may intersect twice, touch once, or not meet in the real coordinate plane."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Substitution replaces y in one equation with the expression for y from the other. Discriminant: D = b^2 - 4ac for a quadratic ax^2 + bx + c = 0. Tangency means exactly one intersection."
+  ],
+  [
+    "CORE RULE",
+    "Set the two expressions for y equal. Rearrange into ax^2 + bx + c = 0, solve for x, then substitute each x into the line to find y. Check every ordered pair in both original equations."
+  ],
+  [
+    "HOW IT WORKS",
+    "Write the line as y = mx + b. Substitute into the quadratic equation, factor if possible, otherwise use the quadratic formula. Count distinct real x-roots and pair each with its corresponding y-value."
+  ],
+  [
+    "WORKED EXAMPLE 1 — TWO INTERSECTIONS",
+    "Solve y = x^2 - 4x + 1 and y = x - 3. Set x^2 - 4x + 1 = x - 3. Then x^2 - 5x + 4 = (x - 1)(x - 4) = 0. For x = 1, y = -2; for x = 4, y = 1. Answers: (1,-2) and (4,1)."
+  ],
+  [
+    "WORKED EXAMPLE 2 — ONE INTERSECTION",
+    "Solve y = x^2 + 2x + 1 and y = 0. Then (x + 1)^2 = 0, so x = -1 and y = 0. A repeated root represents one touching point (-1,0)."
+  ],
+  [
+    "WORKED EXAMPLE 3 — NO REAL INTERSECTION",
+    "Solve y = x^2 + 4 and y = 0. This requires x^2 = -4, impossible for real x. The parabola stays above the horizontal line."
+  ],
+  [
+    "WORKED EXAMPLE 4 — QUADRATIC FORMULA",
+    "Solve y = x^2 - 6x + 8 and y = 2. Rearrange x^2 - 6x + 6 = 0. Then x = (6 +/- sqrt(36 - 24))/2 = 3 +/- sqrt(3). Both intersection points have y = 2."
+  ],
+  [
+    "WORKED EXAMPLE 5 — TANGENCY PARAMETER",
+    "For y = x^2 - 2x + 4 and y = mx, set x^2 - (m + 2)x + 4 = 0. Tangency requires (m + 2)^2 - 16 = 0, so m = 2 or m = -6. The touching points are (2,4) and (-2,12), respectively."
+  ],
+  [
+    "GRAPH & VISUAL",
+    "The verified coordinate graph below plots y = x^2 - 4x + 1 and y = x - 3 using their equations. Their exact intersections are (1,-2) and (4,1), found by factoring x^2 - 5x + 4. The graph is generated deterministically from the formulas."
+  ],
+  [
+    "DESMOS STRATEGY",
+    "Enter: y = x^2 - 4x + 1 and y = x - 3. Look for: intersections (1,-2) and (4,1). Use it to answer: record both ordered pairs and verify each in both equations. Why it works: intersection coordinates satisfy the line and parabola simultaneously. Faster or not? Desmos is useful for visualizing and checking, but substitution is usually faster for exact factorable answers and is necessary for parameter questions."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not report only the x-roots: a system requires ordered pairs. Do not count a repeated root twice. Do not use the quadratic formula with the wrong sign of b. Do not treat a negative discriminant as two real intersections."
+  ],
+  [
+    "EXAM STRATEGY",
+    "Substitute the line into the quadratic first. Factor before using the quadratic formula. For a parameter asking when the line touches the parabola, set the discriminant equal to zero. For word problems, respect the physical domain."
+  ],
+  [
+    "QUICK CHECK",
+    "System y = x^2 and y = 1: intersections (-1,1) and (1,1). System y = x^2 and y = 0: one point (0,0). System y = x^2 + 1 and y = 0: no real point."
+  ],
+  [
+    "LESSON RECAP",
+    "Line-parabola intersections become roots of one quadratic equation. Two distinct real roots give two points, a repeated root gives one point, and no real roots gives no real intersection."
+  ],
+  [
+    "NEXT STEP",
+    "Solve 18 Practice Problems in four skill groups, compare the 18 worked solutions, complete the five-question Lesson Test, and review the English or Arabic full lesson video."
+  ]
+]
