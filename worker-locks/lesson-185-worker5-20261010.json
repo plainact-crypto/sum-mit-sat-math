@@ -1,0 +1,12 @@
+{
+  "lesson_index": 185,
+  "lesson": "mean",
+  "worker": "SUMMIT Worker 5",
+  "branch": "automation/worker5-lesson185-mean-20261010-1918",
+  "status": "BLOCKED_BUILDER_UPLOAD",
+  "updated_at": "2026-10-10",
+  "source_data_commit": "c45ef62198f3ec6b2a65207f00f91df1c439e093",
+  "blocker": "GitHub builder source upload rejected by safety checks; data file committed; release manifest intentionally not added because required builder is missing.",
+  "production_verified": false,
+  "broadcast_status": "PENDING_PRODUCTION"
+}
