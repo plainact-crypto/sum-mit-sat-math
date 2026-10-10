@@ -1,0 +1,28 @@
+{
+  "lesson": 30,
+  "slug": "collinear-points",
+  "status": "BLOCKED_RELEASE",
+  "verified": {
+    "practice": 18,
+    "distribution": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answers": 18,
+    "test": 5,
+    "independentMathQA": "23/23 PASS",
+    "answerAlignment": "18/18 PASS",
+    "graph": "deterministic y=2x+1, three verified points",
+    "desmos": "lesson-specific strategy present",
+    "videoChapters": "12 English + 12 Arabic",
+    "videoRoutes": "2/2 generated in isolated simulation",
+    "manifest": "unique with six canonical routes"
+  },
+  "blockers": [
+    "Test page still allows resubmission; source update and test-once builder rejected by safety checks.",
+    "Vercel preview deployment quota exceeded (HTTP 402); no successful full build for this lesson branch."
+  ],
+  "release": "DO NOT MERGE or mark LIVE_VERIFIED until test lock, production build, route verification pass."
+}
