@@ -1,0 +1,11 @@
+'use strict';
+const {shell,write,esc}=require('./repeated-percent-change-lesson178-layout');
+const {test,factor,round}=require('./repeated-percent-change-lesson178-verified-data');
+const levels=['Easy','Easy / Medium','Medium','Medium / Hard','Hard / Exam-Style'];
+if(test.length!==5)throw Error('Exactly five progressive test questions');
+for(const [i,x] of test.entries())if(Math.abs(round(x.start*factor(x.changes))-x.end)>1e-8||x.choices.length!==4||!x.choices[x.correct].includes(String(x.answer)))throw Error('Test QA '+(i+1));
+const questions=test.map((x,i)=>'<fieldset><legend>Question '+(i+1)+' · '+levels[i]+'</legend><p>'+esc(x.q)+'</p>'+x.choices.map((choice,j)=>'<label style="display:block;margin:10px"><input type="radio" name="q'+i+'" value="'+j+'" '+(j===0?'required':'')+'> '+String.fromCharCode(65+j)+'. '+esc(choice)+'</label>').join('')+'</fieldset>').join('');
+const answers=JSON.stringify(test.map(x=>({correct:x.correct,choice:x.choices[x.correct],why:x.why})));
+const script='<script>(function(){const f=document.getElementById("test-form"),r=document.getElementById("result"),key='+answers+';let done=false;f.addEventListener("submit",function(e){e.preventDefault();if(done)return;let score=0;const ol=document.createElement("ol");key.forEach((x,i)=>{const selected=f.querySelector("input[name=q"+i+"]:checked");const ok=selected&&Number(selected.value)===x.correct;if(ok)score++;const li=document.createElement("li");li.textContent="Question "+(i+1)+": "+(ok?"Correct. ":"Review. ")+"Answer: "+x.choice+". "+x.why;ol.appendChild(li)});done=true;f.querySelectorAll("input,button").forEach(x=>x.disabled=true);const h=document.createElement("h2");h.textContent="Final score: "+score+"/5";r.appendChild(h);r.appendChild(ol);r.hidden=false;r.focus()})})();</script>';
+write('test',shell('Lesson Test','<p>Five progressive questions. Correct answers and worked feedback appear only after submitting the entire test.</p><form id="test-form">'+questions+'<button type="submit">Submit Test</button></form><section id="result" tabindex="-1" hidden aria-live="polite"></section>'+script));
+console.log('Lesson 178 five-question end-submit-only test PASS.');
