@@ -7,5 +7,5 @@ module.exports=[
 {q:'Fabric covers 2,500 cm². At $24 per m², what is its cost?',a:'$6',why:'2,500 cm² = 0.25 m². Cost = 0.25 × $24 = $6.',check:()=>2500/10000*24===6},
 {q:'A 0.5-acre lot is covered by 9-ft² paving units. How many units? (1 acre = 43,560 ft².)',a:'2,420 units',why:'Area = 0.5 × 43,560 = 21,780 ft². Divide by 9 ft² per unit to get 2,420.',check:()=>.5*43560/9===2420},
 {q:'A 0.012-km² plot reserves 3/5 of its area. How many m² remain?',a:'4,800 m²',why:'Total = 0.012 × 1,000,000 = 12,000 m². Remaining fraction = 2/5; 12,000 × 2/5 = 4,800.',check:()=>.012*1000000*2/5===4800},
-{q:'A floor is 15 ft by 12 ft. It uses 6-in by 6-in tiles. How many tiles including 10% extra?',a:'792 tiles',why:'Floor = 180 ft² = 25,920 in². Tile = 36 in², so 720 tiles. Add 10%: 720 × 1.10 = 792.',check:()=>15*12*144/36*1.1===792}
+{q:'A floor is 15 ft by 12 ft. It uses 6-in by 6-in tiles. How many tiles including 10% extra?',a:'792 tiles',why:'Floor = 180 ft² = 25,920 in². Tile = 36 in², so 720 tiles. Add 10%: 720 × 1.10 = 792.',check:()=>15*12*144/36===720&&720*11/10===792}
 ];
