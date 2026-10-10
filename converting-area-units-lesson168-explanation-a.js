@@ -1,0 +1,10 @@
+module.exports=[
+['LESSON OBJECTIVE','<p>Convert areas between metric and customary units, including multi-step geometry and real-world problems. The key is to square the length conversion factor.</p><p><b>Target:</b> 1 m² = (100 cm)² = 10,000 cm².</p>'],
+['WHAT YOU NEED TO KNOW','<p>Area measures two-dimensional coverage, so converting a square requires changing both side lengths. If one meter is 100 centimeters, a one-meter square is 100 cm by 100 cm, not 100 square centimeters.</p>'],
+['KEY DEFINITIONS','<p><b>Square unit:</b> the area of a 1-unit by 1-unit square. <b>Linear conversion factor:</b> the multiplier for one length. <b>Area conversion factor:</b> the square of that multiplier. <b>Unit rate:</b> cost or coverage per square unit.</p>'],
+['CORE RULE','<p>If 1 large length unit equals c small length units, then <b>1 large square unit = c² small square units</b>. Going from large to small area units, multiply by c². Going from small to large, divide by c².</p><p>Useful exact facts: 1 m² = 10,000 cm²; 1 cm² = 100 mm²; 1 km² = 1,000,000 m²; 1 ft² = 144 in²; 1 yd² = 9 ft²; 1 hectare = 10,000 m².</p>'],
+['HOW IT WORKS','<ol><li>Write the starting area and desired area unit.</li><li>Find the length conversion (for example 1 ft = 12 in).</li><li>Square that factor: 12² = 144.</li><li>Multiply or divide based on whether the destination unit is smaller or larger.</li><li>Keep the square symbol and check whether the size of the number makes sense.</li></ol>'],
+['WORKED EXAMPLE 1 — METRIC','<p>Convert 2.4 m² to cm². Since 1 m = 100 cm, square 100 to get 10,000. Then 2.4 × 10,000 = <b>24,000 cm²</b>.</p><p><b>Check:</b> 24,000 ÷ 10,000 = 2.4 m².</p>'],
+['WORKED EXAMPLE 2 — REVERSE DIRECTION','<p>Convert 6,500 mm² to cm². Since 1 cm = 10 mm, 1 cm² = 100 mm². Divide: 6,500 ÷ 100 = <b>65 cm²</b>.</p><p><b>Check:</b> 65 × 100 = 6,500 mm².</p>'],
+['WORKED EXAMPLE 3 — IMPERIAL','<p>Convert 18 yd² to ft². One yard is 3 feet, so one square yard is 3 × 3 = 9 square feet. Multiply 18 × 9 = <b>162 ft²</b>.</p><p><b>Check:</b> 162 ÷ 9 = 18 yd².</p>']
+];

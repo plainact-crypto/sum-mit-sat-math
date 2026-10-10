@@ -1,0 +1,17 @@
+{
+  "lesson": "converting-area-units",
+  "builders": [
+    "converting-area-units-lesson168-explanation-build.js",
+    "converting-area-units-lesson168-practice-build.js",
+    "converting-area-units-lesson168-test-build.js",
+    "converting-area-units-lesson168-video-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/units-and-unit-conversion/converting-area-units/explanation/",
+    "/problem-solving-and-data-analysis/units-and-unit-conversion/converting-area-units/problems/",
+    "/problem-solving-and-data-analysis/units-and-unit-conversion/converting-area-units/answers/",
+    "/problem-solving-and-data-analysis/units-and-unit-conversion/converting-area-units/test/",
+    "/problem-solving-and-data-analysis/units-and-unit-conversion/converting-area-units/video/english/",
+    "/problem-solving-and-data-analysis/units-and-unit-conversion/converting-area-units/video/arabic/"
+  ]
+}
