@@ -1,0 +1,14 @@
+{
+  "lesson": "function-notation-for-linear-functions",
+  "builders": [
+    "function-notation-lesson15-video-build.js"
+  ],
+  "routes": [
+    "/algebra/linear-functions/function-notation-for-linear-functions/explanation/",
+    "/algebra/linear-functions/function-notation-for-linear-functions/problems/",
+    "/algebra/linear-functions/function-notation-for-linear-functions/answers/",
+    "/algebra/linear-functions/function-notation-for-linear-functions/test/",
+    "/algebra/linear-functions/function-notation-for-linear-functions/video/english/",
+    "/algebra/linear-functions/function-notation-for-linear-functions/video/arabic/"
+  ]
+}
