@@ -1,0 +1,14 @@
+{
+  "lesson": "multiplying-rational-expressions",
+  "builders": [
+    "multiplying-rational-expressions-lesson129-build.js"
+  ],
+  "routes": [
+    "/advanced-math/rational-expressions-and-functions/multiplying-rational-expressions/explanation/",
+    "/advanced-math/rational-expressions-and-functions/multiplying-rational-expressions/problems/",
+    "/advanced-math/rational-expressions-and-functions/multiplying-rational-expressions/answers/",
+    "/advanced-math/rational-expressions-and-functions/multiplying-rational-expressions/test/",
+    "/advanced-math/rational-expressions-and-functions/multiplying-rational-expressions/video/english/",
+    "/advanced-math/rational-expressions-and-functions/multiplying-rational-expressions/video/arabic/"
+  ]
+}
