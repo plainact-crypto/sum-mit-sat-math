@@ -1,0 +1,135 @@
+{
+  "lesson": "Undefined Values and Restrictions",
+  "slug": "undefined-values-and-restrictions",
+  "classification": "NEITHER",
+  "groups": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "practice": [
+    [
+      "Find the restriction for 1/(x−4).",
+      "x≠4",
+      "The denominator x−4 is zero at x=4, so x=4 is excluded."
+    ],
+    [
+      "For 5/(x+2), which real input is undefined?",
+      "x=−2",
+      "Set x+2=0 to get x=−2."
+    ],
+    [
+      "List restrictions for (x+3)/(x²−9).",
+      "x≠−3,3",
+      "Factor x²−9=(x−3)(x+3). Both zeros are excluded even if x+3 cancels."
+    ],
+    [
+      "Find all restrictions for (x−5)/(x²−25).",
+      "x≠−5,5",
+      "The denominator factors as (x−5)(x+5), so both x=5 and x=−5 are forbidden."
+    ],
+    [
+      "For (x²−1)/(x²−3x+2), list excluded x-values.",
+      "x≠1,2",
+      "The denominator (x−1)(x−2) vanishes at 1 and 2."
+    ],
+    [
+      "Find restrictions for 2x/(x²+4x).",
+      "x≠−4,0",
+      "Factor the denominator as x(x+4); both factors must be nonzero."
+    ],
+    [
+      "For (x²−16)/(x²−8x+16), list exclusions.",
+      "x≠4",
+      "The denominator is (x−4)². Its only real zero is 4."
+    ],
+    [
+      "Find restrictions for (x²−9)/(x²+x−6).",
+      "x≠−3,2",
+      "Factor the denominator as (x+3)(x−2)."
+    ],
+    [
+      "Find the domain of (x+1)/(x²+2x+1).",
+      "All real x except −1",
+      "The denominator (x+1)² is zero only at −1."
+    ],
+    [
+      "List all restrictions before simplifying ((x+3)/(x−2))((x−2)/(x+5)).",
+      "x≠−5,2",
+      "The two original denominators are x−2 and x+5. Cancellation does not restore x=2."
+    ],
+    [
+      "Find restrictions for ((x−1)/(x+1)) ÷ ((x−1)/(x−3)).",
+      "x≠−1,1,3",
+      "Both internal denominators must be nonzero (x≠−1,3), and the divisor cannot equal zero (x≠1)."
+    ],
+    [
+      "A student simplifies (x²−4)/(x−2) to x+2 and evaluates it at x=2. Is the original expression defined?",
+      "No; x=2 is excluded",
+      "The original denominator x−2 equals zero at 2. The simplified formula has a removable hole there."
+    ],
+    [
+      "Determine the domain of 1/(x²−6x+9).",
+      "All real x except 3",
+      "The denominator equals (x−3)², which vanishes only at x=3."
+    ],
+    [
+      "Are there any real restrictions for 1/(x²+1)?",
+      "No; domain is all real numbers",
+      "For every real x, x²≥0, so x²+1≥1>0."
+    ],
+    [
+      "List restrictions for (x+2)/(x²+5x+6).",
+      "x≠−3,−2",
+      "Factor the denominator (x+2)(x+3). The canceled x+2 factor still creates a hole."
+    ],
+    [
+      "A model uses R(t)=t/(t−5) for t>0. State its allowed t-values.",
+      "t>0 and t≠5",
+      "The context requires positive t, and the denominator is zero at t=5."
+    ],
+    [
+      "Simplify ((x²−1)/(x²−4))((x−2)/(x−1)) and state the original restrictions.",
+      "(x+1)/(x+2); x≠−2,1,2",
+      "Factor (x−1)(x+1)/[(x−2)(x+2)] and cancel x−1 and x−2. Keep zeros of both original denominators."
+    ],
+    [
+      "The denominator D(x)=x²−(k+1)x+k has exactly two distinct forbidden inputs, 1 and 3. Find k.",
+      "k=3",
+      "Factor D(x)=(x−1)(x−k). The two zeros are 1 and k; since they are 1 and 3, k=3."
+    ]
+  ],
+  "tests": [
+    [
+      "Easy",
+      "Which x makes 4/(x−7) undefined?",
+      "x=7",
+      "The denominator is zero when x−7=0."
+    ],
+    [
+      "Easy / Medium",
+      "For (x²−16)/(x+4), identify the excluded input and explain whether x=4 is allowed.",
+      "x≠−4; x=4 is allowed",
+      "Only the denominator x+4 restricts the domain. A zero numerator at x=4 is allowed."
+    ],
+    [
+      "Medium",
+      "Find all excluded x-values for (x²−25)/(x²+2x−15).",
+      "x≠−5,3",
+      "Factor the denominator as (x+5)(x−3)."
+    ],
+    [
+      "Medium / Hard",
+      "List restrictions for ((x+1)/(x−4)) ÷ ((x+1)/(x+2)).",
+      "x≠−2,−1,4",
+      "Exclude zeros of internal denominators x−4 and x+2 and the zero of the divisor numerator x+1."
+    ],
+    [
+      "Hard / Exam-Style",
+      "If D(x)=x²−(a+2)x+2a and the expression 1/D(x) is undefined at exactly x=2 and x=5, find a.",
+      "a=5",
+      "Factor D(x)=(x−2)(x−a). The other root must be 5, so a=5."
+    ]
+  ]
+}
