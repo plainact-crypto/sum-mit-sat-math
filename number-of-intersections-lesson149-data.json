@@ -1,0 +1,440 @@
+{
+  "slug": "number-of-intersections",
+  "title": "Number of Intersections",
+  "base": "advanced-math/nonlinear-equations-and-systems/number-of-intersections",
+  "classification": "BOTH",
+  "explanation": [
+    [
+      "LESSON OBJECTIVE",
+      "Count distinct real intersections of function graphs by solving f(x)=g(x), including parameter cases."
+    ],
+    [
+      "WHAT YOU NEED TO KNOW",
+      "Each shared ordered pair (x,y) satisfies both equations. For functions, each distinct real x solving f(x)=g(x) produces exactly one shared point."
+    ],
+    [
+      "KEY DEFINITIONS",
+      "An intersection is a shared point. A repeated root counts once. The discriminant of Ax²+Bx+C=0 is D=B²−4AC. Coincident graphs have infinitely many shared points."
+    ],
+    [
+      "CORE RULE",
+      "For A≠0: D>0 gives two real intersections, D=0 one, D<0 none. For A=0,B≠0 the equation is linear and gives one; A=B=0,C≠0 gives none; A=B=C=0 gives infinitely many."
+    ],
+    [
+      "HOW IT WORKS",
+      "Set f(x)=g(x), collect terms, check whether the resulting equation is quadratic, linear, contradictory or an identity. Use D only for a genuine quadratic; substitute x back to find y."
+    ],
+    [
+      "WORKED EXAMPLE 1 — TWO",
+      "y=x² and y=4 imply x²=4, x=−2 or 2. Shared points: (−2,4) and (2,4)."
+    ],
+    [
+      "WORKED EXAMPLE 2 — ONE",
+      "y=x² and y=4x−4 imply (x−2)²=0. One shared point: (2,4)."
+    ],
+    [
+      "WORKED EXAMPLE 3 — ZERO",
+      "y=x²+5 and y=1 imply x²+4=0, impossible over real numbers."
+    ],
+    [
+      "WORKED EXAMPLE 4 — LINEAR CANCELLATION",
+      "y=x²+3x+2 and y=x²−2x+7 imply 5x=5, x=1 and y=6. One intersection despite the original quadratics."
+    ],
+    [
+      "WORKED EXAMPLE 5 — PARAMETER",
+      "y=x²+k and y=4x−1 imply x²−4x+k+1=0. D=12−4k; exactly one intersection requires k=3. The shared point is (2,7), since 4(2)−1=7 and 2²+3=7."
+    ],
+    [
+      "GRAPH / VISUAL",
+      "The deterministic graph of y=x²−4x+1 and y=x−3 has shared points (1,−2) and (4,1). Algebra: x²−5x+4=(x−1)(x−4)=0."
+    ],
+    [
+      "DESMOS STRATEGY",
+      "Enter y=x²−4x+1 and y=x−3. Look for (1,−2) and (4,1). Use it to answer by counting shared points. Why it works: each ordered pair satisfies both equations. Faster or not? Graphing checks a picture quickly; exact algebra is faster for parameter questions."
+    ],
+    [
+      "COMMON MISTAKES",
+      "Do not count a repeated root twice, count complex roots as visible intersections, or apply the discriminant after squared terms cancel. Identical equations have infinitely many intersections."
+    ],
+    [
+      "EXAM STRATEGY",
+      "If the question asks only how many, stop after identifying the number of distinct real solutions. For parameter questions, set D=0 for one or D>0 for two, provided the equation is quadratic."
+    ],
+    [
+      "QUICK CHECK",
+      "Try: (a) y=x² and y=9; (b) y=x²+3 and y=3; (c) y=x²+4 and y=0; (d) y=x²+2x+1 and y=x²−2x+1. Answers: 2, 1, 0, 1."
+    ],
+    [
+      "LESSON RECAP",
+      "Equate, simplify, classify. Quadratic D>0: two; D=0: one; D<0: zero. Linear: one; contradiction: zero; identity: infinitely many."
+    ],
+    [
+      "NEXT STEP",
+      "Complete 18 Practice Problems, review the 18 aligned Answers & Solutions, then submit the five-question Test. English and Arabic full lesson videos reinforce the same skill."
+    ]
+  ],
+  "practice": [
+    [
+      "Skill Check",
+      "How many intersections do y=x² and y=4 have?",
+      "2",
+      "x²=4 gives x=±2, two distinct real x-values.",
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        4
+      ]
+    ],
+    [
+      "Skill Check",
+      "How many intersections do y=x²+2 and y=2 have?",
+      "1",
+      "x²=0 gives x=0, one distinct real x-value.",
+      [
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ]
+    ],
+    [
+      "Skill Check",
+      "How many intersections do y=x²+5 and y=1 have?",
+      "0",
+      "x²=−4 has no real solution.",
+      [
+        1,
+        0,
+        5,
+        0,
+        0,
+        1
+      ]
+    ],
+    [
+      "Core Practice",
+      "How many intersections do y=x²−3x and y=x+5 have?",
+      "2",
+      "x²−4x−5=(x−5)(x+1)=0; x=5 or −1.",
+      [
+        1,
+        -3,
+        0,
+        0,
+        1,
+        5
+      ]
+    ],
+    [
+      "Core Practice",
+      "How many intersections do y=x²+2x+3 and y=2x+3 have?",
+      "1",
+      "Subtract the equations: x²=0, so x=0 only.",
+      [
+        1,
+        2,
+        3,
+        0,
+        2,
+        3
+      ]
+    ],
+    [
+      "Core Practice",
+      "How many intersections do y=2x²+5 and y=x²+1 have?",
+      "0",
+      "x²+4=0 has no real roots.",
+      [
+        2,
+        0,
+        5,
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      "Core Practice",
+      "How many intersections do y=x²+3 and y=x²−2x+1 have?",
+      "1",
+      "Cancel x² to get 2x+2=0; x=−1.",
+      [
+        1,
+        0,
+        3,
+        1,
+        -2,
+        1
+      ]
+    ],
+    [
+      "Core Practice",
+      "How many intersections do y=3x²−4x+2 and y=x²+2x−3 have?",
+      "0",
+      "Difference: 2x²−6x+5; D=36−40=−4.",
+      [
+        3,
+        -4,
+        2,
+        1,
+        2,
+        -3
+      ]
+    ],
+    [
+      "Core Practice",
+      "How many intersections do y=x²−6x+9 and y=0 have?",
+      "1",
+      "(x−3)²=0 has one distinct root.",
+      [
+        1,
+        -6,
+        9,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      "Core Practice",
+      "How many intersections do y=−x²+6x−4 and y=2x have?",
+      "1",
+      "−x²+4x−4=−(x−2)²=0, so x=2.",
+      [
+        -1,
+        6,
+        -4,
+        0,
+        2,
+        0
+      ]
+    ],
+    [
+      "Core Practice",
+      "How many intersections do y=x²−1 and y=−x²+7 have?",
+      "2",
+      "2x²−8=0 gives x=±2.",
+      [
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        7
+      ]
+    ],
+    [
+      "Exam-Style Practice",
+      "For y=x²+k and y=4x−1, find k for exactly one intersection.",
+      "k=3",
+      "x²−4x+(k+1)=0 has D=12−4k; set D=0, k=3."
+    ],
+    [
+      "Exam-Style Practice",
+      "How many intersections do y=x²+2x+5 and y=2x+1 have?",
+      "0",
+      "x²+4=0 has no real solution.",
+      [
+        1,
+        2,
+        5,
+        0,
+        2,
+        1
+      ]
+    ],
+    [
+      "Exam-Style Practice",
+      "For y=x²+bx+9 and y=0, find all b for exactly one intersection.",
+      "b=−6 or b=6",
+      "D=b²−36=0 implies b=±6."
+    ],
+    [
+      "Exam-Style Practice",
+      "Find the exact intersection point of y=x²+3x+2 and y=x²−2x+7.",
+      "(1,6)",
+      "Cancel x²: 5x=5, x=1; y=1+3+2=6.",
+      [
+        1,
+        3,
+        2,
+        1,
+        -2,
+        7
+      ]
+    ],
+    [
+      "Exam-Style Practice",
+      "For y=x²+2 and y=2x+k, which k values give exactly two intersections?",
+      "k>1",
+      "x²−2x+2−k=0 has D=4(k−1)>0 precisely when k>1."
+    ],
+    [
+      "Challenge Problems",
+      "For y=x²+k and y=−x²+4x+1, find k for exactly one intersection.",
+      "k=3",
+      "2x²−4x+k−1=0 has D=24−8k; set to zero, k=3."
+    ],
+    [
+      "Challenge Problems",
+      "For y=x²+ax+4 and y=2x, find all a for exactly one intersection.",
+      "a=−2 or a=6",
+      "x²+(a−2)x+4=0 has D=(a−2)²−16=0, so a=−2 or 6."
+    ]
+  ],
+  "tests": [
+    [
+      "Easy",
+      "How many intersections do y=x² and y=9 have?",
+      "2",
+      "x²=9 gives x=±3.",
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        9
+      ]
+    ],
+    [
+      "Easy / Medium",
+      "How many intersections do y=x²+4 and y=4 have?",
+      "1",
+      "x²=0 gives x=0.",
+      [
+        1,
+        0,
+        4,
+        0,
+        0,
+        4
+      ]
+    ],
+    [
+      "Medium",
+      "How many intersections do y=x²+2x+6 and y=2x+1 have?",
+      "0",
+      "x²+5=0 has no real roots.",
+      [
+        1,
+        2,
+        6,
+        0,
+        2,
+        1
+      ]
+    ],
+    [
+      "Medium / Hard",
+      "How many intersections do y=2x²−4x+1 and y=x²+1 have?",
+      "2",
+      "x²−4x=x(x−4)=0 gives x=0 or 4.",
+      [
+        2,
+        -4,
+        1,
+        1,
+        0,
+        1
+      ]
+    ],
+    [
+      "Hard / Exam-Style",
+      "Find k so y=x²+k and y=−x²+6x+2 have exactly one intersection.",
+      "k=13/2",
+      "2x²−6x+(k−2)=0 has D=52−8k=0, so k=13/2."
+    ]
+  ],
+  "video": {
+    "english": [
+      [
+        "Objective",
+        "Count distinct real intersections by equating two functions.",
+        "f(x)=g(x)"
+      ],
+      [
+        "Shared points",
+        "An intersection is one ordered pair satisfying both equations.",
+        "(x,y)"
+      ],
+      [
+        "Two points",
+        "x squared equals four gives x equals minus two or two.",
+        "x²=4"
+      ],
+      [
+        "One point",
+        "A repeated quadratic root represents one intersection.",
+        "D=0"
+      ],
+      [
+        "Zero points",
+        "x squared plus four has no real zero.",
+        "D<0"
+      ],
+      [
+        "Linear cancellation",
+        "When squared terms cancel, solve the linear equation.",
+        "5x=5"
+      ],
+      [
+        "SAT parameter",
+        "Exactly one intersection for y=x²+k and y=4x−1 requires k=3.",
+        "12−4k=0"
+      ],
+      [
+        "Recap",
+        "Equate, simplify, classify, then practice and test.",
+        "D=B²−4AC"
+      ]
+    ],
+    "arabic": [
+      [
+        "الهدف",
+        "هنحسب عدد نقاط التقاطع الحقيقية المختلفة بمساواة الدالتين.",
+        "f(x)=g(x)"
+      ],
+      [
+        "معنى التقاطع",
+        "نقطة التقاطع بتحقق المعادلتين في نفس الوقت.",
+        "(x,y)"
+      ],
+      [
+        "نقطتين",
+        "لو x تربيع بيساوي أربعة، يبقى x سالب اتنين أو موجب اتنين.",
+        "x²=4"
+      ],
+      [
+        "نقطة واحدة",
+        "الجذر المكرر بيمثل نقطة تقاطع واحدة.",
+        "D=0"
+      ],
+      [
+        "صفر تقاطع",
+        "x تربيع زائد أربعة مالهاش حل حقيقي.",
+        "D<0"
+      ],
+      [
+        "إلغاء التربيع",
+        "لو حدود x تربيع اتلغت، نحل المعادلة الخطية.",
+        "5x=5"
+      ],
+      [
+        "باراميتر SAT",
+        "علشان نقطة واحدة في المثال، نخلي المميز صفر فتطلع k تساوي ثلاثة.",
+        "12−4k=0"
+      ],
+      [
+        "الملخص",
+        "ساوي المعادلتين وبسط وبعدين حدد عدد الجذور الحقيقية.",
+        "D=B²−4AC"
+      ]
+    ]
+  }
+}
