@@ -2,7 +2,13 @@
   "worker": "SUMMIT Worker 5",
   "lesson_index": 125,
   "slug": "initial-value",
-  "status": "IN_PROGRESS",
+  "status": "BLOCKED_GITHUB_CONTENT_UPLOAD",
+  "local_core_package": "COMPLETE",
+  "mathematical_qa": "23/23 PASS",
+  "browser_qa": "26/26 PASS",
+  "video": "full 16:9 English MP4 + English/Arabic browser narration routes",
   "run_date": "2026-10-10",
-  "branch": "automation/worker5-lesson125-initial-value-20261009"
+  "branch": "automation/worker5-lesson125-initial-value-20261009",
+  "blocker": "GitHub content upload rejected by safety checks; no main merge or production deployment",
+  "next_action": "Retry authorized content integration later without blocking new lessons"
 }
