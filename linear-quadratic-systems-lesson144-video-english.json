@@ -1,0 +1,42 @@
+[
+  [
+    "Intro",
+    "A line and a parabola meet where their y values match.",
+    "y=x^2; y=x"
+  ],
+  [
+    "Step 1",
+    "Set both y formulas equal.",
+    "x^2=x"
+  ],
+  [
+    "Step 2",
+    "Solve the quadratic.",
+    "x=0 or 1"
+  ],
+  [
+    "Step 3",
+    "Find y for each root.",
+    "(0,0),(1,1)"
+  ],
+  [
+    "Cases",
+    "The discriminant tells the number of intersections.",
+    "D=b^2-4ac"
+  ],
+  [
+    "Touching",
+    "One repeated root means one touching point.",
+    "D=0"
+  ],
+  [
+    "Tool",
+    "Desmos helps check both curves.",
+    "Graph y=x^2 and y=x"
+  ],
+  [
+    "Recap",
+    "Substitute, solve, and check both equations.",
+    "18 practice; 5 test"
+  ]
+]
