@@ -1,0 +1,62 @@
+[
+  {
+    "difficulty": "Easy",
+    "question": "Solve √(x + 20) = x.",
+    "choices": [
+      "−4",
+      "5",
+      "−4 or 5",
+      "No solution"
+    ],
+    "answer": 1,
+    "explanation": "Only x=5 satisfies the original equation."
+  },
+  {
+    "difficulty": "Easy / Medium",
+    "question": "Solve √(x + 10) = x − 2.",
+    "choices": [
+      "−1",
+      "−1 or 6",
+      "6",
+      "No solution"
+    ],
+    "answer": 2,
+    "explanation": "Require x≥2; only x=6 works."
+  },
+  {
+    "difficulty": "Medium",
+    "question": "Solve (x² − 25)/(x − 5) = 0.",
+    "choices": [
+      "−5",
+      "5",
+      "−5 or 5",
+      "No solution"
+    ],
+    "answer": 0,
+    "explanation": "x=5 makes the denominator zero; x=−5 works."
+  },
+  {
+    "difficulty": "Medium / Hard",
+    "question": "Solve √(3x + 10) = x + 1.",
+    "choices": [
+      "(1 − √37)/2",
+      "Both roots",
+      "No solution",
+      "(1 + √37)/2"
+    ],
+    "answer": 3,
+    "explanation": "The negative root violates the original equation."
+  },
+  {
+    "difficulty": "Hard / Exam-Style",
+    "question": "Solve √(x + 5) = 5 − x.",
+    "choices": [
+      "(11 + √41)/2",
+      "Both roots",
+      "(11 − √41)/2",
+      "No solution"
+    ],
+    "answer": 2,
+    "explanation": "The larger root exceeds x=5, so it is extraneous."
+  }
+]
