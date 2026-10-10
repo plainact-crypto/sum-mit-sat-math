@@ -1,0 +1,26 @@
+[
+  [
+    "WORKED EXAMPLES 3–5",
+    "<h3>Example 3: multiply</h3><p>3^(-2)×3^5=3^3=<b>27</b>.</p><h3>Example 4: quotient</h3><p>6x^(-2)/(3x^3)=2x^(-5)=<b>2/x^5</b>, x nonzero.</p><h3>Example 5: mixed variables</h3><p>2x^(-2)y^3/(4xy^(-1))=(1/2)x^(-3)y^4=<b>y^4/(2x^3)</b>, x,y nonzero.</p>"
+  ],
+  [
+    "GRAPH / DESMOS CLASSIFICATION",
+    "<p><b>NEITHER.</b> Exact exponent rules are faster and clearer than graphing for this lesson. A Desmos graph would not add a necessary insight.</p>"
+  ],
+  [
+    "COMMON MISTAKES",
+    "<p>2^(-3) is 1/8, not -8. Parentheses matter: (-2)^(-2)=1/4 but -2^(-2)=-1/4. (2x)^(-2)=1/(4x^2), not 1/(2x^2). Negative powers require nonzero bases.</p>"
+  ],
+  [
+    "EXAM STRATEGY",
+    "<p>Combine same-base exponents before converting negative powers. For decimals, rewrite as fractions: 0.2^(-2)=(1/5)^(-2)=25. Keep all original restrictions.</p>"
+  ],
+  [
+    "QUICK CHECK",
+    "<p>Try: (1) 4^(-1); (2) (x^(-2))^3; (3) 10^(-3) liters in milliliters.</p><details><summary>Reveal answers</summary><p>(1) 1/4. (2) 1/x^6, x nonzero. (3) 1 mL.</p></details>"
+  ],
+  [
+    "RECAP & NEXT STEP",
+    "<p>Negative exponent = reciprocal. Apply product, quotient, and power laws, then rewrite with positive exponents.</p><p><a href=\"../problems/\">18 Practice Questions</a> · <a href=\"../answers/\">18 Solutions</a> · <a href=\"../test/\">5-Question Test</a> · <a href=\"../video/english/\">English Full Lesson</a> · <a href=\"../video/arabic/\">Arabic Full Lesson</a></p>"
+  ]
+]
