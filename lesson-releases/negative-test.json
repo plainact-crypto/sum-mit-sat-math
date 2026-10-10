@@ -1,0 +1,9 @@
+{
+  "lesson": "negative-test",
+  "builders": [
+    "nonexistent-lesson-builder.js"
+  ],
+  "routes": [
+    "/invalid-lesson/explanation/"
+  ]
+}
