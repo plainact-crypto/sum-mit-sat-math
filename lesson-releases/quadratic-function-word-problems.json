@@ -1,0 +1,14 @@
+{
+  "lesson": "quadratic-function-word-problems",
+  "builders": [
+    "quadratic-function-word-problems-lesson97-build.js"
+  ],
+  "routes": [
+    "/advanced-math/quadratic-functions/other-quadratic-function-leaves/quadratic-function-word-problems/explanation/",
+    "/advanced-math/quadratic-functions/other-quadratic-function-leaves/quadratic-function-word-problems/problems/",
+    "/advanced-math/quadratic-functions/other-quadratic-function-leaves/quadratic-function-word-problems/answers/",
+    "/advanced-math/quadratic-functions/other-quadratic-function-leaves/quadratic-function-word-problems/test/",
+    "/advanced-math/quadratic-functions/other-quadratic-function-leaves/quadratic-function-word-problems/video/english/",
+    "/advanced-math/quadratic-functions/other-quadratic-function-leaves/quadratic-function-word-problems/video/arabic/"
+  ]
+}
