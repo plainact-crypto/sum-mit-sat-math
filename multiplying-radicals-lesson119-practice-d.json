@@ -1,0 +1,14 @@
+[
+  [
+    "Core Practice",
+    "Multiply sqrt(12) by sqrt(27).",
+    "18",
+    "sqrt(324)=18."
+  ],
+  [
+    "Core Practice",
+    "Simplify sqrt(3x) times sqrt(12x), for x at least zero.",
+    "6x",
+    "sqrt(36x^2)=6x because x is nonnegative."
+  ]
+]
