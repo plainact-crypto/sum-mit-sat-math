@@ -1,0 +1,23 @@
+{
+  "lesson": "simplifying-square-roots",
+  "canonical_index": 117,
+  "owner": "SUMMIT Worker 2",
+  "status": "BLOCKED_PENDING_TEST_RUNTIME",
+  "date": "2026-10-10",
+  "completed_on_branch": [
+    "explanation",
+    "18 practice (3/8/5/2)",
+    "18 aligned solutions",
+    "5 progressive test questions in content",
+    "English/Arabic full lesson content (10 scenes each)",
+    "unique lesson release manifest",
+    "23 independent radical numeric QA checks"
+  ],
+  "blockers": [
+    "Builder generates a test inline-script newline-escaping error; repeated GitHub safety checks blocked update_file and follow-up test-runtime builder creation",
+    "Explanation registry update pending; existing shared registry update safety-blocked for lesson 112",
+    "Vercel deployment API limit >100 per day; production build and routes cannot yet be verified"
+  ],
+  "release_allowed": false,
+  "next_owned_index": 122
+}
