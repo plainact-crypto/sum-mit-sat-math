@@ -1,0 +1,102 @@
+{
+  "english": [
+    [
+      "Objective",
+      "Solve decimal linear equations exactly."
+    ],
+    [
+      "Equality",
+      "Multiply both sides by the same nonzero number."
+    ],
+    [
+      "Clearing decimals",
+      "Multiply every term by ten, one hundred, or one thousand."
+    ],
+    [
+      "Tenths",
+      "For 0.5x = 4, multiply by ten: 5x = 40, so x = 8."
+    ],
+    [
+      "Hundredths",
+      "For 0.06x + 0.12 = 0.42, multiply by one hundred: 6x + 12 = 42, so x = 5."
+    ],
+    [
+      "Subtraction",
+      "For x + 1.7 = 5.2, subtract 1.7: x = 3.5."
+    ],
+    [
+      "Negative signs",
+      "For 2.5 - 0.5x = 1, subtract 2.5 then divide by negative 0.5: x = 3."
+    ],
+    [
+      "Parentheses",
+      "For 0.8(x + 1.5) = 4, divide by 0.8 first: x = 3.5."
+    ],
+    [
+      "Both sides",
+      "For 0.35x + 1.25 = 0.15x + 2.45, collect terms: x = 6."
+    ],
+    [
+      "Taxi fare",
+      "3.50 plus 1.80 per mile equals 12.50. Subtract the fee, then divide: five miles."
+    ],
+    [
+      "Desmos",
+      "Graph each side as y equals its expression. Their intersection gives x = 6."
+    ],
+    [
+      "Recap",
+      "Check in the original equation. Avoid skipping terms or rounding."
+    ]
+  ],
+  "arabic": [
+    [
+      "الهدف",
+      "هنحل معادلات فيها أعداد عشرية بدقة."
+    ],
+    [
+      "التوازن",
+      "اضرب الطرفين في نفس العدد غير الصفر."
+    ],
+    [
+      "إزالة العلامة",
+      "اضرب كل الحدود في عشرة أو مية أو ألف."
+    ],
+    [
+      "الأعشار",
+      "نص س يساوي أربعة، نضرب في عشرة، إذن س يساوي تمانية."
+    ],
+    [
+      "الأجزاء من مية",
+      "ستة من مية س زائد اتناشر من مية يساوي اتنين وأربعين من مية، إذن س يساوي خمسة."
+    ],
+    [
+      "الطرح",
+      "س زائد واحد فاصلة سبعة يساوي خمسة فاصلة اتنين، إذن س يساوي تلاتة ونص."
+    ],
+    [
+      "الإشارات",
+      "اطرح الثابت واقسم على المعامل السالب."
+    ],
+    [
+      "الأقواس",
+      "اقسم على صفر فاصلة تمانية قبل ما تحل."
+    ],
+    [
+      "الطرفين",
+      "اجمع حدود س في طرف والثوابت في التاني."
+    ],
+    [
+      "التاكسي",
+      "أجرة ثابتة تلاتة ونص، وميل بجنيه وتمانين قرش، يعني خمسة أميال."
+    ],
+    [
+      "ديسموس",
+      "ارسم الطرفين وحدد نقطة التقاطع."
+    ],
+    [
+      "الخلاصة",
+      "راجع الحل بالتعويض وما تنساش أي حد."
+    ]
+  ]
+}
