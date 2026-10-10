@@ -1,0 +1,1 @@
+[{"index":1,"difficulty":"Easy","prompt":"Of 20 people who own a dog, 5 also own a cat. Find P(cat | dog).","answer":0.25,"solution":"5/20=0.25.","qa":[5,20]},{"index":2,"difficulty":"Easy / Medium","prompt":"P(A and B)=0.24 and P(B)=0.60. Find P(A | B).","answer":0.4,"solution":"0.24/0.60=0.4.","qa":[0.24,0.6]}]
