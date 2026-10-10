@@ -1,0 +1,14 @@
+{
+  "lesson": "exponential-equations",
+  "builders": [
+    "exponential-equations-lesson127-build.js"
+  ],
+  "routes": [
+    "/advanced-math/exponential-functions/exponential-equations/explanation/",
+    "/advanced-math/exponential-functions/exponential-equations/problems/",
+    "/advanced-math/exponential-functions/exponential-equations/answers/",
+    "/advanced-math/exponential-functions/exponential-equations/test/",
+    "/advanced-math/exponential-functions/exponential-equations/video/english/",
+    "/advanced-math/exponential-functions/exponential-equations/video/arabic/"
+  ]
+}
