@@ -1,0 +1,9 @@
+const fs=require('fs'),path=require('path'),p='conditional-probability-lesson208-',b='problem-solving-and-data-analysis/probability/conditional-probability';
+const en=['sections-1','sections-2','sections-3','sections-4a','sections-4b','sections-5'].flatMap(n=>require('./'+p+n+'.json')).slice(0,14);
+const ar=['video-ar-a','video-ar-b'].flatMap(n=>require('./'+p+n+'.json'));
+for(const [lang,scenes,voice] of [['english',en,'en-US'],['arabic',ar,'ar-EG']]){
+ if(scenes.length!==14||scenes.some(s=>s.length!==2||!s[1]))throw Error('Full video scene QA');
+ const js='<script>const s='+JSON.stringify(scenes)+',lang="'+voice+'";let i=0,run=false;function show(){document.querySelector("#title").textContent=s[i][0];document.querySelector("#text").textContent=s[i][1];document.querySelector("#count").textContent=(i+1)+"/14"}function stop(){run=false;speechSynthesis.cancel()}function play(){if(!run)return;show();const u=new SpeechSynthesisUtterance(s[i].join(". "));u.lang=lang;u.rate=.88;u.onend=()=>{if(run&&i<13){i++;play()}else run=false};speechSynthesis.speak(u)}document.querySelector("#play").onclick=()=>{stop();run=true;play()};document.querySelector("#stop").onclick=stop;document.querySelector("#next").onclick=()=>{stop();i=Math.min(13,i+1);show()};show();</script>';
+ const h='<!doctype html><html lang="'+voice.slice(0,2)+'"><meta charset="utf-8"><link rel="stylesheet" href="/styles.css"><main class="page-shell"><section class="lesson-card"><h1>Conditional Probability — Full Lesson '+lang+'</h1><div style="aspect-ratio:16/9;background:#102e52;color:white;padding:5%;text-align:center"><small id="count"></small><h2 id="title"></h2><p id="text"></p></div><button id="play">Play Full Lesson</button><button id="stop">Stop</button><button id="next">Next</button></section></main>'+js+'</html>';
+ const d=path.join('dist',b,'video',lang);fs.mkdirSync(d,{recursive:true});fs.writeFileSync(path.join(d,'index.html'),h);
+}
