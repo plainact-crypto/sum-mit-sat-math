@@ -1,0 +1,134 @@
+{
+  "lesson": "Sum and Product of Polynomial Roots",
+  "classification": "NEITHER",
+  "groups": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "practice": [
+    [
+      "For x²−7x+10=0, find the sum and product of the roots.",
+      "Sum 7; product 10.",
+      "a=1, b=−7, c=10. Sum=−b/a=7; product=c/a=10."
+    ],
+    [
+      "For 2x²+3x−5=0, find the sum and product.",
+      "Sum −3/2; product −5/2.",
+      "Sum=−3/2; product=−5/2."
+    ],
+    [
+      "For x³−6x²+11x−6=0, find the sum and product of all roots.",
+      "Sum 6; product 6.",
+      "Cubic sum=−(−6)/1=6; product=−(−6)/1=6."
+    ],
+    [
+      "For 3x²−12x+9=0, find the root sum and product.",
+      "Sum 4; product 3.",
+      "Sum=12/3=4; product=9/3=3."
+    ],
+    [
+      "For x³+2x²−5x−6=0, find the sum and product.",
+      "Sum −2; product 6.",
+      "Cubic sum=−2; product=−(−6)=6."
+    ],
+    [
+      "For 2x³−8x²+x+10=0, find the sum and product.",
+      "Sum 4; product −5.",
+      "Sum=8/2=4; product=−10/2=−5."
+    ],
+    [
+      "A monic quadratic has root sum −3 and root product −10. Write its equation.",
+      "x²+3x−10=0.",
+      "Use x²−Sx+P=0, where S=−3 and P=−10."
+    ],
+    [
+      "A monic cubic has roots 1, 2, and 4. Write its equation.",
+      "x³−7x²+14x−8=0.",
+      "Sum=7, pairwise sum=2+4+8=14, product=8; use x³−Sx²+Qx−P."
+    ],
+    [
+      "The roots of 5x²+kx+15=0 have sum −4. Find k.",
+      "20",
+      "−k/5=−4, hence k=20."
+    ],
+    [
+      "The roots of 3x³−9x²+4x+c=0 have product −2. Find c.",
+      "6",
+      "−c/3=−2, hence c=6."
+    ],
+    [
+      "For 4x²−8x−5=0 with roots r,s, find r²+s².",
+      "13/2",
+      "r+s=2, rs=−5/4. Thus r²+s²=(r+s)²−2rs=4+5/2=13/2."
+    ],
+    [
+      "For x³−5x²+7x−3=0, find root sum, pairwise sum, and product.",
+      "5; 7; 3",
+      "Sum=5; pairwise sum=7; cubic product=−(−3)=3."
+    ],
+    [
+      "The roots of 2x³+bx²−3x+12=0 have sum −4. Find b and root product.",
+      "b=8; product −6.",
+      "−b/2=−4 gives b=8; product=−12/2=−6."
+    ],
+    [
+      "For x⁴−3x³+2x²+5x+24=0, find the sum and product of four roots.",
+      "Sum 3; product 24.",
+      "Sum=−(−3)=3; degree 4 product=+24."
+    ],
+    [
+      "A cubic has roots r,s,t with sum 5 and product −12. If r=3, find s+t and st.",
+      "s+t=2; st=−4.",
+      "s+t=5−3=2; st=−12/3=−4."
+    ],
+    [
+      "A monic cubic has root sum 4, pairwise sum −7, and product −10. Write its equation.",
+      "x³−4x²−7x+10=0.",
+      "Use x³−Sx²+Qx−P with S=4, Q=−7, P=−10."
+    ],
+    [
+      "The cubic x³−px²+qx−24=0 has positive integer roots 2,3,t. Find t,p,q.",
+      "t=4; p=9; q=26.",
+      "2·3·t=24 gives t=4; sum 2+3+4=9; pairwise 6+8+12=26."
+    ],
+    [
+      "The four roots of 2x⁴−6x³+7x²−x+k=0 have product −12. Find k and their sum.",
+      "k=−24; sum 3.",
+      "Quartic product=k/2=−12 gives k=−24; sum=−(−6)/2=3."
+    ]
+  ],
+  "tests": [
+    [
+      "Easy",
+      "For x²+5x+6=0, find the sum of the roots.",
+      "−5",
+      "Sum=−5/1."
+    ],
+    [
+      "Easy / Medium",
+      "For 2x³−4x²+3x−8=0, find the root product.",
+      "4",
+      "Cubic product=−(−8)/2=4."
+    ],
+    [
+      "Medium",
+      "A monic cubic has root sum 3, pairwise sum −2, and product −8. Write its equation.",
+      "x³−3x²−2x+8=0",
+      "Use x³−Sx²+Qx−P."
+    ],
+    [
+      "Medium / Hard",
+      "The roots of 3x²+bx−12=0 have sum 2. Find b.",
+      "−6",
+      "−b/3=2 gives b=−6."
+    ],
+    [
+      "Hard / Exam-Style",
+      "A cubic has roots 1,−2,5 and leading coefficient 2. Find its constant term.",
+      "20",
+      "Product=−10=−d/2, hence d=20."
+    ]
+  ]
+}
