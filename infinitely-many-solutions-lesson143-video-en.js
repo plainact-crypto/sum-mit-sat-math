@@ -1,0 +1,17 @@
+// English full-lesson narration and scene content; 14 landscape chapters.
+module.exports=[
+['Infinitely Many Solutions','Today we solve absolute-value equations that have infinitely many answers. Instead of one number, the solution may be an entire ray, a closed interval, or all real numbers. We will describe the full set and verify its endpoints.'],
+['Absolute value as distance','Absolute value measures distance from zero. Distance is never negative. For a number A, absolute value of A equals A when A is nonnegative, and equals negative A when A is nonpositive. These two cases are the key.'],
+['First infinite ray','Consider |x| = x. When x is zero or positive, the left and right sides agree. For negative x, the absolute value is positive but x is negative. So every real x greater than or equal to zero works.'],
+['The opposite ray','Now solve |x| = -x. For every nonpositive x, absolute value equals the opposite of x. At zero both sides are zero. Every x less than or equal to zero is a solution, not just x = 0.'],
+['A shifted ray','Solve |x - 2| = x - 2. The expression inside the absolute value must be nonnegative. Thus x - 2 is at least zero, giving x greater than or equal to two. Check x = 2 and x = 5; both work.'],
+['Negative branch','Solve |3x + 6| = -(3x + 6). This equality holds exactly when 3x + 6 is nonpositive. Divide by three to obtain x less than or equal to negative two. Test negative three and zero to confirm the boundary.'],
+['An identity','The equation |x - 1| = |1 - x| holds for every real x. The two inputs are opposites, and opposite numbers have equal distances from zero. This is an identity, so the solution set is all real numbers.'],
+['Factor before solving','For |2x + 8| = 2|x + 4|, factor two from the first absolute value. Since two is positive, |2(x + 4)| equals 2|x + 4| for every real x. This equation is another identity.'],
+['A whole interval','Solve |x - 2| + |x + 1| = 3. These are distances to two and negative one. Between negative one and two, the distances add to the separation three. Outside that interval the total is larger.'],
+['Check the endpoints','At x = negative one, the distance sum is three plus zero. At x = two, it is zero plus three. At x = zero, it is two plus one. All three work, so include both endpoints: negative one through two, inclusive.'],
+['Difference of distances','Solve |x - 4| - |x + 1| = 5. For x less than or equal to negative one, the expression becomes four minus x minus negative x minus one, which simplifies to five. Other regions do not work.'],
+['A harder example','Solve |2x - 4| + |x - 2| = 3(x - 2). Since |2x - 4| is twice |x - 2|, the left side equals three times |x - 2|. Therefore x must be at least two.'],
+['Desmos strategy','Enter y = abs(x - 2) + abs(x + 1), then enter y = 3. The graphs overlap from negative one to two. The interval, not just its endpoints, is the solution. Algebraic distance reasoning is usually faster for exact bounds.'],
+['Final recap','For |A| = A, require A nonnegative. For |A| = -A, require A nonpositive. Opposite absolute values agree for all real inputs. Distance sums can produce intervals. State the entire solution set, then try eighteen practice questions and the five-question test.']
+];
