@@ -1,0 +1,19 @@
+{
+  "lesson_index": 123,
+  "slug": "exponential-growth",
+  "state": "BLOCKED_VIDEO_WRITE",
+  "as_of": "2026-10-10",
+  "branch": "worker3-lesson123-20261010",
+  "complete": [
+    "explanation with deterministic growth graph and Desmos strategy",
+    "18 practice questions and 18 aligned solutions",
+    "5 progressive test questions"
+  ],
+  "missing": [
+    "bilingual full-length video builder rejected twice by GitHub safety checks",
+    "unique release manifest must be committed after video builder",
+    "full production build and mathematical QA",
+    "registry entry, PR, merge, deployment, live verification, broadcast"
+  ],
+  "next": "Retry safe video builder write and continue lesson 128 production meanwhile."
+}
