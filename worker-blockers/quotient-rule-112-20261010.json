@@ -1,0 +1,34 @@
+{
+  "lesson": "quotient-rule",
+  "canonical_index": 112,
+  "owner": "SUMMIT Worker 2",
+  "status": "BLOCKED_PENDING_RELEASE",
+  "date": "2026-10-10",
+  "completed_on_branch": [
+    "explanation",
+    "18 practice problems (3/8/5/2)",
+    "18 aligned worked answers",
+    "5 progressive test questions",
+    "English full-lesson content (10 scenes)",
+    "Arabic full-lesson content (10 scenes)",
+    "unique release manifest",
+    "23 independent numeric QA witnesses in required builder"
+  ],
+  "verified": [
+    "JavaScript syntax",
+    "JSON and manifest shape",
+    "canonical route names",
+    "23 numeric witness comparisons"
+  ],
+  "blockers": [
+    "explanation-retrofit-registry.js update rejected by GitHub write safety",
+    "Vercel deployment API quota 100 per day; retry after 24 hours",
+    "production build and live route verification unavailable until deployment"
+  ],
+  "must_not_claim": [
+    "MERGED",
+    "LIVE_VERIFIED",
+    "EMAIL_SENT"
+  ],
+  "next_owned_index": 117
+}
