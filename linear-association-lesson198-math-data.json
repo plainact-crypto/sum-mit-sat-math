@@ -1,0 +1,675 @@
+{
+  "lesson_index": 198,
+  "title": "Linear Association",
+  "slug": "linear-association",
+  "base": "problem-solving-and-data-analysis/two-variable-data/linear-association",
+  "classification": "BOTH",
+  "graphs": {
+    "positive": {
+      "title": "Strong positive linear association",
+      "points": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    "negative": {
+      "title": "Strong negative linear association",
+      "points": [
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          2
+        ]
+      ]
+    },
+    "none": {
+      "title": "No linear association (r = 0)",
+      "points": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          5
+        ]
+      ]
+    },
+    "weak": {
+      "title": "Weaker positive linear association",
+      "points": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          4
+        ]
+      ]
+    },
+    "outlier": {
+      "title": "Positive pattern with an outlier",
+      "points": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    }
+  },
+  "practice": [
+    {
+      "type": "mc",
+      "graph": "positive",
+      "prompt": "The scatterplot contains (1,2), (2,4), (3,6), (4,8), and (5,10). Which direction describes its linear association?",
+      "choices": [
+        "Positive",
+        "Negative",
+        "No linear association",
+        "Vertical"
+      ],
+      "answer": 0,
+      "solution": "Each 1-unit increase in x accompanies a 2-unit increase in y; the points lie on y = 2x, so the direction is positive.",
+      "qa": {
+        "kind": "direction",
+        "graph": "positive",
+        "sign": 1
+      },
+      "index": 1,
+      "group": "Skill Check"
+    },
+    {
+      "type": "mc",
+      "graph": "negative",
+      "prompt": "For the points (1,10), (2,8), (3,6), (4,4), and (5,2), what is the direction of the linear association?",
+      "choices": [
+        "Positive",
+        "Negative",
+        "No linear association",
+        "Cannot tell from a scatterplot"
+      ],
+      "answer": 1,
+      "solution": "As x increases by 1, y decreases by 2; the points lie on y = 12 - 2x, so the direction is negative.",
+      "qa": {
+        "kind": "direction",
+        "graph": "negative",
+        "sign": -1
+      },
+      "index": 2,
+      "group": "Skill Check"
+    },
+    {
+      "type": "mc",
+      "graph": "none",
+      "prompt": "The points (1,5), (2,1), (3,8), (4,1), and (5,5) show which LINEAR pattern?",
+      "choices": [
+        "Strong positive",
+        "Strong negative",
+        "No linear association",
+        "Perfect positive"
+      ],
+      "answer": 2,
+      "solution": "The values rise and fall without an overall straight-line direction. Their covariance is zero, so r = 0. This does not rule out every possible nonlinear pattern.",
+      "qa": {
+        "kind": "direction",
+        "graph": "none",
+        "sign": 0
+      },
+      "index": 3,
+      "group": "Skill Check"
+    },
+    {
+      "type": "mc",
+      "graph": "weak",
+      "prompt": "Dataset A is (1,2),(2,4),(3,6),(4,8),(5,10). Dataset B is (1,2),(2,5),(3,3),(4,7),(5,4). Which has the STRONGER linear association?",
+      "choices": [
+        "Dataset A",
+        "Dataset B",
+        "Equal strength",
+        "Neither can be assessed"
+      ],
+      "answer": 0,
+      "solution": "A lies exactly on y = 2x (|r| = 1). B is more scattered (|r| ≈ 0.493), so A has stronger linear association.",
+      "qa": {
+        "kind": "compareCorrelation",
+        "a": "positive",
+        "b": "weak",
+        "winner": "a"
+      },
+      "index": 4,
+      "group": "Core Practice"
+    },
+    {
+      "type": "num",
+      "prompt": "Points (1,3), (3,7), and (5,11) follow a linear pattern. Find the slope using the first two points.",
+      "answer": 2,
+      "solution": "Slope = (7 - 3)/(3 - 1) = 4/2 = 2; (11 - 7)/(5 - 3) also equals 2.",
+      "qa": {
+        "kind": "slope",
+        "points": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            7
+          ]
+        ]
+      },
+      "index": 5,
+      "group": "Core Practice"
+    },
+    {
+      "type": "mc",
+      "prompt": "On hotter days, sunscreen sales and heatstroke reports both tend to rise. What conclusion is justified by this association?",
+      "choices": [
+        "Sunscreen causes heatstroke",
+        "Hotter weather could affect both quantities",
+        "There is necessarily no association",
+        "Sunscreen prevents every heatstroke case"
+      ],
+      "answer": 1,
+      "solution": "An observed association does not prove cause and effect. Temperature is a plausible common factor that influences both sunscreen purchases and heatstroke reports.",
+      "qa": {
+        "kind": "concept",
+        "key": "correlation-not-causation"
+      },
+      "index": 6,
+      "group": "Core Practice"
+    },
+    {
+      "type": "num",
+      "prompt": "A trend line is y = 3x + 2. What y-value does it predict when x = 8?",
+      "answer": 26,
+      "solution": "Substitute x = 8: y = 3(8) + 2 = 24 + 2 = 26. A prediction from a trend line is an estimate, not a guaranteed outcome.",
+      "qa": {
+        "kind": "predict",
+        "m": 3,
+        "b": 2,
+        "x": 8
+      },
+      "index": 7,
+      "group": "Core Practice"
+    },
+    {
+      "type": "mc",
+      "graph": "outlier",
+      "prompt": "Which plotted point is unusually far above the otherwise nearly straight pattern (1,2), (2,4), (3,6), (4,18), (5,10)?",
+      "choices": [
+        "(1,2)",
+        "(3,6)",
+        "(4,18)",
+        "(5,10)"
+      ],
+      "answer": 2,
+      "solution": "The other four points lie on y = 2x. At x = 4, that pattern predicts y = 8, but the observed value is 18, ten units above it.",
+      "qa": {
+        "kind": "outlier",
+        "point": [
+          4,
+          18
+        ],
+        "baseline": [
+          2,
+          0
+        ]
+      },
+      "index": 8,
+      "group": "Core Practice"
+    },
+    {
+      "type": "num",
+      "prompt": "The points (2,5), (4,9), (6,13), (8,17) lie on one line. How much does y change for each 1-unit increase in x?",
+      "answer": 2,
+      "solution": "Between (2,5) and (4,9), Δy/Δx = (9 - 5)/(4 - 2) = 4/2 = 2 units of y per unit of x.",
+      "qa": {
+        "kind": "slope",
+        "points": [
+          [
+            2,
+            5
+          ],
+          [
+            4,
+            9
+          ]
+        ]
+      },
+      "index": 9,
+      "group": "Core Practice"
+    },
+    {
+      "type": "mc",
+      "graph": "negative",
+      "prompt": "Which statement accurately interprets the plotted strong negative linear association?",
+      "choices": [
+        "y generally increases as x increases",
+        "y generally decreases as x increases",
+        "x and y are unrelated",
+        "y is constant for every x"
+      ],
+      "answer": 1,
+      "solution": "The downward-sloping cluster shows that larger x-values tend to accompany smaller y-values; this is a negative association.",
+      "qa": {
+        "kind": "concept",
+        "key": "negative-trend"
+      },
+      "index": 10,
+      "group": "Core Practice"
+    },
+    {
+      "type": "mc",
+      "prompt": "Study A reports correlation r = -0.92; study B reports r = +0.48. Which study has the stronger LINEAR association?",
+      "choices": [
+        "A, because |-0.92| is larger",
+        "B, because +0.48 is positive",
+        "They have equal strength",
+        "A correlation's sign measures strength"
+      ],
+      "answer": 0,
+      "solution": "Strength depends on the absolute value of r, not its sign: 0.92 > 0.48. The minus sign only identifies the negative direction.",
+      "qa": {
+        "kind": "compareAbsR",
+        "r1": -0.92,
+        "r2": 0.48
+      },
+      "index": 11,
+      "group": "Core Practice"
+    },
+    {
+      "type": "num",
+      "prompt": "A fitted line is y = 2x + 1. When x = 6, the observed y is 15. Find the residual (observed minus predicted).",
+      "answer": 2,
+      "solution": "Predicted y = 2(6) + 1 = 13. Residual = observed - predicted = 15 - 13 = +2.",
+      "qa": {
+        "kind": "residual",
+        "m": 2,
+        "b": 1,
+        "x": 6,
+        "observed": 15
+      },
+      "index": 12,
+      "group": "Exam-Style"
+    },
+    {
+      "type": "mc",
+      "prompt": "A line was fitted using x-values from 2 through 10. Using it to predict y at x = 12 is best described as:",
+      "choices": [
+        "Interpolation within the data",
+        "An exact observation",
+        "Extrapolation beyond the data",
+        "Proof of causation"
+      ],
+      "answer": 2,
+      "solution": "Because 12 is outside the observed x-range [2,10], this is extrapolation. The farther outside the range, the less dependable the estimate may be.",
+      "qa": {
+        "kind": "range",
+        "min": 2,
+        "max": 10,
+        "x": 12
+      },
+      "index": 13,
+      "group": "Exam-Style"
+    },
+    {
+      "type": "num",
+      "prompt": "A linear trend goes through (2,7) and (8,19). What y-value does that line predict at x = 5?",
+      "answer": 13,
+      "solution": "Slope = (19 - 7)/(8 - 2) = 2. The line is y = 2x + 3, so at x = 5 it predicts y = 13. This is interpolation.",
+      "qa": {
+        "kind": "interpolate",
+        "points": [
+          [
+            2,
+            7
+          ],
+          [
+            8,
+            19
+          ]
+        ],
+        "x": 5
+      },
+      "index": 14,
+      "group": "Exam-Style"
+    },
+    {
+      "type": "mc",
+      "prompt": "The points (1,2),(2,4),(3,6),(4,8) lie on y = 2x, but the fifth point is (5,20) rather than (5,10). How can that high outlier affect a fitted trend line?",
+      "choices": [
+        "It can pull the right end upward, increasing the fitted slope",
+        "It must make the fitted slope zero",
+        "It makes all points exactly collinear",
+        "It proves x causes y"
+      ],
+      "answer": 0,
+      "solution": "The unusually high value at the largest x pulls a least-squares line upward on the right. Without it the slope is 2; with it the least-squares slope is 4.",
+      "qa": {
+        "kind": "outlierSlope",
+        "points": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            20
+          ]
+        ],
+        "baseline": 2
+      },
+      "index": 15,
+      "group": "Exam-Style"
+    },
+    {
+      "type": "num",
+      "prompt": "A trend line predicts 24 units for a particular x, but the observed value is 19 units. What is the signed residual?",
+      "answer": -5,
+      "solution": "Residual = observed - predicted = 19 - 24 = -5. A negative residual means the point lies below the line.",
+      "qa": {
+        "kind": "difference",
+        "a": 19,
+        "b": 24
+      },
+      "index": 16,
+      "group": "Exam-Style"
+    },
+    {
+      "type": "mc",
+      "prompt": "For data (1,3),(2,5),(3,8), compare model A: y = 2x + 1 with model B: y = x + 3. Which has the SMALLER sum of squared residuals?",
+      "choices": [
+        "Model A",
+        "Model B",
+        "They tie",
+        "Not enough data"
+      ],
+      "answer": 0,
+      "solution": "A predicts 3,5,7, so squared residuals sum to 0²+0²+1²=1. B predicts 4,5,6, so the sum is (-1)²+0²+2²=5. A fits better by this measure.",
+      "qa": {
+        "kind": "compareSSE",
+        "points": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            8
+          ]
+        ],
+        "models": [
+          [
+            2,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "winner": 0
+      },
+      "index": 17,
+      "group": "Challenge"
+    },
+    {
+      "type": "num",
+      "prompt": "For data (1,2),(2,4),(3,9), model A is y = 2x and model B is y = 3x - 2. By how much does A's sum of squared residuals EXCEED B's?",
+      "answer": 4,
+      "solution": "A predicts 2,4,6: squared residual sum = 0+0+3²=9. B predicts 1,4,7: sum = 1²+0+2²=5. Difference = 9-5=4.",
+      "qa": {
+        "kind": "sseDifference",
+        "points": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "models": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            -2
+          ]
+        ]
+      },
+      "index": 18,
+      "group": "Challenge"
+    }
+  ],
+  "test": [
+    {
+      "type": "mc",
+      "prompt": "The scatterplot points (1,10),(2,7),(3,4),(4,1) form which direction of linear association?",
+      "choices": [
+        "Positive",
+        "Negative",
+        "No linear association",
+        "Cannot be described"
+      ],
+      "answer": 1,
+      "solution": "As x increases by 1, y decreases by 3. The slope is -3, so the association is negative.",
+      "qa": {
+        "kind": "slopeSign",
+        "points": [
+          [
+            1,
+            10
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "sign": -1
+      },
+      "index": 1,
+      "difficulty": "Easy"
+    },
+    {
+      "type": "num",
+      "prompt": "A linear pattern contains points (1,4) and (4,13). Find its slope.",
+      "answer": 3,
+      "solution": "Slope = (13 - 4)/(4 - 1) = 9/3 = 3.",
+      "qa": {
+        "kind": "slope",
+        "points": [
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            13
+          ]
+        ]
+      },
+      "index": 2,
+      "difficulty": "Easy / Medium"
+    },
+    {
+      "type": "mc",
+      "prompt": "Model A has correlation r = +0.88 and model B has r = -0.31. Which shows the stronger linear association?",
+      "choices": [
+        "Model A",
+        "Model B",
+        "Equal strength",
+        "The negative sign makes B stronger"
+      ],
+      "answer": 0,
+      "solution": "Compare magnitudes: |0.88| > |-0.31|, so model A has the stronger association.",
+      "qa": {
+        "kind": "compareAbsR",
+        "r1": 0.88,
+        "r2": -0.31
+      },
+      "index": 3,
+      "difficulty": "Medium"
+    },
+    {
+      "type": "num",
+      "prompt": "A trend line is y = 3x + 2. At x = 5, the observed y-value is 14. Find the residual.",
+      "answer": -3,
+      "solution": "Predicted y = 3(5)+2 = 17. Residual = 14-17 = -3.",
+      "qa": {
+        "kind": "residual",
+        "m": 3,
+        "b": 2,
+        "x": 5,
+        "observed": 14
+      },
+      "index": 4,
+      "difficulty": "Medium / Hard"
+    },
+    {
+      "type": "num",
+      "prompt": "For (1,2),(2,5),(3,7), model A is y = 2x + 1 and model B is y = x + 3. By how much does B's sum of squared residuals EXCEED A's?",
+      "answer": 4,
+      "solution": "A predicts 3,5,7: SSE=1+0+0=1. B predicts 4,5,6: SSE=4+0+1=5. Difference B-A = 4.",
+      "qa": {
+        "kind": "sseDifference",
+        "points": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "models": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      "index": 5,
+      "difficulty": "Hard / Exam-Style"
+    }
+  ],
+  "qa": {
+    "practice": 18,
+    "distribution": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answers": 18,
+    "test": 5,
+    "independent_numeric_and_logic_checks": 23,
+    "passed": true
+  }
+}
