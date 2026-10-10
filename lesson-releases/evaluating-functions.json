@@ -1,0 +1,14 @@
+{
+  "lesson": "evaluating-functions",
+  "builders": [
+    "evaluating-functions-lesson102-build.js"
+  ],
+  "routes": [
+    "/advanced-math/functions/evaluating-functions/explanation/",
+    "/advanced-math/functions/evaluating-functions/problems/",
+    "/advanced-math/functions/evaluating-functions/answers/",
+    "/advanced-math/functions/evaluating-functions/test/",
+    "/advanced-math/functions/evaluating-functions/video/english/",
+    "/advanced-math/functions/evaluating-functions/video/arabic/"
+  ]
+}
