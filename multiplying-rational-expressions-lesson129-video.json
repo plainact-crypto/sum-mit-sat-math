@@ -1,0 +1,86 @@
+{
+  "english": [
+    [
+      "Objective",
+      "Multiply rational expressions while preserving all original denominator restrictions.",
+      "(A/B)(C/D)=AC/(BD)"
+    ],
+    [
+      "Domain",
+      "Find zeros of every original denominator before simplifying.",
+      "Denominators must not be zero"
+    ],
+    [
+      "Factoring",
+      "Factor all numerators and denominators. Remember difference of squares.",
+      "x²−9=(x−3)(x+3)"
+    ],
+    [
+      "Canceling",
+      "Cancel matching factors, never separate terms in a sum.",
+      "(x−3)/(x−3)=1 for x≠3"
+    ],
+    [
+      "Basic example",
+      "Multiply two over x by three over five to obtain six over five x.",
+      "(2/x)(3/5)=6/(5x), x≠0"
+    ],
+    [
+      "Factored example",
+      "Cancel x plus two and x minus three; keep the exclusions negative two and three.",
+      "((x²−9)/(x+2))((x+2)/(x−3))=x+3"
+    ],
+    [
+      "Exam trap",
+      "A simplified expression equal to one may still have holes in its original domain.",
+      "Simplified 1 is not defined everywhere"
+    ],
+    [
+      "Recap",
+      "Restrict, factor, cancel, multiply, and verify. Practice eighteen questions.",
+      "Restrictions → factors → cancellation"
+    ]
+  ],
+  "arabic": [
+    [
+      "الهدف",
+      "نضرب المقادير الكسرية الجبرية مع الحفاظ على القيم الممنوعة من المقامات الأصلية.",
+      "(A/B)(C/D)=AC/(BD)"
+    ],
+    [
+      "المجال",
+      "حدد أصفار المقامات الأصلية قبل أي اختصار.",
+      "المقام لا يساوي صفراً"
+    ],
+    [
+      "التحليل",
+      "حلل البسط والمقام إلى عوامل. استخدم فرق المربعين عند الحاجة.",
+      "x²−9=(x−3)(x+3)"
+    ],
+    [
+      "الاختصار",
+      "اختصر العوامل المشتركة فقط، وليس حدود الجمع منفردة.",
+      "(x−3)/(x−3)=1 بشرط x≠3"
+    ],
+    [
+      "مثال أساسي",
+      "اضرب اثنين على إكس في ثلاثة على خمسة لتحصل على ستة على خمسة إكس.",
+      "(2/x)(3/5)=6/(5x)"
+    ],
+    [
+      "مثال التحليل",
+      "اختصر إكس زائد اثنين وإكس ناقص ثلاثة، مع استبعاد سالب اثنين وثلاثة.",
+      "((x²−9)/(x+2))((x+2)/(x−3))=x+3"
+    ],
+    [
+      "خطأ شائع",
+      "حتى إذا أصبح الناتج واحداً، تبقى القيم الممنوعة من المقامات الأصلية.",
+      "الاختصار لا يلغي القيود"
+    ],
+    [
+      "الخلاصة",
+      "حدد القيود، حلل، اختصر، اضرب، ثم راجع. تدرب على ثمانية عشر سؤالاً.",
+      "القيود ← التحليل ← الاختصار"
+    ]
+  ]
+}
