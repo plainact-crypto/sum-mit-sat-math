@@ -1,0 +1,56 @@
+{
+  "english": [
+    [
+      "Why coefficient shortcuts work",
+      "A polynomial of degree n factors as a leading coefficient times one factor for each root. The next-to-leading coefficient gives the root sum, and the constant gives their product.",
+      "Sum = −aₙ₋₁/aₙ; product = (−1)^n a₀/aₙ."
+    ],
+    [
+      "Quadratic worked example",
+      "For 2x²+3x−5=0, sum=−3/2 and product=−5/2. The leading coefficient is 2, not 1.",
+      "2x²+3x−5=0 → S=−3/2; P=−5/2"
+    ],
+    [
+      "Cubic worked example",
+      "For x³−6x²+11x−6=0, the sum is 6, the pairwise sum is 11, and the product is 6. For odd degree, negate the constant.",
+      "S=6; Q=11; P=6"
+    ],
+    [
+      "Parameter question",
+      "The cubic 3x³−9x²+4x+c=0 has root product −2. Set −c/3=−2 and solve c=6.",
+      "−c/3=−2 → c=6"
+    ],
+    [
+      "Exam strategy and recap",
+      "Put the equation in standard form, identify degree and coefficients, then use Vieta. Repeated and complex roots count. Practice before taking the test.",
+      "Standardize → Degree → Coefficients → Signs → Answer"
+    ]
+  ],
+  "arabic": [
+    [
+      "فكرة القاعدة",
+      "كثير الحدود بيتكتب في صورة معامل رئيسي مضروب في عوامل الجذور. مجموع الجذور موجود في المعامل اللي بعد الرئيسي، وحاصل الضرب مرتبط بالثابت.",
+      "المجموع = −aₙ₋₁/aₙ، الضرب = (−1)^n a₀/aₙ"
+    ],
+    [
+      "مثال تربيعي",
+      "في المعادلة 2x²+3x−5=0، المجموع سالب ثلاثة على اتنين، وحاصل الضرب سالب خمسة على اتنين.",
+      "S=−3/2، P=−5/2"
+    ],
+    [
+      "مثال تكعيبي",
+      "في x³−6x²+11x−6=0، المجموع ستة، ومجموع ضرب كل زوج حداشر، وحاصل ضرب الجذور ستة. الدرجة الفردية بتعكس إشارة الثابت.",
+      "S=6، Q=11، P=6"
+    ],
+    [
+      "معامل مجهول",
+      "لو حاصل ضرب جذور 3x³−9x²+4x+c=0 هو سالب اتنين، نكتب سالب c على ثلاثة يساوي سالب اتنين، ومنها c تساوي ستة.",
+      "−c/3=−2 → c=6"
+    ],
+    [
+      "استراتيجية الامتحان",
+      "رتب المعادلة، اعرف الدرجة والمعاملات، طبق القاعدة بالإشارات الصحيحة. الجذور المكررة والمركبة محسوبة. بعد كده حل التدريب والاختبار.",
+      "ترتيب → درجة → معاملات → إشارات → إجابة"
+    ]
+  ]
+}
