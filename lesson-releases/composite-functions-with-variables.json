@@ -1,0 +1,15 @@
+{
+  "lesson": "composite-functions-with-variables",
+  "builders": [
+    "composite-functions-with-variables-lesson108-content-build.js",
+    "composite-functions-with-variables-lesson108-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/functions/composite-functions-with-variables/explanation/",
+    "/advanced-math/functions/composite-functions-with-variables/problems/",
+    "/advanced-math/functions/composite-functions-with-variables/answers/",
+    "/advanced-math/functions/composite-functions-with-variables/test/",
+    "/advanced-math/functions/composite-functions-with-variables/video/english/",
+    "/advanced-math/functions/composite-functions-with-variables/video/arabic/"
+  ]
+}
