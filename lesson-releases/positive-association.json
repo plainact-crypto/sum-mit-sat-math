@@ -1,0 +1,17 @@
+{
+  "lesson": "positive-association",
+  "builders": [
+    "positive-association-lesson195-explanation-build.js",
+    "positive-association-lesson195-practice-build.js",
+    "positive-association-lesson195-test-build.js",
+    "positive-association-lesson195-video-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/two-variable-data/positive-association/explanation/",
+    "/problem-solving-and-data-analysis/two-variable-data/positive-association/problems/",
+    "/problem-solving-and-data-analysis/two-variable-data/positive-association/answers/",
+    "/problem-solving-and-data-analysis/two-variable-data/positive-association/test/",
+    "/problem-solving-and-data-analysis/two-variable-data/positive-association/video/english/",
+    "/problem-solving-and-data-analysis/two-variable-data/positive-association/video/arabic/"
+  ]
+}
