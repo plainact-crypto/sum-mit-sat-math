@@ -1,0 +1,15 @@
+{
+  "lesson": "simplifying-higher-order-roots",
+  "builders": [
+    "simplifying-higher-order-roots-lesson118-content-build.js",
+    "simplifying-higher-order-roots-lesson118-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/radical-expressions-and-equations/simplifying-higher-order-roots/explanation/",
+    "/advanced-math/radical-expressions-and-equations/simplifying-higher-order-roots/problems/",
+    "/advanced-math/radical-expressions-and-equations/simplifying-higher-order-roots/answers/",
+    "/advanced-math/radical-expressions-and-equations/simplifying-higher-order-roots/test/",
+    "/advanced-math/radical-expressions-and-equations/simplifying-higher-order-roots/video/english/",
+    "/advanced-math/radical-expressions-and-equations/simplifying-higher-order-roots/video/arabic/"
+  ]
+}
