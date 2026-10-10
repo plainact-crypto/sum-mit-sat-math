@@ -3,7 +3,7 @@
   "lesson_slug": "building-an-equation-from-center-and-radius",
   "worker": "SUMMIT Worker 5",
   "branch": "automation/worker5-lesson280-center-radius-20261010-1432",
-  "state": "LOCAL_CORE_QA_PASSED_INTEGRATION_PENDING",
+  "state": "BLOCKED_BUILDER_UPLOAD",
   "practice": 18,
   "distribution": [
     3,
@@ -19,5 +19,8 @@
   "video": "91-second English 16:9 MP4; 12 English and 12 Arabic video chapters",
   "production_ready": false,
   "live_routes_verified": false,
-  "broadcast_status": "NOT_ELIGIBLE"
+  "broadcast_status": "NOT_ELIGIBLE",
+  "release_manifest_committed": true,
+  "required_builder_committed": false,
+  "blocker": "GitHub safety checks rejected builder/data upload. Do not merge manifest-only branch."
 }
