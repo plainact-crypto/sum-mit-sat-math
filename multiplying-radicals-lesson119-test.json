@@ -1,0 +1,32 @@
+[
+  [
+    "Easy",
+    "Multiply sqrt(4) by sqrt(9).",
+    "6",
+    "2 times 3 equals 6."
+  ],
+  [
+    "Easy / Medium",
+    "Multiply sqrt(5) by sqrt(20).",
+    "10",
+    "sqrt(100)=10."
+  ],
+  [
+    "Medium",
+    "Multiply 2sqrt(3) by 3sqrt(12).",
+    "36",
+    "6sqrt(36)=36."
+  ],
+  [
+    "Medium / Hard",
+    "Multiply (sqrt(7)+sqrt(2)) by (sqrt(7)-sqrt(2)).",
+    "5",
+    "Difference of squares: 7-2=5."
+  ],
+  [
+    "Hard / Exam-Style",
+    "For x at least 2, sqrt(x+2) times sqrt(x-2) equals sqrt(21). Find x.",
+    "5",
+    "Square: x^2-4=21; x^2=25; domain gives x=5."
+  ]
+]
