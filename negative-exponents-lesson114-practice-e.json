@@ -1,0 +1,14 @@
+[
+  [
+    "Exam-Style",
+    "Simplify (1/x-1/y)/(1/(xy)) for nonzero x and y.",
+    "y-x",
+    "The numerator is (y-x)/(xy); dividing by 1/(xy) leaves y-x."
+  ],
+  [
+    "Challenge",
+    "Simplify ((2/x^3)*y^2)^(-2)/(4x^2/y) for nonzero x and y.",
+    "x^4/(16y^3)",
+    "First x^6/(4y^4), then divide by 4x^2/y to obtain x^4/(16y^3)."
+  ]
+]
