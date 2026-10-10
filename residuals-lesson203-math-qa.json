@@ -1,0 +1,1 @@
+{"lesson":"residuals","rule":"observed minus predicted","verified_examples":[{"observed":9,"predicted":7,"residual":2},{"observed":8,"predicted":12,"residual":-4},{"observed":14,"predicted":14,"residual":0}]}
