@@ -1,0 +1,8 @@
+[
+  [
+    "Challenge",
+    "Simplify ((b^3/a^2)/(a/b))^(-2) for nonzero a and b.",
+    "a^6/b^8",
+    "Inside equals b^4/a^3. The reciprocal squared equals a^6/b^8."
+  ]
+]
