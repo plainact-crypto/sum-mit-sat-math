@@ -5,5 +5,5 @@
   "state": "BLOCKED_BUILDER_UPLOAD",
   "branch": "automation/worker5-lesson295-full-release-20261010-1522",
   "created_at": "2026-10-10T15:22:15+03:00",
-  "block_reason": "Local core package complete and verified (135 mathematical/route checks, 43 browser checks); repository content upload blocked by safety checks. No release manifest committed; do not merge."
+  "block_reason": "Local core package passed 135/135 mathematical/content checks and 43/43 browser checks. Builder upload was deferred after persistent safety-check rejections on lessons 285 and 290; no content or manifest committed and branch must not merge."
 }
