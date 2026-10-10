@@ -1,0 +1,14 @@
+{
+  "lesson": "unit-rates",
+  "builders": [
+    "unit-rates-lesson159-release-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/rates/unit-rates/explanation/",
+    "/problem-solving-and-data-analysis/rates/unit-rates/problems/",
+    "/problem-solving-and-data-analysis/rates/unit-rates/answers/",
+    "/problem-solving-and-data-analysis/rates/unit-rates/test/",
+    "/problem-solving-and-data-analysis/rates/unit-rates/video/english/",
+    "/problem-solving-and-data-analysis/rates/unit-rates/video/arabic/"
+  ]
+}
