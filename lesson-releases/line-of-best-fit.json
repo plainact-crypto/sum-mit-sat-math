@@ -1,0 +1,17 @@
+{
+  "lesson": "line-of-best-fit",
+  "builders": [
+    "line-of-best-fit-lesson200-explanation-build.js",
+    "line-of-best-fit-lesson200-practice-build.js",
+    "line-of-best-fit-lesson200-test-build.js",
+    "line-of-best-fit-lesson200-video-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/two-variable-data/line-of-best-fit/explanation/",
+    "/problem-solving-and-data-analysis/two-variable-data/line-of-best-fit/problems/",
+    "/problem-solving-and-data-analysis/two-variable-data/line-of-best-fit/answers/",
+    "/problem-solving-and-data-analysis/two-variable-data/line-of-best-fit/test/",
+    "/problem-solving-and-data-analysis/two-variable-data/line-of-best-fit/video/english/",
+    "/problem-solving-and-data-analysis/two-variable-data/line-of-best-fit/video/arabic/"
+  ]
+}
