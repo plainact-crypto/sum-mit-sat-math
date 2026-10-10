@@ -1,0 +1,11 @@
+{
+  "lesson_index": 115,
+  "slug": "negative-exponents",
+  "local_release": "COMPLETE",
+  "math_qa": "PASS 23/23",
+  "browser_qa": "PASS 16/16 local",
+  "content_data_uploaded": true,
+  "builder_upload": "BLOCKED_BY_SAFETY_CHECKS",
+  "production": "NOT_DEPLOYED",
+  "broadcast": "NOT_SENT"
+}
