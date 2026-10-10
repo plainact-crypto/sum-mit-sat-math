@@ -1,0 +1,30 @@
+{
+  "lesson_index": 188,
+  "lesson": "Weighted Mean",
+  "slug": "weighted-mean",
+  "worker": "worker3",
+  "date": "2026-10-10",
+  "status": "RELEASE_BLOCKED",
+  "branch": "worker3-lesson188-canonical-20261010",
+  "canonical_base": "/problem-solving-and-data-analysis/measures-of-center/weighted-mean",
+  "qa": {
+    "practice": 18,
+    "distribution": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answers": 18,
+    "test": 5,
+    "independent_numeric_checks": "23/23 PASS",
+    "builder_syntax": "4/4 PASS"
+  },
+  "release_manifest": "lesson-releases/weighted-mean.json",
+  "blockers": [
+    "Explanation classification registry update rejected by safety checks",
+    "Full repository build and dist route validation not yet performed",
+    "Not merged into main; production deployment not verified"
+  ],
+  "no_email_until_live_verified": true
+}
