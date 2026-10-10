@@ -1,0 +1,27 @@
+{
+  "lessonIndex": 153,
+  "slug": "table-representation",
+  "owner": "worker3",
+  "status": "CORE_BUILT_LOCAL_QA_PASS_RELEASE_PENDING",
+  "date": "2026-10-10",
+  "qa": {
+    "practice": 18,
+    "groups": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answers": 18,
+    "tests": 5,
+    "englishScenes": 14,
+    "arabicScenes": 14,
+    "math": "PASS",
+    "isolatedRoutes": 6
+  },
+  "blockers": [
+    "GitHub pull request creation safety check",
+    "Vercel daily API deployment quota (HTTP 402)",
+    "Full production build and live-route verification pending"
+  ]
+}
