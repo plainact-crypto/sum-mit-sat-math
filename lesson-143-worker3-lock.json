@@ -1,1 +1,8 @@
-{"lessonIndex":143,"slug":"infinitely-many-solutions","owner":"worker3","status":"IN_PROGRESS","date":"2026-10-10"}
+{
+  "lessonIndex": 143,
+  "slug": "absolute-value-infinitely-many-solutions",
+  "owner": "worker3",
+  "status": "CORE_BUILT_LOCAL_QA_PASS_RELEASE_PENDING",
+  "date": "2026-10-10",
+  "notes": "18 practice (3/8/5/2), 18 aligned solutions, 5 scored tests, English/Arabic 14-scene full lessons; six isolated builder routes PASS; no production deployment yet."
+}
