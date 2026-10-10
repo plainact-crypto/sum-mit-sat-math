@@ -1,0 +1,17 @@
+{
+  "lesson": "weighted-mean",
+  "builders": [
+    "weighted-mean-lesson188-explanation-build.js",
+    "weighted-mean-lesson188-practice-build.js",
+    "weighted-mean-lesson188-test-build.js",
+    "weighted-mean-lesson188-video-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/one-variable-data/weighted-mean/explanation/",
+    "/problem-solving-and-data-analysis/one-variable-data/weighted-mean/problems/",
+    "/problem-solving-and-data-analysis/one-variable-data/weighted-mean/answers/",
+    "/problem-solving-and-data-analysis/one-variable-data/weighted-mean/test/",
+    "/problem-solving-and-data-analysis/one-variable-data/weighted-mean/video/english/",
+    "/problem-solving-and-data-analysis/one-variable-data/weighted-mean/video/arabic/"
+  ]
+}
