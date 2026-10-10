@@ -1,0 +1,14 @@
+[
+  [
+    "Exam-Style",
+    "Multiply the sum of sqrt(3) and sqrt(12) by sqrt(3).",
+    "9",
+    "sqrt(12)=2sqrt(3), so the product is 3 times 3."
+  ],
+  [
+    "Exam-Style",
+    "Multiply the sum and difference of sqrt(5) and sqrt(2).",
+    "3",
+    "The product is the difference of squares: 5 minus 2."
+  ]
+]
