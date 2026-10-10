@@ -1,0 +1,14 @@
+{
+  "lesson": "quotient-rule",
+  "builders": [
+    "quotient-rule-lesson112-build.js"
+  ],
+  "routes": [
+    "/advanced-math/exponents/quotient-rule/explanation/",
+    "/advanced-math/exponents/quotient-rule/problems/",
+    "/advanced-math/exponents/quotient-rule/answers/",
+    "/advanced-math/exponents/quotient-rule/test/",
+    "/advanced-math/exponents/quotient-rule/video/english/",
+    "/advanced-math/exponents/quotient-rule/video/arabic/"
+  ]
+}
