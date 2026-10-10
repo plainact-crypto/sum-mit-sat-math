@@ -1,0 +1,29 @@
+{
+  "lesson_index": 103,
+  "slug": "functions-from-tables",
+  "status": "BLOCKED_RELEASE",
+  "updated_at": "2026-10-10",
+  "ready_artifacts": [
+    "functions-from-tables-lesson103-content-build.js",
+    "functions-from-tables-lesson103-video-build.js",
+    "lesson-releases/functions-from-tables.json"
+  ],
+  "qa": {
+    "builder_execution": "PASS",
+    "canonical_routes": "6/6 PASS isolated",
+    "practice": "18 (3/8/5/2)",
+    "answers": 18,
+    "test": 5,
+    "independent_math_checks": "18 practice, 5 test PASS",
+    "full_lesson_scenes": {
+      "english": 14,
+      "arabic": 14
+    }
+  },
+  "blockers": [
+    "GitHub create_pull_request blocked twice by safety checks",
+    "Cannot merge to main or validate production READY and live routes without release PR",
+    "No announcement until LIVE_VERIFIED"
+  ],
+  "next": "Retry release when PR access resumes; advance to next owned NEW lesson in the meantime."
+}
