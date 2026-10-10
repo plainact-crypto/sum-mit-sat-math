@@ -1,0 +1,1 @@
+[["CORE RULE","P(A|B)=P(A and B)/P(B), with P(B)>0. For counts, divide the number in both groups by the number in B."],["HOW IT WORKS","Identify the condition after given; use its count as denominator. Use the overlap as numerator, then simplify."],["WORKED EXAMPLE 1 — COUNTS","Among 16 chess players, 6 also play soccer. Given chess, P(soccer)=6/16=3/8=0.375."]]
