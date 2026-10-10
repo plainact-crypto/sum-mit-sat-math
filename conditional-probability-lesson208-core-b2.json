@@ -1,0 +1,1 @@
+[{"index":10,"group":"Core Practice","prompt":"P(A and B)=0.12 and P(A)=0.30. Find P(B | A).","answer":0.4,"solution":"Condition on A: 0.12/0.30=0.40.","qa":[0.12,0.3]},{"index":11,"group":"Core Practice","prompt":"Of 35 tea drinkers, 14 take honey. Find P(honey | tea).","answer":0.4,"solution":"14/35=0.4.","qa":[14,35]}]
