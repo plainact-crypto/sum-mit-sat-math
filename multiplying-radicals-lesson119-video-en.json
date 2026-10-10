@@ -1,0 +1,42 @@
+[
+  [
+    "Product property",
+    "Multiply nonnegative radicands under one square root. Principal roots are nonnegative.",
+    "sqrt(a)×sqrt(b)=sqrt(ab), a,b≥0"
+  ],
+  [
+    "Example one",
+    "Square root two times square root eight equals square root sixteen, which is four.",
+    "sqrt(2)×sqrt(8)=4"
+  ],
+  [
+    "Simplify",
+    "Square root six times square root fifteen is square root ninety, or three square root ten.",
+    "sqrt(6)×sqrt(15)=3sqrt(10)"
+  ],
+  [
+    "Outside coefficients",
+    "Two square root three times four square root six becomes eight square root eighteen, or twenty-four square root two.",
+    "2sqrt(3)×4sqrt(6)=24sqrt(2)"
+  ],
+  [
+    "Variables",
+    "For nonnegative x, square root three x times square root twelve x is six x. In general, square root x squared is absolute x.",
+    "sqrt(3x)×sqrt(12x)=6x"
+  ],
+  [
+    "Distribute",
+    "Multiply square root five plus square root two by square root five, obtaining five plus square root ten.",
+    "(sqrt(5)+sqrt(2))sqrt(5)=5+sqrt(10)"
+  ],
+  [
+    "Conjugates",
+    "A sum times its difference equals the difference of squares. Here five minus two equals three.",
+    "(sqrt(5)+sqrt(2))(sqrt(5)-sqrt(2))=3"
+  ],
+  [
+    "Challenge and recap",
+    "If x is at least one half, multiplying square roots of two x plus one and two x minus one gives square root fifteen only when x equals two. Square both sides and check the domain.",
+    "4x²−1=15 ⇒ x=2"
+  ]
+]

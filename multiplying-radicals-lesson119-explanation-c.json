@@ -1,0 +1,18 @@
+[
+  [
+    "EXAM STRATEGY",
+    "<p>Multiply outside coefficients first; combine radicands only when nonnegative. For conjugates use (a+b)(a-b)=a²-b². Check variable domains and absolute values before simplifying.</p>"
+  ],
+  [
+    "QUICK CHECK",
+    "<p>Try sqrt(8)·sqrt(18). <details><summary>Answer</summary>sqrt(144)=12.</details></p><p>Try (sqrt(11)+sqrt(3))(sqrt(11)-sqrt(3)). <details><summary>Answer</summary>11−3=8.</details></p>"
+  ],
+  [
+    "LESSON RECAP",
+    "<p>For a,b≥0, sqrt(a)sqrt(b)=sqrt(ab). Simplify square factors; distribute through brackets; conjugates produce differences of squares. For real x, sqrt(x²)=|x|.</p>"
+  ],
+  [
+    "NEXT STEP",
+    "<p><a href=\"../problems/\">Practice: 18 problems</a> · <a href=\"../answers/\">Answers: 18 solutions</a> · <a href=\"../test/\">Lesson Test</a> · <a href=\"../video/english/\">English video</a> · <a href=\"../video/arabic/\">Arabic video</a>.</p>"
+  ]
+]
