@@ -3,9 +3,12 @@
   "lesson_index": 162,
   "total_lessons": 298,
   "ownership_rule": "indices congruent to 2 modulo 5",
-  "canonical_slug": null,
-  "status": "LOCKED_PENDING_CANONICAL_CURRICULUM_LOOKUP",
+  "canonical_slug": "rate-word-problems",
+  "status": "LOCAL_QA_PASS_PENDING_GITHUB_CONTENT_WRITE",
   "date": "2026-10-10",
   "branch": "worker2/lesson162-20261010",
-  "note": "Do not infer slug or generate a release manifest until canonical title and path are read from curriculum; lesson 157 is separately recorded as blocked."
+  "note": "Canonical index/title/slug verified against compressed 298-lesson curriculum. Local explanation, 18/18 practice+answers, 5 tests, English/Arabic full-lesson scene routes and unique release manifest pass independent math and route QA. Content/builder/manifest NOT yet committed. Previous GitHub content writes blocked by safety checks; do not merge or claim live.",
+  "canonical_title": "Rate Word Problems",
+  "canonical_route": "/problem-solving-and-data-analysis/rates/rate-word-problems/",
+  "updated_date": "2026-10-11"
 }
