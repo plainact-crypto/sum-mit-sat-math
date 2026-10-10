@@ -1,3 +1,4 @@
+require('./vertical-translation-content-build');
 require('./content-worker2-next-pre-one-real');
 const fs=require('fs'),path=require('path');
 const root=__dirname,dist=path.join(root,'dist');
@@ -42,4 +43,3 @@ require('./video-number-of-intersections-explainer');
 require('./converting-between-representations-content-build');
 require('./video-converting-between-representations-explainer');
 
-require('./vertical-translation-content-build');
