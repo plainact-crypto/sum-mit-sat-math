@@ -1,0 +1,10 @@
+const fs=require('fs'),path=require('path'),d=require('./population-parameters-lesson213-data.json');
+for(const name of ['english','arabic']){
+const scenes=require('./population-parameters-lesson213-video-'+name+'.json');
+if(scenes.length<12)throw Error('Full lesson scenes missing');
+const lang=name==='arabic'?'ar-EG':'en-US';
+const js='<script>const scenes='+JSON.stringify(scenes)+',lang="'+lang+'";let i=0;const title=document.getElementById("scene"),caption=document.getElementById("caption");function show(){title.textContent=scenes[i][0];caption.textContent=scenes[i][1];document.getElementById("count").textContent=(i+1)+"/"+scenes.length}function play(){if(!window.speechSynthesis)return;window.speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(scenes[i].join(". "));u.lang=lang;u.onend=()=>{if(i<scenes.length-1){i++;show();play()}};speechSynthesis.speak(u)}document.getElementById("next").onclick=()=>{i=Math.min(i+1,scenes.length-1);show()};document.getElementById("previous").onclick=()=>{i=Math.max(0,i-1);show()};document.getElementById("play").onclick=play;document.getElementById("stop").onclick=()=>speechSynthesis.cancel();show();</script>';
+const body='<div style="aspect-ratio:16/9;background:#102e52;color:white;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:4%"><small id="count"></small><h2 id="scene"></h2><p id="caption"></p></div><button id="previous">Previous</button><button id="play">Play All</button><button id="stop">Stop</button><button id="next">Next</button>';
+const html='<!doctype html><html lang="'+lang.slice(0,2)+'"><head><meta charset="utf-8"><link rel="stylesheet" href="/styles.css"><title>'+d.title+' — Full Lesson '+name+'</title></head><body><main class="page-shell"><section class="lesson-card"><h1>'+d.title+'</h1><p>Full Lesson · '+name+'</p>'+body+'</section></main>'+js+'</body></html>';
+const dir=path.join(__dirname,'dist',d.base,'video',name);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,'index.html'),html);
+}
