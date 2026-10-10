@@ -1,0 +1,14 @@
+[
+  [
+    "WORKED EXAMPLES 3–5",
+    "<p><b>3.</b> (2sqrt(3))(4sqrt(6))=24sqrt(2).</p><p><b>4.</b> For x nonnegative, sqrt(3x)sqrt(12x)=6x.</p><p><b>5.</b> (sqrt(5)+sqrt(2))(sqrt(5)-sqrt(2))=3.</p>"
+  ],
+  [
+    "GRAPH / DESMOS CLASSIFICATION",
+    "<p>NEITHER. Exact algebra is faster than graphing for radical multiplication.</p>"
+  ],
+  [
+    "COMMON MISTAKES",
+    "<p>Multiply, not add, radicands. Real product rule needs nonnegative radicands. sqrt(x^2)=|x|. Distribute every term in a binomial.</p>"
+  ]
+]
