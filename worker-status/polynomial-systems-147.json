@@ -1,0 +1,10 @@
+{
+  "lesson": "polynomial-systems",
+  "index": 147,
+  "status": "BLOCKED_PENDING_BUILDER_WRITE",
+  "reason": "GitHub write safety rejected the complete lesson builder twice; the data and unique release manifest are committed on this branch. Do not merge or deploy until builder and explanation registry are committed, full build and routes pass.",
+  "data_commit": "4da40deee686cc570aa33fa17ac5b99bc7af01b1",
+  "release_manifest_commit": "953a85ddd79a64b1caf302183f9e02c49627fb6b",
+  "live_verified": false,
+  "broadcast": "NOT_SENT"
+}
