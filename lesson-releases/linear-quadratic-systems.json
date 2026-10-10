@@ -1,0 +1,14 @@
+{
+  "lesson": "linear-quadratic-systems",
+  "builders": [
+    "linear-quadratic-systems-lesson144-build.js"
+  ],
+  "routes": [
+    "/advanced-math/nonlinear-equations-and-systems/linear-quadratic-systems/explanation/",
+    "/advanced-math/nonlinear-equations-and-systems/linear-quadratic-systems/problems/",
+    "/advanced-math/nonlinear-equations-and-systems/linear-quadratic-systems/answers/",
+    "/advanced-math/nonlinear-equations-and-systems/linear-quadratic-systems/test/",
+    "/advanced-math/nonlinear-equations-and-systems/linear-quadratic-systems/video/english/",
+    "/advanced-math/nonlinear-equations-and-systems/linear-quadratic-systems/video/arabic/"
+  ]
+}
