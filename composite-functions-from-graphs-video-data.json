@@ -1,0 +1,66 @@
+{
+  "english": [
+    [
+      "Composition is an inside-out journey",
+      "To find f of g of x from graphs, start at x on g's graph. Read the output, then use that number as a new input on f's graph. Do not reverse the order.",
+      "f(g(x)): g first, then f."
+    ],
+    [
+      "Graph A: read two steps",
+      "Graph A shows f of x equals x plus two and g of x equals two x minus one. At x equals one, g gives one. Using one on f gives three.",
+      "g(1)=1; f(1)=3; f(g(1))=3."
+    ],
+    [
+      "Why order matters",
+      "At x equals one, g of f of one is five, not three. Start on f first, then read g at the result. The two compositions usually differ.",
+      "f(g(1))=3; g(f(1))=5."
+    ],
+    [
+      "Graphs B and C",
+      "Graph B has f of x equal to absolute value x, and g of x equal to three minus x. Graph C has f of x equal to x squared minus one, and g of x equal to negative x. Each inner output becomes the outer input.",
+      "Graph B: f(g(−1))=4; Graph C: f(g(2))=3."
+    ],
+    [
+      "Graph D: check whether the second step exists",
+      "Graph D has restricted domains. For f of g of x, x must be between one and four. For g of f of x, x must be between negative one and one. An output outside the outer function's domain makes the composition undefined.",
+      "Domain(f∘g)=[1,4]; Domain(g∘f)=[−1,1]."
+    ],
+    [
+      "Exam recap",
+      "Identify the inner function, read its y value, use that value as the x input for the outer function, and check both domains. Then move to the eighteen practice questions and five-question test.",
+      "Inner graph → output → outer graph → domain check."
+    ]
+  ],
+  "arabic": [
+    [
+      "التركيب من الداخل للخارج",
+      "عشان تحسب f بعد g من الرسم، ابدأ بقيمة x على رسم g. اقرأ الناتج، وبعدها استخدم الناتج كمدخل جديد على رسم f. الترتيب مهم.",
+      "f(g(x)): الأول g وبعدها f."
+    ],
+    [
+      "مثال الرسم A",
+      "في الرسم A، الدالة f تساوي x زائد اتنين، والدالة g تساوي اتنين x ناقص واحد. لما x تساوي واحد، g بتدي واحد، وبعدها f لواحد تساوي ثلاثة.",
+      "g(1)=1، f(1)=3، إذن f(g(1))=3."
+    ],
+    [
+      "ليه الترتيب بيفرق",
+      "لو عكسنا الترتيب وحسبنا g بعد f عند واحد، النتيجة خمسة مش ثلاثة. نبدأ بالدالة الداخلية وننتقل للخارج.",
+      "f(g(1))=3 لكن g(f(1))=5."
+    ],
+    [
+      "الرسمين B و C",
+      "في الرسم B الدالة f هي القيمة المطلقة، وg تساوي ثلاثة ناقص x. وفي الرسم C الدالة f تساوي x تربيع ناقص واحد، وg تساوي سالب x. في الحالتين نقرأ نتيجة الدالة الداخلية أولًا.",
+      "B: f(g(−1))=4، C: f(g(2))=3."
+    ],
+    [
+      "الرسم D وحدود المجال",
+      "الرسم D فيه مجال محدد لكل دالة. مجال f بعد g من واحد إلى أربعة. ومجال g بعد f من سالب واحد إلى واحد. لو ناتج الدالة الداخلية خارج مجال الخارجية، التركيب مش معرف.",
+      "Domain(f∘g)=[1,4]، Domain(g∘f)=[−1,1]."
+    ],
+    [
+      "ملخص واستراتيجية الامتحان",
+      "حدد الدالة الداخلية، اقرأ قيمة y من الرسم، استخدمها كقيمة x على الرسم الخارجي، واتأكد إن القيم داخل المجالات المسموحة. بعد كده حل التمارين والاختبار.",
+      "الداخلية ← الناتج ← الخارجية ← تحقق من المجال."
+    ]
+  ]
+}

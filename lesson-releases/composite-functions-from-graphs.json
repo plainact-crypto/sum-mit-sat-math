@@ -1,0 +1,17 @@
+{
+  "lesson": "composite-functions-from-graphs",
+  "builders": [
+    "composite-functions-from-graphs-explanation-build.js",
+    "composite-functions-from-graphs-practice-build.js",
+    "composite-functions-from-graphs-test-build.js",
+    "composite-functions-from-graphs-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/functions/composite-functions-from-graphs/explanation/",
+    "/advanced-math/functions/composite-functions-from-graphs/problems/",
+    "/advanced-math/functions/composite-functions-from-graphs/answers/",
+    "/advanced-math/functions/composite-functions-from-graphs/test/",
+    "/advanced-math/functions/composite-functions-from-graphs/video/english/",
+    "/advanced-math/functions/composite-functions-from-graphs/video/arabic/"
+  ]
+}

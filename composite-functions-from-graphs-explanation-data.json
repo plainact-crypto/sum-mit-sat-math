@@ -1,0 +1,50 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "<h2>Evaluate composite functions by reading two graphs in the correct order.</h2><p><b>f(g(x))</b> means read g(x) first, then use that result as the input on graph f.</p>"
+  ],
+  [
+    "CORE IDEA",
+    "<p>A function transforms an input into an output. A composite function chains two transformations. The first output becomes the second input; changing the order can change the answer.</p>"
+  ],
+  [
+    "KEY DEFINITIONS",
+    "<p><b>Composition:</b> f∘g(x)=f(g(x)). <b>Inner function:</b> evaluated first. <b>Outer function:</b> evaluated second. <b>Domain:</b> inputs for which a function is defined.</p>"
+  ],
+  [
+    "CORE RULE",
+    "<p>For f(g(a)), read the y-value at x=a on graph g, call it b, then read the y-value at x=b on graph f. For g(f(a)), reverse the graph order. Both inputs must be in their respective domains.</p>"
+  ],
+  [
+    "HOW IT WORKS",
+    "<ol><li>Identify the inner function.</li><li>Find its output on the first graph.</li><li>Use that output as the input on the second graph.</li><li>Read the final output.</li><li>For restricted graphs, verify both steps exist.</li></ol>"
+  ],
+  [
+    "WORKED EXAMPLES",
+    "<h3>Example 1 — Graph A</h3><p>f(g(1)): g(1)=2(1)−1=1; f(1)=1+2=3. So f(g(1))=3.</p><h3>Example 2 — Reverse order</h3><p>g(f(1)): f(1)=3; g(3)=2(3)−1=5. Reversing the order changes 3 to 5.</p><h3>Example 3 — Absolute value</h3><p>Graph B: g(−1)=4, then f(4)=|4|=4. So f(g(−1))=4.</p><h3>Example 4 — Curved graph</h3><p>Graph C: g(2)=−2, then f(−2)=(−2)²−1=3.</p><h3>Example 5 — Domain restriction</h3><p>Graph D: g(x)=2−x on [0,4], f(x)=x+1 on [−2,1]. To form f(g(x)), require −2≤2−x≤1. Thus 1≤x≤4. For example, f(g(1))=f(1)=2.</p>"
+  ],
+  [
+    "GRAPH / VISUAL BLOCK",
+    "<p>The graphs below are generated directly from the mathematical formulas. Graph D has solid included endpoints. A displayed graph window is not the domain of an unrestricted function.</p>"
+  ],
+  [
+    "COMMON MISTAKES",
+    "<ul><li>Reading the outer graph first.</li><li>Stopping after the inner output.</li><li>Assuming f(g(x))=g(f(x)).</li><li>Using an output outside the outer function’s domain.</li><li>Confusing the viewing window with a restricted domain.</li></ul>"
+  ],
+  [
+    "EXAM STRATEGY",
+    "<p>Draw two arrows: input → inner graph output → outer graph output. When endpoints are restricted, verify the intermediate output belongs to the second graph before reporting a value.</p>"
+  ],
+  [
+    "QUICK CHECK",
+    "<p>Graph A: f(g(0))=1. Graph B: g(f(−2))=1. Graph D: g(f(−2)) is undefined because f(−2)=−1 is outside g’s domain [0,4].</p>"
+  ],
+  [
+    "LESSON RECAP",
+    "<p>Inside first, outside second. Use each graph’s y-value as the next graph’s x-value. Composition order and domain restrictions matter.</p>"
+  ],
+  [
+    "NEXT STEP",
+    "<p><a href=\"../problems/\">Practice</a> · <a href=\"../answers/\">Answers</a> · <a href=\"../test/\">Test</a> · <a href=\"../video/english/\">English Full Lesson</a> · <a href=\"../video/arabic/\">Arabic Full Lesson</a></p>"
+  ]
+]
