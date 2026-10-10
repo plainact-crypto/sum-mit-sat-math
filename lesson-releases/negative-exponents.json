@@ -1,0 +1,14 @@
+{
+  "lesson": "negative-exponents",
+  "builders": [
+    "negative-exponents-lesson114-build.js"
+  ],
+  "routes": [
+    "/advanced-math/exponents/negative-exponents/explanation/",
+    "/advanced-math/exponents/negative-exponents/problems/",
+    "/advanced-math/exponents/negative-exponents/answers/",
+    "/advanced-math/exponents/negative-exponents/test/",
+    "/advanced-math/exponents/negative-exponents/video/english/",
+    "/advanced-math/exponents/negative-exponents/video/arabic/"
+  ]
+}
