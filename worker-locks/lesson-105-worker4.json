@@ -1,0 +1,10 @@
+{
+  "lessonIndexZeroBased": 104,
+  "lessonIndexOneBased": 105,
+  "slug": "domain",
+  "owner": "SUMMIT Worker 4",
+  "status": "IN_PROGRESS",
+  "started": "2026-10-10T12:03:25+03:00",
+  "expires": "2026-10-10T14:03:25+03:00",
+  "note": "Worker5 Domain branch has no commits ahead of main; this lease covers full core package and standard video only."
+}
