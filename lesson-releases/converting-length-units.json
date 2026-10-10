@@ -1,0 +1,14 @@
+{
+  "lesson": "converting-length-units",
+  "builders": [
+    "converting-length-units-lesson167-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/units-and-unit-conversion/converting-length-units/explanation/",
+    "/problem-solving-and-data-analysis/units-and-unit-conversion/converting-length-units/problems/",
+    "/problem-solving-and-data-analysis/units-and-unit-conversion/converting-length-units/answers/",
+    "/problem-solving-and-data-analysis/units-and-unit-conversion/converting-length-units/test/",
+    "/problem-solving-and-data-analysis/units-and-unit-conversion/converting-length-units/video/english/",
+    "/problem-solving-and-data-analysis/units-and-unit-conversion/converting-length-units/video/arabic/"
+  ]
+}
