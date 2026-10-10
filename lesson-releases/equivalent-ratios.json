@@ -1,0 +1,14 @@
+{
+  "lesson": "equivalent-ratios",
+  "builders": [
+    "equivalent-ratios-lesson157-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/ratios/equivalent-ratios/explanation/",
+    "/problem-solving-and-data-analysis/ratios/equivalent-ratios/problems/",
+    "/problem-solving-and-data-analysis/ratios/equivalent-ratios/answers/",
+    "/problem-solving-and-data-analysis/ratios/equivalent-ratios/test/",
+    "/problem-solving-and-data-analysis/ratios/equivalent-ratios/video/english/",
+    "/problem-solving-and-data-analysis/ratios/equivalent-ratios/video/arabic/"
+  ]
+}
