@@ -1,0 +1,17 @@
+{
+  "lesson": "weighted-mean",
+  "builders": [
+    "weighted-mean-lesson188-explanation-build.js",
+    "weighted-mean-lesson188-practice-build.js",
+    "weighted-mean-lesson188-test-build.js",
+    "weighted-mean-lesson188-video-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/measures-of-center/weighted-mean/explanation/",
+    "/problem-solving-and-data-analysis/measures-of-center/weighted-mean/problems/",
+    "/problem-solving-and-data-analysis/measures-of-center/weighted-mean/answers/",
+    "/problem-solving-and-data-analysis/measures-of-center/weighted-mean/test/",
+    "/problem-solving-and-data-analysis/measures-of-center/weighted-mean/video/english/",
+    "/problem-solving-and-data-analysis/measures-of-center/weighted-mean/video/arabic/"
+  ]
+}
