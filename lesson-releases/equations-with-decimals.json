@@ -1,0 +1,16 @@
+{
+  "lesson": "equations-with-decimals",
+  "builders": [
+    "decimals-content-build.js",
+    "equations-with-decimals-lesson5-build.js",
+    "equations-with-decimals-lesson5-video-build.js"
+  ],
+  "routes": [
+    "/algebra/linear-equations-in-one-variable/equations-with-decimals/explanation/",
+    "/algebra/linear-equations-in-one-variable/equations-with-decimals/problems/",
+    "/algebra/linear-equations-in-one-variable/equations-with-decimals/answers/",
+    "/algebra/linear-equations-in-one-variable/equations-with-decimals/test/",
+    "/algebra/linear-equations-in-one-variable/equations-with-decimals/video/english/",
+    "/algebra/linear-equations-in-one-variable/equations-with-decimals/video/arabic/"
+  ]
+}
