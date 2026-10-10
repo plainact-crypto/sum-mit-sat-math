@@ -1,0 +1,7 @@
+{
+  "lesson": "extraneous-solutions",
+  "index": 122,
+  "status": "BLOCKED_PENDING_CANONICAL_RELEASE",
+  "reason": "Release manifest and builders target a noncanonical path. Canonical base is /advanced-math/radical-expressions-and-equations/extraneous-solutions/. Correct routes and retest before merge.",
+  "next": "Work on owned lesson 127 while lesson 122 release is blocked."
+}
