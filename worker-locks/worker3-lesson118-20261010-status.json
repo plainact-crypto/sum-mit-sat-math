@@ -1,0 +1,23 @@
+{
+  "lesson_index": 118,
+  "slug": "simplifying-higher-order-roots",
+  "state": "BLOCKED_RELEASE",
+  "as_of": "2026-10-10",
+  "branch": "worker3-lesson118-20261010",
+  "content": "Complete core content and bilingual full video; unique release manifest committed",
+  "validated": [
+    "18 practice 3/8/5/2",
+    "18 matched worked solutions",
+    "5 scored progressive test questions",
+    "14 English + 14 Arabic 16:9 scenes",
+    "six non-placeholder routes",
+    "full production build passes",
+    "108 signed numerical practice checks and 5 test checks"
+  ],
+  "blockers": [
+    "GitHub safety check rejects explanation-retrofit-registry.js update",
+    "GitHub safety check rejects pull-request creation",
+    "Global qa:content fails on pre-existing collinear-points classification marker"
+  ],
+  "next": "Do not mark LIVE_VERIFIED or email users. Retry safe release after blockers resolve; continue lesson 123 production."
+}
