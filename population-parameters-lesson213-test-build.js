@@ -1,0 +1,8 @@
+const fs=require('fs'),path=require('path'),d=require('./population-parameters-lesson213-data.json');
+if(d.test.length!==5)throw Error('Five questions required');
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const items=d.test.map(q=>'<section><h3>'+q.difficulty+' — Question '+q.index+'</h3><p>'+esc(q.prompt)+'</p><input required aria-label="Question '+q.index+'"></section>').join('');
+const answers=JSON.stringify(d.test.map(q=>({answer:q.answer,solution:q.solution})));
+const script='<script>const key='+answers+';let submitted=false;document.querySelector("form").addEventListener("submit",e=>{e.preventDefault();if(submitted)return;submitted=true;let score=0;const inputs=[...document.querySelectorAll("form input")];const review=key.map((q,i)=>{const ok=inputs[i].value.trim().toUpperCase()===q.answer.toUpperCase();if(ok)score++;inputs[i].disabled=true;return "<li>Question "+(i+1)+": "+q.answer+". "+q.solution+"</li>"});document.getElementById("result").innerHTML="<h2>Score "+score+"/5</h2><ol>"+review.join("")+"</ol>";document.getElementById("submit").disabled=true});</script>';
+const html='<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="/styles.css"><title>'+d.title+' — Lesson Test</title></head><body><main class="page-shell"><section class="lesson-card"><div class="crumb">Sampling and Inference</div><h1>'+d.title+'</h1><h2>Lesson Test</h2><form>'+items+'<button id="submit" type="submit">Submit Test</button></form><div id="result" role="status"></div></section></main>'+script+'</body></html>';
+const dir=path.join(__dirname,'dist',d.base,'test');fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,'index.html'),html);
