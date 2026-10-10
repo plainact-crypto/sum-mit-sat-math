@@ -1,0 +1,70 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Solve advanced absolute value equations by checking signs, splitting into valid cases, and verifying every candidate in the original equation."
+  ],
+  [
+    "WHAT YOU NEED TO KNOW",
+    "Absolute value measures distance from zero. Therefore |A| is always nonnegative. An equation |A| = B can have solutions only where B is nonnegative."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Candidate solution: a value obtained from one algebraic case. Extraneous solution: a candidate that fails the original equation. Breakpoint: a value where an expression inside absolute value equals zero."
+  ],
+  [
+    "CORE RULE",
+    "If |A| = c with c >= 0, solve A = c and A = -c. If |A| = B(x), first require B(x) >= 0, solve A = B and A = -B, and check each candidate."
+  ],
+  [
+    "HOW IT WORKS",
+    "For one absolute value, split into two equations. For several absolute values, locate all breakpoints, solve a linear equation on each interval, and keep only answers in that interval. For nested absolute values, solve from the outside inward."
+  ],
+  [
+    "WORKED EXAMPLE 1 — TWO BRANCHES",
+    "Solve |2x - 5| = 7. Case 1: 2x - 5 = 7 gives x = 6. Case 2: 2x - 5 = -7 gives x = -1. Check: |12 - 5| = 7 and |-2 - 5| = 7."
+  ],
+  [
+    "WORKED EXAMPLE 2 — VARIABLE ON BOTH SIDES",
+    "Solve |2x - 5| = x + 1. Require x >= -1. The equations 2x - 5 = x + 1 and 2x - 5 = -(x + 1) give x = 6 and x = 4/3. Both make the right side nonnegative and satisfy the original."
+  ],
+  [
+    "WORKED EXAMPLE 3 — REJECT AN EXTRANEOUS ROOT",
+    "Solve |x + 3| = 2x - 1. Require x >= 1/2. Case 1 gives x = 4; case 2 gives x = -2/3, which fails the required sign. The only solution is x = 4."
+  ],
+  [
+    "WORKED EXAMPLE 4 — TWO DISTANCES",
+    "Solve |x - 1| + |x + 2| = 5. Break at -2 and 1. For x <= -2, the equation becomes -2x - 1 = 5 and gives -3. Between -2 and 1 the sum is 3. For x >= 1, 2x + 1 = 5 gives 2. Solutions: -3 and 2."
+  ],
+  [
+    "WORKED EXAMPLE 5 — NESTED ABSOLUTE VALUE",
+    "Solve ||x - 2| - 3| = 1. First |x - 2| - 3 = +/-1, so |x - 2| = 4 or 2. Then x = -2, 6, 0, or 4. Each makes the outer absolute value equal 1."
+  ],
+  [
+    "WORKED EXAMPLE 6 — AN INTERVAL OF SOLUTIONS",
+    "For |x - 2| + |x + 2| = 4, every x between -2 and 2 works because (2 - x) + (x + 2) = 4. Outside this interval the distance sum is larger. Answer: -2 <= x <= 2."
+  ],
+  [
+    "DESMOS STRATEGY",
+    "Enter: y = abs(x - 1) + abs(x + 2) and y = 5. Look for: intersections at (-3, 5) and (2, 5). Use it to answer: x = -3 and x = 2. Why it works: intersections represent inputs where the two sides are equal. Faster or not? Desmos is useful for checking multi-absolute-value equations; splitting cases is more reliable for exact parameter or interval answers. Algebra check: at -3, 4 + 1 = 5; at 2, 1 + 3 = 5."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not assume |A| = B always has two answers. Do not accept a candidate when B is negative. Do not forget that distance sums can equal a constant on an entire interval. Never discard a solution interval just because it is not a single number."
+  ],
+  [
+    "EXAM STRATEGY",
+    "For a variable right side, impose its nonnegative condition before branching. For a sum of absolute values, mark breakpoints on a number line and solve interval by interval. Verify all candidates against the original equation."
+  ],
+  [
+    "QUICK CHECK",
+    "Try |x - 4| = 0: x = 4. Try |x - 4| = -2: no solution because absolute value is never negative. Try |x - 4| = 3: x = 1 or 7."
+  ],
+  [
+    "LESSON RECAP",
+    "Absolute value means distance. Branch for one absolute value, split at breakpoints for sums, work outward-in for nesting, and always check the original equation."
+  ],
+  [
+    "NEXT STEP",
+    "Complete 18 practice questions in Skill Check, Core Practice, Exam-Style, and Challenge order. Review the 18 worked solutions, then submit the five-question test and study the full English or Arabic lesson."
+  ]
+]
