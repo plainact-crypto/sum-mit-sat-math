@@ -1,2 +1,16 @@
 'use strict';
-// Lesson 5 builder is being prepared.
+const fs=require('fs'),path=require('path'),base='algebra/linear-equations-in-one-variable/equations-with-decimals';
+const f=r=>path.join(__dirname,'dist',base,r,'index.html');
+const read=r=>fs.readFileSync(f(r),'utf8'),write=(r,h)=>fs.writeFileSync(f(r),h);
+const p=[8,3.5,5,6,10,4,5,3,6,3,3.5,5,6,45,3.5,'8x+24=104',10,9],t=[8,4,4,5,20];
+const problems=read('problems'),answers=read('answers'),test=read('test');
+const extract=s=>[...s.matchAll(/<div class="check-box">([\s\S]*?)<\/div>/g)].map(x=>x[1]);
+if(extract(problems).length!==18||(answers.match(/<b>Answer:<\/b>/g)||[]).length!==18||extract(test).length!==5)throw Error('Lesson 5 QA: counts');
+const ps='<script>const k='+JSON.stringify(p)+';document.querySelectorAll(".check-box").forEach((b,i)=>{let x=document.createElement("input"),m=document.createElement("span");x.setAttribute("aria-label","Answer "+(i+1));x.onchange=()=>{let n=s=>String(s).toLowerCase().replace(/\\s/g,"").replace(/^x=/,"");m.textContent=n(x.value)===n(k[i])?" Correct":" Try again"};b.append(x,m)});</script>';
+write('problems',problems.replace('</body>',ps+'</body>'));
+const groups=['Easy','Easy / Medium','Medium','Medium / Hard','Hard / Exam-Style'];
+const items=extract(test).map((q,i)=>'<section class="lesson-section"><h3>'+groups[i]+'</h3>'+q+'<label>Answer <input type="number" step="any" required></label><p class="feedback" hidden></p></section>').join('');
+const body='<h2>Lesson Test</h2><p>Submit all five answers at once. No feedback before submission.</p><form id="quiz">'+items+'<button type="submit">Submit Test</button><p id="score"></p></form>';
+const js='<script>const key='+JSON.stringify(t)+';let done=false;document.getElementById("quiz").onsubmit=e=>{e.preventDefault();if(done)return;let xs=[...e.currentTarget.querySelectorAll("input")];if(xs.some(x=>!x.value.trim()))return;done=true;let n=0;xs.forEach((x,i)=>{let ok=Math.abs(Number(x.value)-key[i])<1e-8;n+=Number(ok);x.disabled=true;let m=x.closest("section").querySelector(".feedback");m.hidden=false;m.textContent=(ok?"Correct. ":"Incorrect. ")+"Answer: "+key[i]});e.currentTarget.querySelector("button").disabled=true;document.getElementById("score").textContent="Final score: "+n+"/5"};</script>';
+write('test',test.replace(/<article class="lesson-content">[\s\S]*?<\/article>/,'<article class="lesson-content">'+body+'</article>').replace('</body>',js+'</body>'));
+console.log('Lesson5: 18 practice checks, 18 solutions, 5 progressive submit-once tests.');
