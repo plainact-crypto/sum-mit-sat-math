@@ -1,0 +1,12 @@
+{
+  "lesson_index": 265,
+  "lesson_slug": "dilations",
+  "worker": "SUMMIT Worker 5",
+  "branch": "automation/worker5-lesson265-dilations-20261010-1432",
+  "started_at": "2026-10-10T14:32:56+03:00",
+  "state": "IN_PROGRESS",
+  "canonical_base": "/geometry-and-trigonometry/coordinate-geometry/dilations",
+  "release_manifest": "lesson-releases/dilations.json",
+  "production_ready": false,
+  "live_routes_verified": false
+}
