@@ -1,1 +1,27 @@
-{"lessonIndex":148,"slug":"exponential-systems","owner":"worker3","status":"IN_PROGRESS","date":"2026-10-10"}
+{
+  "lessonIndex": 148,
+  "slug": "exponential-systems",
+  "owner": "worker3",
+  "status": "CORE_BUILT_LOCAL_QA_PASS_RELEASE_PENDING",
+  "date": "2026-10-10",
+  "qa": {
+    "practice": 18,
+    "groups": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answers": 18,
+    "tests": 5,
+    "englishScenes": 14,
+    "arabicScenes": 14,
+    "canonicalRoutes": 6,
+    "math": "PASS",
+    "isolatedBuild": "PASS"
+  },
+  "blockers": [
+    "PR creation rejected by connector safety checks",
+    "Full production build, merge, and live deployment not yet verified"
+  ]
+}
