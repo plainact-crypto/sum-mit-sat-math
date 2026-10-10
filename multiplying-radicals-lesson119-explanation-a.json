@@ -1,0 +1,26 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "<h2>Multiply and simplify square-root expressions</h2><p>Use the product property of square roots, simplify perfect-square factors, and multiply radical binomials.</p><p><b>sqrt(a)·sqrt(b)=sqrt(ab)</b> when a,b are nonnegative.</p>"
+  ],
+  [
+    "WHAT YOU NEED TO KNOW",
+    "<p>The principal square root is always nonnegative. Multiplying two nonnegative square roots is equivalent to taking the square root of their product. For example, sqrt(2)·sqrt(8)=sqrt(16)=4.</p>"
+  ],
+  [
+    "KEY DEFINITIONS",
+    "<p><b>Radicand:</b> the quantity inside a root. <b>Principal root:</b> nonnegative square root. <b>Perfect square:</b> a number such as 9, 16, or 25. <b>Conjugates:</b> (a+b) and (a-b).</p>"
+  ],
+  [
+    "CORE RULE",
+    "<p>For a,b at least zero, sqrt(a)sqrt(b)=sqrt(ab). Pull perfect squares out: sqrt(72)=sqrt(36·2)=6sqrt(2). With coefficients, multiply outside factors separately. For variables, sqrt(x^2)=|x|, not always x.</p>"
+  ],
+  [
+    "HOW IT WORKS",
+    "<ol><li>Confirm both radicands are nonnegative.</li><li>Multiply coefficients outside the radicals.</li><li>Multiply radicands and factor out perfect squares.</li><li>When multiplying sums, distribute or use conjugate identities.</li><li>Check variable signs and simplify.</li></ol>"
+  ],
+  [
+    "WORKED EXAMPLES 1–2",
+    "<h3>1. Basic</h3><p>sqrt(3)·sqrt(12)=sqrt(36)=<b>6</b>.</p><h3>2. Simplify</h3><p>sqrt(6)·sqrt(15)=sqrt(90)=sqrt(9·10)=<b>3sqrt(10)</b>.</p>"
+  ]
+]
