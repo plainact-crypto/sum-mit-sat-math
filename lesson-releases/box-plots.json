@@ -1,0 +1,17 @@
+{
+  "lesson": "box-plots",
+  "builders": [
+    "box-plots-lesson183-explanation-build.js",
+    "box-plots-lesson183-practice-build.js",
+    "box-plots-lesson183-test-build.js",
+    "box-plots-lesson183-video-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/one-variable-data/box-plots/explanation/",
+    "/problem-solving-and-data-analysis/one-variable-data/box-plots/problems/",
+    "/problem-solving-and-data-analysis/one-variable-data/box-plots/answers/",
+    "/problem-solving-and-data-analysis/one-variable-data/box-plots/test/",
+    "/problem-solving-and-data-analysis/one-variable-data/box-plots/video/english/",
+    "/problem-solving-and-data-analysis/one-variable-data/box-plots/video/arabic/"
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "lesson_index": 183,
+  "title": "Box Plots",
+  "slug": "box-plots",
+  "base": "problem-solving-and-data-analysis/one-variable-data/box-plots",
+  "classification": "GRAPH",
+  "quartile_convention": "median-of-halves excluding overall median when odd; ordinary min/max whiskers",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "prompt": "The box starts at 4, ends at 12, and has a median line at 7. What is Q1?",
+      "summary": [
+        1,
+        4,
+        7,
+        12,
+        16
+      ],
+      "kind": "q1",
+      "answer": 4,
+      "solution": "Q1 is the left edge of the box, which is 4."
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "prompt": "A box plot's whiskers reach 2 and 19. What is the range?",
+      "summary": [
+        2,
+        5,
+        9,
+        13,
+        19
+      ],
+      "kind": "range",
+      "answer": 17,
+      "solution": "Range = maximum − minimum = 19 − 2 = 17."
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "prompt": "A box extends from Q1=6 to Q3=15. What is the interquartile range?",
+      "summary": [
+        1,
+        6,
+        9,
+        15,
+        21
+      ],
+      "kind": "iqr",
+      "answer": 9,
+      "solution": "IQR = Q3 − Q1 = 15 − 6 = 9."
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "prompt": "For five-number summary (1, 4, 8, 13, 20), read the median.",
+      "summary": [
+        1,
+        4,
+        8,
+        13,
+        20
+      ],
+      "kind": "median",
+      "answer": 8,
+      "solution": "The line inside the box marks the median, 8."
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "prompt": "A box plot has five-number summary (3, 7, 11, 16, 25). How long is its upper whisker?",
+      "summary": [
+        3,
+        7,
+        11,
+        16,
+        25
+      ],
+      "kind": "rightWhisker",
+      "answer": 9,
+      "solution": "Upper whisker length = maximum − Q3 = 25 − 16 = 9."
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "prompt": "For summary (0, 6, 9, 18, 22), how long is the lower whisker?",
+      "summary": [
+        0,
+        6,
+        9,
+        18,
+        22
+      ],
+      "kind": "leftWhisker",
+      "answer": 6,
+      "solution": "Lower whisker length = Q1 − minimum = 6 − 0 = 6."
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "prompt": "A class has 40 scores represented by a box plot. Approximately how many scores lie between Q1 and Q3?",
+      "summary": [
+        2,
+        5,
+        9,
+        13,
+        16
+      ],
+      "kind": "middleCount",
+      "answer": 20,
+      "solution": "The box covers the middle 50% of 40 scores, so 0.5 × 40 = 20.",
+      "count": 40
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "prompt": "Approximately what percent of observations are at or above the median in a typical box plot?",
+      "summary": [
+        2,
+        5,
+        9,
+        13,
+        16
+      ],
+      "kind": "upperPercent",
+      "answer": 50,
+      "solution": "The median divides ordered observations into two halves: approximately 50% at or above."
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "prompt": "A has summary (1,3,6,9,15); B has (2,5,8,14,20). By how much is B's IQR larger than A's?",
+      "summary": [
+        1,
+        3,
+        6,
+        9,
+        15
+      ],
+      "kind": "iqrDiff",
+      "answer": 3,
+      "solution": "IQR(A)=9−3=6; IQR(B)=14−5=9; difference=3.",
+      "other": [
+        2,
+        5,
+        8,
+        14,
+        20
+      ]
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "prompt": "A has median 6 and B has median 8. How many units higher is B's median?",
+      "summary": [
+        1,
+        3,
+        6,
+        9,
+        15
+      ],
+      "kind": "medianDiff",
+      "answer": 2,
+      "solution": "Read the center lines: 8 − 6 = 2.",
+      "other": [
+        2,
+        5,
+        8,
+        14,
+        20
+      ]
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "prompt": "A box plot has median 10. If 5 is added to every data value, what is the new median?",
+      "summary": [
+        2,
+        6,
+        10,
+        14,
+        21
+      ],
+      "kind": "shiftMedian",
+      "answer": 15,
+      "solution": "Adding 5 shifts the entire plot and the median by 5: 10 + 5 = 15.",
+      "shift": 5
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "prompt": "A distribution has Q1=4 and Q3=10. Every value is doubled. What is the new IQR?",
+      "summary": [
+        1,
+        4,
+        6,
+        10,
+        16
+      ],
+      "kind": "scaleIQR",
+      "answer": 12,
+      "solution": "Original IQR=10−4=6; doubling all data doubles IQR to 12.",
+      "scale": 2
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "prompt": "Five-number summary (2,7,9,17,25). Find the upper outlier fence Q3+1.5×IQR.",
+      "summary": [
+        2,
+        7,
+        9,
+        17,
+        25
+      ],
+      "kind": "upperFence",
+      "answer": 32,
+      "solution": "IQR=17−7=10; upper fence=17+1.5(10)=32."
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "prompt": "For summary (2,6,11,18,27), how much greater is the total range than the IQR?",
+      "summary": [
+        2,
+        6,
+        11,
+        18,
+        27
+      ],
+      "kind": "rangeMinusIQR",
+      "answer": 13,
+      "solution": "Range=27−2=25; IQR=18−6=12; difference=13."
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "prompt": "For summary (3,8,13,19,27), how much longer is the upper whisker than the lower whisker?",
+      "summary": [
+        3,
+        8,
+        13,
+        19,
+        27
+      ],
+      "kind": "whiskerDiff",
+      "answer": 3,
+      "solution": "Upper whisker=27−19=8; lower whisker=8−3=5; difference=3."
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "prompt": "A has summary (2,5,8,12,16) and B has (1,7,10,17,25). By how many units is B's IQR greater?",
+      "summary": [
+        2,
+        5,
+        8,
+        12,
+        16
+      ],
+      "kind": "iqrDiff",
+      "answer": 3,
+      "solution": "A's IQR=12−5=7; B's IQR=17−7=10; B exceeds A by 3.",
+      "other": [
+        1,
+        7,
+        10,
+        17,
+        25
+      ]
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "prompt": "A box plot has Q1=9 and IQR=13. What must Q3 be?",
+      "summary": [
+        1,
+        9,
+        15,
+        22,
+        31
+      ],
+      "kind": "q3FromIQR",
+      "answer": 22,
+      "solution": "IQR=Q3−Q1, so Q3=9+13=22."
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "prompt": "A distribution has summary (3,6,9,15,21). Apply y=3x−2 to every value. What is the NEW upper outlier fence?",
+      "summary": [
+        3,
+        6,
+        9,
+        15,
+        21
+      ],
+      "kind": "transformedUpperFence",
+      "answer": 83.5,
+      "solution": "New Q1=3(6)−2=16; new Q3=3(15)−2=43; new IQR=27; upper fence=43+1.5(27)=83.5.",
+      "scale": 3,
+      "shift": -2
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "prompt": "A box plot's minimum is 3 and maximum is 14. Find its range.",
+      "summary": [
+        3,
+        5,
+        8,
+        11,
+        14
+      ],
+      "kind": "range",
+      "answer": 11,
+      "solution": "14−3=11.",
+      "difficulty": "Easy"
+    },
+    {
+      "index": 2,
+      "prompt": "A box plot's box edges are Q1=5 and Q3=12. Find the IQR.",
+      "summary": [
+        2,
+        5,
+        9,
+        12,
+        17
+      ],
+      "kind": "iqr",
+      "answer": 7,
+      "solution": "12−5=7.",
+      "difficulty": "Easy / Medium"
+    },
+    {
+      "index": 3,
+      "prompt": "Distribution A has median 8 and B has median 13. How much higher is B's median?",
+      "summary": [
+        2,
+        5,
+        8,
+        11,
+        16
+      ],
+      "kind": "medianDiff",
+      "answer": 5,
+      "solution": "13−8=5.",
+      "other": [
+        3,
+        7,
+        13,
+        18,
+        25
+      ],
+      "difficulty": "Medium"
+    },
+    {
+      "index": 4,
+      "prompt": "A box plot summarizes 32 observations. Approximately how many observations lie inside the box?",
+      "summary": [
+        1,
+        4,
+        7,
+        10,
+        16
+      ],
+      "kind": "middleCount",
+      "answer": 16,
+      "solution": "The box contains the middle 50%; 32×0.5=16.",
+      "count": 32,
+      "difficulty": "Medium / Hard"
+    },
+    {
+      "index": 5,
+      "prompt": "Q1=4 and Q3=12; the maximum is 27. By how much does the maximum exceed the upper outlier fence?",
+      "summary": [
+        1,
+        4,
+        8,
+        12,
+        27
+      ],
+      "kind": "excessAboveFence",
+      "answer": 3,
+      "solution": "IQR=8; upper fence=12+1.5(8)=24; maximum exceeds by 27−24=3.",
+      "difficulty": "Hard / Exam-Style"
+    }
+  ],
+  "qa": {
+    "practice": 18,
+    "distribution": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answers": 18,
+    "test": 5,
+    "independent_numeric_checks": 23,
+    "passed": true
+  }
+}

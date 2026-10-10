@@ -1,0 +1,58 @@
+[
+  [
+    "Box plots: the big picture",
+    "A box plot shows the center and spread of a data distribution using five numbers."
+  ],
+  [
+    "Five-number summary",
+    "From left to right: minimum, first quartile, median, third quartile, maximum."
+  ],
+  [
+    "The number line",
+    "Read positions from the number-line scale, not from the visual width of the screen."
+  ],
+  [
+    "The box",
+    "The left edge is Q1, the right edge is Q3. The box contains the middle fifty percent."
+  ],
+  [
+    "The median",
+    "The line inside the box is the median, not necessarily the mean."
+  ],
+  [
+    "Whiskers",
+    "In a basic box plot, the whiskers extend from the box to the minimum and maximum."
+  ],
+  [
+    "Worked example",
+    "For two, five, nine, thirteen, sixteen: the median is nine, and the box spans five through thirteen."
+  ],
+  [
+    "Interquartile range",
+    "Subtract Q1 from Q3. Thirteen minus five equals eight."
+  ],
+  [
+    "Overall range",
+    "Subtract minimum from maximum. Sixteen minus two equals fourteen."
+  ],
+  [
+    "Comparing plots",
+    "A box with a larger IQR shows more spread among the middle half, when the scales match."
+  ],
+  [
+    "Shifting scores",
+    "Adding five to every score moves the plot five units right without changing its spread."
+  ],
+  [
+    "Scaling scores",
+    "Multiplying every value by three triples the range, IQR, and whisker lengths."
+  ],
+  [
+    "Possible outliers",
+    "An upper outlier fence equals Q3 plus one point five times IQR. A modified box plot may display outliers separately."
+  ],
+  [
+    "SAT recap and practice",
+    "Read five landmarks first, then choose range, IQR, median, or whisker length. Solve the eighteen practice problems and five-question test."
+  ]
+]

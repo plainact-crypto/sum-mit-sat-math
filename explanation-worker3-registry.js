@@ -56,4 +56,5 @@ module.exports=[
       'Boundary QA: y=10-x gives 10,6,2 at x=0,4,8; y=6-0.5x gives 6,4,2. Setting them equal gives (8,2). Candidate (4,5): 4+5=9<=10 and 4+2(5)=14>=12. Candidate (2,3) fails the second condition because 2+2(3)=8<12.'
     )
   }
+  ,{slug:'box-plots',lesson:'Box Plots',classification:'GRAPH',graph:{bounds:{xMin:0,xMax:18,yMin:-2,yMax:2},lines:[{m:0,b:0,qaX:[2,9,16],yIntercept:0}],points:[{x:2,y:0,line:0,label:'minimum 2'},{x:5,y:0,line:0,label:'Q1 5'},{x:9,y:0,line:0,label:'median 9'},{x:13,y:0,line:0,label:'Q3 13'},{x:16,y:0,line:0,label:'maximum 16'}],caption:'Verified five-number landmarks on the same number line as the box plot.',ariaLabel:'Number line with minimum 2, Q1 5, median 9, Q3 13, maximum 16'},desmos:null}
 ];

@@ -1,0 +1,12 @@
+'use strict';
+const fs=require('fs'),path=require('path');
+const d=require('./box-plots-lesson183-math-data.json'),sections=require('./box-plots-lesson183-explanation-sections.json');
+const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const five=[2,5,9,13,16],x=v=>60+(v-0)*600/18;
+const marks=five.map((v,i)=>'<text x="'+x(v)+'" y="148" text-anchor="middle">'+['min','Q1','median','Q3','max'][i]+'='+v+'</text>').join('');
+const box='<svg viewBox="0 0 720 170" style="max-width:100%" role="img" aria-label="Box plot minimum 2, first quartile 5, median 9, third quartile 13, maximum 16"><line x1="60" y1="80" x2="660" y2="80" stroke="#24517d" stroke-width="2"/><line x1="'+x(2)+'" y1="65" x2="'+x(5)+'" y2="65" stroke="#1b6b9e" stroke-width="3"/><line x1="'+x(13)+'" y1="65" x2="'+x(16)+'" y2="65" stroke="#1b6b9e" stroke-width="3"/><line x1="'+x(2)+'" y1="47" x2="'+x(2)+'" y2="98" stroke="#1b6b9e" stroke-width="3"/><line x1="'+x(16)+'" y1="47" x2="'+x(16)+'" y2="98" stroke="#1b6b9e" stroke-width="3"/><rect x="'+x(5)+'" y="37" width="'+(x(13)-x(5))+'" height="58" fill="#c9e4f8" stroke="#1b6b9e" stroke-width="3"/><line x1="'+x(9)+'" y1="37" x2="'+x(9)+'" y2="95" stroke="#1b6b9e" stroke-width="3"/>'+marks+'</svg>';
+const nav=['problems','answers','test','video/english','video/arabic'].map(s=>'<a href="/'+d.base+'/'+s+'/">'+s+'</a>').join(' · ');
+const body=sections.map((s,i)=>'<section class="lesson-section"><h2>'+(i+1)+'. '+esc(s[0])+'</h2><p>'+esc(s[1])+'</p>'+(i===10?box:'')+'</section>').join('');
+const html='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/styles.css"><title>'+d.title+' — Explanation | SUMMIT SAT MATH</title></head><body><main class="page-shell"><section class="lesson-card"><div class="crumb">Problem Solving and Data Analysis · One-Variable Data</div><div class="page-type">Explanation</div><h1>'+d.title+'</h1><!-- SUMMIT_RETROFIT:box-plots:GRAPH -->'+body+'<nav>'+nav+'</nav></section></main></body></html>';
+const dir=path.join(__dirname,'dist',d.base,'explanation');fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,'index.html'),html);
+console.log('Lesson 183: 16 explanation sections and deterministic five-number box plot');

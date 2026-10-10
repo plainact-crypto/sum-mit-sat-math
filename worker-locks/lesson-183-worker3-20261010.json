@@ -4,6 +4,13 @@
   "slug": "box-plots",
   "worker": "worker3",
   "branch": "worker3-lesson183-box-plots-20261010",
-  "status": "IN_PROGRESS",
-  "date": "2026-10-10"
+  "status": "CONTENT_COMMITTED_PENDING_BUILD",
+  "date": "2026-10-10",
+  "qa": {
+    "numeric": 23,
+    "practice": 18,
+    "answers": 18,
+    "test": 5,
+    "video_scenes_each": 14
+  }
 }

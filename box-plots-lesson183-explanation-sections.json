@@ -1,0 +1,66 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Read, draw, and compare box plots using the five-number summary; calculate range, IQR, and whisker lengths, and interpret the middle 50%."
+  ],
+  [
+    "CORE IDEA",
+    "A box plot compresses a distribution into five ordered landmarks: minimum, Q1, median (Q2), Q3, and maximum. The box shows the middle half of the data."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Minimum and maximum are the extremes; Q1 and Q3 mark the 25th and 75th percentiles; the median marks the center. A whisker connects a box edge to an extreme in a basic box plot."
+  ],
+  [
+    "CORE RULE",
+    "Five-number summary: min ≤ Q1 ≤ median ≤ Q3 ≤ max. IQR=Q3−Q1; range=max−min; lower whisker=Q1−min; upper whisker=max−Q3."
+  ],
+  [
+    "HOW IT WORKS",
+    "Sort the data. Find the median; find Q1 and Q3 as medians of lower and upper halves (exclude the central observation for odd n). Draw a number line, whiskers at min/max, a box from Q1 to Q3, and a median line."
+  ],
+  [
+    "WORKED EXAMPLE 1 — READ THE BOX",
+    "A plot has min=2, Q1=5, median=9, Q3=13, max=16. Read the box edges as 5 and 13 and the median line as 9. Its IQR is 13−5=8."
+  ],
+  [
+    "WORKED EXAMPLE 2 — COMPARE SPREAD",
+    "Plot A has Q1=3, Q3=9; plot B has Q1=5, Q3=14. IQR(A)=6, IQR(B)=9. B has 3 units more spread among the middle half."
+  ],
+  [
+    "WORKED EXAMPLE 3 — WHISKERS",
+    "For summary (3,7,11,16,25), the lower whisker is 7−3=4 and upper whisker is 25−16=9. The upper tail extends 5 units farther."
+  ],
+  [
+    "WORKED EXAMPLE 4 — TRANSLATION",
+    "If all scores increase by 5, the entire box plot shifts right by 5. Median 10 becomes 15, but range and IQR remain unchanged."
+  ],
+  [
+    "WORKED EXAMPLE 5 — SCALE AND OUTLIERS",
+    "For Q1=7, Q3=17, IQR=10; the upper 1.5×IQR fence is 17+15=32. A value above 32 may be an outlier. Multiplying all values by 3 triples whisker lengths and IQR."
+  ],
+  [
+    "DETERMINISTIC BOX PLOT",
+    "The exact five-number summary (2,5,9,13,16) determines every position in the diagram below. This basic plot uses whiskers to the minimum and maximum; modified outlier box plots may use different whisker endpoints."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not read the width of the box in screen pixels: use the number-line scale. Do not mistake the median line for the mean. A longer whisker means a longer numeric tail, not necessarily more observations."
+  ],
+  [
+    "EXAM STRATEGY",
+    "Read the five landmarks first. For IQR use the box edges; for range use the whisker endpoints. Compare two plots using the same horizontal scale. State whether the question asks about center, spread, or possible outliers."
+  ],
+  [
+    "QUICK CHECK",
+    "If Q1=6 and Q3=15, IQR=9. If min=2 and max=19, range=17. A sample of 40 scores has about 20 scores inside the box."
+  ],
+  [
+    "LESSON RECAP",
+    "A box plot shows minimum, Q1, median, Q3, maximum. The box contains the middle 50%; IQR=Q3−Q1; range=max−min. Read every length using the number-line units."
+  ],
+  [
+    "NEXT STEP",
+    "Complete all 18 Practice Problems, compare each answer to the aligned worked solution, and submit the five-question Lesson Test. Watch the full English or Arabic lesson for guided review."
+  ]
+]
