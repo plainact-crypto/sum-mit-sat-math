@@ -1,0 +1,13 @@
+{
+  "lesson_index": 150,
+  "worker": "worker5",
+  "status": "BLOCKED_PRODUCTION_INTEGRATION",
+  "content_commit": "5dc28a4087decada16156a3dfb9b92faa99ab7e6",
+  "mathematical_QA": "23/23 PASS",
+  "browser_QA": "38/38 PASS local",
+  "preview_build": "READY for content commit, but production-build does not invoke new builder",
+  "production_deployed": false,
+  "broadcast": "NOT_SENT",
+  "blocker": "Safety checks rejected production-build.js update and PR creation",
+  "short_form_videos": 0
+}
