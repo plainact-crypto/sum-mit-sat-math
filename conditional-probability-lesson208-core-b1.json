@@ -1,0 +1,1 @@
+[{"index":8,"group":"Core Practice","prompt":"Of 100 people, 40 own a car, 50 bike, and 20 do both. Find P(bikes | no car).","answer":0.5,"solution":"60 have no car and 30 of those bike; 30/60=0.5.","qa":[30,60]},{"index":9,"group":"Core Practice","prompt":"P(A and B)=0.18 and P(B)=0.60. Find P(A | B).","answer":0.3,"solution":"0.18/0.60=0.30.","qa":[0.18,0.6]}]
