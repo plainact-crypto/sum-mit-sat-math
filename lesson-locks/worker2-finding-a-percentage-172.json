@@ -1,0 +1,11 @@
+{
+  "worker": "SUMMIT Worker 2",
+  "canonical_index": 172,
+  "canonical_slug": "finding-a-percentage",
+  "title": "Finding a Percentage",
+  "status": "IN_PROGRESS",
+  "created": "2026-10-11",
+  "branch": "worker2/finding-a-percentage-172-20261011",
+  "ownership": "2,7,12,17,22,...,297",
+  "notes": "Proceeding after Lesson 167 builder/registry writes were blocked; no merge until complete six-route release passes."
+}
