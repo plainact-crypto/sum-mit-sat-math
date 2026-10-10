@@ -1,0 +1,13 @@
+{
+  "lesson_index": 110,
+  "slug": "composite-functions-from-graphs",
+  "core_content": "COMPLETE_ON_BRANCH",
+  "math_qa": "PASS 23/23",
+  "browser_qa": "PASS 25/25 local",
+  "video": "full horizontal English MP4 locally; English and Arabic browser narration routes in repository",
+  "production": "BLOCKED",
+  "blocker": "Production build and explanation registry edits rejected by safety checks; PR creation rejected",
+  "broadcast": "NOT_SENT",
+  "branch": "automation/worker5-lesson110-complete-20261010-0516",
+  "deployed_commit": null
+}
