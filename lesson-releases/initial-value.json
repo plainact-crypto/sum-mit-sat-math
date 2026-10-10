@@ -1,0 +1,15 @@
+{
+  "lesson": "initial-value",
+  "builders": [
+    "initial-value-lesson124-build.js",
+    "initial-value-lesson124-qa-build.js"
+  ],
+  "routes": [
+    "/advanced-math/exponential-functions/initial-value/explanation/",
+    "/advanced-math/exponential-functions/initial-value/problems/",
+    "/advanced-math/exponential-functions/initial-value/answers/",
+    "/advanced-math/exponential-functions/initial-value/test/",
+    "/advanced-math/exponential-functions/initial-value/video/english/",
+    "/advanced-math/exponential-functions/initial-value/video/arabic/"
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "lesson": "initial-value",
+  "title": "Initial Value",
+  "base": "/advanced-math/exponential-functions/initial-value",
+  "classification": "DESMOS",
+  "explanation": [
+    [
+      "LESSON OBJECTIVE",
+      "<h2>Find the starting amount in an exponential model</h2><p>For f(t)=a·b^t, identify or recover the <b>initial value</b> a, the value when t=0.</p>"
+    ],
+    [
+      "WHAT YOU NEED TO KNOW",
+      "<p>Exponential models multiply by the same factor over equal input intervals. The starting value is the output at input zero, not the growth factor. Because b^0=1 for b&gt;0, f(0)=a.</p>"
+    ],
+    [
+      "KEY DEFINITIONS",
+      "<p><b>Initial value:</b> f(0), the starting amount. <b>Growth/decay factor:</b> b, the multiplier per unit interval. <b>Exponential model:</b> f(t)=a·b^t with b&gt;0 and b≠1 for nonconstant growth/decay.</p>"
+    ],
+    [
+      "CORE RULE",
+      "<p><b>f(0)=a·b^0=a.</b> If f(k)=v and b is known, solve <b>a=v/b^k</b>. When given two values, determine b first from f(t₂)/f(t₁)=b^(t₂−t₁), then back-calculate a.</p>"
+    ],
+    [
+      "HOW IT WORKS",
+      "<ol><li>Find the time/input that represents the start: t=0.</li><li>If the model is a·b^t, read a directly.</li><li>If given a later value, divide by the growth factor raised to the elapsed time.</li><li>If given a table or two points, find the multiplier b before solving for a.</li><li>Check by substituting t=0 and the provided data point.</li></ol>"
+    ],
+    [
+      "WORKED EXAMPLES 1–2",
+      "<h3>1. Read the coefficient</h3><p>P(t)=500(0.92)^t has P(0)=500(1)=<b>500</b>. The 0.92 is a decay factor, not the starting population.</p><h3>2. Work backward</h3><p>f(2)=72 and b=3. Since 72=a·3²=9a, <b>a=8</b>. Check: 8·9=72.</p>"
+    ],
+    [
+      "WORKED EXAMPLES 3–4",
+      "<h3>3. From a table</h3><p>If f(1)=24 and f(2)=36, the multiplier is 36/24=1.5. Then a=24/1.5=<b>16</b>.</p><h3>4. Shifted exponent</h3><p>For y=5·2^(x+3), the initial value is y(0)=5·2³=<b>40</b>, not 5. The coefficient is the initial value only when the exponent is exactly x.</p>"
+    ],
+    [
+      "DESMOS STRATEGY",
+      "<p><b>Enter:</b> y=80(1.25)^x.</p><p><b>Look for:</b> the y-intercept (0,80).</p><p><b>Use it to answer:</b> the initial value is 80.</p><p><b>Why it works:</b> at x=0, (1.25)^0=1, so y=80.</p><p><b>Faster or not?</b> Reading a from standard form is faster; Desmos is useful to verify a graph or nonstandard representation.</p>"
+    ],
+    [
+      "COMMON MISTAKES",
+      "<p>Do not confuse a with b or the percent growth rate. A value at t=1 is not the initial value. With f(t)=C·b^(t−h), C is f(h), not necessarily f(0). Keep time units consistent and check whether a negative input is allowed by context.</p>"
+    ],
+    [
+      "EXAM STRATEGY",
+      "<p>First evaluate at zero. If b and one data point are known, use a=f(k)/b^k. If two points are given, divide outputs to cancel a, solve b, then find a. For doubled-every-three-hours models, use 2^(t/3) rather than 2^t.</p>"
+    ],
+    [
+      "QUICK CHECK",
+      "<p><b>Try:</b> f(t)=25(1.08)^t. <details><summary>Reveal</summary>f(0)=25.</details></p><p><b>Try:</b> f(2)=100, b=2. <details><summary>Reveal</summary>a=100/4=25.</details></p>"
+    ],
+    [
+      "LESSON RECAP",
+      "<p>Initial value means output at input zero. In f(t)=a·b^t it is a. Backward calculation uses a=f(k)/b^k. Shifted exponent forms require substituting t=0; always verify with the original model.</p>"
+    ],
+    [
+      "NEXT STEP",
+      "<p><a href=\"../problems/\">Practice 18 questions</a>, <a href=\"../answers/\">study the 18 worked solutions</a>, <a href=\"../test/\">take the 5-question test</a>, or watch the <a href=\"../video/english/\">English</a> / <a href=\"../video/arabic/\">Arabic</a> full lesson.</p>"
+    ]
+  ],
+  "practice": [
+    [
+      "Skill Check",
+      "For f(t)=12·2^t, what is the initial value?",
+      "12",
+      "Set t=0: f(0)=12·2^0=12."
+    ],
+    [
+      "Skill Check",
+      "Find g(0) when g(x)=7(0.6)^x.",
+      "7",
+      "Any positive base to power zero is 1, so g(0)=7."
+    ],
+    [
+      "Skill Check",
+      "For h(x)=a(1.4)^x, h(0)=35. Find a.",
+      "35",
+      "h(0)=a(1.4)^0=a, so a=35."
+    ],
+    [
+      "Core Practice",
+      "An exponential table lists f(0)=3, f(1)=6, and f(2)=12. Find the initial value.",
+      "3",
+      "The initial value is the output at zero, f(0)=3."
+    ],
+    [
+      "Core Practice",
+      "A population model is P(t)=500(0.92)^t. What was the starting population?",
+      "500",
+      "At t=0, P(0)=500(1)=500. The factor 0.92 describes decay."
+    ],
+    [
+      "Core Practice",
+      "For f(t)=a·3^t, f(2)=72. Find a.",
+      "8",
+      "72=a·3²=9a, so a=72/9=8."
+    ],
+    [
+      "Core Practice",
+      "For f(t)=a(1.5)^t, f(1)=45. Find a.",
+      "30",
+      "45=1.5a, hence a=45/1.5=30."
+    ],
+    [
+      "Core Practice",
+      "For f(t)=a·2^t, f(-1)=10. Find a.",
+      "20",
+      "10=a·2^(-1)=a/2, so a=20."
+    ],
+    [
+      "Core Practice",
+      "For f(t)=a(1.5)^t, f(3)=54. Find a.",
+      "16",
+      "a=54/(1.5³)=54/3.375=16."
+    ],
+    [
+      "Core Practice",
+      "An exponential table gives f(1)=24 and f(2)=36. Find f(0).",
+      "16",
+      "The common factor is 36/24=1.5, so f(0)=24/1.5=16."
+    ],
+    [
+      "Core Practice",
+      "A machine loses 20% of its value each year. After 2 years it is worth $1,536. Find its initial value.",
+      "$2,400",
+      "The factor is 0.8, so 1536=a(0.8)²=0.64a; a=2400 dollars."
+    ],
+    [
+      "Exam-Style",
+      "A bacteria culture triples every hour. After 3 hours there are 3,375 cells. How many were present initially?",
+      "125",
+      "3375=a·3³=27a, so a=3375/27=125 cells."
+    ],
+    [
+      "Exam-Style",
+      "An exponential model f(t)=a·b^t passes through (2,48) and (4,192), with b>0. Find a.",
+      "12",
+      "192/48=b²=4, so b=2. Then 48=a·2²=4a, giving a=12."
+    ],
+    [
+      "Exam-Style",
+      "For f(t)=a·b^t with b>0, f(-1)=20 and f(1)=80. Find f(0).",
+      "40",
+      "80/20=b²=4, so b=2. Then 20=a/2, so a=40."
+    ],
+    [
+      "Exam-Style",
+      "Find the initial value of y=5·2^(x+3).",
+      "40",
+      "At x=0, y=5·2³=40. The coefficient 5 is not the initial value in shifted form."
+    ],
+    [
+      "Exam-Style",
+      "An exponential model is f(t)=90(1.2)^(t-2). Find f(0).",
+      "62.5",
+      "f(0)=90(1.2)^(-2)=90/1.44=62.5."
+    ],
+    [
+      "Challenge",
+      "For f(t)=a·b^t with b>0, f(1)=18 and f(3)=162. Find the initial value.",
+      "6",
+      "162/18=b²=9, so b=3. Then a=18/3=6."
+    ],
+    [
+      "Challenge",
+      "A quantity doubles every 3 hours. After 9 hours it is 640. Find its initial amount.",
+      "80",
+      "Nine hours is three doubling periods, so 640=a·2³=8a and a=80."
+    ]
+  ],
+  "test": [
+    [
+      "Easy",
+      "For f(t)=45(1.1)^t, find f(0).",
+      "45",
+      "f(0)=45(1.1)^0=45."
+    ],
+    [
+      "Easy / Medium",
+      "Find the initial value of y=6(0.5)^(x+2).",
+      "1.5",
+      "At x=0, y=6(0.5)²=6/4=1.5."
+    ],
+    [
+      "Medium",
+      "For f(t)=a·7^t and f(2)=98, find a.",
+      "2",
+      "98=a·49, so a=2."
+    ],
+    [
+      "Medium / Hard",
+      "An exponential table gives f(1)=30 and f(2)=45. Find f(0).",
+      "20",
+      "The factor is 45/30=1.5, so f(0)=30/1.5=20."
+    ],
+    [
+      "Hard / Exam-Style",
+      "For f(t)=a·b^t with b>0, f(-1)=15 and f(2)=120. Find a.",
+      "30",
+      "120/15=b³=8, so b=2. Then 15=a/2 and a=30."
+    ]
+  ],
+  "video": {
+    "english": [
+      [
+        "What is initial value?",
+        "The initial value is the output when the input or time is zero. It represents the starting amount in an exponential situation.",
+        "Initial value=f(0)"
+      ],
+      [
+        "Read standard form",
+        "In f(t)=a times b to the t, b to the zero is one. Therefore the starting amount is a.",
+        "f(t)=a·b^t ⇒ f(0)=a"
+      ],
+      [
+        "Growth versus starting value",
+        "Five hundred times zero point nine two to the t starts at five hundred. The factor zero point nine two means eight percent decay each period.",
+        "P(t)=500(0.92)^t"
+      ],
+      [
+        "Recover a from one point",
+        "If f(2)=72 and the factor is three, divide seventy-two by three squared. The initial value is eight.",
+        "a=72/3²=8"
+      ],
+      [
+        "Find a factor from a table",
+        "If f(1)=24 and f(2)=36, the factor is one point five. Work back one step to get sixteen at time zero.",
+        "b=36/24=1.5; a=16"
+      ],
+      [
+        "Shifted exponent warning",
+        "Five times two to the x plus three has initial value forty, because x zero makes the exponent three. The coefficient five is not the start here.",
+        "5·2^(0+3)=40"
+      ],
+      [
+        "Two-point exam method",
+        "When two outputs are given, divide them to eliminate the initial value. Solve for the growth factor, then divide one output by its factor power.",
+        "f(t₂)/f(t₁)=b^(t₂−t₁)"
+      ],
+      [
+        "Recap and practice",
+        "Initial value is always the output at zero. Read the coefficient only in unshifted standard form, work backward from later values, and check your answer with substitution.",
+        "f(0)=a"
+      ]
+    ],
+    "arabic": [
+      [
+        "يعني إيه قيمة ابتدائية؟",
+        "القيمة الابتدائية هي ناتج الدالة لما الزمن يساوي صفر. دي الكمية اللي بدأنا بيها قبل النمو أو التناقص.",
+        "القيمة الابتدائية=f(0)"
+      ],
+      [
+        "الصيغة الأساسية",
+        "في الدالة إيه في بي أس تي، أي عدد موجب أس صفر يساوي واحد. عشان كده القيمة الابتدائية هي إيه.",
+        "f(t)=a·b^t ⇒ f(0)=a"
+      ],
+      [
+        "الفرق بين البداية ومعدل التغير",
+        "خمسمية في صفر فاصلة اتنين وتسعين أس تي تبدأ بخمسمية. أما صفر فاصلة اتنين وتسعين فهو معامل تناقص تمانية في المية.",
+        "P(t)=500(0.92)^t"
+      ],
+      [
+        "نرجع من قيمة لاحقة",
+        "لو قيمة الدالة عند الزمن اتنين هي اتنين وسبعين ومعامل النمو تلاتة، نقسم اتنين وسبعين على تسعة. البداية تمانية.",
+        "a=72/3²=8"
+      ],
+      [
+        "نستخرج المعامل من جدول",
+        "لو قيمة الدالة عند واحد أربعة وعشرين، وعند اتنين ستة وتلاتين، نقسم ستة وتلاتين على أربعة وعشرين. المعامل واحد ونص، والبداية ستاشر.",
+        "b=1.5; a=16"
+      ],
+      [
+        "خد بالك من الأس المزاح",
+        "خمسة في اتنين أس إكس زائد تلاتة، لما إكس بصفر الناتج أربعين. الخمسة هنا مش هي القيمة الابتدائية.",
+        "5·2^(0+3)=40"
+      ],
+      [
+        "طريقة سؤال الامتحان",
+        "لو عندنا قيمتين للدالة، نقسمهم على بعض عشان نشيل القيمة الابتدائية، ونحسب معامل النمو. بعدين نرجع للزمن صفر.",
+        "f(t₂)/f(t₁)=b^(t₂−t₁)"
+      ],
+      [
+        "ملخص وتدريب",
+        "القيمة الابتدائية دايمًا قيمة الدالة عند صفر. اقراها من الصيغة العادية، أو ارجع للخلف من قيمة لاحقة، وراجع بالتعويض.",
+        "f(0)=a"
+      ]
+    ]
+  }
+}
