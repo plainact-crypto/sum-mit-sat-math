@@ -1,0 +1,62 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Multiply rational expressions, simplify, and preserve original denominator restrictions. The rule is (A/B)(C/D)=AC/(BD), for B≠0 and D≠0."
+  ],
+  [
+    "CORE IDEA",
+    "A rational expression is a quotient of polynomials. Factor numerators and denominators before multiplying. Cancel common factors, not individual terms. Canceled denominator factors still exclude values."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Factor: an expression multiplied by another. Excluded value: a zero of any original denominator. Difference of squares: a²−b²=(a−b)(a+b). Equivalent on a domain: equal for all permitted x."
+  ],
+  [
+    "CORE RULE",
+    "Multiply numerators and multiply denominators. Factor first, cancel only identical nonzero factors, and retain all exclusions from the original denominators."
+  ],
+  [
+    "HOW IT WORKS",
+    "1. List zeros of every original denominator. 2. Factor all polynomials. 3. Cancel matching nonzero factors. 4. Multiply remaining factors. 5. Verify at a permitted input."
+  ],
+  [
+    "WORKED EXAMPLE 1",
+    "(2/x)(3/5)=6/(5x), with x≠0. Multiply straight across."
+  ],
+  [
+    "WORKED EXAMPLE 2",
+    "((x²−9)/(x+2))((x+2)/(x−3))=((x−3)(x+3)/(x+2))((x+2)/(x−3))=x+3, x≠−2,3. Check at x=6: both equal 9."
+  ],
+  [
+    "WORKED EXAMPLE 3",
+    "((x²−4)/(x²−1))((x−1)/(x+2))=((x−2)(x+2)/((x−1)(x+1)))((x−1)/(x+2))=(x−2)/(x+1), x≠−2,−1,1."
+  ],
+  [
+    "WORKED EXAMPLE 4",
+    "((x²+5x+6)/(x²−4))((x−2)/(x+3))=((x+2)(x+3)/((x−2)(x+2)))((x−2)/(x+3))=1, but x≠−3,−2,2."
+  ],
+  [
+    "WORKED EXAMPLE 5",
+    "((x²−1)/(x²−4x+3))((x²−9)/(x²+4x+3))=1 after factoring and canceling. Still exclude x=−3,−1,1,3."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not cancel x from (x+5)/x: x+5 is a sum, not a factor. Do not forget holes after cancellation. Do not add denominators when multiplying. Inspect both original denominators."
+  ],
+  [
+    "EXAM STRATEGY",
+    "Factor first, cancel common factors, then multiply leftovers. Record restrictions before cancellation. Algebra is faster and more reliable than graphing for this operation."
+  ],
+  [
+    "QUICK CHECK",
+    "(x/3)(6/x)=2 for x≠0. ((x²−1)/(x−1))(2/(x+1))=2 for x≠−1,1. You cannot cancel x in (x+5)/x."
+  ],
+  [
+    "LESSON RECAP",
+    "Original restrictions → factor completely → cancel matching factors → multiply leftovers → check. Canceled factors may disappear from the formula but not from the domain."
+  ],
+  [
+    "NEXT STEP",
+    "Practice Problems → Answers & Solutions → Lesson Test → English and Arabic full lesson videos."
+  ]
+]
