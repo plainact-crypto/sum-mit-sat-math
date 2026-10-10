@@ -1,0 +1,14 @@
+{
+  "lesson": "converting-between-representations",
+  "builders": [
+    "converting-between-representations-lesson154-release-build.js"
+  ],
+  "routes": [
+    "/advanced-math/nonlinear-functions/converting-between-representations/explanation/",
+    "/advanced-math/nonlinear-functions/converting-between-representations/problems/",
+    "/advanced-math/nonlinear-functions/converting-between-representations/answers/",
+    "/advanced-math/nonlinear-functions/converting-between-representations/test/",
+    "/advanced-math/nonlinear-functions/converting-between-representations/video/english/",
+    "/advanced-math/nonlinear-functions/converting-between-representations/video/arabic/"
+  ]
+}
