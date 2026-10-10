@@ -1,0 +1,86 @@
+{
+  "english": [
+    [
+      "Advanced Absolute Value Equations",
+      "In this full lesson, we solve absolute value equations using distance, branches, interval cases, and checks.",
+      "|A| = B requires B >= 0"
+    ],
+    [
+      "Distance and two branches",
+      "Absolute value is distance from zero. A distance of seven means the inside can be positive seven or negative seven.",
+      "|2x - 5| = 7 -> x = 6 or -1"
+    ],
+    [
+      "Variable right-hand sides",
+      "When the other side depends on x, first require it to be nonnegative. Solve both algebraic cases and check every candidate.",
+      "|x + 3| = 2x - 1 -> x = 4"
+    ],
+    [
+      "Multiple absolute values",
+      "Mark where each inside expression changes sign. Solve separately in each interval and reject roots outside their interval.",
+      "|x - 1| + |x + 2| = 5 -> -3, 2"
+    ],
+    [
+      "Nested absolute values",
+      "Work from the outside inward. Each valid outer branch may create two more inner branches.",
+      "||x - 2| - 3| = 1 -> -2, 0, 4, 6"
+    ],
+    [
+      "Intervals and infinitely many solutions",
+      "A sum of distances can stay constant between two points. Sometimes the answer is a whole interval rather than isolated numbers.",
+      "|x - 2| + |x + 2| = 4 for -2 <= x <= 2"
+    ],
+    [
+      "Desmos verification",
+      "Graph both sides to find intersections, then verify the x-values algebraically. Use graphing as a check, not a substitute for sign reasoning.",
+      "abs(x - 1) + abs(x + 2) = 5 -> -3, 2"
+    ],
+    [
+      "Final exam strategy",
+      "Check the right-hand side, list breakpoints, solve each case, and substitute candidates into the original. Practice eighteen problems and finish the five-question test.",
+      "Distance -> cases -> verify"
+    ]
+  ],
+  "arabic": [
+    [
+      "معادلات القيمة المطلقة المتقدمة",
+      "في هذا الدرس الكامل سنتعلم حل معادلات القيمة المطلقة باستخدام المسافة والحالات والفترات والتحقق من الحلول.",
+      "|A| = B ويجب أن يكون B >= 0"
+    ],
+    [
+      "المسافة والحالتان",
+      "القيمة المطلقة تمثل المسافة عن الصفر. إذا كانت المسافة سبعة، فالتعبير الداخلي يساوي سبعة أو سالب سبعة.",
+      "|2x - 5| = 7 والحل x = 6 أو -1"
+    ],
+    [
+      "طرف أيمن يحتوي على متغير",
+      "قبل تقسيم المعادلة إلى حالتين، تأكد أن الطرف الأيمن غير سالب. بعد الحل عوض في المعادلة الأصلية واستبعد أي قيمة غير صحيحة.",
+      "|x + 3| = 2x - 1 والحل x = 4"
+    ],
+    [
+      "أكثر من قيمة مطلقة",
+      "حدد نقاط تغير الإشارة لكل تعبير، ثم حل المعادلة داخل كل فترة على حدة. احتفظ فقط بالحل الموجود في الفترة الصحيحة.",
+      "|x - 1| + |x + 2| = 5 والحلان -3 و 2"
+    ],
+    [
+      "قيمة مطلقة داخل قيمة مطلقة",
+      "ابدأ من القيمة المطلقة الخارجية ثم انتقل للداخل. قد تنتج أربع قيم مختلفة، ويجب اختبار كل واحدة.",
+      "||x - 2| - 3| = 1 والحلول -2 و 0 و 4 و 6"
+    ],
+    [
+      "فترة كاملة من الحلول",
+      "مجموع المسافتين من نقطتين ثابت بينهما. لذلك يمكن أن تكون مجموعة الحلول فترة كاملة وليست أعدادا منفصلة.",
+      "|x - 2| + |x + 2| = 4 عندما -2 <= x <= 2"
+    ],
+    [
+      "التحقق باستخدام ديسموس",
+      "ارسم الطرفين وحدد نقاط التقاطع، ثم تحقق من قيم س جبريا. الرسم وسيلة للمراجعة وليس بديلا عن تحليل الإشارات.",
+      "abs(x - 1) + abs(x + 2) = 5 والحلان -3 و 2"
+    ],
+    [
+      "خطة حل أسئلة الامتحان",
+      "تحقق من إشارة الطرف الأيمن، وحدد نقاط الفصل، ثم حل كل حالة وعوض في الأصل. بعد الدرس حل ثمانية عشر تمرينا ثم الاختبار.",
+      "المسافة ثم الحالات ثم التحقق"
+    ]
+  ]
+}
