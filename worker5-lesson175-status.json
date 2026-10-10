@@ -1,11 +1,21 @@
 {
   "lesson": 175,
   "slug": "percent-increase",
-  "state": "BLOCKED_PRODUCTION_WRITE",
-  "core_nonvideo": "present on branch, not deployed",
-  "video": "MP4 asset not present; browser-video completion attempted",
-  "blocker": "GitHub update_file safety checks rejected both math-data revision and video builder update on 2026-10-09",
-  "production": false,
+  "state": "BLOCKED_PRODUCTION_WIRING",
+  "core": "COMPLETE_ON_BRANCH",
+  "explanation": 15,
+  "practice": "18 (3/8/5/2)",
+  "solutions": 18,
+  "test": 5,
+  "video_routes": [
+    "video/english",
+    "video/arabic"
+  ],
+  "video_chapters_each": 12,
+  "branch_build_emulation": "6/6 PASS",
+  "independent_math_qa": "23/23 PASS",
+  "main_merge": false,
+  "production_live": false,
   "broadcast": "NOT_SENT",
-  "next_action": "Resume only when writes are accepted; prioritize next owned incomplete lesson."
+  "blocker": "GitHub safety checks rejected production-build.js edits; branch video routes are ready but not wired to production."
 }
