@@ -1,0 +1,15 @@
+{
+  "lesson": "overlapping-solution-regions",
+  "builders": [
+    "overlapping-solution-regions-lesson55-test-lock-build.js",
+    "overlapping-solution-regions-lesson55-full-video-build.js"
+  ],
+  "routes": [
+    "/algebra/systems-of-linear-inequalities/overlapping-solution-regions/explanation/",
+    "/algebra/systems-of-linear-inequalities/overlapping-solution-regions/problems/",
+    "/algebra/systems-of-linear-inequalities/overlapping-solution-regions/answers/",
+    "/algebra/systems-of-linear-inequalities/overlapping-solution-regions/test/",
+    "/algebra/systems-of-linear-inequalities/overlapping-solution-regions/video/english/",
+    "/algebra/systems-of-linear-inequalities/overlapping-solution-regions/video/arabic/"
+  ]
+}
