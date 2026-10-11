@@ -1,0 +1,102 @@
+{
+  "english": [
+    [
+      "01 — Why special products matter",
+      "Certain polynomial products repeat predictable patterns. Recognizing them helps you expand faster and avoid multiplying every term separately."
+    ],
+    [
+      "02 — Square of a sum",
+      "The identity is the quantity a plus b squared equals a squared plus two a b plus b squared. The middle term is twice the product, not just the product."
+    ],
+    [
+      "03 — Worked square of a sum",
+      "Expand the quantity x plus six squared. Square x to get x squared, add two times x times six to get twelve x, then square six to get thirty six. The result is x squared plus twelve x plus thirty six."
+    ],
+    [
+      "04 — Square of a difference",
+      "The quantity a minus b squared equals a squared minus two a b plus b squared. The last term stays positive because negative b times negative b is positive."
+    ],
+    [
+      "05 — Worked square of a difference",
+      "Expand the quantity two x minus five squared. Square two x to get four x squared, subtract twenty x for the middle term, then add twenty five. Result: four x squared minus twenty x plus twenty five."
+    ],
+    [
+      "06 — Conjugate products",
+      "Conjugates have the same terms but opposite signs. The product of a plus b and a minus b is a squared minus b squared because the cross terms cancel."
+    ],
+    [
+      "07 — Worked conjugates",
+      "Multiply three x plus two by three x minus two. The middle terms cancel, leaving nine x squared minus four. Do not square the entire difference."
+    ],
+    [
+      "08 — Two variables",
+      "The quantity two a plus five b squared expands to four a squared plus twenty a b plus twenty five b squared. The middle term uses both variables."
+    ],
+    [
+      "09 — Recognize a perfect square",
+      "Twenty five x squared plus thirty x plus nine equals the quantity five x plus three squared. Check that the middle term is two times five x times three, which equals thirty x."
+    ],
+    [
+      "10 — Application to area",
+      "A square with side x plus five has area the quantity x plus five squared, or x squared plus ten x plus twenty five square units. The middle term represents the two rectangular cross pieces."
+    ],
+    [
+      "11 — Exam challenge",
+      "Simplify the quantity two x plus seven squared minus the quantity two x minus seven squared. Expand both: four x squared plus twenty eight x plus forty nine, minus four x squared minus twenty eight x plus forty nine. The result is fifty six x."
+    ],
+    [
+      "12 — Test strategy and recap",
+      "Identify sum square, difference square, or conjugates first. Check the middle term and signs. For a parameter question, compare coefficients: if the quantity a x plus four squared equals nine x squared plus twenty four x plus sixteen and a is positive, then a equals three."
+    ]
+  ],
+  "arabic": [
+    [
+      "٠١ — لماذا نستخدم المتطابقات",
+      "بعض عمليات ضرب كثيرات الحدود تتكرر في أنماط ثابتة. التعرف عليها يجعل فك الأقواس أسرع ويقلل الأخطاء."
+    ],
+    [
+      "٠٢ — مربع المجموع",
+      "مربع الكمية أ زائد ب يساوي أ تربيع زائد اثنين أ ب زائد ب تربيع. الحد الأوسط يساوي ضعف حاصل ضرب الحدين، وليس حاصل الضرب فقط."
+    ],
+    [
+      "٠٣ — مثال مربع المجموع",
+      "فك مربع الكمية س زائد ستة. مربع س هو س تربيع، والحد الأوسط اثنا عشر س، ومربع ستة ستة وثلاثون. الناتج س تربيع زائد اثني عشر س زائد ستة وثلاثين."
+    ],
+    [
+      "٠٤ — مربع الفرق",
+      "مربع الكمية أ ناقص ب يساوي أ تربيع ناقص اثنين أ ب زائد ب تربيع. الحد الأخير موجب لأن ضرب سالب في سالب يعطي موجباً."
+    ],
+    [
+      "٠٥ — مثال مربع الفرق",
+      "فك مربع الكمية اثنان س ناقص خمسة. مربع اثنين س يساوي أربعة س تربيع، والحد الأوسط سالب عشرين س، ثم نضيف خمسة وعشرين. هذا هو الناتج النهائي."
+    ],
+    [
+      "٠٦ — ضرب المترافقين",
+      "المترافقان لهما الحدّان نفسيهما مع اختلاف إشارة أحدهما. حاصل ضرب أ زائد ب في أ ناقص ب يساوي أ تربيع ناقص ب تربيع، لأن الحدين الأوسطين يتلاشيان."
+    ],
+    [
+      "٠٧ — مثال المترافقين",
+      "اضرب ثلاثة س زائد اثنين في ثلاثة س ناقص اثنين. الحدّان الأوسطان يتلاشيان، فيبقى تسعة س تربيع ناقص أربعة."
+    ],
+    [
+      "٠٨ — متغيران",
+      "مربع الكمية اثنان أ زائد خمسة ب يساوي أربعة أ تربيع زائد عشرين أ ب زائد خمسة وعشرين ب تربيع. لاحظ أن الحد الأوسط يحتوي المتغيرين."
+    ],
+    [
+      "٠٩ — التعرف على المربع الكامل",
+      "خمسة وعشرون س تربيع زائد ثلاثون س زائد تسعة تساوي مربع الكمية خمسة س زائد ثلاثة. نتحقق من الحد الأوسط: اثنان في خمسة س في ثلاثة يساوي ثلاثين س."
+    ],
+    [
+      "١٠ — تطبيق المساحة",
+      "مربع طول ضلعه س زائد خمسة. مساحته مربع الكمية س زائد خمسة، أي س تربيع زائد عشرة س زائد خمسة وعشرين وحدة مربعة."
+    ],
+    [
+      "١١ — تحدي الاختبار",
+      "بسط مربع الكمية اثنان س زائد سبعة، ناقص مربع الكمية اثنان س ناقص سبعة. عند الفك تتلاشى حدود س تربيع والثوابت، ويتبقى ستة وخمسون س."
+    ],
+    [
+      "١٢ — مراجعة سريعة",
+      "حدد أولاً هل السؤال مربع مجموع أم مربع فرق أم ضرب مترافقين. راجع الحد الأوسط والإشارات. إذا كان مربع الكمية أ س زائد أربعة يساوي تسعة س تربيع زائد أربعة وعشرين س زائد ستة عشر، وأ موجب، فإن أ يساوي ثلاثة."
+    ]
+  ]
+}
