@@ -1,7 +1,8 @@
 {
   "lesson": "combined-events",
   "builders": [
-    "combined-events-lesson207-build.js"
+    "combined-events-lesson207-build.js",
+    "combined-events-lesson207-test-asset-build.js"
   ],
   "routes": [
     "/problem-solving-and-data-analysis/probability/combined-events/explanation/",
