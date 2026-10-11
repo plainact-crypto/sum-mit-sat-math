@@ -1,0 +1,15 @@
+{
+  "lesson": "composite-solids",
+  "builders": [
+    "composite-solids-lesson257-core-build.js",
+    "composite-solids-lesson257-video-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/volume-and-surface-area/composite-solids/explanation/",
+    "/geometry-and-trigonometry/volume-and-surface-area/composite-solids/problems/",
+    "/geometry-and-trigonometry/volume-and-surface-area/composite-solids/answers/",
+    "/geometry-and-trigonometry/volume-and-surface-area/composite-solids/test/",
+    "/geometry-and-trigonometry/volume-and-surface-area/composite-solids/video/english/",
+    "/geometry-and-trigonometry/volume-and-surface-area/composite-solids/video/arabic/"
+  ]
+}
