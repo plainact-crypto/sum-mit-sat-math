@@ -1,0 +1,30 @@
+{
+  "english": [
+    "Similar triangles preserve corresponding angles.",
+    "Corresponding sides have a common positive scale factor.",
+    "Sine equals opposite over hypotenuse.",
+    "Cosine equals adjacent over hypotenuse.",
+    "Tangent equals opposite over adjacent.",
+    "For 3, 4, 5, sine is 3/5.",
+    "For 6, 8, 10, sine is 6/10, also 3/5.",
+    "The factor cancels from numerator and denominator.",
+    "Use tangent 2/3 with adjacent 18 to find opposite 12.",
+    "Lengths scale by k; areas scale by k squared.",
+    "Desmos checks decimals, but cancellation is faster.",
+    "Complete 18 practice questions and the five-question test."
+  ],
+  "arabic": [
+    "المثلثات المتشابهة تحتفظ بالزوايا المتناظرة.",
+    "الأضلاع المتناظرة لها معامل تكبير واحد.",
+    "الجيب يساوي المقابل على الوتر.",
+    "جيب التمام يساوي المجاور على الوتر.",
+    "الظل يساوي المقابل على المجاور.",
+    "في مثلث ثلاثة أربعة خمسة، الجيب ثلاثة أخماس.",
+    "في مثلث ستة ثمانية عشرة، الجيب ستة أعشار ويساوي ثلاثة أخماس.",
+    "معامل التكبير يختصر من البسط والمقام.",
+    "إذا كان الظل ثلثين والمجاور ثمانية عشر فالمقابل اثنا عشر.",
+    "الأطوال تتغير بمعامل التكبير والمساحة بمربعه.",
+    "ديسموس يفيد في التحقق لكن الاختصار أسرع.",
+    "حل ثمانية عشر تمرينا ثم اختبار الأسئلة الخمسة."
+  ]
+}
