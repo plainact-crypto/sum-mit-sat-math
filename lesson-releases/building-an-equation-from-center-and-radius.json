@@ -1,0 +1,14 @@
+{
+  "lesson": "building-an-equation-from-center-and-radius",
+  "builders": [
+    "building-an-equation-from-center-and-radius-lesson280-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/circles/circle-equation/building-an-equation-from-center-and-radius/explanation/",
+    "/geometry-and-trigonometry/circles/circle-equation/building-an-equation-from-center-and-radius/problems/",
+    "/geometry-and-trigonometry/circles/circle-equation/building-an-equation-from-center-and-radius/answers/",
+    "/geometry-and-trigonometry/circles/circle-equation/building-an-equation-from-center-and-radius/test/",
+    "/geometry-and-trigonometry/circles/circle-equation/building-an-equation-from-center-and-radius/video/english/",
+    "/geometry-and-trigonometry/circles/circle-equation/building-an-equation-from-center-and-radius/video/arabic/"
+  ]
+}
