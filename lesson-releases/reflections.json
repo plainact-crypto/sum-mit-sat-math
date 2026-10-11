@@ -1,0 +1,18 @@
+{
+  "lesson": "reflections",
+  "builders": [
+    "reflections-lesson263-explanation-build.js",
+    "reflections-lesson263-practice-build.js",
+    "reflections-lesson263-test-build.js",
+    "reflections-lesson263-video-build.js",
+    "reflections-lesson263-qa.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/coordinate-geometry/reflections/explanation/",
+    "/geometry-and-trigonometry/coordinate-geometry/reflections/problems/",
+    "/geometry-and-trigonometry/coordinate-geometry/reflections/answers/",
+    "/geometry-and-trigonometry/coordinate-geometry/reflections/test/",
+    "/geometry-and-trigonometry/coordinate-geometry/reflections/video/english/",
+    "/geometry-and-trigonometry/coordinate-geometry/reflections/video/arabic/"
+  ]
+}
