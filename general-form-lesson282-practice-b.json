@@ -1,0 +1,38 @@
+[
+  {
+    "group": "Core Practice",
+    "prompt": "Find the radius of x²+y²−6x−8y=0.",
+    "answer": "5",
+    "solution": "r²=(36+64)/4=25, so r=5.",
+    "choices": [
+      "5",
+      "25",
+      "10",
+      "4"
+    ],
+    "qa": {
+      "kind": "radius",
+      "D": -6,
+      "E": -8,
+      "F": 0
+    }
+  },
+  {
+    "group": "Core Practice",
+    "prompt": "Complete squares in x²+y²+2x−4y−20=0.",
+    "answer": "(x+1)²+(y−2)²=25",
+    "solution": "Move −20, add 1 and 4, then factor both perfect squares.",
+    "choices": [
+      "(x+1)²+(y−2)²=25",
+      "(x−1)²+(y+2)²=25",
+      "(x+1)²+(y−2)²=20",
+      "(x+2)²+(y−4)²=25"
+    ],
+    "qa": {
+      "kind": "standard",
+      "D": 2,
+      "E": -4,
+      "F": -20
+    }
+  }
+]
