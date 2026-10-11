@@ -1,0 +1,79 @@
+{
+  "lesson": "two-variable-linear-inequalities",
+  "canonicalIndex": 50,
+  "checkedAt": "2026-10-11",
+  "practiceDistribution": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "practiceCount": 18,
+  "answersCount": 18,
+  "testCount": 5,
+  "independentlySolvedPracticeAnswerIndices": [
+    2,
+    1,
+    2,
+    0,
+    3,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    2,
+    0,
+    3,
+    1,
+    1
+  ],
+  "independentlySolvedTestAnswerIndices": [
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "practiceMatches": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "testMatches": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "graphChecks": {
+    "y=2x+1": {
+      "(-1,-1)": true,
+      "(0,1)": true,
+      "(2,5)": true
+    },
+    "(0,0) satisfies y<=2x+1": true,
+    "(0,3) does not satisfy y<=2x+1": true
+  },
+  "result": "PASS",
+  "notes": "All 23 choices independently recomputed, including sign reversal, strict/inclusive boundaries, contextual inequality translations and budget constraints. Existing test lacks submit-once protection; required builder pending."
+}
