@@ -1,0 +1,1 @@
+[{"number":5,"difficulty":"Hard / Exam-Style","question":"A rectangle has length three times its width and perimeter 96 m. Find the difference between its length and width.","choices":["12 m","24 m","36 m","48 m"],"correct":1,"answer":"24 m","solution":"2(3w+w)=96 gives w=12 and length 36; difference=36−12=24 m."}]
