@@ -1,0 +1,41 @@
+[
+  {
+    "number": 3,
+    "difficulty": "Medium",
+    "question": "Circumference is 14π inches. Find diameter.",
+    "choices": [
+      "7 in",
+      "14 in",
+      "28 in",
+      "14π in"
+    ],
+    "correct": 1,
+    "solution": "Divide circumference by π to obtain 14 inches."
+  },
+  {
+    "number": 4,
+    "difficulty": "Medium / Hard",
+    "question": "Diameter endpoints are (1,2) and (7,10). Find length.",
+    "choices": [
+      "8",
+      "14",
+      "10",
+      "12"
+    ],
+    "correct": 2,
+    "solution": "Distance is √(6²+8²)=10."
+  },
+  {
+    "number": 5,
+    "difficulty": "Hard / Exam-Style",
+    "question": "Area is 121π square meters. Find diameter.",
+    "choices": [
+      "11 m",
+      "22 m",
+      "121 m",
+      "242 m"
+    ],
+    "correct": 1,
+    "solution": "Radius is √121=11 m; diameter 22 m."
+  }
+]
