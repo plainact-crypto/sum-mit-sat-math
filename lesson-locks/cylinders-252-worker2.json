@@ -1,1 +1,8 @@
-{"lesson_index":252,"slug":"cylinders","owner":"SUMMIT Worker 2","status":"IN_PROGRESS","canonical_base":"/geometry-and-trigonometry/volume-and-surface-area/cylinders"}
+{
+  "lesson_index": 252,
+  "slug": "cylinders",
+  "owner": "SUMMIT Worker 2",
+  "status": "BLOCKED_UPLOAD",
+  "canonical_base": "/geometry-and-trigonometry/volume-and-surface-area/cylinders",
+  "blocker": "Math QA passed; video and builder incomplete."
+}
