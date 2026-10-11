@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Understanding diameter",
+    "narration": "A diameter joins two points on the circle and passes through its center.",
+    "math": "d = 2r"
+  },
+  {
+    "title": "Radius conversion",
+    "narration": "To find diameter, multiply radius by two.",
+    "math": "r=6, d=12"
+  },
+  {
+    "title": "Reverse conversion",
+    "narration": "To find radius, divide diameter by two.",
+    "math": "d=18, r=9"
+  }
+]
