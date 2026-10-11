@@ -1,0 +1,11 @@
+{
+  "lesson_index": 268,
+  "slug": "chord",
+  "owner": "SUMMIT Worker 3",
+  "branch": "worker3-lesson268-chord-20261011",
+  "canonical_base": "/geometry-and-trigonometry/circles/circle-vocabulary/chord",
+  "status": "IN_PROGRESS",
+  "started_at": "2026-10-11",
+  "release_manifest": "lesson-releases/chord.json",
+  "notes": "Following Lesson 258 and 263 core package QA; release operations pending unrelated global gate and PR access."
+}
