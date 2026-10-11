@@ -1,0 +1,422 @@
+{
+  "lesson_index": 258,
+  "slug": "distance-formula",
+  "title": "Distance Formula",
+  "base": "geometry-and-trigonometry/coordinate-geometry/distance-formula",
+  "subject": "Geometry and Trigonometry",
+  "section": "Coordinate Geometry",
+  "classification": "BOTH",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "prompt": "Find the distance between A(0, 0) and B(3, 4).",
+      "answer": "5",
+      "solution": "Subtract coordinates: Δx=3−0=3, Δy=4−0=4. Distance=√(3²+4²)=√25=5 units.",
+      "qa": {
+        "type": "dist",
+        "a": [
+          0,
+          0
+        ],
+        "b": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "prompt": "Find the distance between A(1, 2) and B(4, 6).",
+      "answer": "5",
+      "solution": "The changes are Δx=4−1=3 and Δy=6−2=4. Distance=√(9+16)=5 units.",
+      "qa": {
+        "type": "dist",
+        "a": [
+          1,
+          2
+        ],
+        "b": [
+          4,
+          6
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "prompt": "Find the distance between A(−2, 3) and B(4, 3).",
+      "answer": "6",
+      "solution": "Both points have y=3, so the segment is horizontal. Distance=|4−(−2)|=6 units.",
+      "qa": {
+        "type": "dist",
+        "a": [
+          -2,
+          3
+        ],
+        "b": [
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "prompt": "Find the distance between A(−1, −2) and B(5, 6).",
+      "answer": "10",
+      "solution": "Δx=5−(−1)=6; Δy=6−(−2)=8. Distance=√(6²+8²)=√100=10 units.",
+      "qa": {
+        "type": "dist",
+        "a": [
+          -1,
+          -2
+        ],
+        "b": [
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "prompt": "Find the distance between A(−4, 1) and B(2, −7).",
+      "answer": "10",
+      "solution": "Δx=2−(−4)=6 and Δy=−7−1=−8. Distance=√(36+64)=10 units; the negative rise is squared.",
+      "qa": {
+        "type": "dist",
+        "a": [
+          -4,
+          1
+        ],
+        "b": [
+          2,
+          -7
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "prompt": "Find the distance between A(5, −1) and B(5, 8).",
+      "answer": "9",
+      "solution": "The x-coordinates match, so the segment is vertical. Distance=|8−(−1)|=9 units.",
+      "qa": {
+        "type": "dist",
+        "a": [
+          5,
+          -1
+        ],
+        "b": [
+          5,
+          8
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "prompt": "Find the distance between A(−3, 4) and B(9, −1).",
+      "answer": "13",
+      "solution": "Δx=9−(−3)=12; Δy=−1−4=−5. Distance=√(144+25)=√169=13 units.",
+      "qa": {
+        "type": "dist",
+        "a": [
+          -3,
+          4
+        ],
+        "b": [
+          9,
+          -1
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "prompt": "Find the distance between A(−6, −2) and B(2, 4).",
+      "answer": "10",
+      "solution": "Δx=8 and Δy=6. Distance=√(8²+6²)=√100=10 units.",
+      "qa": {
+        "type": "dist",
+        "a": [
+          -6,
+          -2
+        ],
+        "b": [
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "prompt": "For A(−2, −3) and B(5, 4), find the SQUARE of the distance AB.",
+      "answer": "98",
+      "solution": "Δx=7, Δy=7. Squared distance is 7²+7²=49+49=98; the distance itself would be √98=7√2.",
+      "qa": {
+        "type": "dist2",
+        "a": [
+          -2,
+          -3
+        ],
+        "b": [
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "prompt": "How far is P(−8, 6) from the origin (0, 0)?",
+      "answer": "10",
+      "solution": "Distance=√((−8)²+6²)=√(64+36)=10 units.",
+      "qa": {
+        "type": "dist",
+        "a": [
+          -8,
+          6
+        ],
+        "b": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "prompt": "Point A(2, 3) is 10 units from B(8, y). Given y>3, find y.",
+      "answer": "11",
+      "solution": "10²=(8−2)²+(y−3)², so (y−3)²=100−36=64. Thus y−3=±8; y>3 selects y=11.",
+      "qa": {
+        "type": "unknownY",
+        "a": [
+          2,
+          3
+        ],
+        "bx": 8,
+        "d": 10,
+        "condition": "above"
+      }
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "prompt": "Find the distance between A(−5, 7) and B(7, 2).",
+      "answer": "13",
+      "solution": "Δx=7−(−5)=12, Δy=2−7=−5. Distance=√(144+25)=13 units.",
+      "qa": {
+        "type": "dist",
+        "a": [
+          -5,
+          7
+        ],
+        "b": [
+          7,
+          2
+        ]
+      }
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "prompt": "A rectangular garden is 9 m wide and 12 m long. Find the straight-line diagonal in meters.",
+      "answer": "15",
+      "solution": "The diagonal is the hypotenuse of a right triangle: d=√(9²+12²)=√225=15 m.",
+      "qa": {
+        "type": "rect",
+        "w": 9,
+        "h": 12
+      }
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "prompt": "A circle has center C(1, −2) and passes through P(7, 6). Find its radius.",
+      "answer": "10",
+      "solution": "The radius is the distance CP: Δx=6 and Δy=8, so r=√(36+64)=10 units.",
+      "qa": {
+        "type": "dist",
+        "a": [
+          1,
+          -2
+        ],
+        "b": [
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "prompt": "Triangle A(0, 0), B(6, 0), C(6, 8) has what perimeter?",
+      "answer": "24",
+      "solution": "AB=6 (horizontal), BC=8 (vertical), AC=√(6²+8²)=10. Perimeter=6+8+10=24 units.",
+      "qa": {
+        "type": "perimeter",
+        "a": [
+          0,
+          0
+        ],
+        "b": [
+          6,
+          0
+        ],
+        "c": [
+          6,
+          8
+        ]
+      }
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "prompt": "From P(1, 1), B(9, 7) is 10 units away and C(6, 13) is farther. How many units farther is C than B?",
+      "answer": "3",
+      "solution": "PB=√(8²+6²)=10; PC=√(5²+12²)=13. Difference=13−10=3 units.",
+      "qa": {
+        "type": "difference",
+        "p": [
+          1,
+          1
+        ],
+        "b": [
+          9,
+          7
+        ],
+        "c": [
+          6,
+          13
+        ]
+      }
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "prompt": "Point P(t, 2) is equally distant from A(0, 0) and B(8, 0). Find t.",
+      "answer": "4",
+      "solution": "Set squared distances equal: t²+2²=(t−8)²+2². Cancel 4, expand t²=t²−16t+64; hence t=4.",
+      "qa": {
+        "type": "equalX",
+        "ax": 0,
+        "bx": 8,
+        "py": 2,
+        "ay": 0
+      }
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "prompt": "A(x, 1) and B(2, 9) are 10 units apart. Given x<2, find x.",
+      "answer": "-4",
+      "solution": "100=(2−x)²+(9−1)²=(2−x)²+64. So (2−x)²=36, 2−x=±6; x<2 gives 2−x=6 and x=−4.",
+      "qa": {
+        "type": "unknownX",
+        "ay": 1,
+        "b": [
+          2,
+          9
+        ],
+        "d": 10,
+        "condition": "left"
+      }
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "difficulty": "Easy",
+      "prompt": "Find the distance between (0, 0) and (3, 4).",
+      "answer": "5",
+      "solution": "Δx=3 and Δy=4, so √(9+16)=5.",
+      "qa": {
+        "type": "dist",
+        "a": [
+          0,
+          0
+        ],
+        "b": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "Find the distance between (−2, 1) and (4, 9).",
+      "answer": "10",
+      "solution": "Δx=6, Δy=8; √(36+64)=10.",
+      "qa": {
+        "type": "dist",
+        "a": [
+          -2,
+          1
+        ],
+        "b": [
+          4,
+          9
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "difficulty": "Medium",
+      "prompt": "Find the distance between (2, −3) and (9, 21).",
+      "answer": "25",
+      "solution": "Δx=7, Δy=24; √(49+576)=√625=25.",
+      "qa": {
+        "type": "dist",
+        "a": [
+          2,
+          -3
+        ],
+        "b": [
+          9,
+          21
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "A circle centered at (−2, 4) passes through (10, 9). Find its radius.",
+      "answer": "13",
+      "solution": "The radius is √((10+2)²+(9−4)²)=√(144+25)=13.",
+      "qa": {
+        "type": "dist",
+        "a": [
+          -2,
+          4
+        ],
+        "b": [
+          10,
+          9
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "A(x, −1) is 17 units from B(3, 7). If x<3, find x.",
+      "answer": "-12",
+      "solution": "17²=(3−x)²+(7+1)², so (3−x)²=289−64=225. Since x<3, 3−x=15 and x=−12.",
+      "qa": {
+        "type": "unknownX",
+        "ay": -1,
+        "b": [
+          3,
+          7
+        ],
+        "d": 17,
+        "condition": "left"
+      }
+    }
+  ]
+}
