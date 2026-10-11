@@ -1,0 +1,14 @@
+{
+  "lesson": "comparing-spread",
+  "builders": [
+    "comparing-spread-lesson192-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/measures-of-spread/comparing-spread/explanation/",
+    "/problem-solving-and-data-analysis/measures-of-spread/comparing-spread/problems/",
+    "/problem-solving-and-data-analysis/measures-of-spread/comparing-spread/answers/",
+    "/problem-solving-and-data-analysis/measures-of-spread/comparing-spread/test/",
+    "/problem-solving-and-data-analysis/measures-of-spread/comparing-spread/video/english/",
+    "/problem-solving-and-data-analysis/measures-of-spread/comparing-spread/video/arabic/"
+  ]
+}
