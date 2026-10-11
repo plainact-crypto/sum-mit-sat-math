@@ -1,7 +1,9 @@
 {
   "lesson": "standard-form",
   "builders": [
-    "circle-standard-form-lesson277-build.js"
+    "circle-standard-form-lesson277-build.js",
+    "circle-standard-form-lesson277-qa-build.js",
+    "circle-standard-form-lesson277-graph-build.js"
   ],
   "routes": [
     "/geometry-and-trigonometry/circles/circle-equation/standard-form/explanation/",
