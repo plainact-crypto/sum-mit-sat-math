@@ -332,9 +332,9 @@
     {
       "index": 1,
       "difficulty": "Easy",
-      "prompt": "Find the distance between (0, 0) and (3, 4).",
-      "answer": "5",
-      "solution": "Δx=3 and Δy=4, so √(9+16)=5.",
+      "prompt": "Find the distance between (0, 0) and (5, 12).",
+      "answer": "13",
+      "solution": "The horizontal and vertical changes are 5 and 12; sqrt(25+144)=13.",
       "qa": {
         "type": "dist",
         "a": [
@@ -342,8 +342,8 @@
           0
         ],
         "b": [
-          3,
-          4
+          5,
+          12
         ]
       }
     },
