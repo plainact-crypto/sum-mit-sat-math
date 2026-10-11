@@ -196,7 +196,7 @@
         "far": 70
       },
       "prompt": "A tower is 30 m high. From 40 m and 70 m away, find the difference between the two angles of elevation. Round your answer to the nearest hundredth.",
-      "solution": "Difference=arctan(30/40)−arctan(30/70)≈13.22°.",
+      "solution": "Difference=arctan(30/40)−arctan(30/70)≈13.67°.",
       "answer": 13.67
     },
     {
