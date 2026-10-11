@@ -1,0 +1,70 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Reflect points and figures across coordinate axes, diagonal lines, and shifted horizontal or vertical mirror lines. Solve missing-coordinate problems and explain what reflection preserves."
+  ],
+  [
+    "WHAT YOU NEED TO KNOW",
+    "A reflection flips a figure across a mirror line. The image is the same perpendicular distance on the opposite side of the line; points on the mirror stay fixed."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Preimage means the original point or figure; image means the result; line of reflection is the mirror; corresponding points are equally far from the mirror."
+  ],
+  [
+    "CORE RULE",
+    "Across x-axis: (x,y)→(x,−y). Across y-axis: (x,y)→(−x,y). Across y=x: (x,y)→(y,x). Across y=−x: (x,y)→(−y,−x)."
+  ],
+  [
+    "SHIFTED MIRROR RULES",
+    "Across x=a: (x,y)→(2a−x,y). Across y=b: (x,y)→(x,2b−y). The mirror coordinate is the midpoint of the original and reflected coordinates."
+  ],
+  [
+    "HOW IT WORKS",
+    "Identify the mirror line, apply the correct coordinate rule, label the new ordered pair, then check that the midpoint of each original-image segment lies on the mirror."
+  ],
+  [
+    "WORKED EXAMPLE 1 — X-AXIS",
+    "Reflect P(3,4) across the x-axis. Keep x=3, change y to −4, so P'=(3,−4). Both points are four units from y=0."
+  ],
+  [
+    "WORKED EXAMPLE 2 — Y-AXIS",
+    "Reflect Q(−5,2) across the y-axis. Change x to 5, keep y=2, so Q'=(5,2). Both points are five units from x=0."
+  ],
+  [
+    "WORKED EXAMPLE 3 — DIAGONAL MIRRORS",
+    "Across y=x, (2,−7) becomes (−7,2). Across y=−x, (−2,7) becomes (−7,2). Do not confuse swapping with swapping and negating."
+  ],
+  [
+    "WORKED EXAMPLE 4 — SHIFTED VERTICAL MIRROR",
+    "Reflect (5,1) across x=2. The mirror is three units left of x=5, so the image is three units left of x=2: x'=−1. Algebra confirms 2(2)−5=−1."
+  ],
+  [
+    "WORKED EXAMPLE 5 — MISSING MIRROR",
+    "P(1,5) maps to P'(9,5) across x=a. The mirror is midway between x=1 and x=9: a=(1+9)/2=5."
+  ],
+  [
+    "WORKED EXAMPLE 6 — TWO REFLECTIONS",
+    "Reflect (2,5) across the x-axis to (2,−5), then across y=x to (−5,2). Apply transformations in the stated order; reversing the order can change the result."
+  ],
+  [
+    "VERIFIED REFLECTION GRAPH",
+    "P(2,3) and P'(−2,3) lie on y=3 and are exactly two units from the mirror x=0. The midpoint is (0,3), and the connecting segment is perpendicular to the mirror."
+  ],
+  [
+    "DESMOS STRATEGY",
+    "Enter: plot (2,3), (−2,3), and x=0. Look for: equal horizontal distances from each point to the mirror. Use it to answer: check that the y-axis image is (−2,3). Why it works: the mirror is the perpendicular bisector of the point-image segment. Faster or not? Coordinate rules are faster for simple points; Desmos helps visualize complex figures."
+  ],
+  [
+    "WHAT REFLECTION PRESERVES",
+    "Reflections preserve lengths, angles, perimeters, and areas, but reverse orientation. For a right triangle with legs 6 and 4, the reflected triangle still has area 12."
+  ],
+  [
+    "COMMON MISTAKES AND EXAM STRATEGY",
+    "Do not negate both coordinates for an x-axis reflection; that is a different transformation. For x=a use 2a−x, not a−x. Quick checks: across y=−x, (3,−8)→(8,−3); across x=1, (−5,2)→(7,2)."
+  ],
+  [
+    "LESSON RECAP AND NEXT STEP",
+    "Identify the mirror, apply the coordinate rule, verify equal perpendicular distances, and preserve size and shape. Continue with 18 practice problems, their aligned solutions, and the five-question test."
+  ]
+]
