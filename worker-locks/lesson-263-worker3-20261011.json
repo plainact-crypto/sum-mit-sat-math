@@ -1,0 +1,11 @@
+{
+  "lesson_index": 263,
+  "slug": "reflections",
+  "owner": "SUMMIT Worker 3",
+  "branch": "worker3-lesson263-reflections-20261011",
+  "canonical_base": "/geometry-and-trigonometry/coordinate-geometry/reflections",
+  "status": "IN_PROGRESS",
+  "started_at": "2026-10-11",
+  "release_manifest": "lesson-releases/reflections.json",
+  "notes": "Advanced after Lesson 258 content QA passed but release blocked by pre-existing global retrofit gate and GitHub PR restriction."
+}
