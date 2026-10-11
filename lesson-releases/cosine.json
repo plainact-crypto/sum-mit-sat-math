@@ -1,0 +1,17 @@
+{
+  "lesson": "cosine",
+  "builders": [
+    "cosine-lesson288-explanation-build.js",
+    "cosine-lesson288-practice-build.js",
+    "cosine-lesson288-test-build.js",
+    "cosine-lesson288-full-lesson-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/right-triangle-trigonometry/cosine/explanation/",
+    "/geometry-and-trigonometry/right-triangle-trigonometry/cosine/problems/",
+    "/geometry-and-trigonometry/right-triangle-trigonometry/cosine/answers/",
+    "/geometry-and-trigonometry/right-triangle-trigonometry/cosine/test/",
+    "/geometry-and-trigonometry/right-triangle-trigonometry/cosine/video/english/",
+    "/geometry-and-trigonometry/right-triangle-trigonometry/cosine/video/arabic/"
+  ]
+}
