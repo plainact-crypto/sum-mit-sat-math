@@ -1,0 +1,138 @@
+{
+  "lesson": 90,
+  "slug": "y-intercept",
+  "canonical_path": "/advanced-math/quadratic-functions/standard-form/y-intercept/",
+  "checked": "2026-10-11",
+  "practice_distribution": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "practice": [
+    {
+      "n": 1,
+      "expression": "x²+4x+6",
+      "verified": 6
+    },
+    {
+      "n": 2,
+      "expression": "3x²-2x-5",
+      "verified": -5
+    },
+    {
+      "n": 3,
+      "expression": "-2x²+7x",
+      "verified": 0
+    },
+    {
+      "n": 4,
+      "expression": "5x²+x+12",
+      "verified": 12
+    },
+    {
+      "n": 5,
+      "expression": "-x²-9x+4",
+      "verified": 4
+    },
+    {
+      "n": 6,
+      "expression": "(x-3)(x+2)",
+      "verified": -6
+    },
+    {
+      "n": 7,
+      "expression": "(x+4)(x+1)",
+      "verified": 4
+    },
+    {
+      "n": 8,
+      "expression": "2(x-1)^2+3",
+      "verified": 5
+    },
+    {
+      "n": 9,
+      "expression": "-(x+2)^2+7",
+      "verified": 3
+    },
+    {
+      "n": 10,
+      "expression": "4x²-11",
+      "verified": -11
+    },
+    {
+      "n": 11,
+      "expression": "given y-axis crossing 8",
+      "verified": 8
+    },
+    {
+      "n": 12,
+      "expression": "x²+kx-13",
+      "verified": -13
+    },
+    {
+      "n": 13,
+      "expression": "y-intercept -7 => c",
+      "verified": -7
+    },
+    {
+      "n": 14,
+      "expression": "-5p=20 => p",
+      "verified": -4
+    },
+    {
+      "n": 15,
+      "expression": "4a-3=9 => a",
+      "verified": 3
+    },
+    {
+      "n": 16,
+      "expression": "-16(0)^2+40(0)+6",
+      "verified": 6
+    },
+    {
+      "n": 17,
+      "expression": "-3m=18 => m",
+      "verified": -6
+    },
+    {
+      "n": 18,
+      "expression": "f(2)=6,c=12 => b",
+      "verified": -5
+    }
+  ],
+  "test": [
+    {
+      "n": 1,
+      "expression": "2x²+3x-4",
+      "verified": -4
+    },
+    {
+      "n": 2,
+      "expression": "(x+3)(x-2)",
+      "verified": -6
+    },
+    {
+      "n": 3,
+      "expression": "3(x-2)^2-5",
+      "verified": 7
+    },
+    {
+      "n": 4,
+      "expression": "-4k=24 => k",
+      "verified": -6
+    },
+    {
+      "n": 5,
+      "expression": "a+b=-5;4a+2b=-6 => b",
+      "verified": -7
+    }
+  ],
+  "checks_passed": 23,
+  "issues": [
+    "Test page permits repeated submission; needs submit-once builder before release.",
+    "English-only static video content is not sufficient for bilingual full lesson release; requires both routes.",
+    "Release manifest and full production build not yet validated."
+  ],
+  "status": "MATH_QA_ONLY_NOT_RELEASED"
+}
