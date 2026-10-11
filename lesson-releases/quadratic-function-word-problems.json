@@ -1,7 +1,8 @@
 {
   "lesson": "quadratic-function-word-problems",
   "builders": [
-    "quadratic-function-word-problems-lesson97-build.js"
+    "quadratic-function-word-problems-lesson97-build.js",
+    "quadratic-function-word-problems-lesson97-narration-build.js"
   ],
   "routes": [
     "/advanced-math/quadratic-functions/other-quadratic-function-leaves/quadratic-function-word-problems/explanation/",
