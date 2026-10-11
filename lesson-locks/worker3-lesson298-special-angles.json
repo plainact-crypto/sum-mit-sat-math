@@ -2,9 +2,33 @@
   "lesson_index": 298,
   "slug": "special-angles",
   "worker": "SUMMIT Worker 3",
-  "status": "CONTENT_COMMITTED_BUILD_PENDING",
+  "status": "ISOLATED_QA_PASS_RELEASE_BLOCKED",
   "base": "/geometry-and-trigonometry/unit-circle/special-angles",
   "checks": "23/23 independently solved; 16 standard-angle unit-circle points checked; 18/18 aligned answers; 5 test questions; 20 English and 20 Arabic full-lesson scenes",
   "release_manifest": "lesson-releases/special-angles.json",
-  "note": "Do not mark LIVE_VERIFIED before required builders, full build, route checks, production READY and live-domain verification."
+  "note": "Do not mark LIVE_VERIFIED before required builders, full build, route checks, production READY and live-domain verification.",
+  "isolated_verification": {
+    "mathematical_qa": "23/23 PASS",
+    "unit_circle_points": "16/16 checked",
+    "required_builders": "4/4 PASS",
+    "canonical_routes": "6/6 generated",
+    "practice": "18/18",
+    "answers": "18/18",
+    "test": "5/5",
+    "full_lesson_scenes": "20 English + 20 Arabic",
+    "browser_script_syntax": "PASS"
+  },
+  "release_blockers": [
+    {
+      "type": "Vercel preview deployment",
+      "status": "HTTP 402 api-deployments-free-per-day",
+      "retry_after_seconds": 86400
+    },
+    {
+      "type": "GitHub draft PR",
+      "status": "Rejected by safety checks"
+    }
+  ],
+  "full_repository_build": "UNVERIFIED",
+  "production": "NOT_LIVE_VERIFIED"
 }
