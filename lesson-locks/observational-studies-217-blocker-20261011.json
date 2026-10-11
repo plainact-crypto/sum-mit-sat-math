@@ -1,0 +1,9 @@
+{
+  "worker": "SUMMIT Worker 2",
+  "lesson_index": 217,
+  "slug": "observational-studies",
+  "state": "BLOCKED_CONTENT_UPLOAD",
+  "branch": "worker2/observational-studies-217-20261011",
+  "blocker": "Repeated GitHub connector safety rejection of complete content-data upload",
+  "live_verified": false
+}
