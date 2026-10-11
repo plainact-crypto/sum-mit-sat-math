@@ -1,0 +1,43 @@
+{
+  "lesson_index": 227,
+  "slug": "corresponding-angles",
+  "branch": "worker2/corresponding-angles-227-20261011",
+  "status": "BLOCKED_NOT_RELEASED",
+  "local_qa": {
+    "explanation_sections": 16,
+    "practice": 18,
+    "groups": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answers": 18,
+    "test": 5,
+    "independent_math_checks": 23,
+    "english_scenes": 12,
+    "arabic_scenes": 12,
+    "html_routes": 6,
+    "inline_js_syntax": "PASS",
+    "graph_intersections": [
+      [
+        -1,
+        0
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "graph_corresponding_acute_angle_degrees": 45,
+    "internal_links": "PASS"
+  },
+  "release_manifest": "lesson-releases/corresponding-angles.json",
+  "builder": "corresponding-angles-lesson227-build.js",
+  "blockers": [
+    "GitHub connector safety checks rejected mandatory explanation-retrofit-registry.js update; no merge until one registry entry is present and full repository build/gates pass.",
+    "Authoritative repository build and production deployment are not verified.",
+    "Full-lesson routes are browser-narrated instructional scenes, not pre-rendered video files."
+  ],
+  "next_owned_lesson": 232
+}
