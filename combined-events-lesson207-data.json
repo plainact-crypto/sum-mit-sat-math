@@ -1,0 +1,398 @@
+{
+  "slug": "combined-events",
+  "title": "Combined Events",
+  "base": "/problem-solving-and-data-analysis/probability/combined-events",
+  "classification": "NEITHER",
+  "explanation": [
+    {
+      "heading": "LESSON OBJECTIVE",
+      "text": "Solve combined-event probability questions involving AND, OR, independent or dependent events, complements, and conditional probability. Identify the event relationship before calculating."
+    },
+    {
+      "heading": "WHAT YOU NEED TO KNOW",
+      "text": "An event is a set of outcomes. AND requires both conditions; OR requires at least one. The first draw changes the second probability if objects are not replaced."
+    },
+    {
+      "heading": "KEY DEFINITIONS",
+      "text": "Independent: one event does not change the other's probability. Dependent: one event changes another's probability. Mutually exclusive: events cannot happen together. Conditional P(B|A): probability of B given A. Complement: event does not occur."
+    },
+    {
+      "heading": "CORE RULE",
+      "text": "P(A and B)=P(A)P(B|A); independent events use P(A)P(B). P(A or B)=P(A)+P(B)−P(A and B). P(at least one)=1−P(none)."
+    },
+    {
+      "heading": "HOW IT WORKS",
+      "text": "1. Define A and B. 2. Decide AND, OR, complement, or conditional. 3. Check replacement/independence. 4. Count or use a tree. 5. Check the answer is between 0 and 1."
+    },
+    {
+      "heading": "WORKED EXAMPLE 1 — INDEPENDENT",
+      "text": "Flip a coin and roll a die. P(head AND 4)=(1/2)(1/6)=1/12. The trials do not influence one another."
+    },
+    {
+      "heading": "WORKED EXAMPLE 2 — DEPENDENT",
+      "text": "With 4 red and 3 blue counters, P(two red without replacement)=(4/7)(3/6)=2/7. Both counts change after a red is removed."
+    },
+    {
+      "heading": "WORKED EXAMPLE 3 — OVERLAPPING OR",
+      "text": "For a die, even outcomes {2,4,6} and outcomes >4 {5,6} overlap at 6. Union probability =3/6+2/6−1/6=2/3."
+    },
+    {
+      "heading": "WORKED EXAMPLE 4 — COMPLEMENT",
+      "text": "For two dice, P(at least one six)=1−P(no six on both)=1−(5/6)²=11/36."
+    },
+    {
+      "heading": "WORKED EXAMPLE 5 — TOTAL PROBABILITY",
+      "text": "Rain occurs on 40% of days. Delay rates are 60% in rain and 10% in dry weather. P(delay)=(0.4)(0.6)+(0.6)(0.1)=0.30."
+    },
+    {
+      "heading": "PROBABILITY TREE",
+      "text": "Draw branches for each possible first outcome; branch probabilities add to 1. Multiply along a path for AND, and add distinct successful paths. Without replacement, recompute second-stage probabilities."
+    },
+    {
+      "heading": "COMMON MISTAKES",
+      "text": "Do not add for AND, forget to subtract overlap for OR, or treat without-replacement draws as independent. 'At least one' includes all positive counts. A conditional question restricts the denominator."
+    },
+    {
+      "heading": "EXAM STRATEGY",
+      "text": "Translate words into A∩B, A∪B, or P(B|A). Use the complement for 'at least one'; a Venn diagram for overlap; and a tree for multi-stage trials."
+    },
+    {
+      "heading": "QUICK CHECK",
+      "text": "Two heads in two fair flips? 1/4. If P(A)=0.6, P(B)=0.5, overlap=0.2, then P(A or B)=0.9. Two reds from 3 red and 2 blue without replacement? 3/10."
+    },
+    {
+      "heading": "LESSON RECAP",
+      "text": "AND: multiply using conditional second probability. OR: add and subtract overlap. At least one: subtract none from 1. Conditional: restrict the sample space."
+    },
+    {
+      "heading": "NEXT STEP",
+      "text": "Complete 18 practice questions, compare the 18 worked solutions, then submit the five-question test. Review either full-lesson language route."
+    }
+  ],
+  "practice": [
+    {
+      "number": 1,
+      "group": "Skill Check",
+      "question": "Flip a fair coin and roll a fair die. P(head AND 4)?",
+      "answer": "1/12",
+      "solution": "Independent: (1/2)(1/6)=1/12."
+    },
+    {
+      "number": 2,
+      "group": "Skill Check",
+      "question": "Toss two fair coins. P(two tails)?",
+      "answer": "1/4",
+      "solution": "TT is one of four equally likely ordered outcomes."
+    },
+    {
+      "number": 3,
+      "group": "Skill Check",
+      "question": "Roll one fair die. P(even OR greater than 4)?",
+      "answer": "2/3",
+      "solution": "Even {2,4,6}, greater than 4 {5,6}; union {2,4,5,6}=4/6."
+    },
+    {
+      "number": 4,
+      "group": "Core Practice",
+      "question": "Bag: 3 red, 2 blue. Replace after first draw. P(red then red)?",
+      "answer": "9/25",
+      "solution": "Replacement keeps 3/5 red on both draws: 9/25."
+    },
+    {
+      "number": 5,
+      "group": "Core Practice",
+      "question": "Bag: 5 green, 3 yellow. No replacement. P(green then yellow)?",
+      "answer": "15/56",
+      "solution": "Multiply 5/8 by 3/7 after removing a green."
+    },
+    {
+      "number": 6,
+      "group": "Core Practice",
+      "question": "Ten counters: 4 red, 6 blue. No replacement. P(two red)?",
+      "answer": "2/15",
+      "solution": "Multiply 4/10 by 3/9; simplify 12/90."
+    },
+    {
+      "number": 7,
+      "group": "Core Practice",
+      "question": "Two fair dice. P(sum of 7)?",
+      "answer": "1/6",
+      "solution": "Six ordered pairs sum to 7 among 36 possible pairs."
+    },
+    {
+      "number": 8,
+      "group": "Core Practice",
+      "question": "Two fair dice. P(at least one six)?",
+      "answer": "11/36",
+      "solution": "Complement: 1−(5/6)(5/6)=11/36."
+    },
+    {
+      "number": 9,
+      "group": "Core Practice",
+      "question": "One card from a standard deck. P(heart OR king)?",
+      "answer": "4/13",
+      "solution": "13 hearts + 4 kings − 1 king of hearts =16/52."
+    },
+    {
+      "number": 10,
+      "group": "Core Practice",
+      "question": "Class of 10: 6 in choir, 5 in band, 3 in both. P(choir OR band)?",
+      "answer": "4/5",
+      "solution": "Union count=6+5−3=8, giving 8/10."
+    },
+    {
+      "number": 11,
+      "group": "Core Practice",
+      "question": "Box: 4 defective, 16 good. Draw two without replacement. P(at least one defective)?",
+      "answer": "7/19",
+      "solution": "Complement both good: 1−(16/20)(15/19)=7/19."
+    },
+    {
+      "number": 12,
+      "group": "Exam-Style",
+      "question": "Eight finalists: five girls and three boys. Choose two without replacement. P(two girls)?",
+      "answer": "5/14",
+      "solution": "(5/8)(4/7)=20/56=5/14."
+    },
+    {
+      "number": 13,
+      "group": "Exam-Style",
+      "question": "Independent A and B: P(A)=0.30, P(B)=0.40. Find P(A OR B).",
+      "answer": "29/50",
+      "solution": "Overlap=0.12; union=0.30+0.40−0.12=0.58."
+    },
+    {
+      "number": 14,
+      "group": "Exam-Style",
+      "question": "Rain on 40% of days; delays on 60% of rainy and 10% of dry days. P(delay)?",
+      "answer": "3/10",
+      "solution": "(0.4)(0.6)+(0.6)(0.1)=0.30."
+    },
+    {
+      "number": 15,
+      "group": "Exam-Style",
+      "question": "Bag: 2 red, 3 blue. Draw two without replacement. P(one of each, any order)?",
+      "answer": "3/5",
+      "solution": "Add RB and BR: (2/5)(3/4)+(3/5)(2/4)=3/5."
+    },
+    {
+      "number": 16,
+      "group": "Exam-Style",
+      "question": "Flip a fair coin three times. P(exactly two heads)?",
+      "answer": "3/8",
+      "solution": "HHT, HTH, THH: three of eight equally likely outcomes."
+    },
+    {
+      "number": 17,
+      "group": "Challenge",
+      "question": "Machine A supplies 60% of products with 2% defective; B supplies 40% with 5% defective. P(defective)?",
+      "answer": "4/125",
+      "solution": "Weighted branches: (0.6)(0.02)+(0.4)(0.05)=0.032=4/125."
+    },
+    {
+      "number": 18,
+      "group": "Challenge",
+      "question": "60 students: 35 take math, 30 art, 15 both. Given math, P(art)?",
+      "answer": "3/7",
+      "solution": "Condition restricts denominator to 35 math students: 15/35=3/7."
+    }
+  ],
+  "test": [
+    {
+      "number": 1,
+      "difficulty": "Easy",
+      "question": "Toss three fair coins. P(all tails)?",
+      "answer": "1/8",
+      "choices": [
+        "1/8",
+        "1/4",
+        "3/8",
+        "1/2"
+      ],
+      "correct": 0,
+      "solution": "(1/2)^3=1/8."
+    },
+    {
+      "number": 2,
+      "difficulty": "Easy / Medium",
+      "question": "Roll a fair die. P(even OR multiple of 3)?",
+      "answer": "2/3",
+      "choices": [
+        "1/2",
+        "2/3",
+        "5/6",
+        "1/3"
+      ],
+      "correct": 1,
+      "solution": "Union {2,3,4,6} is 4/6=2/3."
+    },
+    {
+      "number": 3,
+      "difficulty": "Medium",
+      "question": "Bag: 7 red, 3 green. Draw two without replacement. P(both green)?",
+      "answer": "1/15",
+      "choices": [
+        "1/10",
+        "1/30",
+        "1/15",
+        "1/9"
+      ],
+      "correct": 2,
+      "solution": "(3/10)(2/9)=1/15."
+    },
+    {
+      "number": 4,
+      "difficulty": "Medium / Hard",
+      "question": "40 customers: 24 buy tea, 19 coffee, 8 both. P(neither)?",
+      "answer": "1/8",
+      "choices": [
+        "1/5",
+        "3/8",
+        "1/4",
+        "1/8"
+      ],
+      "correct": 3,
+      "solution": "Union=24+19−8=35; neither=5/40=1/8."
+    },
+    {
+      "number": 5,
+      "difficulty": "Hard / Exam-Style",
+      "question": "60% of flights depart in morning (10% delayed); 40% later (25% delayed). P(delayed)?",
+      "answer": "4/25",
+      "choices": [
+        "4/25",
+        "3/20",
+        "1/5",
+        "7/40"
+      ],
+      "correct": 0,
+      "solution": "(0.6)(0.1)+(0.4)(0.25)=0.16=4/25."
+    }
+  ],
+  "video": {
+    "english": [
+      {
+        "title": "What are combined events?",
+        "narration": "Learn to tell AND from OR and conditional probability.",
+        "math": "P(A∩B), P(A∪B)"
+      },
+      {
+        "title": "Outcome sets",
+        "narration": "Define the sample space and count equally likely outcomes.",
+        "math": "P(E)=favorable/total"
+      },
+      {
+        "title": "AND rule",
+        "narration": "For both events, multiply first probability by the conditional second probability.",
+        "math": "P(A∩B)=P(A)P(B|A)"
+      },
+      {
+        "title": "Independent events",
+        "narration": "Coin and die: head and four has probability one twelfth.",
+        "math": "(1/2)(1/6)=1/12"
+      },
+      {
+        "title": "Dependent events",
+        "narration": "Without replacement, the second draw uses updated counts.",
+        "math": "(4/7)(3/6)=2/7"
+      },
+      {
+        "title": "Replacement",
+        "narration": "With replacement, original proportions remain unchanged.",
+        "math": "(3/5)²=9/25"
+      },
+      {
+        "title": "OR rule",
+        "narration": "Add event probabilities, subtract their shared outcomes.",
+        "math": "P(A∪B)=P(A)+P(B)−P(A∩B)"
+      },
+      {
+        "title": "Overlap",
+        "narration": "Heart or king counts the king of hearts only once.",
+        "math": "16/52=4/13"
+      },
+      {
+        "title": "Complement",
+        "narration": "At least one equals one minus none.",
+        "math": "1−(5/6)²=11/36"
+      },
+      {
+        "title": "Conditional probability",
+        "narration": "Given math, divide by the math group size.",
+        "math": "15/35=3/7"
+      },
+      {
+        "title": "Total probability",
+        "narration": "Multiply along branches, add disjoint successful branches.",
+        "math": "(0.4)(0.6)+(0.6)(0.1)=0.30"
+      },
+      {
+        "title": "SAT strategy",
+        "narration": "Choose the event rule first, then compute and check.",
+        "math": "0≤P≤1"
+      }
+    ],
+    "arabic": [
+      {
+        "title": "الأحداث المركبة",
+        "narration": "نميز بين وَ وأو والاحتمال الشرطي.",
+        "math": "P(A∩B), P(A∪B)"
+      },
+      {
+        "title": "النواتج",
+        "narration": "حدد فضاء العينة وعد النواتج المتساوية الاحتمال.",
+        "math": "P(E)=favorable/total"
+      },
+      {
+        "title": "قاعدة وَ",
+        "narration": "لوقوع الحدثين نضرب احتمال الأول في احتمال الثاني بشرط الأول.",
+        "math": "P(A∩B)=P(A)P(B|A)"
+      },
+      {
+        "title": "الأحداث المستقلة",
+        "narration": "العملة والنرد مستقلان واحتمال صورة وأربعة واحد على اثني عشر.",
+        "math": "(1/2)(1/6)=1/12"
+      },
+      {
+        "title": "الأحداث التابعة",
+        "narration": "دون إرجاع تتغير احتمالات السحب الثاني.",
+        "math": "(4/7)(3/6)=2/7"
+      },
+      {
+        "title": "الإرجاع",
+        "narration": "مع الإرجاع تبقى النسب الأصلية.",
+        "math": "(3/5)²=9/25"
+      },
+      {
+        "title": "قاعدة أو",
+        "narration": "اجمع الاحتمالين ثم اطرح الجزء المشترك.",
+        "math": "P(A∪B)=P(A)+P(B)−P(A∩B)"
+      },
+      {
+        "title": "التداخل",
+        "narration": "لا نحسب ملك القلوب مرتين.",
+        "math": "16/52=4/13"
+      },
+      {
+        "title": "المتمم",
+        "narration": "واحد على الأقل يساوي واحداً ناقص احتمال عدم الوقوع.",
+        "math": "1−(5/6)²=11/36"
+      },
+      {
+        "title": "الاحتمال الشرطي",
+        "narration": "إذا اشترط السؤال دراسة الرياضيات فالمقام هو مجموعة الرياضيات.",
+        "math": "15/35=3/7"
+      },
+      {
+        "title": "الاحتمال الكلي",
+        "narration": "اضرب على كل مسار ثم اجمع المسارات المناسبة.",
+        "math": "(0.4)(0.6)+(0.6)(0.1)=0.30"
+      },
+      {
+        "title": "استراتيجية الامتحان",
+        "narration": "اختر القاعدة واحسب ثم تحقق من معقولية الاحتمال.",
+        "math": "0≤P≤1"
+      }
+    ]
+  }
+}
