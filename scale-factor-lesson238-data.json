@@ -1,0 +1,299 @@
+{
+  "lesson_index": 238,
+  "slug": "scale-factor",
+  "title": "Scale Factor",
+  "base": "geometry-and-trigonometry/triangles/scale-factor",
+  "classification": "NEITHER",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "prompt": "Original side 3 cm becomes 9 cm. Find scale factor.",
+      "answer": "3",
+      "solution": "Divide image by original: 9/3=3, so the scale factor is 3.",
+      "check": [
+        "ratio",
+        9,
+        3
+      ]
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "prompt": "Scale factor is 2 and original side 7 cm. Find image side.",
+      "answer": "14",
+      "solution": "Image length is 7×2=14 cm because all lengths multiply by k.",
+      "check": [
+        "scale",
+        7,
+        2
+      ]
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "prompt": "Scale factor is 1/2 and original side 18 cm. Find image side.",
+      "answer": "9",
+      "solution": "Image length is 18×(1/2)=9 cm; this is a reduction.",
+      "check": [
+        "scale",
+        18,
+        0.5
+      ]
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "prompt": "Original side 5 m becomes 20 m. Find scale factor.",
+      "answer": "4",
+      "solution": "Image/original=20/5=4; it is an enlargement.",
+      "check": [
+        "ratio",
+        20,
+        5
+      ]
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "prompt": "Scale factor is 0.75 and original side is 12 cm. Find image side.",
+      "answer": "9",
+      "solution": "Multiply 12 by 0.75 to get 9 cm.",
+      "check": [
+        "scale",
+        12,
+        0.75
+      ]
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "prompt": "An original side 8 cm becomes 6 cm. Find scale factor.",
+      "answer": "0.75",
+      "solution": "Scale factor k=6/8=0.75, a reduction.",
+      "check": [
+        "ratio",
+        6,
+        8
+      ]
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "prompt": "Original perimeter is 18 cm, and scale factor is 3. Find image perimeter.",
+      "answer": "54",
+      "solution": "Perimeter scales by k: 18×3=54 cm.",
+      "check": [
+        "perimeter",
+        18,
+        3
+      ]
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "prompt": "Original area is 80 cm², and scale factor is 1/2. Find image area.",
+      "answer": "20",
+      "solution": "Area scales by k²: 80×(1/2)²=20 cm².",
+      "check": [
+        "area",
+        80,
+        0.5
+      ]
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "prompt": "Original area is 16 cm² and image area 144 cm². Find positive length scale factor.",
+      "answer": "3",
+      "solution": "Area ratio=144/16=9; length factor is √9=3.",
+      "check": [
+        "areaRatio",
+        144,
+        16
+      ]
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "prompt": "Original perimeter is 54 cm and image perimeter is 36 cm. Give scale factor as decimal.",
+      "answer": "0.6666666666666666",
+      "solution": "Scale factor is 36/54=2/3, or approximately 0.6667.",
+      "check": [
+        "ratio",
+        36,
+        54
+      ]
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "prompt": "One side changes from 4 cm to 10 cm. Another original side is 9 cm. Find its image.",
+      "answer": "22.5",
+      "solution": "First k=10/4=2.5; multiply 9×2.5=22.5 cm.",
+      "check": [
+        "multi",
+        4,
+        10,
+        9
+      ]
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "prompt": "Are triangles with sides (6,8,10) and (9,12,15) similar? Answer Yes or No.",
+      "answer": "Yes",
+      "solution": "All corresponding ratios equal 1.5: 9/6=12/8=15/10, so yes.",
+      "check": [
+        "similar",
+        [
+          6,
+          8,
+          10
+        ],
+        [
+          9,
+          12,
+          15
+        ]
+      ]
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "prompt": "Scale factor is 1.2. Original map distance is 15 cm. Find image distance.",
+      "answer": "18",
+      "solution": "Image distance is 15×1.2=18 cm.",
+      "check": [
+        "scale",
+        15,
+        1.2
+      ]
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "prompt": "Scale factor is 3/4 and original area is 64 cm². Find image area.",
+      "answer": "36",
+      "solution": "Area factor=(3/4)²=9/16; image area=64×9/16=36 cm².",
+      "check": [
+        "area",
+        64,
+        0.75
+      ]
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "prompt": "Scale factor is 2.5 and original perimeter is 28 cm. Find image perimeter.",
+      "answer": "70",
+      "solution": "Perimeter scales linearly: 28×2.5=70 cm.",
+      "check": [
+        "perimeter",
+        28,
+        2.5
+      ]
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "prompt": "Original sides 6,9,12 become 9,13.5,18 cm. Find longest image side.",
+      "answer": "18",
+      "solution": "The side ratio is 1.5; the longest original side 12 becomes 12×1.5=18 cm.",
+      "check": [
+        "scale",
+        12,
+        1.5
+      ]
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "prompt": "Original area 50 cm² becomes 200 cm². Original side 7 cm. Find image side.",
+      "answer": "14",
+      "solution": "Area ratio=4, so length ratio=√4=2. Image side=7×2=14 cm.",
+      "check": [
+        "areaSide",
+        50,
+        200,
+        7
+      ]
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "prompt": "Original area 80 cm² becomes 45 cm². Original side 16 cm. Find image side.",
+      "answer": "12",
+      "solution": "Area ratio=45/80=9/16, length ratio=3/4; image side=16×3/4=12 cm.",
+      "check": [
+        "areaSide",
+        80,
+        45,
+        16
+      ]
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "difficulty": "Easy",
+      "prompt": "Original side 4 cm becomes 12 cm. Find scale factor.",
+      "answer": "3",
+      "solution": "Divide image by original: 12/4=3.",
+      "check": [
+        "ratio",
+        12,
+        4
+      ]
+    },
+    {
+      "index": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "Scale factor is 0.4, original side 25 cm. Find image side.",
+      "answer": "10",
+      "solution": "Multiply 25×0.4=10 cm.",
+      "check": [
+        "scale",
+        25,
+        0.4
+      ]
+    },
+    {
+      "index": 3,
+      "difficulty": "Medium",
+      "prompt": "Original perimeter 42 cm, scale factor 1.5. Find image perimeter.",
+      "answer": "63",
+      "solution": "Perimeter scales by 1.5: 42×1.5=63 cm.",
+      "check": [
+        "perimeter",
+        42,
+        1.5
+      ]
+    },
+    {
+      "index": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "Original area 72 cm², scale factor 2/3. Find image area.",
+      "answer": "32",
+      "solution": "Area factor=4/9; image area=72×4/9=32 cm².",
+      "check": [
+        "area",
+        72,
+        0.6666666666666666
+      ]
+    },
+    {
+      "index": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "Original side 8 cm and area 48 cm²; image side 12 cm. Find image area.",
+      "answer": "108",
+      "solution": "Length factor=12/8=1.5; area factor=2.25; image area=48×2.25=108 cm².",
+      "check": [
+        "ratioArea",
+        8,
+        12,
+        48
+      ]
+    }
+  ]
+}
