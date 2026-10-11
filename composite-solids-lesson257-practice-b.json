@@ -1,0 +1,56 @@
+[
+  {
+    "number": 7,
+    "group": "Core Practice",
+    "question": "A 4×3×10 rectangular prism supports a half-cylinder of radius 2 and length 10, with no overlap. Find the combined volume.",
+    "answer": "(120+20π) cubic units",
+    "solution": "Prism V=4·3·10=120. Half-cylinder V=(1/2)π·2²·10=20π. Add to obtain 120+20π.",
+    "qaExpr": "4*3*10+Math.PI*2**2*10/2",
+    "qaValue": 182.83185307179588
+  },
+  {
+    "number": 8,
+    "group": "Core Practice",
+    "question": "A triangular prism has a triangular base with base 6 ft and altitude 4 ft, and length 7 ft. It is joined to a 6×2×7 rectangular prism without overlap. Find the total volume.",
+    "answer": "168 ft³",
+    "solution": "Triangular base area=(1/2)·6·4=12; triangular-prism volume=12·7=84. Rectangular volume=6·2·7=84. Total=168 ft³.",
+    "qaExpr": "(6*4/2)*7+6*2*7",
+    "qaValue": 168
+  },
+  {
+    "number": 9,
+    "group": "Core Practice",
+    "question": "A hemisphere of radius 3 cm caps a cylinder of radius 3 cm and height 5 cm. Find their combined volume.",
+    "answer": "63π cm³",
+    "solution": "Hemisphere V=(2/3)π·3³=18π. Cylinder V=π·3²·5=45π. Combined=63π cm³.",
+    "qaExpr": "2*Math.PI*3**3/3+Math.PI*3**2*5",
+    "qaValue": 197.92033717615698
+  },
+  {
+    "number": 10,
+    "group": "Core Practice",
+    "question": "A cube with side length 6 in has a cylindrical hole of radius 1 in drilled completely through its height. Find the remaining volume.",
+    "answer": "(216−6π) in³",
+    "solution": "Cube volume=6³=216. Removed cylinder volume=π·1²·6=6π. Subtract: 216−6π in³.",
+    "qaExpr": "6**3-Math.PI*1**2*6",
+    "qaValue": 197.15044407846125
+  },
+  {
+    "number": 11,
+    "group": "Core Practice",
+    "question": "A building-shaped solid consists of a 10×8×4 rectangular prism and a triangular-prism roof whose triangular cross section has base 10 and height 3 and whose length is 8. Find the total volume.",
+    "answer": "440 cubic units",
+    "solution": "Body volume=10·8·4=320. Roof volume=(1/2)·10·3·8=120. Total=440 cubic units.",
+    "qaExpr": "10*8*4+10*3*8/2",
+    "qaValue": 440
+  },
+  {
+    "number": 12,
+    "group": "Exam-Style",
+    "question": "Two rectangular prisms overlap. Prism A is 7×4×3; prism B is 3×4×5. Their overlap is exactly a 3×4×3 prism. Find the volume of their union.",
+    "answer": "108 cubic units",
+    "solution": "Add both full volumes and subtract the overlap once: 7·4·3+3·4·5−3·4·3=84+60−36=108.",
+    "qaExpr": "7*4*3+3*4*5-3*4*3",
+    "qaValue": 108
+  }
+]
