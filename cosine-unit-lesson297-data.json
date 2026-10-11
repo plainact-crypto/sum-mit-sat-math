@@ -55,18 +55,18 @@
     },
     {
       "group": "Core Practice",
-      "prompt": "A terminal ray makes a 60° angle with the positive x-axis. Find its x-coordinate on the unit circle.",
-      "answer": "1/2",
-      "solution": "The 60° reference-angle cosine is 1/2 and Quadrant I has positive x.",
+      "prompt": "A ray at 30° meets the unit circle in Quadrant I. What is the exact horizontal coordinate?",
+      "answer": "√3/2",
+      "solution": "The reference angle is 30°, so the unit-circle x-coordinate is cos30°=√3/2, positive in Quadrant I.",
       "choices": [
-        "1/2",
         "√3/2",
-        "-1/2",
-        "-√3/2"
+        "1/2",
+        "-√3/2",
+        "-1/2"
       ],
       "qa": {
         "kind": "angle",
-        "deg": 60
+        "deg": 30
       }
     },
     {
