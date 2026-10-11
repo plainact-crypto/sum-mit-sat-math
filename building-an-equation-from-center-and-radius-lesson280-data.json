@@ -1,0 +1,262 @@
+{
+  "lesson": "building-an-equation-from-center-and-radius",
+  "canonicalIndex": 279,
+  "title": "Building an Equation from Center and Radius",
+  "base": "geometry-and-trigonometry/circles/circle-equation/building-an-equation-from-center-and-radius",
+  "practice": [
+    {
+      "id": 1,
+      "group": "Skill Check",
+      "prompt": "Write the circle equation for center (2, 3) and radius 4.",
+      "answer": "(x-2)² + (y-3)² = 16",
+      "h": 2,
+      "k": 3,
+      "r2": 16,
+      "steps": "Square the radius: 4² = 16. Substitute h = 2 and k = 3."
+    },
+    {
+      "id": 2,
+      "group": "Skill Check",
+      "prompt": "Write the equation for center (−1, 5) and radius 3.",
+      "answer": "(x+1)² + (y-5)² = 9",
+      "h": -1,
+      "k": 5,
+      "r2": 9,
+      "steps": "The x term is (x + 1)² because h = −1; 3² = 9."
+    },
+    {
+      "id": 3,
+      "group": "Skill Check",
+      "prompt": "A circle has center (0, −4) and radius 2. Give its equation.",
+      "answer": "x² + (y+4)² = 4",
+      "h": 0,
+      "k": -4,
+      "r2": 4,
+      "steps": "A zero x-coordinate leaves x²; subtracting −4 gives (y + 4)²."
+    },
+    {
+      "id": 4,
+      "group": "Core Practice",
+      "prompt": "Write the equation for center (−3, −2), radius 5.",
+      "answer": "(x+3)² + (y+2)² = 25",
+      "h": -3,
+      "k": -2,
+      "r2": 25,
+      "steps": "Subtracting negative center coordinates produces plus signs; 5² = 25."
+    },
+    {
+      "id": 5,
+      "group": "Core Practice",
+      "prompt": "The center is (6, 0) and radius is √7. Write the equation.",
+      "answer": "(x-6)² + y² = 7",
+      "h": 6,
+      "k": 0,
+      "r2": 7,
+      "steps": "(√7)² = 7. The y term is y² because k = 0."
+    },
+    {
+      "id": 6,
+      "group": "Core Practice",
+      "prompt": "Center (1, −2), passing through (4, 2): write the equation.",
+      "answer": "(x-1)² + (y+2)² = 25",
+      "h": 1,
+      "k": -2,
+      "r2": 25,
+      "steps": "The radius squared is (4 − 1)² + (2 − (−2))² = 9 + 16 = 25."
+    },
+    {
+      "id": 7,
+      "group": "Core Practice",
+      "prompt": "Center (−4, 1), passing through (−4, −5): find the equation.",
+      "answer": "(x+4)² + (y-1)² = 36",
+      "h": -4,
+      "k": 1,
+      "r2": 36,
+      "steps": "The horizontal difference is 0 and the vertical difference is −6, so r² = 36."
+    },
+    {
+      "id": 8,
+      "group": "Core Practice",
+      "prompt": "A circle has center (5, −3) and diameter 10. Write the equation.",
+      "answer": "(x-5)² + (y+3)² = 25",
+      "h": 5,
+      "k": -3,
+      "r2": 25,
+      "steps": "Radius is half the diameter: r = 5, so r² = 25."
+    },
+    {
+      "id": 9,
+      "group": "Core Practice",
+      "prompt": "Center (−2, 7), diameter 2√5: write the equation.",
+      "answer": "(x+2)² + (y-7)² = 5",
+      "h": -2,
+      "k": 7,
+      "r2": 5,
+      "steps": "Radius = (2√5)/2 = √5, hence r² = 5."
+    },
+    {
+      "id": 10,
+      "group": "Core Practice",
+      "prompt": "Center (3, −1), tangent to the x-axis: write the equation.",
+      "answer": "(x-3)² + (y+1)² = 1",
+      "h": 3,
+      "k": -1,
+      "r2": 1,
+      "steps": "Distance from (3, −1) to y = 0 is |−1| = 1; r² = 1."
+    },
+    {
+      "id": 11,
+      "group": "Core Practice",
+      "prompt": "Center (−5, 4), tangent to the y-axis: write the equation.",
+      "answer": "(x+5)² + (y-4)² = 25",
+      "h": -5,
+      "k": 4,
+      "r2": 25,
+      "steps": "Distance to x = 0 is |−5| = 5, so r² = 25."
+    },
+    {
+      "id": 12,
+      "group": "Exam-Style Practice",
+      "prompt": "Center (2, −6), passing through (5, −2): choose the equation.",
+      "answer": "(x-2)² + (y+6)² = 25",
+      "h": 2,
+      "k": -6,
+      "r2": 25,
+      "steps": "Compute r² = (5 − 2)² + (−2 + 6)² = 3² + 4² = 25."
+    },
+    {
+      "id": 13,
+      "group": "Exam-Style Practice",
+      "prompt": "Center (−1, −1), passing through (2, 3): write the equation.",
+      "answer": "(x+1)² + (y+1)² = 25",
+      "h": -1,
+      "k": -1,
+      "r2": 25,
+      "steps": "Compute r² = (2 + 1)² + (3 + 1)² = 9 + 16 = 25."
+    },
+    {
+      "id": 14,
+      "group": "Exam-Style Practice",
+      "prompt": "A circle centered at (4, 2) has radius √13. Write its equation.",
+      "answer": "(x-4)² + (y-2)² = 13",
+      "h": 4,
+      "k": 2,
+      "r2": 13,
+      "steps": "Square √13 to obtain 13; signs follow the center coordinates."
+    },
+    {
+      "id": 15,
+      "group": "Exam-Style Practice",
+      "prompt": "Center (−6, 2), passing through (−2, 5): find the equation.",
+      "answer": "(x+6)² + (y-2)² = 25",
+      "h": -6,
+      "k": 2,
+      "r2": 25,
+      "steps": "Compute r² = (−2 + 6)² + (5 − 2)² = 16 + 9 = 25."
+    },
+    {
+      "id": 16,
+      "group": "Exam-Style Practice",
+      "prompt": "A circle centered at (3, 4) has area 49π. Write its equation.",
+      "answer": "(x-3)² + (y-4)² = 49",
+      "h": 3,
+      "k": 4,
+      "r2": 49,
+      "steps": "Area = πr² = 49π, so r² = 49."
+    },
+    {
+      "id": 17,
+      "group": "Challenge Problems",
+      "prompt": "The endpoints of a diameter are (−4, 6) and (2, −2). Write the equation.",
+      "answer": "(x+1)² + (y-2)² = 25",
+      "h": -1,
+      "k": 2,
+      "r2": 25,
+      "steps": "Midpoint center = ((−4 + 2)/2, (6 − 2)/2) = (−1, 2). From the center to an endpoint, r² = 3² + (−4)² = 25."
+    },
+    {
+      "id": 18,
+      "group": "Challenge Problems",
+      "prompt": "A circle passes through (1, 1) and (−3, 1), and its center is (a, −2). Find its equation.",
+      "answer": "(x+1)² + (y+2)² = 13",
+      "h": -1,
+      "k": -2,
+      "r2": 13,
+      "steps": "Equal distances give (1 − a)² + 3² = (−3 − a)² + 3². Thus (1 − a)² = (−3 − a)², yielding a = −1. Then r² = 2² + 3² = 13."
+    }
+  ],
+  "test": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "prompt": "Center (1, 2), radius 3.",
+      "answer": "(x-1)² + (y-2)² = 9",
+      "h": 1,
+      "k": 2,
+      "r2": 9,
+      "steps": "Use r² = 3² = 9."
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "Center (−4, 0), radius √11.",
+      "answer": "(x+4)² + y² = 11",
+      "h": -4,
+      "k": 0,
+      "r2": 11,
+      "steps": "(√11)² = 11; the center's y-coordinate is zero."
+    },
+    {
+      "id": 3,
+      "difficulty": "Medium",
+      "prompt": "Center (3, −5), passing through (6, −1).",
+      "answer": "(x-3)² + (y+5)² = 25",
+      "h": 3,
+      "k": -5,
+      "r2": 25,
+      "steps": "r² = (6 − 3)² + (−1 + 5)² = 9 + 16 = 25."
+    },
+    {
+      "id": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "Center (−2, 3), tangent to the y-axis.",
+      "answer": "(x+2)² + (y-3)² = 4",
+      "h": -2,
+      "k": 3,
+      "r2": 4,
+      "steps": "The radius equals the distance to the y-axis: |−2| = 2."
+    },
+    {
+      "id": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "Diameter endpoints (−2, 1) and (6, 7).",
+      "answer": "(x-2)² + (y-4)² = 25",
+      "h": 2,
+      "k": 4,
+      "r2": 25,
+      "steps": "Midpoint (2, 4); half-diameter displacement (4, 3) gives r² = 16 + 9 = 25."
+    }
+  ],
+  "videos": {
+    "english": [
+      "Objective: build a circle equation from its center and radius, with no sign mistakes.",
+      "Recall the geometry: all points on a circle lie the same distance r from its center (h,k).",
+      "The distance formula gives (x−h)² + (y−k)² = r². The right side is the radius squared.",
+      "Example one: center (2,3), radius 4. Write (x−2)² + (y−3)² = 16.",
+      "Example two: center (−1,5), radius 3. Subtracting negative one creates x+1; the equation ends in 9.",
+      "If a point is given instead of a radius, compute r² using squared coordinate differences.",
+      "For diameter endpoints, average the endpoints to find the center; use half the diameter as radius.",
+      "Final check: the signs inside parentheses are opposite the center coordinates, and r² must be nonnegative."
+    ],
+    "arabic": [
+      "هدف الدرس: كتابة معادلة الدائرة من مركزها ونصف قطرها بدون أخطاء في الإشارات.",
+      "جميع نقاط الدائرة تبعد مسافة ثابتة نق عن المركز الذي إحداثياه هـ و ك.",
+      "من قانون المسافة نحصل على: مربع س ناقص هـ زائد مربع ص ناقص ك يساوي مربع نصف القطر.",
+      "المثال الأول: المركز اثنان وثلاثة، ونصف القطر أربعة؛ الطرف الأيمن ستة عشر.",
+      "المثال الثاني: المركز سالب واحد وخمسة، ونصف القطر ثلاثة؛ تصبح عبارة س زائد واحد، والطرف الأيمن تسعة.",
+      "إذا عرفت نقطة على الدائرة بدل نصف القطر، احسب مربع نصف القطر من فروق الإحداثيات.",
+      "إذا عرفت طرفي القطر، احسب منتصفهما لتجد المركز، ثم احسب نصف القطر.",
+      "راجع الإشارات: الإشارة داخل كل قوس عكس إشارة إحداثي المركز، ومربع نصف القطر لا يكون سالبا."
+    ]
+  }
+}
