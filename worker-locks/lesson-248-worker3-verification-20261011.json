@@ -1,0 +1,18 @@
+{
+  "lesson_index": 248,
+  "slug": "trapezoid-area",
+  "status": "ISOLATED_QA_PASS_RELEASE_BLOCKED",
+  "mathematical_qa": "23/23 PASS",
+  "builders": "4/4 PASS",
+  "routes": "6/6 PASS",
+  "explanation_sections": 17,
+  "practice": 18,
+  "answers": 18,
+  "test": 5,
+  "english_scenes": 20,
+  "arabic_scenes": 20,
+  "release_manifest": "lesson-releases/trapezoid-area.json",
+  "full_build": "PENDING",
+  "production": "NOT LIVE_VERIFIED",
+  "blocker": "Vercel HTTP 402 deployment quota; PR creation rejected"
+}
