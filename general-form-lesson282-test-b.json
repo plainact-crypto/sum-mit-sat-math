@@ -1,0 +1,20 @@
+[
+  {
+    "group": "Medium / Hard",
+    "prompt": "Does x²+y²+2x−6y+15=0 have a real circle?",
+    "answer": "No",
+    "solution": "The squared radius is 1+9−15=−5, so no real circle.",
+    "choices": [
+      "No",
+      "Yes, radius 5",
+      "Yes, radius 3",
+      "Yes, radius 1"
+    ],
+    "qa": {
+      "kind": "classifyBoolean",
+      "D": 2,
+      "E": -6,
+      "F": 15
+    }
+  }
+]

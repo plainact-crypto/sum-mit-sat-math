@@ -1,0 +1,12 @@
+[
+  [
+    "WORKED EXAMPLE 5",
+    "For x²+y²+4x+6y+20=0, r²=4+9−20=−7.",
+    "No real circle exists because a squared distance cannot be negative."
+  ],
+  [
+    "VERIFIED COORDINATE VISUAL",
+    "x²+y²−6x+4y−12=0 has center (3,−2), radius 5.",
+    "Points (8,−2), (−2,−2), (3,3), (3,−7) satisfy the equation."
+  ]
+]

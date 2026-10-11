@@ -1,0 +1,21 @@
+[
+  {
+    "group": "Core Practice",
+    "prompt": "A circle centered at (−1,2) passes through (2,6). Write its general equation.",
+    "answer": "x²+y²+2x−4y−20=0",
+    "solution": "r²=3²+4²=25; D=2, E=−4, F=1+4−25=−20.",
+    "choices": [
+      "x²+y²+2x−4y−20=0",
+      "x²+y²−2x+4y−20=0",
+      "x²+y²+2x−4y+20=0",
+      "x²+y²+2x−4y−25=0"
+    ],
+    "qa": {
+      "kind": "through",
+      "h": -1,
+      "k": 2,
+      "x": 2,
+      "y": 6
+    }
+  }
+]

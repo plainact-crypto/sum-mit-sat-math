@@ -1,0 +1,55 @@
+[
+  {
+    "group": "Easy",
+    "prompt": "Find the center of x²+y²+6x−4y−3=0.",
+    "answer": "(-3, 2)",
+    "solution": "Center is (−6/2,4/2)=(−3,2).",
+    "choices": [
+      "(-3, 2)",
+      "(3, -2)",
+      "(-6, 4)",
+      "(6, -4)"
+    ],
+    "qa": {
+      "kind": "center",
+      "D": 6,
+      "E": -4
+    }
+  },
+  {
+    "group": "Easy / Medium",
+    "prompt": "Find the radius of x²+y²−8x+6y=0.",
+    "answer": "5",
+    "solution": "r²=16+9=25, so r=5.",
+    "choices": [
+      "5",
+      "25",
+      "7",
+      "4"
+    ],
+    "qa": {
+      "kind": "radius",
+      "D": -8,
+      "E": 6,
+      "F": 0
+    }
+  },
+  {
+    "group": "Medium",
+    "prompt": "Expand (x+2)²+(y−1)²=36 into general form.",
+    "answer": "x²+y²+4x−2y−31=0",
+    "solution": "Expand; the constant is 4+1−36=−31.",
+    "choices": [
+      "x²+y²+4x−2y−31=0",
+      "x²+y²−4x+2y−31=0",
+      "x²+y²+4x−2y+31=0",
+      "x²+y²+2x−y−31=0"
+    ],
+    "qa": {
+      "kind": "general",
+      "h": -2,
+      "k": 1,
+      "r2": 36
+    }
+  }
+]

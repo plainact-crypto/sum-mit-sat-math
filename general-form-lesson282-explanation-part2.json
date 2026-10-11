@@ -1,0 +1,12 @@
+[
+  [
+    "HOW IT WORKS",
+    "Group x²+Dx and y²+Ey, then complete both squares.",
+    "Add D²/4 and E²/4 to both sides."
+  ],
+  [
+    "WORKED EXAMPLE 1",
+    "For x²+y²+8x−6y−11=0, the center is (−4,3).",
+    "D=8 gives h=−4; E=−6 gives k=3."
+  ]
+]

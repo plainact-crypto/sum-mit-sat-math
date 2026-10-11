@@ -1,0 +1,38 @@
+[
+  {
+    "group": "Exam-Style",
+    "prompt": "If x²+y²−2x+4y+k=0 has radius 3, find k.",
+    "answer": "-4",
+    "solution": "r²=1+4−k=9, so k=−4.",
+    "choices": [
+      "-4",
+      "4",
+      "9",
+      "5"
+    ],
+    "qa": {
+      "kind": "FfromRadius",
+      "D": -2,
+      "E": 4,
+      "r2": 9
+    }
+  },
+  {
+    "group": "Exam-Style",
+    "prompt": "Find the x-intercepts of x²+y²−4x−5=0.",
+    "answer": "(-1, 0) and (5, 0)",
+    "solution": "Set y=0, then factor x²−4x−5=(x−5)(x+1).",
+    "choices": [
+      "(-1, 0) and (5, 0)",
+      "(1, 0) and (4, 0)",
+      "(-5, 0) and (1, 0)",
+      "No x-intercepts"
+    ],
+    "qa": {
+      "kind": "xintercepts",
+      "D": -4,
+      "E": 0,
+      "F": -5
+    }
+  }
+]

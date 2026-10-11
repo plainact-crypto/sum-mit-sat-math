@@ -1,0 +1,12 @@
+[
+  [
+    "DESMOS STRATEGY",
+    "Enter the general equation in Desmos and inspect its circle.",
+    "Look for the center and radius, then verify by completing squares. Algebra is faster for exact values."
+  ],
+  [
+    "COMMON MISTAKES",
+    "The center uses the opposite signs of half the linear coefficients.",
+    "Check the squared radius before taking a square root."
+  ]
+]

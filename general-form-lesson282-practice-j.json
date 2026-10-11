@@ -1,0 +1,40 @@
+[
+  {
+    "group": "Challenge Problems",
+    "prompt": "For what values of k does x²+y²−6x+8y+k=0 describe a genuine circle?",
+    "answer": "k < 25",
+    "solution": "r²=9+16−k=25−k. Require r²>0, so k<25.",
+    "choices": [
+      "k < 25",
+      "k > 25",
+      "k = 25",
+      "k ≤ 0"
+    ],
+    "qa": {
+      "kind": "threshold",
+      "D": -6,
+      "E": 8
+    }
+  },
+  {
+    "group": "Challenge Problems",
+    "prompt": "Two circles have equations x²+y²−4x−2y−4=0 and x²+y²+2x−2y−4=0. What line contains their common points?",
+    "answer": "x = 0",
+    "solution": "Subtract the equations to eliminate squared terms: −6x=0, hence x=0.",
+    "choices": [
+      "x = 0",
+      "y = 0",
+      "x = 1",
+      "y = 1"
+    ],
+    "qa": {
+      "kind": "radicalAxis",
+      "D1": -4,
+      "D2": 2,
+      "E1": -2,
+      "E2": -2,
+      "F1": -4,
+      "F2": -4
+    }
+  }
+]
