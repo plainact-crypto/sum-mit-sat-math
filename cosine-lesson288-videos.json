@@ -1,0 +1,166 @@
+{
+  "english": [
+    [
+      "Cosine",
+      "Today we learn how cosine connects an acute angle, its adjacent leg, and the hypotenuse in a right triangle."
+    ],
+    [
+      "Right triangle",
+      "A right triangle has one ninety-degree angle; the side opposite it is the hypotenuse."
+    ],
+    [
+      "Choose theta",
+      "Pick an acute angle theta before naming adjacent and opposite legs."
+    ],
+    [
+      "Adjacent leg",
+      "The adjacent leg touches theta but is not the hypotenuse."
+    ],
+    [
+      "Opposite leg",
+      "The opposite leg lies across from theta; cosine does not use it directly."
+    ],
+    [
+      "CAH",
+      "Cosine theta equals adjacent divided by hypotenuse. Remember CAH."
+    ],
+    [
+      "Three four five",
+      "In a three-four-five triangle, cosine of the angle next to the side three equals three fifths."
+    ],
+    [
+      "Ratio check",
+      "The cosine of an acute angle is between zero and one, because the hypotenuse is longest."
+    ],
+    [
+      "Find adjacent",
+      "Multiply hypotenuse by cosine theta to find the adjacent leg."
+    ],
+    [
+      "Sixty degrees",
+      "For hypotenuse twenty and angle sixty degrees, adjacent is twenty times one half: ten."
+    ],
+    [
+      "Find hypotenuse",
+      "Divide the adjacent leg by cosine theta to find the hypotenuse."
+    ],
+    [
+      "Forty-five degrees",
+      "For adjacent seven and angle forty-five degrees, hypotenuse is seven root two, about nine point nine."
+    ],
+    [
+      "Find an angle",
+      "Use inverse cosine of adjacent over hypotenuse to recover an acute angle."
+    ],
+    [
+      "Angle example",
+      "Adjacent six and hypotenuse ten gives inverse cosine of zero point six, about fifty-three point one three degrees."
+    ],
+    [
+      "Ladder example",
+      "A ladder's horizontal reach equals its length times cosine of its angle with the ground."
+    ],
+    [
+      "Similar triangles",
+      "Similar right triangles with the same acute angle have equal adjacent-to-hypotenuse ratios."
+    ],
+    [
+      "Horizontal component",
+      "For motion at angle theta above east, eastward displacement is distance times cosine theta."
+    ],
+    [
+      "Desmos check",
+      "Enter cosine of sixty degrees to check one half. Use degree mode for degree angles."
+    ],
+    [
+      "Common errors",
+      "Never swap adjacent and opposite, and do not confuse inverse cosine with reciprocal cosine."
+    ],
+    [
+      "Review",
+      "Solve eighteen practice problems, read eighteen worked solutions, and submit the five-question test."
+    ]
+  ],
+  "arabic": [
+    [
+      "جيب التمام",
+      "نتعلم اليوم كيف يربط جيب التمام بين الزاوية الحادة والضلع المجاور والوتر في المثلث القائم."
+    ],
+    [
+      "المثلث القائم",
+      "المثلث القائم له زاوية مقدارها تسعون درجة، والوتر يقابل هذه الزاوية."
+    ],
+    [
+      "اختيار الزاوية",
+      "اختر زاوية حادة وسمها ثيتا قبل تحديد الضلع المجاور والمقابل."
+    ],
+    [
+      "الضلع المجاور",
+      "الضلع المجاور يلامس الزاوية ثيتا، لكنه ليس الوتر."
+    ],
+    [
+      "الضلع المقابل",
+      "الضلع المقابل يقع أمام الزاوية ثيتا، ولا يدخل مباشرة في نسبة جيب التمام."
+    ],
+    [
+      "قاعدة جيب التمام",
+      "جيب تمام ثيتا يساوي طول الضلع المجاور مقسوماً على طول الوتر."
+    ],
+    [
+      "مثلث ثلاثة أربعة خمسة",
+      "في مثلث أضلاعه ثلاثة وأربعة وخمسة، جيب تمام الزاوية بجوار الضلع ثلاثة يساوي ثلاثة أخماس."
+    ],
+    [
+      "فحص النسبة",
+      "جيب تمام أي زاوية حادة بين الصفر والواحد لأن الوتر أطول ضلع."
+    ],
+    [
+      "إيجاد المجاور",
+      "نضرب طول الوتر في جيب تمام الزاوية لإيجاد الضلع المجاور."
+    ],
+    [
+      "ستون درجة",
+      "إذا كان الوتر عشرين والزاوية ستين درجة، فإن المجاور يساوي عشرين في نصف، أي عشرة."
+    ],
+    [
+      "إيجاد الوتر",
+      "نقسم طول الضلع المجاور على جيب تمام الزاوية لإيجاد الوتر."
+    ],
+    [
+      "خمس وأربعون درجة",
+      "إذا كان المجاور سبعة والزاوية خمساً وأربعين درجة، فإن الوتر يساوي سبعة جذر اثنين تقريباً."
+    ],
+    [
+      "إيجاد الزاوية",
+      "نستخدم الدالة العكسية لجيب التمام على نسبة المجاور إلى الوتر."
+    ],
+    [
+      "مثال الزاوية",
+      "إذا كان المجاور ستة والوتر عشرة، فالزاوية حوالي ثلاث وخمسين فاصلة ثلاثة عشر درجة."
+    ],
+    [
+      "مثال السلم",
+      "المسافة الأفقية للسلم تساوي طوله مضروباً في جيب تمام زاويته مع الأرض."
+    ],
+    [
+      "التشابه",
+      "المثلثات القائمة المتشابهة لها نسبة المجاور إلى الوتر نفسها عند الزوايا المتناظرة."
+    ],
+    [
+      "المركبة الأفقية",
+      "المسافة المقطوعة باتجاه الشرق تساوي المسافة المائلة في جيب تمام الزاوية مع الشرق."
+    ],
+    [
+      "ديسموس",
+      "أدخل جيب تمام ستين درجة في ديسموس للتحقق من النتيجة نصف، وتأكد من وضع الدرجات."
+    ],
+    [
+      "أخطاء شائعة",
+      "لا تخلط بين المجاور والمقابل، ولا بين الدالة العكسية لجيب التمام ومقلوبها."
+    ],
+    [
+      "المراجعة",
+      "حل ثمانية عشر سؤالاً، وراجع الحلول، ثم أجب عن اختبار من خمسة أسئلة."
+    ]
+  ]
+}
