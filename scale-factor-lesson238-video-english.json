@@ -1,0 +1,86 @@
+[
+  [
+    "Objective",
+    "Learn scale factors in similar triangles."
+  ],
+  [
+    "Dilation",
+    "A dilation changes size while keeping shape."
+  ],
+  [
+    "Corresponding",
+    "Match corresponding sides in the original and image."
+  ],
+  [
+    "Definition",
+    "Scale factor is image length divided by original length."
+  ],
+  [
+    "Enlargement",
+    "A factor greater than one means enlargement."
+  ],
+  [
+    "Reduction",
+    "A factor between zero and one means reduction."
+  ],
+  [
+    "Length rule",
+    "Multiply original length by the scale factor."
+  ],
+  [
+    "Length example",
+    "Three becomes nine, so the factor is three."
+  ],
+  [
+    "Inverse",
+    "Divide image length by k to recover original length."
+  ],
+  [
+    "Perimeter",
+    "Perimeter scales by k, just like every side."
+  ],
+  [
+    "Perimeter example",
+    "Perimeter eighteen with factor three becomes fifty four."
+  ],
+  [
+    "Area",
+    "Area scales by the square of k."
+  ],
+  [
+    "Area example",
+    "Area eighty with factor one half becomes twenty."
+  ],
+  [
+    "Why square",
+    "Width and height both scale, so multiply k by k."
+  ],
+  [
+    "Area to scale",
+    "Take the positive square root of image area over original area."
+  ],
+  [
+    "Area ratio",
+    "Sixteen becomes one hundred forty four; k is three."
+  ],
+  [
+    "Similarity",
+    "All corresponding side ratios must match."
+  ],
+  [
+    "Units",
+    "Lengths have units, areas have squared units."
+  ],
+  [
+    "Mistake",
+    "Do not multiply area by k instead of k squared."
+  ],
+  [
+    "Check",
+    "Always divide image by original in the same order."
+  ],
+  [
+    "Next step",
+    "Practice eighteen questions and complete the five-question test."
+  ]
+]
