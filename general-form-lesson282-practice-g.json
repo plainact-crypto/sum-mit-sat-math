@@ -1,0 +1,38 @@
+[
+  {
+    "group": "Exam-Style",
+    "prompt": "Find the radius of x²+y²−4x+12y+15=0.",
+    "answer": "5",
+    "solution": "r²=4+36−15=25, hence radius 5.",
+    "choices": [
+      "5",
+      "25",
+      "7",
+      "3"
+    ],
+    "qa": {
+      "kind": "radius",
+      "D": -4,
+      "E": 12,
+      "F": 15
+    }
+  },
+  {
+    "group": "Exam-Style",
+    "prompt": "A circle centered at (4,−3) is tangent to the y-axis. Find its general equation.",
+    "answer": "x²+y²−8x+6y+9=0",
+    "solution": "Radius 4; F=16+9−16=9, D=−8, E=6.",
+    "choices": [
+      "x²+y²−8x+6y+9=0",
+      "x²+y²−8x+6y−9=0",
+      "x²+y²+8x−6y+9=0",
+      "x²+y²−8x+6y+16=0"
+    ],
+    "qa": {
+      "kind": "general",
+      "h": 4,
+      "k": -3,
+      "r2": 16
+    }
+  }
+]
