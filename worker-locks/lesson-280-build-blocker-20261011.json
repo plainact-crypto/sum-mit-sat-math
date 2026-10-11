@@ -1,0 +1,10 @@
+{
+  "canonicalIndex": 279,
+  "slug": "building-an-equation-from-center-and-radius",
+  "branch": "worker4-index279-center-radius-20261011",
+  "status": "BLOCKED_INCOMPLETE",
+  "reason": "Node --check fails on line 8 of the lesson280 builder due to an accidental duplicated colon in HTML escape map. GitHub update_file/create_blob safety checks rejected correction. No merge or LIVE_VERIFIED claim permitted.",
+  "nextAction": "Fix the esc mapping in building-an-equation-from-center-and-radius-lesson280-build.js (remove duplicated :'&quot;'), run node --check, npm run build, validate 6 routes and npm run qa, then integrate the unique Explanation Registry entry and release only after production verification.",
+  "mathQA": "Data authoring checked 18/18 equations, 3/8/5/2 distribution, five test answers, five point-distance checks, diameter midpoint, and equal-distance challenge; complete builder runtime QA not passed.",
+  "createdAt": "2026-10-11"
+}
