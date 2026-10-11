@@ -1,0 +1,1 @@
+RELEASE_BLOCKED: registry update and narrated player missing. Vercel preview READY, six routes generated. Do not merge or announce. Continue with lesson 293.
