@@ -4,7 +4,8 @@
   "slug": "exterior-angles-of-triangles",
   "canonical_base": "/geometry-and-trigonometry/triangles/exterior-angles-of-triangles",
   "owner": "SUMMIT Worker 2",
-  "status": "IN_PROGRESS",
+  "status": "BLOCKED_UPLOAD",
   "started_on": "2026-10-11",
-  "branch": "worker2/exterior-angles-of-triangles-232-20261011"
+  "branch": "worker2/exterior-angles-of-triangles-232-20261011",
+  "blocker": "Dataset committed, 23 math checks passed; required builder upload rejected twice. No manifest, full build, merge, or production verification. Advanced to lesson 237."
 }
