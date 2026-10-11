@@ -4,7 +4,7 @@
   "slug": "cosine-on-the-unit-circle",
   "canonical_base": "/geometry-and-trigonometry/unit-circle/cosine-on-the-unit-circle",
   "owner": "SUMMIT Worker 2",
-  "status": "LOCAL_QA_PENDING",
+  "status": "LOCAL_QA_PASSED",
   "branch": "worker2/cosine-on-the-unit-circle-297-20261011",
   "explanation_sections": 17,
   "practice": 18,
@@ -13,6 +13,6 @@
   "english_scenes": 12,
   "arabic_scenes": 12,
   "release_manifest": "lesson-releases/cosine-on-the-unit-circle.json",
-  "remaining": "Authoritative repository build, release gate and live production verification.",
+  "remaining": "Authoritative repository build, release gate, pull request, Vercel production READY and six live routes.",
   "next_owned_index": null
 }
