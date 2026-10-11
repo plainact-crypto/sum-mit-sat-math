@@ -40,7 +40,7 @@ const testExpected=[
   'Down '+7,
   '('+(-1)+','+(4+3)+')',
   String(-1-(-5)),
-  'g has minimum '+((-1)**2-4+5)+' and no x-intercepts',
+  'g has minimum '+(((-1)**2)+2*(-1)-3+5)+' and no x-intercepts',
   String(-4)
 ];
 const difficulty=['Easy','Easy / Medium','Medium','Medium / Hard','Hard / Exam-Style'];
