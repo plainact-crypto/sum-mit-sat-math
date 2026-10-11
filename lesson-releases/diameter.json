@@ -1,0 +1,16 @@
+{
+  "lesson": "diameter",
+  "builders": [
+    "diameter-lesson267-core-build.js",
+    "diameter-lesson267-test-build.js",
+    "diameter-lesson267-video-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/circles/diameter/explanation/",
+    "/geometry-and-trigonometry/circles/diameter/problems/",
+    "/geometry-and-trigonometry/circles/diameter/answers/",
+    "/geometry-and-trigonometry/circles/diameter/test/",
+    "/geometry-and-trigonometry/circles/diameter/video/english/",
+    "/geometry-and-trigonometry/circles/diameter/video/arabic/"
+  ]
+}
