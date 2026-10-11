@@ -1,1 +1,1 @@
-{"lesson_index":218,"slug":"experiments","worker":"worker3","status":"CORE_QA_PASSED_RELEASE_PENDING","qa":"23/23 answers; 4/4 isolated builders; 6/6 isolated routes","manifest":"lesson-releases/experiments.json","pending":"full repository build, CI, merge and production verification"}
+{"lesson_index":218,"slug":"experiments","worker":"worker3","status":"RELEASE_BLOCKED","qa":"23/23; builders 4/4; routes 6/6","blocker":"PR write rejected; full build pending","next":223}
