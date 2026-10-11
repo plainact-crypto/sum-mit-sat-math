@@ -1,0 +1,398 @@
+{
+  "slug": "exterior-angles-of-triangles",
+  "title": "Exterior Angles of Triangles",
+  "base": "/geometry-and-trigonometry/triangles/exterior-angles-of-triangles",
+  "classification": "GRAPH",
+  "explanation": [
+    {
+      "heading": "LESSON OBJECTIVE",
+      "text": "Use the exterior-angle theorem to find unknown triangle angles and solve SAT-style algebra problems. Distinguish an exterior angle from its adjacent interior angle and from the two remote interior angles."
+    },
+    {
+      "heading": "WHAT YOU NEED TO KNOW",
+      "text": "Extend one side of a triangle beyond a vertex. The angle between that extension and the adjacent triangle side is an exterior angle. The interior angle at that vertex and the exterior angle form a straight angle."
+    },
+    {
+      "heading": "KEY DEFINITIONS",
+      "text": "An exterior angle lies outside a triangle and is formed by a side and an extension of an adjacent side. Remote interior angles are the two interior angles not adjacent to that exterior angle. A linear pair adds to 180°."
+    },
+    {
+      "heading": "CORE RULE",
+      "text": "Exterior angle = sum of the two remote interior angles. If interior angles at A, B, C are a, b, c, then an exterior angle at B equals a+c and also equals 180°−b."
+    },
+    {
+      "heading": "HOW IT WORKS",
+      "text": "Identify the vertex of the exterior angle, then identify the two remote interior angles. Add those two angles to find the exterior, or subtract the known remote angle from the exterior to find the other. For algebra, set the exterior expression equal to the sum of the two remote expressions."
+    },
+    {
+      "heading": "WORKED EXAMPLE 1 — ADD TWO REMOTE ANGLES",
+      "text": "If the remote interior angles measure 35° and 65°, the exterior angle is 35+65=100°. The adjacent interior angle is 180−100=80°."
+    },
+    {
+      "heading": "WORKED EXAMPLE 2 — USE A LINEAR PAIR",
+      "text": "An interior angle at the vertex measures 47°. The exterior angle at that vertex is 180−47=133°. The remote interior angles must total 133°."
+    },
+    {
+      "heading": "WORKED EXAMPLE 3 — FIND A MISSING REMOTE ANGLE",
+      "text": "An exterior angle is 142° and one remote interior angle is 63°. The other remote angle is 142−63=79°."
+    },
+    {
+      "heading": "WORKED EXAMPLE 4 — SOLVE AN EXPRESSION",
+      "text": "An exterior angle measures (3x+10)°, and the remote angles measure (x+20)° and 70°. Set 3x+10=x+90, so x=40; exterior angle is 130°."
+    },
+    {
+      "heading": "WORKED EXAMPLE 5 — THREE EXTERIOR ANGLES",
+      "text": "Choose one exterior angle at each of the three triangle vertices. Their sum is 360°, because each is 180° minus its adjacent interior angle and the three interior angles sum to 180°."
+    },
+    {
+      "heading": "DETERMINISTIC TRIANGLE DIAGRAM",
+      "text": "Take A=(0,0), B=(6,0), C=(3,3), and extend BC to D=(8,−2). The interior angles are 45° at A, 45° at B, and 90° at C. The exterior angle ABD at B is 135°, equal to the remote interior angles 45°+90°."
+    },
+    {
+      "heading": "WHY THE THEOREM WORKS",
+      "text": "Triangle angle sum: a+b+c=180°. Adjacent linear pair: exterior+b=180°. Subtract the equal b terms to obtain exterior=a+c. This proof also shows the exterior angle is greater than either positive remote interior angle."
+    },
+    {
+      "heading": "COMMON MISTAKES",
+      "text": "Do not add the adjacent interior angle to a remote interior angle to find the exterior. Do not confuse 180° (one linear pair) with 360° (one exterior at each vertex). Ensure all triangle interior angles are strictly between 0° and 180°."
+    },
+    {
+      "heading": "EXAM STRATEGY",
+      "text": "Circle the exterior angle and cross out the adjacent interior angle when using the remote-angle sum. Set up one equation, solve, and substitute. If the question asks for the adjacent interior angle, finish with 180° minus the exterior angle."
+    },
+    {
+      "heading": "QUICK CHECK",
+      "text": "Remote interior angles 40° and 50° give an exterior angle of 90°. An adjacent interior angle of 68° gives an exterior angle of 112°. One exterior at each of the three vertices totals 360°."
+    },
+    {
+      "heading": "LESSON RECAP / NEXT STEP",
+      "text": "Exterior = remote 1 + remote 2 = 180°−adjacent interior. Three exterior angles, one at each vertex, sum to 360°. Complete the 18 practice questions, review aligned answers, take the five-question test, and use the full English or Arabic lesson."
+    }
+  ],
+  "practice": [
+    {
+      "number": 1,
+      "group": "Skill Check",
+      "question": "What two parts form an exterior angle at a triangle vertex?",
+      "answer": "A triangle side and the extension of an adjacent side",
+      "solution": "Extending a triangle side beyond a vertex forms an outside angle with the neighboring side."
+    },
+    {
+      "number": 2,
+      "group": "Skill Check",
+      "question": "The remote interior angles are 35° and 65°. Find the exterior angle.",
+      "answer": "100°",
+      "solution": "By the exterior-angle theorem, 35+65=100°."
+    },
+    {
+      "number": 3,
+      "group": "Skill Check",
+      "question": "The interior angle adjacent to an exterior angle is 47°. Find the exterior angle.",
+      "answer": "133°",
+      "solution": "Adjacent interior and exterior angles form a linear pair: 180−47=133°."
+    },
+    {
+      "number": 4,
+      "group": "Core Practice",
+      "question": "Remote interior angles are 52° and 61°. Find the exterior angle.",
+      "answer": "113°",
+      "solution": "52+61=113°."
+    },
+    {
+      "number": 5,
+      "group": "Core Practice",
+      "question": "Remote interior angles are 38° and 79°. Find the exterior angle.",
+      "answer": "117°",
+      "solution": "38+79=117°."
+    },
+    {
+      "number": 6,
+      "group": "Core Practice",
+      "question": "An exterior angle is 142°, and one remote interior angle is 63°. Find the other remote interior angle.",
+      "answer": "79°",
+      "solution": "142−63=79°."
+    },
+    {
+      "number": 7,
+      "group": "Core Practice",
+      "question": "An exterior angle is (x+15)°, and the remote interior angles are 43° and 52°. Find x.",
+      "answer": "80",
+      "solution": "x+15=43+52=95, so x=80."
+    },
+    {
+      "number": 8,
+      "group": "Core Practice",
+      "question": "An exterior angle is (3x+10)°, and the remote interior angles are (x+20)° and 70°. Find x.",
+      "answer": "40",
+      "solution": "3x+10=x+20+70=x+90, so 2x=80 and x=40."
+    },
+    {
+      "number": 9,
+      "group": "Core Practice",
+      "question": "An exterior angle is 120°. Find its adjacent interior angle.",
+      "answer": "60°",
+      "solution": "The angles form a straight line: 180−120=60°."
+    },
+    {
+      "number": 10,
+      "group": "Core Practice",
+      "question": "An exterior angle is 105°, and the remote angles are (2x+5)° and (x+10)°. Find x.",
+      "answer": "30",
+      "solution": "105=2x+5+x+10=3x+15; 3x=90, x=30."
+    },
+    {
+      "number": 11,
+      "group": "Core Practice",
+      "question": "An exterior angle is (4x−5)°, and the remote angles are (2x+15)° and (x+20)°. Find x and the exterior angle.",
+      "answer": "x=40; 155°",
+      "solution": "4x−5=3x+35 gives x=40. The exterior angle is 4(40)−5=155°."
+    },
+    {
+      "number": 12,
+      "group": "Exam-Style",
+      "question": "An exterior angle is 137°, and the remote interior angles are (x+25)° and (2x+16)°. Find x.",
+      "answer": "32",
+      "solution": "137=x+25+2x+16=3x+41; x=32. Remote angles are 57° and 80°."
+    },
+    {
+      "number": 13,
+      "group": "Exam-Style",
+      "question": "An exterior angle is 155°. One remote interior angle is 75°. Find the other.",
+      "answer": "80°",
+      "solution": "155−75=80°."
+    },
+    {
+      "number": 14,
+      "group": "Exam-Style",
+      "question": "A triangle has interior angles A=45°, B=45°, C=90°. What is the exterior angle adjacent to B?",
+      "answer": "135°",
+      "solution": "The exterior at B equals 180−45=135°, or the remote sum 45+90=135°."
+    },
+    {
+      "number": 15,
+      "group": "Exam-Style",
+      "question": "An exterior angle is (2x+8)°, and the remote angles are (x+30)° and 60°. Find x.",
+      "answer": "82",
+      "solution": "2x+8=x+30+60=x+90, so x=82. Exterior 172° is valid; the adjacent interior is 8°."
+    },
+    {
+      "number": 16,
+      "group": "Exam-Style",
+      "question": "An exterior angle is (5x−20)°, and the remote angles are (2x+10)° and (x+40)°. Find x.",
+      "answer": "35",
+      "solution": "5x−20=3x+50 gives 2x=70, x=35. Exterior 155°; remote angles 80° and 75°."
+    },
+    {
+      "number": 17,
+      "group": "Challenge",
+      "question": "What is the sum of one exterior angle at each of a triangle's three vertices?",
+      "answer": "360°",
+      "solution": "Each exterior is 180° minus its interior angle, so their sum is 3(180)−180=360°."
+    },
+    {
+      "number": 18,
+      "group": "Challenge",
+      "question": "The three exterior angles (one per vertex) are (2x+70)°, (x+100)°, and (3x+40)°. Find x and all three exterior angles.",
+      "answer": "x=25; 120°, 125°, 115°",
+      "solution": "Sum exterior angles: 6x+210=360, so x=25. Values are 120°, 125°, and 115°, totaling 360°."
+    }
+  ],
+  "test": [
+    {
+      "number": 1,
+      "difficulty": "Easy",
+      "question": "Remote interior angles are 40° and 50°. Find the exterior angle.",
+      "choices": [
+        "90°",
+        "100°",
+        "130°",
+        "180°"
+      ],
+      "correct": 0,
+      "answer": "90°",
+      "solution": "Exterior =40+50=90°."
+    },
+    {
+      "number": 2,
+      "difficulty": "Easy / Medium",
+      "question": "An interior angle adjacent to an exterior angle is 68°. Find the exterior angle.",
+      "choices": [
+        "68°",
+        "112°",
+        "122°",
+        "292°"
+      ],
+      "correct": 1,
+      "answer": "112°",
+      "solution": "180−68=112°."
+    },
+    {
+      "number": 3,
+      "difficulty": "Medium",
+      "question": "An exterior angle is (3x+12)°, and the remote angles are (x+20)° and 70°. Find x.",
+      "choices": [
+        "39",
+        "42",
+        "29",
+        "51"
+      ],
+      "correct": 0,
+      "answer": "39",
+      "solution": "3x+12=x+20+70, so 2x=78, x=39."
+    },
+    {
+      "number": 4,
+      "difficulty": "Medium / Hard",
+      "question": "An exterior angle is 154°, and the remote angles are (2x+10)° and (x+24)°. Find x.",
+      "choices": [
+        "30",
+        "36",
+        "40",
+        "44"
+      ],
+      "correct": 2,
+      "answer": "40",
+      "solution": "154=2x+10+x+24=3x+34, so x=40."
+    },
+    {
+      "number": 5,
+      "difficulty": "Hard / Exam-Style",
+      "question": "A triangle's exterior angles (one per vertex) are (x+70)°, (2x+40)°, and (3x+10)°. What is the interior angle adjacent to the third exterior angle?",
+      "choices": [
+        "50°",
+        "60°",
+        "70°",
+        "130°"
+      ],
+      "correct": 0,
+      "answer": "50°",
+      "solution": "The exteriors sum to 360: 6x+120=360, so x=40. The third exterior is 130°, and its adjacent interior is 180−130=50°."
+    }
+  ],
+  "video": {
+    "english": [
+      {
+        "title": "LESSON OBJECTIVE",
+        "narration": "Use the exterior-angle theorem to find unknown triangle angles and solve SAT-style algebra problems. Distinguish an exterior angle from its adjacent interior angle and from the two remote interior angles.",
+        "math": "exterior angle theorem"
+      },
+      {
+        "title": "WHAT YOU NEED TO KNOW",
+        "narration": "Extend one side of a triangle beyond a vertex. The angle between that extension and the adjacent triangle side is an exterior angle. The interior angle at that vertex and the exterior angle form a straight angle.",
+        "math": "exterior + adjacent =180°"
+      },
+      {
+        "title": "KEY DEFINITIONS",
+        "narration": "An exterior angle lies outside a triangle and is formed by a side and an extension of an adjacent side. Remote interior angles are the two interior angles not adjacent to that exterior angle. A linear pair adds to 180°.",
+        "math": "remote angles a and c"
+      },
+      {
+        "title": "CORE RULE",
+        "narration": "Exterior angle = sum of the two remote interior angles. If interior angles at A, B, C are a, b, c, then an exterior angle at B equals a+c and also equals 180°−b.",
+        "math": "exterior=a+c"
+      },
+      {
+        "title": "HOW IT WORKS",
+        "narration": "Identify the vertex of the exterior angle, then identify the two remote interior angles. Add those two angles to find the exterior, or subtract the known remote angle from the exterior to find the other. For algebra, set the exterior expression equal to the sum of the two remote expressions.",
+        "math": "35+65=100°"
+      },
+      {
+        "title": "WORKED EXAMPLE 1 — ADD TWO REMOTE ANGLES",
+        "narration": "If the remote interior angles measure 35° and 65°, the exterior angle is 35+65=100°. The adjacent interior angle is 180−100=80°.",
+        "math": "100°"
+      },
+      {
+        "title": "WORKED EXAMPLE 2 — USE A LINEAR PAIR",
+        "narration": "An interior angle at the vertex measures 47°. The exterior angle at that vertex is 180−47=133°. The remote interior angles must total 133°.",
+        "math": "180−47=133°"
+      },
+      {
+        "title": "WORKED EXAMPLE 3 — FIND A MISSING REMOTE ANGLE",
+        "narration": "An exterior angle is 142° and one remote interior angle is 63°. The other remote angle is 142−63=79°.",
+        "math": "142−63=79°"
+      },
+      {
+        "title": "WORKED EXAMPLE 4 — SOLVE AN EXPRESSION",
+        "narration": "An exterior angle measures (3x+10)°, and the remote angles measure (x+20)° and 70°. Set 3x+10=x+90, so x=40; exterior angle is 130°.",
+        "math": "x=40"
+      },
+      {
+        "title": "WORKED EXAMPLE 5 — THREE EXTERIOR ANGLES",
+        "narration": "Choose one exterior angle at each of the three triangle vertices. Their sum is 360°, because each is 180° minus its adjacent interior angle and the three interior angles sum to 180°.",
+        "math": "360°"
+      },
+      {
+        "title": "DETERMINISTIC TRIANGLE DIAGRAM",
+        "narration": "Take A=(0,0), B=(6,0), C=(3,3), and extend BC to D=(8,−2). The interior angles are 45° at A, 45° at B, and 90° at C. The exterior angle ABD at B is 135°, equal to the remote interior angles 45°+90°.",
+        "math": "45°+90°=135°"
+      },
+      {
+        "title": "WHY THE THEOREM WORKS",
+        "narration": "Triangle angle sum: a+b+c=180°. Adjacent linear pair: exterior+b=180°. Subtract the equal b terms to obtain exterior=a+c. This proof also shows the exterior angle is greater than either positive remote interior angle.",
+        "math": "exterior=a+c"
+      }
+    ],
+    "arabic": [
+      {
+        "title": "هدف الدرس",
+        "narration": "هنستخدم نظرية الزاوية الخارجية للمثلث علشان نجيب الزوايا المجهولة ونحل مسائل الجبر.",
+        "math": "الخارجية = مجموع الداخليتين البعيدتين"
+      },
+      {
+        "title": "إزاي تتكون",
+        "narration": "لما نمد ضلع من أضلاع المثلث بعد رأسه، الزاوية اللي بره جنب الزاوية الداخلية هي الزاوية الخارجية.",
+        "math": "الخارجية + المجاورة = 180°"
+      },
+      {
+        "title": "الزوايا البعيدة",
+        "narration": "الزاويتين الداخليتين البعيدتين هما اللي مش جنب الزاوية الخارجية اللي بنحسبها.",
+        "math": "الزاويتان البعيدتان"
+      },
+      {
+        "title": "القاعدة",
+        "narration": "قياس الزاوية الخارجية يساوي مجموع قياس الزاويتين الداخليتين البعيدتين.",
+        "math": "E=A+C"
+      },
+      {
+        "title": "مثال جمع",
+        "narration": "لو الزاويتين البعيدتين خمسة وتلاتين وخمسة وستين، الخارجية مية درجة.",
+        "math": "35+65=100°"
+      },
+      {
+        "title": "مراجعة المثال",
+        "narration": "الزاوية الداخلية المجاورة للخارجية مية درجة بتكون تمانين، لأن مجموعهم مية وتمانين.",
+        "math": "180−100=80°"
+      },
+      {
+        "title": "زاوية مجاورة",
+        "narration": "لو الزاوية الداخلية عند الرأس سبعة وأربعين، الخارجية مية وتلاتة وتلاتين.",
+        "math": "180−47=133°"
+      },
+      {
+        "title": "زاوية بعيدة مجهولة",
+        "narration": "لو الخارجية مية واتنين وأربعين وإحدى البعيدتين تلاتة وستين، التانية تسعة وسبعين.",
+        "math": "142−63=79°"
+      },
+      {
+        "title": "معادلة",
+        "narration": "لو الخارجية تلاتة إكس زائد عشرة والبعيدتين إكس زائد عشرين وسبعين، نلاقي إكس بأربعين.",
+        "math": "3x+10=x+20+70"
+      },
+      {
+        "title": "مجموع الخارجيات",
+        "narration": "لو اخترنا زاوية خارجية واحدة عند كل رأس في المثلث، مجموعهم تلاتمية وستين.",
+        "math": "360°"
+      },
+      {
+        "title": "رسم المثلث",
+        "narration": "هنرسم مثلث زواياه خمسة وأربعين وخمسة وأربعين وتسعين. الخارجية عند الرأس بي مية وخمسة وتلاتين.",
+        "math": "45°+90°=135°"
+      },
+      {
+        "title": "سبب صحة النظرية",
+        "narration": "الزوايا الداخلية مجموعها مية وتمانين، والخارجية مع المجاورة مجموعهم مية وتمانين، وبالتالي الخارجية تساوي مجموع البعيدتين.",
+        "math": "E=A+C"
+      }
+    ]
+  }
+}
