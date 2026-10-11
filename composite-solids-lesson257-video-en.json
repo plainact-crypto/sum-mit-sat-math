@@ -1,0 +1,62 @@
+[
+  {
+    "title": "What makes a composite solid?",
+    "narration": "A composite solid combines familiar three-dimensional pieces. The first question is whether pieces are added, overlapping, or removed.",
+    "math": "Volume of whole = sum of non-overlapping parts − removed parts."
+  },
+  {
+    "title": "Volume and surface area",
+    "narration": "Volume counts space inside, in cubic units. Surface area covers only the outside, in square units. Shared interior faces do not count.",
+    "math": "Volume: cm³; surface area: cm²."
+  },
+  {
+    "title": "Label the shapes",
+    "narration": "Separate the object into boxes, prisms, cylinders, cones, pyramids, and hemispheres. Mark every radius and perpendicular height.",
+    "math": "Prism: V = B h; cylinder: V = π r² h."
+  },
+  {
+    "title": "The formulas",
+    "narration": "For a cone or pyramid take one-third of the matching prism or cylinder. A hemisphere is half a sphere.",
+    "math": "Cone: πr²h/3; hemisphere: 2πr³/3."
+  },
+  {
+    "title": "Worked example: two blocks",
+    "narration": "A 6 by 4 by 2 block supports a 2 by 4 by 3 block. Add the two volumes because they touch but do not overlap.",
+    "math": "48 + 24 = 72 cubic units."
+  },
+  {
+    "title": "Worked example: curved roof",
+    "narration": "A cylinder of radius three and height four supports a cone of radius three and height six. Compute each separately.",
+    "math": "36π + 18π = 54π cubic units."
+  },
+  {
+    "title": "Worked example: tunnel",
+    "narration": "A rectangular opening is removed from an eight by five by three block. Subtract the tunnel's volume.",
+    "math": "120 − 12 = 108 cubic units."
+  },
+  {
+    "title": "Worked example: hemisphere",
+    "narration": "A hemisphere of radius three caps a cylinder of radius three and height five. Use the half-sphere formula.",
+    "math": "18π + 45π = 63π cubic units."
+  },
+  {
+    "title": "Exposed surface area",
+    "narration": "Two cubes of side three are glued along a square face. The two contact faces are internal and must be removed from the sum of surface areas.",
+    "math": "2(6·3²) − 2(3²) = 90 square units."
+  },
+  {
+    "title": "Avoid traps",
+    "narration": "Radius is half the diameter. Never double-count an overlap. Subtract a hole. Keep π exact when requested and check units.",
+    "math": "Radius r = diameter/2."
+  },
+  {
+    "title": "Exam method",
+    "narration": "Create a signed list of parts, calculate each volume, and combine. For a missing dimension, subtract the known volume first, then solve the remaining formula.",
+    "math": "117π − 90π = 3πh; h = 9."
+  },
+  {
+    "title": "Recap and next step",
+    "narration": "You can now add solid volumes, subtract voids, and remove hidden faces for exterior area. Practice eighteen questions and take the five-question test.",
+    "math": "Vtotal = ΣVparts − ΣVvoids."
+  }
+]
