@@ -1,0 +1,166 @@
+{
+  "english": [
+    [
+      "Right-triangle word problems",
+      "Turn a story about height, distance, or angle into a labeled right triangle."
+    ],
+    [
+      "Sketch first",
+      "Draw the horizontal ground, vertical rise, and sloping hypotenuse before choosing a formula."
+    ],
+    [
+      "Mark ninety degrees",
+      "Ground and a vertical wall form a right angle."
+    ],
+    [
+      "Angles of elevation",
+      "Elevation is the angle measured upward from a horizontal line of sight."
+    ],
+    [
+      "Angles of depression",
+      "Depression is measured downward from horizontal and leads to a similar right triangle."
+    ],
+    [
+      "SOH",
+      "Sine of theta equals opposite divided by hypotenuse."
+    ],
+    [
+      "CAH",
+      "Cosine of theta equals adjacent divided by hypotenuse."
+    ],
+    [
+      "TOA",
+      "Tangent of theta equals opposite divided by adjacent."
+    ],
+    [
+      "Choose the ratio",
+      "Pick the ratio that uses your known quantities and your one unknown."
+    ],
+    [
+      "Ladder example",
+      "A five-meter ladder with a three-meter ground distance reaches four meters vertically."
+    ],
+    [
+      "Pythagorean theorem",
+      "For perpendicular legs a and b and hypotenuse c, a squared plus b squared equals c squared."
+    ],
+    [
+      "Shadow example",
+      "A tree casting an eighteen-meter shadow at thirty-five degrees has height eighteen times tangent thirty-five."
+    ],
+    [
+      "Ramp example",
+      "A fifteen-meter ramp at twenty degrees rises fifteen times sine twenty, about five point one three meters."
+    ],
+    [
+      "Finding an angle",
+      "If rise is twelve and horizontal run twenty, angle is inverse tangent of twelve over twenty."
+    ],
+    [
+      "Ladder length",
+      "If rise is nine meters and angle sixty degrees, ladder length is nine divided by sine sixty."
+    ],
+    [
+      "Eye height",
+      "If the observer's eyes are above ground, add eye height after computing the rise above the eyes."
+    ],
+    [
+      "Horizontal components",
+      "A slanted distance contributes length times cosine of its angle to horizontal travel."
+    ],
+    [
+      "Desmos",
+      "Enter twelve times tangent thirty-five degrees and check the result in degree mode."
+    ],
+    [
+      "Check units",
+      "Lengths must use consistent units. Angles must be in degrees if the question uses degrees."
+    ],
+    [
+      "Practice",
+      "Solve eighteen word problems, read the worked solutions, and take the five-question test."
+    ]
+  ],
+  "arabic": [
+    [
+      "مسائل المثلث القائم",
+      "نحول المسألة اللفظية عن الارتفاع أو المسافة أو الزاوية إلى مثلث قائم مرسوم ومحدد الأضلاع."
+    ],
+    [
+      "ارسم أولاً",
+      "ارسم الأرض الأفقية والارتفاع الرأسي والضلع المائل قبل اختيار القانون."
+    ],
+    [
+      "الزاوية القائمة",
+      "الأرض الأفقية والحائط الرأسي يشكلان زاوية مقدارها تسعون درجة."
+    ],
+    [
+      "زاوية الارتفاع",
+      "زاوية الارتفاع تقاس من الخط الأفقي إلى أعلى باتجاه الهدف."
+    ],
+    [
+      "زاوية الانخفاض",
+      "زاوية الانخفاض تقاس من الخط الأفقي إلى أسفل ويمكن تمثيلها بمثلث قائم."
+    ],
+    [
+      "قانون الجيب",
+      "جيب الزاوية يساوي الضلع المقابل مقسوماً على الوتر."
+    ],
+    [
+      "قانون جيب التمام",
+      "جيب التمام يساوي الضلع المجاور مقسوماً على الوتر."
+    ],
+    [
+      "قانون الظل",
+      "ظل الزاوية يساوي الضلع المقابل مقسوماً على الضلع المجاور."
+    ],
+    [
+      "اختيار القانون",
+      "اختر النسبة التي تحتوي على القيم المعروفة والمجهول المطلوب فقط."
+    ],
+    [
+      "مثال السلم",
+      "سلم طوله خمسة أمتار وقاعدته تبعد ثلاثة أمتار عن الحائط يصل إلى ارتفاع أربعة أمتار."
+    ],
+    [
+      "فيثاغورس",
+      "مربع الضلع القائم الأول زائد مربع الثاني يساوي مربع الوتر."
+    ],
+    [
+      "مثال الظل",
+      "إذا كان ظل شجرة طوله ثمانية عشر متراً وزاوية ارتفاع الشمس خمساً وثلاثين درجة، نضرب طول الظل في ظل الزاوية."
+    ],
+    [
+      "مثال المنحدر",
+      "منحدر طوله خمسة عشر متراً بزاوية عشرين درجة يرتفع رأسياً خمسة عشر في جيب عشرين درجة."
+    ],
+    [
+      "إيجاد زاوية",
+      "إذا كان الارتفاع اثني عشر والمسافة الأفقية عشرين، نستخدم الظل العكسي لنسبة اثني عشر إلى عشرين."
+    ],
+    [
+      "طول السلم",
+      "إذا كان الارتفاع تسعة أمتار والزاوية ستين درجة، نقسم تسعة على جيب ستين لإيجاد طول السلم."
+    ],
+    [
+      "ارتفاع عين المراقب",
+      "إذا كانت عين المراقب أعلى الأرض، أضف ارتفاع العين بعد حساب الفرق الرأسي حتى الهدف."
+    ],
+    [
+      "المركبة الأفقية",
+      "المسافة الأفقية لحركة مائلة تساوي طول الحركة مضروباً في جيب تمام الزاوية."
+    ],
+    [
+      "ديسموس",
+      "أدخل اثني عشر مضروباً في ظل خمس وثلاثين درجة في ديسموس، وتأكد من وضع الدرجات."
+    ],
+    [
+      "مراجعة الوحدات",
+      "تأكد من توحيد وحدات الأطوال وضبط الآلة الحاسبة على الدرجات عند الحاجة."
+    ],
+    [
+      "التدريب",
+      "حل ثمانية عشر سؤالاً لفظياً، وراجع الحلول المفصلة، ثم أجب عن اختبار من خمسة أسئلة."
+    ]
+  ]
+}
