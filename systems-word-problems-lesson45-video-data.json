@@ -1,0 +1,102 @@
+{
+  "english": [
+    [
+      "Objective",
+      "Translate a word problem into two linear equations, solve the system, and interpret the answer with units."
+    ],
+    [
+      "Define variables",
+      "Choose a symbol for each unknown. For ticket problems, a can mean adult tickets and s can mean student tickets. State the meaning before solving."
+    ],
+    [
+      "Two relationships",
+      "Look for a total count and a total value. If fifty tickets were sold, write a plus s equals fifty. If prices are eight and five dollars and revenue is three hundred ten dollars, write eight a plus five s equals three hundred ten."
+    ],
+    [
+      "Ticket example",
+      "From a plus s equals fifty, s equals fifty minus a. Substitute: eight a plus five times fifty minus a equals three hundred ten. Three a equals sixty, so a equals twenty and s equals thirty."
+    ],
+    [
+      "Check the context",
+      "Twenty adult and thirty student tickets make fifty tickets. Revenue is twenty times eight plus thirty times five, or three hundred ten dollars. Both conditions match."
+    ],
+    [
+      "Mixture setup",
+      "For a forty liter mixture at twenty five percent made from ten percent and forty percent solutions, let x and y be liters of each. Then x plus y equals forty and point one x plus point four y equals ten liters of pure ingredient."
+    ],
+    [
+      "Mixture solution",
+      "Replace x with forty minus y. Four minus point one y plus point four y equals ten. Point three y equals six, so y equals twenty liters of the forty percent solution."
+    ],
+    [
+      "Cost comparison",
+      "Plan A costs twenty five dollars plus seven dollars per month. Plan B costs fifty five dollars plus four dollars per month. Set twenty five plus seven m equal to fifty five plus four m. The costs match after ten months."
+    ],
+    [
+      "Sum and difference",
+      "Two numbers sum to sixty eight and differ by twenty. Write L plus S equals sixty eight and L minus S equals twenty. Add the equations to get two L equals eighty eight. The larger number is forty four."
+    ],
+    [
+      "Common mistakes",
+      "Do not confuse the total number with total revenue. Multiply each quantity by its own price, keep units consistent, and answer the specific unknown requested."
+    ],
+    [
+      "Exam strategy",
+      "Define variables, write two independent equations, choose substitution or elimination, solve, then verify in the original story. Check whether the answer is a sensible nonnegative count or amount."
+    ],
+    [
+      "Recap and next steps",
+      "A good system model uses both facts in the story. Solve the equations and check the interpretation. Complete eighteen practice problems, review eighteen worked answers, then submit the five question test once."
+    ]
+  ],
+  "arabic": [
+    [
+      "هدف الدرس",
+      "نحوّل المسألة الكلامية إلى معادلتين خطيتين، ثم نحل النظام ونفسر الناتج مع كتابة الوحدة المناسبة."
+    ],
+    [
+      "تعريف المتغيرات",
+      "اختر رمزًا لكل كمية مجهولة. في مسألة التذاكر يمكن أن تمثل ألف عدد تذاكر الكبار، وسين عدد تذاكر الطلاب. حدد المعنى قبل الحساب."
+    ],
+    [
+      "علاقتان أساسيتان",
+      "ابحث عن العدد الكلي والقيمة الكلية. إذا بيع خمسون تذكرة نكتب ألف زائد سين يساوي خمسين. وإذا كان سعر تذكرة الكبار ثمانية دولارات والطلاب خمسة، والإيراد ثلاثمئة وعشرة دولارات، نكتب ثمانية ألف زائد خمسة سين يساوي ثلاثمئة وعشرة."
+    ],
+    [
+      "مثال التذاكر",
+      "من ألف زائد سين يساوي خمسين، نجد سين تساوي خمسين ناقص ألف. بالتعويض نحصل على ثمانية ألف زائد خمسة في خمسين ناقص ألف يساوي ثلاثمئة وعشرة. إذن ثلاثة ألف تساوي ستين، وعدد تذاكر الكبار عشرون والطلاب ثلاثون."
+    ],
+    [
+      "التحقق من سياق المسألة",
+      "عشرون تذكرة للكبار وثلاثون للطلاب تساوي خمسين تذكرة. والإيراد عشرون في ثمانية زائد ثلاثون في خمسة، أي ثلاثمئة وعشرة دولارات. الشرطان صحيحان."
+    ],
+    [
+      "إعداد مسألة الخلط",
+      "نريد أربعين لترًا بتركيز خمسة وعشرين في المئة من محلولين تركيزهما عشرة وأربعون في المئة. نفرض سين وصاد حجمي المحلولين. سين زائد صاد يساوي أربعين، وصفر فاصلة واحد سين زائد صفر فاصلة أربعة صاد يساوي عشرة لترات من المادة النقية."
+    ],
+    [
+      "حل مسألة الخلط",
+      "نعوض عن سين بأربعين ناقص صاد. نحصل على أربعة ناقص صفر فاصلة واحد صاد زائد صفر فاصلة أربعة صاد يساوي عشرة. إذن صفر فاصلة ثلاثة صاد يساوي ستة، وبالتالي نحتاج عشرين لترًا من المحلول ذي تركيز أربعين في المئة."
+    ],
+    [
+      "مقارنة الخطط",
+      "تكلفة الخطة الأولى خمسة وعشرون دولارًا مبدئيًا وسبعة شهريًا. والثانية خمسة وخمسون مبدئيًا وأربعة شهريًا. نساوي التكلفتين فنجد ثلاثة أمثال عدد الشهور يساوي ثلاثين، أي عشر شهور."
+    ],
+    [
+      "المجموع والفرق",
+      "عددان مجموعهما ثمانية وستون والفرق بينهما عشرون. نكتب الكبير زائد الصغير يساوي ثمانية وستين، والكبير ناقص الصغير يساوي عشرين. بجمع المعادلتين نجد ضعف العدد الكبير يساوي ثمانية وثمانين، فيكون العدد الكبير أربعة وأربعين."
+    ],
+    [
+      "أخطاء شائعة",
+      "لا تخلط بين عدد الأشياء وقيمتها المالية. اضرب كل عدد في سعره الصحيح، ووحد الوحدات، وانتبه لما تطلبه المسألة تحديدًا."
+    ],
+    [
+      "استراتيجية الاختبار",
+      "حدد المتغيرات واكتب معادلتين مستقلتين، ثم استخدم التعويض أو الحذف. بعد الحل تحقق من شروط المسألة وتأكد أن العدد أو الكمية منطقيان."
+    ],
+    [
+      "الملخص والخطوة التالية",
+      "النموذج الجيد يستخدم كل معلومة من المسألة. بعد الحل تحقق من التفسير. تدرب على ثماني عشرة مسألة، وراجع الحلول الثمانية عشر، ثم أجب عن اختبار الأسئلة الخمسة مرة واحدة."
+    ]
+  ]
+}
