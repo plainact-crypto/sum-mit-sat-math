@@ -1,5 +1,5 @@
 'use strict';
-const {math,esc,page,write}=require('./chord-lesson268-common.js');
+const {math,escapeHTML:esc,page,write}=require('./chord-lesson268-common.js');
 if(math.test.length!==5)throw Error('Lesson test requires exactly five questions');
 const expected=['Easy','Easy / Medium','Medium','Medium / Hard','Hard / Exam-Style'];
 math.test.forEach((q,i)=>{if(q.index!==i+1||q.difficulty!==expected[i])throw Error('Test progression mismatch at '+(i+1))});
