@@ -5,7 +5,23 @@
   "base": "geometry-and-trigonometry/perimeter-and-area/rectangle-area",
   "worker": "worker3",
   "date": "2026-10-11",
-  "status": "IN_PROGRESS",
+  "status": "CONTENT_BUILT_ISOLATED_QA_PASS",
   "release_ready": false,
-  "live_verified": false
+  "live_verified": false,
+  "mathematical_qa": "23/23 PASS",
+  "practice_count": 18,
+  "answers_count": 18,
+  "test_count": 5,
+  "practice_distribution": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "builders_isolated": "4/4 PASS",
+  "routes_isolated": "6/6 PASS",
+  "english_scenes": 20,
+  "arabic_scenes": 20,
+  "release_manifest": "lesson-releases/rectangle-area.json",
+  "full_repository_build": "UNVERIFIED"
 }
