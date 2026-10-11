@@ -1,0 +1,166 @@
+{
+  "english": [
+    [
+      "LESSON OBJECTIVE",
+      "Given (x−h)²+(y−k)²=r², identify the center (h,k) accurately, including negative and decimal coordinates."
+    ],
+    [
+      "WHAT YOU NEED TO KNOW",
+      "A circle consists of points at one fixed distance from a center. Standard form displays that center through the horizontal and vertical shifts."
+    ],
+    [
+      "KEY DEFINITIONS",
+      "Center: the fixed point (h,k). Radius: the distance r from the center to the circle. Standard form: (x−h)²+(y−k)²=r², where r>0."
+    ],
+    [
+      "CORE RULE",
+      "The center is (h,k). The sign inside each parenthesis is the opposite of the corresponding center coordinate: x−3 means h=3, while y+2 means k=−2."
+    ],
+    [
+      "THE SIGN TRAP",
+      "For (x+4)²+(y−7)²=16, rewrite x+4 as x−(−4). The center is (−4,7), not (4,−7)."
+    ],
+    [
+      "HOW IT WORKS",
+      "1. Find the x-binomial, regardless of its order. 2. Read the number subtracted from x as h. 3. Do the same for y to obtain k. 4. Report (h,k) in x,y order. Ignore r² when finding the center."
+    ],
+    [
+      "WORKED EXAMPLE 1 — BASIC",
+      "(x−3)²+(y+2)²=25. Compare with (x−h)²+(y−k)²=r²: h=3, k=−2. Center (3,−2). Check: the center is 5 units from (8,−2)."
+    ],
+    [
+      "WORKED EXAMPLE 2 — TWO PLUS SIGNS",
+      "(x+8)²+(y+6)²=100. Both binomials hide subtraction of negatives, so h=−8 and k=−6. Center (−8,−6); radius 10."
+    ],
+    [
+      "WORKED EXAMPLE 3 — REVERSED ORDER",
+      "(y−9)²+(x+2)²=81. The x-term is second, but the center must be in (x,y) order: (−2,9)."
+    ],
+    [
+      "WORKED EXAMPLE 4 — DECIMALS",
+      "(x−0.5)²+(y+0.75)²=9. The x-coordinate is 0.5 and the y-coordinate is −0.75. Center (0.5,−0.75)."
+    ],
+    [
+      "WORKED EXAMPLE 5 — MULTIPLE CENTERS",
+      "For circles centered at (−6,8) and (4,−1), the midpoint of their centers is ((−6+4)/2,(8−1)/2)=(−1,3.5). First extract each center, then combine coordinates."
+    ],
+    [
+      "VERIFIED CIRCLE GRAPH",
+      "The graph of (x−3)²+(y+2)²=25 is a radius-5 circle centered at (3,−2). A rightmost point is (8,−2), a leftmost point (−2,−2), and a top point (3,3). Each satisfies the equation."
+    ],
+    [
+      "Visual check",
+      "The plotted circle has center three, negative two. Its rightmost point is eight, negative two; the distance is five."
+    ],
+    [
+      "Sign rehearsal",
+      "Plus four inside x plus four means the center x-coordinate is negative four."
+    ],
+    [
+      "Challenge review",
+      "For several circles, read each center first, then average the corresponding coordinates."
+    ],
+    [
+      "DESMOS STRATEGY",
+      "Enter: (x-3)^2+(y+2)^2=25. Look for: the center at (3,-2) and horizontal extremes x=-2 and x=8. Use it to answer: read the midpoint of the extremes, x=3, and the vertical midpoint y=-2. Why it works: the circle is symmetric about its center. Faster or not? No for standard form; reading h and k directly is faster, while Desmos is a visual check."
+    ],
+    [
+      "COMMON MISTAKES",
+      "Do not copy plus signs into the answer. Do not reverse x and y if terms are swapped. Do not take the square root of r² to find the center. If a variable has no shift (x²), its center coordinate is zero."
+    ],
+    [
+      "EXAM STRATEGY",
+      "Identify the two squared variable terms first. Convert each to (variable−coordinate)² mentally. For a parameter, substitute its given value before reading the center. For multiple circles, extract centers separately and then perform the requested midpoint or average."
+    ],
+    [
+      "QUICK CHECK",
+      "1) (x+5)²+(y−2)²=9 → (−5,2). 2) x²+(y+4)²=36 → (0,−4). 3) (y−1.5)²+(x+0.25)²=16 → (−0.25,1.5). Verify each by reading x before y."
+    ],
+    [
+      "LESSON RECAP & NEXT STEP",
+      "The center is (h,k), where (x−h)²+(y−k)²=r². Reverse the signs you see inside the squared binomials and keep (x,y) order. Continue with 18 Practice Problems, 18 aligned Answers, a five-question Test, and the English or Arabic full lesson."
+    ]
+  ],
+  "arabic": [
+    [
+      "هدف الدرس",
+      "سنتعلم تحديد مركز الدائرة من المعادلة القياسية: (x−h)²+(y−k)²=r². المركز هو (h,k)."
+    ],
+    [
+      "الفكرة الأساسية",
+      "كل نقاط الدائرة تبعد مسافة ثابتة عن المركز. المعادلة القياسية تكشف إزاحة المركز أفقياً ورأسياً."
+    ],
+    [
+      "التعريفات",
+      "المركز هو النقطة (h,k). نصف القطر هو المسافة r. وصيغة الدائرة القياسية هي (x−h)²+(y−k)²=r²."
+    ],
+    [
+      "القاعدة",
+      "اقرأ قيمة h من حد x وقيمة k من حد y. الإشارة داخل القوس معكوسة بالنسبة لإحداثي المركز."
+    ],
+    [
+      "احذر الإشارات",
+      "في (x+4)²+(y−7)²=16 يكون المركز (−4,7)، لأن x+4 تساوي x−(−4)."
+    ],
+    [
+      "خطوات الحل",
+      "حدد قوس x، ثم اعكس إشارة العدد فيه. كرر مع قوس y، واكتب المركز بترتيب x ثم y. لا تستخدم r² لتحديد المركز."
+    ],
+    [
+      "مثال أول",
+      "في (x−3)²+(y+2)²=25 يكون h=3 و k=−2. إذن المركز (3,−2)."
+    ],
+    [
+      "مثال ثان",
+      "في (x+8)²+(y+6)²=100 تكون الإحداثيات سالبة: المركز (−8,−6)."
+    ],
+    [
+      "مثال ثالث",
+      "في (y−9)²+(x+2)²=81 ظهر حد y أولاً، لكن ترتيب المركز يظل x ثم y. النتيجة (−2,9)."
+    ],
+    [
+      "مثال رابع",
+      "في (x−0.5)²+(y+0.75)²=9 يكون المركز (0.5,−0.75)."
+    ],
+    [
+      "مثال خامس",
+      "مركزا دائرتين هما (−6,8) و(4,−1). منتصف المركزين يساوي (−1,3.5) بعد حساب متوسط كل إحداثي."
+    ],
+    [
+      "رسم رياضي صحيح",
+      "الدائرة (x−3)²+(y+2)²=25 مركزها (3,−2) ونصف قطرها 5. النقطة (8,−2) تقع عليها بالفعل."
+    ],
+    [
+      "فحص بصري",
+      "انظر إلى طرفي الدائرة على المحور الأفقي. متوسط −2 و8 يساوي 3، وهو إحداثي المركز الأفقي."
+    ],
+    [
+      "تدريب الإشارة",
+      "وجود +4 داخل قوس x يعني أن إحداثي المركز الأفقي هو −4."
+    ],
+    [
+      "مراجعة التحدي",
+      "عند وجود أكثر من دائرة، استخرج مركز كل دائرة أولاً ثم احسب متوسط الإحداثيات المطلوبة."
+    ],
+    [
+      "استراتيجية ديسموس",
+      "أدخل (x-3)^2+(y+2)^2=25. لاحظ مركز التناظر عند (3,−2). القراءة المباشرة من المعادلة أسرع؛ ديسموس مفيد للتحقق."
+    ],
+    [
+      "أخطاء شائعة",
+      "لا تنس عكس الإشارة، ولا تبدل ترتيب x و y، ولا تخلط بين نصف القطر والمركز."
+    ],
+    [
+      "استراتيجية الامتحان",
+      "حدد حدود x و y المربعة، واقرأ الإزاحتين فوراً. إذا ظهرت متغيرات وسيطة، عوض بقيمها أولاً."
+    ],
+    [
+      "اختبار سريع",
+      "(x+5)²+(y−2)²=9 مركزها (−5,2). أما x²+(y+4)²=36 فمركزها (0,−4)."
+    ],
+    [
+      "الخلاصة",
+      "مركز الدائرة هو (h,k). اعكس إشارات الأعداد داخل الأقواس، واكتب x ثم y. انتقل إلى التدريبات والحلول والاختبار."
+    ]
+  ]
+}
