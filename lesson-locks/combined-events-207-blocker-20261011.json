@@ -1,0 +1,15 @@
+{
+  "lesson_index": 207,
+  "slug": "combined-events",
+  "worker": "SUMMIT Worker 2",
+  "state": "BLOCKED_REGISTRY_WRITE",
+  "content_commit": "0ca996d2",
+  "builder_commit": "b3a990f7",
+  "test_asset_commit": "6c0932e",
+  "manifest_commit": "c47c6c45",
+  "math_qa": "23/23 PASS",
+  "isolated_builder": "PASS",
+  "six_routes": "PASS locally",
+  "blocker": "explanation-retrofit-registry.js update rejected; full build and merge not attempted",
+  "live_verified": false
+}
