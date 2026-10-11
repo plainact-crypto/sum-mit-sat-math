@@ -1,0 +1,17 @@
+{
+  "lesson": "trapezoid-area",
+  "builders": [
+    "trapezoid-area-lesson248-explanation-build.js",
+    "trapezoid-area-lesson248-practice-build.js",
+    "trapezoid-area-lesson248-test-build.js",
+    "trapezoid-area-lesson248-video-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/perimeter-and-area/trapezoid-area/explanation/",
+    "/geometry-and-trigonometry/perimeter-and-area/trapezoid-area/problems/",
+    "/geometry-and-trigonometry/perimeter-and-area/trapezoid-area/answers/",
+    "/geometry-and-trigonometry/perimeter-and-area/trapezoid-area/test/",
+    "/geometry-and-trigonometry/perimeter-and-area/trapezoid-area/video/english/",
+    "/geometry-and-trigonometry/perimeter-and-area/trapezoid-area/video/arabic/"
+  ]
+}
