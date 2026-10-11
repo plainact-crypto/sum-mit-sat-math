@@ -1,0 +1,14 @@
+{
+  "lesson": "mode",
+  "builders": [
+    "mode-lesson187-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/measures-of-center/mode/explanation/",
+    "/problem-solving-and-data-analysis/measures-of-center/mode/problems/",
+    "/problem-solving-and-data-analysis/measures-of-center/mode/answers/",
+    "/problem-solving-and-data-analysis/measures-of-center/mode/test/",
+    "/problem-solving-and-data-analysis/measures-of-center/mode/video/english/",
+    "/problem-solving-and-data-analysis/measures-of-center/mode/video/arabic/"
+  ]
+}
