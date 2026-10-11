@@ -1,0 +1,14 @@
+'use strict';
+const fs=require('fs'),path=require('path'),d=require('./domain-lesson105-data.json');
+if(d.lesson_index!==105||d.slug!=='domain'||d.practice.length!==18)throw Error('Domain practice invalid');
+const groups=['Skill Check','Core Practice','Exam-Style','Challenge'];
+if(groups.some((g,i)=>d.practice.filter(q=>q.group===g).length!==[3,8,5,2][i])||d.practice.some((q,i)=>q.number!==i+1||!q.answer||!q.solution))throw Error('Domain answer alignment invalid');
+const base='/advanced-math/functions/domain',esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const links=['explanation','problems','answers','test','video/english','video/arabic'].map(x=>'<a href="'+base+'/'+x+'/">'+x+'</a>').join(' · ');
+const shell=(name,body)=>'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/styles.css"><title>Domain — '+name+'</title></head><body><header class="topbar"><a href="/">SUMMIT MATH</a></header><main class="page-shell"><article class="lesson-card lesson-content"><div class="crumb">Advanced Math · Functions</div><h1>Domain</h1><h2>'+name+'</h2>'+body+'<nav>'+links+'</nav></article></main></body></html>';
+const starts=new Set([0,3,11,16]);
+const problems=d.practice.map((q,i)=>(starts.has(i)?'<h2>'+q.group+'</h2>':'')+'<section class="lesson-section"><h3>Question '+q.number+'</h3><p>'+esc(q.question)+'</p><label>Answer <input data-answer="'+i+'"></label><button type="button" data-check="'+i+'">Check</button><p role="status" data-feedback="'+i+'"></p></section>').join('');
+const answers=d.practice.map((q,i)=>(starts.has(i)?'<h2>'+q.group+'</h2>':'')+'<section class="lesson-section"><h3>Solution '+q.number+'</h3><p>'+esc(q.question)+'</p><p>'+esc(q.solution)+'</p><strong>'+esc(q.answer)+'</strong></section>').join('');
+const js='<script>(()=>{const a='+JSON.stringify(d.practice.map(q=>q.answer))+';const n=s=>String(s).toLowerCase().replace(/[−–]/g,"-").replace(/\\s+/g,"");document.querySelectorAll("[data-check]").forEach(b=>b.onclick=()=>{const i=Number(b.dataset.check),input=document.querySelectorAll("[data-answer]")[i],output=document.querySelectorAll("[data-feedback]")[i];output.textContent=n(input.value)===n(a[i])?"Correct":"Try again";});})();</script>';
+for(const [route,body] of [['problems',shell('Practice Problems',problems).replace('</body>',js+'</body>')],['answers',shell('Answers & Solutions',answers)]]){const folder=path.join(__dirname,'dist',base.slice(1),route);fs.mkdirSync(folder,{recursive:true});fs.writeFileSync(path.join(folder,'index.html'),body)}
+console.log('[lesson105] 18 problems and answers built');
