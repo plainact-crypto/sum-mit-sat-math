@@ -4,7 +4,8 @@
   "slug": "parallelogram-area",
   "canonical_base": "/geometry-and-trigonometry/perimeter-and-area/parallelogram-area",
   "owner": "SUMMIT Worker 2",
-  "status": "IN_PROGRESS",
+  "status": "BLOCKED_UPLOAD",
   "started_on": "2026-10-11",
-  "branch": "worker2/parallelogram-area-247-20261011"
+  "branch": "worker2/parallelogram-area-247-20261011",
+  "blocker": "Explanation, practice and tests committed. Required builder and Arabic full-video scenes are incomplete; no release manifest, build, or deployment."
 }
