@@ -1,0 +1,12 @@
+'use strict';
+const {math,esc,page,write}=require('./distance-formula-lesson258-common.js');
+if(math.practice.length!==18)throw Error('Expected 18 practice questions');
+const sizes=math.practice.reduce((o,q)=>(o[q.group]=(o[q.group]||0)+1,o),{});
+if(sizes['Skill Check']!==3||sizes['Core Practice']!==8||sizes['Exam-Style']!==5||sizes.Challenge!==2)throw Error('Practice grouping 3/8/5/2 failed');
+const head=(q,i)=>[0,3,11,16].includes(i)?'<h2>'+esc(q.group)+'</h2>':'';
+const problems=math.practice.map((q,i)=>head(q,i)+'<section class="lesson-section" data-question="'+q.index+'"><h3>Question '+q.index+'</h3><p>'+esc(q.prompt)+'</p><label>Numeric answer <input type="number" step="any" inputmode="decimal" data-answer="'+esc(q.answer)+'"></label> <button type="button" class="check">Check</button> <span class="feedback" role="status"></span></section>').join('');
+const script='<script>document.querySelectorAll("[data-question]").forEach(section=>{const input=section.querySelector("input"),button=section.querySelector("button"),feedback=section.querySelector(".feedback");button.addEventListener("click",()=>{if(input.value.trim()===""){feedback.textContent="Enter an answer first.";return}feedback.textContent=Math.abs(Number(input.value)-Number(input.dataset.answer))<1e-8?"Correct.":"Try again. Review the coordinate differences."})})</script>';
+write('problems',page('Practice Problems','<p>18 questions in four progressive groups. Feedback checks correctness; complete worked solutions are on Answers.</p>'+problems+script));
+const answers=math.practice.map((q,i)=>head(q,i)+'<section class="lesson-section"><h3>Solution '+q.index+'</h3><p>'+esc(q.prompt)+'</p><p>'+esc(q.solution)+'</p><p><strong>Answer: '+esc(q.answer)+'</strong></p></section>').join('');
+write('answers',page('Answers and Solutions','<p>Each worked solution matches the same-numbered practice problem.</p>'+answers));
+console.log('Lesson 258 practice 18/18 and aligned solutions 18/18');
