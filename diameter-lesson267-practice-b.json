@@ -1,0 +1,23 @@
+[
+  {
+    "number": 4,
+    "group": "Core Practice",
+    "question": "Radius is 7.5 m. Find the diameter.",
+    "answer": "15 m",
+    "solution": "d=2(7.5)=15 m."
+  },
+  {
+    "number": 5,
+    "group": "Core Practice",
+    "question": "Circumference is 20π ft. Find the diameter.",
+    "answer": "20 ft",
+    "solution": "d=C/π=20π/π=20 ft."
+  },
+  {
+    "number": 6,
+    "group": "Core Practice",
+    "question": "Area is 49π cm². Find the diameter.",
+    "answer": "14 cm",
+    "solution": "r=√49=7; d=14 cm."
+  }
+]
