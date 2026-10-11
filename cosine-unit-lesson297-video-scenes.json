@@ -1,0 +1,30 @@
+{
+  "english": [
+    "The unit circle has radius one and center at the origin.",
+    "Every point satisfies x squared plus y squared equals one.",
+    "Cosine is the horizontal x-coordinate of the terminal point.",
+    "At zero degrees the point is one zero, so cosine is one.",
+    "At ninety degrees cosine is zero.",
+    "At sixty degrees cosine is one half.",
+    "At one hundred twenty degrees cosine is negative one half.",
+    "At two hundred twenty five degrees cosine is negative square root two over two.",
+    "Cosine is positive in quadrants one and four, and negative in two and three.",
+    "Use a reference angle to find the exact magnitude and the quadrant to choose the sign.",
+    "Use x squared equals one minus y squared when sine is given, then choose the correct sign.",
+    "Complete eighteen practice questions, review solutions and submit the five-question test."
+  ],
+  "arabic": [
+    "دائرة الوحدة مركزها نقطة الأصل ونصف قطرها واحد.",
+    "كل نقطة عليها تحقق سين تربيع زائد صاد تربيع يساوي واحد.",
+    "جيب التمام هو الإحداثي الأفقي سين للنقطة على الدائرة.",
+    "عند صفر درجة تكون النقطة واحد وصفر، وجيب التمام يساوي واحد.",
+    "عند تسعين درجة يكون جيب التمام صفرا.",
+    "عند ستين درجة يكون جيب التمام نصفا.",
+    "عند مئة وعشرين درجة يكون جيب التمام سالب نصف.",
+    "عند مئتين وخمس وعشرين درجة يكون جيب التمام سالب جذر اثنين على اثنين.",
+    "جيب التمام موجب في الربعين الأول والرابع وسالب في الثاني والثالث.",
+    "استخدم الزاوية المرجعية للقيمة المطلقة والربع لتحديد الإشارة.",
+    "إذا عرفت الجيب فاستخدم سين تربيع يساوي واحد ناقص صاد تربيع ثم حدد الإشارة.",
+    "حل ثمانية عشر سؤالا وراجع الإجابات ثم قدم اختبار الأسئلة الخمسة."
+  ]
+}
