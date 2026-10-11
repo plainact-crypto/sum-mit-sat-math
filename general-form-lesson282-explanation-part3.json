@@ -1,0 +1,17 @@
+[
+  [
+    "WORKED EXAMPLE 2",
+    "For x²+y²−6x−8y=0, r²=(36+64)/4=25 and r=5.",
+    "The center is (3,4)."
+  ],
+  [
+    "WORKED EXAMPLE 3",
+    "x²+y²+2x−4y−20=0 becomes (x+1)²+(y−2)²=25.",
+    "Move −20 to the right, then add 1 and 4 to both sides."
+  ],
+  [
+    "WORKED EXAMPLE 4",
+    "(x−3)²+(y+2)²=16 expands to x²+y²−6x+4y−3=0.",
+    "The constant is 9+4−16=−3."
+  ]
+]
