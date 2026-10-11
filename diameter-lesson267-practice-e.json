@@ -1,0 +1,23 @@
+[
+  {
+    "number": 13,
+    "group": "Exam-Style",
+    "question": "Circular garden area is 64π m². Find diameter.",
+    "answer": "16 m",
+    "solution": "r=√64=8; d=16."
+  },
+  {
+    "number": 14,
+    "group": "Exam-Style",
+    "question": "Circular sign circumference is 15π inches. Find diameter.",
+    "answer": "15 inches",
+    "solution": "d=C/π=15."
+  },
+  {
+    "number": 15,
+    "group": "Exam-Style",
+    "question": "Diameter endpoints are (2,1) and (10,7). Find length.",
+    "answer": "10 units",
+    "solution": "d=√(8²+6²)=10."
+  }
+]
