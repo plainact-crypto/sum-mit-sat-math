@@ -55,5 +55,19 @@ module.exports=[
       'Desmos is very useful for visualizing several constraints; direct substitution is faster when you only need to test one candidate point.',
       'Boundary QA: y=10-x gives 10,6,2 at x=0,4,8; y=6-0.5x gives 6,4,2. Setting them equal gives (8,2). Candidate (4,5): 4+5=9<=10 and 4+2(5)=14>=12. Candidate (2,3) fails the second condition because 2+2(3)=8<12.'
     )
+  },
+  {
+    slug:'finding-center-from-general-form',
+    lesson:'Finding Center from General Form',
+    classification:'BOTH',
+    graph:{bounds:{xMin:-4,xMax:10,yMin:-8,yMax:5},lines:[{m:0,b:-2,qaX:[-2,3,8],yIntercept:-2}],verticals:[{x:3}],points:[{x:3,y:-2,line:0,label:'center (3,-2)'}],caption:'The symmetry axes intersect at the center (3,-2) of x²+y²−6x+4y−12=0; the full circle is rendered from the equivalent completed-square equation.',ariaLabel:'Verified center axes x equals three and y equals negative two'},
+    desmos:D(
+      'x^2+y^2-6x+4y-12=0',
+      'a circle symmetric about x=3 and y=-2',
+      'confirm the center (3,-2) obtained from D=-6 and E=4',
+      'completing squares yields (x-3)^2+(y+2)^2=25, which has center (3,-2)',
+      'Directly computing (-D/2,-E/2) is faster and exact; Desmos is a useful visual check.',
+      'D=-6 gives h=3; E=4 gives k=-2; (8,-2) satisfies 64+4-48-8-12=0.'
+    )
   }
 ];
