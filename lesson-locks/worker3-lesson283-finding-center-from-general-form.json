@@ -3,7 +3,19 @@
   "slug": "finding-center-from-general-form",
   "worker": "SUMMIT Worker 3",
   "branch": "worker3-lesson283-finding-center-from-general-form-20261011",
-  "status": "IN_PROGRESS",
+  "status": "CONTENT_READY_RELEASE_BLOCKED",
   "date": "2026-10-11",
-  "notes": "Canonical index 283; build full lesson package next. Lesson 278 core content complete; its release is independently blocked by existing global gate and PR creation."
+  "notes": "Canonical index 283; build full lesson package next. Lesson 278 core content complete; its release is independently blocked by existing global gate and PR creation.",
+  "math_qa": "PASS 23/23",
+  "practice": "18/18 3-8-5-2",
+  "answers": "18/18 aligned",
+  "test": "5/5",
+  "full_video": "20 scenes English and 20 scenes Arabic",
+  "isolated_npm_build": "PASS",
+  "canonical_routes": "PASS 6/6 in sandbox",
+  "release_manifest": "COMMITTED",
+  "explanation_registry": "COMMITTED",
+  "global_explanation_gate": "BLOCKED by pre-existing collinear-points classification marker",
+  "draft_pr": "BLOCKED by GitHub safety checks",
+  "production": "NOT LIVE_VERIFIED"
 }
