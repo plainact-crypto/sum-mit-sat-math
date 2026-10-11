@@ -3,7 +3,8 @@
   "builders": [
     "diameter-lesson267-core-build.js",
     "diameter-lesson267-test-build.js",
-    "diameter-lesson267-video-build.js"
+    "diameter-lesson267-video-build.js",
+    "diameter-lesson267-grade-build.js"
   ],
   "routes": [
     "/geometry-and-trigonometry/circles/diameter/explanation/",
