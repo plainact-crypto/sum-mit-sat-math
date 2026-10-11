@@ -1,0 +1,70 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Use cosine in a right triangle to find a side, an acute angle, or a horizontal component. The key ratio is cos θ = adjacent / hypotenuse."
+  ],
+  [
+    "WHAT YOU NEED TO KNOW",
+    "The hypotenuse lies opposite the 90° angle and is the longest side. Choose the acute angle θ before deciding which leg is adjacent."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Adjacent is the non-hypotenuse side touching θ. Opposite lies across from θ. Cosine is the adjacent-to-hypotenuse ratio."
+  ],
+  [
+    "CORE RULE",
+    "CAH in SOH-CAH-TOA means cos θ = adjacent/hypotenuse. For an acute angle, its cosine is between zero and one."
+  ],
+  [
+    "HOW IT WORKS — RATIO",
+    "Identify the adjacent side A and hypotenuse H, then divide A by H. Example: A=3, H=5 gives cos θ=0.6."
+  ],
+  [
+    "HOW IT WORKS — ADJACENT",
+    "Given angle θ and hypotenuse H, compute adjacent A=H cos θ. Use degree mode for degree measurements."
+  ],
+  [
+    "HOW IT WORKS — HYPOTENUSE",
+    "Given angle θ and adjacent side A, compute hypotenuse H=A/cos θ. Since cos θ<1, H>A."
+  ],
+  [
+    "WORKED EXAMPLE 1 — BASIC",
+    "Adjacent 8, hypotenuse 17: cos θ=8/17≈0.47. Do not divide the opposite side by the hypotenuse; that would give sine."
+  ],
+  [
+    "WORKED EXAMPLE 2 — SIDE",
+    "Hypotenuse 20 cm, angle 60°. Adjacent=20 cos 60°=20(1/2)=10 cm."
+  ],
+  [
+    "WORKED EXAMPLE 3 — HYPOTENUSE",
+    "Adjacent 7 m, angle 45°. Hypotenuse=7/cos 45°=7√2≈9.90 m."
+  ],
+  [
+    "WORKED EXAMPLE 4 — ANGLE",
+    "Adjacent 6, hypotenuse 10: cos θ=0.6, so θ=arccos(0.6)≈53.13°. Inverse cosine is not reciprocal cosine."
+  ],
+  [
+    "WORKED EXAMPLE 5 — APPLICATION",
+    "A 13-ft ladder stands 12 ft horizontally from a wall: cos θ=12/13. For a similar 26-ft ladder, horizontal reach is 26×12/13=24 ft."
+  ],
+  [
+    "VERIFIED RIGHT-TRIANGLE DIAGRAM",
+    "Use the exact triangle with vertices (0,0), (3,0), (3,4): adjacent 3, opposite 4, hypotenuse 5. The Pythagorean check is 3²+4²=5²."
+  ],
+  [
+    "DESMOS STRATEGY",
+    "Enter: cos(60°) and arccos(0.6) in degree mode. Look for: 0.5 and approximately 53.13°. Use it to answer: multiply a hypotenuse by a cosine or recover an angle. Why it works: cosine is adjacent/hypotenuse; arccos reverses that ratio. Faster or not? For non-special angles a calculator is faster; for 60° the exact ratio 1/2 is faster."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not swap adjacent and opposite. Do not treat a leg as the hypotenuse. Check degree/radian mode. Keep full precision until the final rounding."
+  ],
+  [
+    "EXAM STRATEGY & QUICK CHECK",
+    "If A,H are known divide. If H,θ are known multiply. If A,θ are known divide. If A,H are known and θ is asked use arccos. Quick checks: cos θ=12/13≈0.92; 14 cos 30°≈12.12; arccos(0.8)≈36.87°."
+  ],
+  [
+    "LESSON RECAP & NEXT STEP",
+    "Remember CAH: cos θ=A/H, A=H cos θ, H=A/cos θ, θ=arccos(A/H). Practice with 18 problems, read the 18 worked solutions, complete the five-question test, and view full English or Arabic lessons."
+  ]
+]
