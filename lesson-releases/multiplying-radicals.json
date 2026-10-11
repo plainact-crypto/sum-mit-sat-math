@@ -1,0 +1,14 @@
+{
+  "lesson": "multiplying-radicals",
+  "builders": [
+    "multiplying-radicals-content-build.js"
+  ],
+  "routes": [
+    "/advanced-math/radical-expressions-and-equations/multiplying-radicals/explanation/",
+    "/advanced-math/radical-expressions-and-equations/multiplying-radicals/problems/",
+    "/advanced-math/radical-expressions-and-equations/multiplying-radicals/answers/",
+    "/advanced-math/radical-expressions-and-equations/multiplying-radicals/test/",
+    "/advanced-math/radical-expressions-and-equations/multiplying-radicals/video/english/",
+    "/advanced-math/radical-expressions-and-equations/multiplying-radicals/video/arabic/"
+  ]
+}
