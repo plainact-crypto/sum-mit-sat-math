@@ -1,0 +1,204 @@
+{
+  "lessonIndex": 80,
+  "slug": "sum-of-roots",
+  "branch": "automation/worker5-lesson80-sum-of-roots-20261011",
+  "date": "2026-10-11",
+  "status": "COMPONENT_QA_PASS_BUILD_PENDING",
+  "practice": {
+    "count": 18,
+    "distribution": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "independentChecks": [
+      {
+        "n": 1,
+        "expected": 8,
+        "answer": "8",
+        "first": "8",
+        "pass": true
+      },
+      {
+        "n": 2,
+        "expected": -5,
+        "answer": "−5",
+        "first": "−5",
+        "pass": true
+      },
+      {
+        "n": 3,
+        "expected": "−b/a",
+        "answer": "−b/a",
+        "first": "−b/a",
+        "pass": true
+      },
+      {
+        "n": 4,
+        "expected": 5,
+        "answer": "5",
+        "first": "5",
+        "pass": true
+      },
+      {
+        "n": 5,
+        "expected": -1.75,
+        "answer": "−7/4",
+        "first": "−7/4",
+        "pass": true
+      },
+      {
+        "n": 6,
+        "expected": 20,
+        "answer": "20",
+        "first": "20",
+        "pass": true
+      },
+      {
+        "n": 7,
+        "expected": 12,
+        "answer": "12",
+        "first": "12",
+        "pass": true
+      },
+      {
+        "n": 8,
+        "expected": 4,
+        "answer": "4",
+        "first": "4",
+        "pass": true
+      },
+      {
+        "n": 9,
+        "expected": 4.5,
+        "answer": "9/2",
+        "first": "9/2",
+        "pass": true
+      },
+      {
+        "n": 10,
+        "expected": 0.16666666666666666,
+        "answer": "The root sum is 1/6",
+        "first": "The root sum is 1/6.",
+        "pass": true
+      },
+      {
+        "n": 11,
+        "expected": 3,
+        "answer": "3",
+        "first": "3",
+        "pass": true
+      },
+      {
+        "n": 12,
+        "expected": 14,
+        "answer": "14",
+        "first": "14",
+        "pass": true
+      },
+      {
+        "n": 13,
+        "expected": 3.5,
+        "answer": "7/2",
+        "first": "7/2",
+        "pass": true
+      },
+      {
+        "n": 14,
+        "expected": 3,
+        "answer": "3",
+        "first": "3",
+        "pass": true
+      },
+      {
+        "n": 15,
+        "expected": 3,
+        "answer": "3",
+        "first": "3",
+        "pass": true
+      },
+      {
+        "n": 16,
+        "expected": -8,
+        "answer": "−8",
+        "first": "−8",
+        "pass": true
+      },
+      {
+        "n": 17,
+        "expected": 7,
+        "answer": "7",
+        "first": "7",
+        "pass": true
+      },
+      {
+        "n": 18,
+        "expected": 1,
+        "answer": "1",
+        "first": "1",
+        "pass": true
+      }
+    ]
+  },
+  "answers": {
+    "count": 18,
+    "aligned": true
+  },
+  "test": {
+    "count": 5,
+    "progression": [
+      "EASY",
+      "EASY-MEDIUM",
+      "MEDIUM",
+      "HARD",
+      "HARD / EXAM-STYLE"
+    ],
+    "independentChecks": [
+      {
+        "n": 1,
+        "expected": "−b/a",
+        "answer": "−b/a",
+        "pass": true
+      },
+      {
+        "n": 2,
+        "expected": -4,
+        "answer": "−4",
+        "pass": true
+      },
+      {
+        "n": 3,
+        "expected": -12,
+        "answer": "−12",
+        "pass": true
+      },
+      {
+        "n": 4,
+        "expected": "x² − 9x + 20 = 0",
+        "answer": "x² − 9x + 20 = 0",
+        "pass": true
+      },
+      {
+        "n": 5,
+        "expected": 3,
+        "answer": "3",
+        "pass": true
+      }
+    ]
+  },
+  "summary": {
+    "practicePassed": 18,
+    "testPassed": 5,
+    "totalPassed": 23
+  },
+  "releaseGate": {
+    "manifestCommitted": true,
+    "requiredBuildersCommitted": true,
+    "fullRepositoryBuild": false,
+    "previewDeploymentReady": false,
+    "productionReadyForCommit": false,
+    "liveRoutesVerified": false,
+    "blocker": "Vercel GitHub check failed: build-rate-limit. Do not merge or announce."
+  }
+}
