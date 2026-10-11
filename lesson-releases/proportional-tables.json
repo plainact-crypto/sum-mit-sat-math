@@ -1,0 +1,14 @@
+{
+  "lesson": "proportional-tables",
+  "builders": [
+    "proportional-tables-lesson164-release-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/proportional-relationships/proportional-tables/explanation/",
+    "/problem-solving-and-data-analysis/proportional-relationships/proportional-tables/problems/",
+    "/problem-solving-and-data-analysis/proportional-relationships/proportional-tables/answers/",
+    "/problem-solving-and-data-analysis/proportional-relationships/proportional-tables/test/",
+    "/problem-solving-and-data-analysis/proportional-relationships/proportional-tables/video/english/",
+    "/problem-solving-and-data-analysis/proportional-relationships/proportional-tables/video/arabic/"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "lesson": "proportional-tables",
+  "index": 164,
+  "owner": "SUMMIT Worker 4",
+  "branch": "worker4-index164-proportional-tables-20261011",
+  "status": "REGISTRY_COMMITTED_BUILD_RATE_LIMIT_GLOBAL_QA_BLOCKED",
+  "note": "2026-10-11: Explanation Registry entry committed and schema corrected at 5850102f (useIt/crossCheck). Existing lesson package had passed isolated build, six route checks, 23/23 math checks and video QA before this registry change. Latest Vercel commit status failed due to build-rate-limit (upgradeToPro), so latest commit has NOT been fully built/validated. Global QA previously failed on unrelated collinear-points classification marker. Draft PR creation blocked by safety checks. Do not merge or mark LIVE_VERIFIED; resume full build, gate, route and production verification when available."
+}

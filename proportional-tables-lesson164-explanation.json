@@ -1,0 +1,66 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Recognize proportional tables, calculate k, fill missing entries, and distinguish a constant ratio from a constant difference."
+  ],
+  [
+    "CORE IDEA",
+    "A proportional table follows y=kx for one fixed multiplier k. For each row with x not zero, y/x must equal k; if x=0, y must equal 0."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Input x; output y; constant of proportionality k=y/x; proportional table: all pairs satisfy y=kx."
+  ],
+  [
+    "CORE RULE",
+    "For nonzero x calculate k=y/x. All rows must share k. Use y=kx for missing outputs, or x=y/k for missing inputs when k is nonzero."
+  ],
+  [
+    "HOW IT WORKS",
+    "Choose a complete nonzero row; find k; verify every row; check (0,0) if present; then solve for the missing value."
+  ],
+  [
+    "WORKED EXAMPLE 1 — FIND k",
+    "For (2,6), (4,12), (7,21), the ratios 6/2=12/4=21/7=3. Therefore k=3 and y=3x."
+  ],
+  [
+    "WORKED EXAMPLE 2 — MISSING OUTPUT",
+    "If (3,12) and (5,?) are proportional, k=12/3=4; the missing output is 4(5)=20."
+  ],
+  [
+    "WORKED EXAMPLE 3 — MISSING INPUT",
+    "If (2,7) and (?,24.5) are proportional, k=7/2=3.5; missing x=24.5/3.5=7."
+  ],
+  [
+    "WORKED EXAMPLE 4 — DETECT AN ERROR",
+    "For (2,6), (4,12), (6,19), the first two ratios equal 3, but 19/6 is not 3. The correct last output would be 18."
+  ],
+  [
+    "WORKED EXAMPLE 5 — ZERO AND NEGATIVES",
+    "For (-2,10), (0,0), (3,-15), the nonzero ratios both equal -5, and the zero row is valid; y=-5x is proportional."
+  ],
+  [
+    "RATIO VERSUS DIFFERENCE",
+    "The pairs (1,5), (2,8), (3,11) have a constant output increase of 3, but ratios 5, 4, and 11/3. Equal differences do not establish proportionality."
+  ],
+  [
+    "DESMOS STRATEGY",
+    "Enter: use a Desmos table with x1 values 1,2,4 and y1 values 3,6,12; enter y=3x. Look for: all points lie on the line through (0,0). Use it to answer: k=3. Why it works: every row satisfies y=kx. Faster or not? y/x division is faster for a short table; Desmos helps visualize."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not check differences instead of ratios. Never divide by zero; check the x=0 row separately. Keep y/x order consistent."
+  ],
+  [
+    "EXAM STRATEGY",
+    "For a short table, divide two or three rows. Find k from a complete row before filling an entry. Correct a wrong row using y=kx."
+  ],
+  [
+    "QUICK CHECK",
+    "(2,8),(5,20) gives k=4. At x=7, y=28. A row (0,1) invalidates proportionality. With k=3 and x=6, y must be 18."
+  ],
+  [
+    "RECAP AND NEXT STEP",
+    "A single fixed ratio y/x and a valid zero row define proportionality. Use y=kx, then complete Practice, Answers, and Test."
+  ]
+]
