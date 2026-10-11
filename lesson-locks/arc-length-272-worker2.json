@@ -1,0 +1,12 @@
+{
+  "lesson_index": 272,
+  "lesson": "Arc Length",
+  "slug": "arc-length",
+  "canonical_base": "/geometry-and-trigonometry/circles/other-circle-leaves/arc-length",
+  "owner": "SUMMIT Worker 2",
+  "status": "IN_PROGRESS",
+  "started_on": "2026-10-11",
+  "branch": "worker2/arc-length-272-20261011",
+  "prior_blocked": "diameter-267",
+  "release_contract": "fix/required-lesson-builders-20261010"
+}
