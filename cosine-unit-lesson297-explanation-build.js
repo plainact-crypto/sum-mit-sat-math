@@ -1,0 +1,17 @@
+'use strict';
+const fs=require('fs'),path=require('path'),d=require('./cosine-unit-lesson297-data.json');
+const sections=[1,2,3].flatMap(i=>require('./cosine-unit-lesson297-explanation-part'+i+'.json'));
+if(sections.length!==17||sections.filter(x=>x[0].startsWith('WORKED EXAMPLE')).length!==5)throw Error('Explanation incomplete');
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const nav=['explanation','problems','answers','test','video/english','video/arabic'].map(x=>'<a href="/'+d.base+'/'+x+'/">'+x+'</a>').join(' · ');
+const points=[[1,0,'0°'],[0,1,'90°'],[-1,0,'180°'],[0,-1,'270°'],[-.5,Math.sqrt(3)/2,'120°']];
+if(points.some(([x,y])=>Math.abs(x*x+y*y-1)>1e-10))throw Error('Unit circle graph coordinates');
+const cx=180,cy=150,r=100;
+const dots=points.map(([x,y,label])=>'<circle cx="'+(cx+r*x)+'" cy="'+(cy-r*y)+'" r="4" fill="#dc2626"/><text x="'+(cx+r*x+7)+'" y="'+(cy-r*y-7)+'" font-size="12">'+label+'</text>').join('');
+const graph='<figure data-retrofit-graph="true"><svg viewBox="0 0 400 320" style="max-width:500px;width:100%" role="img" aria-label="Unit circle x squared plus y squared equals one with exact cardinal points and 120 degree point"><path d="M40 150 H340 M180 15 V285" stroke="#64748b"/><circle cx="180" cy="150" r="100" fill="none" stroke="#2563eb" stroke-width="3"/>'+dots+'</svg><figcaption>Every plotted point satisfies x²+y²=1. The 120° point has x=−1/2, so cos120°=−1/2.</figcaption></figure>';
+const desmos='<section class="lesson-section desmos-strategy"><h2>DESMOS STRATEGY</h2><p><b>Enter:</b> x^2+y^2=1 and cos(120°).</p><p><b>Look for:</b> the unit circle and the result −0.5.</p><p><b>Use it to answer:</b> check that the 120° terminal point has x=−1/2.</p><p><b>Why it works:</b> cosine is the x-coordinate of the terminal point.</p><p><b>Faster or not?</b> Reference-angle reasoning is faster for exact special-angle values.</p></section>';
+let body='<article class="lesson-content"><!-- SUMMIT_RETROFIT:cosine-on-the-unit-circle:BOTH -->';
+for(const [i,s] of sections.entries()){body+='<section class="lesson-section"><span class="section-kicker">'+(i+1)+'</span><h2>'+esc(s[0])+'</h2><p>'+esc(s[1])+'</p>';if(s[0].startsWith('DETERMINISTIC'))body+=graph;if(s[0]==='DESMOS STRATEGY')body+=desmos;if(s[0]==='QUICK CHECK')body+='<details><summary>Reveal answer</summary>'+esc(s[2])+'</details>';else body+='<p class="tip-line">'+esc(s[2])+'</p>';body+='</section>';}body+='</article>';
+const html='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/styles.css"><title>'+d.title+' — Explanation</title></head><body><header class="topbar"><a class="brand" href="/">SUMMIT <small>SAT MATH</small></a></header><main class="page-shell"><section class="lesson-card"><div class="crumb">Geometry and Trigonometry · Unit Circle</div><div class="page-type">Explanation</div><div class="lesson-title">'+d.title+'</div>'+body+'<nav class="next-links">'+nav+'</nav></section></main></body></html>';
+const dir=path.join(__dirname,'dist',d.base,'explanation');fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,'index.html'),html);
+console.log('Lesson 297 explanation: 17 sections, exact unit circle graph, verified Desmos.');
