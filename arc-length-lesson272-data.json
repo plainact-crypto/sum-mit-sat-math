@@ -1,0 +1,333 @@
+{
+  "index": 272,
+  "slug": "arc-length",
+  "title": "Arc Length",
+  "base": "geometry-and-trigonometry/circles/other-circle-leaves/arc-length",
+  "classification": "NEITHER",
+  "practice": [
+    {
+      "number": 1,
+      "group": "Skill Check",
+      "prompt": "A circle has radius 4 cm. Find its 90° minor arc.",
+      "answer": "2π cm",
+      "choices": [
+        "2π cm",
+        "4π cm",
+        "8π cm",
+        "π cm"
+      ],
+      "solution": "One quarter of circumference 8π equals 2π cm.",
+      "qa": "arc,4,90,2"
+    },
+    {
+      "number": 2,
+      "group": "Skill Check",
+      "prompt": "A circle has radius 6 m. Find its 60° arc.",
+      "answer": "2π m",
+      "choices": [
+        "6π m",
+        "π m",
+        "2π m",
+        "12π m"
+      ],
+      "solution": "60/360 of 12π equals 2π m.",
+      "qa": "arc,6,60,2"
+    },
+    {
+      "number": 3,
+      "group": "Skill Check",
+      "prompt": "A circle has radius 5 in. Find its semicircular arc length.",
+      "answer": "5π in",
+      "choices": [
+        "10π in",
+        "5π in",
+        "2.5π in",
+        "25π in"
+      ],
+      "solution": "Half the circumference 10π is 5π in.",
+      "qa": "arc,5,180,5"
+    },
+    {
+      "number": 4,
+      "group": "Core Practice",
+      "prompt": "A circle has diameter 14 cm. Find its 90° arc length.",
+      "answer": "7π/2 cm",
+      "choices": [
+        "7π cm",
+        "14π cm",
+        "7π/2 cm",
+        "π/2 cm"
+      ],
+      "solution": "Radius=7; (90/360)(14π)=7π/2 cm.",
+      "qa": "arc,7,90,3.5"
+    },
+    {
+      "number": 5,
+      "group": "Core Practice",
+      "prompt": "A circle has radius 9 ft. Find its 40° arc length.",
+      "answer": "2π ft",
+      "choices": [
+        "2π ft",
+        "4π ft",
+        "9π ft",
+        "π ft"
+      ],
+      "solution": "(40/360)(18π)=2π ft.",
+      "qa": "arc,9,40,2"
+    },
+    {
+      "number": 6,
+      "group": "Core Practice",
+      "prompt": "Find the length of a 150° arc in a circle of radius 12 units.",
+      "answer": "10π units",
+      "choices": [
+        "5π units",
+        "12π units",
+        "10π units",
+        "20π units"
+      ],
+      "solution": "(150/360)(24π)=10π units.",
+      "qa": "arc,12,150,10"
+    },
+    {
+      "number": 7,
+      "group": "Core Practice",
+      "prompt": "A circle's circumference is 20π cm. What is the length of its 72° arc?",
+      "answer": "4π cm",
+      "choices": [
+        "2π cm",
+        "5π cm",
+        "4π cm",
+        "10π cm"
+      ],
+      "solution": "72/360=1/5; (1/5)(20π)=4π cm.",
+      "qa": "circ,20,72,4"
+    },
+    {
+      "number": 8,
+      "group": "Core Practice",
+      "prompt": "A circle has radius 3 cm. Find the MAJOR arc length corresponding to a 90° minor central angle.",
+      "answer": "9π/2 cm",
+      "choices": [
+        "3π/2 cm",
+        "9π/2 cm",
+        "6π cm",
+        "3π cm"
+      ],
+      "solution": "Major angle=360−90=270°; (270/360)(6π)=9π/2 cm.",
+      "qa": "arc,3,270,4.5"
+    },
+    {
+      "number": 9,
+      "group": "Core Practice",
+      "prompt": "A 45° central angle cuts an arc from a circle of radius 8 in. Find its length.",
+      "answer": "2π in",
+      "choices": [
+        "8π in",
+        "π in",
+        "4π in",
+        "2π in"
+      ],
+      "solution": "(45/360)(16π)=2π in.",
+      "qa": "arc,8,45,2"
+    },
+    {
+      "number": 10,
+      "group": "Core Practice",
+      "prompt": "A circle has diameter 10 m. Find its 216° arc length.",
+      "answer": "6π m",
+      "choices": [
+        "3π m",
+        "6π m",
+        "12π m",
+        "5π m"
+      ],
+      "solution": "(216/360)(10π)=6π m.",
+      "qa": "arc,5,216,6"
+    },
+    {
+      "number": 11,
+      "group": "Core Practice",
+      "prompt": "A circle of radius 15 cm has a 24° central angle. Find its minor arc length.",
+      "answer": "2π cm",
+      "choices": [
+        "π cm",
+        "5π cm",
+        "3π cm",
+        "2π cm"
+      ],
+      "solution": "(24/360)(30π)=2π cm.",
+      "qa": "arc,15,24,2"
+    },
+    {
+      "number": 12,
+      "group": "Exam-Style",
+      "prompt": "An arc is 6π cm long in a circle of radius 9 cm. Find its central angle.",
+      "answer": "120°",
+      "choices": [
+        "90°",
+        "100°",
+        "120°",
+        "150°"
+      ],
+      "solution": "6π=(θ/360)(18π), so θ=120°.",
+      "qa": "angle,9,6,120"
+    },
+    {
+      "number": 13,
+      "group": "Exam-Style",
+      "prompt": "A 90° arc measures 4π m. Find the circle's radius.",
+      "answer": "8 m",
+      "choices": [
+        "4 m",
+        "8 m",
+        "12 m",
+        "16 m"
+      ],
+      "solution": "4π=(90/360)(2πr)=πr/2, so r=8 m.",
+      "qa": "radius,90,4,8"
+    },
+    {
+      "number": 14,
+      "group": "Exam-Style",
+      "prompt": "A 150° arc measures 5π inches. Find the circle's radius.",
+      "answer": "6 in",
+      "choices": [
+        "3 in",
+        "5 in",
+        "6 in",
+        "12 in"
+      ],
+      "solution": "5π=(150/360)(2πr)=5πr/6, so r=6 in.",
+      "qa": "radius,150,5,6"
+    },
+    {
+      "number": 15,
+      "group": "Exam-Style",
+      "prompt": "A wheel of radius 0.5 m rotates 120°. How far does a point on its rim travel?",
+      "answer": "π/3 m",
+      "choices": [
+        "π/6 m",
+        "π/3 m",
+        "2π/3 m",
+        "π m"
+      ],
+      "solution": "(120/360)(2π·0.5)=π/3 m.",
+      "qa": "arc,0.5,120,0.3333333333333333"
+    },
+    {
+      "number": 16,
+      "group": "Exam-Style",
+      "prompt": "Two adjacent arcs of a circle with radius 12 cm have angles 30° and 75°. Find their combined length.",
+      "answer": "7π cm",
+      "choices": [
+        "5π cm",
+        "6π cm",
+        "7π cm",
+        "14π cm"
+      ],
+      "solution": "Add angles: 105°; (105/360)(24π)=7π cm.",
+      "qa": "arc,12,105,7"
+    },
+    {
+      "number": 17,
+      "group": "Challenge Problems",
+      "prompt": "A semicircular garden has radius 7 m. Find its entire boundary length, including the diameter.",
+      "answer": "14 + 7π m",
+      "choices": [
+        "7π m",
+        "14π m",
+        "14 + 7π m",
+        "7 + 14π m"
+      ],
+      "solution": "Semicircular arc=7π m; straight diameter=14 m; total=14+7π m.",
+      "qa": "semiperimeter,7,14,7"
+    },
+    {
+      "number": 18,
+      "group": "Challenge Problems",
+      "prompt": "Circle A has radius 12 cm and a 120° arc. Circle B has radius 10 cm and a 144° arc. Compare their lengths.",
+      "answer": "Equal; both 8π cm",
+      "choices": [
+        "A is longer",
+        "B is longer",
+        "Equal; both 8π cm",
+        "Equal; both 4π cm"
+      ],
+      "solution": "A: (120/360)(24π)=8π. B: (144/360)(20π)=8π. Equal.",
+      "qa": "compare,12,120,10,144,8"
+    }
+  ],
+  "test": [
+    {
+      "number": 1,
+      "difficulty": "Easy",
+      "prompt": "A circle has radius 9 cm. Find its 80° arc length.",
+      "answer": "4π cm",
+      "choices": [
+        "2π cm",
+        "4π cm",
+        "8π cm",
+        "9π cm"
+      ],
+      "solution": "(80/360)(18π)=4π cm.",
+      "qa": "arc,9,80,4"
+    },
+    {
+      "number": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "A circle has diameter 12 m. Find its 150° arc length.",
+      "answer": "5π m",
+      "choices": [
+        "10π m",
+        "5π m",
+        "6π m",
+        "4π m"
+      ],
+      "solution": "(150/360)(12π)=5π m.",
+      "qa": "arc,6,150,5"
+    },
+    {
+      "number": 3,
+      "difficulty": "Medium",
+      "prompt": "The circumference of a circle is 30π ft. Find its 48° arc length.",
+      "answer": "4π ft",
+      "choices": [
+        "8π ft",
+        "6π ft",
+        "4π ft",
+        "2π ft"
+      ],
+      "solution": "(48/360)(30π)=4π ft.",
+      "qa": "circ,30,48,4"
+    },
+    {
+      "number": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "An arc has length 9π cm in a circle of radius 13.5 cm. Find its central angle.",
+      "answer": "120°",
+      "choices": [
+        "90°",
+        "120°",
+        "135°",
+        "150°"
+      ],
+      "solution": "9π=(θ/360)(27π), so θ=120°.",
+      "qa": "angle,13.5,9,120"
+    },
+    {
+      "number": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "A 75° arc of radius 12 cm equals an arc of radius 7.5 cm. Find the second central angle.",
+      "answer": "120°",
+      "choices": [
+        "75°",
+        "90°",
+        "100°",
+        "120°"
+      ],
+      "solution": "First arc=(75/360)(24π)=5π. Set 5π=(θ/360)(15π); θ=120°.",
+      "qa": "equalangle,12,75,7.5,120"
+    }
+  ]
+}
