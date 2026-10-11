@@ -1,0 +1,51 @@
+[
+  {
+    "group": "Skill Check",
+    "prompt": "In x²+y²−6x+4y−12=0, what is D?",
+    "answer": "-6",
+    "solution": "D is the coefficient of x, so D=−6.",
+    "choices": [
+      "-6",
+      "6",
+      "4",
+      "-12"
+    ],
+    "qa": {
+      "kind": "D",
+      "D": -6
+    }
+  },
+  {
+    "group": "Skill Check",
+    "prompt": "In x²+y²+8x−10y+5=0, what is E?",
+    "answer": "-10",
+    "solution": "E is the signed coefficient of y, so E=−10.",
+    "choices": [
+      "-10",
+      "10",
+      "8",
+      "5"
+    ],
+    "qa": {
+      "kind": "E",
+      "E": -10
+    }
+  },
+  {
+    "group": "Skill Check",
+    "prompt": "Find the center of x²+y²−8x+6y+9=0.",
+    "answer": "(4, -3)",
+    "solution": "h=−D/2=4 and k=−E/2=−3.",
+    "choices": [
+      "(4, -3)",
+      "(-4, 3)",
+      "(8, -6)",
+      "(-8, 6)"
+    ],
+    "qa": {
+      "kind": "center",
+      "D": -8,
+      "E": 6
+    }
+  }
+]
