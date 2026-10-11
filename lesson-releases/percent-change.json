@@ -1,0 +1,14 @@
+{
+  "lesson": "percent-change",
+  "builders": [
+    "percent-change-lesson177-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/percentages/percent-change/explanation/",
+    "/problem-solving-and-data-analysis/percentages/percent-change/problems/",
+    "/problem-solving-and-data-analysis/percentages/percent-change/answers/",
+    "/problem-solving-and-data-analysis/percentages/percent-change/test/",
+    "/problem-solving-and-data-analysis/percentages/percent-change/video/english/",
+    "/problem-solving-and-data-analysis/percentages/percent-change/video/arabic/"
+  ]
+}
