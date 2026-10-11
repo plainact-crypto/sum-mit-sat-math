@@ -3,6 +3,6 @@
   "index": 164,
   "owner": "SUMMIT Worker 4",
   "branch": "worker4-index164-proportional-tables-20261011",
-  "status": "BUILDER_COMMITTED_REGISTRY_BLOCKED",
-  "note": "Required builder and six-route manifest are now committed (builder commit e5ffde2c). Local mathematical QA passed 23/23. Explanation registry update blocked by GitHub safety checks. Full repository build, production READY and live route verification remain pending; do not merge or mark LIVE_VERIFIED."
+  "status": "BUILD_PASS_REGISTRY_AND_GLOBAL_QA_BLOCKED",
+  "note": "2026-10-11: Vercel Sandbox checkout 3f2c9d1 passed npm run build, required release builder, unique manifest, all six non-placeholder routes, 18 practice/answers and five tests. Local mathematical QA 23/23 passed. Explanation registry write still blocked by GitHub safety checks; global QA fails on unrelated collinear-points classification marker. Do not merge or mark LIVE_VERIFIED."
 }
