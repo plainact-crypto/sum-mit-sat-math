@@ -23,5 +23,8 @@
   "english_scenes": 20,
   "arabic_scenes": 20,
   "release_manifest": "lesson-releases/rectangle-area.json",
-  "full_repository_build": "UNVERIFIED"
+  "full_repository_build": "PASS — Vercel preview dpl_Ce7CiLz6Q3vS8N15Pq19UtLHf4hw at commit dba1d0ff1b7e466588165d0e2648ed4adc0402a9",
+  "preview_deployment": "READY",
+  "preview_release_route_gate": "6/6 PASS",
+  "release_blocker": "GitHub pull-request creation blocked by safety checks; no merge to main"
 }
