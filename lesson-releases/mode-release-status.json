@@ -1,0 +1,35 @@
+{
+  "worker": "SUMMIT Worker 2",
+  "lesson_index": 187,
+  "slug": "mode",
+  "status": "BLOCKED_INTEGRATION_WRITE",
+  "canonical_base": "/problem-solving-and-data-analysis/measures-of-center/mode/",
+  "completed": {
+    "data": true,
+    "builder": true,
+    "release_manifest": true,
+    "practice": 18,
+    "distribution": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answers": 18,
+    "test": 5,
+    "english_scenes": 12,
+    "arabic_scenes": 12,
+    "independent_math_checks": 23,
+    "local_builder_emulation_routes": 6
+  },
+  "blockers": [
+    "Shared production-build.js update rejected by GitHub connector safety checks",
+    "Shared explanation-retrofit-build.js update rejected by GitHub connector safety checks",
+    "Explanation Registry entry and full repository build not integrated",
+    "No playable encoded bilingual video assets; HTML instructional scene routes only"
+  ],
+  "merged": false,
+  "production_verified": false,
+  "announcement_sent": false,
+  "next_action": "Coordinate safe integration of builder before explanation retrofit, register Mode as NEITHER, run full repository build and tests, merge only after all gates pass."
+}
