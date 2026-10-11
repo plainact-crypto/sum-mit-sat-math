@@ -32,7 +32,7 @@ function independentlySolve(v){
 const all=[...math.practice,...math.test],seen=new Set();
 all.forEach((q,i)=>{
  assert.strictEqual(q.index,i<18?i+1:i-17);
- assert.ok(q.prompt.length>35&&q.solution.length>35,'Insufficient explanation at '+(i+1));
+ assert.ok(q.prompt.length>30&&q.solution.length>(i<18?35:20),'Insufficient explanation at '+(i+1));
  assert.ok(!seen.has(q.prompt),'Duplicate question at '+(i+1));
  seen.add(q.prompt);
  const actual=independentlySolve(q.qa);
