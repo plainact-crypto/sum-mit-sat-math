@@ -4,9 +4,37 @@
   "slug": "arc-length",
   "canonical_base": "/geometry-and-trigonometry/circles/other-circle-leaves/arc-length",
   "owner": "SUMMIT Worker 2",
-  "status": "IN_PROGRESS",
+  "status": "LOCAL_QA_PASSED_RELEASE_BLOCKED",
   "started_on": "2026-10-11",
   "branch": "worker2/arc-length-272-20261011",
   "prior_blocked": "diameter-267",
-  "release_contract": "fix/required-lesson-builders-20261010"
+  "release_contract": "fix/required-lesson-builders-20261010",
+  "core": {
+    "explanation_sections": 16,
+    "worked_examples": 5,
+    "practice": 18,
+    "distribution": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answers": 18,
+    "test": 5,
+    "english_scenes": 12,
+    "arabic_scenes": 12
+  },
+  "qa": {
+    "independent_math_checks": "23/23 PASS",
+    "builder_simulation": "PASS",
+    "html_routes": "6/6 PASS",
+    "inline_javascript": "PASS",
+    "full_repository_build": "NOT RUN",
+    "vercel_preview": "HTTP 402 api-deployments-free-per-day retryAfter 86400",
+    "github_pr": "Two attempts rejected by GitHub safety checks"
+  },
+  "release_manifest": "lesson-releases/arc-length.json",
+  "production": "NOT_LIVE_VERIFIED",
+  "email": "NOT_SENT",
+  "next_owned_index": 277
 }
