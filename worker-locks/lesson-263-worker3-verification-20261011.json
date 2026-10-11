@@ -1,0 +1,17 @@
+{
+  "lesson": 263,
+  "slug": "reflections",
+  "status": "RELEASE_BLOCKED",
+  "math_qa": "23/23 PASS",
+  "builders": "5/5 PASS",
+  "full_build": "npm run build PASS",
+  "routes": "6/6 PASS",
+  "explanation": "17 sections, deterministic graph, Desmos strategy",
+  "videos": "20 English + 20 Arabic landscape scenes",
+  "blockers": [
+    "Existing global explanation-retrofit gate issue for collinear-points",
+    "Draft PR creation rejected by safety checks",
+    "Final commit not verified on production"
+  ],
+  "live_verified": false
+}
