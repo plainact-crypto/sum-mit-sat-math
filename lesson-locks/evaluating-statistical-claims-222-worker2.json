@@ -1,0 +1,28 @@
+{
+  "worker": "SUMMIT Worker 2",
+  "lesson_index": 222,
+  "slug": "evaluating-statistical-claims",
+  "title": "Evaluating Statistical Claims",
+  "canonical_base": "/problem-solving-and-data-analysis/statistical-studies/evaluating-statistical-claims",
+  "state": "LOCAL_QA_PASSED_RELEASE_PENDING",
+  "qa": {
+    "practice": 18,
+    "groups": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answers": 18,
+    "test": 5,
+    "numeric_crosschecks": 15,
+    "english_scenes": 12,
+    "arabic_scenes": 12,
+    "generated_html_routes": 6,
+    "inline_script_syntax": "PASS"
+  },
+  "release_manifest": "lesson-releases/evaluating-statistical-claims.json",
+  "pr": 11,
+  "blocker": "Full repository build and Vercel preview deployment not yet validated: Vercel HTTP 402 api-deployments-free-per-day, retry after 24 hours",
+  "live_verified": false
+}

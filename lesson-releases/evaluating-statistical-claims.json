@@ -1,0 +1,12 @@
+{
+  "lesson": "evaluating-statistical-claims",
+  "builders": ["evaluating-statistical-claims-lesson222-build.js"],
+  "routes": [
+    "/problem-solving-and-data-analysis/statistical-studies/evaluating-statistical-claims/explanation/",
+    "/problem-solving-and-data-analysis/statistical-studies/evaluating-statistical-claims/problems/",
+    "/problem-solving-and-data-analysis/statistical-studies/evaluating-statistical-claims/answers/",
+    "/problem-solving-and-data-analysis/statistical-studies/evaluating-statistical-claims/test/",
+    "/problem-solving-and-data-analysis/statistical-studies/evaluating-statistical-claims/video/english/",
+    "/problem-solving-and-data-analysis/statistical-studies/evaluating-statistical-claims/video/arabic/"
+  ]
+}
