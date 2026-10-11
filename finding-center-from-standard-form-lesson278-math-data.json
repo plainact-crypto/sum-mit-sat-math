@@ -1,0 +1,404 @@
+{
+  "lesson_index": 278,
+  "slug": "finding-center-from-standard-form",
+  "title": "Finding Center from Standard Form",
+  "base": "geometry-and-trigonometry/circles/circle-equation/finding-center-from-standard-form",
+  "subject": "Geometry and Trigonometry",
+  "section": "Circles · Circle Equation",
+  "classification": "BOTH",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "prompt": "Identify the center of the circle. (x−3)² + (y+2)² = 25",
+      "answer": "(3, -2)",
+      "solution": "The center in standard form is (h,k), the opposites of the constants added to x and y. Here h=3 and k=-2; the radius-squared value 25 does not change the center. Therefore the center is (3, -2).",
+      "circles": [
+        {
+          "h": 3,
+          "k": -2,
+          "r2": 25
+        }
+      ],
+      "operation": "single",
+      "equation": "(x−3)² + (y+2)² = 25"
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "prompt": "Read the center, watching both signs. (x+4)² + (y−1)² = 9",
+      "answer": "(-4, 1)",
+      "solution": "The center in standard form is (h,k), the opposites of the constants added to x and y. Here h=-4 and k=1; the radius-squared value 9 does not change the center. Therefore the center is (-4, 1).",
+      "circles": [
+        {
+          "h": -4,
+          "k": 1,
+          "r2": 9
+        }
+      ],
+      "operation": "single",
+      "equation": "(x+4)² + (y−1)² = 9"
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "prompt": "Find the center when neither variable has a shifted binomial. x² + y² = 49",
+      "answer": "(0, 0)",
+      "solution": "The center in standard form is (h,k), the opposites of the constants added to x and y. Here h=0 and k=0; the radius-squared value 49 does not change the center. Therefore the center is (0, 0).",
+      "circles": [
+        {
+          "h": 0,
+          "k": 0,
+          "r2": 49
+        }
+      ],
+      "operation": "single",
+      "equation": "x² + y² = 49"
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "prompt": "Identify the center from the two squared expressions. (x−7)² + (y−5)² = 36",
+      "answer": "(7, 5)",
+      "solution": "The center in standard form is (h,k), the opposites of the constants added to x and y. Here h=7 and k=5; the radius-squared value 36 does not change the center. Therefore the center is (7, 5).",
+      "circles": [
+        {
+          "h": 7,
+          "k": 5,
+          "r2": 36
+        }
+      ],
+      "operation": "single",
+      "equation": "(x−7)² + (y−5)² = 36"
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "prompt": "Find the center with two plus signs. (x+8)² + (y+6)² = 100",
+      "answer": "(-8, -6)",
+      "solution": "The center in standard form is (h,k), the opposites of the constants added to x and y. Here h=-8 and k=-6; the radius-squared value 100 does not change the center. Therefore the center is (-8, -6).",
+      "circles": [
+        {
+          "h": -8,
+          "k": -6,
+          "r2": 100
+        }
+      ],
+      "operation": "single",
+      "equation": "(x+8)² + (y+6)² = 100"
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "prompt": "The squared y-term is written first. Find the center. (y−9)² + (x+2)² = 81",
+      "answer": "(-2, 9)",
+      "solution": "The center in standard form is (h,k), the opposites of the constants added to x and y. Here h=-2 and k=9; the radius-squared value 81 does not change the center. Therefore the center is (-2, 9).",
+      "circles": [
+        {
+          "h": -2,
+          "k": 9,
+          "r2": 81
+        }
+      ],
+      "operation": "single",
+      "equation": "(y−9)² + (x+2)² = 81"
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "prompt": "Find the center, writing coordinates as decimals. (x−0.5)² + (y+0.75)² = 9",
+      "answer": "(0.5, -0.75)",
+      "solution": "The center in standard form is (h,k), the opposites of the constants added to x and y. Here h=0.5 and k=-0.75; the radius-squared value 9 does not change the center. Therefore the center is (0.5, -0.75).",
+      "circles": [
+        {
+          "h": 0.5,
+          "k": -0.75,
+          "r2": 9
+        }
+      ],
+      "operation": "single",
+      "equation": "(x−0.5)² + (y+0.75)² = 9"
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "prompt": "Find the center when the shifts are decimals. (x+0.4)² + (y−2.5)² = 1",
+      "answer": "(-0.4, 2.5)",
+      "solution": "The center in standard form is (h,k), the opposites of the constants added to x and y. Here h=-0.4 and k=2.5; the radius-squared value 1 does not change the center. Therefore the center is (-0.4, 2.5).",
+      "circles": [
+        {
+          "h": -0.4,
+          "k": 2.5,
+          "r2": 1
+        }
+      ],
+      "operation": "single",
+      "equation": "(x+0.4)² + (y−2.5)² = 1"
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "prompt": "The equation shows subtraction of negative numbers. Find the center. (x − (−6))² + (y − (−2))² = 64",
+      "answer": "(-6, -2)",
+      "solution": "The center in standard form is (h,k), the opposites of the constants added to x and y. Here h=-6 and k=-2; the radius-squared value 64 does not change the center. Therefore the center is (-6, -2).",
+      "circles": [
+        {
+          "h": -6,
+          "k": -2,
+          "r2": 64
+        }
+      ],
+      "operation": "single",
+      "equation": "(x − (−6))² + (y − (−2))² = 64"
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "prompt": "Substitute the given value of a, then find the center. (x − a)² + (y + 5)² = 49, where a = −3",
+      "answer": "(-3, -5)",
+      "solution": "The center in standard form is (h,k), the opposites of the constants added to x and y. Here h=-3 and k=-5; the radius-squared value 49 does not change the center. Therefore the center is (-3, -5).",
+      "circles": [
+        {
+          "h": -3,
+          "k": -5,
+          "r2": 49
+        }
+      ],
+      "operation": "single",
+      "equation": "(x − a)² + (y + 5)² = 49, where a = −3"
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "prompt": "Substitute the given value of m, then find the center. (x − m)² + (y + 7)² = 25, where m = 4",
+      "answer": "(4, -7)",
+      "solution": "The center in standard form is (h,k), the opposites of the constants added to x and y. Here h=4 and k=-7; the radius-squared value 25 does not change the center. Therefore the center is (4, -7).",
+      "circles": [
+        {
+          "h": 4,
+          "k": -7,
+          "r2": 25
+        }
+      ],
+      "operation": "single",
+      "equation": "(x − m)² + (y + 7)² = 25, where m = 4"
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "prompt": "A circle on a coordinate map is described by the equation. Locate its center. (x+11)² + (y−13)² = 121",
+      "answer": "(-11, 13)",
+      "solution": "The center in standard form is (h,k), the opposites of the constants added to x and y. Here h=-11 and k=13; the radius-squared value 121 does not change the center. Therefore the center is (-11, 13).",
+      "circles": [
+        {
+          "h": -11,
+          "k": 13,
+          "r2": 121
+        }
+      ],
+      "operation": "single",
+      "equation": "(x+11)² + (y−13)² = 121"
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "prompt": "Even though the y-term appears first, identify the ordered center (x,y). (y+4)² + (x−12)² = 121",
+      "answer": "(12, -4)",
+      "solution": "The center in standard form is (h,k), the opposites of the constants added to x and y. Here h=12 and k=-4; the radius-squared value 121 does not change the center. Therefore the center is (12, -4).",
+      "circles": [
+        {
+          "h": 12,
+          "k": -4,
+          "r2": 121
+        }
+      ],
+      "operation": "single",
+      "equation": "(y+4)² + (x−12)² = 121"
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "prompt": "Identify the center from the decimal shifts. (x−1.5)² + (y−2.25)² = 16",
+      "answer": "(1.5, 2.25)",
+      "solution": "The center in standard form is (h,k), the opposites of the constants added to x and y. Here h=1.5 and k=2.25; the radius-squared value 16 does not change the center. Therefore the center is (1.5, 2.25).",
+      "circles": [
+        {
+          "h": 1.5,
+          "k": 2.25,
+          "r2": 16
+        }
+      ],
+      "operation": "single",
+      "equation": "(x−1.5)² + (y−2.25)² = 16"
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "prompt": "Evaluate the square roots before identifying the center. (x + √9)² + (y − √16)² = 25",
+      "answer": "(-3, 4)",
+      "solution": "The center in standard form is (h,k), the opposites of the constants added to x and y. Here h=-3 and k=4; the radius-squared value 25 does not change the center. Therefore the center is (-3, 4).",
+      "circles": [
+        {
+          "h": -3,
+          "k": 4,
+          "r2": 25
+        }
+      ],
+      "operation": "single",
+      "equation": "(x + √9)² + (y − √16)² = 25"
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "prompt": "A small circle has radius 0.5. Identify its center; do not confuse radius with a coordinate. (x−1.25)² + (y+0.75)² = 0.25",
+      "answer": "(1.25, -0.75)",
+      "solution": "The center in standard form is (h,k), the opposites of the constants added to x and y. Here h=1.25 and k=-0.75; the radius-squared value 0.25 does not change the center. Therefore the center is (1.25, -0.75).",
+      "circles": [
+        {
+          "h": 1.25,
+          "k": -0.75,
+          "r2": 0.25
+        }
+      ],
+      "operation": "single",
+      "equation": "(x−1.25)² + (y+0.75)² = 0.25"
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "prompt": "Circle A: (x+6)² + (y−8)² = 9. Circle B: (x−4)² + (y+1)² = 16. Find the midpoint of their centers.",
+      "answer": "(-1, 3.5)",
+      "solution": "Read the centers (-6, 8), (4, -1). Average the two x-coordinates and the two y-coordinates separately. The result is (-1, 3.5).",
+      "circles": [
+        {
+          "h": -6,
+          "k": 8,
+          "r2": 9
+        },
+        {
+          "h": 4,
+          "k": -1,
+          "r2": 16
+        }
+      ],
+      "operation": "midpoint"
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "prompt": "Three circles have equations (A) (x−2)² + (y+3)² = 25; (B) (x+4)² + (y−5)² = 36; (C) (x−8)² + (y−1)² = 49. Find the coordinate-wise average of their three centers.",
+      "answer": "(2, 1)",
+      "solution": "Read the centers (2, -3), (-4, 5), (8, 1). Find the arithmetic mean of the three x-coordinates and of the three y-coordinates. The result is (2, 1).",
+      "circles": [
+        {
+          "h": 2,
+          "k": -3,
+          "r2": 25
+        },
+        {
+          "h": -4,
+          "k": 5,
+          "r2": 36
+        },
+        {
+          "h": 8,
+          "k": 1,
+          "r2": 49
+        }
+      ],
+      "operation": "mean"
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "difficulty": "Easy",
+      "prompt": "Find the center of the circle: (x−2)² + (y+1)² = 16",
+      "answer": "(2, -1)",
+      "solution": "Reverse each binomial sign: the center is (2, -1).",
+      "circles": [
+        {
+          "h": 2,
+          "k": -1,
+          "r2": 16
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "Find the center of the circle: (y−3)² + (x+5)² = 49",
+      "answer": "(-5, 3)",
+      "solution": "Reverse each binomial sign: the center is (-5, 3).",
+      "circles": [
+        {
+          "h": -5,
+          "k": 3,
+          "r2": 49
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 3,
+      "difficulty": "Medium",
+      "prompt": "Find the center of the circle: (x−0.75)² + (y+2.5)² = 25",
+      "answer": "(0.75, -2.5)",
+      "solution": "Reverse each binomial sign: the center is (0.75, -2.5).",
+      "circles": [
+        {
+          "h": 0.75,
+          "k": -2.5,
+          "r2": 25
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "Find the midpoint of the two circle centers: Circle A: (x−6)² + (y+4)² = 25; Circle B: (x+2)² + (y−8)² = 36",
+      "answer": "(2, 2)",
+      "solution": "The centers are (6, -4), (-2, 8). Average corresponding coordinates to obtain (2, 2).",
+      "circles": [
+        {
+          "h": 6,
+          "k": -4,
+          "r2": 25
+        },
+        {
+          "h": -2,
+          "k": 8,
+          "r2": 36
+        }
+      ],
+      "operation": "midpoint"
+    },
+    {
+      "index": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "Find the coordinate-wise average of the three circle centers: Circle A: (x−4)² + (y+7)² = 16; Circle B: (x+8)² + (y−5)² = 9; Circle C: (x−10)² + (y−2)² = 49",
+      "answer": "(2, 0)",
+      "solution": "The centers are (4, -7), (-8, 5), (10, 2). Average corresponding coordinates to obtain (2, 0).",
+      "circles": [
+        {
+          "h": 4,
+          "k": -7,
+          "r2": 16
+        },
+        {
+          "h": -8,
+          "k": 5,
+          "r2": 9
+        },
+        {
+          "h": 10,
+          "k": 2,
+          "r2": 49
+        }
+      ],
+      "operation": "mean"
+    }
+  ]
+}
