@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Coordinate example",
+    "narration": "Horizontal change six and vertical change eight make a diameter of ten.",
+    "math": "√(36+64)=10"
+  },
+  {
+    "title": "Common traps",
+    "narration": "Do not confuse diameter with radius or circumference.",
+    "math": "d=2r"
+  },
+  {
+    "title": "Final review",
+    "narration": "Select the formula that matches the given information, then practice.",
+    "math": "d=C/π"
+  }
+]
