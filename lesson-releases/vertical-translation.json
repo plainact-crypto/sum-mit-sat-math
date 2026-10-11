@@ -6,7 +6,8 @@
     "vertical-translation-build-practice.js",
     "vertical-translation-build-test.js",
     "vertical-translation-build-video.js",
-    "vertical-translation-build-test-runtime.js"
+    "vertical-translation-build-test-runtime.js",
+    "vertical-translation-lesson92-qa-build.js"
   ],
   "routes": [
     "/advanced-math/quadratic-functions/vertex-form/vertical-translation/explanation/",
