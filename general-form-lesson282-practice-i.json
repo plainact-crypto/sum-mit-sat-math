@@ -1,0 +1,19 @@
+[
+  {
+    "group": "Exam-Style",
+    "prompt": "Find the center of x²+y²+7x−5y−10=0.",
+    "answer": "(-3.5, 2.5)",
+    "solution": "Center (−D/2,−E/2)=(−7/2,5/2).",
+    "choices": [
+      "(-3.5, 2.5)",
+      "(3.5, -2.5)",
+      "(-7, 5)",
+      "(7, -5)"
+    ],
+    "qa": {
+      "kind": "center",
+      "D": 7,
+      "E": -5
+    }
+  }
+]
