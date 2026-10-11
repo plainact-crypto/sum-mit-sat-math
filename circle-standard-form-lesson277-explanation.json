@@ -1,0 +1,85 @@
+{
+  "title": "Standard Form",
+  "sections": [
+    [
+      "LESSON OBJECTIVE",
+      "Recognize and write the standard form of a circle equation, identify its center and radius, and check whether a point lies on the circle.",
+      "Target form: (x−h)²+(y−k)²=r², where r>0."
+    ],
+    [
+      "WHAT YOU NEED TO KNOW",
+      "A circle consists of all points the same distance r from a fixed center (h,k). The distance formula squared gives the equation.",
+      "The sum of squared horizontal and vertical displacements equals r²."
+    ],
+    [
+      "KEY DEFINITIONS",
+      "Center (h,k): the fixed reference point. Radius r: nonnegative distance to the circle. Standard form: (x−h)²+(y−k)²=r².",
+      "A point is on the circle when substitution gives exact equality."
+    ],
+    [
+      "CORE RULE",
+      "Read the center by reversing the signs inside the parentheses; take the positive square root of the right-hand side to find radius.",
+      "Example: (x−3)²+(y+2)²=25 has center (3,−2) and radius 5."
+    ],
+    [
+      "HOW IT WORKS",
+      "Identify h and k, compute r from r², and check the signs. To write an equation, substitute the center coordinates and squared radius. To test a point, substitute x and y.",
+      "If the circle passes through a point, compute r² using the squared distance from the center."
+    ],
+    [
+      "WORKED EXAMPLE 1 — FIND THE CENTER",
+      "For (x+4)²+(y−1)²=49, rewrite x+4 as x−(−4). Thus the center is (−4,1).",
+      "The center is not (4,−1); parentheses show the opposite signs."
+    ],
+    [
+      "WORKED EXAMPLE 2 — FIND THE RADIUS",
+      "For (x−2)²+(y+3)²=81, the radius satisfies r²=81, so r=9.",
+      "Radius is positive; 81 is the squared radius, not the radius."
+    ],
+    [
+      "WORKED EXAMPLE 3 — WRITE THE EQUATION",
+      "For center (−5,3) and radius 4, substitute h=−5,k=3,r²=16: (x+5)²+(y−3)²=16.",
+      "Check that the center itself makes the left side zero, not sixteen."
+    ],
+    [
+      "WORKED EXAMPLE 4 — POINT ON CIRCLE",
+      "Test (4,5) on (x−1)²+(y−1)²=25: (4−1)²+(5−1)²=9+16=25, so the point lies on the circle.",
+      "Equality means on the circle; less than r² means inside, greater means outside."
+    ],
+    [
+      "WORKED EXAMPLE 5 — COMPLETE SQUARES",
+      "Rewrite x²+y²−8x+6y=0. Group: (x²−8x)+(y²+6y)=0. Add 16 and 9 to both sides: (x−4)²+(y+3)²=25.",
+      "The resulting center is (4,−3), radius 5. Expand back to verify."
+    ],
+    [
+      "VERIFIED COORDINATE VISUAL",
+      "A circle centered at (3,−2) with radius 5 crosses (8,−2), (−2,−2), (3,3), and (3,−7). Each point is exactly 5 units from the center.",
+      "Plot points from the equation, never approximate circle features by eye."
+    ],
+    [
+      "DESMOS STRATEGY",
+      "Enter (x−3)^2+(y+2)^2=25. Look for the circle centered at (3,−2) with radius 5. Use it to check intercepts or point membership. Why it works: the equation enforces distance 5 from the center. Faster or not? For reading center and radius, algebra is faster; Desmos helps verify a graph.",
+      "Cross-check: (8−3)²+(−2+2)²=25 and (3−3)²+(3+2)²=25."
+    ],
+    [
+      "COMMON MISTAKES",
+      "Do not copy the signs from parentheses directly as center coordinates. Do not call r² the radius. Do not forget that radius is positive. Do not confuse circle equations with line equations.",
+      "A negative right-hand side cannot describe a real circle with positive radius."
+    ],
+    [
+      "EXAM STRATEGY",
+      "Read h,k and r in seconds. When a point is given, substitute without graphing. When the equation is expanded, complete squares in x and y separately, then verify by re-expanding.",
+      "Keep the circle's center and radius consistent across algebra, graphs, and word problems."
+    ],
+    [
+      "QUICK CHECK AND RECAP",
+      "Try (1) center of (x+2)²+(y−5)²=36; (2) radius of (x−1)²+y²=64; (3) equation with center (0,−4) and radius 3.",
+      "Answers: (1) (−2,5); (2) 8; (3) x²+(y+4)²=9. Core rule: (x−h)²+(y−k)²=r²."
+    ],
+    [
+      "NEXT STEP",
+      "Work through 18 practice problems, review their aligned solutions, and take the five-question test. Use the coordinate diagram and Desmos only when they clarify the mathematics.",
+      "Remember: identify the center, square the radius, and verify with substitution."
+    ]
+  ]
+}
