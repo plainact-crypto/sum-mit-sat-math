@@ -1,0 +1,1 @@
+[{"number":4,"difficulty":"Medium / Hard","question":"Length=x+4 and width=x−1. Perimeter is 42. Find x.","choices":["7","8","9","10"],"correct":2,"answer":"9","solution":"2(2x+3)=42 gives x=9."}]
