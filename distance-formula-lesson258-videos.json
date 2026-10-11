@@ -1,0 +1,166 @@
+{
+  "english": [
+    [
+      "Distance Formula — Full Lesson",
+      "Welcome. We will measure straight-line distance between two points, explain why the formula works, and use it in exam problems."
+    ],
+    [
+      "Coordinates and the plane",
+      "Every point is an ordered pair (x, y). The first number gives horizontal position and the second gives vertical position."
+    ],
+    [
+      "Two points, one segment",
+      "The distance from A to B is the length of the straight segment connecting them, not the distance traveled along grid lines."
+    ],
+    [
+      "Build a right triangle",
+      "Draw a horizontal step and a vertical step from A to B. They are perpendicular, so the connecting segment is a hypotenuse."
+    ],
+    [
+      "The core formula",
+      "Distance equals the square root of the horizontal change squared plus the vertical change squared."
+    ],
+    [
+      "Why subtraction order does not matter",
+      "Changing the order of the points changes the signs of both differences, but squaring removes the signs. Distance remains unchanged."
+    ],
+    [
+      "Example 1: a 3–4–5 triangle",
+      "From (0,0) to (3,4), the changes are 3 and 4. Square and add: 9 plus 16 equals 25. The square root is 5."
+    ],
+    [
+      "Example 2: negative coordinates",
+      "From (−2,−1) to (4,7), subtract carefully: 4 minus negative 2 equals 6; 7 minus negative 1 equals 8."
+    ],
+    [
+      "The 6–8–10 diagram",
+      "The verified diagram has a horizontal leg of 6, a vertical leg of 8, and a diagonal of 10 because 36 plus 64 equals 100."
+    ],
+    [
+      "Horizontal segments",
+      "When y-values match, the vertical change is zero. Distance is the absolute difference of the x-coordinates."
+    ],
+    [
+      "Vertical segments",
+      "When x-values match, the horizontal change is zero. Distance is the absolute difference of the y-coordinates."
+    ],
+    [
+      "Exact radicals",
+      "If the sum of squares is 98, distance is square root 98, or 7 square root 2. Keep the exact form unless rounding is requested."
+    ],
+    [
+      "Compare squared distances",
+      "To compare lengths, compare their squared distances. A segment with squared distance 169 is longer than one with 100."
+    ],
+    [
+      "Circle radius",
+      "The radius of a circle is the distance from the center to any point on the circle. Apply the same coordinate formula."
+    ],
+    [
+      "Rectangle diagonal",
+      "A rectangle 9 units wide and 12 units tall has diagonal square root of 81 plus 144, which is 15."
+    ],
+    [
+      "Triangle perimeter",
+      "Find each of the three side lengths, then add. For vertices (0,0), (6,0), and (6,8), the perimeter is 6 plus 8 plus 10, or 24."
+    ],
+    [
+      "Solve for a missing coordinate",
+      "If a distance is known, square both sides of the distance formula and solve the resulting squared difference."
+    ],
+    [
+      "Choose the correct sign",
+      "For A(x,1) and B(2,9) ten units apart, x is −4 or 8. The condition x less than 2 selects −4."
+    ],
+    [
+      "Desmos verification",
+      "Plot the two points and enter the distance expression. Desmos can check awkward values, but mental arithmetic is faster for simple triples."
+    ],
+    [
+      "Final recap and next steps",
+      "Subtract matching coordinates, square the changes, add, and take the nonnegative root. Practice 18 questions, review all solutions, and finish the five-question test."
+    ]
+  ],
+  "arabic": [
+    [
+      "قانون المسافة — الدرس الكامل",
+      "أهلاً بك. سنتعلم حساب المسافة المستقيمة بين نقطتين، ونفهم سبب صحة القانون، ثم نطبقه على مسائل الامتحان."
+    ],
+    [
+      "الإحداثيات والمستوى",
+      "كل نقطة تُكتب في صورة زوج مرتب س وص. العدد الأول يحدد الموضع الأفقي، والثاني يحدد الموضع الرأسي."
+    ],
+    [
+      "نقطتان وقطعة مستقيمة",
+      "المسافة بين النقطتين هي طول القطعة المستقيمة الواصلة بينهما، وليست طول الحركة على خطوط الشبكة."
+    ],
+    [
+      "كوّن مثلثاً قائماً",
+      "ارسم خطوة أفقية وأخرى رأسية بين النقطتين. الخطوتان متعامدتان، والقطعة الواصلة هي الوتر."
+    ],
+    [
+      "القانون الأساسي",
+      "المسافة تساوي الجذر التربيعي لمجموع مربع فرق الإحداثيين الأفقيين ومربع فرق الإحداثيين الرأسيين."
+    ],
+    [
+      "لماذا لا يهم ترتيب الطرح؟",
+      "عند تبديل النقطتين تتغير إشارتا الفرقين، لكن تربيع كل فرق يلغي الإشارة، فتظل المسافة نفسها."
+    ],
+    [
+      "مثال أول: مثلث ثلاثة وأربعة وخمسة",
+      "من النقطة صفر وصفر إلى ثلاثة وأربعة، الفرقان ثلاثة وأربعة. مجموع مربعيهما خمسة وعشرون، وجذره خمسة."
+    ],
+    [
+      "مثال ثان: الإحداثيات السالبة",
+      "من سالب اثنين وسالب واحد إلى أربعة وسبعة، الفرق الأفقي ستة، والفرق الرأسي ثمانية. انتبه عند طرح العدد السالب."
+    ],
+    [
+      "الرسم المتحقق: ستة وثمانية وعشرة",
+      "في الرسم، طول الضلع الأفقي ست وحدات والرأسي ثماني وحدات. الوتر عشر وحدات لأن ستة وثلاثين زائد أربعة وستين يساوي مئة."
+    ],
+    [
+      "القطع الأفقية",
+      "عندما يتساوى الإحداثي الرأسي للنقطتين، يكون الفرق الرأسي صفراً. المسافة هي القيمة المطلقة لفرق الإحداثيين الأفقيين."
+    ],
+    [
+      "القطع الرأسية",
+      "عندما يتساوى الإحداثي الأفقي للنقطتين، يكون الفرق الأفقي صفراً. المسافة هي القيمة المطلقة لفرق الإحداثيين الرأسيين."
+    ],
+    [
+      "الجذور في الصورة الدقيقة",
+      "إذا كان مجموع المربعين ثمانية وتسعين، فالمسافة جذر ثمانية وتسعين، أي سبعة جذر اثنين. لا تقرب إلا إذا طُلب منك ذلك."
+    ],
+    [
+      "مقارنة المسافات بالمربعات",
+      "للمقارنة بين مسافتين يكفي مقارنة مربعيهما. المسافة التي مربعها مئة وتسعة وستون أطول من التي مربعها مئة."
+    ],
+    [
+      "نصف قطر الدائرة",
+      "نصف القطر هو المسافة بين مركز الدائرة وأي نقطة على محيطها. نستخدم قانون المسافة نفسه."
+    ],
+    [
+      "قطر المستطيل",
+      "إذا كان عرض المستطيل تسع وحدات وارتفاعه اثنتي عشرة وحدة، فطول قطره جذر مئتين وخمسة وعشرين، أي خمس عشرة وحدة."
+    ],
+    [
+      "محيط المثلث",
+      "احسب أطوال الأضلاع الثلاثة ثم اجمعها. في مثال أضلاعه ستة وثمانية وعشرة يكون المحيط أربعاً وعشرين وحدة."
+    ],
+    [
+      "إيجاد إحداثي مجهول",
+      "إذا عرفت المسافة، ربّع طرفي القانون ثم حل المعادلة الناتجة عن مربع فرق الإحداثيات."
+    ],
+    [
+      "اختر الإشارة الصحيحة",
+      "إذا كانت النقطتان س وواحد، واثنين وتسعة، وبينهما عشر وحدات، فإن س يساوي سالب أربعة أو ثمانية. الشرط س أصغر من اثنين يحدد سالب أربعة."
+    ],
+    [
+      "التحقق باستخدام ديسموس",
+      "ارسم النقطتين واكتب تعبير المسافة في ديسموس للتحقق. الحساب الذهني أسرع في الأمثلة البسيطة، والآلة مفيدة مع الأعداد المعقدة."
+    ],
+    [
+      "ملخص الدرس والخطوة التالية",
+      "اطرح الإحداثيات المتناظرة، وربّع الفرقين، واجمع، ثم خذ الجذر غير السالب. حل ثمانية عشر تدريباً، وراجع الحلول، ثم أتم اختبار الأسئلة الخمسة."
+    ]
+  ]
+}
