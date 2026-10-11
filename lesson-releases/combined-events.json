@@ -1,0 +1,14 @@
+{
+  "lesson": "combined-events",
+  "builders": [
+    "combined-events-lesson207-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/probability/combined-events/explanation/",
+    "/problem-solving-and-data-analysis/probability/combined-events/problems/",
+    "/problem-solving-and-data-analysis/probability/combined-events/answers/",
+    "/problem-solving-and-data-analysis/probability/combined-events/test/",
+    "/problem-solving-and-data-analysis/probability/combined-events/video/english/",
+    "/problem-solving-and-data-analysis/probability/combined-events/video/arabic/"
+  ]
+}
