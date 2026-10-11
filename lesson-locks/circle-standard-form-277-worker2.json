@@ -1,0 +1,12 @@
+{
+  "lesson_index": 277,
+  "lesson": "Standard Form",
+  "slug": "standard-form",
+  "canonical_base": "/geometry-and-trigonometry/circles/circle-equation/standard-form",
+  "owner": "SUMMIT Worker 2",
+  "status": "IN_PROGRESS",
+  "branch": "worker2/circle-standard-form-277-20261011",
+  "started_on": "2026-10-11",
+  "prior_blocked": "arc-length-272",
+  "slug_collision_note": "Canonical slug standard-form is shared with an algebra lesson; do not duplicate explanation registry slug. Preserve exact canonical release slug and route."
+}
