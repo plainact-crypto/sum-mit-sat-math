@@ -1,0 +1,67 @@
+[
+  {
+    "dataset": "H",
+    "difficulty": "Easy",
+    "question": "What is the frequency of [10,15) activity hours?",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "correct": 2,
+    "solution": "The third bin has frequency 8."
+  },
+  {
+    "dataset": "H",
+    "difficulty": "Easy / Medium",
+    "question": "How many activity observations are shown in total?",
+    "choices": [
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "correct": 1,
+    "solution": "2+6+8+4=20."
+  },
+  {
+    "dataset": "H",
+    "difficulty": "Medium",
+    "question": "What percentage of activity observations are at least 10 hours?",
+    "choices": [
+      "40%",
+      "50%",
+      "60%",
+      "70%"
+    ],
+    "correct": 2,
+    "solution": "The last two bins contain 8+4=12 of 20, so 60%."
+  },
+  {
+    "dataset": "H",
+    "difficulty": "Medium / Hard",
+    "question": "Which interval contains the median of 20 activity observations?",
+    "choices": [
+      "[0,5)",
+      "[5,10)",
+      "[10,15)",
+      "[15,20)"
+    ],
+    "correct": 2,
+    "solution": "Positions 10 and 11 are in [10,15), with cumulative counts 2,8,16,20."
+  },
+  {
+    "dataset": "J",
+    "difficulty": "Hard / Exam-Style",
+    "question": "Unequal bins [0,4), [4,10), [10,20) have frequencies 8,18,20. Which bin has the tallest density-scaled bar?",
+    "choices": [
+      "[0,4)",
+      "[4,10)",
+      "[10,20)",
+      "All equal"
+    ],
+    "correct": 1,
+    "solution": "Densities 8/4=2,18/6=3,20/10=2. The middle bin is tallest."
+  }
+]
