@@ -1,0 +1,13 @@
+"use strict";
+const fs=require('fs'),path=require('path');
+const target=path.join(__dirname,'dist','advanced-math','quadratic-equations','sum-of-roots','test','index.html');
+if(!fs.existsSync(target))throw Error('Lesson 80: canonical test route missing');
+let html=fs.readFileSync(target,'utf8');
+if((html.match(/\{level:/g)||[]).length!==5)throw Error('Lesson 80: expected exactly five test questions');
+const original="document.getElementById('submit').onclick=()=>{let score=0;";
+const replacement="let submitted=false;document.getElementById('submit').onclick=()=>{if(submitted)return;submitted=true;const submitButton=document.getElementById('submit');submitButton.disabled=true;submitButton.textContent='Test Submitted';document.querySelectorAll('input[type=\\\"radio\\\"]').forEach(input=>{input.disabled=true});let score=0;";
+if(html.includes(original))html=html.replace(original,replacement);
+else if(!html.includes("if(submitted)return;submitted=true;"))throw Error('Lesson 80: test handler changed; refusing unsafe rewrite');
+if(!html.includes('Submit Test')||!html.includes('Test Submitted'))throw Error('Lesson 80: submit-once QA failed');
+fs.writeFileSync(target,html);
+console.log('Lesson 80: 5 questions, submit-once test, disabled inputs PASS');
