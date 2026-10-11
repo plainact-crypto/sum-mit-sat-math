@@ -1,0 +1,294 @@
+{
+  "lesson_index": 293,
+  "slug": "right-triangle-word-problems",
+  "title": "Right-Triangle Word Problems",
+  "subject": "Geometry and Trigonometry",
+  "section": "Right-Triangle Trigonometry",
+  "base": "geometry-and-trigonometry/right-triangle-trigonometry/right-triangle-word-problems",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "kind": "pythagRise",
+      "inputs": {
+        "hyp": 5,
+        "run": 3
+      },
+      "prompt": "A 5-m ladder stands with its base 3 m from a wall. How high does it reach? Round your answer to the nearest hundredth.",
+      "solution": "Use Pythagoras: h=√(5²−3²)=√16=4 m.",
+      "answer": 4
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "kind": "sinRise",
+      "inputs": {
+        "hyp": 10,
+        "angle": 30
+      },
+      "prompt": "A 10-m ramp rises at 30° above horizontal. Find its vertical rise. Round your answer to the nearest hundredth.",
+      "solution": "Rise=10 sin 30°=5 m.",
+      "answer": 5
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "kind": "tanRise",
+      "inputs": {
+        "run": 8,
+        "angle": 45
+      },
+      "prompt": "A right-triangle roof has horizontal run 8 m and pitch 45°. Find the vertical rise. Round your answer to the nearest hundredth.",
+      "solution": "tan 45°=rise/8; rise=8 tan 45°=8 m.",
+      "answer": 8
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "kind": "atanAngle",
+      "inputs": {
+        "rise": 12,
+        "run": 20
+      },
+      "prompt": "A slope rises 12 m over a horizontal run of 20 m. Find its angle with horizontal in degrees. Round your answer to the nearest hundredth.",
+      "solution": "θ=arctan(12/20)≈30.96°.",
+      "answer": 30.96
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "kind": "tanRise",
+      "inputs": {
+        "run": 18,
+        "angle": 35
+      },
+      "prompt": "A tree casts an 18-m shadow when the sun's elevation is 35°. Find the tree height. Round your answer to the nearest hundredth.",
+      "solution": "Height=18 tan 35°≈12.60 m.",
+      "answer": 12.6
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "kind": "sinRise",
+      "inputs": {
+        "hyp": 15,
+        "angle": 20
+      },
+      "prompt": "A 15-m ramp makes 20° with ground. Find its vertical rise. Round your answer to the nearest hundredth.",
+      "solution": "Rise=15 sin 20°≈5.13 m.",
+      "answer": 5.13
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "kind": "hypFromRise",
+      "inputs": {
+        "rise": 9,
+        "angle": 60
+      },
+      "prompt": "A ladder makes 60° with ground and reaches 9 m vertically. Find ladder length. Round your answer to the nearest hundredth.",
+      "solution": "sin 60°=9/L, so L=9/sin 60°≈10.39 m.",
+      "answer": 10.39
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "kind": "cosRun",
+      "inputs": {
+        "hyp": 25,
+        "angle": 40
+      },
+      "prompt": "A 25-m cable is stretched at 40° above horizontal. Find its horizontal reach. Round your answer to the nearest hundredth.",
+      "solution": "Horizontal=25 cos 40°≈19.15 m.",
+      "answer": 19.15
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "kind": "tanRun",
+      "inputs": {
+        "rise": 20,
+        "angle": 32
+      },
+      "prompt": "A 20-m building is viewed at 32° elevation from level ground. Find observer distance from its base. Round your answer to the nearest hundredth.",
+      "solution": "tan 32°=20/d, so d=20/tan 32°≈32.01 m.",
+      "answer": 32.01
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "kind": "atanAngle",
+      "inputs": {
+        "rise": 5,
+        "run": 12
+      },
+      "prompt": "A wheelchair ramp rises 5 units over a 12-unit horizontal run. Find its incline angle. Round your answer to the nearest hundredth.",
+      "solution": "θ=arctan(5/12)≈22.62°.",
+      "answer": 22.62
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "kind": "pythagRun",
+      "inputs": {
+        "hyp": 13,
+        "rise": 5
+      },
+      "prompt": "A 13-m support cable reaches a point 5 m above ground. Find horizontal distance from its anchor. Round your answer to the nearest hundredth.",
+      "solution": "d=√(13²−5²)=√144=12 m.",
+      "answer": 12
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "kind": "sinRise",
+      "inputs": {
+        "hyp": 60,
+        "angle": 12
+      },
+      "prompt": "A hillside path slopes 60 m at 12° above horizontal. Find the elevation gain. Round your answer to the nearest hundredth.",
+      "solution": "Gain=60 sin 12°≈12.47 m.",
+      "answer": 12.47
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "kind": "tanRise",
+      "inputs": {
+        "run": 50,
+        "angle": 25
+      },
+      "prompt": "A tower is observed from 50 m away at 25° elevation. Find tower height assuming eye level is ground level. Round your answer to the nearest hundredth.",
+      "solution": "Height=50 tan 25°≈23.32 m.",
+      "answer": 23.32
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "kind": "pythagRun",
+      "inputs": {
+        "hyp": 120,
+        "rise": 100
+      },
+      "prompt": "A drone is 100 m above level ground and 120 m away in a straight line from an observer. Find horizontal separation. Round your answer to the nearest hundredth.",
+      "solution": "Horizontal=√(120²−100²)=√4400≈66.33 m.",
+      "answer": 66.33
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "kind": "cosRun",
+      "inputs": {
+        "hyp": 15,
+        "angle": 30
+      },
+      "prompt": "A boat travels 15 km at 30° north of east. Find its eastward displacement. Round your answer to the nearest hundredth.",
+      "solution": "Eastward=15 cos 30°≈12.99 km.",
+      "answer": 12.99
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "kind": "angleDifference",
+      "inputs": {
+        "rise": 30,
+        "near": 40,
+        "far": 70
+      },
+      "prompt": "A tower is 30 m high. From 40 m and 70 m away, find the difference between the two angles of elevation. Round your answer to the nearest hundredth.",
+      "solution": "Difference=arctan(30/40)−arctan(30/70)≈13.22°.",
+      "answer": 13.67
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "kind": "eyeHeight",
+      "inputs": {
+        "eye": 1.7,
+        "run": 50,
+        "angle": 38
+      },
+      "prompt": "An observer's eyes are 1.7 m high, 50 m from a tower, with 38° elevation to the top. Find total tower height. Round your answer to the nearest hundredth.",
+      "solution": "Height=1.7+50 tan 38°≈40.76 m.",
+      "answer": 40.76
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "kind": "twoRises",
+      "inputs": {
+        "h1": 12,
+        "a1": 35,
+        "h2": 9,
+        "a2": 25
+      },
+      "prompt": "A path climbs 12 m along a 35° slope, then 9 m along a 25° slope. Find total vertical gain. Round your answer to the nearest hundredth.",
+      "solution": "Total rise=12 sin 35°+9 sin 25°≈10.69 m.",
+      "answer": 10.69
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "difficulty": "Easy",
+      "kind": "tanRise",
+      "inputs": {
+        "run": 10,
+        "angle": 45
+      },
+      "prompt": "A building casts a 10-m shadow at 45° sun elevation. Find its height. Round your answer to the nearest hundredth.",
+      "solution": "Height=10 tan 45°=10 m.",
+      "answer": 10
+    },
+    {
+      "index": 2,
+      "difficulty": "Easy / Medium",
+      "kind": "cosRun",
+      "inputs": {
+        "hyp": 18,
+        "angle": 30
+      },
+      "prompt": "A cable of length 18 m makes 30° above horizontal. Find horizontal reach. Round your answer to the nearest hundredth.",
+      "solution": "Reach=18 cos 30°≈15.59 m.",
+      "answer": 15.59
+    },
+    {
+      "index": 3,
+      "difficulty": "Medium",
+      "kind": "hypFromRise",
+      "inputs": {
+        "rise": 14,
+        "angle": 40
+      },
+      "prompt": "A ladder reaches 14 m vertically at a 40° ground angle. Find ladder length. Round your answer to the nearest hundredth.",
+      "solution": "L=14/sin 40°≈21.78 m.",
+      "answer": 21.78
+    },
+    {
+      "index": 4,
+      "difficulty": "Medium / Hard",
+      "kind": "atanAngle",
+      "inputs": {
+        "rise": 9,
+        "run": 16
+      },
+      "prompt": "A roof rises 9 ft over a 16-ft run. Find its pitch angle. Round your answer to the nearest hundredth.",
+      "solution": "θ=arctan(9/16)≈29.36°.",
+      "answer": 29.36
+    },
+    {
+      "index": 5,
+      "difficulty": "Hard / Exam-Style",
+      "kind": "runSum",
+      "inputs": {
+        "h1": 20,
+        "a1": 35,
+        "h2": 15,
+        "a2": 60
+      },
+      "prompt": "A surveyor moves 20 m at 35° above east then 15 m at 60° above east. Find total eastward distance. Round your answer to the nearest hundredth.",
+      "solution": "Eastward=20 cos 35°+15 cos 60°≈23.88 m.",
+      "answer": 23.88
+    }
+  ]
+}
