@@ -1,0 +1,21 @@
+'use strict';
+const fs=require('fs'),path=require('path');
+const R=require('./proportional-tables-lesson164-runtime.js');
+const E=require('./proportional-tables-lesson164-explanation.json');
+const P=require('./proportional-tables-lesson164-practice.json');
+const T=require('./proportional-tables-lesson164-assessment-data.json');
+const V=[require('./proportional-tables-lesson164-video-english.json'),require('./proportional-tables-lesson164-video-arabic.json')];
+R.check(E.length===16&&P.length===18&&T.length===5&&V.every(x=>x.length===8),'lesson counts');
+R.check(P.map(x=>x.group).join('|')===[...Array(3).fill('Skill Check'),...Array(8).fill('Core Practice'),...Array(5).fill('Exam-Style Practice'),...Array(2).fill('Challenge Problems')].join('|'),'3/8/5/2');
+R.write('explanation',require('./proportional-tables-lesson164-explanation-view.js')());
+R.write('problems',require('./proportional-tables-lesson164-problems-view.js')());
+R.write('answers',require('./proportional-tables-lesson164-answers-view.js')());
+let body='<p>Submit once after answering all five questions.</p>';
+T.forEach((q,i)=>{body+='<section class="lesson-section"><h2>Question '+(i+1)+' — '+R.esc(q[0])+'</h2><p>'+R.esc(q[1])+'</p><input id="q'+i+'" inputmode="decimal"><p id="a'+i+'" hidden></p></section>'});
+body+='<button id="submit">Submit Test</button><p id="score"></p><script>(function(){let a='+JSON.stringify(T.map(q=>[q[2],q[3]]))+';document.getElementById("submit").onclick=function(){let score=0;a.forEach((v,i)=>{let q=document.getElementById("q"+i),p=document.getElementById("a"+i),ok=q.value.trim()!==""&&Math.abs(Number(q.value)-Number(v[0]))<1e-8;if(ok)score++;q.disabled=true;p.hidden=false;p.textContent=(ok?"Correct. ":"Incorrect. ")+"Answer: "+v[0]+". "+v[1]});document.getElementById("score").textContent="Score: "+score+"/5";this.disabled=true}})()</script>';
+R.write('test',body);
+['english','arabic'].forEach((lang,j)=>{let scenes=V[j],html='<section class="lesson-section"><h2>Full Lesson — '+lang+'</h2><div style="aspect-ratio:16/9;background:#122d50;color:white;padding:3%;text-align:center"><h2 id="title"></h2><p id="math"></p></div><p id="caption"></p><button id="play">Play Full Lesson</button> <button id="next">Next</button></section>';
+html+='<script>(function(){let s='+JSON.stringify(scenes)+',i=0;function show(){document.getElementById("title").textContent=s[i][0];document.getElementById("caption").textContent=s[i][1];document.getElementById("math").textContent=s[i][2]}document.getElementById("next").onclick=()=>{i=(i+1)%s.length;show()};document.getElementById("play").onclick=()=>{if(!window.speechSynthesis)return;window.speechSynthesis.cancel();let u=new SpeechSynthesisUtterance(s[i][1]);u.lang="'+(j?'ar-EG':'en-US')+'";u.onend=()=>{if(i<s.length-1){i++;show();document.getElementById("play").click()}};window.speechSynthesis.speak(u)};show()})()</script>';
+R.write('video/'+lang,html,j?'ar':'en')});
+for(const r of R.routes){const f=path.join(__dirname,'dist',R.base,r,'index.html');R.check(fs.existsSync(f)&&fs.statSync(f).size>1400,'route '+r)}
+console.log('[Lesson164] six routes generated');
