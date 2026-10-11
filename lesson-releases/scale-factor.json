@@ -1,0 +1,17 @@
+{
+  "lesson": "scale-factor",
+  "builders": [
+    "scale-factor-lesson238-explanation-build.js",
+    "scale-factor-lesson238-practice-build.js",
+    "scale-factor-lesson238-test-build.js",
+    "scale-factor-lesson238-video-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/triangles/scale-factor/explanation/",
+    "/geometry-and-trigonometry/triangles/scale-factor/problems/",
+    "/geometry-and-trigonometry/triangles/scale-factor/answers/",
+    "/geometry-and-trigonometry/triangles/scale-factor/test/",
+    "/geometry-and-trigonometry/triangles/scale-factor/video/english/",
+    "/geometry-and-trigonometry/triangles/scale-factor/video/arabic/"
+  ]
+}
