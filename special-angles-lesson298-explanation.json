@@ -1,0 +1,70 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Find exact sine, cosine, and tangent values at standard angles using the unit circle, special triangles, reference angles, and quadrant signs; convert degrees and radians and solve basic trigonometric equations on one revolution."
+  ],
+  [
+    "WHAT YOU NEED TO KNOW",
+    "An angle θ is measured counterclockwise from the positive x-axis. On the unit circle (radius 1), the terminal point is (cos θ, sin θ). These are exact coordinates, not rounded calculator estimates."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "A reference angle is the acute angle from the terminal ray to the x-axis. Quadrants I–IV determine signs. A radian measures arc length divided by radius, and π radians = 180°. Tangent is sin θ / cos θ when cos θ is nonzero."
+  ],
+  [
+    "CORE RULE",
+    "Memorize first-quadrant (cos θ, sin θ): 0°=(1,0); 30°=(√3/2,1/2); 45°=(√2/2,√2/2); 60°=(1/2,√3/2); 90°=(0,1). Mirror coordinates across axes and apply signs for other quadrants."
+  ],
+  [
+    "SPECIAL TRIANGLES",
+    "A 30-60-90 triangle has side ratio 1:√3:2; a 45-45-90 triangle has ratio 1:1:√2. Divide by the hypotenuse to get sine and cosine. tan30°=√3/3, tan45°=1, tan60°=√3."
+  ],
+  [
+    "HOW IT WORKS",
+    "1. Reduce an angle to 0°–360°. 2. Identify its quadrant and acute reference angle. 3. Read the reference angle’s exact first-quadrant values. 4. Give cosine the x-sign and sine the y-sign. 5. Compute tangent as sine/cosine unless cosine=0. For radians multiply degrees by π/180."
+  ],
+  [
+    "WORKED EXAMPLE 1 — FIRST QUADRANT",
+    "For 60°, cos60°=1/2 and sin60°=√3/2. Therefore tan60°=(√3/2)/(1/2)=√3. The coordinate (1/2,√3/2) lies on x²+y²=1."
+  ],
+  [
+    "WORKED EXAMPLE 2 — QUADRANT II",
+    "For 150°, reference angle is 180°−150°=30°. In Quadrant II, cosine is negative and sine positive, so (cos150°,sin150°)=(−√3/2,1/2)."
+  ],
+  [
+    "WORKED EXAMPLE 3 — UNIT-CIRCLE POINT",
+    "For 315°, reference angle is 45° and the terminal side lies in Quadrant IV. Thus the exact point is (√2/2,−√2/2); its squared coordinates sum to 1/2+1/2=1."
+  ],
+  [
+    "WORKED EXAMPLE 4 — SOLVE IN AN INTERVAL",
+    "Solve sin θ=1/2 for 0°≤θ<360°. The reference angle is 30°; sine is positive in Quadrants I and II. Solutions: θ=30° and θ=150°. Check both have sine 1/2."
+  ],
+  [
+    "WORKED EXAMPLE 5 — SCALE A POINT",
+    "On a radius-8 circle, θ=120° has unit coordinates (−1/2,√3/2). Multiply by 8: (−4,4√3). Check x²+y²=16+48=64=8²."
+  ],
+  [
+    "VERIFIED UNIT-CIRCLE GRAPH",
+    "The diagram is generated from cos θ and sin θ for each standard angle, with a circle satisfying x²+y²=1. At 30°, (√3/2)²+(1/2)²=3/4+1/4=1; at 45°, both squared coordinates are 1/2."
+  ],
+  [
+    "DESMOS STRATEGY",
+    "Enter: y=sin(x), x=π/6, and x=5π/6 (radian mode). Look for: both intersections with the sine curve have y=1/2. Use it to answer: verify solutions 30° and 150° for sin θ=1/2. Why it works: sine gives the unit-circle y-coordinate and is symmetric across π/2. Faster or not? No for memorized special angles; useful as a visual cross-check for equations."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not swap (cos,sin). Do not assume reference-angle values stay positive in all quadrants. tan90° and tan270° are undefined because cosθ=0. Keep radians and degrees consistent; do not round radicals when exact form is requested."
+  ],
+  [
+    "EXAM STRATEGY",
+    "Find the reference angle first, then assign quadrant signs. Use a quick five-angle first-quadrant table rather than memorizing 16 unrelated triples. For equations, find all quadrants with the required sign and honor the interval endpoint."
+  ],
+  [
+    "QUICK CHECK",
+    "1) cos240°=−1/2 (Quadrant III). 2) 5π/3=300°. 3) tan270° is undefined. 4) sin225°=−√2/2. Try the questions before reading their answers."
+  ],
+  [
+    "LESSON RECAP & NEXT STEP",
+    "(cosθ,sinθ) is the unit-circle point; tangent is their ratio. Special triangles give exact magnitudes, quadrants give signs, and 180°=π radians. Continue to the 18 practice problems, 18 worked solutions, 5-question test, or English/Arabic full-lesson presentation."
+  ]
+]

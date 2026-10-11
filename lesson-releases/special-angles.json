@@ -1,0 +1,17 @@
+{
+  "lesson": "special-angles",
+  "builders": [
+    "special-angles-lesson298-explanation-build.js",
+    "special-angles-lesson298-practice-build.js",
+    "special-angles-lesson298-test-build.js",
+    "special-angles-lesson298-full-lesson-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/unit-circle/special-angles/explanation/",
+    "/geometry-and-trigonometry/unit-circle/special-angles/problems/",
+    "/geometry-and-trigonometry/unit-circle/special-angles/answers/",
+    "/geometry-and-trigonometry/unit-circle/special-angles/test/",
+    "/geometry-and-trigonometry/unit-circle/special-angles/video/english/",
+    "/geometry-and-trigonometry/unit-circle/special-angles/video/arabic/"
+  ]
+}

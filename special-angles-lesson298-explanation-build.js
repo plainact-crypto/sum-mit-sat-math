@@ -1,0 +1,7 @@
+'use strict';
+const l=require('./special-angles-lesson298-common.js');require('./special-angles-lesson298-math-qa.js');
+const angles=Object.keys(l.data.circle).map(Number),W=480,cx=240,cy=240,r=170;
+const pts=angles.map(deg=>{const a=deg*Math.PI/180,x=cx+r*Math.cos(a),y=cy-r*Math.sin(a);return '<circle cx="'+x.toFixed(6)+'" cy="'+y.toFixed(6)+'" r="4" fill="#f4a43b"/><text x="'+(cx+195*Math.cos(a)).toFixed(4)+'" y="'+(cy-195*Math.sin(a)).toFixed(4)+'" font-size="12" text-anchor="middle" fill="#143658">'+deg+'°</text>'}).join('');
+const svg='<figure data-retrofit-graph="true"><svg viewBox="0 0 480 480" role="img" aria-label="Deterministic unit circle with fifteen standard angles calculated using cosine and sine" style="width:100%;max-width:480px;background:white"><line x1="15" y1="240" x2="465" y2="240" stroke="#657b8d"/><line x1="240" y1="15" x2="240" y2="465" stroke="#657b8d"/><circle cx="240" cy="240" r="170" fill="none" stroke="#236db0" stroke-width="3"/>'+pts+'</svg><figcaption>Every plotted point is (cos θ, sin θ); radius is exactly one.</figcaption></figure>';
+const html='<!-- SUMMIT_RETROFIT:special-angles:BOTH -->'+l.explanation.map((s,i)=>'<section class="lesson-section"><h2>'+l.esc(s[0])+'</h2><p>'+l.esc(s[1])+'</p>'+(i===11?svg:'')+'</section>').join('');
+l.write('explanation',l.page('Explanation',html));console.log('Lesson 298 explanation generated with deterministic circle');

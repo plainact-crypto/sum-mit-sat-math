@@ -56,4 +56,5 @@ module.exports=[
       'Boundary QA: y=10-x gives 10,6,2 at x=0,4,8; y=6-0.5x gives 6,4,2. Setting them equal gives (8,2). Candidate (4,5): 4+5=9<=10 and 4+2(5)=14>=12. Candidate (2,3) fails the second condition because 2+2(3)=8<12.'
     )
   }
+  ,{slug:'special-angles',lesson:'Special Angles',classification:'BOTH',graph:{bounds:{xMin:-1.2,xMax:1.2,yMin:-1.2,yMax:1.2},lines:[{m:0,b:0,qaX:[-1,0,1],yIntercept:0}],verticals:[{x:0}],points:[{x:1,y:0,line:0,label:'0 degrees'},{x:0,y:1,label:'90 degrees'},{x:-1,y:0,line:0,label:'180 degrees'},{x:0,y:-1,label:'270 degrees'}],caption:'Exact unit-circle cardinal points; the explanation route renders all standard angles from cosine and sine.',ariaLabel:'Unit circle with verified cardinal coordinates'},desmos:{enter:'y=sin(x), x=π/6, x=5π/6 (radian mode)',lookFor:'both sine-curve heights equal 1/2',useIt:'verify the two solutions 30° and 150° of sin θ=1/2',why:'sine is the vertical coordinate on the unit circle, and the sine curve is symmetric around π/2',faster:'No for exact memorized special angles; useful for checking two-angle solutions.',crossCheck:'sin(π/6)=1/2 and sin(5π/6)=1/2 from the 30° reference angle.'}}
 ];

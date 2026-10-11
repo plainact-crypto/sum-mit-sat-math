@@ -1,0 +1,166 @@
+{
+  "english": [
+    [
+      "Welcome",
+      "This full lesson builds exact trigonometric values from the unit circle instead of relying on decimal approximations."
+    ],
+    [
+      "Learning goal",
+      "You will locate standard angles, read sine and cosine coordinates, find tangent, and solve basic equations."
+    ],
+    [
+      "Angle direction",
+      "Begin at the positive horizontal axis and rotate counterclockwise for positive angles."
+    ],
+    [
+      "Unit circle",
+      "Every point on the radius-one circle satisfies x squared plus y squared equals one."
+    ],
+    [
+      "Coordinates",
+      "The horizontal coordinate is cosine theta; the vertical coordinate is sine theta."
+    ],
+    [
+      "Thirty degrees",
+      "The thirty-sixty-ninety triangle gives cosine thirty equals square root three over two and sine thirty equals one half."
+    ],
+    [
+      "Sixty degrees",
+      "Swap the legs: cosine sixty equals one half and sine sixty equals square root three over two."
+    ],
+    [
+      "Forty-five degrees",
+      "The isosceles right triangle gives cosine and sine both square root two over two."
+    ],
+    [
+      "Tangent",
+      "Tangent is sine divided by cosine; at sixty degrees it equals square root three."
+    ],
+    [
+      "Quadrants",
+      "Cosine follows the horizontal sign; sine follows the vertical sign. In Quadrant Three both are negative."
+    ],
+    [
+      "Reference angles",
+      "Find the acute angle between the terminal ray and the x-axis, then apply quadrant signs."
+    ],
+    [
+      "Example: 150 degrees",
+      "Reference angle thirty degrees, Quadrant Two. Cosine is negative square root three over two; sine is positive one half."
+    ],
+    [
+      "Example: 225 degrees",
+      "Reference angle forty-five degrees, Quadrant Three. Sine is negative square root two over two."
+    ],
+    [
+      "Example: 315 degrees",
+      "Reference angle forty-five degrees, Quadrant Four. The point is positive square root two over two, negative square root two over two."
+    ],
+    [
+      "Degrees and radians",
+      "Multiply degrees by pi over one hundred eighty. One hundred thirty-five degrees becomes three pi over four."
+    ],
+    [
+      "Solve sine equals one half",
+      "Sine is positive in Quadrants One and Two. The solutions on one revolution are thirty and one hundred fifty degrees."
+    ],
+    [
+      "Undefined tangent",
+      "At ninety and two hundred seventy degrees cosine is zero, so tangent cannot be defined."
+    ],
+    [
+      "Scale a radius",
+      "Multiply both unit-circle coordinates by the circle radius. At radius eight and angle one hundred twenty, the point is negative four, four square root three."
+    ],
+    [
+      "Check with Desmos",
+      "In radian mode, graph y equals sine x and check that pi over six and five pi over six both give one half."
+    ],
+    [
+      "Practice and recap",
+      "Use the special triangles, reference angles, and quadrant signs. Work through eighteen questions and the five-question test."
+    ]
+  ],
+  "arabic": [
+    [
+      "مقدمة الدرس",
+      "سنتعلم القيم الدقيقة للجيب وجيب التمام والظل باستخدام دائرة الوحدة بدلاً من التقريب العشري."
+    ],
+    [
+      "هدف الدرس",
+      "ستحدد الزوايا المشهورة، وتقرأ الإحداثيات، وتحسب الظل، وتحل معادلات مثلثية بسيطة."
+    ],
+    [
+      "اتجاه الزاوية",
+      "نبدأ من المحور الأفقي الموجب، وتكون الزوايا الموجبة عكس اتجاه عقارب الساعة."
+    ],
+    [
+      "دائرة الوحدة",
+      "نصف قطر دائرة الوحدة يساوي واحداً، وكل نقطة عليها تحقق س تربيع زائد ص تربيع يساوي واحداً."
+    ],
+    [
+      "الإحداثيات",
+      "الإحداثي الأفقي يساوي جيب تمام الزاوية، والإحداثي الرأسي يساوي جيب الزاوية."
+    ],
+    [
+      "زاوية ثلاثين",
+      "من مثلث ثلاثين وستين وتسعين، جيب الثلاثين يساوي نصفاً، وجيب تمامها يساوي جذر ثلاثة على اثنين."
+    ],
+    [
+      "زاوية ستين",
+      "جيب الستين يساوي جذر ثلاثة على اثنين، وجيب تمامها يساوي نصفاً."
+    ],
+    [
+      "زاوية خمس وأربعين",
+      "في المثلث القائم متساوي الساقين، الجيب وجيب التمام كلاهما جذر اثنين على اثنين."
+    ],
+    [
+      "حساب الظل",
+      "الظل يساوي الجيب مقسوماً على جيب التمام. ظل الستين يساوي جذر ثلاثة."
+    ],
+    [
+      "إشارات الأرباع",
+      "إشارة جيب التمام هي إشارة س، وإشارة الجيب هي إشارة ص. وفي الربع الثالث كلاهما سالب."
+    ],
+    [
+      "الزاوية المرجعية",
+      "نوجد الزاوية الحادة مع المحور الأفقي، ثم نحدد الإشارات بحسب الربع."
+    ],
+    [
+      "مثال مئة وخمسين",
+      "الزاوية المرجعية ثلاثون في الربع الثاني؛ جيب التمام سالب جذر ثلاثة على اثنين، والجيب موجب نصف."
+    ],
+    [
+      "مثال مئتين وخمس وعشرين",
+      "الزاوية المرجعية خمس وأربعون في الربع الثالث؛ الجيب سالب جذر اثنين على اثنين."
+    ],
+    [
+      "مثال ثلاثمئة وخمس عشرة",
+      "الزاوية المرجعية خمس وأربعون في الربع الرابع؛ س موجب جذر اثنين على اثنين، وص سالب جذر اثنين على اثنين."
+    ],
+    [
+      "الدرجات والراديان",
+      "للتحويل من درجات إلى راديان نضرب في باي على مئة وثمانين. مئة وخمس وثلاثون درجة تساوي ثلاثة باي على أربعة."
+    ],
+    [
+      "حل معادلة الجيب",
+      "إذا كان الجيب يساوي نصفاً، فالزاويتان في دورة كاملة هما ثلاثون ومئة وخمسون درجة."
+    ],
+    [
+      "متى لا يعرف الظل",
+      "عند تسعين ومئتين وسبعين درجة يكون جيب التمام صفراً، ولذلك لا يكون الظل معرفاً."
+    ],
+    [
+      "تغيير نصف القطر",
+      "نضرب إحداثيي دائرة الوحدة في نصف القطر. عند نصف قطر ثمانية وزاوية مئة وعشرين نحصل على س يساوي سالب أربعة، وص يساوي أربعة جذر ثلاثة."
+    ],
+    [
+      "التحقق بالرسم",
+      "يمكن رسم ص يساوي جيب س في وضع الراديان للتحقق من أن باي على ستة وخمسة باي على ستة يعطيان نصفاً."
+    ],
+    [
+      "المراجعة والتدريب",
+      "تذكر المثلثات الخاصة والزوايا المرجعية وإشارات الأرباع، ثم حل ثمانية عشر سؤال تدريب واختبار الدرس."
+    ]
+  ]
+}
