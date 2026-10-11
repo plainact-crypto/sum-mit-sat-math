@@ -1,0 +1,34 @@
+[
+  {
+    "heading": "WORKED EXAMPLE 4",
+    "text": "Exam score cumulative counts 1,4,9,17,23,25 place the 13th value in [70,80), so the median lies in that bin."
+  },
+  {
+    "heading": "WORKED EXAMPLE 5",
+    "text": "Unequal bins [0,5),[5,15),[15,30) have counts 10,20,15. Densities 2,2,1; first two heights match but their areas differ."
+  },
+  {
+    "heading": "GRAPH / VISUAL BLOCK",
+    "text": "Use exact source bin boundaries and frequencies to render reproducible histogram bars, with heights based on frequency or density as appropriate."
+  },
+  {
+    "heading": "COMMON MISTAKES",
+    "text": "Do not infer exact raw values. Respect upper-exclusive bin boundaries. For unequal widths compare areas, not just heights."
+  },
+  {
+    "heading": "EXAM STRATEGY",
+    "text": "Check widths first, then calculate totals, percentages, cumulative positions or midpoint estimates as requested."
+  },
+  {
+    "heading": "QUICK CHECK",
+    "text": "If widths 5 and 10 contain 10 and 20 values, both densities equal 2; the wider bar has twice the area."
+  },
+  {
+    "heading": "LESSON RECAP",
+    "text": "A histogram summarizes interval counts. For unequal bins, frequency = height × width."
+  },
+  {
+    "heading": "NEXT STEP",
+    "text": "Work 18 Practice Problems, review 18 Answers & Solutions, and submit the five-question Test."
+  }
+]
