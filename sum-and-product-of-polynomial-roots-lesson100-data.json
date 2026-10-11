@@ -1,0 +1,170 @@
+{
+  "lesson_index": 100,
+  "lesson": "Sum and Product of Polynomial Roots",
+  "slug": "sum-and-product-of-polynomial-roots",
+  "practice": [
+    {
+      "number": 1,
+      "group": "Skill Check",
+      "question": "For x²−5x+6=0, find the sum of its roots.",
+      "answer": "5",
+      "solution": "For ax²+bx+c=0, sum = −b/a. Here −(−5)/1=5."
+    },
+    {
+      "number": 2,
+      "group": "Skill Check",
+      "question": "For 2x²+7x−4=0, find the product of its roots.",
+      "answer": "−2",
+      "solution": "Product = c/a = −4/2=−2."
+    },
+    {
+      "number": 3,
+      "group": "Skill Check",
+      "question": "For x²+2x−15=0, find both the sum and product of its roots.",
+      "answer": "sum −2; product −15",
+      "solution": "Sum = −2/1=−2; product = −15/1=−15."
+    },
+    {
+      "number": 4,
+      "group": "Core Practice",
+      "question": "Write the monic quadratic with roots 3 and −4.",
+      "answer": "x²+x−12=0",
+      "solution": "The sum is −1 and product is −12. Use x²−(sum)x+product=0."
+    },
+    {
+      "number": 5,
+      "group": "Core Practice",
+      "question": "The roots of x²−(k+2)x+12=0 sum to 9. Find k.",
+      "answer": "7",
+      "solution": "Sum = k+2=9, so k=7."
+    },
+    {
+      "number": 6,
+      "group": "Core Practice",
+      "question": "One root of x²+bx+18=0 is 3 and the other is 6. Find b.",
+      "answer": "−9",
+      "solution": "Sum is 3+6=9=−b, so b=−9; product 18 checks."
+    },
+    {
+      "number": 7,
+      "group": "Core Practice",
+      "question": "Find the sum of the roots of 3x²−12x+5=0.",
+      "answer": "4",
+      "solution": "Sum = −(−12)/3=4."
+    },
+    {
+      "number": 8,
+      "group": "Core Practice",
+      "question": "Find the product of the roots of 4x²−3x−2=0.",
+      "answer": "−1/2",
+      "solution": "Product = c/a=−2/4=−1/2."
+    },
+    {
+      "number": 9,
+      "group": "Core Practice",
+      "question": "Find the sum of all three roots of x³−6x²+11x−6=0.",
+      "answer": "6",
+      "solution": "For ax³+bx²+cx+d, sum = −b/a=−(−6)/1=6."
+    },
+    {
+      "number": 10,
+      "group": "Core Practice",
+      "question": "Find the product of all roots of 2x³−3x²−8x+12=0.",
+      "answer": "−6",
+      "solution": "For a cubic, product = −d/a=−12/2=−6."
+    },
+    {
+      "number": 11,
+      "group": "Core Practice",
+      "question": "For x³+4x²−x−4=0, find the sum of pairwise root products.",
+      "answer": "−1",
+      "solution": "For a cubic, r₁r₂+r₁r₃+r₂r₃=c/a=−1/1=−1."
+    },
+    {
+      "number": 12,
+      "group": "Exam-Style",
+      "question": "A monic cubic has roots 2, 5, and −1. Write its equation.",
+      "answer": "x³−6x²+3x+10=0",
+      "solution": "Sum=6, pairwise sum=3, product=−10; cubic is x³−6x²+3x−(−10)=0."
+    },
+    {
+      "number": 13,
+      "group": "Exam-Style",
+      "question": "The sum of the roots of 5x²−mx+20=0 is 6. Find m.",
+      "answer": "30",
+      "solution": "Sum = m/5=6, so m=30."
+    },
+    {
+      "number": 14,
+      "group": "Exam-Style",
+      "question": "One root of 2x³−14x²+22x−10=0 is 1. Find the sum of the other two roots.",
+      "answer": "6",
+      "solution": "Total sum = −(−14)/2=7. Subtract the known root: 7−1=6."
+    },
+    {
+      "number": 15,
+      "group": "Exam-Style",
+      "question": "The roots of x³−ax²+11x−6=0 are 1, 2, and 3. Find a.",
+      "answer": "6",
+      "solution": "Their sum is 1+2+3=6. The cubic root-sum rule gives a=6."
+    },
+    {
+      "number": 16,
+      "group": "Exam-Style",
+      "question": "For x²+tx+(t−2)=0, the sum of the roots equals their product. Find t.",
+      "answer": "1",
+      "solution": "Sum=−t and product=t−2. Set −t=t−2, giving 2t=2 and t=1."
+    },
+    {
+      "number": 17,
+      "group": "Challenge",
+      "question": "A monic cubic has roots 2, 3, and k. The sum of pairwise products is 23. Find k and the product of all roots.",
+      "answer": "k=17/5; product=102/5",
+      "solution": "Pairwise sum is 2·3+2k+3k=6+5k=23, so k=17/5. Product=2·3·17/5=102/5."
+    },
+    {
+      "number": 18,
+      "group": "Challenge",
+      "question": "A monic quartic has roots 1, 2, −3, and k, with constant term −24. Find k and the coefficient of x³.",
+      "answer": "k=4; coefficient −4",
+      "solution": "For a monic quartic, constant term is the root product: (1)(2)(−3)k=−6k=−24, so k=4. Sum=4, so x³ coefficient=−4."
+    }
+  ],
+  "test": [
+    {
+      "number": 1,
+      "difficulty": "Easy",
+      "question": "For x²−9x+14=0, find the sum of its roots.",
+      "answer": "9",
+      "solution": "The sum is −(−9)/1=9."
+    },
+    {
+      "number": 2,
+      "difficulty": "Easy / Medium",
+      "question": "For 3x²+4x−7=0, find the product of its roots.",
+      "answer": "−7/3",
+      "solution": "The product is c/a=−7/3."
+    },
+    {
+      "number": 3,
+      "difficulty": "Medium",
+      "question": "One root of x³−4x²−7x+10=0 is 1. Find the sum of the other two roots.",
+      "answer": "3",
+      "solution": "Total sum=4; subtract the known root 1 to obtain 3."
+    },
+    {
+      "number": 4,
+      "difficulty": "Medium / Hard",
+      "question": "The roots of x²−sx+12=0 are 3 and 4. Find s.",
+      "answer": "7",
+      "solution": "The root sum is 3+4=7, which equals s."
+    },
+    {
+      "number": 5,
+      "difficulty": "Hard / Exam-Style",
+      "question": "A monic quartic has roots −2, 1, 4, and k, and constant term −40. Find its x³ coefficient.",
+      "answer": "−8",
+      "solution": "Product=−8k=−40, so k=5. Sum=−2+1+4+5=8, hence x³ coefficient=−8."
+    }
+  ]
+}
