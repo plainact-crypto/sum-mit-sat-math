@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Circumference",
+    "narration": "Circumference is pi times diameter, so divide by pi.",
+    "math": "C = πd"
+  },
+  {
+    "title": "Circumference example",
+    "narration": "Twenty pi feet of circumference means twenty feet of diameter.",
+    "math": "20π/π=20"
+  },
+  {
+    "title": "Area",
+    "narration": "Area is pi times radius squared. Take a square root, then double.",
+    "math": "d=2√(A/π)"
+  }
+]
