@@ -5,7 +5,18 @@
   "base": "geometry-and-trigonometry/triangles/scale-factor",
   "worker": "worker3",
   "date": "2026-10-11",
-  "status": "IN_PROGRESS",
+  "status": "ISOLATED_QA_PASS_FULL_BUILD_BLOCKED",
   "release_ready": false,
-  "live_verified": false
+  "live_verified": false,
+  "mathematical_qa": "23/23 PASS",
+  "practice": "18/18 (3/8/5/2)",
+  "answers": "18/18 aligned",
+  "test": "5/5 progressive",
+  "builder_simulation": "4/4 PASS",
+  "route_simulation": "6/6 non-placeholder canonical HTML",
+  "video_scenes": "21 English + 21 Arabic",
+  "release_manifest": "lesson-releases/scale-factor.json",
+  "registry": "updated on lesson branch",
+  "blocker": "Full repository build and preview deployment pending; Vercel HTTP 402 daily deployment quota",
+  "announcement_email_sent": false
 }
