@@ -1,1 +1,18 @@
-{"index":297,"owner":"SUMMIT Worker 2","status":"BLOCKED","explanation_sections":2,"blocker":"Repeated content upload rejections."}
+{
+  "lesson_index": 297,
+  "lesson": "Cosine on the Unit Circle",
+  "slug": "cosine-on-the-unit-circle",
+  "canonical_base": "/geometry-and-trigonometry/unit-circle/cosine-on-the-unit-circle",
+  "owner": "SUMMIT Worker 2",
+  "status": "LOCAL_QA_PENDING",
+  "branch": "worker2/cosine-on-the-unit-circle-297-20261011",
+  "explanation_sections": 17,
+  "practice": 18,
+  "answers": 18,
+  "test": 5,
+  "english_scenes": 12,
+  "arabic_scenes": 12,
+  "release_manifest": "lesson-releases/cosine-on-the-unit-circle.json",
+  "remaining": "Authoritative repository build, release gate and live production verification.",
+  "next_owned_index": null
+}

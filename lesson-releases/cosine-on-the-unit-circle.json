@@ -1,0 +1,17 @@
+{
+  "lesson": "cosine-on-the-unit-circle",
+  "builders": [
+    "cosine-unit-lesson297-qa-build.js",
+    "cosine-unit-lesson297-explanation-build.js",
+    "cosine-unit-lesson297-practice-build.js",
+    "cosine-unit-lesson297-video-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/unit-circle/cosine-on-the-unit-circle/explanation/",
+    "/geometry-and-trigonometry/unit-circle/cosine-on-the-unit-circle/problems/",
+    "/geometry-and-trigonometry/unit-circle/cosine-on-the-unit-circle/answers/",
+    "/geometry-and-trigonometry/unit-circle/cosine-on-the-unit-circle/test/",
+    "/geometry-and-trigonometry/unit-circle/cosine-on-the-unit-circle/video/english/",
+    "/geometry-and-trigonometry/unit-circle/cosine-on-the-unit-circle/video/arabic/"
+  ]
+}
