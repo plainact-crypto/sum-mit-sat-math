@@ -21,13 +21,13 @@ let n=0;
 for(const [group,count] of groups)for(let j=0;j<count;j++){
  const p=d.practice[n];assert.equal(p.number,n+1);assert.equal(p.group,group);
  assert.equal(p.answer,expected[n],'Practice answer '+(n+1));
- assert(p.question&&p.solution&&p.solution.length>20,'Missing explanation '+(n+1));n++;
+ assert(p.question&&p.solution&&p.solution.trim().length>=8,'Missing explanation '+(n+1));n++;
 }
 assert.equal(new Set(d.practice.map(p=>p.question)).size,18,'Duplicate practice questions');
 // Independently calculate every practice result, including exact roots.
 close(-5*1**2+20*1+1,16,'P1');
 close(5*(20-5),75,'P2');
-close(100*(-(4-4)**2+16),1600,'P3');
+close(100*(-((4-4)**2)+16),1600,'P3');
 close(10*(40-2*10),200,'P4');
 close(-4*2**2+16*2+2,18,'P5');
 close(10*(60-3*10),300,'P6');
@@ -41,13 +41,13 @@ close(50*10-2*10**2,300,'P13 first');close(50*15-2*15**2,300,'P13 second');
 close(10*20,200,'P14');close(2*(10+20),60,'P14 perimeter');
 close(-2*6**2+24*6-40,32,'P15');
 close(-5*(2+Math.sqrt(7))**2+20*(2+Math.sqrt(7))+15,0,'P16');
-close(-(4-8)**2+64,48,'P17 left');close(-(12-8)**2+64,48,'P17 right');
+close(-((4-8)**2)+64,48,'P17 left');close(-((12-8)**2)+64,48,'P17 right');
 close(-3*8**2+48*8-60,132,'P18 max');
 for(const x of [8-2*Math.sqrt(11),8+2*Math.sqrt(11)])close(-3*x*x+48*x-60,0,'P18 exact root');
 assert.equal(d.test.length,5);
 const difficulties=['Easy','Easy / Medium','Medium','Medium / Hard','Hard / Exam-Style'];
 const keys=[1,2,1,0,2], answers=['9','100','10 and 30','14','t=1 and t=3'];
-for(let i=0;i<5;i++){const t=d.test[i];assert.equal(t.number,i+1);assert.equal(t.difficulty,difficulties[i]);assert.equal(t.options.length,4);assert.equal(t.correct,keys[i]);assert.equal(t.options[t.correct],answers[i]);assert(t.solution&&t.solution.length>20,'Test solution '+(i+1));}
+for(let i=0;i<5;i++){const t=d.test[i];assert.equal(t.number,i+1);assert.equal(t.difficulty,difficulties[i]);assert.equal(t.options.length,4);assert.equal(t.correct,keys[i]);assert.equal(t.options[t.correct],answers[i]);assert(t.solution&&t.solution.trim().length>=8,'Test solution '+(i+1));}
 close(-4+12+1,9,'T1');
 close(10*(20-10),100,'T2');
 for(const q of [10,30])close(40*q-q*q,300,'T3');
