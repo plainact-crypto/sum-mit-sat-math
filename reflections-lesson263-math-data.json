@@ -58,11 +58,11 @@
     {
       "index": 4,
       "group": "Core Practice",
-      "prompt": "Reflect A(−4, −6) across the x-axis. Find the image's y-coordinate.",
-      "answer": "6",
-      "solution": "The rule (x,y)→(x,−y) gives A'=(−4,6). Hence y=6.",
+      "prompt": "A(−4,−6) is reflected across the x-axis. Find the y-coordinate of the MIDPOINT of A and its image.",
+      "answer": "0",
+      "solution": "The image is A'=(−4,6). The midpoint y-coordinate is (−6+6)/2=0, exactly on the mirror y=0.",
       "qa": {
-        "type": "reflect",
+        "type": "midpoint",
         "p": [
           -4,
           -6
@@ -74,33 +74,31 @@
     {
       "index": 5,
       "group": "Core Practice",
-      "prompt": "Reflect B(8, −3) across the y-axis. Find the image's x-coordinate.",
-      "answer": "-8",
-      "solution": "The y-axis rule (x,y)→(−x,y) gives B'=(−8,−3). Hence x=−8.",
+      "prompt": "B(8,−3) reflects across the y-axis. Find the DISTANCE between B and its image.",
+      "answer": "16",
+      "solution": "The image is B'=(−8,−3). Their y-coordinates agree, so the horizontal distance is |8−(−8)|=16 units.",
       "qa": {
-        "type": "reflect",
+        "type": "displacement",
         "p": [
           8,
           -3
         ],
-        "axis": "y",
-        "component": 0
+        "axis": "y"
       }
     },
     {
       "index": 6,
       "group": "Core Practice",
-      "prompt": "Reflect C(3, −5) across y=x. Find the image's y-coordinate.",
-      "answer": "3",
-      "solution": "Swapping the coordinates gives C'=(−5,3). The image's y-coordinate is 3.",
+      "prompt": "C(3,−5) reflects across y=x. Find the SUM of the image's coordinates.",
+      "answer": "-2",
+      "solution": "The image is C'=(−5,3) after swapping x and y. Add its coordinates: −5+3=−2.",
       "qa": {
-        "type": "reflect",
+        "type": "sum",
         "p": [
           3,
           -5
         ],
-        "axis": "diag",
-        "component": 1
+        "axis": "diag"
       }
     },
     {
