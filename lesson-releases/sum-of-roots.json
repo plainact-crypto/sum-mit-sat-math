@@ -1,0 +1,19 @@
+{
+  "lesson": "sum-of-roots",
+  "builders": [
+    "sum-of-roots-explanation-build.js",
+    "sum-of-roots-problems-build.js",
+    "sum-of-roots-answers-build.js",
+    "sum-of-roots-test-build.js",
+    "sum-of-roots-lesson80-test-lock-build.js",
+    "sum-of-roots-lesson80-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/quadratic-equations/sum-of-roots/explanation/",
+    "/advanced-math/quadratic-equations/sum-of-roots/problems/",
+    "/advanced-math/quadratic-equations/sum-of-roots/answers/",
+    "/advanced-math/quadratic-equations/sum-of-roots/test/",
+    "/advanced-math/quadratic-equations/sum-of-roots/video/english/",
+    "/advanced-math/quadratic-equations/sum-of-roots/video/arabic/"
+  ]
+}
