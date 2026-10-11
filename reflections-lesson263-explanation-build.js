@@ -1,0 +1,13 @@
+'use strict';
+const {math,explanation,esc,page,write}=require('./reflections-lesson263-common.js');
+const P=[2,3],I=[-2,3],M=[0,3],sx=x=>220+45*x,sy=y=>270-45*y;
+if((P[0]+I[0])/2!==M[0]||P[1]!==I[1]||Math.abs(P[0])!==Math.abs(I[0]))throw Error('Reflection diagram math QA');
+const grid=[];
+for(let x=-4;x<=4;x++)grid.push('<line x1="'+sx(x)+'" y1="45" x2="'+sx(x)+'" y2="450" stroke="#d7e6f3"/>');
+for(let y=-4;y<=5;y++)grid.push('<line x1="40" y1="'+sy(y)+'" x2="400" y2="'+sy(y)+'" stroke="#d7e6f3"/>');
+const dot=(p,label,dx,dy)=>'<circle cx="'+sx(p[0])+'" cy="'+sy(p[1])+'" r="6" fill="#134e77"/><text x="'+(sx(p[0])+dx)+'" y="'+(sy(p[1])+dy)+'" font-size="14" fill="#102c4a">'+label+'</text>';
+const svg='<figure data-retrofit-graph="true"><svg viewBox="0 0 450 500" role="img" aria-label="Reflection of P two three to P prime negative two three across y-axis x equals zero"><rect width="450" height="500" fill="#f7fbff"/>'+grid.join('')+'<line x1="'+sx(0)+'" y1="45" x2="'+sx(0)+'" y2="450" stroke="#ae532d" stroke-width="3" stroke-dasharray="7 6"/><line x1="40" y1="'+sy(0)+'" x2="400" y2="'+sy(0)+'" stroke="#607f9c" stroke-width="2"/><line x1="'+sx(-2)+'" y1="'+sy(3)+'" x2="'+sx(2)+'" y2="'+sy(3)+'" stroke="#1676a3" stroke-width="4"/>'+dot(P,'P (2, 3)',8,-10)+dot(I,"P' (−2, 3)",-93,-10)+dot(M,'M (0, 3)',8,22)+'<text x="225" y="44" fill="#ae532d">Mirror x = 0</text><text x="145" y="116" fill="#1676a3">2 units</text><text x="244" y="116" fill="#1676a3">2 units</text></svg><figcaption>Exact equal-scale reflection: midpoint M=(0,3); each point is two horizontal units from the mirror x=0.</figcaption></figure>';
+const desmos='<div class="summit-desmos-strategy"><h3>DESMOS STRATEGY</h3><p><b>Enter:</b> (2,3), (-2,3), and x=0 on separate lines.</p><p><b>Look for:</b> Equal distances from the points to the vertical mirror.</p><p><b>Use it to answer:</b> Confirm that (−2,3) is the y-axis reflection of (2,3).</p><p><b>Why it works:</b> The mirror is the perpendicular bisector of the point-image segment.</p><p><b>Faster or not?</b> The coordinate rule is faster for a single point; Desmos is useful to check a complex figure.</p></div>';
+const body='<!-- SUMMIT_RETROFIT:reflections:BOTH -->'+explanation.map((s,i)=>'<section class="lesson-section"><span class="section-kicker">'+String(i+1).padStart(2,'0')+' · '+esc(s[0])+'</span><h2>'+esc(s[0])+'</h2><p>'+esc(s[1])+'</p>'+(i===12?svg:'')+(i===13?desmos:'')+'</section>').join('');
+write('explanation',page('Explanation',body));
+console.log('Lesson 263 explanation: 17 sections, exact reflection graph, Desmos strategy');
