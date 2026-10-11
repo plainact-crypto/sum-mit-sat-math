@@ -1,0 +1,15 @@
+{
+  "lesson": "solving-by-substitution",
+  "builders": [
+    "solving-by-substitution-lesson40-test-lock-build.js",
+    "solving-by-substitution-lesson40-full-video-build.js"
+  ],
+  "routes": [
+    "/algebra/systems-of-linear-equations/solving-by-substitution/explanation/",
+    "/algebra/systems-of-linear-equations/solving-by-substitution/problems/",
+    "/algebra/systems-of-linear-equations/solving-by-substitution/answers/",
+    "/algebra/systems-of-linear-equations/solving-by-substitution/test/",
+    "/algebra/systems-of-linear-equations/solving-by-substitution/video/english/",
+    "/algebra/systems-of-linear-equations/solving-by-substitution/video/arabic/"
+  ]
+}
