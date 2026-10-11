@@ -1,0 +1,402 @@
+{
+  "slug": "evaluating-statistical-claims",
+  "title": "Evaluating Statistical Claims",
+  "base": "/problem-solving-and-data-analysis/statistical-studies/evaluating-statistical-claims",
+  "classification": "NEITHER",
+  "explanation": [
+    {
+      "heading": "LESSON OBJECTIVE",
+      "text": "Judge whether a statistical claim is supported by its data and study design. Calculate relevant rates, distinguish association from causation, and identify when a sample cannot justify a population claim."
+    },
+    {
+      "heading": "WHAT YOU NEED TO KNOW",
+      "text": "A percentage alone is not proof. Ask who was measured, how people were selected, how groups were formed, and whether the claim matches what the study actually measured."
+    },
+    {
+      "heading": "KEY DEFINITIONS",
+      "text": "Population: everyone of interest. Sample: observed subset. Random sample: selection by chance. Random assignment: chance determines treatments. Confounder: a third variable that can affect the measured association. Margin of error: a range describing sampling uncertainty."
+    },
+    {
+      "heading": "CORE RULE",
+      "text": "Supportable claim = appropriate population + sound sampling/design + correctly calculated evidence + appropriately limited conclusion. Rate = count/total; percentage-point difference = percent A − percent B; relative percent change = (new−old)/old × 100%."
+    },
+    {
+      "heading": "HOW IT WORKS",
+      "text": "1. Underline the population and claimed outcome. 2. Check sampling for selection/nonresponse bias. 3. Distinguish observational studies from randomized experiments. 4. Calculate rates using each group's own denominator. 5. Look for confounding and uncertainty. 6. State only the conclusion supported."
+    },
+    {
+      "heading": "WORKED EXAMPLE 1 — SAMPLE BIAS",
+      "text": "A gym surveys 40 people who choose to answer a QR code about exercise habits. Even if 34 of 40 exercise daily (85%), this is not an unbiased estimate for all city residents: gym attendance and volunteering affect who responds."
+    },
+    {
+      "heading": "WORKED EXAMPLE 2 — CORRECT DENOMINATORS",
+      "text": "School A has 48 students biking among 120: 48/120=40%. School B has 30 among 100: 30/100=30%. A exceeds B by 10 percentage points, not 10% relative; relative increase is (40−30)/30=1/3 ≈33.3%."
+    },
+    {
+      "heading": "WORKED EXAMPLE 3 — OBSERVATION AND CAUSATION",
+      "text": "Students who attend tutoring score higher, but they selected tutoring themselves. Prior preparation or motivation could influence both tutoring and scores. This association alone cannot prove tutoring caused the difference."
+    },
+    {
+      "heading": "WORKED EXAMPLE 4 — RANDOM ASSIGNMENT",
+      "text": "Researchers randomly assign 200 consenting participants to two programs. Outcomes differ: 110/200=55% versus 90/200=45%, a 10-percentage-point difference. Random assignment strengthens a causal interpretation for the participants; it does not guarantee every individual benefits."
+    },
+    {
+      "heading": "WORKED EXAMPLE 5 — UNCERTAINTY",
+      "text": "A poll estimates 52% support with margin of error ±4 percentage points. The interval is 48% to 56%. Since 50% is inside this interval, the poll does not establish majority support at the stated uncertainty level."
+    },
+    {
+      "heading": "READING A TWO-GROUP TABLE",
+      "text": "For 5 events among 50 people versus 12 among 200, the counts alone mislead. Rates are 5/50=10% and 12/200=6%. Compare 10% to 6%, a 4-percentage-point difference; never compare counts with unequal denominators as if they were rates."
+    },
+    {
+      "heading": "CAUSAL REASONING CHECK",
+      "text": "Random selection supports generalizing to the sampled population; random assignment supports estimating treatment effects. One does not automatically imply the other. Confounding, nonresponse, measurement errors, and sampling variability can weaken claims."
+    },
+    {
+      "heading": "COMMON MISTAKES",
+      "text": "Mistake 1: generalizing a convenience sample to everyone. Mistake 2: claiming causation from correlation. Mistake 3: confusing random sampling with random assignment. Mistake 4: mixing percent and percentage points. Mistake 5: treating a sample estimate as an exact population count."
+    },
+    {
+      "heading": "EXAM STRATEGY",
+      "text": "First identify the strongest defensible conclusion, not the most exciting one. Recalculate the numerator and denominator, compare percentages with matching bases, and reject answers that claim 'proves', 'everyone', or 'always' without support."
+    },
+    {
+      "heading": "QUICK CHECK",
+      "text": "A volunteer-only survey may be biased. 18 of 60 =30%. An observed correlation does not by itself prove causation. An estimate of 49% ±3 points spans 46%–52%, so a majority is not established. Reveal these checks after attempting them."
+    },
+    {
+      "heading": "LESSON RECAP",
+      "text": "Good claims respect who was sampled, what was measured, and the study design. Use correct denominators and uncertainty. Random sampling aids representativeness; random assignment aids causal inference. Association is not proof of cause."
+    },
+    {
+      "heading": "NEXT STEP",
+      "text": "Complete the 18 practice questions, inspect the 18 aligned explanations, take the five-question progressive test, and use the English or Arabic full-lesson teaching route."
+    }
+  ],
+  "practice": [
+    {
+      "number": 1,
+      "group": "Skill Check",
+      "question": "A city gym posts a QR survey and only volunteers respond. What is the main weakness of using results to describe all city residents?",
+      "answer": "Selection bias",
+      "solution": "Gym members and volunteers are not a random sample of city residents, so the result may not represent the population."
+    },
+    {
+      "number": 2,
+      "group": "Skill Check",
+      "question": "A school randomly draws 40 names from its full enrollment roster. What sampling method is used?",
+      "answer": "Simple random sample",
+      "solution": "Each student is selected by a chance-based method from the entire roster."
+    },
+    {
+      "number": 3,
+      "group": "Skill Check",
+      "question": "Researchers record existing sleep habits and grades without assigning sleep schedules. Is this an experiment or observational study?",
+      "answer": "Observational study",
+      "solution": "Researchers only observe existing behaviors; they do not assign a treatment."
+    },
+    {
+      "number": 4,
+      "group": "Core Practice",
+      "question": "In a poll, 80 of 200 respondents support a proposal. What percent of respondents support it?",
+      "answer": "40%",
+      "solution": "80 ÷ 200 = 0.40 = 40%."
+    },
+    {
+      "number": 5,
+      "group": "Core Practice",
+      "question": "A survey receives responses from 20 of 100 contacted residents; 16 respondents approve. Can it conclude that 80% of all 100 residents approve?",
+      "answer": "No; nonresponse bias is possible",
+      "solution": "16/20 = 80% of respondents, not of all contacted residents. The 80 nonrespondents may differ."
+    },
+    {
+      "number": 6,
+      "group": "Core Practice",
+      "question": "Which estimate is generally more stable under comparable unbiased sampling: 70% from 10 respondents or 65% from 1,000 respondents?",
+      "answer": "65% from 1,000 respondents",
+      "solution": "A much larger random sample generally has less sampling variability, although sampling design still matters."
+    },
+    {
+      "number": 7,
+      "group": "Core Practice",
+      "question": "What is the main purpose of random assignment to treatment and control groups?",
+      "answer": "Reduce systematic confounding between groups",
+      "solution": "Random assignment tends to balance known and unknown confounders, supporting a causal comparison."
+    },
+    {
+      "number": 8,
+      "group": "Core Practice",
+      "question": "Ice cream sales and swimming accidents rise together. Which variable could plausibly affect both?",
+      "answer": "Hot weather",
+      "solution": "Higher temperatures can increase both ice cream purchases and swimming exposure; association does not prove ice cream causes accidents."
+    },
+    {
+      "number": 9,
+      "group": "Core Practice",
+      "question": "School A has 48 cyclists of 120 students; school B has 30 of 100. By how many percentage points is A's cycling rate higher?",
+      "answer": "10 percentage points",
+      "solution": "A: 48/120=40%; B: 30/100=30%; 40−30=10 percentage points."
+    },
+    {
+      "number": 10,
+      "group": "Core Practice",
+      "question": "A rate rises from 20% to 30%. What is the relative percentage increase?",
+      "answer": "50%",
+      "solution": "(30−20)/20 × 100% = 50%; the absolute increase is 10 percentage points."
+    },
+    {
+      "number": 11,
+      "group": "Core Practice",
+      "question": "A survey about school lunches includes only honors students. Which claim is justified?",
+      "answer": "It describes the surveyed honors students only",
+      "solution": "Without representative sampling, preferences cannot safely be generalized to all students."
+    },
+    {
+      "number": 12,
+      "group": "Exam-Style",
+      "question": "Sample A has 45 supporters of 150; sample B has 120 of 400. Which has the larger observed support rate?",
+      "answer": "Neither; both are 30%",
+      "solution": "45/150=0.30 and 120/400=0.30; the rates are equal despite different counts."
+    },
+    {
+      "number": 13,
+      "group": "Exam-Style",
+      "question": "A poll reports 52% support with a ±4-percentage-point margin of error. Does this establish majority support?",
+      "answer": "No; 50% lies in the reported interval",
+      "solution": "52−4=48% and 52+4=56%; 50% is included, so the majority conclusion is not established."
+    },
+    {
+      "number": 14,
+      "group": "Exam-Style",
+      "question": "Students are randomly sampled from a school and then randomly assigned to two teaching methods. What can the design support, assuming proper implementation?",
+      "answer": "A causal comparison applicable to the school's sampled population",
+      "solution": "Random assignment supports causation; random sampling supports generalization to the school's population, subject to uncertainty and study limitations."
+    },
+    {
+      "number": 15,
+      "group": "Exam-Style",
+      "question": "In a random sample, 24 of 30 people support a policy. Which statement is defensible for a population of 3,000?",
+      "answer": "About 80% is a sample-based estimate, not an exact census count",
+      "solution": "24/30=80%; 0.8×3000=2400 is an estimate with sampling uncertainty, not a known exact count."
+    },
+    {
+      "number": 16,
+      "group": "Exam-Style",
+      "question": "Group X has 5 successes among 50; group Y has 12 among 200. What is the difference in success rates?",
+      "answer": "4 percentage points (X higher)",
+      "solution": "X: 5/50=10%; Y: 12/200=6%; difference=4 percentage points."
+    },
+    {
+      "number": 17,
+      "group": "Challenge",
+      "question": "City A reports 40 incidents per 2,000 trips; city B reports 30 per 1,000 trips. Which city has the lower incident rate?",
+      "answer": "City A: 2% versus 3%",
+      "solution": "40/2000=2% and 30/1000=3%; despite a higher incident count, city A has the lower rate."
+    },
+    {
+      "number": 18,
+      "group": "Challenge",
+      "question": "In a randomized trial, 110 of 200 treatment participants improve versus 90 of 200 controls. Which conclusion is best?",
+      "answer": "Treatment is 10 percentage points higher; no individual benefit is guaranteed",
+      "solution": "110/200=55% and 90/200=45%. The observed difference is 10 points; random assignment supports a group-level causal interpretation, not certainty for each individual."
+    }
+  ],
+  "test": [
+    {
+      "number": 1,
+      "difficulty": "Easy",
+      "question": "A café asks only its followers to rate citywide dining. What is the main concern?",
+      "choices": [
+        "Selection bias",
+        "Random assignment",
+        "Perfect representation",
+        "A census"
+      ],
+      "correct": 0,
+      "answer": "Selection bias",
+      "solution": "Followers are a self-selected subset and may differ from all city residents."
+    },
+    {
+      "number": 2,
+      "difficulty": "Easy / Medium",
+      "question": "36 of 120 randomly selected students favor a change. What sample percentage favors it?",
+      "choices": [
+        "25%",
+        "30%",
+        "36%",
+        "40%"
+      ],
+      "correct": 1,
+      "answer": "30%",
+      "solution": "36/120=0.30=30%."
+    },
+    {
+      "number": 3,
+      "difficulty": "Medium",
+      "question": "A study finds people who walk more have lower stress, but assigns no exercise. Which statement is supported?",
+      "choices": [
+        "Walking is proved to reduce stress",
+        "Stress causes walking",
+        "Walking and stress are associated; causation is not established",
+        "Every walker has low stress"
+      ],
+      "correct": 2,
+      "answer": "Walking and stress are associated; causation is not established",
+      "solution": "Without random assignment, other factors may explain the association."
+    },
+    {
+      "number": 4,
+      "difficulty": "Medium / Hard",
+      "question": "A poll finds 48% support with ±3 percentage points. Which conclusion follows?",
+      "choices": [
+        "Support is definitely below half",
+        "Support is definitely above half",
+        "Exactly 48% of the population supports",
+        "The 45%–51% interval includes 50%, so a majority is not established"
+      ],
+      "correct": 3,
+      "answer": "The 45%–51% interval includes 50%, so a majority is not established",
+      "solution": "48−3=45 and 48+3=51; the interval crosses 50%."
+    },
+    {
+      "number": 5,
+      "difficulty": "Hard / Exam-Style",
+      "question": "A town is 60% adults under 40 and 40% adults 40+. Random samples estimate 40% and 70% support, respectively. What weighted town estimate is supported?",
+      "choices": [
+        "52% estimate, not an exact population count",
+        "55% exact",
+        "40% estimate",
+        "70% exact"
+      ],
+      "correct": 0,
+      "answer": "52% estimate, not an exact population count",
+      "solution": "0.60×0.40 + 0.40×0.70=0.24+0.28=0.52; sampling uncertainty remains."
+    }
+  ],
+  "video": {
+    "english": [
+      {
+        "title": "Goal",
+        "narration": "We will test whether statistical claims are justified by their evidence.",
+        "math": "population → sample → claim"
+      },
+      {
+        "title": "Who is represented?",
+        "narration": "First identify the population the claim is about.",
+        "math": "population ≠ sample"
+      },
+      {
+        "title": "Selection matters",
+        "narration": "Volunteer and convenience samples can overrepresent certain people.",
+        "math": "selection bias"
+      },
+      {
+        "title": "Random sampling",
+        "narration": "Chance-based sampling helps make estimates representative.",
+        "math": "random sample"
+      },
+      {
+        "title": "Nonresponse",
+        "narration": "If many selected people do not respond, conclusions may be biased.",
+        "math": "response rate = replies/contacted"
+      },
+      {
+        "title": "Use the denominator",
+        "narration": "Compute each rate with the correct group total.",
+        "math": "rate = count/total"
+      },
+      {
+        "title": "Percent vs points",
+        "narration": "A rise from twenty to thirty percent is ten points but fifty percent relative.",
+        "math": "10 pp; (30−20)/20=50%"
+      },
+      {
+        "title": "Observational studies",
+        "narration": "Observing a relationship does not prove a causal effect.",
+        "math": "association ≠ causation"
+      },
+      {
+        "title": "Random assignment",
+        "narration": "Assigning treatments randomly reduces systematic group differences.",
+        "math": "treatment vs control"
+      },
+      {
+        "title": "Confounding",
+        "narration": "Hot weather can increase both ice cream sales and swimming accidents.",
+        "math": "third variable"
+      },
+      {
+        "title": "Uncertainty",
+        "narration": "A poll of fifty-two percent plus or minus four spans forty-eight to fifty-six.",
+        "math": "52% ± 4 pp"
+      },
+      {
+        "title": "Final judgment",
+        "narration": "Choose the narrow conclusion the study truly supports.",
+        "math": "design + data + limits"
+      }
+    ],
+    "arabic": [
+      {
+        "title": "هدف الدرس",
+        "narration": "سنتعلم كيف نقيّم صحة الاستنتاجات الإحصائية اعتماداً على الأدلة.",
+        "math": "population → sample → claim"
+      },
+      {
+        "title": "من يمثلهم الاستطلاع؟",
+        "narration": "حدد أولاً المجتمع الذي يتحدث عنه الادعاء.",
+        "math": "population ≠ sample"
+      },
+      {
+        "title": "طريقة الاختيار",
+        "narration": "العينات التطوعية والميسّرة قد لا تمثل المجتمع كله.",
+        "math": "selection bias"
+      },
+      {
+        "title": "العينة العشوائية",
+        "narration": "الاختيار بالصدفة يساعد في الحصول على تقدير أكثر تمثيلاً.",
+        "math": "random sample"
+      },
+      {
+        "title": "عدم الاستجابة",
+        "narration": "قد ينحاز الاستنتاج إذا لم يجب كثير ممن وقع عليهم الاختيار.",
+        "math": "response rate = replies/contacted"
+      },
+      {
+        "title": "المقام الصحيح",
+        "narration": "احسب كل نسبة بقسمة العدد على إجمالي المجموعة المناسبة.",
+        "math": "rate = count/total"
+      },
+      {
+        "title": "النسبة والنقاط المئوية",
+        "narration": "الانتقال من عشرين إلى ثلاثين بالمئة زيادة عشر نقاط أو خمسون بالمئة نسبياً.",
+        "math": "10 pp; (30−20)/20=50%"
+      },
+      {
+        "title": "الدراسة الرصدية",
+        "narration": "وجود علاقة بين متغيرين لا يثبت أن أحدهما سبب الآخر.",
+        "math": "association ≠ causation"
+      },
+      {
+        "title": "التوزيع العشوائي",
+        "narration": "توزيع العلاج عشوائياً يقلل الاختلافات المنهجية بين المجموعات.",
+        "math": "treatment vs control"
+      },
+      {
+        "title": "المتغير المربك",
+        "narration": "الحرارة قد تزيد شراء المثلجات وحوادث السباحة معاً.",
+        "math": "third variable"
+      },
+      {
+        "title": "عدم اليقين",
+        "narration": "نسبة اثنين وخمسين بالمئة بهامش أربع نقاط تمتد من ثمان وأربعين إلى ست وخمسين.",
+        "math": "52% ± 4 pp"
+      },
+      {
+        "title": "الخلاصة",
+        "narration": "اختر الاستنتاج المحدود الذي تسمح به طريقة الدراسة والبيانات.",
+        "math": "design + data + limits"
+      }
+    ]
+  }
+}
