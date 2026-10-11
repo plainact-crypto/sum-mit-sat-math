@@ -1,0 +1,42 @@
+[
+  [
+    "KEY DEFINITIONS",
+    "An angle ends at a point on the unit circle. Its quadrant determines the signs of x and y.",
+    "I (+,+), II (−,+), III (−,−), IV (+,−)."
+  ],
+  [
+    "CORE RULE",
+    "Cosine is the horizontal x-coordinate on the unit circle.",
+    "cos²θ+sin²θ=1 and cos(−θ)=cos θ."
+  ],
+  [
+    "HOW IT WORKS",
+    "Find the reference angle, identify the quadrant, and use the sign of x.",
+    "30°→√3/2, 45°→√2/2, 60°→1/2 before applying the sign."
+  ],
+  [
+    "WORKED EXAMPLE 1",
+    "At 0°, the point is (1,0), so cosine is 1.",
+    "At 180°, the point is (−1,0), so cosine is −1."
+  ],
+  [
+    "WORKED EXAMPLE 2",
+    "At 60°, the point is (1/2,√3/2).",
+    "Cosine is the x-coordinate: 1/2."
+  ],
+  [
+    "WORKED EXAMPLE 3",
+    "120° is in Quadrant II with reference angle 60°.",
+    "cos120°=−cos60°=−1/2."
+  ],
+  [
+    "WORKED EXAMPLE 4",
+    "225° is in Quadrant III with reference angle 45°.",
+    "cos225°=−√2/2."
+  ],
+  [
+    "WORKED EXAMPLE 5",
+    "A unit-circle point is in Quadrant IV with y=−3/5.",
+    "x²=1−9/25=16/25; x=+4/5 because Quadrant IV has positive x."
+  ]
+]
