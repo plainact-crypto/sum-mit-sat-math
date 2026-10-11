@@ -1,2 +1,10 @@
 'use strict';
-// Lesson 268 test route builder: implementation pending.
+const {math,esc,page,write}=require('./chord-lesson268-common.js');
+if(math.test.length!==5)throw Error('Lesson test requires exactly five questions');
+const expected=['Easy','Easy / Medium','Medium','Medium / Hard','Hard / Exam-Style'];
+math.test.forEach((q,i)=>{if(q.index!==i+1||q.difficulty!==expected[i])throw Error('Test progression mismatch at '+(i+1))});
+const qs=math.test.map(q=>'<section class="lesson-section"><h3>'+esc(q.difficulty)+' — Question '+q.index+'</h3><p>'+esc(q.prompt)+'</p><label>Numeric answer <input type="number" step="any" inputmode="decimal" required></label></section>').join('');
+const key=JSON.stringify(math.test.map(q=>({answer:Number(q.answer),solution:q.solution}))).replace(/</g,'\\u003c');
+const script='<script>const answerKey='+key+';const form=document.getElementById("lesson-test");form.addEventListener("submit",event=>{event.preventDefault();const inputs=[...form.querySelectorAll("input")];if(inputs.some(x=>x.value.trim()===""))return;let score=0;const result=document.getElementById("result");const title=document.createElement("h2");inputs.forEach((input,i)=>{if(Math.abs(Number(input.value)-answerKey[i].answer)<1e-8)score++;input.disabled=true});title.textContent="Final score: "+score+"/5";result.appendChild(title);answerKey.forEach((item,i)=>{const p=document.createElement("p");p.textContent="Question "+(i+1)+": "+item.answer+". "+item.solution;result.appendChild(p)});form.querySelector("button").disabled=true;},{once:true})</script>';
+write('test',page('Lesson Test','<p>Five progressive questions. Submit once to reveal your final score and full review.</p><form id="lesson-test">'+qs+'<button type="submit">Submit Test</button></form><div id="result" role="status" aria-live="polite"></div>'+script));
+console.log('Lesson 268 test: five progressive questions; submit-once grading');
