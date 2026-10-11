@@ -1,0 +1,70 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Find scale factors and calculate corresponding side lengths, perimeters, and areas of similar triangles."
+  ],
+  [
+    "CORE IDEA",
+    "A dilation changes a figure's size but preserves shape; every corresponding length is multiplied by one positive scale factor k."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Original: starting figure. Image: resized figure. Corresponding sides: matching positions. Scale factor k: image length divided by original length."
+  ],
+  [
+    "CORE RULE",
+    "k=image side/original side. New length=k×old length; new perimeter=k×old perimeter; new area=k²×old area."
+  ],
+  [
+    "HOW IT WORKS",
+    "Match corresponding sides, calculate k in the same direction, then multiply lengths and perimeters by k or areas by k²."
+  ],
+  [
+    "WORKED EXAMPLE 1 — LENGTH",
+    "A 3 cm original side becomes 9 cm, so k=9/3=3. An original 7 cm side becomes 7×3=21 cm."
+  ],
+  [
+    "WORKED EXAMPLE 2 — REDUCTION",
+    "Scale factor 3/4 reduces a 12 cm original side to 12×3/4=9 cm. A factor below 1 indicates reduction."
+  ],
+  [
+    "WORKED EXAMPLE 3 — PERIMETER",
+    "If original perimeter is 18 cm and k=3, image perimeter=18×3=54 cm because all sides triple."
+  ],
+  [
+    "WORKED EXAMPLE 4 — AREA",
+    "If original area is 80 cm² and k=1/2, image area=80×(1/2)²=20 cm². Area does not merely halve."
+  ],
+  [
+    "WORKED EXAMPLE 5 — AREA TO LENGTH",
+    "Area changes from 16 to 144 cm². Area ratio=144/16=9; positive length scale factor k=√9=3."
+  ],
+  [
+    "VERIFIED GEOMETRY VISUAL",
+    "Original triangle coordinates: (70,220),(150,220),(110,140). Image triangle coordinates: (250,220),(370,220),(310,100). Both base and altitude scale from 80 to 120, so k=1.5."
+  ],
+  [
+    "SIMILARITY CHECK",
+    "Side triples (6,8,10) and (9,12,15) are similar because 9/6=12/8=15/10=1.5."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not reverse the ratio: always image/original for the stated direction. Do not apply k to area; apply k². Match the correct sides."
+  ],
+  [
+    "EXAM STRATEGY",
+    "Identify whether the target is length, perimeter, or area. For area use k². If given two areas, take the positive square root of the ratio."
+  ],
+  [
+    "QUICK CHECK",
+    "Side 4→12 gives k=3. Perimeter 42 with k=1.5 becomes 63. Area 72 with k=2/3 becomes 32."
+  ],
+  [
+    "LESSON RECAP",
+    "Corresponding lengths and perimeters scale by k; areas scale by k². Enlargement k>1; reduction 0<k<1."
+  ],
+  [
+    "NEXT STEP",
+    "Complete the 18 practice questions, review all 18 worked solutions, and submit the five-question test."
+  ]
+]
