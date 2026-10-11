@@ -1,0 +1,9 @@
+{
+  "canonicalIndex": 284,
+  "slug": "completing-the-square-for-circle-equations",
+  "branch": "worker4-index284-circle-completing-square-20261011",
+  "status": "BLOCKED_INCOMPLETE",
+  "reason": "The lesson285 builder passes node --check, but standalone execution fails at independent expansion 1 because the five test objects have no 'given' property; the builder currently requires q.given for both practice and tests. The math itself re-expanded correctly for all 23 items during data generation.",
+  "nextAction": "In completing-the-square-for-circle-equations-lesson285-build.js, change the independent expansion assertion to apply q.given only when q.given is defined, or add given to each test object. Then run builder, npm run build, full route and QA checks, and register DESMOS_USEFUL in Explanation Registry. Do not merge or claim LIVE_VERIFIED until all gates pass.",
+  "createdAt": "2026-10-11"
+}
