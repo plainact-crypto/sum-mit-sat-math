@@ -1,0 +1,454 @@
+{
+  "slug": "comparing-spread",
+  "title": "Comparing Spread",
+  "index": 192,
+  "base": "/problem-solving-and-data-analysis/measures-of-spread/comparing-spread/",
+  "classification": "NEITHER",
+  "explanation": [
+    {
+      "heading": "LESSON OBJECTIVE",
+      "text": "Compare variability in two data sets using range and interquartile range (IQR), and explain when each measure gives a more useful comparison."
+    },
+    {
+      "heading": "WHAT YOU NEED TO KNOW",
+      "text": "Two groups can have the same median or mean yet differ greatly in spread. Spread measures how far observations extend, while center measures a typical location."
+    },
+    {
+      "heading": "KEY DEFINITIONS",
+      "text": "Range = maximum − minimum. Quartiles Q1 and Q3 locate the centers of the lower and upper halves of ordered data. IQR = Q3 − Q1. An outlier is an unusually distant observation."
+    },
+    {
+      "heading": "CORE RULE",
+      "text": "Sort first. For an odd number of values, exclude the overall median when finding Q1 and Q3. For an even number, split into equal halves. Compute range from endpoints and IQR from quartiles."
+    },
+    {
+      "heading": "HOW IT WORKS",
+      "text": "(1) Order each set. (2) Find min and max and subtract for range. (3) Find Q1 and Q3 from the halves and subtract for IQR. (4) Compare the same measure for both sets, including units."
+    },
+    {
+      "heading": "WORKED EXAMPLE 1 — RANGE",
+      "text": "Class A: 4,5,6,7,8 has range 8−4=4. Class B: 2,5,6,7,10 has range 10−2=8. B has the larger total span."
+    },
+    {
+      "heading": "WORKED EXAMPLE 2 — ODD COUNT",
+      "text": "For 3,5,7,9,11, the median is 7. Lower half 3,5 gives Q1=4; upper half 9,11 gives Q3=10. IQR=10−4=6."
+    },
+    {
+      "heading": "WORKED EXAMPLE 3 — EVEN COUNT",
+      "text": "For 1,2,4,6,8,9, split into 1,2,4 and 6,8,9. Q1=2, Q3=8, IQR=6; range=9−1=8."
+    },
+    {
+      "heading": "WORKED EXAMPLE 4 — SAME CENTER",
+      "text": "A: 1,2,3,4,5 and B: 1,2,3,4,50 both have median 3. Their ranges are 4 and 49, so B has much larger total spread despite identical centers."
+    },
+    {
+      "heading": "WORKED EXAMPLE 5 — SAME RANGE, DIFFERENT IQR",
+      "text": "A: 0,0,0,10,10,10 and B: 0,4,5,5,6,10 both have range 10. A has IQR 10, while B has IQR 2: B’s middle half is more tightly grouped."
+    },
+    {
+      "heading": "OUTLIER SENSITIVITY",
+      "text": "Range depends on the two extremes and can change dramatically when one extreme changes. IQR tracks the middle half, so it is generally more resistant to outliers."
+    },
+    {
+      "heading": "COMPARE FAIRLY",
+      "text": "Compare ranges with ranges and IQRs with IQRs. Use the same measurement units. A larger range does not automatically imply a larger IQR."
+    },
+    {
+      "heading": "COMMON MISTAKES",
+      "text": "Do not use unsorted data to locate quartiles; do not include the overall median in both halves for odd-sized data under this convention; do not compare range in one set with IQR in another."
+    },
+    {
+      "heading": "EXAM STRATEGY",
+      "text": "When an outlier is emphasized, calculate both range and IQR and explain their different sensitivity. For even-sized halves, average the two middle observations when finding quartiles."
+    },
+    {
+      "heading": "QUICK CHECK",
+      "text": "For 2,4,6,8,10: range=8, Q1=3, Q3=9, IQR=6. For 2,3,4,5,6: range=4, Q1=2.5, Q3=5.5, IQR=3."
+    },
+    {
+      "heading": "LESSON RECAP",
+      "text": "Range describes the full span; IQR describes the middle 50%. Larger values mean greater spread for the same measure. Outliers affect range more strongly than IQR."
+    },
+    {
+      "heading": "NEXT STEP",
+      "text": "Complete all 18 Practice Problems, review the 18 matched Answers & Solutions, then take the five-question Lesson Test before opening the full English or Arabic lesson."
+    }
+  ],
+  "practice": [
+    {
+      "number": 1,
+      "group": "Skill Check",
+      "question": "For 2,4,7,9, find the range.",
+      "answer": "7",
+      "solution": "9−2=7.",
+      "dataset": [
+        2,
+        4,
+        7,
+        9
+      ],
+      "expectedRange": 7,
+      "expectedIQR": null
+    },
+    {
+      "number": 2,
+      "group": "Skill Check",
+      "question": "A: 1,3,5; B: 2,3,4. Which has the larger range?",
+      "answer": "A",
+      "solution": "A: 5−1=4; B: 4−2=2, so A has the larger range."
+    },
+    {
+      "number": 3,
+      "group": "Skill Check",
+      "question": "For 3,5,7,9,11, find the IQR.",
+      "answer": "6",
+      "solution": "Q1=(3+5)/2=4 and Q3=(9+11)/2=10; IQR=10−4=6.",
+      "dataset": [
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "expectedRange": null,
+      "expectedIQR": 6
+    },
+    {
+      "number": 4,
+      "group": "Core Practice",
+      "question": "A: 4,5,6,7,8; B: 2,5,6,7,10. Which has the larger range?",
+      "answer": "B",
+      "solution": "A range 4; B range 8, so B."
+    },
+    {
+      "number": 5,
+      "group": "Core Practice",
+      "question": "For 1,2,4,6,8,9, find the IQR.",
+      "answer": "6",
+      "solution": "Lower half 1,2,4 gives Q1=2; upper half 6,8,9 gives Q3=8. IQR=6.",
+      "dataset": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        9
+      ],
+      "expectedRange": null,
+      "expectedIQR": 6
+    },
+    {
+      "number": 6,
+      "group": "Core Practice",
+      "question": "A: 2,4,6,8,10; B: 3,5,6,7,9. Which has the larger IQR?",
+      "answer": "A",
+      "solution": "A: Q1=3,Q3=9,IQR=6. B: Q1=4,Q3=8,IQR=4. A is larger."
+    },
+    {
+      "number": 7,
+      "group": "Core Practice",
+      "question": "For 10,10,11,12,13,14,14, find the IQR.",
+      "answer": "4",
+      "solution": "Median 12 excluded; Q1=10 and Q3=14, so IQR=4.",
+      "dataset": [
+        10,
+        10,
+        11,
+        12,
+        13,
+        14,
+        14
+      ],
+      "expectedRange": null,
+      "expectedIQR": 4
+    },
+    {
+      "number": 8,
+      "group": "Core Practice",
+      "question": "A: 1,2,3,4,20; B: 1,2,3,4,5. Which has larger range, and why?",
+      "answer": "A; the extreme value 20",
+      "solution": "A range=19, B range=4; 20 raises A’s maximum and range."
+    },
+    {
+      "number": 9,
+      "group": "Core Practice",
+      "question": "A: 4,5,6,7,8; B: 14,15,16,17,18. Compare their ranges and IQRs.",
+      "answer": "Equal: range 4 and IQR 3 for both",
+      "solution": "Adding 10 to every value shifts the center but changes neither range nor IQR."
+    },
+    {
+      "number": 10,
+      "group": "Core Practice",
+      "question": "A: 1,3,5,7,9,11; B: 2,4,5,7,8,10. Which has larger IQR?",
+      "answer": "A",
+      "solution": "A: Q1=3,Q3=9,IQR=6. B: Q1=4,Q3=8,IQR=4."
+    },
+    {
+      "number": 11,
+      "group": "Core Practice",
+      "question": "For 2,4,6,8,10,12,14,16, find the range and IQR.",
+      "answer": "Range 14; IQR 8",
+      "solution": "Range=16−2=14; Q1=(4+6)/2=5, Q3=(12+14)/2=13, IQR=8.",
+      "dataset": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "expectedRange": 14,
+      "expectedIQR": 8
+    },
+    {
+      "number": 12,
+      "group": "Exam-Style",
+      "question": "A: 1,2,3,4,5; B: 1,2,3,4,50. Both have median 3. Which has greater range?",
+      "answer": "B",
+      "solution": "A range=4; B range=49. Same median does not imply same spread."
+    },
+    {
+      "number": 13,
+      "group": "Exam-Style",
+      "question": "A: 0,0,0,10,10,10; B: 0,4,5,5,6,10. Compare range and IQR.",
+      "answer": "Both range 10; A IQR 10 and B IQR 2",
+      "solution": "A quartiles 0,10; B quartiles 4,6. Equal endpoints but A has more middle-half spread."
+    },
+    {
+      "number": 14,
+      "group": "Exam-Style",
+      "question": "A: 2,4,6,8,10; B: 4,8,12,16,20. Compare the range and IQR of B to A.",
+      "answer": "Both are doubled",
+      "solution": "Multiplying every observation by 2 doubles differences: A range 8 and IQR 6; B range 16 and IQR 12."
+    },
+    {
+      "number": 15,
+      "group": "Exam-Style",
+      "question": "A: 10,12,14,16,18,20; B: 9,13,14,16,19,21. Compare IQRs and ranges.",
+      "answer": "Both IQR 6; B range 12 vs A range 10",
+      "solution": "A Q1=12,Q3=18; B Q1=13,Q3=19. Both IQR 6; ranges 10 and 12."
+    },
+    {
+      "number": 16,
+      "group": "Exam-Style",
+      "question": "For 2,3,4,5,6,7,30, compute the IQR and the upper outlier fence Q3+1.5×IQR. Is 30 above it?",
+      "answer": "IQR 4; fence 13; yes",
+      "solution": "Median 5; Q1=3, Q3=7; IQR=4 and upper fence=7+1.5(4)=13. Since 30>13, it is beyond the fence.",
+      "dataset": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        30
+      ],
+      "expectedRange": null,
+      "expectedIQR": 4
+    },
+    {
+      "number": 17,
+      "group": "Challenge",
+      "question": "A: 1,1,1,9,9,9; B: 1,4,5,5,6,9. Both have mean 5 and range 8. Which has larger IQR?",
+      "answer": "A (8 vs 2)",
+      "solution": "A Q1=1,Q3=9,IQR=8. B Q1=4,Q3=6,IQR=2. Equal means and ranges can hide very different middle spreads."
+    },
+    {
+      "number": 18,
+      "group": "Challenge",
+      "question": "A: 3,4,5,6,7,8,9,10; B: 0,4,6,6,7,7,9,14. Which has larger range and which has larger IQR?",
+      "answer": "B has larger range; A has larger IQR",
+      "solution": "A range 7, Q1=4.5,Q3=8.5,IQR=4. B range 14, Q1=5,Q3=8,IQR=3. Different spread measures give different rankings."
+    }
+  ],
+  "test": [
+    {
+      "difficulty": "Easy",
+      "question": "A: 1,4,6; B: 2,4,5. Which has the larger range?",
+      "choices": [
+        "A",
+        "B",
+        "Equal",
+        "Cannot determine"
+      ],
+      "correct": 0,
+      "solution": "A range=5; B range=3."
+    },
+    {
+      "difficulty": "Easy / Medium",
+      "question": "For 1,3,5,7,9, what is the IQR?",
+      "choices": [
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "correct": 2,
+      "solution": "Q1=(1+3)/2=2; Q3=(7+9)/2=8; IQR=6."
+    },
+    {
+      "difficulty": "Medium",
+      "question": "A: 2,3,4,5,6; B: 1,3,4,5,7. Which has larger range?",
+      "choices": [
+        "A",
+        "B",
+        "Equal",
+        "Both zero"
+      ],
+      "correct": 1,
+      "solution": "A range=4; B range=6."
+    },
+    {
+      "difficulty": "Medium / Hard",
+      "question": "For 2,4,4,6,8,10, what are the range and IQR?",
+      "choices": [
+        "Range 8, IQR 4",
+        "Range 6, IQR 4",
+        "Range 8, IQR 6",
+        "Range 10, IQR 4"
+      ],
+      "correct": 0,
+      "solution": "Range=10−2=8; Q1=4,Q3=8,IQR=4."
+    },
+    {
+      "difficulty": "Hard / Exam-Style",
+      "question": "A: 1,1,2,3,3,3,4,4; B: 0,2,2,3,3,4,4,5. Compare their ranges and IQRs.",
+      "choices": [
+        "Equal range and IQR",
+        "A larger range; equal IQR",
+        "B larger range; equal IQR",
+        "B larger range and IQR"
+      ],
+      "correct": 2,
+      "solution": "A range 3, Q1=1.5,Q3=3.5,IQR=2; B range 5, Q1=2,Q3=4,IQR=2."
+    }
+  ],
+  "video": {
+    "english": [
+      {
+        "title": "Learning goal",
+        "narration": "Compare total spread and middle-half spread for two sets.",
+        "math": "range; IQR"
+      },
+      {
+        "title": "Why spread matters",
+        "narration": "Groups can share a median yet differ in consistency.",
+        "math": "same center ≠ same spread"
+      },
+      {
+        "title": "Range",
+        "narration": "Subtract the minimum from the maximum.",
+        "math": "range=max−min"
+      },
+      {
+        "title": "Range comparison",
+        "narration": "The set with a greater range spans a wider interval.",
+        "math": "4 vs 8"
+      },
+      {
+        "title": "Order the data",
+        "narration": "Sort values before finding quartiles.",
+        "math": "min ≤ Q1 ≤ median ≤ Q3 ≤ max"
+      },
+      {
+        "title": "Odd-sized data",
+        "narration": "Exclude the median before taking medians of the two halves.",
+        "math": "3,5 | 7 | 9,11"
+      },
+      {
+        "title": "Even-sized data",
+        "narration": "Divide observations into two equal halves.",
+        "math": "1,2,4 | 6,8,9"
+      },
+      {
+        "title": "Interquartile range",
+        "narration": "Subtract Q1 from Q3 to measure the middle half.",
+        "math": "IQR=Q3−Q1"
+      },
+      {
+        "title": "Compare IQRs",
+        "narration": "Use IQR to compare the spread of the middle half.",
+        "math": "6 vs 2"
+      },
+      {
+        "title": "Outliers",
+        "narration": "One distant value can inflate the range much more than IQR.",
+        "math": "5 → 50"
+      },
+      {
+        "title": "SAT strategy",
+        "narration": "Read the measure requested; equal centers do not imply equal spread.",
+        "math": "compare like with like"
+      },
+      {
+        "title": "Recap and practice",
+        "narration": "Find range and IQR for each set, then interpret both.",
+        "math": "range=max−min; IQR=Q3−Q1"
+      }
+    ],
+    "arabic": [
+      {
+        "title": "الهدف",
+        "narration": "نقارن التشتت الكلي وتشتت النصف الأوسط لمجموعتين.",
+        "math": "المدى؛ المدى الربيعي"
+      },
+      {
+        "title": "لماذا التشتت مهم؟",
+        "narration": "قد تتساوى مجموعتان في الوسيط وتختلفان في مدى انتشار القيم.",
+        "math": "تساوي المركز لا يعني تساوي التشتت"
+      },
+      {
+        "title": "المدى",
+        "narration": "اطرح أصغر قيمة من أكبر قيمة.",
+        "math": "المدى = الأكبر − الأصغر"
+      },
+      {
+        "title": "مقارنة المدى",
+        "narration": "المجموعة ذات المدى الأكبر تمتد على فترة أوسع.",
+        "math": "4 مقابل 8"
+      },
+      {
+        "title": "ترتيب البيانات",
+        "narration": "رتب القيم تصاعديًا قبل حساب الربيعات.",
+        "math": "الأصغر ≤ Q1 ≤ الوسيط ≤ Q3 ≤ الأكبر"
+      },
+      {
+        "title": "عدد فردي",
+        "narration": "استبعد الوسيط عند تقسيم البيانات إلى نصفين لحساب الربيعين.",
+        "math": "3,5 | 7 | 9,11"
+      },
+      {
+        "title": "عدد زوجي",
+        "narration": "اقسم القيم المرتبة إلى نصفين متساويين.",
+        "math": "1,2,4 | 6,8,9"
+      },
+      {
+        "title": "المدى الربيعي",
+        "narration": "اطرح الربيع الأول من الربيع الثالث.",
+        "math": "IQR = Q3 − Q1"
+      },
+      {
+        "title": "مقارنة الربيعات",
+        "narration": "قارن انتشار النصف الأوسط في المجموعتين.",
+        "math": "6 مقابل 2"
+      },
+      {
+        "title": "القيم المتطرفة",
+        "narration": "قد ترفع قيمة متطرفة المدى أكثر بكثير من المدى الربيعي.",
+        "math": "5 → 50"
+      },
+      {
+        "title": "استراتيجية الاختبار",
+        "narration": "اقرأ مقياس التشتت المطلوب وقارن المقياس نفسه في المجموعتين.",
+        "math": "قارن المدى بالمدى"
+      },
+      {
+        "title": "الخلاصة",
+        "narration": "احسب المدى والمدى الربيعي لكل مجموعة ثم فسّر النتيجة.",
+        "math": "المدى = الأكبر − الأصغر؛ IQR = Q3 − Q1"
+      }
+    ]
+  }
+}
