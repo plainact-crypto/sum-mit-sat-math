@@ -1,0 +1,16 @@
+{
+  "lesson_index": 253,
+  "slug": "cones",
+  "status": "ISOLATED_QA_PASS_RELEASE_BLOCKED",
+  "math_qa": "23/23 PASS",
+  "builders": "4/4 PASS",
+  "routes": "6/6 PASS",
+  "practice": 18,
+  "answers": 18,
+  "test": 5,
+  "english_scenes": 20,
+  "arabic_scenes": 20,
+  "release_manifest": "lesson-releases/cones.json",
+  "blocker": "Explanation registry update blocked by GitHub safety checks; full build not verified; Vercel daily deployment quota",
+  "live_verified": false
+}
