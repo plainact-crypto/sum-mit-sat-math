@@ -1,0 +1,9 @@
+{
+  "worker": "SUMMIT Worker 2",
+  "lesson_index": 182,
+  "lesson": "histograms",
+  "title": "Histograms",
+  "canonical_base": "/problem-solving-and-data-analysis/one-variable-data/histograms",
+  "state": "IN_PROGRESS",
+  "release_contract": "fix/required-lesson-builders-20261010:lesson-releases/README.md"
+}
