@@ -1,0 +1,10 @@
+const fs=require('fs'),path=require('path');
+const read=n=>JSON.parse(fs.readFileSync(path.join(__dirname,'diameter-lesson267-'+n+'.json'),'utf8'));
+const explanation=read('explanation');
+const practice='abcdef'.split('').flatMap(x=>read('practice-'+x));
+const root=path.join(__dirname,'dist/geometry-and-trigonometry/circles/diameter');
+const write=(route,body)=>{const p=path.join(root,route,'index.html');fs.mkdirSync(path.dirname(p),{recursive:true});fs.writeFileSync(p,'<!doctype html><html lang="en"><link rel="stylesheet" href="/styles.css"><title>Diameter | SUMMIT</title><main class="lesson-card"><div class="page-type">'+route+'</div><div class="lesson-title">Diameter</div><h1>Diameter</h1>'+body+'</main></html>')};
+if(explanation.length!==16||practice.length!==18)throw Error('Diameter content count');
+write('explanation','<!-- SUMMIT_RETROFIT:diameter:GRAPH -->'+explanation.map(x=>'<h2>'+x.heading+'</h2><p>'+x.text+'</p>').join(''));
+write('problems',practice.map(x=>'<h3>'+x.number+'. '+x.question+'</h3>').join(''));
+write('answers',practice.map(x=>'<h3>'+x.number+'. '+x.answer+'</h3><p>'+x.solution+'</p>').join(''));
