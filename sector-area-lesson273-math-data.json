@@ -58,13 +58,13 @@
     {
       "index": 5,
       "group": "Core Practice",
-      "prompt": "A radius-12 sector has a central angle of 30°. Find the coefficient of π in its area.",
-      "answer": "12",
-      "solution": "Thirty degrees is one twelfth of a full turn. Area=(1/12)π(144)=12π.",
+      "prompt": "A radius-12 sector has area 12π square units. Find its central angle in degrees.",
+      "answer": "30",
+      "solution": "Use 12π=(θ/360)π(144). Divide by π, so 12=144θ/360; solve θ=30°.",
       "qa": {
-        "type": "sector",
+        "type": "angle",
         "r": 12,
-        "angle": 30
+        "coeff": 12
       }
     },
     {
@@ -82,12 +82,11 @@
     {
       "index": 7,
       "group": "Core Practice",
-      "prompt": "A sector has radius 8 and angle 45°. Find the coefficient of π in its area.",
-      "answer": "8",
-      "solution": "45/360=1/8. Area=(1/8)π(64)=8π.",
+      "prompt": "A 45° sector occupies what decimal fraction of the entire disk?",
+      "answer": "0.125",
+      "solution": "The area fraction equals the angle fraction: 45/360=1/8=0.125.",
       "qa": {
-        "type": "sector",
-        "r": 8,
+        "type": "fraction",
         "angle": 45
       }
     },
@@ -106,13 +105,13 @@
     {
       "index": 9,
       "group": "Core Practice",
-      "prompt": "A sector has radius 6 and angle 60°. Find the coefficient of π in its area.",
-      "answer": "6",
-      "solution": "60/360=1/6. Area=(1/6)π(36)=6π.",
+      "prompt": "Two sectors of the same circle have central angles 60° and 120°. Find the smaller-to-larger area ratio.",
+      "answer": "0.5",
+      "solution": "With the same radius, sector areas are proportional to central angles. The ratio is 60/120=0.5.",
       "qa": {
-        "type": "sector",
-        "r": 6,
-        "angle": 60
+        "type": "ratio",
+        "a1": 60,
+        "a2": 120
       }
     },
     {
@@ -142,25 +141,24 @@
     {
       "index": 12,
       "group": "Exam-Style",
-      "prompt": "A sector has radius 14 and angle 90°. Find the coefficient of π in its area.",
-      "answer": "49",
-      "solution": "The sector is a quarter circle: (1/4)π(14²)=49π.",
+      "prompt": "A radius-14 circle contains a sector with area 49π. What decimal fraction of the full disk is shaded?",
+      "answer": "0.25",
+      "solution": "The whole disk is 196π, so the shaded fraction is 49π/196π=0.25.",
       "qa": {
-        "type": "sector",
+        "type": "fractionFromArea",
         "r": 14,
-        "angle": 90
+        "coeff": 49
       }
     },
     {
       "index": 13,
       "group": "Exam-Style",
-      "prompt": "A sector has radius 18 and central angle 40°. Find the coefficient of π in its area.",
-      "answer": "36",
-      "solution": "40/360=1/9. Area=(1/9)π(18²)=36π.",
+      "prompt": "A sector's central angle stays fixed while its radius doubles. By what factor does its area change?",
+      "answer": "4",
+      "solution": "Area is proportional to r² at fixed angle. The new-to-old ratio is (2r)²/r²=4.",
       "qa": {
-        "type": "sector",
-        "r": 18,
-        "angle": 40
+        "type": "scaling",
+        "factor": 2
       }
     },
     {
@@ -191,11 +189,11 @@
     {
       "index": 16,
       "group": "Exam-Style",
-      "prompt": "A sector has radius 20 and angle 27°. Find the coefficient of π in its area.",
-      "answer": "30",
-      "solution": "27/360=3/40. Multiply by 20²=400 to get 30π.",
+      "prompt": "A radius-20 circle has a 27° sector removed. Find the coefficient of π in the remaining area.",
+      "answer": "370",
+      "solution": "The whole disk has area 400π. The removed sector is (27/360)400π=30π. Remaining area is 370π.",
       "qa": {
-        "type": "sector",
+        "type": "complement",
         "r": 20,
         "angle": 27
       }

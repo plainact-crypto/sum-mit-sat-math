@@ -21,7 +21,7 @@
   ],
   [
     "HOW IT WORKS",
-    "Identify the radius and central angle, square the radius, multiply by the angle fraction, and include π and squared units. For inverse questions, isolate θ or r² first."
+    "Identify the radius and central angle, square the radius, multiply by the angle fraction, and include π and squared units. For inverse questions, isolate θ or r² first. At fixed angle, area scales with r²; doubling radius multiplies sector area by four. At fixed radius, sector areas have the same ratio as their angles."
   ],
   [
     "WORKED EXAMPLE 1 — QUARTER CIRCLE",
@@ -57,7 +57,7 @@
   ],
   [
     "EXAM STRATEGY",
-    "Leave answers in terms of π unless a decimal is requested. For an annular sector, subtract squared radii first. For a missing radius, solve for r² and take the positive square root."
+    "Leave answers in terms of π unless a decimal is requested. For an annular sector, subtract squared radii first. For a missing radius, solve for r² and take the positive square root. For a shaded remainder, subtract the sector from the whole disk: radius 20 and removed angle 27° leaves 400π−30π=370π."
   ],
   [
     "QUICK CHECK",
