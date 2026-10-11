@@ -1,0 +1,11 @@
+{
+  "lesson_index": 262,
+  "lesson": "Translations",
+  "slug": "translations",
+  "canonical_base": "/geometry-and-trigonometry/coordinate-geometry/translations",
+  "owner": "SUMMIT Worker 2",
+  "status": "IN_PROGRESS",
+  "started_on": "2026-10-11",
+  "branch": "worker2/translations-262-20261011",
+  "predecessor_blocked": "composite-solids-257"
+}
