@@ -1,0 +1,102 @@
+{
+  "english": [
+    [
+      "01 — Goal",
+      "A two-variable linear inequality describes a whole region of ordered pairs, not just one line. By the end, you will test points, draw a correct boundary, and shade the solution half-plane."
+    ],
+    [
+      "02 — What makes a point a solution?",
+      "For y greater than 2x minus 1, test the ordered pair x equals 2 and y equals 4. Four is greater than three, so the point is a solution. But x equals 3 and y equals 5 gives five greater than five, which is false."
+    ],
+    [
+      "03 — The boundary equation",
+      "Replace the inequality sign with an equals sign to obtain the boundary line. For y less than or equal to 2x plus 1, the boundary is y equals 2x plus 1. The boundary divides the plane into two half-planes."
+    ],
+    [
+      "04 — Solid or dashed?",
+      "Use a solid boundary for less than or equal to and greater than or equal to, because equality is included. Use a dashed boundary for strict less than and strict greater than, because points on the line are excluded."
+    ],
+    [
+      "05 — Graph from exact points",
+      "For y equals 2x plus 1, substitute x equals negative one, zero, and two. The resulting y values are negative one, one, and five. Plot negative one comma negative one, zero comma one, and two comma five, then draw the straight boundary through them."
+    ],
+    [
+      "06 — Choose the shading",
+      "When an inequality is solved for y, shade above for y greater than or greater than or equal to. Shade below for y less than or less than or equal to. For y less than or equal to 2x plus 1, shade below the solid line."
+    ],
+    [
+      "07 — The test-point method",
+      "Use the origin if it is not on the boundary. For y less than or equal to 2x plus 1, zero is less than or equal to one, so shade the side containing the origin. For y greater than x plus 2, zero is not greater than two, so shade the opposite side."
+    ],
+    [
+      "08 — Rearrange standard form",
+      "Start with 2x plus y greater than 6. Subtract 2x to obtain y greater than negative 2x plus 6. The boundary is dashed and the shading is above it. Check by substituting a candidate point into the original inequality."
+    ],
+    [
+      "09 — Watch negative division",
+      "Start with 3x minus 2y less than or equal to 8. Subtract 3x, then divide by negative two and reverse the inequality. The result is y greater than or equal to three halves x minus 4. The boundary is solid, and the shading is above."
+    ],
+    [
+      "10 — Contextual model",
+      "Notebooks cost four dollars and folders cost six dollars. If the budget is at most one hundred twenty dollars, write 4x plus 6y less than or equal to 120. Only nonnegative whole-number counts make sense for items, even though the algebraic inequality shades a continuous region."
+    ],
+    [
+      "11 — Common mistakes and Desmos",
+      "Do not use a solid line for a strict inequality, and do not forget to reverse the symbol when dividing by a negative number. In Desmos enter y less than or equal to 2x plus 1; expect a solid line and shading below. Check independently: at x equals zero, y equals zero works, while y equals three does not."
+    ],
+    [
+      "12 — Final exam check",
+      "For each question: identify the boundary, decide solid versus dashed, rearrange if needed, test a point, then check your answer in the original inequality. Quick check: 2x minus 3y greater than or equal to 12 becomes y less than or equal to two thirds x minus 4, so use a solid line and shade below."
+    ]
+  ],
+  "arabic": [
+    [
+      "٠١ — هدف الدرس",
+      "المتباينة الخطية في متغيرين تصف منطقة كاملة من النقاط المرتبة، وليست خطاً واحداً فقط. في نهاية الدرس ستختبر النقاط، وترسم خط الحد بدقة، وتحدد جهة التظليل الصحيحة."
+    ],
+    [
+      "٠٢ — متى تحقق النقطة المتباينة؟",
+      "في المتباينة ص أكبر من اثنين س ناقص واحد، جرّب س يساوي اثنين وص يساوي أربعة. أربعة أكبر من ثلاثة، إذن النقطة تحقق المتباينة. أما النقطة ثلاثة وخمسة فتعطي خمسة أكبر من خمسة، وهذا غير صحيح."
+    ],
+    [
+      "٠٣ — معادلة خط الحد",
+      "استبدل علامة المتباينة بعلامة المساواة لتحصل على خط الحد. في ص أصغر من أو يساوي اثنين س زائد واحد، خط الحد هو ص يساوي اثنين س زائد واحد. هذا الخط يقسم المستوى إلى منطقتين."
+    ],
+    [
+      "٠٤ — خط متصل أم متقطع؟",
+      "ارسم خطاً متصلاً مع أصغر من أو يساوي، أو أكبر من أو يساوي، لأن المساواة مسموحة. وارسم خطاً متقطعاً مع أصغر من أو أكبر من فقط، لأن النقاط الواقعة على الخط ليست حلولاً."
+    ],
+    [
+      "٠٥ — رسم خط الحد بنقاط دقيقة",
+      "للمعادلة ص يساوي اثنين س زائد واحد، عوّض بقيم س: سالب واحد، وصفر، واثنين. تحصل على قيم ص: سالب واحد، وواحد، وخمسة. ارسم النقاط ثم صِل بينها بخط مستقيم."
+    ],
+    [
+      "٠٦ — اختيار جهة التظليل",
+      "بعد كتابة المتباينة على صورة ص، ظلّل أعلى الخط إذا كانت ص أكبر من، أو أكبر من أو تساوي. وظلّل أسفل الخط إذا كانت ص أصغر من، أو أصغر من أو تساوي. لذلك في ص أصغر من أو يساوي اثنين س زائد واحد، ظلّل أسفل الخط المتصل."
+    ],
+    [
+      "٠٧ — اختبار نقطة سهلة",
+      "اختبر نقطة الأصل إذا لم تكن على خط الحد. في ص أصغر من أو يساوي اثنين س زائد واحد، صفر أصغر من أو يساوي واحد، لذا نُظلّل جهة الأصل. أما ص أكبر من س زائد اثنين، فنقطة الأصل لا تحقق المتباينة، لذا نُظلّل الجهة الأخرى."
+    ],
+    [
+      "٠٨ — التحويل من الصورة القياسية",
+      "ابدأ بالمتباينة اثنان س زائد ص أكبر من ستة. اطرح اثنين س من الطرفين لتحصل على ص أكبر من سالب اثنين س زائد ستة. ارسم خطاً متقطعاً وظلّل أعلاه، ثم تحقق بالتعويض في المتباينة الأصلية."
+    ],
+    [
+      "٠٩ — القسمة على عدد سالب",
+      "ابدأ بثلاثة س ناقص اثنين ص أصغر من أو يساوي ثمانية. اطرح ثلاثة س ثم اقسم على سالب اثنين، ولا تنس عكس علامة المتباينة. النتيجة ص أكبر من أو يساوي ثلاثة على اثنين س ناقص أربعة. الخط متصل والتظليل أعلى."
+    ],
+    [
+      "١٠ — مسألة من الحياة",
+      "سعر الدفتر أربعة دولارات وسعر الملف ستة دولارات. إذا كانت الميزانية مئة وعشرين دولاراً على الأكثر، فاكتب أربعة س زائد ستة ص أصغر من أو يساوي مئة وعشرين. وعدد القطع يجب أن يكون عدداً صحيحاً غير سالب في التطبيق الواقعي."
+    ],
+    [
+      "١١ — أخطاء شائعة واستراتيجية ديسموس",
+      "لا تستخدم خطاً متصلاً مع المتباينة الصارمة، ولا تنس عكس العلامة عند القسمة على سالب. في ديسموس أدخل ص أصغر من أو يساوي اثنين س زائد واحد، فتظهر منطقة أسفل خط متصل. تحقق بنفسك: النقطة صفر وصفر تحقق المتباينة، والنقطة صفر وثلاثة لا تحققها."
+    ],
+    [
+      "١٢ — مراجعة نهائية",
+      "اتبع خمس خطوات: حدد خط الحد، اختر متصلاً أو متقطعاً، أعد الترتيب عند الحاجة، اختبر نقطة، ثم تحقق في المتباينة الأصلية. مثال: اثنان س ناقص ثلاثة ص أكبر من أو يساوي اثني عشر، تكافئ ص أصغر من أو يساوي ثلثي س ناقص أربعة، بخط متصل وتظليل أسفل."
+    ]
+  ]
+}
