@@ -1,0 +1,329 @@
+{
+  "index": 120,
+  "title": "Multiplying Radicals",
+  "base": "advanced-math/radical-expressions-and-equations/multiplying-radicals",
+  "explanation": [
+    [
+      "LESSON OBJECTIVE",
+      "Multiply radical expressions, simplify square-root products, expand radical binomials, and respect variable domains."
+    ],
+    [
+      "WHAT YOU NEED TO KNOW / CORE IDEA",
+      "For nonnegative real a and b, √a·√b=√(ab). The principal square root is never negative. This rule does not apply to a negative radicand in real-number arithmetic."
+    ],
+    [
+      "KEY DEFINITIONS",
+      "Radicand: the quantity inside √. Coefficient: factor outside √. Like radicals: radicals with identical simplified radicands. Conjugates: A+B and A−B."
+    ],
+    [
+      "CORE RULE",
+      "√a√b=√(ab) when a,b≥0; (m√a)(n√b)=mn√(ab). Distribute before combining like radicals; (A+B)(A−B)=A²−B²."
+    ],
+    [
+      "HOW IT WORKS",
+      "First multiply coefficients. Then multiply radicands, factor out perfect squares, and combine like terms. For variables, keep domain assumptions explicit: √(x²)=|x|, not x for arbitrary real x."
+    ],
+    [
+      "WORKED EXAMPLE 1 — BASIC",
+      "√3·√12=√36=6. Both radicands are nonnegative, so the product rule applies."
+    ],
+    [
+      "WORKED EXAMPLE 2 — COEFFICIENTS",
+      "(2√3)(3√6)=6√18=6·3√2=18√2. Simplify the radicand only after multiplying."
+    ],
+    [
+      "WORKED EXAMPLE 3 — DISTRIBUTION",
+      "√6(√24+√54)=√144+√324=12+18=30. Multiply √6 into each term."
+    ],
+    [
+      "WORKED EXAMPLE 4 — CONJUGATES",
+      "(√5+√2)(√5−√2)=5−2=3. The middle terms cancel, so the difference-of-squares shortcut is faster."
+    ],
+    [
+      "WORKED EXAMPLE 5 — VARIABLES",
+      "For x≥0, √(3x)√(12x)=√(36x²)=6|x|=6x. Without x≥0, the original real radicals are not both defined for negative x."
+    ],
+    [
+      "WORKED EXAMPLE 6 — BINOMIALS",
+      "(2√3−√2)(√3+2√2)=6+4√6−√6−4=2+3√6. Combine like radicals only after expansion."
+    ],
+    [
+      "DOMAIN AND SIGN CHECK",
+      "For real x, √(9x²)√(4x²)=3|x|·2|x|=6x². For a radical √(x+4), require x≥−4."
+    ],
+    [
+      "COMMON MISTAKES",
+      "Do not write √a+√b=√(a+b). Do not omit cross terms when squaring a binomial. Do not replace √(x²) by x unless x≥0."
+    ],
+    [
+      "EXAM STRATEGY",
+      "Look for perfect-square factors and conjugates first. Use the distributive property for sums. Keep exact radical forms instead of premature decimals."
+    ],
+    [
+      "QUICK CHECK",
+      "Try √8√18 (answer 12); (√7+√5)² (answer 12+2√35); and (3+√2)(3−√2) (answer 7)."
+    ],
+    [
+      "LESSON RECAP",
+      "Multiply coefficients and radicands, simplify square factors, distribute through sums, and use conjugates. Respect principal-root signs and variable domains."
+    ],
+    [
+      "NEXT STEP",
+      "Complete all 18 Practice Problems in Skill Check, Core, Exam-Style and Challenge order; review the 18 worked Answers, then submit the five-question Lesson Test once."
+    ]
+  ],
+  "problems": [
+    [
+      "Simplify √3 × √12.",
+      "6",
+      "Combine nonnegative radicands: √(3·12)=√36=6."
+    ],
+    [
+      "Simplify √5 × √20.",
+      "10",
+      "√(5·20)=√100=10."
+    ],
+    [
+      "Simplify (2√3)(3√6).",
+      "18√2",
+      "Multiply coefficients and radicands: 6√18=6·3√2=18√2."
+    ],
+    [
+      "Simplify √8 × √18.",
+      "12",
+      "√(8·18)=√144=12."
+    ],
+    [
+      "Evaluate (√7)².",
+      "7",
+      "The principal square root is nonnegative; squaring √7 returns 7."
+    ],
+    [
+      "Simplify (3√2)(4√10).",
+      "24√5",
+      "12√20=12·2√5=24√5."
+    ],
+    [
+      "For x ≥ 0, simplify √(3x)·√(12x).",
+      "6x",
+      "√(36x²)=6|x|, and x≥0 makes |x|=x."
+    ],
+    [
+      "Expand and simplify √6(√24+√54).",
+      "30",
+      "Distribute: √144+√324=12+18=30."
+    ],
+    [
+      "Simplify (√5+√2)(√5−√2).",
+      "3",
+      "Use difference of squares: 5−2=3."
+    ],
+    [
+      "Expand (√3+2)(√3+5).",
+      "13+7√3",
+      "FOIL: 3+5√3+2√3+10=13+7√3."
+    ],
+    [
+      "Expand (2√3−√2)(√3+2√2).",
+      "2+3√6",
+      "FOIL: 6+4√6−√6−4=2+3√6."
+    ],
+    [
+      "A rectangle has side lengths √12 cm and √27 cm. Find its area.",
+      "18 cm²",
+      "Area is product of side lengths: √(12·27)=√324=18 cm²."
+    ],
+    [
+      "For a ≥ 0, simplify √(2a)·√(8a³).",
+      "4a²",
+      "√(16a⁴)=4a² because a² is nonnegative."
+    ],
+    [
+      "Expand (√7+√5)².",
+      "12+2√35",
+      "Square a binomial: 7+2√35+5=12+2√35."
+    ],
+    [
+      "Simplify (3+√2)(3−√2).",
+      "7",
+      "Conjugate product: 3²−(√2)²=9−2=7."
+    ],
+    [
+      "For real x, simplify √(9x²)·√(4x²).",
+      "6x²",
+      "Each square root is nonnegative: 3|x|·2|x|=6|x|²=6x²."
+    ],
+    [
+      "Simplify (√2+√3+√5)(√2+√3−√5).",
+      "2√6",
+      "Treat √2+√3 as A. Then (A+√5)(A−√5)=A²−5=(5+2√6)−5=2√6."
+    ],
+    [
+      "For t ≥ 0, solve (√t+√3)(√t−√3)=22.",
+      "25",
+      "Difference of squares gives t−3=22, so t=25. Check: (5+√3)(5−√3)=25−3=22."
+    ]
+  ],
+  "tests": [
+    {
+      "level": "Easy",
+      "prompt": "Simplify √2 × √18.",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "2√18"
+      ],
+      "correct": 1,
+      "why": "√(2·18)=√36=6."
+    },
+    {
+      "level": "Easy / Medium",
+      "prompt": "Simplify (2√5)(√15).",
+      "options": [
+        "10√3",
+        "5√3",
+        "2√75",
+        "15√2"
+      ],
+      "correct": 0,
+      "why": "2√75=2·5√3=10√3."
+    },
+    {
+      "level": "Medium",
+      "prompt": "Expand and simplify √3(√12+√27).",
+      "options": [
+        "9",
+        "12",
+        "15",
+        "3√39"
+      ],
+      "correct": 2,
+      "why": "√36+√81=6+9=15."
+    },
+    {
+      "level": "Medium / Hard",
+      "prompt": "Simplify (√11+√3)(√11−√3).",
+      "options": [
+        "14",
+        "8",
+        "√8",
+        "121−9"
+      ],
+      "correct": 1,
+      "why": "Difference of squares: 11−3=8."
+    },
+    {
+      "level": "Hard / Exam-Style",
+      "prompt": "For x ≥ −4, solve (√(x+4)+√5)(√(x+4)−√5)=10.",
+      "options": [
+        "5",
+        "9",
+        "11",
+        "15"
+      ],
+      "correct": 2,
+      "why": "Difference of squares yields (x+4)−5=10, hence x−1=10 and x=11; domain holds."
+    }
+  ],
+  "video_en": [
+    [
+      "Lesson goal",
+      "Today we multiply square roots, simplify products, and expand expressions with radicals. We will also check domains."
+    ],
+    [
+      "Product rule",
+      "For nonnegative a and b, square root a times square root b equals square root of a times b. Negative radicands require different number systems."
+    ],
+    [
+      "Simple multiplication",
+      "Square root three times square root twelve equals square root thirty six, which is six."
+    ],
+    [
+      "Coefficients",
+      "Two square root three times three square root six equals six square root eighteen, or eighteen square root two."
+    ],
+    [
+      "Perfect squares",
+      "Look for a perfect square factor inside the radical. Square root twenty equals two square root five."
+    ],
+    [
+      "Distribute",
+      "Square root six times the sum of square root twenty four and square root fifty four equals twelve plus eighteen, or thirty."
+    ],
+    [
+      "Conjugates",
+      "The product of A plus B and A minus B is A squared minus B squared. Square root five plus square root two times its conjugate equals three."
+    ],
+    [
+      "Expand binomials",
+      "Multiply every term in the first parentheses by every term in the second. Then combine identical radicals."
+    ],
+    [
+      "Variables and signs",
+      "Square root x squared equals the absolute value of x. Only remove the bars if you know the sign of x."
+    ],
+    [
+      "Context problem",
+      "The area of a rectangle with sides square root twelve and square root twenty seven centimeters is eighteen square centimeters."
+    ],
+    [
+      "Challenge",
+      "Treat square root two plus square root three as one quantity A, then multiply A plus square root five by A minus square root five."
+    ],
+    [
+      "Review and practice",
+      "Check that each radicand is nonnegative, simplify exactly, and complete the eighteen practice questions before the five-question test."
+    ]
+  ],
+  "video_ar": [
+    [
+      "هدف الدرس",
+      "النهارده هنتعلم ضرب الجذور التربيعية وتبسيط الناتج وفتح الأقواس، مع مراعاة مجال المتغيرات."
+    ],
+    [
+      "قاعدة الضرب",
+      "لو العددين تحت الجذر غير سالبين، جذر أ في جذر ب يساوي جذر حاصل ضرب أ في ب."
+    ],
+    [
+      "مثال بسيط",
+      "جذر تلاتة في جذر اتناشر يساوي جذر ستة وتلاتين، يعني ستة."
+    ],
+    [
+      "المعاملات",
+      "اتنين جذر تلاتة في تلاتة جذر ستة يساوي ستة جذر تمنتاشر، وبعد التبسيط تمنتاشر جذر اتنين."
+    ],
+    [
+      "المربعات الكاملة",
+      "دور على عامل مربع كامل تحت الجذر. جذر عشرين يساوي اتنين جذر خمسة."
+    ],
+    [
+      "التوزيع",
+      "جذر ستة في مجموع جذر أربعة وعشرين وجذر أربعة وخمسين يساوي اتناشر زائد تمنتاشر، يعني تلاتين."
+    ],
+    [
+      "المرافق",
+      "لما تضرب أ زائد ب في أ ناقص ب، الناتج أ تربيع ناقص ب تربيع. جذر خمسة زائد جذر اتنين في مرافقه يساوي تلاتة."
+    ],
+    [
+      "فتح الأقواس",
+      "اضرب كل حد في القوس الأول في كل حد في القوس التاني، وبعد كده اجمع الجذور المتشابهة."
+    ],
+    [
+      "المتغيرات والإشارة",
+      "جذر إكس تربيع يساوي القيمة المطلقة لإكس، مش إكس دايماً. لازم تعرف إشارة المتغير."
+    ],
+    [
+      "مسألة مساحة",
+      "مساحة مستطيل ضلعيه جذر اتناشر وجذر سبعة وعشرين سنتيمتر تساوي تمنتاشر سنتيمتر مربع."
+    ],
+    [
+      "سؤال تحدي",
+      "اعتبر جذر اتنين زائد جذر تلاتة كمية واحدة اسمها أ، وبعد كده استخدم فرق مربعين مع جذر خمسة."
+    ],
+    [
+      "المراجعة والتدريب",
+      "اتأكد إن كل اللي تحت الجذر غير سالب، وبسط الناتج بدقة، وحل تمنتاشر تدريب وبعدهم اختبار الخمس أسئلة."
+    ]
+  ]
+}
