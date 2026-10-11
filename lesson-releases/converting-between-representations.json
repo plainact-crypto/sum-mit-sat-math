@@ -1,1 +1,16 @@
-{"lesson":"converting-between-representations","builders":["converting-between-representations-content-build.js","lesson155-video-routes.js"],"routes":["/advanced-math/nonlinear-functions/converting-between-representations/explanation/","/advanced-math/nonlinear-functions/converting-between-representations/problems/","/advanced-math/nonlinear-functions/converting-between-representations/answers/","/advanced-math/nonlinear-functions/converting-between-representations/test/","/advanced-math/nonlinear-functions/converting-between-representations/video/english/","/advanced-math/nonlinear-functions/converting-between-representations/video/arabic/"]}
+{
+  "lesson": "converting-between-representations",
+  "builders": [
+    "converting-between-representations-content-build.js",
+    "lesson155-video-routes.js",
+    "lesson155-submit-once-test-build.js"
+  ],
+  "routes": [
+    "/advanced-math/nonlinear-functions/converting-between-representations/explanation/",
+    "/advanced-math/nonlinear-functions/converting-between-representations/problems/",
+    "/advanced-math/nonlinear-functions/converting-between-representations/answers/",
+    "/advanced-math/nonlinear-functions/converting-between-representations/test/",
+    "/advanced-math/nonlinear-functions/converting-between-representations/video/english/",
+    "/advanced-math/nonlinear-functions/converting-between-representations/video/arabic/"
+  ]
+}
