@@ -1,0 +1,86 @@
+[
+  [
+    "Objective",
+    "Learn to solve isosceles triangle angle and side problems."
+  ],
+  [
+    "Definition",
+    "An isosceles triangle has at least two equal sides."
+  ],
+  [
+    "Legs",
+    "The two equal sides are called the legs."
+  ],
+  [
+    "Base",
+    "The remaining side is called the base."
+  ],
+  [
+    "Vertex",
+    "The angle between equal legs is the vertex angle."
+  ],
+  [
+    "Base angles",
+    "The angles at the ends of the base are the base angles."
+  ],
+  [
+    "Theorem",
+    "Equal sides have equal opposite angles."
+  ],
+  [
+    "Angle sum",
+    "All interior angles of a triangle total one hundred eighty degrees."
+  ],
+  [
+    "Vertex rule",
+    "Vertex angle equals one hundred eighty minus twice a base angle."
+  ],
+  [
+    "Example one",
+    "Two base angles of forty eight degrees give a vertex of eighty four."
+  ],
+  [
+    "Base rule",
+    "Each base angle equals one hundred eighty minus the vertex, divided by two."
+  ],
+  [
+    "Example two",
+    "A vertex of ninety six degrees gives two base angles of forty two degrees."
+  ],
+  [
+    "Algebra",
+    "Vertex three x plus eighteen and base x plus twenty one give an angle sum equation."
+  ],
+  [
+    "Solve",
+    "Five x plus sixty equals one hundred eighty, so x equals twenty four."
+  ],
+  [
+    "Check",
+    "The resulting angles are ninety, forty five, and forty five degrees."
+  ],
+  [
+    "Side equations",
+    "Set equal leg expressions equal to solve for x."
+  ],
+  [
+    "Perimeter",
+    "Add both equal legs and the base."
+  ],
+  [
+    "Exterior angles",
+    "Exterior and adjacent interior angles total one hundred eighty degrees."
+  ],
+  [
+    "Converse",
+    "Equal base angles imply equal opposite sides."
+  ],
+  [
+    "Triangle inequality",
+    "Any two side lengths must sum to more than the third."
+  ],
+  [
+    "Practice",
+    "Complete the eighteen practice questions and five-question test."
+  ]
+]

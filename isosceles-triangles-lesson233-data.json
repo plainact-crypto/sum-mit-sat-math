@@ -1,0 +1,303 @@
+{
+  "lesson_index": 233,
+  "slug": "isosceles-triangles",
+  "title": "Isosceles Triangles",
+  "base": "geometry-and-trigonometry/triangles/isosceles-triangles",
+  "classification": "NEITHER",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "prompt": "Triangle ABC has AB=AC and each base angle is 48°. Find vertex angle A.",
+      "answer": "84",
+      "solution": "Because AB=AC, angles B and C each equal 48°. Angle A=180−48−48=84°.",
+      "check": [
+        "apex",
+        48
+      ]
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "prompt": "An isosceles triangle has a 40° vertex angle. Find each base angle.",
+      "answer": "70",
+      "solution": "The two equal base angles share 180−40=140°, so each is 140/2=70°.",
+      "check": [
+        "base",
+        40
+      ]
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "prompt": "Triangle ABC has AB=AC and angle B=65°. Find angle C.",
+      "answer": "65",
+      "solution": "Equal sides AB and AC are opposite angles C and B. Therefore angle C equals angle B, or 65°.",
+      "check": [
+        "copy",
+        65
+      ]
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "prompt": "Two base angles in an isosceles triangle each measure 32°. Find the vertex angle.",
+      "answer": "116",
+      "solution": "Vertex=180−2(32)=116°, since the three interior angles total 180°.",
+      "check": [
+        "apex",
+        32
+      ]
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "prompt": "An isosceles triangle has a 96° vertex angle. Find a base angle.",
+      "answer": "42",
+      "solution": "Subtract 96 from 180 and divide the remaining 84° equally: 42°.",
+      "check": [
+        "base",
+        96
+      ]
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "prompt": "The vertex angle is (3x+18)° and each base angle is (x+21)°. Find x.",
+      "answer": "24",
+      "solution": "3x+18+2(x+21)=180, so 5x+60=180 and x=24. Check 90+45+45=180.",
+      "check": [
+        "sum",
+        3,
+        18,
+        1,
+        21
+      ]
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "prompt": "The base angles are (2x+9)° and (5x−36)°. Find x.",
+      "answer": "15",
+      "solution": "Equal base angles give 2x+9=5x−36; therefore 45=3x and x=15.",
+      "check": [
+        "equal",
+        2,
+        9,
+        5,
+        -36
+      ]
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "prompt": "Equal sides are 13 cm each, and the base is 10 cm. Find the perimeter in cm.",
+      "answer": "36",
+      "solution": "The perimeter is the sum of all sides: 13+13+10=36 cm.",
+      "check": [
+        "perimeter",
+        13,
+        10
+      ]
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "prompt": "The perimeter is 50 cm and the base is 14 cm. Find the length of either equal side.",
+      "answer": "18",
+      "solution": "Remove the base: 50−14=36 cm. Divide the remaining length by two equal sides: 18 cm.",
+      "check": [
+        "leg",
+        50,
+        14
+      ]
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "prompt": "The two base angles are (5x−12)° and (3x+18)°. Find x.",
+      "answer": "15",
+      "solution": "Set 5x−12=3x+18. Subtract 3x and add 12: 2x=30, so x=15.",
+      "check": [
+        "equal",
+        5,
+        -12,
+        3,
+        18
+      ]
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "prompt": "The vertex is (2x+28)° and each base angle is (3x−4)°. Find x.",
+      "answer": "20",
+      "solution": "2x+28+2(3x−4)=180, so 8x+20=180 and x=20. The angles are 68°,56°,56°.",
+      "check": [
+        "sum",
+        2,
+        28,
+        3,
+        -4
+      ]
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "prompt": "Can lengths 9, 9, and 19 form an isosceles triangle? Answer Yes or No.",
+      "answer": "No",
+      "solution": "No: the triangle inequality fails because 9+9=18 is less than 19.",
+      "check": [
+        "possible",
+        9,
+        9,
+        19
+      ]
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "prompt": "Each base angle is 72°. Find the exterior angle at the vertex.",
+      "answer": "144",
+      "solution": "The interior vertex is 180−144=36°. Its adjacent exterior is 180−36=144°.",
+      "check": [
+        "exterior",
+        72
+      ]
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "prompt": "The base angles are (x+24)° and (3x−16)°. Find the vertex angle.",
+      "answer": "92",
+      "solution": "Set x+24=3x−16, giving x=20. Each base angle is 44°, so vertex=180−88=92°.",
+      "check": [
+        "vertexEqual",
+        1,
+        24,
+        3,
+        -16
+      ]
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "prompt": "The vertex angle is (5x+10)° and each base angle is (2x+4)°. Find x.",
+      "answer": "18",
+      "solution": "5x+10+2(2x+4)=180 gives 9x+18=180, so x=18. The angles are 100°,40°,40°.",
+      "check": [
+        "sum",
+        5,
+        10,
+        2,
+        4
+      ]
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "prompt": "Triangle ABC has AB=AC. Exterior angle at B is 118°. Find interior angle A.",
+      "answer": "56",
+      "solution": "Interior B=180−118=62°. Angle C is also 62°, so angle A=180−124=56°.",
+      "check": [
+        "apexFromExterior",
+        118
+      ]
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "prompt": "Equal sides are (3x+2) cm and (5x−20) cm; base is 24 cm. Find the perimeter.",
+      "answer": "94",
+      "solution": "3x+2=5x−20 gives x=11. Each leg is 35 cm; perimeter=35+35+24=94 cm.",
+      "check": [
+        "perimeterEqual",
+        3,
+        2,
+        5,
+        -20,
+        24
+      ]
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "prompt": "Vertex is (4x+10)° and each base angle is (2x+5)°. Find exterior angle at a base vertex.",
+      "answer": "135",
+      "solution": "4x+10+2(2x+5)=180 gives x=20. Base angle=45°, so exterior=180−45=135°.",
+      "check": [
+        "baseExteriorSum",
+        4,
+        10,
+        2,
+        5
+      ]
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "difficulty": "Easy",
+      "prompt": "Vertex angle is 54°. Find either base angle.",
+      "answer": "63",
+      "solution": "The equal base angles are (180−54)/2=63°.",
+      "check": [
+        "base",
+        54
+      ]
+    },
+    {
+      "index": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "Each base angle is 41°. Find the vertex angle.",
+      "answer": "98",
+      "solution": "Subtract the two base angles: 180−2(41)=98°.",
+      "check": [
+        "apex",
+        41
+      ]
+    },
+    {
+      "index": 3,
+      "difficulty": "Medium",
+      "prompt": "Equal legs are (4x+3) cm and (6x−15) cm, base 20 cm. Find perimeter.",
+      "answer": "98",
+      "solution": "4x+3=6x−15 gives x=9. Each leg=39 cm, so perimeter=39+39+20=98 cm.",
+      "check": [
+        "perimeterEqual",
+        4,
+        3,
+        6,
+        -15,
+        20
+      ]
+    },
+    {
+      "index": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "Vertex is (2x+20)° and each base angle is (3x+4)°. Find x.",
+      "answer": "19",
+      "solution": "2x+20+2(3x+4)=180, so 8x+28=180 and x=19.",
+      "check": [
+        "sum",
+        2,
+        20,
+        3,
+        4
+      ]
+    },
+    {
+      "index": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "Exterior angle at vertex is (6x+10)°, each base angle (2x+15)°. Find interior vertex angle.",
+      "answer": "110",
+      "solution": "6x+10=2(2x+15) gives x=10. Exterior is 70°, so interior vertex=180−70=110°.",
+      "check": [
+        "vertexExteriorAlgebra",
+        6,
+        10,
+        2,
+        15
+      ]
+    }
+  ]
+}

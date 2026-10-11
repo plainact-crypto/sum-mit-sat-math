@@ -56,4 +56,6 @@ module.exports=[
       'Boundary QA: y=10-x gives 10,6,2 at x=0,4,8; y=6-0.5x gives 6,4,2. Setting them equal gives (8,2). Candidate (4,5): 4+5=9<=10 and 4+2(5)=14>=12. Candidate (2,3) fails the second condition because 2+2(3)=8<12.'
     )
   }
+,
+  {slug:'isosceles-triangles',lesson:'Isosceles Triangles',classification:'NEITHER',graph:null,desmos:null}
 ];

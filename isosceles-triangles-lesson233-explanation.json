@@ -1,0 +1,70 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Recognize isosceles triangles and calculate missing angles, equal side lengths, and perimeter."
+  ],
+  [
+    "CORE IDEA",
+    "An isosceles triangle has at least two equal sides; the angles opposite those equal sides are equal."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "The two equal sides are legs. The third side is the base. The angle between legs is the vertex angle; the other two are base angles."
+  ],
+  [
+    "CORE RULE",
+    "For AB=AC, ∠B=∠C. Vertex angle = 180° − 2(base angle); base angle = (180° − vertex angle)/2."
+  ],
+  [
+    "HOW IT WORKS",
+    "Mark equal sides, identify opposite equal angles, then use the triangle angle sum or set equal side expressions equal."
+  ],
+  [
+    "WORKED EXAMPLE 1 — BASIC",
+    "AB=AC and ∠B=48°. Thus ∠C=48° and ∠A=180−48−48=84°. Check: 84+48+48=180."
+  ],
+  [
+    "WORKED EXAMPLE 2 — VERTEX",
+    "If vertex angle is 96°, each base angle=(180−96)/2=42°. Check: 96+42+42=180."
+  ],
+  [
+    "WORKED EXAMPLE 3 — ALGEBRA",
+    "Vertex=3x+18 and each base=x+21. Solve 3x+18+2(x+21)=180: 5x=120, x=24; angles 90°,45°,45°."
+  ],
+  [
+    "WORKED EXAMPLE 4 — SIDE LENGTHS",
+    "Equal legs 3x+2 and 5x−20 imply x=11 and both legs 35 cm. With base 24 cm, perimeter=94 cm."
+  ],
+  [
+    "WORKED EXAMPLE 5 — EXTERIOR",
+    "With base angles 72°, interior vertex=36° and exterior vertex=180−36=144°; also 72+72=144."
+  ],
+  [
+    "VERIFIED GEOMETRIC VISUAL",
+    "Diagram coordinates are A(240,40), B(100,280), C(380,280). AB=AC=√(140²+240²) and BC is horizontal."
+  ],
+  [
+    "CONVERSE & TRIANGLE INEQUALITY",
+    "Two equal angles imply equal opposite sides. Any two side lengths must sum to more than the third; 9,9,19 fails."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not assume all three angles equal. Do not confuse base and vertex angles. Match equal sides with opposite angles."
+  ],
+  [
+    "EXAM STRATEGY",
+    "Identify what is requested: angle, exterior angle, side, perimeter, or x. Write one equation and check angle sum or triangle inequality."
+  ],
+  [
+    "QUICK CHECK",
+    "Base 41° means vertex 98°. Vertex 54° means base 63°. Sides 9,9,19 cannot form a triangle."
+  ],
+  [
+    "LESSON RECAP",
+    "Equal legs ↔ equal base angles; all interior angles total 180°; exterior and adjacent interior total 180°."
+  ],
+  [
+    "NEXT STEP",
+    "Attempt 18 Practice Problems, read 18 matching Answers and Solutions, and submit the five-question Lesson Test."
+  ]
+]

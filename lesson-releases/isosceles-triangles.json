@@ -1,0 +1,17 @@
+{
+  "lesson": "isosceles-triangles",
+  "builders": [
+    "isosceles-triangles-lesson233-explanation-build.js",
+    "isosceles-triangles-lesson233-practice-build.js",
+    "isosceles-triangles-lesson233-test-build.js",
+    "isosceles-triangles-lesson233-video-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/triangles/isosceles-triangles/explanation/",
+    "/geometry-and-trigonometry/triangles/isosceles-triangles/problems/",
+    "/geometry-and-trigonometry/triangles/isosceles-triangles/answers/",
+    "/geometry-and-trigonometry/triangles/isosceles-triangles/test/",
+    "/geometry-and-trigonometry/triangles/isosceles-triangles/video/english/",
+    "/geometry-and-trigonometry/triangles/isosceles-triangles/video/arabic/"
+  ]
+}
