@@ -1,0 +1,291 @@
+{
+  "lesson_index": 268,
+  "slug": "chord",
+  "title": "Chord",
+  "base": "geometry-and-trigonometry/circles/circle-vocabulary/chord",
+  "subject": "Geometry and Trigonometry",
+  "section": "Circles · Circle Vocabulary",
+  "classification": "GRAPH",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "prompt": "A circle has radius 6 cm. What is the length, in cm, of its diameter (the chord through the center)?",
+      "answer": "12",
+      "solution": "A diameter passes through the center and contains two radii, so its length is 2×6=12 cm.",
+      "qa": {
+        "type": "diameter",
+        "r": 6
+      }
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "prompt": "The chord AB has endpoints A and B on a circle. How many radii connect the center O to those two endpoints?",
+      "answer": "2",
+      "solution": "OA and OB are each radii because A and B lie on the circle. There are exactly two center-to-endpoint radii.",
+      "qa": {
+        "type": "endpointRadii",
+        "endpoints": 2
+      }
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "prompt": "A circle's diameter is 22 units. Find its radius.",
+      "answer": "11",
+      "solution": "The radius is half the diameter: 22÷2=11 units.",
+      "qa": {
+        "type": "radius",
+        "diameter": 22
+      }
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "prompt": "A circle has radius 5 and a chord 3 units from the center. Find the chord's full length.",
+      "answer": "8",
+      "solution": "The perpendicular from the center bisects the chord. Half-chord = √(5²−3²)=√16=4, so full chord=8.",
+      "qa": {
+        "type": "chord",
+        "r": 5,
+        "d": 3
+      }
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "prompt": "A circle has radius 13 and a chord 5 units from its center. Find the chord's full length.",
+      "answer": "24",
+      "solution": "Use the right triangle: half-chord=√(13²−5²)=√144=12, so the chord measures 24.",
+      "qa": {
+        "type": "chord",
+        "r": 13,
+        "d": 5
+      }
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "prompt": "A circle has radius 10 and a chord of length 16. Find the perpendicular distance from its center to the chord.",
+      "answer": "6",
+      "solution": "Half the chord is 8. The distance is √(10²−8²)=√36=6 units.",
+      "qa": {
+        "type": "distance",
+        "r": 10,
+        "L": 16
+      }
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "prompt": "A chord is 12 units long and 8 units from the circle's center. Find the radius.",
+      "answer": "10",
+      "solution": "Half-chord is 6. The radius is the hypotenuse: √(6²+8²)=√100=10.",
+      "qa": {
+        "type": "radiusFromChord",
+        "L": 12,
+        "d": 8
+      }
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "prompt": "The perpendicular from the center meets a chord of length 18 at M. Find the length of either half, AM.",
+      "answer": "9",
+      "solution": "A perpendicular from the center to a chord bisects it. Therefore AM=18÷2=9.",
+      "qa": {
+        "type": "half",
+        "L": 18
+      }
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "prompt": "In a circle centered at (0,0), A=(−4,3) and B=(4,3) are chord endpoints. Find AB.",
+      "answer": "8",
+      "solution": "The endpoints have equal y-coordinates, so AB is horizontal and has length |4−(−4)|=8.",
+      "qa": {
+        "type": "coordinateChord",
+        "a": [
+          -4,
+          3
+        ],
+        "b": [
+          4,
+          3
+        ]
+      }
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "prompt": "A circle has radius 17 and a chord of length 30. Find the chord's perpendicular distance from the center.",
+      "answer": "8",
+      "solution": "Half-chord=15. Distance=√(17²−15²)=√64=8.",
+      "qa": {
+        "type": "distance",
+        "r": 17,
+        "L": 30
+      }
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "prompt": "Two congruent chords AB and CD lie in the same circle. AB is 9 units from the center. Find CD's distance from the center.",
+      "answer": "9",
+      "solution": "Equal chords in the same circle are equally distant from the center, so CD is also 9 units away.",
+      "qa": {
+        "type": "equalDistance",
+        "d": 9
+      }
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "prompt": "A circle has diameter 26 and a chord 5 units from the center. Find the chord's length.",
+      "answer": "24",
+      "solution": "Radius=26÷2=13. Half-chord=√(13²−5²)=12, so full length=24.",
+      "qa": {
+        "type": "chordFromDiameter",
+        "D": 26,
+        "d": 5
+      }
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "prompt": "A circle has radius 25 and a chord of length 14. Find the perpendicular distance from the center.",
+      "answer": "24",
+      "solution": "Half-chord=7. Distance=√(25²−7²)=√576=24.",
+      "qa": {
+        "type": "distance",
+        "r": 25,
+        "L": 14
+      }
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "prompt": "A circular window has radius 15 cm. A straight support bar forms a chord 9 cm from the center. Find its length in cm.",
+      "answer": "24",
+      "solution": "The perpendicular from the center bisects the bar. Half-length=√(15²−9²)=√144=12, so full bar=24 cm.",
+      "qa": {
+        "type": "chord",
+        "r": 15,
+        "d": 9
+      }
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "prompt": "A chord of length 18 is 12 units from the center. Find the circle's radius.",
+      "answer": "15",
+      "solution": "Half the chord is 9. The radius is √(9²+12²)=√225=15.",
+      "qa": {
+        "type": "radiusFromChord",
+        "L": 18,
+        "d": 12
+      }
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "prompt": "A circle has radius 20 and a chord of length 24. Find the distance from the center to the chord.",
+      "answer": "16",
+      "solution": "Half-chord=12. The center distance is √(20²−12²)=√256=16.",
+      "qa": {
+        "type": "distance",
+        "r": 20,
+        "L": 24
+      }
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "prompt": "In a circle of radius 13, two chords lie 5 and 12 units from the center. Find the SUM of their lengths.",
+      "answer": "34",
+      "solution": "The first chord is 2√(13²−5²)=24; the second is 2√(13²−12²)=10. Sum=24+10=34.",
+      "qa": {
+        "type": "sumChords",
+        "r": 13,
+        "d1": 5,
+        "d2": 12
+      }
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "prompt": "Two parallel chords of lengths 48 and 14 lie on opposite sides of the center of a circle with radius 25. Find the perpendicular distance between the chords.",
+      "answer": "31",
+      "solution": "Their distances from the center are √(25²−24²)=7 and √(25²−7²)=24. Opposite sides means add: 7+24=31.",
+      "qa": {
+        "type": "oppositeChords",
+        "r": 25,
+        "L1": 48,
+        "L2": 14
+      }
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "difficulty": "Easy",
+      "prompt": "A circle has radius 9. Find the diameter.",
+      "answer": "18",
+      "solution": "Diameter=2×9=18.",
+      "qa": {
+        "type": "diameter",
+        "r": 9
+      }
+    },
+    {
+      "index": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "A chord is 10 units long. A perpendicular from the center meets it at M. Find the length of either half.",
+      "answer": "5",
+      "solution": "The perpendicular bisects the chord, so 10÷2=5.",
+      "qa": {
+        "type": "half",
+        "L": 10
+      }
+    },
+    {
+      "index": 3,
+      "difficulty": "Medium",
+      "prompt": "A circle has radius 13 and a chord 12 units from its center. Find the chord's full length.",
+      "answer": "10",
+      "solution": "Half-chord=√(13²−12²)=5, so full chord=10.",
+      "qa": {
+        "type": "chord",
+        "r": 13,
+        "d": 12
+      }
+    },
+    {
+      "index": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "A circle has radius 17 and a chord of length 16. Find its distance from the center.",
+      "answer": "15",
+      "solution": "Half-chord=8, so distance=√(17²−8²)=√225=15.",
+      "qa": {
+        "type": "distance",
+        "r": 17,
+        "L": 16
+      }
+    },
+    {
+      "index": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "Two parallel chords of lengths 40 and 48 lie on opposite sides of the center in a circle of radius 25. Find the distance between them.",
+      "answer": "22",
+      "solution": "Their center distances are √(625−400)=15 and √(625−576)=7. Since the chords lie on opposite sides, the distance is 15+7=22.",
+      "qa": {
+        "type": "oppositeChords",
+        "r": 25,
+        "L1": 40,
+        "L2": 48
+      }
+    }
+  ]
+}
