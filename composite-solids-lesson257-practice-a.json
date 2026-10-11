@@ -1,0 +1,56 @@
+[
+  {
+    "number": 1,
+    "group": "Skill Check",
+    "question": "A rectangular prism 4 cm by 3 cm by 2 cm has another 4 cm by 3 cm by 1 cm prism placed on top without overlap. Find the total volume.",
+    "answer": "36 cm³",
+    "solution": "The volumes are 4·3·2=24 and 4·3·1=12. Add them: 24+12=36 cm³.",
+    "qaExpr": "4*3*2+4*3*1",
+    "qaValue": 36
+  },
+  {
+    "number": 2,
+    "group": "Skill Check",
+    "question": "Two rectangular prisms measuring 5×2×3 and 2×2×3 units are joined without overlap. Find their combined volume.",
+    "answer": "42 cubic units",
+    "solution": "V=5·2·3+2·2·3=30+12=42 cubic units.",
+    "qaExpr": "5*2*3+2*2*3",
+    "qaValue": 42
+  },
+  {
+    "number": 3,
+    "group": "Skill Check",
+    "question": "A cylinder of radius 2 in and height 3 in is topped by a cylinder of the same radius and height 2 in. Find the total volume in terms of π.",
+    "answer": "20π in³",
+    "solution": "Add π·2²·3=12π and π·2²·2=8π. Total=20π in³.",
+    "qaExpr": "Math.PI*2**2*3+Math.PI*2**2*2",
+    "qaValue": 62.83185307179586
+  },
+  {
+    "number": 4,
+    "group": "Core Practice",
+    "question": "A block 6 m long, 4 m wide, and 2 m high supports a smaller block 2 m long, 4 m wide, and 3 m high. Find the total volume.",
+    "answer": "72 m³",
+    "solution": "The pieces touch but do not overlap: 6·4·2+2·4·3=48+24=72 m³.",
+    "qaExpr": "6*4*2+2*4*3",
+    "qaValue": 72
+  },
+  {
+    "number": 5,
+    "group": "Core Practice",
+    "question": "A cone with radius 3 cm and height 6 cm sits on a cylinder with radius 3 cm and height 4 cm. What is the total volume?",
+    "answer": "54π cm³",
+    "solution": "Cylinder: π·3²·4=36π. Cone: (1/3)π·3²·6=18π. Sum=54π cm³.",
+    "qaExpr": "Math.PI*3**2*4+Math.PI*3**2*6/3",
+    "qaValue": 169.64600329384882
+  },
+  {
+    "number": 6,
+    "group": "Core Practice",
+    "question": "A solid block 8 cm by 5 cm by 3 cm has a 2 cm by 2 cm by 3 cm rectangular tunnel removed. Find the remaining volume.",
+    "answer": "108 cm³",
+    "solution": "Original volume=8·5·3=120. Tunnel volume=2·2·3=12. Remaining=120−12=108 cm³.",
+    "qaExpr": "8*5*3-2*2*3",
+    "qaValue": 108
+  }
+]
