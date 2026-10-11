@@ -1,0 +1,1 @@
+[{"number":5,"difficulty":"Hard / Exam-Style","question":"A parallelogram has base 16 and height 9. A triangle of base 4 and height 6 is removed. Find remaining area.","choices":["120","132","138","144"],"correct":1,"answer":"132","solution":"Parallelogram area=144; triangle area=12; remainder=132."}]
