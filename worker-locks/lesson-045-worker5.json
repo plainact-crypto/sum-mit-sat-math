@@ -1,1 +1,16 @@
-{"lesson":45,"slug":"systems-word-problems","worker":"worker5","status":"IN_PROGRESS","branch":"automation/worker5-lesson45-systems-word-problems-20261011"}
+{
+  "lesson": 45,
+  "slug": "systems-word-problems",
+  "worker": "worker5",
+  "status": "BUILD_VERIFIED_PENDING_MERGE",
+  "branch": "automation/worker5-lesson45-systems-word-problems-20261011",
+  "mathQA": "23/23 PASS",
+  "practice": "18 (3/8/5/2)",
+  "answers": 18,
+  "test": 5,
+  "videoChapters": "12 English + 12 Arabic",
+  "routes": "6/6 local build PASS",
+  "build": "npm run build PASS; release verified: systems-word-problems",
+  "pr": "blocked by safety checks",
+  "liveVerified": false
+}
