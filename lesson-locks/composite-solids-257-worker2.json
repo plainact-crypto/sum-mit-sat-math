@@ -4,7 +4,9 @@
   "slug": "composite-solids",
   "canonical_base": "/geometry-and-trigonometry/volume-and-surface-area/composite-solids",
   "owner": "SUMMIT Worker 2",
-  "status": "IN_PROGRESS",
+  "status": "BLOCKED_UPLOAD",
   "started_on": "2026-10-11",
-  "branch": "worker2/composite-solids-257-20261011"
+  "branch": "worker2/composite-solids-257-20261011",
+  "blocker": "16 explanation sections, 18 aligned problems/answers, 5 progressive test questions, and 12 EN+12 AR scenes committed; all 23 arithmetic expressions checked. Core builder and unique six-route manifest committed. GitHub safety checks repeatedly rejected video-route builder creation and core-builder update. Required builder missing, registry not integrated, full repository build not run; do not merge or mark LIVE_VERIFIED.",
+  "blocked_on": "2026-10-11"
 }
