@@ -1,0 +1,17 @@
+{
+  "lesson": "cones",
+  "builders": [
+    "cones-lesson253-explanation-build.js",
+    "cones-lesson253-practice-build.js",
+    "cones-lesson253-test-build.js",
+    "cones-lesson253-video-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/volume-and-surface-area/cones/explanation/",
+    "/geometry-and-trigonometry/volume-and-surface-area/cones/problems/",
+    "/geometry-and-trigonometry/volume-and-surface-area/cones/answers/",
+    "/geometry-and-trigonometry/volume-and-surface-area/cones/test/",
+    "/geometry-and-trigonometry/volume-and-surface-area/cones/video/english/",
+    "/geometry-and-trigonometry/volume-and-surface-area/cones/video/arabic/"
+  ]
+}
