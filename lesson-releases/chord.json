@@ -1,0 +1,17 @@
+{
+  "lesson": "chord",
+  "builders": [
+    "chord-lesson268-explanation-build.js",
+    "chord-lesson268-practice-build.js",
+    "chord-lesson268-test-build.js",
+    "chord-lesson268-full-lesson-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/circles/circle-vocabulary/chord/explanation/",
+    "/geometry-and-trigonometry/circles/circle-vocabulary/chord/problems/",
+    "/geometry-and-trigonometry/circles/circle-vocabulary/chord/answers/",
+    "/geometry-and-trigonometry/circles/circle-vocabulary/chord/test/",
+    "/geometry-and-trigonometry/circles/circle-vocabulary/chord/video/english/",
+    "/geometry-and-trigonometry/circles/circle-vocabulary/chord/video/arabic/"
+  ]
+}
