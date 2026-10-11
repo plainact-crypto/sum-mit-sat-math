@@ -1,0 +1,15 @@
+{
+  "lesson_index": 177,
+  "lesson": "percent-change",
+  "state": "BLOCKED_PENDING_BUILDER_AND_REGISTRY",
+  "blocked_at": "2026-10-11",
+  "reason": "Required builder upload rejected by connected GitHub write safety checks on repeated attempts; do not merge release manifest alone.",
+  "manifest": "lesson-releases/percent-change.json",
+  "missing": [
+    "percent-change-lesson177-build.js",
+    "explanation-retrofit-registry.js entry",
+    "full repository build",
+    "production route validation"
+  ],
+  "next_owned_index": 182
+}
