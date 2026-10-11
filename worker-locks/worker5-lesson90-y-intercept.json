@@ -1,0 +1,9 @@
+{
+  "worker": "SUMMIT Worker 5",
+  "lessonIndex": 90,
+  "slug": "y-intercept",
+  "branch": "automation/worker5-lesson90-quadratic-y-intercept-20261011",
+  "contract": "fix/required-lesson-builders-20261010",
+  "status": "IN_PROGRESS",
+  "notes": "Canonical #90, owned exclusively by Worker 5; require 23/23 math QA, six-route build, registry gate, production READY and live checks before release."
+}
