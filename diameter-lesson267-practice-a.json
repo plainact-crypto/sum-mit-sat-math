@@ -1,1 +1,23 @@
-[{"number":1,"group":"Skill Check","question":"Radius 6; diameter?","answer":"12","solution":"2 times 6."}]
+[
+  {
+    "number": 1,
+    "group": "Skill Check",
+    "question": "A circle has radius 6 cm. Find its diameter.",
+    "answer": "12 cm",
+    "solution": "d=2r=2(6)=12 cm."
+  },
+  {
+    "number": 2,
+    "group": "Skill Check",
+    "question": "A circle has diameter 18 inches. Find its radius.",
+    "answer": "9 inches",
+    "solution": "r=d/2=18/2=9 inches."
+  },
+  {
+    "number": 3,
+    "group": "Skill Check",
+    "question": "Endpoints of a diameter are (-5,0) and (7,0). Find the diameter.",
+    "answer": "12 units",
+    "solution": "The horizontal distance is 7-(-5)=12 units."
+  }
+]
