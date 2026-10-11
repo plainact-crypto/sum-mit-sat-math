@@ -1,3 +1,4 @@
+require('./vertical-translation-lesson92-qa-build');
 require('./vertical-translation-build-explanation');
 require('./vertical-translation-build-practice');
 require('./vertical-translation-build-test');
