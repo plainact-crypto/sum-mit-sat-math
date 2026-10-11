@@ -1,0 +1,12 @@
+{
+  "lesson": 182,
+  "slug": "histograms",
+  "state": "BLOCKED_PARTIAL_GITHUB_CONTENT",
+  "local_math_qa": "18/18 practice and 5/5 test passed",
+  "local_route_qa": "6/6 generated",
+  "github_manifest": "lesson-releases/histograms.json",
+  "required_builder_missing": "histograms-lesson182-build.js",
+  "graph_registry_missing": true,
+  "production_verified": false,
+  "merge_allowed": false
+}
