@@ -1,0 +1,293 @@
+{
+  "lesson_index": 273,
+  "slug": "sector-area",
+  "title": "Sector Area",
+  "base": "geometry-and-trigonometry/circles/other-circle-leaves/sector-area",
+  "subject": "Geometry and Trigonometry",
+  "section": "Circles · Other Circle Leaves",
+  "classification": "GRAPH",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "prompt": "A circle has radius 6 and central angle 90°. Find the coefficient of π in the sector area.",
+      "answer": "9",
+      "solution": "Area=(90/360)π(6²)=9π, so the coefficient is 9.",
+      "qa": {
+        "type": "sector",
+        "r": 6,
+        "angle": 90
+      }
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "prompt": "A sector has radius 4 and central angle 180°. Find the coefficient of π in its area.",
+      "answer": "8",
+      "solution": "A semicircle is half the disk: (180/360)π(4²)=8π.",
+      "qa": {
+        "type": "sector",
+        "r": 4,
+        "angle": 180
+      }
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "prompt": "A 360° sector has radius 3. Find the coefficient of π in its area.",
+      "answer": "9",
+      "solution": "A full turn is the entire circle, so area=π(3²)=9π.",
+      "qa": {
+        "type": "sector",
+        "r": 3,
+        "angle": 360
+      }
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "prompt": "A sector has radius 10 and central angle 36°. Find the coefficient of π in its area.",
+      "answer": "10",
+      "solution": "The fraction is 36/360=1/10. Multiply by r²=100 to get area 10π.",
+      "qa": {
+        "type": "sector",
+        "r": 10,
+        "angle": 36
+      }
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "prompt": "A radius-12 sector has a central angle of 30°. Find the coefficient of π in its area.",
+      "answer": "12",
+      "solution": "Thirty degrees is one twelfth of a full turn. Area=(1/12)π(144)=12π.",
+      "qa": {
+        "type": "sector",
+        "r": 12,
+        "angle": 30
+      }
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "prompt": "A sector has radius 9 and angle 120°. Find the coefficient of π in its area.",
+      "answer": "27",
+      "solution": "120/360=1/3. Area=(1/3)π(81)=27π.",
+      "qa": {
+        "type": "sector",
+        "r": 9,
+        "angle": 120
+      }
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "prompt": "A sector has radius 8 and angle 45°. Find the coefficient of π in its area.",
+      "answer": "8",
+      "solution": "45/360=1/8. Area=(1/8)π(64)=8π.",
+      "qa": {
+        "type": "sector",
+        "r": 8,
+        "angle": 45
+      }
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "prompt": "A circular garden sector has radius 15 m and central angle 72°. Find the coefficient of π in its area in m².",
+      "answer": "45",
+      "solution": "72/360=1/5, so area=(1/5)π(225)=45π square meters.",
+      "qa": {
+        "type": "sector",
+        "r": 15,
+        "angle": 72
+      }
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "prompt": "A sector has radius 6 and angle 60°. Find the coefficient of π in its area.",
+      "answer": "6",
+      "solution": "60/360=1/6. Area=(1/6)π(36)=6π.",
+      "qa": {
+        "type": "sector",
+        "r": 6,
+        "angle": 60
+      }
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "prompt": "A sector in a circle of radius 10 has area 25π. Find its central angle in degrees.",
+      "answer": "90",
+      "solution": "25π=(θ/360)100π, so θ/360=1/4 and θ=90°.",
+      "qa": {
+        "type": "angle",
+        "r": 10,
+        "coeff": 25
+      }
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "prompt": "A semicircular sector has area 18π. Find its radius.",
+      "answer": "6",
+      "solution": "18π=(1/2)πr², so r²=36 and r=6.",
+      "qa": {
+        "type": "radius",
+        "angle": 180,
+        "coeff": 18
+      }
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "prompt": "A sector has radius 14 and angle 90°. Find the coefficient of π in its area.",
+      "answer": "49",
+      "solution": "The sector is a quarter circle: (1/4)π(14²)=49π.",
+      "qa": {
+        "type": "sector",
+        "r": 14,
+        "angle": 90
+      }
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "prompt": "A sector has radius 18 and central angle 40°. Find the coefficient of π in its area.",
+      "answer": "36",
+      "solution": "40/360=1/9. Area=(1/9)π(18²)=36π.",
+      "qa": {
+        "type": "sector",
+        "r": 18,
+        "angle": 40
+      }
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "prompt": "A sector has radius 12 and central angle 90°. Find the coefficient of π in its ARC LENGTH (not area).",
+      "answer": "6",
+      "solution": "Arc length=(90/360)×2π×12=(1/4)×24π=6π. Do not use the area formula.",
+      "qa": {
+        "type": "arc",
+        "r": 12,
+        "angle": 90
+      }
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "prompt": "An annular sector has outer radius 10, inner radius 6, and angle 90°. Find the coefficient of π in its area.",
+      "answer": "16",
+      "solution": "Subtract the inner sector: (90/360)π(10²−6²)=(1/4)π(64)=16π.",
+      "qa": {
+        "type": "annular",
+        "R": 10,
+        "r": 6,
+        "angle": 90
+      }
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "prompt": "A sector has radius 20 and angle 27°. Find the coefficient of π in its area.",
+      "answer": "30",
+      "solution": "27/360=3/40. Multiply by 20²=400 to get 30π.",
+      "qa": {
+        "type": "sector",
+        "r": 20,
+        "angle": 27
+      }
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "prompt": "Two adjacent sectors of the same radius-12 circle have central angles 75° and 45°. Find the coefficient of π in their COMBINED area.",
+      "answer": "48",
+      "solution": "Combine angles first: 75°+45°=120°. The area is (120/360)π(12²)=48π.",
+      "qa": {
+        "type": "combined",
+        "r": 12,
+        "a1": 75,
+        "a2": 45
+      }
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "prompt": "An annular sector has outer radius 10, inner radius 2, and area 24π. Find its central angle in degrees.",
+      "answer": "90",
+      "solution": "24π=(θ/360)π(100−4)=(θ/360)96π. Thus θ/360=1/4, so θ=90°.",
+      "qa": {
+        "type": "annularAngle",
+        "R": 10,
+        "r": 2,
+        "coeff": 24
+      }
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "difficulty": "Easy",
+      "prompt": "A sector has radius 8 and central angle 90°. Find the coefficient of π in its area.",
+      "answer": "16",
+      "solution": "(90/360)π(8²)=16π, so the coefficient is 16.",
+      "qa": {
+        "type": "sector",
+        "r": 8,
+        "angle": 90
+      }
+    },
+    {
+      "index": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "A radius-6 sector has a central angle of 120°. Find the coefficient of π in its area.",
+      "answer": "12",
+      "solution": "One third of π×36 gives 12π.",
+      "qa": {
+        "type": "sector",
+        "r": 6,
+        "angle": 120
+      }
+    },
+    {
+      "index": 3,
+      "difficulty": "Medium",
+      "prompt": "A sector has radius 12 and angle 60°. Find the coefficient of π in its area.",
+      "answer": "24",
+      "solution": "60/360=1/6, so area=(1/6)π(144)=24π.",
+      "qa": {
+        "type": "sector",
+        "r": 12,
+        "angle": 60
+      }
+    },
+    {
+      "index": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "A sector has central angle 90° and area 16π. Find its radius.",
+      "answer": "8",
+      "solution": "16π=(1/4)πr², so r²=64 and r=8.",
+      "qa": {
+        "type": "radius",
+        "angle": 90,
+        "coeff": 16
+      }
+    },
+    {
+      "index": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "An annular sector has outer radius 15, inner radius 9, and central angle 120°. Find the coefficient of π in its area.",
+      "answer": "48",
+      "solution": "(120/360)π(15²−9²)=(1/3)π(225−81)=48π.",
+      "qa": {
+        "type": "annular",
+        "R": 15,
+        "r": 9,
+        "angle": 120
+      }
+    }
+  ]
+}
