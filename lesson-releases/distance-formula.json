@@ -1,0 +1,18 @@
+{
+  "lesson": "distance-formula",
+  "builders": [
+    "distance-formula-lesson258-explanation-build.js",
+    "distance-formula-lesson258-practice-build.js",
+    "distance-formula-lesson258-test-build.js",
+    "distance-formula-lesson258-video-build.js",
+    "distance-formula-lesson258-qa.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/coordinate-geometry/distance-formula/explanation/",
+    "/geometry-and-trigonometry/coordinate-geometry/distance-formula/problems/",
+    "/geometry-and-trigonometry/coordinate-geometry/distance-formula/answers/",
+    "/geometry-and-trigonometry/coordinate-geometry/distance-formula/test/",
+    "/geometry-and-trigonometry/coordinate-geometry/distance-formula/video/english/",
+    "/geometry-and-trigonometry/coordinate-geometry/distance-formula/video/arabic/"
+  ]
+}
