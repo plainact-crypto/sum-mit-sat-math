@@ -1,0 +1,26 @@
+[
+  {
+    "number": 1,
+    "group": "Skill Check",
+    "dataset": "A",
+    "question": "How many puzzle times are represented altogether?",
+    "answer": "25",
+    "solution": "2+5+9+6+3=25."
+  },
+  {
+    "number": 2,
+    "group": "Skill Check",
+    "dataset": "A",
+    "question": "Which interval is the modal bin?",
+    "answer": "[20,30) minutes",
+    "solution": "The largest frequency is 9, in [20,30)."
+  },
+  {
+    "number": 3,
+    "group": "Skill Check",
+    "dataset": "B",
+    "question": "How many days fall in [4,6) thousand steps?",
+    "answer": "10",
+    "solution": "The third bin has frequency 10."
+  }
+]
