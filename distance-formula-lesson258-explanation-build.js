@@ -1,0 +1,15 @@
+'use strict';
+const {math,explanation,esc,page,write}=require('./distance-formula-lesson258-common.js');
+const A=[-2,-1],B=[4,7],C=[B[0],A[1]],dx=B[0]-A[0],dy=B[1]-A[1];
+if(dx!==6||dy!==8||Math.hypot(dx,dy)!==10)throw Error('Coordinate diagram math QA failed');
+const sx=x=>180+32*x,sy=y=>350-32*y;
+const grid=[];
+for(let x=-4;x<=9;x++)grid.push('<line x1="'+sx(x)+'" y1="30" x2="'+sx(x)+'" y2="478" stroke="#d8e6f2"/>');
+for(let y=-4;y<=10;y++)grid.push('<line x1="48" y1="'+sy(y)+'" x2="468" y2="'+sy(y)+'" stroke="#d8e6f2"/>');
+const line=(p,q,color,width=3,dash='')=>'<line x1="'+sx(p[0])+'" y1="'+sy(p[1])+'" x2="'+sx(q[0])+'" y2="'+sy(q[1])+'" stroke="'+color+'" stroke-width="'+width+'"'+(dash?' stroke-dasharray="'+dash+'"':'')+'/>';
+const dot=(p,label,dx=8,dy=-9)=>'<circle cx="'+sx(p[0])+'" cy="'+sy(p[1])+'" r="5" fill="#163f78"/><text x="'+(sx(p[0])+dx)+'" y="'+(sy(p[1])+dy)+'" fill="#102d4b" font-size="14">'+label+'</text>';
+const svg='<figure data-retrofit-graph="true"><svg viewBox="0 0 500 500" role="img" aria-label="Coordinate plane with A negative two negative one, B four seven, horizontal leg six, vertical leg eight, and distance ten"><rect x="0" y="0" width="500" height="500" fill="#f7fbff"/>'+grid.join('')+line([0,-4],[0,10],'#46647f',1.5)+line([-4,0],[9,0],'#46647f',1.5)+line(A,C,'#a85a36',3,'7 5')+line(C,B,'#a85a36',3,'7 5')+line(A,B,'#0e648c',4)+dot(A,'A (−2, −1)',-84,23)+dot(B,'B (4, 7)',10,-11)+dot(C,'C (4, −1)',10,18)+'<path d="M '+(sx(C[0])-14)+' '+sy(C[1])+' L '+(sx(C[0])-14)+' '+(sy(C[1])-14)+' L '+sx(C[0])+' '+(sy(C[1])-14)+'" fill="none" stroke="#b45b35" stroke-width="2"/><text x="196" y="400" fill="#9a492c">Δx = 6</text><text x="317" y="259" fill="#9a492c">Δy = 8</text><text x="159" y="232" fill="#0e648c">d = 10</text></svg><figcaption>Exact equal-scale plot: A(−2,−1), B(4,7); Δx=6, Δy=8, d=√(36+64)=10.</figcaption></figure>';
+const desmos='<div class="summit-desmos-strategy"><h3>DESMOS STRATEGY</h3><p><b>Enter:</b> A=(-2,-1), B=(4,7), sqrt((4-(-2))^2+(7-(-1))^2).</p><p><b>Look for:</b> The two points and the value 10.</p><p><b>Use it to answer:</b> Confirm AB=10.</p><p><b>Why it works:</b> Horizontal and vertical differences form perpendicular legs, so Pythagoras gives the distance.</p><p><b>Faster or not?</b> Not for simple integer triples; helpful to verify awkward decimals.</p><p><b>Independent check:</b> 6²+8²=100.</p></div>';
+const body='<!-- SUMMIT_RETROFIT:distance-formula:BOTH -->'+explanation.map((s,i)=>'<section class="lesson-section"><span class="section-kicker">'+String(i+1).padStart(2,'0')+' · '+esc(s[0])+'</span><h2>'+esc(s[0])+'</h2><p>'+esc(s[1])+'</p>'+(i===10?svg:'')+(i===11?desmos:'')+'</section>').join('');
+write('explanation',page('Explanation',body));
+console.log('Lesson 258 explanation: '+explanation.length+' sections; exact coordinate graph verified');
