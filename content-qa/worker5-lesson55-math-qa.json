@@ -1,0 +1,51 @@
+{
+  "lesson": "overlapping-solution-regions",
+  "canonicalIndex": 55,
+  "date": "2026-10-11",
+  "distribution": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "practice": 18,
+  "alignedAnswers": 18,
+  "test": 5,
+  "independentPracticeAnswerIndices": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    2,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    2,
+    0,
+    2,
+    2
+  ],
+  "independentTestAnswerIndices": [
+    0,
+    0,
+    1,
+    1,
+    0
+  ],
+  "all23Correct": true,
+  "specificMathChecks": [
+    "Boundary y=x+2 and y=-2x+8 intersects at (2,4)",
+    "For y>-x+5 and y<x+1, overlap requires x>2",
+    "For y>=0.5x+2 and y<=-x+8, overlap requires x<=4",
+    "For x>=2, y>=x-1 and y<=7-x, max x=4",
+    "Challenge 17: x<=3 and at x=3, y=5 works",
+    "Challenge 18: at x=2, 2+k<=4 so k<=2"
+  ],
+  "status": "PASS"
+}
