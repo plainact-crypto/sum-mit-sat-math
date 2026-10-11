@@ -18,7 +18,7 @@
     ],
     [
       "Square roots and signs",
-      "For y=x²−16, set x²−16=0, so x²=16. Both x=4 and x=−4 work. The intercepts are (−4,0) and (4,0). Remember both signs when taking a square root."
+      "For y=x²−16, set x²−16=0, so x²=16. Both x=4 and x=−4 work. The intercepts are (−4,0) and (4,0). Remember both signs when taking a square root. Both values must be reported when the question asks for all real intersections."
     ],
     [
       "One repeated intercept",
@@ -34,11 +34,11 @@
     ],
     [
       "Vertex form",
-      "For y=(x−6)²−9, set y=0, giving (x−6)²=9. Then x−6=±3, so x=3 or x=9. These are the intercepts (3,0) and (9,0). This avoids unnecessary expansion."
+      "For y=(x−6)²−9, set y=0, giving (x−6)²=9. Then x−6=±3, so x=3 or x=9. These are the intercepts (3,0) and (9,0). This avoids unnecessary expansion. Check by substitution: both three and nine make the function equal zero."
     ],
     [
       "Parameter problem",
-      "If y=x²−6x+m touches the x-axis once, its discriminant must be zero. Solve 36−4m=0 to obtain m=9. Then y=(x−3)², confirming a repeated root at x=3."
+      "If y=x²−6x+m touches the x-axis once, its discriminant must be zero. Solve 36−4m=0 to obtain m=9. Then y=(x−3)², confirming a repeated root at x=3. This condition guarantees that the parabola has exactly one distinct real x-intercept."
     ],
     [
       "Desmos verification",
