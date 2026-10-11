@@ -1,0 +1,66 @@
+[
+  {
+    "heading": "LESSON OBJECTIVE",
+    "text": "Find the volume and exposed surface area of composite three-dimensional solids by decomposing them into familiar shapes, adding or subtracting the correct measures, and keeping units consistent."
+  },
+  {
+    "heading": "WHAT YOU NEED TO KNOW",
+    "text": "A composite solid is assembled from prisms, cylinders, cones, pyramids, spheres, or portions of them. Volume measures space occupied; surface area measures only the exterior covering. Draw boundaries for the components before calculating."
+  },
+  {
+    "heading": "KEY DEFINITIONS",
+    "text": "Base area B is the area of a solid's cross section perpendicular to its height. A hemisphere is half a sphere. An interior shared face is hidden and is not part of exposed surface area. A removed cavity contributes negative volume."
+  },
+  {
+    "heading": "CORE RULE",
+    "text": "Add non-overlapping volumes and subtract removed volumes: Vtotal=ΣVparts−ΣVvoids. Prism V=Bh; rectangular prism V=lwh; cylinder V=πr²h; cone/pyramid V=Bh/3; sphere V=4πr³/3; hemisphere V=2πr³/3."
+  },
+  {
+    "heading": "HOW IT WORKS",
+    "text": "Step 1: Sketch or label the component shapes and their dimensions. Step 2: Check whether pieces are added, overlap, or are cut out. Step 3: Apply the appropriate formula to each component. Step 4: Add or subtract. Step 5: Express volume in cubic units and surface area in square units."
+  },
+  {
+    "heading": "WORKED EXAMPLE 1 — STACKED PRISMS",
+    "text": "A 6×4×2 rectangular block supports a 2×4×3 block. They touch without overlapping. V=6·4·2+2·4·3=48+24=72 cubic units. Do not count their common face as extra volume."
+  },
+  {
+    "heading": "WORKED EXAMPLE 2 — CYLINDER AND CONE",
+    "text": "A cone with radius 3 and height 6 rests on a cylinder of radius 3 and height 4. Vcylinder=π·3²·4=36π; Vcone=(1/3)π·3²·6=18π. Total=54π cubic units."
+  },
+  {
+    "heading": "WORKED EXAMPLE 3 — CUT-OUT",
+    "text": "A 8×5×3 block has a 2×2×3 rectangular opening cut all the way through. Start with 8·5·3=120 and subtract 2·2·3=12. Remaining volume=108 cubic units."
+  },
+  {
+    "heading": "WORKED EXAMPLE 4 — CURVED CAP",
+    "text": "A hemisphere of radius 3 caps a cylinder of radius 3 and height 5. Hemisphere volume=(2/3)π·3³=18π; cylinder volume=π·3²·5=45π. Total=63π cubic units."
+  },
+  {
+    "heading": "WORKED EXAMPLE 5 — EXPOSED SURFACE AREA",
+    "text": "Two cubes of side 3 are glued face-to-face. Each cube has surface area 6·3²=54. The glued face is counted once on each cube but is hidden twice. Exposed area=54+54−2·9=90 square units."
+  },
+  {
+    "heading": "VISUAL STRATEGY",
+    "text": "Make a dimensioned component table with columns Shape, Dimensions, Formula, Signed Contribution. For surface area, cross out shared faces on both touching components. A dimensioned net or 3-D sketch is useful, but a coordinate graph or Desmos is not needed."
+  },
+  {
+    "heading": "COMMON MISTAKES",
+    "text": "Do not add a cavity's volume. Do not double-count overlapping pieces. Do not include internal glued faces in exterior area. Do not use diameter in place of radius, or use linear units for a volume answer. Keep π exact unless rounding is requested."
+  },
+  {
+    "heading": "EXAM STRATEGY",
+    "text": "Look for the quickest decomposition: stacked shapes add, holes subtract, and equal-radius caps often factor πr². When asked for a missing height, subtract the known component's volume first, then divide by the remaining base-area factor."
+  },
+  {
+    "heading": "QUICK CHECK",
+    "text": "A 2×3×4 prism plus a 2×3×1 prism has volume 30. A cylinder r=2,h=3 has volume 12π. A cone r=2,h=3 has volume 4π. Two 2-unit cubes glued face-to-face have exposed area 40, not 48."
+  },
+  {
+    "heading": "LESSON RECAP",
+    "text": "Volume is additive for non-overlapping pieces: sum components minus holes. Exposed surface area excludes hidden contact faces. For a cylinder and hemisphere with common radius r, V=πr²h+(2/3)πr³ and exterior area=2πrh+3πr²."
+  },
+  {
+    "heading": "NEXT STEP",
+    "text": "Complete 18 original practice questions in increasing difficulty, compare each with its aligned worked solution, take the five-question final test, then review the English or Arabic full-lesson instructional route."
+  }
+]
