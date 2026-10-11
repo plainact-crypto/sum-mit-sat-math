@@ -1,0 +1,1 @@
+[{"group":"Hard / Exam-Style","prompt":"For what value of t is x²+y²−10x+6y+t=0 tangent to the y-axis?","answer":"9","solution":"The center is (5,-3), so radius 5 and 34-t=25 gives t=9.","choices":["9","25","34","-9"],"qa":{"kind":"tangentYAxis","D":-10,"E":6,"t":9}}]
