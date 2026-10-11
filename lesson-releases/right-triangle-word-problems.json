@@ -1,0 +1,17 @@
+{
+  "lesson": "right-triangle-word-problems",
+  "builders": [
+    "right-triangle-word-problems-lesson293-explanation-build.js",
+    "right-triangle-word-problems-lesson293-practice-build.js",
+    "right-triangle-word-problems-lesson293-test-build.js",
+    "right-triangle-word-problems-lesson293-full-lesson-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/right-triangle-trigonometry/right-triangle-word-problems/explanation/",
+    "/geometry-and-trigonometry/right-triangle-trigonometry/right-triangle-word-problems/problems/",
+    "/geometry-and-trigonometry/right-triangle-trigonometry/right-triangle-word-problems/answers/",
+    "/geometry-and-trigonometry/right-triangle-trigonometry/right-triangle-word-problems/test/",
+    "/geometry-and-trigonometry/right-triangle-trigonometry/right-triangle-word-problems/video/english/",
+    "/geometry-and-trigonometry/right-triangle-trigonometry/right-triangle-word-problems/video/arabic/"
+  ]
+}
