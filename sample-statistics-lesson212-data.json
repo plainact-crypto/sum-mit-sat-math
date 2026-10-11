@@ -1,0 +1,398 @@
+{
+  "slug": "sample-statistics",
+  "title": "Sample Statistics",
+  "base": "/problem-solving-and-data-analysis/sampling-and-inference/sample-statistics",
+  "classification": "NEITHER",
+  "explanation": [
+    {
+      "heading": "LESSON OBJECTIVE",
+      "text": "Compute and interpret sample statistics: mean, median, mode, range, sample proportion, and weighted combined mean. Use sample results to estimate a population quantity while recognizing sampling uncertainty."
+    },
+    {
+      "heading": "WHAT YOU NEED TO KNOW",
+      "text": "A sample is a subset of a population. A sample statistic summarizes observed sample data; a population parameter describes the whole population. A statistic may vary across random samples."
+    },
+    {
+      "heading": "KEY DEFINITIONS",
+      "text": "Sample size n: number observed. Sample mean: sum of values divided by n. Median: middle ordered value. Mode: most frequent value. Range: maximum minus minimum. Sample proportion: successes divided by n."
+    },
+    {
+      "heading": "CORE RULE",
+      "text": "Mean = sum/n; proportion = favorable/n; range = max−min. For groups of sizes n₁ and n₂, combined mean = (n₁×mean₁+n₂×mean₂)/(n₁+n₂). Estimate count = sample proportion × population size."
+    },
+    {
+      "heading": "HOW IT WORKS",
+      "text": "1. Identify the requested statistic and sample size. 2. Sort data for median, count frequencies for mode, or sum for mean. 3. For proportions, use sample successes over sample size. 4. Weight group means by group sizes. 5. Keep conclusions appropriately approximate."
+    },
+    {
+      "heading": "WORKED EXAMPLE 1 — MEAN",
+      "text": "Sample values 4, 6, 8, 10. Mean=(4+6+8+10)/4=7. The mean balances the total across observations."
+    },
+    {
+      "heading": "WORKED EXAMPLE 2 — MEDIAN",
+      "text": "Sorted sample 2, 4, 7, 9, 12 has median 7. For 2, 4, 7, 9, the median is (4+7)/2=5.5."
+    },
+    {
+      "heading": "WORKED EXAMPLE 3 — PROPORTION",
+      "text": "In a random sample of 80, 28 prefer cycling. Sample proportion=28/80=0.35, or 35%. This estimates the population preference, not an exact census count."
+    },
+    {
+      "heading": "WORKED EXAMPLE 4 — WEIGHTED MEAN",
+      "text": "Eight students average 72; twelve average 82. Combined mean=(8×72+12×82)/20=78. Averaging 72 and 82 equally would ignore group sizes."
+    },
+    {
+      "heading": "WORKED EXAMPLE 5 — ESTIMATING A COUNT",
+      "text": "If 30 of 120 surveyed residents support a proposal, estimated proportion=1/4. In a population of 500, estimated supporters≈500/4=125, subject to sampling uncertainty."
+    },
+    {
+      "heading": "SAMPLE TABLE / VISUAL STRATEGY",
+      "text": "Organize observations in a sorted table and count each value's frequency. For two groups, show columns for sample size, group mean, and group total n×mean. These deterministic arithmetic tables prevent unweighted-average errors."
+    },
+    {
+      "heading": "COMMON MISTAKES",
+      "text": "Do not confuse a sample statistic with a known population parameter. Sort before finding the median. Do not divide by population size when calculating a sample proportion. Do not average group means without weighting by sample size."
+    },
+    {
+      "heading": "EXAM STRATEGY",
+      "text": "Check whether the question asks for a statistic, an estimate, or a population parameter. Use totals to combine means. For even-sized samples, average the two middle values. Round only when requested."
+    },
+    {
+      "heading": "QUICK CHECK",
+      "text": "Sample 2,4,6 has mean 4. Sample 1,3,7,9 has median 5. If 15 of 60 respondents agree, sample proportion is 1/4. Equal-size group means 10 and 20 combine to 15."
+    },
+    {
+      "heading": "LESSON RECAP",
+      "text": "Mean=sum/n; median=middle ordered value; range=max−min; proportion=count/n; combined mean is size-weighted. Sample-based population estimates are approximate."
+    },
+    {
+      "heading": "NEXT STEP",
+      "text": "Solve 18 practice questions, check 18 worked solutions, then take the five-question test. Review the bilingual full-lesson instructional routes."
+    }
+  ],
+  "practice": [
+    {
+      "number": 1,
+      "group": "Skill Check",
+      "question": "What is the sample mean of 2, 4, 6, and 8?",
+      "answer": "5",
+      "solution": "Sum=20 and n=4, so mean=20/4=5."
+    },
+    {
+      "number": 2,
+      "group": "Skill Check",
+      "question": "What is the median of the ordered sample 3, 5, 7, 9, 11?",
+      "answer": "7",
+      "solution": "The middle of five ordered values is the third, 7."
+    },
+    {
+      "number": 3,
+      "group": "Skill Check",
+      "question": "In a sample of 50, 12 prefer tea. What is the sample proportion?",
+      "answer": "6/25",
+      "solution": "Proportion=12/50=6/25."
+    },
+    {
+      "number": 4,
+      "group": "Core Practice",
+      "question": "What is the mode of the sample 4, 7, 7, 9, 13?",
+      "answer": "7",
+      "solution": "Seven occurs twice; every other value once."
+    },
+    {
+      "number": 5,
+      "group": "Core Practice",
+      "question": "What is the range of 6, 8, 9, 12, 15?",
+      "answer": "9",
+      "solution": "Maximum−minimum=15−6=9."
+    },
+    {
+      "number": 6,
+      "group": "Core Practice",
+      "question": "Among 80 surveyed students, 28 prefer cycling. What proportion prefer cycling?",
+      "answer": "7/20",
+      "solution": "28/80 simplifies to 7/20=0.35."
+    },
+    {
+      "number": 7,
+      "group": "Core Practice",
+      "question": "Find the mean of 10, 12, 14, 14, 20.",
+      "answer": "14",
+      "solution": "Total 70 divided by 5 is 14."
+    },
+    {
+      "number": 8,
+      "group": "Core Practice",
+      "question": "Find the median of the ordered sample 2, 3, 7, 10, 11, 17.",
+      "answer": "17/2",
+      "solution": "Six values: median=(third+fourth)/2=(7+10)/2=17/2."
+    },
+    {
+      "number": 9,
+      "group": "Core Practice",
+      "question": "Twelve sampled test scores sum to 960. What is the sample mean?",
+      "answer": "80",
+      "solution": "Mean=total/n=960/12=80."
+    },
+    {
+      "number": 10,
+      "group": "Core Practice",
+      "question": "Six observations have mean 18. Five sum to 85. What is the sixth observation?",
+      "answer": "23",
+      "solution": "Total=6×18=108. Missing value=108−85=23."
+    },
+    {
+      "number": 11,
+      "group": "Core Practice",
+      "question": "What is the median of the ordered sample 5, 6, 8, 9, 12, 14, 16?",
+      "answer": "9",
+      "solution": "Seven observations: the fourth value is 9."
+    },
+    {
+      "number": 12,
+      "group": "Exam-Style",
+      "question": "30 of 120 randomly sampled residents support a plan. Estimate how many of 500 residents support it.",
+      "answer": "125",
+      "solution": "Sample proportion=30/120=1/4. Estimated count=500×1/4=125."
+    },
+    {
+      "number": 13,
+      "group": "Exam-Style",
+      "question": "45 of 150 sampled voters support a candidate. Estimate supporters among 900 voters.",
+      "answer": "270",
+      "solution": "Estimated proportion=45/150=0.3; 900×0.3=270."
+    },
+    {
+      "number": 14,
+      "group": "Exam-Style",
+      "question": "Two samples of ten observations each have means 15 and 18. What is their combined mean?",
+      "answer": "33/2",
+      "solution": "Combined total=10×15+10×18=330, n=20, mean=16.5."
+    },
+    {
+      "number": 15,
+      "group": "Exam-Style",
+      "question": "Six observations 8, 9, 10, 10, 11, 12 have mean 10. Add 16. What is the new mean?",
+      "answer": "76/7",
+      "solution": "Original sum=60. New total=76 over seven observations."
+    },
+    {
+      "number": 16,
+      "group": "Exam-Style",
+      "question": "A sample of 200 contains 95 supporters. What is the sample proportion?",
+      "answer": "19/40",
+      "solution": "95/200=19/40=0.475."
+    },
+    {
+      "number": 17,
+      "group": "Challenge",
+      "question": "Sample A has 12 supporters among 30; sample B has 42 among 70. Pool the samples. What is the overall support proportion?",
+      "answer": "27/50",
+      "solution": "Pool counts, not percentages: (12+42)/(30+70)=54/100=27/50."
+    },
+    {
+      "number": 18,
+      "group": "Challenge",
+      "question": "Three samples: n=20 mean=12, n=30 mean=15, n=50 mean=18. Find the combined mean.",
+      "answer": "159/10",
+      "solution": "Total=20×12+30×15+50×18=1590; total n=100; mean=15.9."
+    }
+  ],
+  "test": [
+    {
+      "number": 1,
+      "difficulty": "Easy",
+      "question": "What is the mean of 4, 6, 8?",
+      "answer": "6",
+      "choices": [
+        "6",
+        "5",
+        "7",
+        "8"
+      ],
+      "correct": 0,
+      "solution": "(4+6+8)/3=6."
+    },
+    {
+      "number": 2,
+      "difficulty": "Easy / Medium",
+      "question": "Nine of 36 surveyed people prefer buses. What is the sample proportion?",
+      "answer": "1/4",
+      "choices": [
+        "1/3",
+        "1/4",
+        "1/9",
+        "3/4"
+      ],
+      "correct": 1,
+      "solution": "9/36=1/4."
+    },
+    {
+      "number": 3,
+      "difficulty": "Medium",
+      "question": "Find the median of the ordered sample 1, 4, 6, 9.",
+      "answer": "5",
+      "choices": [
+        "4",
+        "6",
+        "5",
+        "9/2"
+      ],
+      "correct": 2,
+      "solution": "Average the two middle values: (4+6)/2=5."
+    },
+    {
+      "number": 4,
+      "difficulty": "Medium / Hard",
+      "question": "40 of 160 sampled residents support a plan. Estimate supporters among 900 residents.",
+      "answer": "225",
+      "choices": [
+        "200",
+        "250",
+        "180",
+        "225"
+      ],
+      "correct": 3,
+      "solution": "Proportion=40/160=1/4; estimate=900/4=225."
+    },
+    {
+      "number": 5,
+      "difficulty": "Hard / Exam-Style",
+      "question": "A sample of 15 students has mean 70; another of 25 has mean 86. What is their combined mean?",
+      "answer": "80",
+      "choices": [
+        "80",
+        "78",
+        "82",
+        "156"
+      ],
+      "correct": 0,
+      "solution": "Weighted mean=(15×70+25×86)/40=80."
+    }
+  ],
+  "video": {
+    "english": [
+      {
+        "title": "Lesson objective",
+        "narration": "Learn to calculate and interpret statistics from sample data.",
+        "math": "mean, median, proportion"
+      },
+      {
+        "title": "Population and sample",
+        "narration": "A sample is part of a larger population.",
+        "math": "sample ⊂ population"
+      },
+      {
+        "title": "Sample statistic",
+        "narration": "A statistic describes a sample; a parameter describes a population.",
+        "math": "statistic ≠ parameter"
+      },
+      {
+        "title": "Mean",
+        "narration": "Add observed values and divide by sample size.",
+        "math": "mean=Σx/n"
+      },
+      {
+        "title": "Median",
+        "narration": "Sort observations; average two middle values when the sample size is even.",
+        "math": "median=(middle 1+middle 2)/2"
+      },
+      {
+        "title": "Mode and range",
+        "narration": "The mode occurs most often; range is maximum minus minimum.",
+        "math": "range=max−min"
+      },
+      {
+        "title": "Sample proportion",
+        "narration": "Divide successes by the sample size.",
+        "math": "p̂=successes/n"
+      },
+      {
+        "title": "Estimation",
+        "narration": "Multiply sample proportion by population size for an estimate.",
+        "math": "estimate=p̂×N"
+      },
+      {
+        "title": "Combined mean",
+        "narration": "Combine group totals and divide by combined sample size.",
+        "math": "mean=(n₁m₁+n₂m₂)/(n₁+n₂)"
+      },
+      {
+        "title": "Why weights matter",
+        "narration": "Do not average group means equally when group sizes differ.",
+        "math": "(8×72+12×82)/20=78"
+      },
+      {
+        "title": "Sampling uncertainty",
+        "narration": "Different random samples may produce different estimates.",
+        "math": "estimate ≠ census"
+      },
+      {
+        "title": "Exam recap",
+        "narration": "Identify the statistic, compute carefully, and interpret the estimate.",
+        "math": "check units and n"
+      }
+    ],
+    "arabic": [
+      {
+        "title": "هدف الدرس",
+        "narration": "نتعلم حساب إحصاءات العينة وتفسيرها.",
+        "math": "mean, median, proportion"
+      },
+      {
+        "title": "المجتمع والعينة",
+        "narration": "العينة جزء من المجتمع الإحصائي الأكبر.",
+        "math": "sample ⊂ population"
+      },
+      {
+        "title": "إحصاء العينة",
+        "narration": "إحصاء العينة يصف العينة، والمعلمة تصف المجتمع كله.",
+        "math": "statistic ≠ parameter"
+      },
+      {
+        "title": "المتوسط",
+        "narration": "اجمع القيم واقسم على عدد المشاهدات.",
+        "math": "mean=Σx/n"
+      },
+      {
+        "title": "الوسيط",
+        "narration": "رتب القيم وخذ الوسط أو متوسط القيمتين الوسطيتين.",
+        "math": "median=(middle 1+middle 2)/2"
+      },
+      {
+        "title": "المنوال والمدى",
+        "narration": "المنوال الأكثر تكراراً والمدى أكبر قيمة ناقص أصغر قيمة.",
+        "math": "range=max−min"
+      },
+      {
+        "title": "نسبة العينة",
+        "narration": "اقسم عدد الحالات المناسبة على حجم العينة.",
+        "math": "p̂=successes/n"
+      },
+      {
+        "title": "التقدير",
+        "narration": "اضرب نسبة العينة في حجم المجتمع للحصول على تقدير.",
+        "math": "estimate=p̂×N"
+      },
+      {
+        "title": "المتوسط الموزون",
+        "narration": "اجمع إجماليات المجموعات ثم اقسم على مجموع الأحجام.",
+        "math": "mean=(n₁m₁+n₂m₂)/(n₁+n₂)"
+      },
+      {
+        "title": "أهمية الأوزان",
+        "narration": "لا تأخذ متوسطاً بسيطاً لمتوسطات مجموعات مختلفة الحجم.",
+        "math": "(8×72+12×82)/20=78"
+      },
+      {
+        "title": "عدم اليقين",
+        "narration": "تختلف تقديرات العينات العشوائية بسبب تباين العينات.",
+        "math": "estimate ≠ census"
+      },
+      {
+        "title": "مراجعة الامتحان",
+        "narration": "حدد المطلوب واحسب بدقة وفسّر النتيجة.",
+        "math": "check units and n"
+      }
+    ]
+  }
+}
