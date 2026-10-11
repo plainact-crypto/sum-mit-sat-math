@@ -1,0 +1,407 @@
+{
+  "slug": "mode",
+  "title": "Mode",
+  "index": 187,
+  "base": "/problem-solving-and-data-analysis/measures-of-center/mode/",
+  "classification": "NEITHER",
+  "explanation": [
+    {
+      "heading": "LESSON OBJECTIVE",
+      "text": "Find and interpret the most frequent value or category in a data set, including ties, frequency tables, and combined groups."
+    },
+    {
+      "heading": "WHAT YOU NEED TO KNOW",
+      "text": "The mode describes what occurs most often, not what is numerically largest. It works for numerical and categorical data."
+    },
+    {
+      "heading": "KEY DEFINITIONS",
+      "text": "Frequency is the number of appearances. A mode is any value tied for the greatest frequency. Bimodal means two modes."
+    },
+    {
+      "heading": "CORE RULE",
+      "text": "Count occurrences for each distinct value. The value(s) with greatest frequency are the modes. If all distinct values occur equally often, report no mode under this course convention."
+    },
+    {
+      "heading": "HOW IT WORKS",
+      "text": "Organize raw observations into a tally, compare counts, then state the data value rather than its count. Include all tied highest values."
+    },
+    {
+      "heading": "WORKED EXAMPLE 1",
+      "text": "Data: 2, 2, 3, 5, 5, 5. Counts: 2→2, 3→1, 5→3. Mode = 5."
+    },
+    {
+      "heading": "WORKED EXAMPLE 2",
+      "text": "Data: 4, 4, 7, 7, 9. Both 4 and 7 appear twice, so the data are bimodal: 4 and 7."
+    },
+    {
+      "heading": "WORKED EXAMPLE 3",
+      "text": "Data: 1, 3, 5, 7. Every value appears once. No mode is distinguished."
+    },
+    {
+      "heading": "WORKED EXAMPLE 4",
+      "text": "A table lists prices $10, $20, $30 with frequencies 2, 6, 4. The mode is $20, not 6."
+    },
+    {
+      "heading": "WORKED EXAMPLE 5",
+      "text": "Two groups report A: blue 3, red 5 and B: blue 4, red 1. Combined blue 7, red 6, so blue is modal."
+    },
+    {
+      "heading": "FREQUENCY TABLE STRATEGY",
+      "text": "For a frequency table, compare the frequency column, then read the associated value from the value column. For groups, sum matching categories first."
+    },
+    {
+      "heading": "COMMON MISTAKES",
+      "text": "Do not confuse mode with mean or median; do not select the largest number; do not report the frequency itself as the mode; do not omit tied modes."
+    },
+    {
+      "heading": "EXAM STRATEGY",
+      "text": "A quick tally is usually faster and safer than graphing. Check for ties and for data added or removed before deciding."
+    },
+    {
+      "heading": "QUICK CHECK",
+      "text": "For 1, 1, 2, 3, 3, the modes are 1 and 3. For 4, 5, 6, there is no mode."
+    },
+    {
+      "heading": "LESSON RECAP",
+      "text": "Mode = most frequent observation. It may be one value, several tied values, or no mode. Tables and combined data use the same counting rule."
+    },
+    {
+      "heading": "NEXT STEP",
+      "text": "Apply the frequency-counting rule to Practice Problems, inspect worked Answers & Solutions, then submit the five-question Lesson Test."
+    }
+  ],
+  "practice": [
+    {
+      "number": 1,
+      "group": "Skill Check",
+      "question": "Which value is the mode of 2, 4, 4, 7?",
+      "answer": "4",
+      "solution": "4 appears twice; every other value appears once.",
+      "dataset": "2, 4, 4, 7"
+    },
+    {
+      "number": 2,
+      "group": "Skill Check",
+      "question": "Find every mode of 1, 1, 2, 2, 3.",
+      "answer": "1 and 2",
+      "solution": "Both 1 and 2 appear twice, more than 3.",
+      "dataset": "1, 1, 2, 2, 3"
+    },
+    {
+      "number": 3,
+      "group": "Skill Check",
+      "question": "Does 3, 5, 7, 9 have a mode?",
+      "answer": "No mode",
+      "solution": "Every value occurs once; no value is more frequent.",
+      "dataset": "3, 5, 7, 9"
+    },
+    {
+      "number": 4,
+      "group": "Core Practice",
+      "question": "Find the mode of 8, 3, 8, 5, 3, 8, 5.",
+      "answer": "8",
+      "solution": "8 appears three times, whereas 3 and 5 each appear twice.",
+      "dataset": "8, 3, 8, 5, 3, 8, 5"
+    },
+    {
+      "number": 5,
+      "group": "Core Practice",
+      "question": "Identify the most frequent value in 3, 4, 4, 5, 5, 5, 6, 6, 6, 6.",
+      "answer": "6",
+      "solution": "6 occurs four times, more than 5 (three) and 4 (two).",
+      "dataset": "3, 4, 4, 5, 5, 5, 6, 6, 6, 6"
+    },
+    {
+      "number": 6,
+      "group": "Core Practice",
+      "question": "A frequency table shows scores 1, 2, 3 with frequencies 2, 5, 3. What is the mode?",
+      "answer": "2",
+      "solution": "The largest frequency is 5, attached to score 2; the frequency 5 is not the mode.",
+      "dataset": ""
+    },
+    {
+      "number": 7,
+      "group": "Core Practice",
+      "question": "A survey records red 4 times, blue 6 times, and green 5 times. Which category is modal?",
+      "answer": "Blue",
+      "solution": "Blue has the greatest category frequency, 6.",
+      "dataset": ""
+    },
+    {
+      "number": 8,
+      "group": "Core Practice",
+      "question": "Find the modes of 3, 3, 4, 4, 4, 5, 5, 6, 6, 6.",
+      "answer": "4 and 6",
+      "solution": "4 and 6 each occur three times; both are modes.",
+      "dataset": "3, 3, 4, 4, 4, 5, 5, 6, 6, 6"
+    },
+    {
+      "number": 9,
+      "group": "Core Practice",
+      "question": "A tally gives 0:1, 1:3, 2:4, 3:2. What is the mode?",
+      "answer": "2",
+      "solution": "Value 2 has the greatest tally, 4.",
+      "dataset": ""
+    },
+    {
+      "number": 10,
+      "group": "Core Practice",
+      "question": "Find the mode of 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7.",
+      "answer": "7",
+      "solution": "7 occurs four times; 5 and 6 occur three times each.",
+      "dataset": "4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7"
+    },
+    {
+      "number": 11,
+      "group": "Core Practice",
+      "question": "The data are 1, 1, 2, 2, 2, 3. Add one observation of 1. What are the new modes?",
+      "answer": "1 and 2",
+      "solution": "After adding 1, both 1 and 2 have frequency three.",
+      "dataset": "1, 1, 2, 2, 2, 3"
+    },
+    {
+      "number": 12,
+      "group": "Exam-Style",
+      "question": "A frequency table lists 10:7, 20:5, 30:7. State all modes.",
+      "answer": "10 and 30",
+      "solution": "Values 10 and 30 share the largest frequency, 7.",
+      "dataset": ""
+    },
+    {
+      "number": 13,
+      "group": "Exam-Style",
+      "question": "Class A scores are 4, 4, 5, 6, 6, 6; class B scores are 4, 4, 4, 5, 6, 6. Compare the modes.",
+      "answer": "A: 6; B: 4",
+      "solution": "In A, 6 appears three times; in B, 4 appears three times.",
+      "dataset": ""
+    },
+    {
+      "number": 14,
+      "group": "Exam-Style",
+      "question": "Each value in 1, 1, 2, 3, 3, 3 is increased by 5. Find the new mode.",
+      "answer": "8",
+      "solution": "The original mode 3 occurs three times. Adding 5 to each value makes its mode 8.",
+      "dataset": "1, 1, 2, 3, 3, 3"
+    },
+    {
+      "number": 15,
+      "group": "Exam-Style",
+      "question": "For 1, 1, 1, 8, 8, find the mode and mean. Are they equal?",
+      "answer": "Mode 1; mean 3.8; not equal",
+      "solution": "1 appears three times. The sum is 19 and 19/5=3.8.",
+      "dataset": "1, 1, 1, 8, 8"
+    },
+    {
+      "number": 16,
+      "group": "Exam-Style",
+      "question": "The value 10 is removed from 1, 2, 2, 3, 10. Does the mode change?",
+      "answer": "No; it stays 2",
+      "solution": "2 is the only value with frequency two both before and after removing 10.",
+      "dataset": "1, 2, 2, 3, 10"
+    },
+    {
+      "number": 17,
+      "group": "Challenge",
+      "question": "For 4, 4, 4, 5, 5, 6, 6, 6, how many extra observations of 5 are needed to make 5 the unique mode?",
+      "answer": "2",
+      "solution": "Initially 5 has frequency two, while 4 and 6 each have three. Two more 5s raise its frequency to four.",
+      "dataset": "4, 4, 4, 5, 5, 6, 6, 6"
+    },
+    {
+      "number": 18,
+      "group": "Challenge",
+      "question": "Group A records 2 five times and 3 twice. Group B records 2 once and 3 six times. What is the mode of the combined groups?",
+      "answer": "3",
+      "solution": "Combined frequency of 2 is 5+1=6; of 3 is 2+6=8, so 3 is modal.",
+      "dataset": ""
+    }
+  ],
+  "test": [
+    {
+      "difficulty": "Easy",
+      "question": "Find the mode of 2, 3, 3, 4.",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "No mode"
+      ],
+      "correct": 1,
+      "solution": "3 occurs twice; 2 and 4 each occur once."
+    },
+    {
+      "difficulty": "Easy / Medium",
+      "question": "Find all modes of 5, 5, 6, 6, 7.",
+      "choices": [
+        "5 only",
+        "6 only",
+        "5 and 6",
+        "No mode"
+      ],
+      "correct": 2,
+      "solution": "5 and 6 each occur twice, the highest frequency."
+    },
+    {
+      "difficulty": "Medium",
+      "question": "A table shows values 1, 2, 3 with frequencies 2, 3, 5. What is the mode?",
+      "choices": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
+      "correct": 2,
+      "solution": "Value 3 has frequency 5, the greatest; 5 is the frequency, not the modal value."
+    },
+    {
+      "difficulty": "Medium / Hard",
+      "question": "Every observation in 2, 2, 4, 4, 4, 5 is multiplied by 3. What is the mode?",
+      "choices": [
+        "4",
+        "6",
+        "12",
+        "15"
+      ],
+      "correct": 2,
+      "solution": "Original mode 4 appears three times. Multiplication by 3 changes it to 12."
+    },
+    {
+      "difficulty": "Hard / Exam-Style",
+      "question": "Group A has value 1 four times and 2 twice; group B has value 1 once and 2 five times. What is the combined mode?",
+      "choices": [
+        "1",
+        "2",
+        "Both 1 and 2",
+        "No mode"
+      ],
+      "correct": 1,
+      "solution": "Combined counts: 1 occurs 4+1=5 times and 2 occurs 2+5=7 times, so 2 is modal."
+    }
+  ],
+  "video": {
+    "english": [
+      {
+        "title": "Objective",
+        "narration": "Find the most frequent value, even when the data are unsorted.",
+        "math": "mode = highest frequency"
+      },
+      {
+        "title": "Meaning",
+        "narration": "Mode describes what is common, not what is numerically greatest.",
+        "math": "frequency = count"
+      },
+      {
+        "title": "First example",
+        "narration": "In 2, 2, 4, 5 the mode is 2 because it occurs twice.",
+        "math": "2 → 2 occurrences"
+      },
+      {
+        "title": "Tally",
+        "narration": "Build a frequency tally to avoid counting errors.",
+        "math": "3,3,4,4,4 → 4"
+      },
+      {
+        "title": "Ties",
+        "narration": "A data set can have two modes if two values share the top count.",
+        "math": "1,1,2,2,3 → 1 and 2"
+      },
+      {
+        "title": "No mode",
+        "narration": "When every distinct value occurs equally often, no value stands out.",
+        "math": "3,5,7,9 → no mode"
+      },
+      {
+        "title": "Tables",
+        "narration": "Choose the data value with the largest frequency, not the frequency number.",
+        "math": "value 20; frequency 6 → mode 20"
+      },
+      {
+        "title": "Categories",
+        "narration": "Mode also works for colors and survey choices.",
+        "math": "blue:7, red:4 → blue"
+      },
+      {
+        "title": "Updates",
+        "narration": "Recount when an observation is added or removed.",
+        "math": "2,2,3 + 3 → 2 and 3"
+      },
+      {
+        "title": "Combined groups",
+        "narration": "Sum matching frequencies across groups before comparing.",
+        "math": "A:2=5; B:2=1 → 6"
+      },
+      {
+        "title": "Exam trap",
+        "narration": "Mode and mean answer different questions. Mode does not need arithmetic averaging.",
+        "math": "1,1,8 → mode 1"
+      },
+      {
+        "title": "Recap",
+        "narration": "Tally, compare, report every tied maximum, and verify the context.",
+        "math": "mode = argmax frequency"
+      }
+    ],
+    "arabic": [
+      {
+        "title": "الهدف",
+        "narration": "نتعلم إيجاد القيمة الأكثر تكرارًا في مجموعة بيانات.",
+        "math": "المنوال = أعلى تكرار"
+      },
+      {
+        "title": "المعنى",
+        "narration": "المنوال ليس أكبر قيمة عددية بل القيمة التي تظهر أكثر.",
+        "math": "التكرار = عدد مرات الظهور"
+      },
+      {
+        "title": "مثال أول",
+        "narration": "في البيانات 2، 2، 4، 5 المنوال هو 2 لأنه تكرر مرتين.",
+        "math": "2 ← مرتان"
+      },
+      {
+        "title": "العد",
+        "narration": "أنشئ جدول تكرار لتجنب الخطأ أثناء العد.",
+        "math": "3،3،4،4،4 ← المنوال 4"
+      },
+      {
+        "title": "التعادل",
+        "narration": "قد يوجد منوالان إذا تساوت قيمتان في أكبر تكرار.",
+        "math": "1،1،2،2،3 ← 1 و2"
+      },
+      {
+        "title": "بلا منوال",
+        "narration": "إذا تكررت جميع القيم المختلفة بالعدد نفسه فلا توجد قيمة مميزة.",
+        "math": "3،5،7،9 ← لا منوال"
+      },
+      {
+        "title": "الجداول",
+        "narration": "اختر القيمة المقابلة لأكبر تكرار، وليس رقم التكرار نفسه.",
+        "math": "القيمة 20؛ التكرار 6"
+      },
+      {
+        "title": "الفئات",
+        "narration": "يمكن استخدام المنوال مع الألوان والاختيارات.",
+        "math": "أزرق 7؛ أحمر 4 ← أزرق"
+      },
+      {
+        "title": "التحديث",
+        "narration": "أعد العد عند إضافة مشاهدة أو حذفها.",
+        "math": "2،2،3 + 3 ← 2 و3"
+      },
+      {
+        "title": "دمج المجموعات",
+        "narration": "اجمع تكرارات القيمة نفسها بين المجموعات أولًا.",
+        "math": "5+1=6"
+      },
+      {
+        "title": "فخ الاختبار",
+        "narration": "لا تخلط بين المنوال والمتوسط الحسابي.",
+        "math": "1،1،8 ← المنوال 1"
+      },
+      {
+        "title": "الخلاصة",
+        "narration": "احسب التكرارات وقارنها واذكر جميع القيم المتعادلة.",
+        "math": "المنوال = القيمة الأكثر تكرارًا"
+      }
+    ]
+  }
+}
