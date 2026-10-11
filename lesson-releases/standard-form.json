@@ -1,0 +1,14 @@
+{
+  "lesson": "standard-form",
+  "builders": [
+    "circle-standard-form-lesson277-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/circles/circle-equation/standard-form/explanation/",
+    "/geometry-and-trigonometry/circles/circle-equation/standard-form/problems/",
+    "/geometry-and-trigonometry/circles/circle-equation/standard-form/answers/",
+    "/geometry-and-trigonometry/circles/circle-equation/standard-form/test/",
+    "/geometry-and-trigonometry/circles/circle-equation/standard-form/video/english/",
+    "/geometry-and-trigonometry/circles/circle-equation/standard-form/video/arabic/"
+  ]
+}
