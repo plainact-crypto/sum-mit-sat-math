@@ -1,0 +1,70 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Find the straight-line distance between any two points in the coordinate plane, including negative coordinates and missing coordinates."
+  ],
+  [
+    "WHAT YOU NEED TO KNOW",
+    "Horizontal and vertical coordinate changes form the legs of a right triangle. The segment joining the points is the hypotenuse, so the Pythagorean theorem gives its length."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "An ordered pair (x, y) gives horizontal and vertical position. Δx means x₂−x₁, Δy means y₂−y₁, and distance is a nonnegative length measured in linear units."
+  ],
+  [
+    "CORE RULE",
+    "For A(x₁,y₁) and B(x₂,y₂), d=√[(x₂−x₁)²+(y₂−y₁)²]. The squared distance is d²=(Δx)²+(Δy)²."
+  ],
+  [
+    "HOW IT WORKS",
+    "1. Write the two points in the same order. 2. Subtract x-coordinates and y-coordinates. 3. Square each difference and add. 4. Take the nonnegative square root; label the units."
+  ],
+  [
+    "WORKED EXAMPLE 1 — BASIC",
+    "A(0,0), B(3,4): Δx=3 and Δy=4. Thus d=√(3²+4²)=√25=5 units. Check: a 3–4–5 right triangle."
+  ],
+  [
+    "WORKED EXAMPLE 2 — NEGATIVE COORDINATES",
+    "A(−2,−1), B(4,7): Δx=4−(−2)=6, Δy=7−(−1)=8. Then d=√(36+64)=10 units; subtracting a negative increases the difference."
+  ],
+  [
+    "WORKED EXAMPLE 3 — HORIZONTAL AND VERTICAL",
+    "A(−2,3), B(4,3) share y=3, so d=|4−(−2)|=6. For A(5,−1), B(5,8), d=|8−(−1)|=9. The full formula gives the same results."
+  ],
+  [
+    "WORKED EXAMPLE 4 — EXACT RADICAL",
+    "A(−2,−3), B(5,4): Δx=7, Δy=7, so d=√(49+49)=√98=7√2 units. Do not round unless asked; squared distance is 98."
+  ],
+  [
+    "WORKED EXAMPLE 5 — MISSING COORDINATE",
+    "A(x,1), B(2,9), d=10 and x<2. Square: 100=(2−x)²+64, so (2−x)²=36. Hence 2−x=±6; x<2 selects 2−x=6, giving x=−4."
+  ],
+  [
+    "VERIFIED COORDINATE DIAGRAM",
+    "A(−2,−1), B(4,7), C(4,−1) make a right triangle. AC is 6 horizontal units, CB is 8 vertical units, and AB is 10 units by 6²+8²=10². Grid coordinates and segment lengths are generated at the same scale."
+  ],
+  [
+    "DESMOS STRATEGY",
+    "Enter: A=(−2,−1), B=(4,7), and sqrt((4−(−2))^2+(7−(−1))^2). Look for: points A and B and numerical result 10. Use it to answer: verify AB=10. Why it works: the expression applies the Pythagorean theorem to coordinate differences. Faster or not? Not for small integer coordinates; useful as a check with awkward values. Independent check: 6²+8²=100."
+  ],
+  [
+    "COMPARE WITHOUT ROOTS",
+    "To decide which segment is longer, compare d² values instead of computing square roots. Example: changes (8,6) give d²=100; changes (5,12) give d²=169, so the second is longer."
+  ],
+  [
+    "APPLICATIONS",
+    "A circle radius is the distance from its center to a point on the circle. A rectangle diagonal uses the same formula with width and height. For a triangle perimeter, calculate all three side lengths and add."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not subtract an x from a y, forget parentheses around negative coordinates, omit the square root when asked for distance, or choose both signs when a missing coordinate has a stated inequality."
+  ],
+  [
+    "EXAM STRATEGY AND QUICK CHECK",
+    "Use squared distances to compare lengths; look for Pythagorean triples (3,4,5), (5,12,13), (8,15,17). Quick checks: (0,0) to (6,8) is 10; (−3,4) to (9,−1) is 13."
+  ],
+  [
+    "LESSON RECAP AND NEXT STEP",
+    "Distance=√[(Δx)²+(Δy)²], always nonnegative. Use exact radicals when needed; apply the formula to diagonals, radii, perimeters, and unknown coordinates. Continue to 18 practice problems, aligned answers, and the five-question test."
+  ]
+]
