@@ -1,0 +1,32 @@
+[
+  {
+    "difficulty": "Easy",
+    "question": "Find the axis of y=x²−14x+2.",
+    "answer": "x=7",
+    "solution": "a=1, b=−14, so x=−(−14)/(2·1)=7."
+  },
+  {
+    "difficulty": "Easy / Medium",
+    "question": "Find the axis of y=−3x²+12x+5.",
+    "answer": "x=2",
+    "solution": "a=−3, b=12, so x=−12/(−6)=2."
+  },
+  {
+    "difficulty": "Medium",
+    "question": "A parabola has roots −2 and 8. Find its axis.",
+    "answer": "x=3",
+    "solution": "The midpoint of the roots is (−2+8)/2=3."
+  },
+  {
+    "difficulty": "Medium / Hard",
+    "question": "The axis of y=4x²+bx−9 is x=−3/2. Find b.",
+    "answer": "b=12",
+    "solution": "−b/(2·4)=−3/2, so −b=−12 and b=12."
+  },
+  {
+    "difficulty": "Hard / Exam-Style",
+    "question": "A parabola has axis x=4. One point is (1,−5). If (t,−5) is its reflected point, find t.",
+    "answer": "t=7",
+    "solution": "One is 3 units left of x=4, so its reflection is 3 units right: t=7."
+  }
+]
