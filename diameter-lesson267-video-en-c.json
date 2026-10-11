@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Area example",
+    "narration": "Area forty-nine pi gives radius seven and diameter fourteen.",
+    "math": "d=14"
+  },
+  {
+    "title": "Circle equation",
+    "narration": "The constant on the right is radius squared.",
+    "math": "x²+y²=25; d=10"
+  },
+  {
+    "title": "Endpoint distance",
+    "narration": "Use the distance formula for opposite endpoints.",
+    "math": "d=√(Δx²+Δy²)"
+  }
+]
