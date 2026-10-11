@@ -1,0 +1,7 @@
+{
+  "lesson": "evaluating-functions",
+  "index": 102,
+  "status": "BLOCKED",
+  "reason": "GitHub safety checks repeatedly rejected required bilingual narration builder and QA update.",
+  "next": "Continue next owned incomplete lesson; do not release until required builders and six routes validate."
+}
