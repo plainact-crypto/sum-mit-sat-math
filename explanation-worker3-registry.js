@@ -55,5 +55,6 @@ module.exports=[
       'Desmos is very useful for visualizing several constraints; direct substitution is faster when you only need to test one candidate point.',
       'Boundary QA: y=10-x gives 10,6,2 at x=0,4,8; y=6-0.5x gives 6,4,2. Setting them equal gives (8,2). Candidate (4,5): 4+5=9<=10 and 4+2(5)=14>=12. Candidate (2,3) fails the second condition because 2+2(3)=8<12.'
     )
-  }
+  },
+{slug:'sector-area',lesson:'Sector Area',classification:'GRAPH',graph:{bounds:{xMin:-1,xMax:5,yMin:-1,yMax:5},lines:[{m:0,b:0,qaX:[0,2,4],yIntercept:0}],verticals:[{x:0}],points:[{x:4,y:0,line:0,label:'radius four'},{x:0,y:4,label:'radius four'}],caption:'Two perpendicular radii define a 90 degree sector; the exact arc appears in the verified SVG.',ariaLabel:'Two perpendicular radii of length four'} ,desmos:null}
 ];

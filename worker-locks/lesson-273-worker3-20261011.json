@@ -1,1 +1,13 @@
-{"lesson_index":273,"slug":"sector-area","owner":"SUMMIT Worker 3","status":"IN_PROGRESS"}
+{
+  "lesson_index": 273,
+  "slug": "sector-area",
+  "owner": "SUMMIT Worker 3",
+  "status": "CORE_COMMITTED_BUILD_UNVERIFIED",
+  "mathematical_qa": "23/23 PASS",
+  "practice": "18 (3/8/5/2)",
+  "answers": "18 aligned",
+  "test": "5 progressive",
+  "video_scenes": "20 English + 20 Arabic",
+  "manifest": "lesson-releases/sector-area.json",
+  "release_gate": "Full build, route validation, production READY and actual live routes required before LIVE_VERIFIED."
+}

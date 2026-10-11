@@ -1,0 +1,10 @@
+'use strict';
+const m=require('./sector-area-lesson273-math-data.json');
+if(m.lesson_index!==273||m.slug!=='sector-area'||m.practice.length!==18||m.test.length!==5)throw Error('Structural QA');
+['Skill Check','Core Practice','Exam-Style','Challenge'].forEach((g,i)=>{if(m.practice.filter(q=>q.group===g).length!==[3,8,5,2][i])throw Error('Group QA')});
+const calc=d=>{switch(d.type){case'sector':return d.r*d.r*d.angle/360;case'angle':return 360*d.coeff/(d.r*d.r);case'radius':return Math.sqrt(360*d.coeff/d.angle);case'arc':return 2*d.r*d.angle/360;case'annular':return d.angle*(d.R*d.R-d.r*d.r)/360;case'combined':return(d.a1+d.a2)*d.r*d.r/360;case'annularAngle':return 360*d.coeff/(d.R*d.R-d.r*d.r);default:throw Error('Unknown QA '+d.type)}};
+for(const [name,items] of [['practice',m.practice],['test',m.test]])items.forEach((q,i)=>{if(q.index!==i+1||!q.solution||!q.prompt||Math.abs(calc(q.qa)-Number(q.answer))>1e-9)throw Error(name+' QA '+q.index)});
+const difficulty=['Easy','Easy / Medium','Medium','Medium / Hard','Hard / Exam-Style'];
+m.test.forEach((q,i)=>{if(q.difficulty!==difficulty[i])throw Error('Test progression')});
+if(new Set(m.practice.map(q=>q.prompt)).size!==18)throw Error('Duplicate practice');
+console.log('Lesson 273 independent math QA PASS 23/23');

@@ -1,0 +1,17 @@
+{
+  "lesson": "sector-area",
+  "builders": [
+    "sector-area-lesson273-explanation-build.js",
+    "sector-area-lesson273-practice-build.js",
+    "sector-area-lesson273-test-build.js",
+    "sector-area-lesson273-full-lesson-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/circles/other-circle-leaves/sector-area/explanation/",
+    "/geometry-and-trigonometry/circles/other-circle-leaves/sector-area/problems/",
+    "/geometry-and-trigonometry/circles/other-circle-leaves/sector-area/answers/",
+    "/geometry-and-trigonometry/circles/other-circle-leaves/sector-area/test/",
+    "/geometry-and-trigonometry/circles/other-circle-leaves/sector-area/video/english/",
+    "/geometry-and-trigonometry/circles/other-circle-leaves/sector-area/video/arabic/"
+  ]
+}

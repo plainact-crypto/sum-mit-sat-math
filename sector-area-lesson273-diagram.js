@@ -1,0 +1,4 @@
+'use strict';
+const r=4,theta=90,A=r*r*theta/360;if(A!==4)throw Error('Sector diagram QA');
+const c=220,R=140,x=c+R*Math.cos(theta*Math.PI/180),y=c-R*Math.sin(theta*Math.PI/180);
+module.exports='<figure data-retrofit-graph="true"><svg viewBox="0 0 440 440" role="img" aria-label="Exact ninety degree sector of radius four and area four pi"><circle cx="220" cy="220" r="140" fill="none" stroke="#26739a" stroke-width="3"/><path d="M220 220 L360 220 A140 140 0 0 0 '+x.toFixed(4)+' '+y.toFixed(4)+' Z" fill="#d8ebf3" stroke="#196e56" stroke-width="3"/><text x="290" y="237">r=4</text><text x="230" y="150">r=4</text><text x="230" y="205">90°</text><text x="270" y="155">A=4π</text></svg><figcaption>Exact area=(90/360)π(4²)=4π square units.</figcaption></figure>';

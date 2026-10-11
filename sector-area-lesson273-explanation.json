@@ -53,7 +53,7 @@
   ],
   [
     "COMMON MISTAKES",
-    "Do not use arc length in place of area: arc length uses 2πr, while area uses πr². Do not forget square units or apply degrees as a raw multiplier without dividing by 360."
+    "Sector area=(θ/360)πr² is measured in square units. Arc length=(θ/360)2πr is measured in linear units: for radius 12 and angle 90°, the arc length is (1/4)24π=6π. Do not confuse these formulas."
   ],
   [
     "EXAM STRATEGY",
