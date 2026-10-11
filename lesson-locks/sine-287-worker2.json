@@ -1,11 +1,12 @@
 {
-  "lesson_index": 287,
-  "lesson": "Sine",
-  "slug": "sine",
-  "canonical_base": "/geometry-and-trigonometry/right-triangle-trigonometry/sine",
-  "owner": "SUMMIT Worker 2",
-  "status": "IN_PROGRESS",
-  "branch": "worker2/sine-287-20261011",
-  "started_on": "2026-10-11",
-  "previous_blocked": "general-form-282"
+ "lesson_index":287,
+ "lesson":"Sine",
+ "slug":"sine",
+ "canonical_base":"/geometry-and-trigonometry/right-triangle-trigonometry/sine",
+ "owner":"SUMMIT Worker 2",
+ "status":"BLOCKED",
+ "branch":"worker2/sine-287-20261011",
+ "explanation_sections":5,
+ "blocker":"Repeated content upload rejections.",
+ "next_owned_index":292
 }
