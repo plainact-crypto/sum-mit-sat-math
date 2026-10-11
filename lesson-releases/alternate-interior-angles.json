@@ -1,0 +1,17 @@
+{
+  "lesson": "alternate-interior-angles",
+  "builders": [
+    "alternate-interior-angles-lesson228-explanation-build.js",
+    "alternate-interior-angles-lesson228-practice-build.js",
+    "alternate-interior-angles-lesson228-test-build.js",
+    "alternate-interior-angles-lesson228-video-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/parallel-lines-and-transversals/alternate-interior-angles/explanation/",
+    "/geometry-and-trigonometry/parallel-lines-and-transversals/alternate-interior-angles/problems/",
+    "/geometry-and-trigonometry/parallel-lines-and-transversals/alternate-interior-angles/answers/",
+    "/geometry-and-trigonometry/parallel-lines-and-transversals/alternate-interior-angles/test/",
+    "/geometry-and-trigonometry/parallel-lines-and-transversals/alternate-interior-angles/video/english/",
+    "/geometry-and-trigonometry/parallel-lines-and-transversals/alternate-interior-angles/video/arabic/"
+  ]
+}

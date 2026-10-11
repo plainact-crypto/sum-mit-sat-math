@@ -1,0 +1,309 @@
+{
+  "lesson_index": 228,
+  "slug": "alternate-interior-angles",
+  "title": "Alternate Interior Angles",
+  "base": "geometry-and-trigonometry/parallel-lines-and-transversals/alternate-interior-angles",
+  "classification": "NEITHER",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "prompt": "If p ∥ q and ∠3=64°, find ∠5.",
+      "answer": "64",
+      "solution": "∠3 and ∠5 are congruent alternate interior angles; ∠5=64°.",
+      "verify": [
+        "d",
+        64
+      ]
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "prompt": "Which pair is alternate interior? A ∠1 and ∠5; B ∠3 and ∠5; C ∠3 and ∠6; D ∠1 and ∠7.",
+      "answer": "B",
+      "solution": "Angles 3 and 5 are interior and on opposite sides of the transversal, so B.",
+      "verify": [
+        "c",
+        "B"
+      ]
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "prompt": "For parallel lines, alternate interior angles are: A supplementary; B congruent; C always 90°.",
+      "answer": "B",
+      "solution": "The alternate interior angles theorem says the angles are congruent: B.",
+      "verify": [
+        "c",
+        "B"
+      ]
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "prompt": "If p ∥ q and ∠3=112°, find ∠5.",
+      "answer": "112",
+      "solution": "∠3 and ∠5 are alternate interior angles; ∠5=112°.",
+      "verify": [
+        "d",
+        112
+      ]
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "prompt": "If p ∥ q and ∠4=37°, find ∠6.",
+      "answer": "37",
+      "solution": "∠4 and ∠6 are alternate interior angles; ∠6=37°.",
+      "verify": [
+        "d",
+        37
+      ]
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "prompt": "If p ∥ q, ∠3=(2x+10)° and ∠5=70°. Find x.",
+      "answer": "30",
+      "solution": "2x+10=70; 2x=60; x=30.",
+      "verify": [
+        "l",
+        2,
+        10,
+        0,
+        70
+      ]
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "prompt": "If p ∥ q, ∠4=(3x−8)° and ∠6=64°. Find x.",
+      "answer": "24",
+      "solution": "3x−8=64; 3x=72; x=24.",
+      "verify": [
+        "l",
+        3,
+        -8,
+        0,
+        64
+      ]
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "prompt": "If p ∥ q, ∠3=(5x+5)° and ∠5=(3x+31)°. Find x.",
+      "answer": "13",
+      "solution": "5x+5=3x+31; 2x=26; x=13; each angle is 70°.",
+      "verify": [
+        "l",
+        5,
+        5,
+        3,
+        31
+      ]
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "prompt": "If p ∥ q, ∠4=(4x+12)° and ∠6=(6x−14)°. Find x.",
+      "answer": "13",
+      "solution": "4x+12=6x−14; 2x=26; x=13.",
+      "verify": [
+        "l",
+        4,
+        12,
+        6,
+        -14
+      ]
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "prompt": "If p ∥ q, ∠3=(0.5x+25)° and ∠5=65°. Find x.",
+      "answer": "80",
+      "solution": "0.5x+25=65; 0.5x=40; x=80.",
+      "verify": [
+        "l",
+        0.5,
+        25,
+        0,
+        65
+      ]
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "prompt": "If p ∥ q, ∠4=(2x+3)° and ∠6=(x+41)°. Find x.",
+      "answer": "38",
+      "solution": "2x+3=x+41; x=38; both angles are 79°.",
+      "verify": [
+        "l",
+        2,
+        3,
+        1,
+        41
+      ]
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "prompt": "If ∠3=85° and ∠5=85° but parallelism is unknown, can you conclude the lines are parallel? Yes or No.",
+      "answer": "Yes",
+      "solution": "Yes: the converse alternate interior angles theorem proves the lines parallel.",
+      "verify": [
+        "c",
+        "Yes"
+      ]
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "prompt": "If p ∥ q and ∠3=118°, find ∠6.",
+      "answer": "62",
+      "solution": "∠5=118°; ∠5 and ∠6 are a linear pair, so ∠6=180−118=62°.",
+      "verify": [
+        "s",
+        118
+      ]
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "prompt": "If p ∥ q, ∠4=(3x+15)° and ∠6=(5x−25)°. Find x.",
+      "answer": "20",
+      "solution": "3x+15=5x−25; 2x=40; x=20.",
+      "verify": [
+        "l",
+        3,
+        15,
+        5,
+        -25
+      ]
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "prompt": "If p ∥ q, ∠3=(2x+12)° and ∠5=(4x−34)°. Find x.",
+      "answer": "23",
+      "solution": "2x+12=4x−34; 2x=46; x=23.",
+      "verify": [
+        "l",
+        2,
+        12,
+        4,
+        -34
+      ]
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "prompt": "If p ∥ q, ∠3=(7x−11)° and ∠5=(3x+45)°. Find x.",
+      "answer": "14",
+      "solution": "7x−11=3x+45; 4x=56; x=14.",
+      "verify": [
+        "l",
+        7,
+        -11,
+        3,
+        45
+      ]
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "prompt": "If p ∥ q, ∠3=(4x+18)° and ∠5=(7x−24)°. Find ∠6.",
+      "answer": "106",
+      "solution": "4x+18=7x−24 gives x=14; ∠5=74°, so ∠6=180−74=106°.",
+      "verify": [
+        "l",
+        4,
+        18,
+        7,
+        -24,
+        "s"
+      ]
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "prompt": "If p ∥ q, ∠4=(2x+7)° and ∠6=(5x−38)°. Find ∠7 adjacent to ∠6.",
+      "answer": "143",
+      "solution": "2x+7=5x−38 gives x=15; ∠6=37°, so ∠7=180−37=143°.",
+      "verify": [
+        "l",
+        2,
+        7,
+        5,
+        -38,
+        "s"
+      ]
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "difficulty": "Easy",
+      "prompt": "If p ∥ q and ∠4=52°, find ∠6.",
+      "answer": "52",
+      "solution": "Angles 4 and 6 are alternate interior and congruent: 52°.",
+      "verify": [
+        "d",
+        52
+      ]
+    },
+    {
+      "index": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "If p ∥ q, ∠3=(x+19)° and ∠5=72°. Find x.",
+      "answer": "53",
+      "solution": "x+19=72; x=53.",
+      "verify": [
+        "l",
+        1,
+        19,
+        0,
+        72
+      ]
+    },
+    {
+      "index": 3,
+      "difficulty": "Medium",
+      "prompt": "If p ∥ q, ∠4=(4x−3)° and ∠6=(2x+35)°. Find x.",
+      "answer": "19",
+      "solution": "4x−3=2x+35; 2x=38; x=19.",
+      "verify": [
+        "l",
+        4,
+        -3,
+        2,
+        35
+      ]
+    },
+    {
+      "index": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "If p ∥ q and ∠3=131°, find ∠6.",
+      "answer": "49",
+      "solution": "∠5=131°, and ∠6=180−131=49° by the linear-pair rule.",
+      "verify": [
+        "s",
+        131
+      ]
+    },
+    {
+      "index": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "If p ∥ q, ∠4=(5x−11)° and ∠6=(2x+43)°. Find ∠7.",
+      "answer": "101",
+      "solution": "5x−11=2x+43 gives x=18; ∠6=79°, so ∠7=101°.",
+      "verify": [
+        "l",
+        5,
+        -11,
+        2,
+        43,
+        "s"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Identify alternate interior angles, solve missing measures, and use the converse theorem."
+  ],
+  [
+    "CORE IDEA",
+    "A transversal intersects two lines. Interior angles lie between the lines; alternate interior angles are on opposite sides of the transversal."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Parallel lines never meet. A transversal intersects two lines. Congruent angles have equal measures. A linear pair sums to 180°."
+  ],
+  [
+    "CORE RULE",
+    "If p ∥ q, then ∠3=∠5 and ∠4=∠6. Conversely, congruent alternate interior angles prove parallel lines."
+  ],
+  [
+    "HOW TO READ THE DIAGRAM",
+    "Top interior angles are 3 below right and 4 below left. Bottom interior angles are 5 above left and 6 above right. Pairs are (3,5) and (4,6)."
+  ],
+  [
+    "HOW IT WORKS",
+    "Mark the interior strip; select the pair on opposite sides of the transversal; equate measures; solve and substitute. For adjacent angles, subtract from 180°."
+  ],
+  [
+    "WORKED EXAMPLE 1 — BASIC",
+    "If p ∥ q and ∠3=64°, then ∠5=64°; its adjacent ∠6=180°−64°=116°."
+  ],
+  [
+    "WORKED EXAMPLE 2 — ALGEBRA",
+    "If ∠3=2x+10 and ∠5=70, set 2x+10=70, so x=30. Check: 2(30)+10=70."
+  ],
+  [
+    "WORKED EXAMPLE 3 — EXPRESSIONS",
+    "If ∠3=5x+5 and ∠5=3x+31, then 2x=26, x=13, and both measures equal 70°."
+  ],
+  [
+    "WORKED EXAMPLE 4 — CONVERSE",
+    "If ∠3=85° and ∠5=85° but the lines are not known parallel, their congruence proves parallelism."
+  ],
+  [
+    "WORKED EXAMPLE 5 — MULTISTEP",
+    "If ∠3=4x+18 and ∠5=7x−24, then x=14, both angles are 74°, and ∠6=106°."
+  ],
+  [
+    "DETERMINISTIC GEOMETRY DIAGRAM",
+    "The diagram uses parallel lines y=90 and y=250 and transversal from (120,30) to (360,310), with intersections x=171.428571 and 308.571429."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Same-side interior angles are supplementary, not alternate. Exterior angles are not interior. Congruence needs parallelism or establishes it by the converse."
+  ],
+  [
+    "EXAM STRATEGY",
+    "Mark interior angles, locate opposite sides of the transversal, set one equality, and solve for the quantity actually requested."
+  ],
+  [
+    "QUICK CHECK",
+    "∠4=52° implies ∠6=52°. If ∠3=x+19 and ∠5=72°, x=53. If ∠3=131°, ∠6=49°."
+  ],
+  [
+    "LESSON RECAP",
+    "Parallel lines imply equal alternate interior angles; equal alternate interior angles imply parallel lines. Linear pairs total 180°."
+  ],
+  [
+    "NEXT STEP",
+    "Complete 18 practice questions, review the 18 worked answers, and take the five-question test."
+  ]
+]
