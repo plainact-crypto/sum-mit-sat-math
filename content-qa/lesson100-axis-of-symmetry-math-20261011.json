@@ -1,0 +1,21 @@
+{
+  "lesson": "axis-of-symmetry",
+  "index": 100,
+  "practice": 18,
+  "distribution": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "aligned_answers": 18,
+  "test": 5,
+  "verified": "23/23",
+  "release_status": "INCOMPLETE",
+  "blockers": [
+    "test submit-once protection",
+    "bilingual full lesson video",
+    "unique release manifest",
+    "full build"
+  ]
+}
