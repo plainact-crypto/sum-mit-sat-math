@@ -55,5 +55,19 @@ module.exports=[
       'Desmos is very useful for visualizing several constraints; direct substitution is faster when you only need to test one candidate point.',
       'Boundary QA: y=10-x gives 10,6,2 at x=0,4,8; y=6-0.5x gives 6,4,2. Setting them equal gives (8,2). Candidate (4,5): 4+5=9<=10 and 4+2(5)=14>=12. Candidate (2,3) fails the second condition because 2+2(3)=8<12.'
     )
+  },
+  {
+    slug:'finding-center-from-standard-form',
+    lesson:'Finding Center from Standard Form',
+    classification:'BOTH',
+    graph:{bounds:{xMin:-4,xMax:10,yMin:-8,yMax:5},lines:[{m:0,b:-2,qaX:[-2,3,8],yIntercept:-2}],verticals:[{x:3}],points:[{x:3,y:-2,line:0,label:'center (3,-2)'}],caption:'The horizontal and vertical symmetry axes cross at the circle center (3,-2). The lesson also renders the complete radius-5 circle directly from its equation.',ariaLabel:'Verified circle center axes y equals negative two and x equals three intersect at (3,-2)'},
+    desmos:D(
+      '(x-3)^2+(y+2)^2=25',
+      'the circle symmetric about x=3 and y=-2, with horizontal extremes at x=-2 and x=8',
+      'identify the center (3,-2) and verify the signs of h and k in the equation',
+      'the squared distances from (3,-2) sum to 25 at every point on the circle',
+      'Reading h and k directly is faster; Desmos provides a visual verification.',
+      'At (8,-2), (8-3)^2+(-2+2)^2=25; the horizontal midpoint (-2+8)/2=3 and vertical center is -2.'
+    )
   }
 ];
