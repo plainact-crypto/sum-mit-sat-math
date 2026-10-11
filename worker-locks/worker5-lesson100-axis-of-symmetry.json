@@ -1,0 +1,10 @@
+{
+  "worker": "worker5",
+  "lesson_index": 100,
+  "lesson": "axis-of-symmetry",
+  "canonical_path": "/advanced-math/quadratic-functions/standard-form/axis-of-symmetry/",
+  "branch": "automation/worker5-lesson100-axis-of-symmetry-20261011",
+  "status": "IN_PROGRESS",
+  "created_at": "2026-10-11",
+  "note": "Owned index 100; do not merge before mathematical QA, complete six-route manifest validation, full build, and CI."
+}
