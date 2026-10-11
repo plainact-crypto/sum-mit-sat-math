@@ -1,0 +1,30 @@
+{
+  "english": [
+    "Sine measures opposite divided by hypotenuse.",
+    "Identify the reference angle before labeling sides.",
+    "The hypotenuse is opposite the right angle.",
+    "In a 3–4–5 triangle, sin θ=3/5 when opposite is 3.",
+    "For 30°, sin θ=1/2.",
+    "With hypotenuse 18 at 30°, opposite is 9.",
+    "With opposite 6 and sin θ=3/5, hypotenuse is 10.",
+    "With opposite 12 and hypotenuse 13, θ≈67.4°.",
+    "Use the Pythagorean theorem to find missing legs.",
+    "A 50-meter cable at 30° rises 25 meters.",
+    "Check degree mode and distinguish opposite from adjacent.",
+    "Practice 18 problems, study solutions, and submit the five-question test."
+  ],
+  "arabic": [
+    "الجيب يساوي الضلع المقابل مقسوما على الوتر.",
+    "حدد الزاوية قبل تسمية الأضلاع.",
+    "الوتر يقابل الزاوية القائمة.",
+    "في مثلث ثلاثة أربعة خمسة، الجيب يساوي ثلاثة على خمسة.",
+    "جيب ثلاثين درجة يساوي نصفا.",
+    "عند وتر ثمانية عشر وزاوية ثلاثين درجة، المقابل تسعة.",
+    "إذا كان المقابل ستة والجيب ثلاثة على خمسة فالوتر عشرة.",
+    "إذا كان المقابل اثني عشر والوتر ثلاثة عشر فالزاوية نحو سبعة وستين فاصلة أربعة درجة.",
+    "استخدم فيثاغورس لإيجاد الأضلاع الناقصة.",
+    "كابل طوله خمسون مترا بزاوية ثلاثين درجة يرتفع خمسة وعشرين مترا.",
+    "تأكد من وضع الدرجات ولا تخلط المقابل بالمجاور.",
+    "حل ثمانية عشر سؤالا وراجع الحلول ثم قدم اختبار الأسئلة الخمسة."
+  ]
+}
