@@ -3,7 +3,8 @@
   "builders": [
     "converting-between-representations-content-build.js",
     "lesson155-video-routes.js",
-    "lesson155-submit-once-test-build.js"
+    "lesson155-submit-once-test-build.js",
+    "lesson155-bilingual-full-video-build.js"
   ],
   "routes": [
     "/advanced-math/nonlinear-functions/converting-between-representations/explanation/",
