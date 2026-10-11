@@ -3,6 +3,6 @@
   "index": 159,
   "owner": "SUMMIT Worker 4",
   "branch": "worker4-index159-unit-rates-20261011",
-  "status": "IN_PROGRESS",
-  "note": "Branch-scoped ownership; release manifest committed. Full builder/content and registry integration pending successful GitHub writes; do not merge incomplete branch."
+  "status": "BLOCKED_REMOTE_WRITE",
+  "note": "Local lesson package passes 23/23 math checks, 18 aligned problems/solutions, five tests and six built routes. Release manifest and registry are committed; required data and builder are not yet committed. Vercel Preview is blocked by HTTP 402 daily deployment quota. Do not merge or mark LIVE_VERIFIED."
 }
