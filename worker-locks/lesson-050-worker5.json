@@ -1,0 +1,29 @@
+{
+  "lessonIndex": 50,
+  "slug": "two-variable-linear-inequalities",
+  "owner": "worker5",
+  "status": "BLOCKED_PENDING_REQUIRED_TEST_BUILDER",
+  "branch": "automation/worker5-lesson50-two-variable-linear-inequalities-20261011",
+  "manifest": "lesson-releases/two-variable-linear-inequalities.json",
+  "mathQA": "content-qa/worker5-lesson50-math-qa.json",
+  "mathVerified": "23/23",
+  "practiceDistribution": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "answers": 18,
+  "testQuestions": 5,
+  "fullLessonVideoChapters": {
+    "english": 12,
+    "arabic": 12
+  },
+  "blockers": [
+    "Required submit-once test builder creation rejected by safety checks.",
+    "Direct lesson test update rejected by safety checks.",
+    "Release manifest intentionally lists missing builder; full build and merge are prohibited until restored."
+  ],
+  "nextAction": "Commit two-variable-linear-inequalities-lesson50-test-lock-build.js, validate full build and six routes, then open release PR.",
+  "lastUpdated": "2026-10-11"
+}
