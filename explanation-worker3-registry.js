@@ -57,3 +57,5 @@ module.exports=[
     )
   }
 ];
+
+module.exports.push(require('./distance-formula-lesson258-registry.js'));
