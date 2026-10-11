@@ -1,0 +1,111 @@
+{
+  "lesson": 95,
+  "slug": "x-intercepts",
+  "canonical_path": "/advanced-math/quadratic-functions/standard-form/x-intercepts/",
+  "checked": "2026-10-11",
+  "practice_distribution": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "practice": [
+    {
+      "n": 1,
+      "result": "3,4"
+    },
+    {
+      "n": 2,
+      "result": "-4,4"
+    },
+    {
+      "n": 3,
+      "result": "-5 repeated"
+    },
+    {
+      "n": 4,
+      "result": "-4,3"
+    },
+    {
+      "n": 5,
+      "result": "0,5"
+    },
+    {
+      "n": 6,
+      "result": "-2,2"
+    },
+    {
+      "n": 7,
+      "result": "-2,4"
+    },
+    {
+      "n": 8,
+      "result": "none real, discriminant -16"
+    },
+    {
+      "n": 9,
+      "result": "-3/2,1"
+    },
+    {
+      "n": 10,
+      "result": "3,9"
+    },
+    {
+      "n": 11,
+      "result": "-2,7"
+    },
+    {
+      "n": 12,
+      "result": "k=7"
+    },
+    {
+      "n": 13,
+      "result": "m=9"
+    },
+    {
+      "n": 14,
+      "result": "t=5 positive"
+    },
+    {
+      "n": 15,
+      "result": "1 distinct root"
+    },
+    {
+      "n": 16,
+      "result": "other root 1/2"
+    },
+    {
+      "n": 17,
+      "result": "(x-2)(x-k), k≠2"
+    },
+    {
+      "n": 18,
+      "result": "r=2; intercepts (2,0),(8,0)"
+    }
+  ],
+  "test": [
+    {
+      "n": 1,
+      "result": "2,3"
+    },
+    {
+      "n": 2,
+      "result": "-5,5"
+    },
+    {
+      "n": 3,
+      "result": "0 real"
+    },
+    {
+      "n": 4,
+      "result": "b=8"
+    },
+    {
+      "n": 5,
+      "result": "p=-3; roots -3,5"
+    }
+  ],
+  "checks_passed": 23,
+  "method": "Independent symbolic solution using SymPy; compared against canonical builder questions and answers",
+  "status": "MATH_QA_PASS_RELEASE_PENDING"
+}
