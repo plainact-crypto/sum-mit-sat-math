@@ -1,0 +1,12 @@
+'use strict';
+const {math,escapeHTML:esc,page,write}=require('./chord-lesson268-common.js');
+const groups=['Skill Check','Core Practice','Exam-Style','Challenge'],sizes=[3,8,5,2];
+if(math.practice.length!==18)throw Error('Practice must contain exactly 18 questions');
+groups.forEach((g,i)=>{if(math.practice.filter(q=>q.group===g).length!==sizes[i])throw Error('Incorrect practice distribution '+g)});
+const heading=(q,i)=>[0,3,11,16].includes(i)?'<h2>'+esc(q.group)+'</h2>':'';
+const problems=math.practice.map((q,i)=>heading(q,i)+'<section class="lesson-section" data-question="'+q.index+'"><h3>Question '+q.index+'</h3><p>'+esc(q.prompt)+'</p><label>Numeric answer <input type="number" step="any" inputmode="decimal" data-answer="'+esc(q.answer)+'"></label> <button type="button" class="check">Check</button> <span class="feedback" role="status"></span></section>').join('');
+const script='<script>document.querySelectorAll("[data-question]").forEach(s=>{const input=s.querySelector("input"),feedback=s.querySelector(".feedback");s.querySelector("button").onclick=()=>{if(input.value.trim()===""){feedback.textContent="Enter an answer first.";return}feedback.textContent=Math.abs(Number(input.value)-Number(input.dataset.answer))<1e-8?"Correct.":"Try again. Draw the center-to-chord right triangle."}})</script>';
+write('problems',page('Practice Problems','<p>18 progressive chord questions: 3 Skill Check, 8 Core, 5 Exam-Style, and 2 Challenge. Check feedback does not reveal worked solutions.</p>'+problems+script));
+const answers=math.practice.map((q,i)=>heading(q,i)+'<section class="lesson-section"><h3>Solution '+q.index+'</h3><p>'+esc(q.prompt)+'</p><p>'+esc(q.solution)+'</p><p><strong>Answer: '+esc(q.answer)+'</strong></p></section>').join('');
+write('answers',page('Answers and Solutions','<p>Each solution matches its same-numbered Practice question.</p>'+answers));
+console.log('Lesson 268 chord practice: 18 problems and 18 aligned worked answers');
