@@ -1,0 +1,10 @@
+'use strict';
+const l=require('./right-triangle-word-problems-lesson293-common.js');
+require('./right-triangle-word-problems-lesson293-math-qa.js');
+const heads={0:'Skill Check',3:'Core Practice',11:'Exam-Style Practice',16:'Challenge Problems'};
+const h=i=>heads[i]?'<h2>'+heads[i]+'</h2>':'';
+const p=l.data.practice.map((q,i)=>h(i)+'<section class="lesson-section"><h3>Question '+q.index+'</h3><p>'+l.esc(q.prompt)+'</p><input type="number" step="any" data-answer="'+q.answer+'"><button type="button" onclick="var x=this.previousElementSibling;this.nextElementSibling.textContent=Math.abs(Number(x.value)-Number(x.dataset.answer))<=0.00501&&x.value!==\'\'?\'Correct\':\'Try again\'">Check</button><span role="status"></span></section>').join('');
+l.write('problems',l.page('Practice Problems','<p>18 questions in 3/8/5/2 groups.</p>'+p));
+const a=l.data.practice.map((q,i)=>h(i)+'<section class="lesson-section"><h3>Solution '+q.index+'</h3><p>'+l.esc(q.prompt)+'</p><p>'+l.esc(q.solution)+'</p><strong>Answer: '+q.answer+'</strong></section>').join('');
+l.write('answers',l.page('Answers and Solutions',a));
+console.log('Lesson 293 practice 18/18 and answers 18/18');
