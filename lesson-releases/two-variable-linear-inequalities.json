@@ -1,0 +1,15 @@
+{
+  "lesson": "two-variable-linear-inequalities",
+  "builders": [
+    "two-variable-linear-inequalities-lesson50-test-lock-build.js",
+    "two-variable-linear-inequalities-lesson50-full-video-build.js"
+  ],
+  "routes": [
+    "/algebra/linear-inequalities/two-variable-linear-inequalities/explanation/",
+    "/algebra/linear-inequalities/two-variable-linear-inequalities/problems/",
+    "/algebra/linear-inequalities/two-variable-linear-inequalities/answers/",
+    "/algebra/linear-inequalities/two-variable-linear-inequalities/test/",
+    "/algebra/linear-inequalities/two-variable-linear-inequalities/video/english/",
+    "/algebra/linear-inequalities/two-variable-linear-inequalities/video/arabic/"
+  ]
+}
