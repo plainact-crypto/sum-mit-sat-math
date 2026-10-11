@@ -1,0 +1,14 @@
+'use strict';
+const fs = require('fs');
+const path = require('path');
+const relative = 'algebra/linear-functions/linear-function-word-problems/test/index.html';
+const target = path.join(__dirname, 'dist', relative);
+if (!fs.existsSync(target)) throw new Error('Missing lesson 35 test route: ' + relative);
+let html = fs.readFileSync(target, 'utf8');
+const original = "document.getElementById('submit').onclick=()=>{let score=0;";
+const protectedHook = "let submitted=false;document.getElementById('submit').onclick=()=>{if(submitted)return;submitted=true;const button=document.getElementById('submit');button.disabled=true;button.textContent='Test Submitted';document.querySelectorAll('input[type=\"radio\"]').forEach(x=>x.disabled=true);let score=0;";
+if (html.includes(original)) html = html.replace(original, protectedHook);
+else if (!html.includes('if(submitted)return;submitted=true;')) throw new Error('Unexpected test hook; cannot safely protect submission');
+if (!html.includes("const qs=") || !html.includes('Submit Test') || !html.includes('Correct answer:')) throw new Error('Test validation markers missing');
+fs.writeFileSync(target, html);
+console.log('Lesson 35: five-question test submit-once protection PASS');
