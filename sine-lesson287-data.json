@@ -1,0 +1,407 @@
+{
+  "index": 287,
+  "slug": "sine",
+  "title": "Sine",
+  "base": "geometry-and-trigonometry/right-triangle-trigonometry/sine",
+  "classification": "BOTH",
+  "practice": [
+    {
+      "group": "Skill Check",
+      "prompt": "A right triangle has opposite leg 3 and hypotenuse 5. Find sin θ.",
+      "answer": "3/5",
+      "solution": "Use sin θ=opposite/hypotenuse=3/5.",
+      "choices": [
+        "3/5",
+        "5/3",
+        "4/5",
+        "3/4"
+      ],
+      "qa": {
+        "kind": "ratio",
+        "O": 3,
+        "H": 5
+      }
+    },
+    {
+      "group": "Skill Check",
+      "prompt": "A 30° angle is in a right triangle with hypotenuse 18. Find its opposite leg.",
+      "answer": "9",
+      "solution": "Opposite=18 sin30°=18·1/2=9.",
+      "choices": [
+        "9",
+        "18",
+        "6",
+        "12"
+      ],
+      "qa": {
+        "kind": "opp30",
+        "H": 18
+      }
+    },
+    {
+      "group": "Skill Check",
+      "prompt": "The opposite leg is 7 and hypotenuse is 14. Simplify sin θ.",
+      "answer": "1/2",
+      "solution": "sin θ=7/14=1/2.",
+      "choices": [
+        "1/2",
+        "2",
+        "1/7",
+        "7/2"
+      ],
+      "qa": {
+        "kind": "ratio",
+        "O": 7,
+        "H": 14
+      }
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "A right triangle has hypotenuse 24 and angle 30°. Find the opposite leg.",
+      "answer": "12",
+      "solution": "Opposite=24 sin30°=12.",
+      "choices": [
+        "12",
+        "24",
+        "8",
+        "16"
+      ],
+      "qa": {
+        "kind": "opp30",
+        "H": 24
+      }
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "The opposite leg is 6 and sin θ=3/5. Find the hypotenuse.",
+      "answer": "10",
+      "solution": "6/H=3/5; H=6·5/3=10.",
+      "choices": [
+        "10",
+        "6",
+        "15",
+        "18"
+      ],
+      "qa": {
+        "kind": "hypRatio",
+        "O": 6,
+        "num": 3,
+        "den": 5
+      }
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "The hypotenuse is 35 and sin θ=4/7. Find the opposite leg.",
+      "answer": "20",
+      "solution": "O=35·4/7=20.",
+      "choices": [
+        "20",
+        "28",
+        "15",
+        "12"
+      ],
+      "qa": {
+        "kind": "oppRatio",
+        "H": 35,
+        "num": 4,
+        "den": 7
+      }
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "The opposite leg is 12 and hypotenuse is 13. Find sin θ.",
+      "answer": "12/13",
+      "solution": "Sine is opposite/hypotenuse, so 12/13.",
+      "choices": [
+        "12/13",
+        "5/13",
+        "12/5",
+        "13/12"
+      ],
+      "qa": {
+        "kind": "ratio",
+        "O": 12,
+        "H": 13
+      }
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "The legs are 5 and 12. The opposite leg to θ is 5. Find sin θ.",
+      "answer": "5/13",
+      "solution": "Hypotenuse=√(5²+12²)=13, so sin θ=5/13.",
+      "choices": [
+        "5/13",
+        "5/12",
+        "12/13",
+        "13/5"
+      ],
+      "qa": {
+        "kind": "ratioPythag",
+        "O": 5,
+        "A": 12
+      }
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "A right triangle has hypotenuse 17 and adjacent leg 15. Find sin θ.",
+      "answer": "8/17",
+      "solution": "Opposite=√(17²−15²)=8; sine=8/17.",
+      "choices": [
+        "8/17",
+        "15/17",
+        "8/15",
+        "17/8"
+      ],
+      "qa": {
+        "kind": "ratioMissingOpp",
+        "H": 17,
+        "A": 15
+      }
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "A 50-meter cable makes a 30° angle with the ground. Find its vertical rise.",
+      "answer": "25 m",
+      "solution": "Vertical rise=50 sin30°=25 meters.",
+      "choices": [
+        "25 m",
+        "50 m",
+        "100 m",
+        "20 m"
+      ],
+      "qa": {
+        "kind": "opp30unit",
+        "H": 50,
+        "unit": " m"
+      }
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "If sin θ=0.6 and the opposite side is 18, find the hypotenuse.",
+      "answer": "30",
+      "solution": "H=18/0.6=30.",
+      "choices": [
+        "30",
+        "10.8",
+        "18.6",
+        "3"
+      ],
+      "qa": {
+        "kind": "hypDecimal",
+        "O": 18,
+        "sin": 0.6
+      }
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "A right triangle has opposite leg 9 and hypotenuse 15. Find sin θ in simplest form.",
+      "answer": "3/5",
+      "solution": "9/15 reduces to 3/5.",
+      "choices": [
+        "3/5",
+        "5/3",
+        "4/5",
+        "3/4"
+      ],
+      "qa": {
+        "kind": "ratio",
+        "O": 9,
+        "H": 15
+      }
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "An acute angle has opposite leg 12 and hypotenuse 20. Find θ to the nearest tenth of a degree.",
+      "answer": "36.9°",
+      "solution": "θ=arcsin(12/20)=arcsin(0.6)≈36.9°.",
+      "choices": [
+        "36.9°",
+        "53.1°",
+        "30.0°",
+        "60.0°"
+      ],
+      "qa": {
+        "kind": "angle",
+        "O": 12,
+        "H": 20
+      }
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "A right triangle has hypotenuse 26 and adjacent leg 24. Find sin θ.",
+      "answer": "5/13",
+      "solution": "Opposite=√(26²−24²)=10, so sin θ=10/26=5/13.",
+      "choices": [
+        "5/13",
+        "12/13",
+        "5/12",
+        "13/5"
+      ],
+      "qa": {
+        "kind": "ratioMissingOpp",
+        "H": 26,
+        "A": 24
+      }
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "Triangle A has opposite/hypotenuse 8/10; triangle B has 12/15. Compare their sine ratios.",
+      "answer": "Equal",
+      "solution": "Both ratios reduce to 4/5, so the sine ratios are equal.",
+      "choices": [
+        "Equal",
+        "A is larger",
+        "B is larger",
+        "Cannot compare"
+      ],
+      "qa": {
+        "kind": "compare",
+        "O1": 8,
+        "H1": 10,
+        "O2": 12,
+        "H2": 15
+      }
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "A 46-meter ramp makes a 30° angle with the ground. What is the vertical rise?",
+      "answer": "23 m",
+      "solution": "Vertical rise=46 sin30°=23 meters.",
+      "choices": [
+        "23 m",
+        "46 m",
+        "92 m",
+        "15 m"
+      ],
+      "qa": {
+        "kind": "opp30unit",
+        "H": 46,
+        "unit": " m"
+      }
+    },
+    {
+      "group": "Challenge Problems",
+      "prompt": "A right triangle has sin θ=5/13 and hypotenuse 65. Find the adjacent leg.",
+      "answer": "60",
+      "solution": "Opposite=65·5/13=25; adjacent=√(65²−25²)=60.",
+      "choices": [
+        "60",
+        "25",
+        "65",
+        "40"
+      ],
+      "qa": {
+        "kind": "adjRatio",
+        "H": 65,
+        "num": 5,
+        "den": 13
+      }
+    },
+    {
+      "group": "Challenge Problems",
+      "prompt": "An acute angle has sin θ=12/13 and hypotenuse 39. Find opposite minus adjacent.",
+      "answer": "21",
+      "solution": "Opposite=39·12/13=36; adjacent=√(39²−36²)=15; difference=21.",
+      "choices": [
+        "21",
+        "15",
+        "36",
+        "51"
+      ],
+      "qa": {
+        "kind": "difference",
+        "H": 39,
+        "num": 12,
+        "den": 13
+      }
+    }
+  ],
+  "test": [
+    {
+      "group": "Easy",
+      "prompt": "Find sin θ if opposite=8 and hypotenuse=10.",
+      "answer": "4/5",
+      "solution": "8/10 reduces to 4/5.",
+      "choices": [
+        "4/5",
+        "5/4",
+        "3/5",
+        "8/5"
+      ],
+      "qa": {
+        "kind": "ratio",
+        "O": 8,
+        "H": 10
+      }
+    },
+    {
+      "group": "Easy / Medium",
+      "prompt": "A right triangle has angle 30° and hypotenuse 32. Find the opposite leg.",
+      "answer": "16",
+      "solution": "32·sin30°=16.",
+      "choices": [
+        "16",
+        "32",
+        "8",
+        "24"
+      ],
+      "qa": {
+        "kind": "opp30",
+        "H": 32
+      }
+    },
+    {
+      "group": "Medium",
+      "prompt": "The opposite leg is 15 and sin θ=3/5. Find the hypotenuse.",
+      "answer": "25",
+      "solution": "15/H=3/5, so H=25.",
+      "choices": [
+        "25",
+        "9",
+        "15",
+        "30"
+      ],
+      "qa": {
+        "kind": "hypRatio",
+        "O": 15,
+        "num": 3,
+        "den": 5
+      }
+    },
+    {
+      "group": "Medium / Hard",
+      "prompt": "A right triangle has hypotenuse 25 and adjacent leg 24. Find sin θ.",
+      "answer": "7/25",
+      "solution": "Opposite=√(625−576)=7, so sine=7/25.",
+      "choices": [
+        "7/25",
+        "24/25",
+        "7/24",
+        "25/7"
+      ],
+      "qa": {
+        "kind": "ratioMissingOpp",
+        "H": 25,
+        "A": 24
+      }
+    },
+    {
+      "group": "Hard / Exam-Style",
+      "prompt": "A right triangle has sin θ=8/17 and hypotenuse 51. Find its area.",
+      "answer": "540",
+      "solution": "Opposite=51·8/17=24; adjacent=√(51²−24²)=45; area=24·45/2=540.",
+      "choices": [
+        "540",
+        "1080",
+        "612",
+        "270"
+      ],
+      "qa": {
+        "kind": "areaRatio",
+        "H": 51,
+        "num": 8,
+        "den": 17
+      }
+    }
+  ]
+}
