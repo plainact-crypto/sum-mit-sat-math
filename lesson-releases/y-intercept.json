@@ -1,0 +1,17 @@
+{
+  "lesson": "y-intercept",
+  "builders": [
+    "quadratic-y-intercept-content-build.js",
+    "explanation-retrofit-build.js",
+    "y-intercept-lesson90-test-lock-build.js",
+    "y-intercept-lesson90-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/quadratic-functions/standard-form/y-intercept/explanation/",
+    "/advanced-math/quadratic-functions/standard-form/y-intercept/problems/",
+    "/advanced-math/quadratic-functions/standard-form/y-intercept/answers/",
+    "/advanced-math/quadratic-functions/standard-form/y-intercept/test/",
+    "/advanced-math/quadratic-functions/standard-form/y-intercept/video/english/",
+    "/advanced-math/quadratic-functions/standard-form/y-intercept/video/arabic/"
+  ]
+}
