@@ -1,6 +1,7 @@
 {
   "lesson": "collinear-points",
   "builders": [
+    "collinear-points-lesson30-test-lock-build.js",
     "collinear-points-lesson30-full-video-build.js"
   ],
   "routes": [
