@@ -1,1 +1,1 @@
-{"lesson_index":223,"slug":"complementary-angles","title":"Complementary Angles","base":"geometry-and-trigonometry/lines-and-angles/complementary-angles","worker":"worker3","status":"IN_PROGRESS","date":"2026-10-11"}
+{"lesson_index":223,"slug":"complementary-angles","worker":"worker3","status":"RELEASE_BLOCKED","qa":"23/23 math; 4/4 isolated builders; 6/6 routes","manifest":"lesson-releases/complementary-angles.json","blocker":"Explanation registry update rejected; full repository build unverified","next":228}
