@@ -1,0 +1,17 @@
+{
+  "lesson": "experiments",
+  "builders": [
+    "experiments-lesson218-explanation-build.js",
+    "experiments-lesson218-practice-build.js",
+    "experiments-lesson218-test-build.js",
+    "experiments-lesson218-video-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/statistical-studies/experiments/explanation/",
+    "/problem-solving-and-data-analysis/statistical-studies/experiments/problems/",
+    "/problem-solving-and-data-analysis/statistical-studies/experiments/answers/",
+    "/problem-solving-and-data-analysis/statistical-studies/experiments/test/",
+    "/problem-solving-and-data-analysis/statistical-studies/experiments/video/english/",
+    "/problem-solving-and-data-analysis/statistical-studies/experiments/video/arabic/"
+  ]
+}
