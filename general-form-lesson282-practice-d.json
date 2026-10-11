@@ -1,0 +1,20 @@
+[
+  {
+    "group": "Core Practice",
+    "prompt": "Does x²+y²+4x+6y+20=0 describe a real circle?",
+    "answer": "No real points",
+    "solution": "r²=4+9−20=−7. A squared distance cannot be negative.",
+    "choices": [
+      "No real points",
+      "A circle of radius 7",
+      "A circle of radius 0",
+      "A circle of radius 3"
+    ],
+    "qa": {
+      "kind": "classify",
+      "D": 4,
+      "E": 6,
+      "F": 20
+    }
+  }
+]
