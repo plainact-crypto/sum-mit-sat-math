@@ -1,0 +1,70 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Translate real-world heights, distances, ramps, ladders, shadows, and angles into right-triangle equations and solve accurately with sine, cosine, tangent, or the Pythagorean theorem."
+  ],
+  [
+    "WHAT YOU NEED TO KNOW",
+    "Sketch the situation before calculating. Identify the right angle, label the known lengths and angles, and determine what the question asks."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Angle of elevation is measured up from horizontal; angle of depression is measured down from horizontal. Hypotenuse lies opposite the right angle; adjacent and opposite depend on the chosen acute angle."
+  ],
+  [
+    "CORE RULE",
+    "SOH: sin θ=opposite/hypotenuse. CAH: cos θ=adjacent/hypotenuse. TOA: tan θ=opposite/adjacent. For side lengths, a²+b²=c²."
+  ],
+  [
+    "HOW IT WORKS — DRAW AND LABEL",
+    "1. Draw a right triangle. 2. Mark θ and 90°. 3. Label known lengths and unknown. 4. Choose a ratio involving only known and unknown quantities. 5. Solve, check units, round last."
+  ],
+  [
+    "HOW IT WORKS — SELECT THE RATIO",
+    "Opposite and adjacent → tangent. Opposite and hypotenuse → sine. Adjacent and hypotenuse → cosine. Two known sides → Pythagorean theorem. Two known sides and unknown angle → inverse trig."
+  ],
+  [
+    "WORKED EXAMPLE 1 — LADDER",
+    "A 5-m ladder has its base 3 m from the wall. Wall height h satisfies h²+3²=5², so h=√16=4 m."
+  ],
+  [
+    "WORKED EXAMPLE 2 — SHADOW",
+    "A 12-m shadow and a 35° angle of elevation form a right triangle. Building height h=12 tan 35°≈8.40 m."
+  ],
+  [
+    "WORKED EXAMPLE 3 — RAMP",
+    "A ramp has length 15 m and angle 20° above ground. Vertical rise=15 sin 20°≈5.13 m; horizontal run=15 cos 20°≈14.10 m."
+  ],
+  [
+    "WORKED EXAMPLE 4 — UNKNOWN ANGLE",
+    "An observer sees a height difference of 12 m across 20 m horizontally. tan θ=12/20=0.6; θ=arctan(0.6)≈30.96°."
+  ],
+  [
+    "WORKED EXAMPLE 5 — EYE HEIGHT",
+    "A person's eyes are 1.7 m above ground, standing 50 m from a tower. At 38° elevation, height above eyes=50 tan 38°≈39.06 m, so tower height≈40.76 m."
+  ],
+  [
+    "ANGLES OF ELEVATION AND DEPRESSION",
+    "Both angles are measured from a horizontal line. Parallel horizontal lines create equal corresponding acute angles, so a downward sightline can be modeled with the same triangle ratio."
+  ],
+  [
+    "VERIFIED TRIANGLE DIAGRAM",
+    "Use exact vertices (0,0), (3,0), (3,4): run 3, rise 4, diagonal 5. Pythagorean check: 3²+4²=5²; tan θ=4/3, sin θ=4/5, cos θ=3/5."
+  ],
+  [
+    "DESMOS STRATEGY",
+    "Enter: 12*tan(35°), 15*sin(20°), arctan(12/20) in degree mode. Look for: 8.40, 5.13, 30.96°. Use it to answer: check height, rise, and elevation angle. Why it works: right-triangle side ratios define sine, cosine, and tangent. Faster or not? For non-special angles, a calculator or Desmos is faster after the triangle is labeled."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not use the wrong reference angle or confuse rise with sloped length. Add observer eye height only when the question asks for total height. Check degree mode, units, and physical plausibility."
+  ],
+  [
+    "EXAM STRATEGY & QUICK CHECK",
+    "Identify whether the unknown is a side or angle. If opposite and adjacent are given, tangent is fastest. If hypotenuse and vertical rise are given, sine is fastest. Quick checks: 5-3-4 ladder gives 4; 10 sin 30°=5; arctan(1)=45°."
+  ],
+  [
+    "LESSON RECAP & NEXT STEP",
+    "Draw, label, choose SOH-CAH-TOA or Pythagoras, solve and check. Practice 18 varied word problems, study 18 aligned solutions, take the five-question test, then watch full English or Arabic lesson."
+  ]
+]
