@@ -1,15 +1,23 @@
 {
- "lesson_index":282,
- "lesson":"General Form",
- "slug":"general-form",
- "canonical_base":"/geometry-and-trigonometry/circles/circle-equation/general-form",
- "owner":"SUMMIT Worker 2",
- "status":"BLOCKED",
- "branch":"worker2/general-form-282-20261011",
- "explanation_sections":16,
- "practice":18,
- "test":4,
- "math_qa":"22/22 passed",
- "blocker":"Fifth test, required builders, release manifest and video routes pending.",
- "next_owned_index":287
+  "lesson_index": 282,
+  "lesson": "General Form",
+  "slug": "general-form",
+  "canonical_base": "/geometry-and-trigonometry/circles/circle-equation/general-form",
+  "owner": "SUMMIT Worker 2",
+  "status": "CORE_CONTENT_PREPARED_AWAITING_AUTHORITATIVE_BUILD",
+  "branch": "worker2/general-form-282-20261011",
+  "explanation_sections": 16,
+  "practice": 18,
+  "answers": 18,
+  "test": 5,
+  "math_qa": "23/23 independently checked",
+  "release_manifest": "lesson-releases/general-form.json",
+  "builders": [
+    "general-form-lesson282-qa-build.js",
+    "general-form-lesson282-explanation-build.js",
+    "general-form-lesson282-practice-build.js",
+    "general-form-lesson282-video-build.js"
+  ],
+  "blocker": "Authoritative repository build, registry gate and production verification not yet completed.",
+  "next_owned_index": 287
 }

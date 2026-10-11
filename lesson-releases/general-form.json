@@ -1,0 +1,17 @@
+{
+  "lesson": "general-form",
+  "builders": [
+    "general-form-lesson282-qa-build.js",
+    "general-form-lesson282-explanation-build.js",
+    "general-form-lesson282-practice-build.js",
+    "general-form-lesson282-video-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/circles/circle-equation/general-form/explanation/",
+    "/geometry-and-trigonometry/circles/circle-equation/general-form/problems/",
+    "/geometry-and-trigonometry/circles/circle-equation/general-form/answers/",
+    "/geometry-and-trigonometry/circles/circle-equation/general-form/test/",
+    "/geometry-and-trigonometry/circles/circle-equation/general-form/video/english/",
+    "/geometry-and-trigonometry/circles/circle-equation/general-form/video/arabic/"
+  ]
+}
