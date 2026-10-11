@@ -251,7 +251,7 @@
       "difficulty": "Easy / Medium",
       "prompt": "Scale factor is 0.4, original side 25 cm. Find image side.",
       "answer": "10",
-      "solution": "Multiply 25×0.4=10 cm.",
+      "solution": "The image length equals the original length multiplied by the scale factor: 25×0.4=10 cm. Because k<1, this is a reduction.",
       "check": [
         "scale",
         25,
