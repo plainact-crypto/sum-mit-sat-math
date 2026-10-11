@@ -1,0 +1,12 @@
+{
+  "lesson": "sample-statistics",
+  "builders": ["sample-statistics-lesson212-build.js", "sample-statistics-lesson212-test-asset-build.js"],
+  "routes": [
+    "/problem-solving-and-data-analysis/sampling-and-inference/sample-statistics/explanation/",
+    "/problem-solving-and-data-analysis/sampling-and-inference/sample-statistics/problems/",
+    "/problem-solving-and-data-analysis/sampling-and-inference/sample-statistics/answers/",
+    "/problem-solving-and-data-analysis/sampling-and-inference/sample-statistics/test/",
+    "/problem-solving-and-data-analysis/sampling-and-inference/sample-statistics/video/english/",
+    "/problem-solving-and-data-analysis/sampling-and-inference/sample-statistics/video/arabic/"
+  ]
+}
