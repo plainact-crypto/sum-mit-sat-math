@@ -1,0 +1,102 @@
+{
+  "english": [
+    [
+      "01 — What expansion means",
+      "Expanding removes grouping by multiplying every term inside parentheses by the factor outside. For example, two times x plus six becomes two x plus twelve. The expanded form has the same value for every x."
+    ],
+    [
+      "02 — The distributive property",
+      "The rule is a times the sum b plus c equals a b plus a c. Also a times b minus c equals a b minus a c. Multiply each term, not just the first."
+    ],
+    [
+      "03 — First worked example",
+      "Expand three times x plus four minus two times x minus five. Distribute three to get three x plus twelve. Distribute negative two to get negative two x plus ten. Combine: x plus twenty two."
+    ],
+    [
+      "04 — Check equivalent expressions",
+      "Use x equals five in the original expression. Three times nine minus two times zero equals twenty seven. In the expanded form x plus twenty two, five plus twenty two is also twenty seven. Substitution checks the arithmetic, but does not replace the distributive proof."
+    ],
+    [
+      "05 — Negative factors",
+      "Expand negative three times y plus five. Negative three times y is negative three y; negative three times five is negative fifteen. The result is negative three y minus fifteen. Both terms must receive the negative factor."
+    ],
+    [
+      "06 — A minus before parentheses",
+      "A minus sign before a group is multiplication by negative one. Negative of four a minus nine becomes negative four a plus nine. Add three times a plus one to obtain negative a plus twelve."
+    ],
+    [
+      "07 — Fractions and decimals",
+      "One half times ten t minus eight plus two t gives five t minus four plus two t, or seven t minus four. Likewise, zero point five times six r plus four minus r gives two r plus two."
+    ],
+    [
+      "08 — Nested grouping",
+      "Simplify three times the bracket two q minus the quantity q minus five. The inner subtraction becomes two q minus q plus five, which is q plus five. Multiply by three to obtain three q plus fifteen."
+    ],
+    [
+      "09 — Application: area",
+      "A rectangle with width five and length two x plus three has area five times the quantity two x plus three. Distribute to get ten x plus fifteen square units. Keep units consistent."
+    ],
+    [
+      "10 — Identity with a parameter",
+      "If two times three x plus k minus x equals five x plus fourteen for every x, expand the left to five x plus two k. Equal expressions for every x have equal constant terms. Two k equals fourteen, so k equals seven."
+    ],
+    [
+      "11 — Challenge and sign check",
+      "Simplify negative two times the bracket three x minus two times four minus x, then add five x. Inside the bracket, three x minus eight plus two x equals five x minus eight. Multiply by negative two and add five x to obtain negative five x plus sixteen."
+    ],
+    [
+      "12 — Exam strategy and quick check",
+      "First distribute to every term. Next combine like terms, keeping signs and exponents. Finally substitute a convenient number to catch errors. Quick check: three times two y minus one minus two times one minus y simplifies to eight y minus five. Take the practice and then the five question test."
+    ]
+  ],
+  "arabic": [
+    [
+      "٠١ — معنى فك الأقواس",
+      "فك الأقواس يعني ضرب كل حد داخل القوس في العامل الموجود خارجه. مثال: اثنان في س زائد ستة يساوي اثنين س زائد اثني عشر. التعبيران متكافئان لكل قيمة لس."
+    ],
+    [
+      "٠٢ — خاصية التوزيع",
+      "القاعدة هي: أ في مجموع ب زائد ج يساوي أ ب زائد أ ج. وعند الطرح نضرب كل حد مع الاحتفاظ بإشارته. لا نضرب الحد الأول فقط."
+    ],
+    [
+      "٠٣ — مثال محلول أول",
+      "فك ثلاثة في س زائد أربعة، ناقص اثنين في س ناقص خمسة. ينتج ثلاثة س زائد اثني عشر ناقص اثنين س زائد عشرة. بجمع الحدود المتشابهة نحصل على س زائد اثنين وعشرين."
+    ],
+    [
+      "٠٤ — التحقق بالتعويض",
+      "نعوض بس تساوي خمسة. في التعبير الأصلي: ثلاثة في تسعة ناقص اثنين في صفر يساوي سبعة وعشرين. وفي س زائد اثنين وعشرين تكون النتيجة أيضاً سبعة وعشرين. التعويض يراجع الحساب لكنه لا يغني عن التوزيع."
+    ],
+    [
+      "٠٥ — العامل السالب",
+      "فك سالب ثلاثة في ص زائد خمسة. سالب ثلاثة في ص يعطي سالب ثلاثة ص، وسالب ثلاثة في خمسة يعطي سالب خمسة عشر. الناتج سالب ثلاثة ص ناقص خمسة عشر."
+    ],
+    [
+      "٠٦ — السالب قبل القوس",
+      "إشارة السالب قبل القوس تعني الضرب في سالب واحد. سالب الكمية أربعة أ ناقص تسعة يساوي سالب أربعة أ زائد تسعة. وبإضافة ثلاثة في أ زائد واحد نحصل على سالب أ زائد اثني عشر."
+    ],
+    [
+      "٠٧ — الكسور والكسور العشرية",
+      "نصف الكمية عشرة ت ناقص ثمانية زائد اثنين ت يساوي خمسة ت ناقص أربعة زائد اثنين ت، أي سبعة ت ناقص أربعة. ونصف الكمية ستة ر زائد أربعة ناقص ر يساوي اثنين ر زائد اثنين."
+    ],
+    [
+      "٠٨ — الأقواس المتداخلة",
+      "بسط ثلاثة في القوس اثنين ق ناقص الكمية ق ناقص خمسة. نبدأ من الداخل: اثنان ق ناقص ق زائد خمسة يساوي ق زائد خمسة. نضرب في ثلاثة فنحصل على ثلاثة ق زائد خمسة عشر."
+    ],
+    [
+      "٠٩ — تطبيق المساحة",
+      "مستطيل عرضه خمسة وطوله اثنان س زائد ثلاثة. المساحة تساوي خمسة في اثنين س زائد ثلاثة. بالتوزيع تصبح عشرة س زائد خمسة عشر وحدة مربعة."
+    ],
+    [
+      "١٠ — إيجاد معامل مجهول",
+      "إذا كان اثنان في ثلاثة س زائد ك، ناقص س، يساوي خمسة س زائد أربعة عشر لكل قيمة لس، فإن الطرف الأيسر يساوي خمسة س زائد اثنين ك. لذلك اثنان ك يساوي أربعة عشر، ومنه ك تساوي سبعة."
+    ],
+    [
+      "١١ — تحدي الإشارات",
+      "بسط سالب اثنين في القوس ثلاثة س ناقص اثنين في أربعة ناقص س، ثم أضف خمسة س. داخل القوس نحصل على خمسة س ناقص ثمانية. وبعد التوزيع وجمع الحدود يصبح الناتج سالب خمسة س زائد ستة عشر."
+    ],
+    [
+      "١٢ — استراتيجية الاختبار",
+      "وزع العامل على كل الحدود، ثم اجمع الحدود المتشابهة، ثم تحقق بالتعويض في قيمة سهلة. اختبار سريع: ثلاثة في اثنين ص ناقص واحد، ناقص اثنين في واحد ناقص ص، يساوي ثمانية ص ناقص خمسة. انتقل إلى التدريب ثم اختبار الدرس."
+    ]
+  ]
+}
