@@ -1,0 +1,1 @@
+[{"number":5,"difficulty":"Hard / Exam-Style","question":"Two pairs of corresponding sides have lengths x+2 and 12, and x+6 and 20. Find x.","choices":["2","4","6","8"],"correct":1,"answer":"4","solution":"20 times (x+2) equals 12 times (x+6); therefore 8x=32 and x=4."}]
