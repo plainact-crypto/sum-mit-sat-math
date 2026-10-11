@@ -1,0 +1,166 @@
+{
+  "english": [
+    [
+      "LESSON OBJECTIVE",
+      "Find a circle center from general form x²+y²+Dx+Ey+F=0 by computing (−D/2,−E/2)."
+    ],
+    [
+      "WHAT YOU NEED TO KNOW",
+      "General form hides the center in the coefficients of x and y. The squared terms must have equal coefficients of 1, and there must be no xy term."
+    ],
+    [
+      "KEY DEFINITIONS",
+      "D is the coefficient of x, E is the coefficient of y, and F is the constant. The center is (h,k). The radius must satisfy r²=h²+k²−F>0."
+    ],
+    [
+      "CORE RULE",
+      "For x²+y²+Dx+Ey+F=0, the center is (−D/2,−E/2). Ignore the constant F when locating the center."
+    ],
+    [
+      "WHY THE RULE WORKS",
+      "Completing squares gives (x+D/2)²+(y+E/2)²=(D²+E²)/4−F. Comparing with (x−h)²+(y−k)²=r² gives h=−D/2 and k=−E/2."
+    ],
+    [
+      "HOW IT WORKS",
+      "1. Confirm equal x² and y² coefficients. 2. Identify signed coefficients D and E. 3. Negate and halve each. 4. Write the ordered pair (h,k). 5. Check r²>0 if the question asks whether the circle exists."
+    ],
+    [
+      "WORKED EXAMPLE 1 — BASIC",
+      "x²+y²−6x+4y−12=0. D=−6 and E=4. Therefore h=3 and k=−2. Completing squares gives (x−3)²+(y+2)²=25."
+    ],
+    [
+      "WORKED EXAMPLE 2 — POSITIVE COEFFICIENTS",
+      "x²+y²+8x+12y=0. D=8 and E=12. The center is (−4,−6), and the radius squared is 16+36=52."
+    ],
+    [
+      "WORKED EXAMPLE 3 — ZERO COEFFICIENTS",
+      "x²+y²−49=0 has D=E=0. The center is the origin (0,0), with radius 7."
+    ],
+    [
+      "WORKED EXAMPLE 4 — DECIMALS",
+      "x²+y²−x+1.5y−8.1875=0. D=−1 and E=1.5, so the center is (0.5,−0.75)."
+    ],
+    [
+      "WORKED EXAMPLE 5 — TWO CIRCLES",
+      "The centers of x²+y²+12x−16y+91=0 and x²+y²−8x+2y+1=0 are (−6,8) and (4,−1). Their midpoint is (−1,3.5)."
+    ],
+    [
+      "VERIFIED CIRCLE GRAPH",
+      "For x²+y²−6x+4y−12=0, completing the square gives (x−3)²+(y+2)²=25. Center (3,−2), radius 5. Point (8,−2) verifies: 64+4−48−8−12=0."
+    ],
+    [
+      "Visual proof",
+      "The center (3,-2) is five units from (8,-2), and that point satisfies the original general equation."
+    ],
+    [
+      "Coefficient rehearsal",
+      "A positive x-coefficient produces a negative center x-coordinate; the center coordinate is always negative one-half the coefficient."
+    ],
+    [
+      "Challenge preview",
+      "Find each circle center independently, then average the corresponding coordinates for the requested midpoint or mean."
+    ],
+    [
+      "DESMOS STRATEGY",
+      "Enter: x^2+y^2-6x+4y-12=0. Look for: a circle symmetric about x=3 and y=-2. Use it to answer: verify center (3,-2) by symmetry. Why it works: completing squares translates the graph to center (3,-2). Faster or not? No; −D/2 and −E/2 are faster and exact."
+    ],
+    [
+      "COMMON MISTAKES",
+      "Do not use F as a center coordinate. Do not forget to divide by 2. Keep the signs on D and E when applying the negative. If the coefficients of x² and y² are both a≠1, divide the whole equation by a first."
+    ],
+    [
+      "EXAM STRATEGY",
+      "Read D and E before doing any algebra. Compute (−D/2,−E/2) directly. For multiple circles, extract each center first, then calculate a midpoint or coordinate-wise mean."
+    ],
+    [
+      "QUICK CHECK",
+      "1) x²+y²+10x−4y−1=0 → center (−5,2). 2) x²+y²+8y−20=0 → center (0,−4). 3) y²+x²−3x+0.5y−1=0 → center (1.5,−0.25)."
+    ],
+    [
+      "LESSON RECAP & NEXT STEP",
+      "General form x²+y²+Dx+Ey+F=0 has center (−D/2,−E/2). Practice with 18 questions, inspect 18 worked solutions, take the five-question test, and watch the full lesson in English or Arabic."
+    ]
+  ],
+  "arabic": [
+    [
+      "هدف الدرس",
+      "سنتعلم استخراج مركز الدائرة من الصورة العامة x²+y²+Dx+Ey+F=0. المركز يساوي (−D/2,−E/2)."
+    ],
+    [
+      "الفكرة الأساسية",
+      "معامل x ومعامل y يحددان المركز. الحد الثابت F لا يحدد إحداثيات المركز."
+    ],
+    [
+      "تعريفات",
+      "D هو معامل x، وE هو معامل y، وF هو الحد الثابت. المركز (h,k) ونصف القطر موجب."
+    ],
+    [
+      "القاعدة",
+      "في x²+y²+Dx+Ey+F=0 يكون المركز (−D/2,−E/2). اعكس إشارة كل معامل واقسمه على اثنين."
+    ],
+    [
+      "لماذا تنجح القاعدة",
+      "بإكمال المربع نحصل على (x+D/2)²+(y+E/2)²=r². لذلك h=−D/2 وk=−E/2."
+    ],
+    [
+      "خطوات الحل",
+      "حدد معامل x ومعامل y بإشارتيهما. اضرب كلاً منهما في سالب نصف، ثم اكتب المركز بترتيب x ثم y."
+    ],
+    [
+      "مثال أول",
+      "في x²+y²−6x+4y−12=0 يكون D=−6 وE=4، إذن المركز (3,−2)."
+    ],
+    [
+      "مثال ثان",
+      "في x²+y²+8x+12y=0 يكون المركز (−4,−6)."
+    ],
+    [
+      "مثال ثالث",
+      "في x²+y²−49=0 لا يوجد حد x ولا y، لذلك المركز هو (0,0)."
+    ],
+    [
+      "مثال رابع",
+      "في x²+y²−x+1.5y−8.1875=0 يكون المركز (0.5,−0.75)."
+    ],
+    [
+      "مثال خامس",
+      "مركزا الدائرتين (−6,8) و(4,−1)، ومنتصفهما يساوي (−1,3.5)."
+    ],
+    [
+      "رسم الدائرة",
+      "بإكمال المربع تصبح المعادلة (x−3)²+(y+2)²=25. المركز (3,−2) ونصف القطر 5."
+    ],
+    [
+      "تحقق بصري",
+      "النقطة (8,−2) تبعد خمس وحدات عن المركز، وتحقق المعادلة الأصلية."
+    ],
+    [
+      "مراجعة المعاملات",
+      "إذا كان معامل x موجباً فإحداثي المركز الأفقي سالب؛ لأنه يساوي سالب نصف المعامل."
+    ],
+    [
+      "تحدي المتوسط",
+      "استخرج مركز كل دائرة على حدة، ثم احسب متوسط إحداثيات x ومتوسط إحداثيات y."
+    ],
+    [
+      "استراتيجية ديسموس",
+      "أدخل x^2+y^2-6x+4y-12=0. ستلاحظ التناظر حول x=3 وy=−2. الحساب المباشر أسرع، وديسموس للتحقق."
+    ],
+    [
+      "أخطاء شائعة",
+      "لا تستخدم F لتحديد المركز. لا تنس القسمة على اثنين. انتبه إلى الإشارات السالبة."
+    ],
+    [
+      "استراتيجية الامتحان",
+      "اقرأ D وE ثم احسب (−D/2,−E/2) مباشرة. تأكد من ترتيب x ثم y."
+    ],
+    [
+      "اختبار سريع",
+      "في x²+y²+10x−4y−1=0 يكون المركز (−5,2). وفي x²+y²+8y−20=0 يكون المركز (0,−4)."
+    ],
+    [
+      "الخلاصة",
+      "المركز في الصورة العامة هو (−D/2,−E/2). أكمل التدريبات والحلول والاختبار ثم شاهد الشرح الكامل."
+    ]
+  ]
+}
