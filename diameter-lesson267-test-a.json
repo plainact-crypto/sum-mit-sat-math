@@ -1,0 +1,28 @@
+[
+  {
+    "number": 1,
+    "difficulty": "Easy",
+    "question": "Radius is 9 cm. Find diameter.",
+    "choices": [
+      "9 cm",
+      "18 cm",
+      "27 cm",
+      "81 cm"
+    ],
+    "correct": 1,
+    "solution": "Double 9 to get 18 cm."
+  },
+  {
+    "number": 2,
+    "difficulty": "Easy / Medium",
+    "question": "Diameter is 26 ft. Find radius.",
+    "choices": [
+      "52 ft",
+      "26 ft",
+      "13 ft",
+      "6.5 ft"
+    ],
+    "correct": 2,
+    "solution": "Half of 26 is 13 ft."
+  }
+]
