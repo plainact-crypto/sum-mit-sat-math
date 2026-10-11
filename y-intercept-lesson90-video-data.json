@@ -1,0 +1,102 @@
+{
+  "english": [
+    [
+      "Objective: locate the y-intercept",
+      "In this lesson, we find where a quadratic graph meets the vertical y-axis. Every point on that axis has x equal to zero. The y-intercept is an ordered pair, not just a number. Our main rule is that for y equals a x squared plus b x plus c, the y-intercept is zero comma c."
+    ],
+    [
+      "Why x equals zero",
+      "Imagine moving along the y-axis: you can move up or down, but your horizontal position remains zero. To find where any function crosses this axis, substitute zero for x. The result is f of zero, and the point is zero comma f of zero. This works in standard, factored, and vertex form."
+    ],
+    [
+      "Recognize standard form",
+      "Standard form is y equals a x squared plus b x plus c, with a not equal to zero. At x equals zero, both the squared term and the linear term vanish. Only c remains. Therefore, read the constant term, keep its sign, and write the coordinate pair zero comma c."
+    ],
+    [
+      "Worked example: positive intercept",
+      "Consider y equals two x squared minus five x plus seven. The constant term is positive seven. Setting x to zero gives two times zero squared minus five times zero plus seven, which equals seven. So the parabola crosses the y-axis at zero comma seven. This calculation also verifies the shortcut."
+    ],
+    [
+      "Worked example: negative and zero",
+      "For y equals negative three x squared plus four x minus nine, the intercept is zero comma negative nine. For y equals five x squared minus two x, there is no constant term, so c is zero. Its y-intercept is the origin, zero comma zero. Never confuse a missing constant with a missing intercept."
+    ],
+    [
+      "Factored form: substitute first",
+      "Now take y equals x minus three times x plus two. Do not try to read c from the factors. Set x equal to zero. The first factor becomes negative three and the second becomes two. Their product is negative six, so the y-intercept is zero comma negative six. Expansion would give the same result, but substitution is faster."
+    ],
+    [
+      "Vertex form: evaluate carefully",
+      "Suppose y equals two times x minus three squared minus four. Substitute x equal to zero. The expression in parentheses is negative three, its square is nine, and two times nine minus four is fourteen. Thus the y-intercept is zero comma fourteen. Remember to square before multiplying by the outside coefficient."
+    ],
+    [
+      "Unknown factor: solve a parameter",
+      "Suppose y equals x minus five times x plus p has y-intercept zero comma twenty. At x equals zero, the expression becomes negative five p. Set negative five p equal to twenty, then divide by negative five. We obtain p equals negative four. Substitute it back to verify that the intercept really is twenty."
+    ],
+    [
+      "Unknown leading coefficient",
+      "For y equals a times x minus two squared minus three, the y-intercept is zero comma nine. Set x to zero and y to nine. This gives nine equals four a minus three. Add three to obtain twelve equals four a, so a equals three. This is a typical exam-style reverse question."
+    ],
+    [
+      "Real-world meaning of an intercept",
+      "A height model might be h of t equals negative sixteen t squared plus forty t plus six. Here t represents elapsed time, and h is height. The y-intercept is zero comma six. It tells us the object's initial height at time zero, six units. Always include the meaning and units supplied by the question."
+    ],
+    [
+      "Desmos: a useful verification",
+      "Enter y equals two x squared minus five x plus seven in Desmos. Find the intersection of the parabola with the y-axis, at zero comma seven. The reason is that the y-axis is x equals zero. The exact algebra check is f of zero equals seven. For standard form, reading c is faster than graphing."
+    ],
+    [
+      "Common errors and final check",
+      "Do not report seven alone when the problem asks for a point: write zero comma seven. Do not use b as the intercept, and do not confuse the x-intercept, where y is zero, with the y-intercept, where x is zero. For any form, calculate f of zero. Now complete eighteen practice questions and a five-question lesson test."
+    ]
+  ],
+  "arabic": [
+    [
+      "هدف الدرس: نقطة التقاطع مع محور الصادات",
+      "سنتعلم إيجاد نقطة تقاطع منحنى الدالة التربيعية مع محور الصادات. أي نقطة على هذا المحور يكون إحداثي السينات فيها صفراً. نقطة التقاطع زوج مرتب وليست مجرد عدد. في الصورة القياسية صاد تساوي ألف سين تربيع زائد باء سين زائد جيم، تكون النقطة صفر فاصلة جيم."
+    ],
+    [
+      "لماذا نعوض بالسين تساوي صفراً؟",
+      "عندما نتحرك على محور الصادات نصعد أو نهبط، لكن الإحداثي الأفقي يظل صفراً. لذلك نوجد تقاطع أي دالة مع هذا المحور بالتعويض عن السين بصفر. نحسب قيمة الدالة عند الصفر، ثم نكتب النقطة صفر فاصلة هذه القيمة. تصلح الطريقة لكل صور الدالة التربيعية."
+    ],
+    [
+      "التعرف على الصورة القياسية",
+      "الصورة القياسية هي صاد تساوي ألف سين تربيع زائد باء سين زائد جيم، بشرط ألا تساوي ألف صفراً. عند السين تساوي صفراً يختفي الحد التربيعي والحد الخطي، ويبقى جيم فقط. اقرأ الحد الثابت بإشارته واكتب النقطة صفر فاصلة جيم."
+    ],
+    [
+      "مثال محلول: تقاطع موجب",
+      "إذا كانت صاد تساوي اثنين سين تربيع ناقص خمسة سين زائد سبعة، فإن الحد الثابت هو موجب سبعة. بالتعويض بالسين تساوي صفراً نحصل على سبعة. إذن يقطع المنحنى محور الصادات عند النقطة صفر فاصلة سبعة. التعويض يؤكد صحة قاعدة الحد الثابت."
+    ],
+    [
+      "مثال: تقاطع سالب أو يساوي صفراً",
+      "في الدالة صاد تساوي سالب ثلاثة سين تربيع زائد أربعة سين ناقص تسعة، تكون نقطة التقاطع صفر فاصلة سالب تسعة. أما الدالة صاد تساوي خمسة سين تربيع ناقص اثنين سين، فلا تحتوي على حد ثابت، ولذلك نقطة التقاطع هي نقطة الأصل صفر فاصلة صفر. غياب الحد الثابت لا يعني غياب التقاطع."
+    ],
+    [
+      "الصورة التحليلية: التعويض أسرع",
+      "لنأخذ صاد تساوي سين ناقص ثلاثة مضروباً في سين زائد اثنين. عوض بالسين تساوي صفراً؛ يصبح العامل الأول سالب ثلاثة والثاني اثنين. حاصل الضرب سالب ستة. إذن نقطة التقاطع هي صفر فاصلة سالب ستة. يمكن التوسيع، لكن التعويض المباشر أسرع."
+    ],
+    [
+      "صورة الرأس: انتبه لترتيب العمليات",
+      "إذا كانت صاد تساوي اثنين مضروبة في مربع سين ناقص ثلاثة، ثم ناقص أربعة، نعوض بالسين تساوي صفراً. داخل القوس سالب ثلاثة، ومربعه تسعة. نضرب في اثنين ثم نطرح أربعة فنحصل على أربعة عشر. إذن نقطة التقاطع صفر فاصلة أربعة عشر. تذكر أن التربيع يسبق الضرب الخارجي."
+    ],
+    [
+      "إيجاد معامل مجهول في عامل",
+      "إذا كانت صاد تساوي سين ناقص خمسة مضروباً في سين زائد باء، وكانت نقطة التقاطع صفر فاصلة عشرين، نعوض بالسين تساوي صفراً. نحصل على سالب خمسة باء تساوي عشرين. بالقسمة على سالب خمسة نجد باء تساوي سالب أربعة. عوض مرة أخرى للتأكد من الناتج."
+    ],
+    [
+      "إيجاد معامل المقدار المربع",
+      "إذا كانت صاد تساوي ألف مضروبة في مربع سين ناقص اثنين ثم ناقص ثلاثة، ونقطة التقاطع صفر فاصلة تسعة، نعوض بالسين تساوي صفراً والصاد تساوي تسعة. نحصل على تسعة تساوي أربعة ألف ناقص ثلاثة. بإضافة ثلاثة تصبح أربعة ألف تساوي اثني عشر، إذن ألف تساوي ثلاثة."
+    ],
+    [
+      "معنى التقاطع في مسألة واقعية",
+      "لنفترض أن ارتفاع جسم بعد زمن تاء يساوي سالب ستة عشر تاء تربيع زائد أربعين تاء زائد ستة. عند الزمن صفر يكون الارتفاع ست وحدات. إذن نقطة التقاطع صفر فاصلة ستة تمثل الارتفاع الابتدائي للجسم. اذكر المعنى والوحدة عندما يطلب السؤال تفسيراً واقعياً."
+    ],
+    [
+      "ديسموس للتحقق من النتيجة",
+      "اكتب في ديسموس صاد تساوي اثنين سين تربيع ناقص خمسة سين زائد سبعة. ابحث عن موضع تقاطع القطع المكافئ مع محور الصادات، وهو صفر فاصلة سبعة. لأن محور الصادات يعني السين تساوي صفراً. التحقق الجبري يعطينا سبعة أيضاً. قراءة الحد الثابت أسرع من الرسم في الصورة القياسية."
+    ],
+    [
+      "أخطاء شائعة ومراجعة أخيرة",
+      "إذا طلب السؤال نقطة فلا تكتب سبعة وحدها؛ اكتب صفر فاصلة سبعة. لا تستخدم معامل السين بدلاً من الحد الثابت، ولا تخلط بين تقاطع محور السينات حيث الصاد صفر وتقاطع محور الصادات حيث السين صفر. في أي صورة للدالة احسب قيمتها عند الصفر. انتقل الآن إلى ثمانية عشر تدريباً واختبار من خمسة أسئلة."
+    ]
+  ]
+}
