@@ -1,9 +1,1 @@
-{
-  "lesson_index": 288,
-  "slug": "cosine",
-  "worker": "SUMMIT Worker 3",
-  "branch": "worker3-lesson288-cosine-20261011",
-  "status": "NEW_LOCKED",
-  "date": "2026-10-11",
-  "notes": "Next owned canonical lesson after 278 and 283 core packages. Required content not yet started; keep separate branch and unique manifest."
-}
+{"lesson_index":288,"slug":"cosine","worker":"SUMMIT Worker 3","status":"CORE_COMMITTED_RELEASE_BLOCKED","math_qa":"23/23","practice":18,"answers":18,"test":5,"english_scenes":20,"arabic_scenes":20,"manifest":"lesson-releases/cosine.json","preview_build":"READY; required builders and six routes verified","blockers":["video playback controls","explanation registry"],"production":"NOT_LIVE","next_owned_lesson":293}
