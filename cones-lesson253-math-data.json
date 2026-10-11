@@ -1,0 +1,171 @@
+{
+  "lesson_index": 253,
+  "slug": "cones",
+  "title": "Cones",
+  "base": "geometry-and-trigonometry/volume-and-surface-area/cones",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "prompt": "Cone radius 3 cm, height 4 cm. What is the coefficient of π in its volume (cm³)?",
+      "answer": "12",
+      "solution": "V=πr²h/3=π×9×4/3=12π cm³."
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "prompt": "Cone radius 2 m, height 9 m. What is the coefficient of π in its volume (m³)?",
+      "answer": "12",
+      "solution": "V=π×2²×9/3=12π m³."
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "prompt": "Cone radius 5 in, height 6 in. Find coefficient of π in volume (in³).",
+      "answer": "50",
+      "solution": "V=π×25×6/3=50π in³."
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "prompt": "Cone radius 4 cm, height 12 cm. Find coefficient of π in volume (cm³).",
+      "answer": "64",
+      "solution": "V=π×16×12/3=64π cm³."
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "prompt": "Cone radius 1.5 m, height 8 m. Find coefficient of π in volume (m³).",
+      "answer": "6",
+      "solution": "V=π×2.25×8/3=6π m³."
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "prompt": "Cone volume 48π cm³ and radius 4 cm. Find height (cm).",
+      "answer": "9",
+      "solution": "48=16h/3, so 144=16h and h=9 cm."
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "prompt": "Cone volume 75π cm³ and height 9 cm. Find radius (cm).",
+      "answer": "5",
+      "solution": "75=r²×9/3=3r², so r²=25 and positive r=5 cm."
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "prompt": "Right cone radius 6 cm and height 8 cm. Find slant height (cm).",
+      "answer": "10",
+      "solution": "Slant height l=√(r²+h²)=√(36+64)=10 cm."
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "prompt": "Cone radius 3 cm and slant height 5 cm. Find coefficient of π in curved surface area (cm²).",
+      "answer": "15",
+      "solution": "Curved surface area=πrl=π×3×5=15π cm²."
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "prompt": "Cone radius 3 cm and slant height 5 cm. Find coefficient of π in total surface area (cm²).",
+      "answer": "24",
+      "solution": "Total surface area=πr(l+r)=π×3×(5+3)=24π cm²."
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "prompt": "Cylinder and cone share radius 3 cm and height 4 cm. Find coefficient of π in cylinder volume minus cone volume (cm³).",
+      "answer": "24",
+      "solution": "Cylinder=36π, cone=12π; difference=24π cm³."
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "prompt": "Cone diameter 10 cm and height 12 cm. Find coefficient of π in volume (cm³).",
+      "answer": "100",
+      "solution": "Radius=10/2=5 cm; V=π×25×12/3=100π cm³."
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "prompt": "Right cone radius 6 cm and height 8 cm. Find coefficient of π in total surface area (cm²).",
+      "answer": "96",
+      "solution": "Slant=√(36+64)=10; total=π×6×(6+10)=96π cm²."
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "prompt": "A cone radius 3 cm, height 4 cm is enlarged by factor 2 in every dimension. Find coefficient of π in new volume (cm³).",
+      "answer": "96",
+      "solution": "Original volume=12π; volume scales by 2³=8; new volume=96π cm³."
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "prompt": "Cone volume 72π cm³ and height 6 cm. Find radius (cm).",
+      "answer": "6",
+      "solution": "72=r²×6/3=2r², so r²=36 and r=6 cm."
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "prompt": "Right cone radius 6 cm and curved area 60π cm². Find perpendicular height (cm).",
+      "answer": "8",
+      "solution": "Curved area=πrl gives l=60/6=10; h=√(l²−r²)=√(100−36)=8 cm."
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "prompt": "Cone radius 5 cm has total surface area 65π cm². Find slant height (cm).",
+      "answer": "8",
+      "solution": "65=5(l+5), so l+5=13 and l=8 cm."
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "prompt": "Cone radius 2x cm and height 9 cm has volume 108π cm³. Find positive x.",
+      "answer": "3",
+      "solution": "108=(2x)²×9/3=12x², so x²=9 and positive x=3."
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "difficulty": "Easy",
+      "prompt": "Cone radius 2 cm, height 6 cm. Coefficient of π in volume (cm³)?",
+      "answer": "8",
+      "solution": "V=2²×6π/3=8π cm³."
+    },
+    {
+      "index": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "Cone diameter 8 m, height 9 m. Coefficient of π in volume (m³)?",
+      "answer": "48",
+      "solution": "Radius=4; V=16×9π/3=48π m³."
+    },
+    {
+      "index": 3,
+      "difficulty": "Medium",
+      "prompt": "Cone radius 3 cm, slant height 5 cm. Coefficient of π in total surface area (cm²)?",
+      "answer": "24",
+      "solution": "Total area=π×3×(3+5)=24π cm²."
+    },
+    {
+      "index": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "Cone volume 64π cm³ and radius 4 cm. Height (cm)?",
+      "answer": "12",
+      "solution": "64=16h/3, so h=12 cm."
+    },
+    {
+      "index": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "Cone radius x+1 cm and height 12 cm has volume 100π cm³. Find positive x.",
+      "answer": "4",
+      "solution": "100=(x+1)²×12/3=4(x+1)²; x+1=5, so x=4."
+    }
+  ]
+}
