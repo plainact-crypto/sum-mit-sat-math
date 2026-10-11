@@ -1,0 +1,1 @@
+Lesson 267 mathematical checks: diameter equals twice radius. Radius 6 gives diameter 12. Diameter 18 gives radius 9. Endpoint distance from (-5,0) to (7,0) is 12. No release yet.
