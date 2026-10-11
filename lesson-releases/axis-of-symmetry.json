@@ -1,0 +1,15 @@
+{
+  "lesson": "axis-of-symmetry",
+  "builders": [
+    "axis-of-symmetry-content-build.js",
+    "axis-of-symmetry-lesson100-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/quadratic-functions/standard-form/axis-of-symmetry/explanation/",
+    "/advanced-math/quadratic-functions/standard-form/axis-of-symmetry/problems/",
+    "/advanced-math/quadratic-functions/standard-form/axis-of-symmetry/answers/",
+    "/advanced-math/quadratic-functions/standard-form/axis-of-symmetry/test/",
+    "/advanced-math/quadratic-functions/standard-form/axis-of-symmetry/video/english/",
+    "/advanced-math/quadratic-functions/standard-form/axis-of-symmetry/video/arabic/"
+  ]
+}
