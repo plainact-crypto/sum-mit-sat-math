@@ -1,0 +1,1 @@
+Lesson 2 release blocked: repository safety checks rejected Arabic video player, route builder, and unique release manifest writes on 2026-10-12. Do not merge or mark LIVE_VERIFIED. Advance to Lesson 7 while blocked.
