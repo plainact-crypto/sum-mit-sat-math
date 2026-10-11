@@ -1,7 +1,8 @@
 {
   "lesson": "evaluating-functions",
   "builders": [
-    "evaluating-functions-lesson102-build.js"
+    "evaluating-functions-lesson102-build.js",
+    "evaluating-functions-lesson102-math-qa-build.js"
   ],
   "routes": [
     "/advanced-math/functions/evaluating-functions/explanation/",
