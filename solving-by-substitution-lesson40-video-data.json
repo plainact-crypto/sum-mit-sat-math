@@ -1,0 +1,102 @@
+{
+  "english": [
+    [
+      "Objective",
+      "Solve a system of two linear equations by substitution. The solution is an ordered pair that makes both equations true."
+    ],
+    [
+      "Core idea",
+      "When one equation says y equals an expression, replace every y in the other equation with that expression. Equal quantities can replace one another."
+    ],
+    [
+      "Choose the easier equation",
+      "Look for x equals something or y equals something. If neither variable is isolated, isolate the one with coefficient one when possible."
+    ],
+    [
+      "Example one",
+      "Solve y equals x plus two and two x plus y equals eleven. Substitute to get two x plus x plus two equals eleven. Three x equals nine, so x equals three and y equals five."
+    ],
+    [
+      "Verify the pair",
+      "Check the pair three comma five in both original equations. Five equals three plus two, and two times three plus five equals eleven. Both checks pass."
+    ],
+    [
+      "Example two",
+      "Solve x equals two y minus one and x plus y equals eleven. Substitute: two y minus one plus y equals eleven. Three y equals twelve, so y equals four and x equals seven."
+    ],
+    [
+      "Distribute carefully",
+      "For y equals four minus x and three x plus two y equals twelve, substitute three x plus two times open parenthesis four minus x close parenthesis equals twelve. Simplify to x plus eight equals twelve, giving x equals four and y equals zero."
+    ],
+    [
+      "Fractions example",
+      "For y equals open parenthesis x plus one close parenthesis over two and three x plus y equals seventeen, multiply the substituted equation by two. Seven x plus one equals thirty four, so x equals thirty three sevenths and y equals twenty sevenths."
+    ],
+    [
+      "No solution case",
+      "If substitution produces a false statement, such as two equals six, the lines never meet. The system has no solution."
+    ],
+    [
+      "Infinitely many solutions",
+      "If substitution produces an identity, such as zero equals zero, both equations describe the same line. The system has infinitely many solutions."
+    ],
+    [
+      "Word problem",
+      "A club sells eighteen adult and child tickets, with adult tickets equal to twice child tickets plus three. Let a plus c equal eighteen and a equal two c plus three. Then three c plus three equals eighteen, so c equals five and a equals thirteen."
+    ],
+    [
+      "Exam strategy and recap",
+      "Substitute, simplify, solve one variable, back substitute, and check both original equations. Watch negative signs and fractions. Try the eighteen practice problems, then submit the five question test once."
+    ]
+  ],
+  "arabic": [
+    [
+      "هدف الدرس",
+      "نتعلم حل نظام من معادلتين خطيتين بطريقة التعويض. الحل زوج مرتب يحقق المعادلتين معًا."
+    ],
+    [
+      "الفكرة الأساسية",
+      "إذا كانت إحدى المعادلتين تساوي فيها صاد تعبيرًا معينًا، نستبدل كل صاد في المعادلة الثانية بهذا التعبير، لأن الكميتين متساويتان."
+    ],
+    [
+      "اختيار المعادلة الأسهل",
+      "ابحث أولًا عن معادلة فيها سين أو صاد معزولة. وإذا لم توجد، اعزل المتغير الذي معاملُه واحد لتقليل الخطوات."
+    ],
+    [
+      "المثال الأول",
+      "إذا كانت صاد تساوي سين زائد اثنين، واثنان سين زائد صاد يساوي أحد عشر، نعوض فنحصل على ثلاثة سين زائد اثنين يساوي أحد عشر. إذن سين تساوي ثلاثة، وصاد تساوي خمسة."
+    ],
+    [
+      "التحقق من الحل",
+      "نعوض بالزوج ثلاثة وخمسة في المعادلتين الأصليتين. خمسة تساوي ثلاثة زائد اثنين، واثنان في ثلاثة زائد خمسة يساوي أحد عشر. إذن الحل صحيح."
+    ],
+    [
+      "المثال الثاني",
+      "إذا كانت سين تساوي اثنين صاد ناقص واحد، وسين زائد صاد يساوي أحد عشر، نعوض فنجد ثلاثة صاد ناقص واحد يساوي أحد عشر. إذن صاد تساوي أربعة، وسين تساوي سبعة."
+    ],
+    [
+      "انتبه للإشارات",
+      "إذا كانت صاد تساوي أربعة ناقص سين، وثلاثة سين زائد اثنين صاد يساوي اثني عشر، نوزع الاثنين على القوس بالكامل. نحصل على سين زائد ثمانية يساوي اثني عشر، وبالتالي سين تساوي أربعة وصاد تساوي صفرًا."
+    ],
+    [
+      "مثال الكسور",
+      "إذا كانت صاد تساوي سين زائد واحد على اثنين، وثلاثة سين زائد صاد يساوي سبعة عشر، نضرب المعادلة بعد التعويض في اثنين. ينتج سبعة سين زائد واحد يساوي أربعة وثلاثين، إذن سين تساوي ثلاثة وثلاثين على سبعة، وصاد تساوي عشرين على سبعة."
+    ],
+    [
+      "حالة عدم وجود حل",
+      "إذا انتهى التعويض إلى عبارة خاطئة مثل اثنين يساوي ستة، فلا يوجد زوج يحقق المعادلتين. المستقيمان متوازيان ولا يتقاطعان."
+    ],
+    [
+      "عدد لا نهائي من الحلول",
+      "إذا انتهى التعويض إلى متطابقة مثل صفر يساوي صفرًا، فالمعادلتان تمثلان المستقيم نفسه، ويوجد عدد لا نهائي من الحلول."
+    ],
+    [
+      "مسألة كلامية",
+      "باع نادٍ ثماني عشرة تذكرة للكبار والأطفال، وعدد تذاكر الكبار يساوي ضعف تذاكر الأطفال زائد ثلاثة. بالتعويض نحصل على ثلاثة أمثال تذاكر الأطفال زائد ثلاثة يساوي ثمانية عشر. إذن الأطفال خمسة والكبار ثلاثة عشر."
+    ],
+    [
+      "خطة الحل والملخص",
+      "اعزل متغيرًا، ثم عوض وبسط وحل، وبعد ذلك أوجد المتغير الآخر وتحقق في المعادلتين. راجع الإشارات والكسور، ثم حل مسائل التدريب الثماني عشرة واختبار الأسئلة الخمسة."
+    ]
+  ]
+}
