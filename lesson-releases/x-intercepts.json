@@ -1,0 +1,15 @@
+{
+  "lesson": "x-intercepts",
+  "builders": [
+    "x-intercepts-content-build.js",
+    "x-intercepts-lesson95-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/quadratic-functions/standard-form/x-intercepts/explanation/",
+    "/advanced-math/quadratic-functions/standard-form/x-intercepts/problems/",
+    "/advanced-math/quadratic-functions/standard-form/x-intercepts/answers/",
+    "/advanced-math/quadratic-functions/standard-form/x-intercepts/test/",
+    "/advanced-math/quadratic-functions/standard-form/x-intercepts/video/english/",
+    "/advanced-math/quadratic-functions/standard-form/x-intercepts/video/arabic/"
+  ]
+}
