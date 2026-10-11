@@ -1,0 +1,22 @@
+{
+  "index": 120,
+  "slug": "multiplying-radicals",
+  "checked": "2026-10-11",
+  "status": "BLOCKED_NOT_RELEASE_READY",
+  "mathQA": {
+    "practice": "18/18 independently verified using SymPy",
+    "test": "5/5 expressions independently verified using SymPy",
+    "issue": "Test Q2 has two equivalent answers: 10√3 and 2√75. Replace distractor 2√75 with 5√15 (or another inequivalent value)."
+  },
+  "build": {
+    "builderSyntax": "PASS",
+    "fullRepositoryBuild": "NOT_RUN",
+    "canonicalRoutes": "declared, not build verified",
+    "explanationRegistry": "missing; update blocked by GitHub safety checks"
+  },
+  "blockers": [
+    "GitHub update_file blocked for lesson120-data.json",
+    "GitHub update_file blocked for explanation-content-registry.js"
+  ],
+  "next": "Do not merge, announce or mark LIVE_VERIFIED until fixed and verified."
+}
