@@ -1,0 +1,38 @@
+[
+  {
+    "group": "Core Practice",
+    "prompt": "Write general form for center (2,−3), radius 5.",
+    "answer": "x²+y²−4x+6y−12=0",
+    "solution": "D=−4, E=6, F=4+9−25=−12.",
+    "choices": [
+      "x²+y²−4x+6y−12=0",
+      "x²+y²+4x−6y−12=0",
+      "x²+y²−4x+6y+12=0",
+      "x²+y²−2x+3y−12=0"
+    ],
+    "qa": {
+      "kind": "general",
+      "h": 2,
+      "k": -3,
+      "r2": 25
+    }
+  },
+  {
+    "group": "Core Practice",
+    "prompt": "Classify x²+y²−2x−4y+5=0.",
+    "answer": "Single point (1, 2)",
+    "solution": "r²=1+4−5=0, so the locus consists only of the center (1,2).",
+    "choices": [
+      "Single point (1, 2)",
+      "Circle of radius 5",
+      "No real points",
+      "Circle of radius 1"
+    ],
+    "qa": {
+      "kind": "classify",
+      "D": -2,
+      "E": -4,
+      "F": 5
+    }
+  }
+]
