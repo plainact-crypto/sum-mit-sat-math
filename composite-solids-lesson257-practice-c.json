@@ -1,0 +1,56 @@
+[
+  {
+    "number": 13,
+    "group": "Exam-Style",
+    "question": "A tank consists of a cylinder of radius 2 m and height 10 m with a hemispherical dome of radius 2 m. Find its total interior capacity in terms of π.",
+    "answer": "(136π/3) m³",
+    "solution": "Cylinder=π·2²·10=40π. Hemisphere=(2/3)π·2³=16π/3. Sum=(120π+16π)/3=136π/3 m³.",
+    "qaExpr": "Math.PI*2**2*10+2*Math.PI*2**3/3",
+    "qaValue": 142.4188669627373
+  },
+  {
+    "number": 14,
+    "group": "Exam-Style",
+    "question": "Two solid cubes, each with edge 3 cm, are glued together along one entire square face. What is the exposed surface area of the combined solid?",
+    "answer": "90 cm²",
+    "solution": "Each cube contributes 6·3²=54 cm² before gluing. Both copies of the 3×3 contact face become hidden: 2·54−2·9=90 cm².",
+    "qaExpr": "2*6*3**2-2*3**2",
+    "qaValue": 90
+  },
+  {
+    "number": 15,
+    "group": "Exam-Style",
+    "question": "A cylinder of radius 1 cm and height 4 cm stands centrally on a cylinder of radius 2 cm and height 6 cm. Find the total exposed surface area, including the underside of the lower cylinder.",
+    "answer": "40π cm²",
+    "solution": "Lateral areas: 2π·2·6=24π and 2π·1·4=8π. Exposed top annulus of lower cylinder=π(2²−1²)=3π; small top=π; lower bottom=4π. Total=40π cm².",
+    "qaExpr": "2*Math.PI*2*6+2*Math.PI*1*4+Math.PI*(2**2-1**2)+Math.PI*1**2+Math.PI*2**2",
+    "qaValue": 125.66370614359172
+  },
+  {
+    "number": 16,
+    "group": "Exam-Style",
+    "question": "A 4 cm by 4 cm by 5 cm metal block has a cylindrical hole of radius 1 cm drilled through its 5 cm thickness. If metal density is 2 g/cm³, find its mass.",
+    "answer": "(160−10π) g",
+    "solution": "Remaining volume=4·4·5−π·1²·5=80−5π cm³. Mass=density×volume=2(80−5π)=160−10π g.",
+    "qaExpr": "2*(4*4*5-Math.PI*1**2*5)",
+    "qaValue": 128.58407346410206
+  },
+  {
+    "number": 17,
+    "group": "Challenge",
+    "question": "A cylinder of radius 3 m and height 10 m is capped by a cone of the same radius and unknown height h. The combined volume is 117π m³. Find h.",
+    "answer": "9 m",
+    "solution": "Cylinder volume=π·3²·10=90π. Cone volume=117π−90π=27π=(1/3)π·3²·h=3πh. Therefore h=9 m.",
+    "qaExpr": "(117*Math.PI-Math.PI*3**2*10)/(Math.PI*3**2/3)",
+    "qaValue": 9
+  },
+  {
+    "number": 18,
+    "group": "Challenge",
+    "question": "A sculpture consists of a cylinder of radius 3 ft and height 8 ft capped by a hemisphere of the same radius. Only its exposed exterior, including the flat bottom, is painted at $2 per ft². Find the exact painting cost.",
+    "answer": "$150π",
+    "solution": "Cylinder side=2π·3·8=48π ft²; hemisphere curved area=2π·3²=18π; bottom disk=π·3²=9π. Shared cap is hidden. Exterior=75π ft²; cost=2·75π=$150π.",
+    "qaExpr": "2*(2*Math.PI*3*8+2*Math.PI*3**2+Math.PI*3**2)",
+    "qaValue": 471.23889803846896
+  }
+]
