@@ -1,0 +1,70 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Calculate rectangular areas and missing dimensions; apply the area formula to composite regions."
+  ],
+  [
+    "CORE IDEA",
+    "Area counts unit squares covering the inside of a rectangle. A rectangle of l columns and w rows contains l times w unit squares."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Length and width are perpendicular sides; area is in squared units such as cm²; perimeter measures boundary length."
+  ],
+  [
+    "CORE RULE",
+    "Area A=l×w. To find a missing width, use w=A/l. For a square, A=s²."
+  ],
+  [
+    "HOW IT WORKS",
+    "Label both perpendicular dimensions, convert to the same units, multiply, and report square units. Reverse with division."
+  ],
+  [
+    "WORKED EXAMPLE 1",
+    "A rectangle 7 cm by 4 cm has area 7×4=28 cm². Count 4 rows of 7 unit squares to verify."
+  ],
+  [
+    "WORKED EXAMPLE 2",
+    "Area 48 cm² and width 6 cm gives length 48÷6=8 cm. Verify 8×6=48."
+  ],
+  [
+    "WORKED EXAMPLE 3",
+    "Perimeter 30 cm and length 9 cm: 2(9+w)=30, w=6 cm, area 9×6=54 cm²."
+  ],
+  [
+    "WORKED EXAMPLE 4",
+    "Garden 14×9 m has area 126 m²; subtract 2×3 m pond area 6 m² to obtain 120 m²."
+  ],
+  [
+    "WORKED EXAMPLE 5",
+    "For an 18×10 m lawn with an inside border 2 m wide, interior sides are 14 and 6; area is 84 m²."
+  ],
+  [
+    "VERIFIED AREA VISUAL",
+    "A grid with 7 columns and 4 rows has exactly 28 cells; the diagram is generated from those integer dimensions."
+  ],
+  [
+    "ADVANCED METHOD",
+    "If length is twice width and area is 128, then 2w²=128; w=8 cm, length=16 cm. Only positive dimensions are valid."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not add sides to find area; do not forget square units; for a border subtract its width at both ends of each dimension."
+  ],
+  [
+    "EXAM STRATEGY",
+    "Sketch and label the rectangle, write A=lw, solve the missing dimension, and subtract any excluded regions."
+  ],
+  [
+    "QUICK CHECK",
+    "5×8=40 m². Area 63 with length 9 means width 7. Yard 16×9 minus shed 4×3 leaves 132 m²."
+  ],
+  [
+    "LESSON RECAP",
+    "Area equals length times width. Divide to find an unknown side, and combine rectangular areas to solve composite regions."
+  ],
+  [
+    "NEXT STEP",
+    "Complete 18 practice problems, review 18 aligned worked answers, and submit the five-question lesson test."
+  ]
+]
