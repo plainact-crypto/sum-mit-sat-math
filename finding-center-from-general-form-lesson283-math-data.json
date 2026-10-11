@@ -1,0 +1,417 @@
+{
+  "lesson_index": 283,
+  "slug": "finding-center-from-general-form",
+  "title": "Finding Center from General Form",
+  "base": "geometry-and-trigonometry/circles/circle-equation/finding-center-from-general-form",
+  "subject": "Geometry and Trigonometry",
+  "section": "Circles · Circle Equation",
+  "classification": "BOTH",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "prompt": "Read the center by halving the x- and y-coefficients and reversing signs. x² + y² − 6x + 4y − 12 = 0",
+      "answer": "(3, -2)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=-6 and E=4. Complete the square or use h=−D/2=3 and k=−E/2=-2. Thus the center is (3, -2). The constant F=-12 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": -6,
+          "E": 4,
+          "F": -12,
+          "r2": 25
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "prompt": "Find the center when the x-coefficient is positive. x² + y² + 8x − 2y + 8 = 0",
+      "answer": "(-4, 1)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=8 and E=-2. Complete the square or use h=−D/2=-4 and k=−E/2=1. Thus the center is (-4, 1). The constant F=8 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": 8,
+          "E": -2,
+          "F": 8,
+          "r2": 9
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "prompt": "Find the center when there are no linear terms. x² + y² − 49 = 0",
+      "answer": "(0, 0)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=0 and E=0. Complete the square or use h=−D/2=0 and k=−E/2=0. Thus the center is (0, 0). The constant F=-49 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": 0,
+          "E": 0,
+          "F": -49,
+          "r2": 49
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "prompt": "Find the center; the constant term is positive. x² + y² − 14x − 10y + 38 = 0",
+      "answer": "(7, 5)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=-14 and E=-10. Complete the square or use h=−D/2=7 and k=−E/2=5. Thus the center is (7, 5). The constant F=38 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": -14,
+          "E": -10,
+          "F": 38,
+          "r2": 36
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "prompt": "Find the center when the constant term vanishes. x² + y² + 16x + 12y = 0",
+      "answer": "(-8, -6)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=16 and E=12. Complete the square or use h=−D/2=-8 and k=−E/2=-6. Thus the center is (-8, -6). The constant F=0 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": 16,
+          "E": 12,
+          "F": 0,
+          "r2": 100
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "prompt": "Identify the center even though the squared terms appear in reverse order. y² + x² + 4x − 18y + 4 = 0",
+      "answer": "(-2, 9)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=4 and E=-18. Complete the square or use h=−D/2=-2 and k=−E/2=9. Thus the center is (-2, 9). The constant F=4 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": 4,
+          "E": -18,
+          "F": 4,
+          "r2": 81
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "prompt": "Find the center when the linear coefficients are fractional decimals. x² + y² − 1x + 1.5y − 8.1875 = 0",
+      "answer": "(0.5, -0.75)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=-1 and E=1.5. Complete the square or use h=−D/2=0.5 and k=−E/2=-0.75. Thus the center is (0.5, -0.75). The constant F=-8.1875 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": -1,
+          "E": 1.5,
+          "F": -8.1875,
+          "r2": 9
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "prompt": "Identify the center when both linear coefficients contain decimals. x² + y² + 0.8x − 5y + 5.41 = 0",
+      "answer": "(-0.4, 2.5)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=0.8 and E=-5. Complete the square or use h=−D/2=-0.4 and k=−E/2=2.5. Thus the center is (-0.4, 2.5). The constant F=5.41 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": 0.8,
+          "E": -5,
+          "F": 5.41,
+          "r2": 1
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "prompt": "Find the center and distinguish the center from the radius. x² + y² + 12x + 4y − 24 = 0",
+      "answer": "(-6, -2)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=12 and E=4. Complete the square or use h=−D/2=-6 and k=−E/2=-2. Thus the center is (-6, -2). The constant F=-24 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": 12,
+          "E": 4,
+          "F": -24,
+          "r2": 64
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "prompt": "Determine the center when both linear coefficients are positive. x² + y² + 6x + 10y − 15 = 0",
+      "answer": "(-3, -5)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=6 and E=10. Complete the square or use h=−D/2=-3 and k=−E/2=-5. Thus the center is (-3, -5). The constant F=-15 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": 6,
+          "E": 10,
+          "F": -15,
+          "r2": 49
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "prompt": "Read the center; the constant term is 40. x² + y² − 8x + 14y + 40 = 0",
+      "answer": "(4, -7)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=-8 and E=14. Complete the square or use h=−D/2=4 and k=−E/2=-7. Thus the center is (4, -7). The constant F=40 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": -8,
+          "E": 14,
+          "F": 40,
+          "r2": 25
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "prompt": "Determine the center of a circle on a coordinate map. x² + y² + 22x − 26y + 169 = 0",
+      "answer": "(-11, 13)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=22 and E=-26. Complete the square or use h=−D/2=-11 and k=−E/2=13. Thus the center is (-11, 13). The constant F=169 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": 22,
+          "E": -26,
+          "F": 169,
+          "r2": 121
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "prompt": "The squared y-term appears first; give the center in (x,y) order. y² + x² − 24x + 8y + 39 = 0",
+      "answer": "(12, -4)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=-24 and E=8. Complete the square or use h=−D/2=12 and k=−E/2=-4. Thus the center is (12, -4). The constant F=39 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": -24,
+          "E": 8,
+          "F": 39,
+          "r2": 121
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "prompt": "Find the center when both coordinates are nonintegers. x² + y² − 3x − 4.5y − 8.6875 = 0",
+      "answer": "(1.5, 2.25)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=-3 and E=-4.5. Complete the square or use h=−D/2=1.5 and k=−E/2=2.25. Thus the center is (1.5, 2.25). The constant F=-8.6875 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": -3,
+          "E": -4.5,
+          "F": -8.6875,
+          "r2": 16
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "prompt": "The constant term is zero. Find the center. x² + y² + 6x − 8y = 0",
+      "answer": "(-3, 4)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=6 and E=-8. Complete the square or use h=−D/2=-3 and k=−E/2=4. Thus the center is (-3, 4). The constant F=0 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": 6,
+          "E": -8,
+          "F": 0,
+          "r2": 25
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "prompt": "A small circle has a positive constant term. Find the center. x² + y² − 2.5x + 1.5y + 1.875 = 0",
+      "answer": "(1.25, -0.75)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=-2.5 and E=1.5. Complete the square or use h=−D/2=1.25 and k=−E/2=-0.75. Thus the center is (1.25, -0.75). The constant F=1.875 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": -2.5,
+          "E": 1.5,
+          "F": 1.875,
+          "r2": 0.25
+        }
+      ],
+      "operation": "single"
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "prompt": "Find the midpoint of the centers of these two circles. Circle A: x² + y² + 12x − 16y + 91 = 0; Circle B: x² + y² − 8x + 2y + 1 = 0",
+      "answer": "(-1, 3.5)",
+      "solution": "Each center comes from (−D/2,−E/2): (-6, 8), (4, -1). Average corresponding x- and y-coordinates to obtain (-1, 3.5).",
+      "circles": [
+        {
+          "D": 12,
+          "E": -16,
+          "F": 91,
+          "r2": 9
+        },
+        {
+          "D": -8,
+          "E": 2,
+          "F": 1,
+          "r2": 16
+        }
+      ],
+      "operation": "midpoint"
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "prompt": "Find the coordinate-wise mean of the centers of these three circles. Circle A: x² + y² − 4x + 6y − 12 = 0; Circle B: x² + y² + 8x − 10y + 5 = 0; Circle C: x² + y² − 16x − 2y + 16 = 0",
+      "answer": "(2, 1)",
+      "solution": "Each center comes from (−D/2,−E/2): (2, -3), (-4, 5), (8, 1). Average corresponding x- and y-coordinates to obtain (2, 1).",
+      "circles": [
+        {
+          "D": -4,
+          "E": 6,
+          "F": -12,
+          "r2": 25
+        },
+        {
+          "D": 8,
+          "E": -10,
+          "F": 5,
+          "r2": 36
+        },
+        {
+          "D": -16,
+          "E": -2,
+          "F": 16,
+          "r2": 49
+        }
+      ],
+      "operation": "mean"
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "prompt": "Find the center: x² + y² − 4x + 2y − 11 = 0",
+      "answer": "(2, -1)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=-4 and E=2. Complete the square or use h=−D/2=2 and k=−E/2=-1. Thus the center is (2, -1). The constant F=-11 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": -4,
+          "E": 2,
+          "F": -11,
+          "r2": 16
+        }
+      ],
+      "operation": "single",
+      "difficulty": "Easy"
+    },
+    {
+      "index": 2,
+      "prompt": "Find the center: y² + x² + 10x − 6y − 15 = 0",
+      "answer": "(-5, 3)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=10 and E=-6. Complete the square or use h=−D/2=-5 and k=−E/2=3. Thus the center is (-5, 3). The constant F=-15 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": 10,
+          "E": -6,
+          "F": -15,
+          "r2": 49
+        }
+      ],
+      "operation": "single",
+      "difficulty": "Easy / Medium"
+    },
+    {
+      "index": 3,
+      "prompt": "Find the center: x² + y² − 1.5x + 5y − 18.1875 = 0",
+      "answer": "(0.75, -2.5)",
+      "solution": "Compare with x²+y²+Dx+Ey+F=0. The coefficients are D=-1.5 and E=5. Complete the square or use h=−D/2=0.75 and k=−E/2=-2.5. Thus the center is (0.75, -2.5). The constant F=-18.1875 affects the radius, not the center.",
+      "circles": [
+        {
+          "D": -1.5,
+          "E": 5,
+          "F": -18.1875,
+          "r2": 25
+        }
+      ],
+      "operation": "single",
+      "difficulty": "Medium"
+    },
+    {
+      "index": 4,
+      "prompt": "Find the midpoint of the centers of these two circles. Circle A: x² + y² − 12x + 8y + 27 = 0; Circle B: x² + y² + 4x − 16y + 32 = 0",
+      "answer": "(2, 2)",
+      "solution": "Each center comes from (−D/2,−E/2): (6, -4), (-2, 8). Average corresponding x- and y-coordinates to obtain (2, 2).",
+      "circles": [
+        {
+          "D": -12,
+          "E": 8,
+          "F": 27,
+          "r2": 25
+        },
+        {
+          "D": 4,
+          "E": -16,
+          "F": 32,
+          "r2": 36
+        }
+      ],
+      "operation": "midpoint",
+      "difficulty": "Medium / Hard"
+    },
+    {
+      "index": 5,
+      "prompt": "Find the coordinate-wise mean of the centers of these three circles. Circle A: x² + y² − 8x + 14y + 49 = 0; Circle B: x² + y² + 16x − 10y + 80 = 0; Circle C: x² + y² − 20x − 4y + 55 = 0",
+      "answer": "(2, 0)",
+      "solution": "Each center comes from (−D/2,−E/2): (4, -7), (-8, 5), (10, 2). Average corresponding x- and y-coordinates to obtain (2, 0).",
+      "circles": [
+        {
+          "D": -8,
+          "E": 14,
+          "F": 49,
+          "r2": 16
+        },
+        {
+          "D": 16,
+          "E": -10,
+          "F": 80,
+          "r2": 9
+        },
+        {
+          "D": -20,
+          "E": -4,
+          "F": 55,
+          "r2": 49
+        }
+      ],
+      "operation": "mean",
+      "difficulty": "Hard / Exam-Style"
+    }
+  ]
+}
