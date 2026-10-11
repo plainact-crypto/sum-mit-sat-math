@@ -1,0 +1,22 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Convert a circle's general equation to standard form, identify center and radius, and determine whether it has real points.",
+    "x²+y²+Dx+Ey+F=0"
+  ],
+  [
+    "CORE IDEA",
+    "The general equation is the expanded form of (x−h)²+(y−k)²=r². Completing the square reveals its center and radius.",
+    "D=−2h, E=−2k, F=h²+k²−r²."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "D and E are the linear coefficients and F is the constant. A real circle needs positive squared radius.",
+    "Center (−D/2,−E/2), r²=(D²+E²)/4−F."
+  ],
+  [
+    "CORE RULE",
+    "Move F to the other side, complete both squares, and take the positive square root for r.",
+    "A negative r² means no real points; r²=0 gives a single point."
+  ]
+]
