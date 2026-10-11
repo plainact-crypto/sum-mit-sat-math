@@ -1,0 +1,102 @@
+{
+  "english": [
+    [
+      "What is an x-intercept?",
+      "An x-intercept is where a graph meets the horizontal axis. Its y-coordinate is zero. To find one, solve f(x)=0. Every real root r gives the point (r,0). A quadratic may have two, one, or no real x-intercepts."
+    ],
+    [
+      "Roots and zeros",
+      "A root or zero is an x-value making the function equal zero. A root is a number; an x-intercept is a point. For example, root 3 gives point (3,0). Always check whether the question asks for values or coordinates."
+    ],
+    [
+      "Start by setting y to zero",
+      "For y=x²−7x+12, write x²−7x+12=0. Do not read the constant 12 as an x-intercept. The constant gives the y-intercept in standard form, while x-intercepts require solving a quadratic equation."
+    ],
+    [
+      "Factoring two roots",
+      "Factor x²−7x+12 as (x−3)(x−4). The zero-product property gives x=3 or x=4. So the intercepts are (3,0) and (4,0). Verify: substituting 3 or 4 makes the original expression zero."
+    ],
+    [
+      "Square roots and signs",
+      "For y=x²−16, set x²−16=0, so x²=16. Both x=4 and x=−4 work. The intercepts are (−4,0) and (4,0). Remember both signs when taking a square root."
+    ],
+    [
+      "One repeated intercept",
+      "For y=x²+10x+25=(x+5)², setting y=0 gives x=−5. This repeated root represents one distinct intercept (−5,0). The parabola touches the axis rather than crossing at two different places."
+    ],
+    [
+      "No real intercepts",
+      "For y=x²+2x+5, the discriminant b²−4ac equals 4−20=−16. A negative discriminant means no real roots. Therefore the graph has no real x-intercepts, even though complex solutions exist."
+    ],
+    [
+      "Quadratic formula",
+      "For 2x²+x−3=0, a=2, b=1, c=−3. The discriminant is 25. The formula gives (−1±5)/4, producing roots 1 and −3/2. Write the intercept points (1,0) and (−3/2,0)."
+    ],
+    [
+      "Vertex form",
+      "For y=(x−6)²−9, set y=0, giving (x−6)²=9. Then x−6=±3, so x=3 or x=9. These are the intercepts (3,0) and (9,0). This avoids unnecessary expansion."
+    ],
+    [
+      "Parameter problem",
+      "If y=x²−6x+m touches the x-axis once, its discriminant must be zero. Solve 36−4m=0 to obtain m=9. Then y=(x−3)², confirming a repeated root at x=3."
+    ],
+    [
+      "Desmos verification",
+      "Enter y=x²−5x+6 in Desmos. Find the crossings at x=2 and x=3. Algebra confirms (x−2)(x−3)=0. For clean integer factors, algebra is faster; graphing is useful to check or estimate roots."
+    ],
+    [
+      "Final exam checklist",
+      "Set y=0, choose a reliable method, and keep real solutions only. Use the discriminant to count real intercepts. Report (r,0) when a point is requested, and verify by substitution. Continue to eighteen practice problems and five test questions."
+    ]
+  ],
+  "arabic": [
+    [
+      "ما نقطة تقاطع محور السينات؟",
+      "نقطة تقاطع محور السينات هي النقطة التي يكون عندها إحداثي الصادات صفراً. لإيجادها نحل المعادلة دالة السين تساوي صفراً. كل جذر حقيقي راء يعطينا النقطة راء فاصلة صفر. قد توجد نقطتان أو نقطة واحدة أو لا توجد نقاط حقيقية."
+    ],
+    [
+      "الجذور والأصفار",
+      "الجذر هو قيمة للسين تجعل الدالة تساوي صفراً، أما نقطة التقاطع فهي زوج مرتب. مثلاً الجذر ثلاثة يقابله النقطة ثلاثة فاصلة صفر. انتبه إلى ما إذا كان المطلوب قيمة السين أم إحداثيات النقطة."
+    ],
+    [
+      "ابدأ بجعل الصاد صفراً",
+      "إذا كانت صاد تساوي سين تربيع ناقص سبعة سين زائد اثني عشر، نجعل الصاد صفراً ونحل المعادلة. لا تعتبر الحد الثابت اثني عشر تقاطعاً مع محور السينات؛ فالحد الثابت يعطينا تقاطع محور الصادات."
+    ],
+    [
+      "التحليل إلى عاملين",
+      "حلل سين تربيع ناقص سبعة سين زائد اثني عشر إلى سين ناقص ثلاثة مضروباً في سين ناقص أربعة. من خاصية حاصل الضرب الصفري نحصل على السين تساوي ثلاثة أو أربعة. النقطتان هما ثلاثة فاصلة صفر وأربعة فاصلة صفر."
+    ],
+    [
+      "الجذر التربيعي والإشارتان",
+      "في صاد تساوي سين تربيع ناقص ستة عشر، نضع الصاد صفراً فنجد سين تربيع تساوي ستة عشر. إذن السين تساوي موجب أربعة أو سالب أربعة. النقطتان هما سالب أربعة فاصلة صفر وأربعة فاصلة صفر."
+    ],
+    [
+      "جذر مكرر ونقطة واحدة",
+      "الدالة سين تربيع زائد عشرة سين زائد خمسة وعشرين تساوي مربع سين زائد خمسة. عند مساواتها بالصفر نحصل على جذر مكرر هو سالب خمسة. لذلك توجد نقطة تقاطع مميزة واحدة فقط هي سالب خمسة فاصلة صفر."
+    ],
+    [
+      "عدم وجود جذور حقيقية",
+      "في الدالة سين تربيع زائد اثنين سين زائد خمسة، المميز باء تربيع ناقص أربعة ألف جيم يساوي سالب ستة عشر. عندما يكون المميز سالباً لا توجد جذور حقيقية، وبالتالي لا توجد نقاط تقاطع مع محور السينات."
+    ],
+    [
+      "استخدام القانون العام",
+      "في المعادلة اثنان سين تربيع زائد سين ناقص ثلاثة تساوي صفراً، يكون المميز خمسة وعشرين. يعطي القانون العام سالب واحد زائد أو ناقص خمسة على أربعة. إذن الجذران واحد وسالب ثلاثة على اثنين."
+    ],
+    [
+      "التحويل من صورة الرأس",
+      "إذا كانت صاد تساوي مربع سين ناقص ستة ثم ناقص تسعة، نجعل الصاد صفراً فنجد مربع سين ناقص ستة يساوي تسعة. إذن سين ناقص ستة تساوي موجب أو سالب ثلاثة. الحلول ثلاثة وتسعة."
+    ],
+    [
+      "معامل مجهول في سؤال امتحاني",
+      "إذا كانت صاد تساوي سين تربيع ناقص ستة سين زائد ميم، ويلامس المنحنى محور السينات مرة واحدة، فالمميز يساوي صفراً. نحل ستة وثلاثين ناقص أربعة ميم يساوي صفراً، فنحصل على ميم تساوي تسعة."
+    ],
+    [
+      "التحقق باستخدام ديسموس",
+      "في ديسموس اكتب صاد تساوي سين تربيع ناقص خمسة سين زائد ستة. تقاطع المنحنى مع محور السينات عند اثنين وثلاثة. تحقق جبرياً بالتحليل إلى سين ناقص اثنين مضروباً في سين ناقص ثلاثة."
+    ],
+    [
+      "مراجعة الدرس",
+      "اجعل الصاد صفراً واختر التحليل أو الجذر التربيعي أو القانون العام. استخدم المميز لمعرفة عدد الجذور الحقيقية. اكتب الزوج المرتب إذا طلبت نقطة، وتحقق بالتعويض. بعد ذلك حل ثمانية عشر تدريباً واختباراً من خمسة أسئلة."
+    ]
+  ]
+}
