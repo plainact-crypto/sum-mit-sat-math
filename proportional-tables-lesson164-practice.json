@@ -1,0 +1,128 @@
+[
+  {
+    "group": "Skill Check",
+    "question": "For (x,y)=(2,10),(4,20),(6,30), find k=y/x.",
+    "answer": "5",
+    "solution": "10/2=20/4=30/6=5.",
+    "qa": "10/2"
+  },
+  {
+    "group": "Skill Check",
+    "question": "A proportional table follows y=3x. Find y when x=7.",
+    "answer": "21",
+    "solution": "y=3(7)=21.",
+    "qa": "3*7"
+  },
+  {
+    "group": "Skill Check",
+    "question": "A proportional table has k=4. What x gives y=28?",
+    "answer": "7",
+    "solution": "28=4x, so x=7.",
+    "qa": "28/4"
+  },
+  {
+    "group": "Core Practice",
+    "question": "A table includes (2,6),(4,12),(9,?). Find the missing output.",
+    "answer": "27",
+    "solution": "k=6/2=12/4=3; y=3(9)=27.",
+    "qa": "6/2*9"
+  },
+  {
+    "group": "Core Practice",
+    "question": "The x-values are 1,3,5 and proportional y-values are 4,12,?. Find y.",
+    "answer": "20",
+    "solution": "k=4/1=12/3=4; y=4(5)=20.",
+    "qa": "12/3*5"
+  },
+  {
+    "group": "Core Practice",
+    "question": "A proportional table has (2,10),(?,25),(6,30). Find missing x.",
+    "answer": "5",
+    "solution": "k=10/2=30/6=5; x=25/5=5.",
+    "qa": "25/(10/2)"
+  },
+  {
+    "group": "Core Practice",
+    "question": "For (0.5,2),(1.5,6),(3,12), find k.",
+    "answer": "4",
+    "solution": "2/0.5=6/1.5=12/3=4.",
+    "qa": "2/.5"
+  },
+  {
+    "group": "Core Practice",
+    "question": "For (-2,10),(0,0),(3,-15), find k.",
+    "answer": "-5",
+    "solution": "10/(-2)=-15/3=-5; zero row is valid.",
+    "qa": "10/(-2)"
+  },
+  {
+    "group": "Core Practice",
+    "question": "For (2,7),(4,14),(6,21), find y at x=10.",
+    "answer": "35",
+    "solution": "k=7/2=3.5; y=3.5(10)=35.",
+    "qa": "7/2*10"
+  },
+  {
+    "group": "Core Practice",
+    "question": "A table shows (2,6),(4,12),(6,19), but one y is wrong. What should y be at x=6?",
+    "answer": "18",
+    "solution": "k=3 from first two rows; y=3(6)=18.",
+    "qa": "6/2*6"
+  },
+  {
+    "group": "Core Practice",
+    "question": "Table A has k=3.5. Table B has (2,8),(5,20). How much greater is B's k?",
+    "answer": "0.5",
+    "solution": "B has k=8/2=4, so 4-3.5=0.5.",
+    "qa": "8/2-3.5"
+  },
+  {
+    "group": "Exam-Style Practice",
+    "question": "A proportional table lists (2,4.8),(5,12),(?,31.2). Find x.",
+    "answer": "13",
+    "solution": "k=4.8/2=2.4; x=31.2/2.4=13.",
+    "qa": "31.2/(4.8/2)"
+  },
+  {
+    "group": "Exam-Style Practice",
+    "question": "Price is proportional to mass: (5 kg,$12). Find the price for 8.5 kg.",
+    "answer": "20.4",
+    "solution": "k=12/5=$2.40/kg; cost=2.4(8.5)=$20.40.",
+    "qa": "12/5*8.5"
+  },
+  {
+    "group": "Exam-Style Practice",
+    "question": "A proportional table has (0,?),(3,7.5),(6,15). What is y at x=0?",
+    "answer": "0",
+    "solution": "Because y=kx, x=0 implies y=0.",
+    "qa": "7.5/3*0"
+  },
+  {
+    "group": "Exam-Style Practice",
+    "question": "A proportional table contains (3,2),(6,4),(9,6). Find y when x=15.",
+    "answer": "10",
+    "solution": "k=2/3; y=(2/3)(15)=10.",
+    "qa": "2/3*15"
+  },
+  {
+    "group": "Exam-Style Practice",
+    "question": "For (1.25,4.5),(3.75,13.5), find y at x=5.",
+    "answer": "18",
+    "solution": "k=4.5/1.25=3.6; y=3.6(5)=18.",
+    "qa": "4.5/1.25*5"
+  },
+  {
+    "group": "Challenge Problems",
+    "question": "Table A has (3,7.5); B has (4,12). Both proportional. At x=18, how much greater is B's output?",
+    "answer": "9",
+    "solution": "kA=2.5, kB=3; difference=(3-2.5)(18)=9.",
+    "qa": "(12/4-7.5/3)*18"
+  },
+  {
+    "group": "Challenge Problems",
+    "question": "A proportional table has (0.4,3),(1.5,11.25),(3.2,24). Find x for y=41.25.",
+    "answer": "5.5",
+    "solution": "k=3/0.4=7.5, checked with both other rows; x=41.25/7.5=5.5.",
+    "qa": "41.25/(3/.4)"
+  }
+]
