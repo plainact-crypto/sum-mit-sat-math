@@ -1,0 +1,105 @@
+{
+  "lesson": "linear-equation-word-problems",
+  "index": 7,
+  "format": "full-lesson",
+  "english": [
+    [
+      "Objective",
+      "Translate a real-world relationship into one linear equation, solve it, and interpret the answer with units."
+    ],
+    [
+      "Choose the variable",
+      "Define x as the exact quantity the question asks for: hours, miles, dollars, tickets, or age."
+    ],
+    [
+      "Identify the model",
+      "A fixed starting amount plus a repeated charge has total = fixed fee + rate times quantity."
+    ],
+    [
+      "Example: gym visits",
+      "A gym charges 12 dollars plus 5 dollars per visit, total 37. Write 12+5v=37. Subtract 12 and divide by 5. v=5 visits."
+    ],
+    [
+      "Example: equal groups",
+      "Seven notebooks cost 42 dollars. Write 7n=42, so n=6 dollars per notebook."
+    ],
+    [
+      "Example: two ages",
+      "Leo is five years older than Ana. Let Ana be a. Then Leo is a+5. Their sum is 31, so 2a+5=31 and a=13."
+    ],
+    [
+      "Example: consecutive integers",
+      "Let the smaller integer be n and the next n+1. Their sum is 67. Solve 2n+1=67 to get n=33."
+    ],
+    [
+      "Example: perimeter",
+      "Width is 7, perimeter is 46. Use 2L+14=46. Solve L=16 units."
+    ],
+    [
+      "Example: decimal rate",
+      "A phone plan is 25 dollars plus 8 cents per extra text. Bill 33 dollars. 25+0.08t=33 gives t=100 texts."
+    ],
+    [
+      "Challenge: rectangle relationship",
+      "Length is 3 more than twice width w, so L=2w+3. Perimeter 54 means 2(2w+3)+2w=54. Solve w=8."
+    ],
+    [
+      "Graph and Desmos",
+      "For y=4x+12, the intercept 12 is the initial amount and slope 4 is the rate. Check points (0,12), (1,16), and (3,24). Algebra remains the primary method."
+    ],
+    [
+      "Exam strategy and recap",
+      "Write the variable with units, translate each phrase carefully, solve, substitute to check, and answer in the context. Practice 18 questions and finish the five-question test."
+    ]
+  ],
+  "arabic": [
+    [
+      "هدف الدرس",
+      "سنتعلم تحويل المسألة الكلامية إلى معادلة خطية واحدة، ثم حلها وكتابة الإجابة مع الوحدة الصحيحة."
+    ],
+    [
+      "اختيار المتغير",
+      "عرّف المتغير ليعبر عما يطلبه السؤال تحديداً، مثل عدد الساعات أو المسافات أو النقود أو التذاكر أو العمر."
+    ],
+    [
+      "بناء المعادلة",
+      "عندما توجد رسوم ثابتة مع تكلفة متكررة، فإن المجموع يساوي الرسوم الثابتة زائد سعر الوحدة مضروباً في عدد الوحدات."
+    ],
+    [
+      "مثال اشتراك النادي",
+      "النادي يتقاضى اثني عشر دولاراً بالإضافة إلى خمسة دولارات لكل زيارة، والإجمالي سبعة وثلاثون. المعادلة 12+5v=37. نطرح 12 ثم نقسم على 5 فنجد خمس زيارات."
+    ],
+    [
+      "مثال مجموعات متساوية",
+      "سبعة دفاتر ثمنها اثنان وأربعون دولاراً. نكتب 7n=42 ثم نقسم على 7 فنحصل على ستة دولارات للدفتر."
+    ],
+    [
+      "مثال الأعمار",
+      "ليو أكبر من آنا بخمس سنوات. إذا كان عمر آنا a فعمر ليو a+5. مجموعهما 31، إذن 2a+5=31، ومنه عمر آنا 13 سنة."
+    ],
+    [
+      "مثال الأعداد المتتالية",
+      "إذا كان العدد الأصغر n فالعدد التالي n+1. مجموعهما 67، لذلك 2n+1=67، وبعد الحل نجد n=33."
+    ],
+    [
+      "مثال محيط المستطيل",
+      "عرض المستطيل سبع وحدات ومحيطه 46. نكتب 2L+14=46 ثم نحل فنجد الطول 16 وحدة."
+    ],
+    [
+      "مثال السعر العشري",
+      "خطة الهاتف تكلف خمسة وعشرين دولاراً وثمانية سنتات لكل رسالة إضافية. الفاتورة 33 دولاراً. نكتب 25+0.08t=33، فنجد مئة رسالة."
+    ],
+    [
+      "تحدي المستطيل",
+      "الطول يزيد بثلاث وحدات عن ضعف العرض w، أي L=2w+3. المحيط 54، إذن 2(2w+3)+2w=54. بالحل يكون العرض ثماني وحدات."
+    ],
+    [
+      "الرسم وديسموس",
+      "في المعادلة y=4x+12، العدد 12 هو البداية و4 هو معدل الزيادة. تحقق من النقاط صفر واثنا عشر، وواحد وستة عشر، وثلاثة وأربعة وعشرين. الجبر هو الأساس."
+    ],
+    [
+      "استراتيجية الاختبار",
+      "عرّف المتغير ووحدته، ترجم الكلمات إلى معادلة، حلها، تحقق بالتعويض، ثم اكتب إجابة تناسب السؤال. بعد ذلك حل ثمانية عشر تدريباً واختباراً من خمسة أسئلة."
+    ]
+  ]
+}
