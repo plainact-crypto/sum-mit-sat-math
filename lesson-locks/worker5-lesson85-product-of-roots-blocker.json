@@ -1,0 +1,20 @@
+{
+  "lesson": 85,
+  "slug": "product-of-roots",
+  "state": "BLOCKED_REPO_WRITE",
+  "date": "2026-10-11",
+  "committed": [
+    "lesson lock",
+    "independent mathematical QA"
+  ],
+  "rejected": [
+    "update existing practice HTML",
+    "update existing answers HTML",
+    "create full release builder",
+    "create core builder"
+  ],
+  "local_candidate": "Prepared separate integration package; isolated fixture build only",
+  "next": "Advance to next owned lesson while awaiting safe repository integration",
+  "merge": false,
+  "live_verified": false
+}
