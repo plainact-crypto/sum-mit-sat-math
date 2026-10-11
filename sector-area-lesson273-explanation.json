@@ -1,0 +1,70 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Calculate the area of a circular sector from its radius and central angle, reverse the formula to find missing values, and compare sectors and annular sectors."
+  ],
+  [
+    "WHAT YOU NEED TO KNOW",
+    "A sector is the region enclosed by two radii and their intercepted arc. It is a fraction of the full circular disk, determined by its central angle."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "The central angle θ has its vertex at the circle's center. Radius r is the distance from center to circle. Sector area is measured in square units."
+  ],
+  [
+    "CORE RULE",
+    "For degrees, sector area A=(θ/360)πr². For a full turn θ=360°, the sector is the entire circle and A=πr²."
+  ],
+  [
+    "ANGLE FRACTION",
+    "A 90° sector is one quarter of a circle; 180° is one half; 120° is one third; 60° is one sixth. Simplify θ/360 before multiplying."
+  ],
+  [
+    "HOW IT WORKS",
+    "Identify the radius and central angle, square the radius, multiply by the angle fraction, and include π and squared units. For inverse questions, isolate θ or r² first."
+  ],
+  [
+    "WORKED EXAMPLE 1 — QUARTER CIRCLE",
+    "A circle of radius 6 has a 90° sector. A=(90/360)π(6²)=(1/4)36π=9π square units."
+  ],
+  [
+    "WORKED EXAMPLE 2 — ONE THIRD",
+    "For radius 9 and angle 120°, A=(120/360)π(81)=(1/3)81π=27π square units."
+  ],
+  [
+    "WORKED EXAMPLE 3 — MISSING ANGLE",
+    "A radius-10 sector has area 25π. Set 25π=(θ/360)100π; cancel π to get 25=100θ/360, so θ=90°."
+  ],
+  [
+    "WORKED EXAMPLE 4 — MISSING RADIUS",
+    "A 180° sector has area 18π. Then 18π=(1/2)πr², so r²=36 and positive radius r=6."
+  ],
+  [
+    "WORKED EXAMPLE 5 — ANNULAR SECTOR",
+    "For outer radius 10, inner radius 6, and angle 90°, subtract two quarter disks: A=(1/4)π(100−36)=16π."
+  ],
+  [
+    "WORKED EXAMPLE 6 — ADJACENT SECTORS",
+    "Two nonoverlapping sectors of radius 12 have angles 75° and 45°. Add angles to 120°; combined area=(120/360)π(144)=48π."
+  ],
+  [
+    "VERIFIED SECTOR DIAGRAM",
+    "A radius-4 circle with a 90° central angle has a quarter-disk sector. Its exact area is (90/360)π(4²)=4π square units; the SVG path is constructed from r and θ."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not use arc length in place of area: arc length uses 2πr, while area uses πr². Do not forget square units or apply degrees as a raw multiplier without dividing by 360."
+  ],
+  [
+    "EXAM STRATEGY",
+    "Leave answers in terms of π unless a decimal is requested. For an annular sector, subtract squared radii first. For a missing radius, solve for r² and take the positive square root."
+  ],
+  [
+    "QUICK CHECK",
+    "Radius 8, angle 90° gives 16π; radius 12, angle 60° gives 24π. A sector of area 16π and angle 90° has radius 8."
+  ],
+  [
+    "LESSON RECAP AND NEXT STEP",
+    "Sector area equals the angle fraction times πr². Reverse the formula carefully, combine adjacent angles, and subtract concentric sector areas for annular regions. Continue to 18 practice questions and the five-question test."
+  ]
+]
