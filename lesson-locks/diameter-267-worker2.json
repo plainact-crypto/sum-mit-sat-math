@@ -4,8 +4,9 @@
   "slug": "diameter",
   "canonical_base": "/geometry-and-trigonometry/circles/diameter",
   "owner": "SUMMIT Worker 2",
-  "status": "IN_PROGRESS",
+  "status": "BLOCKED_INTEGRATION",
   "started_on": "2026-10-11",
   "branch": "worker2/diameter-267-20261011",
-  "predecessor_blocked": "translations-262"
+  "predecessor_blocked": "translations-262",
+  "blocker": "Core dataset and builders committed. QA: 18 practice, 18 answers, 5 tests, 12 English and 12 Arabic scenes. Registry update and test asset integration rejected. Full build, playable video, merge, production routes and email not complete."
 }
