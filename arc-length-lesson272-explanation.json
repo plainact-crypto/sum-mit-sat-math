@@ -1,0 +1,85 @@
+{
+  "title": "Arc Length",
+  "sections": [
+    [
+      "LESSON OBJECTIVE",
+      "Calculate a circular arc's length from its radius and central angle; work backward to recover an unknown radius or angle.",
+      "An arc is a portion of the circumference, not a straight chord."
+    ],
+    [
+      "WHAT YOU NEED TO KNOW",
+      "The entire circumference of a circle is 2πr. A central angle of θ degrees selects θ/360 of that circumference.",
+      "For example, 90° is one quarter of a full 360° turn."
+    ],
+    [
+      "KEY DEFINITIONS",
+      "Radius r: center-to-circle distance. Central angle θ: angle at the center between two radii. Minor arc: shorter path around the circle. Major arc: longer path.",
+      "An arc length uses linear units such as cm or m; it is not an area."
+    ],
+    [
+      "CORE RULE",
+      "Arc length s=(θ/360)×2πr = πrθ/180, when θ is in degrees.",
+      "If θ is measured in radians, use s=rθ instead. Do not mix degree and radian formulas."
+    ],
+    [
+      "HOW IT WORKS",
+      "Identify radius and angle; if given diameter, divide it by two. Convert a major-arc question to its major central angle. Multiply circumference by the angle fraction. Keep π exact unless asked for a decimal.",
+      "For a known arc length, solve the same equation for r or θ."
+    ],
+    [
+      "WORKED EXAMPLE 1 — QUARTER CIRCLE",
+      "Radius 8 cm and angle 90°: s=(90/360)(2π·8)=(1/4)(16π)=4π cm.",
+      "Check: four equal quarter-arcs total 16π, the full circumference."
+    ],
+    [
+      "WORKED EXAMPLE 2 — DIAMETER GIVEN",
+      "Diameter 18 m and angle 120°: r=9 m; s=(120/360)(18π)=6π m.",
+      "Do not substitute diameter as radius into 2πr."
+    ],
+    [
+      "WORKED EXAMPLE 3 — MAJOR ARC",
+      "Radius 6 cm and a 75° minor angle: major angle=360−75=285°; major arc=(285/360)(12π)=19π/2 cm.",
+      "The minor arc is 5π/2 cm. Together they sum to circumference 12π cm."
+    ],
+    [
+      "WORKED EXAMPLE 4 — SOLVE FOR ANGLE",
+      "An arc measures 5π cm in a circle of radius 15 cm: 5π=(θ/360)(30π); divide by 30π to get 1/6=θ/360; θ=60°.",
+      "Verify: 60/360 of 30π equals 5π cm."
+    ],
+    [
+      "WORKED EXAMPLE 5 — REAL CONTEXT",
+      "A wheel of radius 0.6 m turns 150°. The point on its rim travels s=(150/360)(2π·0.6)=π/2 m, approximately 1.571 m.",
+      "A point on the rim traces an arc; the radius is measured from the wheel's center."
+    ],
+    [
+      "VERIFIED CIRCLE VISUAL",
+      "The blue arc represents exactly one quarter of a circle, from 0° to 90°. The center-to-endpoint radii are equal, and the highlighted arc is 90/360 of the circumference.",
+      "Diagram coordinates are computed from r=100 and θ=90°; this is a deterministic mathematical SVG, not an illustrative guess."
+    ],
+    [
+      "COMMON MISTAKES",
+      "Do not confuse arc length with sector area, which uses πr². Do not forget to halve diameter. For a major arc, subtract the minor angle from 360°. Include linear units and keep π until rounding is requested.",
+      "For 180°, the arc is πr, not 2πr."
+    ],
+    [
+      "EXAM STRATEGY",
+      "First determine what is unknown: s, r, or θ. If s is unknown, multiply circumference by the angle fraction. If θ is unknown, use θ=180s/(πr). If r is unknown, use r=180s/(πθ).",
+      "A quick reasonableness check: for 0°<θ<360°, arc length must be between 0 and 2πr."
+    ],
+    [
+      "QUICK CHECK",
+      "Try: (1) radius 10, angle 72°; (2) diameter 8, angle 180°; (3) radius 9, arc 3π, find angle.",
+      "Reveal: (1) 4π units; (2) 4π units; (3) 60°."
+    ],
+    [
+      "LESSON RECAP",
+      "Degrees: s=(θ/360)·2πr. Radians: s=rθ. Major angle=360°−minor angle. Inverse formulas: θ=180s/(πr) and r=180s/(πθ).",
+      "Arc length is measured along the circle and always uses linear units."
+    ],
+    [
+      "NEXT STEP",
+      "Use Practice Problems to master all forms, Answers & Solutions to study the reasoning, and the five-question Lesson Test to check your understanding.",
+      "English and Arabic full-lesson narrated routes are linked in the lesson navigation."
+    ]
+  ]
+}
