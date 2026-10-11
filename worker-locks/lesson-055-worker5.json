@@ -1,0 +1,17 @@
+{
+  "lessonIndex": 55,
+  "slug": "overlapping-solution-regions",
+  "worker": 5,
+  "branch": "automation/worker5-lesson55-overlapping-solution-regions-20261011",
+  "status": "BUILDERS_LOCAL_QA_PASS_PENDING_BUILD",
+  "manifest": "lesson-releases/overlapping-solution-regions.json",
+  "mathQA": "content-qa/worker5-lesson55-math-qa.json",
+  "requiredBuilders": [
+    "overlapping-solution-regions-lesson55-test-lock-build.js",
+    "overlapping-solution-regions-lesson55-full-video-build.js"
+  ],
+  "localComponentQA": "PASS",
+  "fullBuild": "PENDING",
+  "preview": "BLOCKED_VERCEL_402",
+  "liveVerified": false
+}
