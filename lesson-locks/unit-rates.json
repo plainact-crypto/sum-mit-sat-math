@@ -1,0 +1,8 @@
+{
+  "lesson": "unit-rates",
+  "index": 159,
+  "owner": "SUMMIT Worker 4",
+  "branch": "worker4-index159-unit-rates-20261011",
+  "status": "BUILD_PASS_QA_BLOCKED",
+  "note": "2026-10-11: renderer commit d4dc3367; full build and six routes passed in clean Vercel Sandbox at 8289bf3; 23/23 math checks passed. Full QA blocked by collinear-points missing classification marker. PR write blocked. No merge or LIVE_VERIFIED."
+}

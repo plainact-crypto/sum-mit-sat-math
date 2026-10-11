@@ -1,0 +1,62 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Calculate and interpret unit rates, compare unit prices, convert units, and find overall speed from total distance and time."
+  ],
+  [
+    "CORE IDEA",
+    "A unit rate compares two quantities with a denominator of exactly one unit. $18 for six notebooks means $3 per notebook."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Rate: a ratio of unlike units. Unit rate: amount per one denominator unit. Unit price: cost per one item or measure. Average speed: total distance divided by total elapsed time."
+  ],
+  [
+    "CORE RULE",
+    "Unit rate = numerator quantity ÷ denominator quantity. Include the correct units such as dollars/kg or miles/hour."
+  ],
+  [
+    "HOW IT WORKS",
+    "Identify what comes after 'per'. Convert to compatible units. Divide in the requested order, label, and check by multiplying."
+  ],
+  [
+    "WORKED EXAMPLE 1",
+    "Six notebooks cost $18. $18 ÷ 6 = $3 per notebook; 6 × $3 = $18."
+  ],
+  [
+    "WORKED EXAMPLE 2",
+    "A 2.5-kg bag costs $7.50. $7.50 ÷ 2.5 kg = $3/kg."
+  ],
+  [
+    "WORKED EXAMPLE 3",
+    "Nine miles in 15 minutes means nine miles in 15/60 = 0.25 hour; 9 ÷ 0.25 = 36 mph."
+  ],
+  [
+    "WORKED EXAMPLE 4",
+    "Store A: $3.30 for 12 oz = $0.275/oz. Store B: $4.68 for 18 oz = $0.26/oz. Store B is cheaper."
+  ],
+  [
+    "WORKED EXAMPLE 5",
+    "48 km at 16 km/h takes 3 h; 24 km at 24 km/h takes 1 h. Overall average speed = 72 km/4 h = 18 km/h."
+  ],
+  [
+    "DIMENSIONAL CHECK",
+    "To convert m/s to km/h multiply by 3600 seconds/hour and 1 kilometer/1000 meters, giving a factor of 3.6."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not reverse numerator and denominator, compare prices in different denominator units, or average two speeds without accounting for travel time."
+  ],
+  [
+    "EXAM STRATEGY",
+    "Underline the word after 'per'. Compare equal units. For a multi-leg trip, find each time first, then divide total distance by total time."
+  ],
+  [
+    "QUICK CHECK",
+    "$12 for four pens is $3/pen. 90 miles in 1.5 hours is 60 mph. 2 m/s is 7.2 km/h."
+  ],
+  [
+    "RECAP AND NEXT STEP",
+    "Convert, divide, label, and check. Continue to the 18 Practice Problems, 18 Answers, and five-question Lesson Test."
+  ]
+]
