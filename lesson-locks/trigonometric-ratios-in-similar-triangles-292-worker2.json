@@ -1,11 +1,12 @@
 {
-  "lesson_index": 292,
-  "lesson": "Trigonometric Ratios in Similar Triangles",
-  "slug": "trigonometric-ratios-in-similar-triangles",
-  "canonical_base": "/geometry-and-trigonometry/right-triangle-trigonometry/trigonometric-ratios-in-similar-triangles",
-  "owner": "SUMMIT Worker 2",
-  "status": "IN_PROGRESS",
-  "branch": "worker2/trigonometric-ratios-in-similar-triangles-292-20261011",
-  "started_on": "2026-10-11",
-  "previous_blocked": "sine-287"
+ "lesson_index":292,
+ "lesson":"Trigonometric Ratios in Similar Triangles",
+ "slug":"trigonometric-ratios-in-similar-triangles",
+ "canonical_base":"/geometry-and-trigonometry/right-triangle-trigonometry/trigonometric-ratios-in-similar-triangles",
+ "owner":"SUMMIT Worker 2",
+ "status":"BLOCKED",
+ "branch":"worker2/trigonometric-ratios-in-similar-triangles-292-20261011",
+ "explanation_sections":8,
+ "blocker":"Repeated content upload rejections.",
+ "next_owned_index":297
 }
