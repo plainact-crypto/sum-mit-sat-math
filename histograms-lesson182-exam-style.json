@@ -1,0 +1,42 @@
+[
+  {
+    "number": 12,
+    "group": "Exam-Style",
+    "dataset": "A",
+    "question": "How many puzzle times fall in [10,40) minutes?",
+    "answer": "20",
+    "solution": "Add 5+9+6=20."
+  },
+  {
+    "number": 13,
+    "group": "Exam-Style",
+    "dataset": "D",
+    "question": "Estimate the mean exam score using bin midpoints.",
+    "answer": "73.4",
+    "solution": "(45×1+55×3+65×5+75×8+85×6+95×2)/25=1835/25=73.4."
+  },
+  {
+    "number": 14,
+    "group": "Exam-Style",
+    "dataset": "D",
+    "question": "What percentage of exam scores are at least 70?",
+    "answer": "64%",
+    "solution": "The last three bins contain 8+6+2=16 of 25; 16/25×100=64%."
+  },
+  {
+    "number": 15,
+    "group": "Exam-Style",
+    "dataset": "B",
+    "question": "Five more observations enter [8,10) thousand steps. What is the NEW relative frequency of that bin?",
+    "answer": "20%",
+    "solution": "New bin count 1+5=6; new total 25+5=30; 6/30=20%."
+  },
+  {
+    "number": 16,
+    "group": "Exam-Style",
+    "dataset": "C",
+    "question": "Can the EXACT mean number of books be determined from histogram bins alone?",
+    "answer": "No",
+    "solution": "Only intervals and frequencies are known, not individual values; midpoint means are estimates."
+  }
+]
