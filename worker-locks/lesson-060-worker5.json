@@ -1,0 +1,21 @@
+{
+  "lesson": 60,
+  "slug": "expanding-expressions",
+  "worker": "worker5",
+  "status": "BLOCKED",
+  "reason": "Required submit-once test builder rejected by connector safety checks",
+  "mathQA": "23/23 previously passed",
+  "committed": [
+    "release manifest",
+    "24 bilingual video chapters",
+    "full lesson video builder"
+  ],
+  "pending": [
+    "test-lock builder",
+    "production build",
+    "route QA",
+    "merge",
+    "deployment verification"
+  ],
+  "nextOwned": 65
+}
