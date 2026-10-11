@@ -1,0 +1,294 @@
+{
+  "lesson_index": 288,
+  "slug": "cosine",
+  "title": "Cosine",
+  "subject": "Geometry and Trigonometry",
+  "section": "Right-Triangle Trigonometry",
+  "base": "geometry-and-trigonometry/right-triangle-trigonometry/cosine",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "kind": "ratio",
+      "inputs": {
+        "adj": 3,
+        "hyp": 5
+      },
+      "prompt": "A right triangle has adjacent leg 3 and hypotenuse 5. Find cos θ. Round to the nearest hundredth.",
+      "solution": "cos θ = adjacent/hypotenuse = 3/5 = 0.60.",
+      "answer": 0.6
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "kind": "ratio",
+      "inputs": {
+        "adj": 8,
+        "hyp": 17
+      },
+      "prompt": "For θ, adjacent leg is 8 and hypotenuse is 17. Evaluate cos θ. Round to the nearest hundredth.",
+      "solution": "cos θ = 8/17 ≈ 0.47.",
+      "answer": 0.47
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "kind": "ratio",
+      "inputs": {
+        "adj": 12,
+        "hyp": 13
+      },
+      "prompt": "The hypotenuse is 13 and the leg next to θ is 12. What is cos θ? Round to the nearest hundredth.",
+      "solution": "cos θ = 12/13 ≈ 0.92; identify adjacent, not opposite.",
+      "answer": 0.92
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "kind": "adj",
+      "inputs": {
+        "hyp": 20,
+        "angle": 60
+      },
+      "prompt": "A right triangle has hypotenuse 20 cm and angle 60°. Find the adjacent leg in cm. Round to the nearest hundredth.",
+      "solution": "A=H cos θ = 20 cos 60° = 10 cm.",
+      "answer": 10
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "kind": "hyp",
+      "inputs": {
+        "adj": 7,
+        "angle": 45
+      },
+      "prompt": "A right triangle has adjacent leg 7 m and angle 45°. Find its hypotenuse in m. Round to the nearest hundredth.",
+      "solution": "H=7/cos 45°=7√2≈9.90 m.",
+      "answer": 9.9
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "kind": "angle",
+      "inputs": {
+        "adj": 6,
+        "hyp": 10
+      },
+      "prompt": "Adjacent side is 6 and hypotenuse 10. Find θ in degrees. Round to the nearest hundredth.",
+      "solution": "θ=arccos(6/10)=arccos(0.6)≈53.13°.",
+      "answer": 53.13
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "kind": "ratio",
+      "inputs": {
+        "adj": 12,
+        "hyp": 13
+      },
+      "prompt": "A 13-ft ladder stands with its foot 12 ft from a wall. Find cosine of its angle with the ground. Round to the nearest hundredth.",
+      "solution": "The ground distance is adjacent: cos θ=12/13≈0.92.",
+      "answer": 0.92
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "kind": "difference",
+      "inputs": {
+        "a1": 30,
+        "a2": 60
+      },
+      "prompt": "Find cos 30° minus cos 60°. Round to the nearest hundredth.",
+      "solution": "cos 30°−cos 60°=(√3−1)/2≈0.37.",
+      "answer": 0.37
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "kind": "adj",
+      "inputs": {
+        "hyp": 14,
+        "angle": 30
+      },
+      "prompt": "A 14-unit segment rises at 30° above horizontal. Find its horizontal projection. Round to the nearest hundredth.",
+      "solution": "A=14 cos 30°=7√3≈12.12.",
+      "answer": 12.12
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "kind": "opposite",
+      "inputs": {
+        "hyp": 15,
+        "cos": 0.8
+      },
+      "prompt": "If cos θ=0.8 and the hypotenuse is 15, find the opposite leg. Round to the nearest hundredth.",
+      "solution": "Adjacent=0.8×15=12; opposite=√(15²−12²)=9.",
+      "answer": 9
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "kind": "similar",
+      "inputs": {
+        "adj": 6,
+        "hyp": 10,
+        "otherHyp": 35
+      },
+      "prompt": "Similar triangles share angle θ. First has adjacent 6 and hypotenuse 10; second hypotenuse 35. Find its adjacent leg. Round to the nearest hundredth.",
+      "solution": "Same cosine: 6/10=x/35, so x=21.",
+      "answer": 21
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "kind": "adj",
+      "inputs": {
+        "hyp": 12,
+        "angle": 40
+      },
+      "prompt": "A 12-m ladder makes a 40° angle with ground. Find its horizontal distance from wall in m. Round to the nearest hundredth.",
+      "solution": "Horizontal distance=12 cos 40°≈9.19 m.",
+      "answer": 9.19
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "kind": "adj",
+      "inputs": {
+        "hyp": 24,
+        "angle": 41.40962210927
+      },
+      "prompt": "A triangle has cos θ=0.75 and hypotenuse 24 cm. Find adjacent leg in cm. Round to the nearest hundredth.",
+      "solution": "Adjacent=0.75×24=18 cm.",
+      "answer": 18
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "kind": "angle",
+      "inputs": {
+        "adj": 15,
+        "hyp": 17
+      },
+      "prompt": "A 17-ft roof brace has a horizontal run of 15 ft. Find its angle above horizontal in degrees. Round to the nearest hundredth.",
+      "solution": "θ=arccos(15/17)≈28.07°.",
+      "answer": 28.07
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "kind": "pythagCos",
+      "inputs": {
+        "hyp": 26,
+        "opp": 10
+      },
+      "prompt": "A right triangle has hypotenuse 26 and side opposite θ length 10. Find cos θ. Round to the nearest hundredth.",
+      "solution": "Adjacent=√(26²−10²)=24; cos θ=24/26≈0.92.",
+      "answer": 0.92
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "kind": "similar",
+      "inputs": {
+        "adj": 9,
+        "hyp": 15,
+        "otherHyp": 40
+      },
+      "prompt": "Two triangles share angle θ. First adjacent 9 and hypotenuse 15; second hypotenuse 40. Find second adjacent. Round to the nearest hundredth.",
+      "solution": "cos θ=9/15=3/5; second adjacent=40×3/5=24.",
+      "answer": 24
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "kind": "doubleRoof",
+      "inputs": {
+        "hyp": 18,
+        "angle": 35
+      },
+      "prompt": "A symmetric roof has two 18-m rafters, each at 35° to horizontal. Find total horizontal width in m. Round to the nearest hundredth.",
+      "solution": "Half-width=18 cos 35°; full width=36 cos 35°≈29.49 m.",
+      "answer": 29.49
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "kind": "twoWalks",
+      "inputs": {
+        "h1": 12,
+        "a1": 60,
+        "h2": 15,
+        "a2": 30
+      },
+      "prompt": "Walk 12 km at 60° above east, then 15 km at 30° above east. Find total eastward displacement in km. Round to the nearest hundredth.",
+      "solution": "Add horizontal components: 12 cos 60°+15 cos 30°≈18.99 km.",
+      "answer": 18.99
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "difficulty": "Easy",
+      "kind": "ratio",
+      "inputs": {
+        "adj": 5,
+        "hyp": 13
+      },
+      "prompt": "Adjacent 5, hypotenuse 13. Find cos θ. Round to the nearest hundredth.",
+      "solution": "cos θ=5/13≈0.38.",
+      "answer": 0.38
+    },
+    {
+      "index": 2,
+      "difficulty": "Easy / Medium",
+      "kind": "adj",
+      "inputs": {
+        "hyp": 16,
+        "angle": 60
+      },
+      "prompt": "A 16-m cable makes a 60° angle with ground. Find horizontal reach. Round to the nearest hundredth.",
+      "solution": "A=16 cos 60°=8 m.",
+      "answer": 8
+    },
+    {
+      "index": 3,
+      "difficulty": "Medium",
+      "kind": "hyp",
+      "inputs": {
+        "adj": 9,
+        "angle": 30
+      },
+      "prompt": "Adjacent leg 9, angle 30°. Find hypotenuse. Round to the nearest hundredth.",
+      "solution": "H=9/cos 30°≈10.39.",
+      "answer": 10.39
+    },
+    {
+      "index": 4,
+      "difficulty": "Medium / Hard",
+      "kind": "angle",
+      "inputs": {
+        "adj": 11,
+        "hyp": 17
+      },
+      "prompt": "Adjacent leg 11, hypotenuse 17. Find θ in degrees. Round to the nearest hundredth.",
+      "solution": "θ=arccos(11/17)≈49.68°.",
+      "answer": 49.68
+    },
+    {
+      "index": 5,
+      "difficulty": "Hard / Exam-Style",
+      "kind": "twoWalks",
+      "inputs": {
+        "h1": 18,
+        "a1": 30,
+        "h2": 10,
+        "a2": 60
+      },
+      "prompt": "Hike 18 km at 30° above east, then 10 km at 60° above east. Find total eastward displacement. Round to the nearest hundredth.",
+      "solution": "18 cos 30°+10 cos 60°=9√3+5≈20.59 km.",
+      "answer": 20.59
+    }
+  ]
+}
