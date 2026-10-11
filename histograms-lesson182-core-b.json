@@ -1,0 +1,34 @@
+[
+  {
+    "number": 8,
+    "group": "Core Practice",
+    "dataset": "B",
+    "question": "What percentage of daily step counts are at least 6 thousand?",
+    "answer": "24%",
+    "solution": "6 of 25 lie in the last two bins; 6/25=24%."
+  },
+  {
+    "number": 9,
+    "group": "Core Practice",
+    "dataset": "C",
+    "question": "Compare below 4 books with at least 4. Which is greater, and by how many?",
+    "answer": "Below 4, by 2",
+    "solution": "Below 4: 4+7=11; at least 4: 5+3+1=9; difference 2."
+  },
+  {
+    "number": 10,
+    "group": "Core Practice",
+    "dataset": "D",
+    "question": "Which interval contains the median of the 25 exam scores?",
+    "answer": "[70,80)",
+    "solution": "The 13th observation lies in [70,80) since cumulative counts are 1,4,9,17,23,25."
+  },
+  {
+    "number": 11,
+    "group": "Core Practice",
+    "dataset": "E",
+    "question": "Estimate the mean delivery time using bin midpoints.",
+    "answer": "9 minutes",
+    "solution": "(2.5×4+7.5×8+12.5×6+17.5×2)/20=180/20=9."
+  }
+]
