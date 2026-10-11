@@ -1,0 +1,327 @@
+{
+  "canonicalIndex": 284,
+  "lessonNumber": 285,
+  "slug": "completing-the-square-for-circle-equations",
+  "title": "Completing the Square for Circle Equations",
+  "base": "geometry-and-trigonometry/circles/circle-equation/completing-the-square-for-circle-equations",
+  "practice": [
+    {
+      "id": 1,
+      "group": "Skill Check",
+      "prompt": "Complete the square and write the circle equation in center-radius form: x² + y² − 4x − 6y − 3 = 0",
+      "given": "x² + y² − 4x − 6y − 3 = 0",
+      "answer": "(x−2)² + (y−3)² = 16",
+      "center": [
+        2,
+        3
+      ],
+      "r2": 16,
+      "steps": "Group x and y terms. Add 4 to complete the x-square and 9 to complete the y-square. This gives (x−2)² + (y−3)² = 16. The center is (2, 3) and radius squared is 16."
+    },
+    {
+      "id": 2,
+      "group": "Skill Check",
+      "prompt": "Find the center and radius, then give standard form: x² + y² + 2x − 8y + 8 = 0",
+      "given": "x² + y² + 2x − 8y + 8 = 0",
+      "answer": "(x+1)² + (y−4)² = 9",
+      "center": [
+        -1,
+        4
+      ],
+      "r2": 9,
+      "steps": "Group x and y terms. Add 1 to complete the x-square and 16 to complete the y-square. This gives (x+1)² + (y−4)² = 9. The center is (-1, 4) and radius squared is 9."
+    },
+    {
+      "id": 3,
+      "group": "Skill Check",
+      "prompt": "Rewrite the general equation by completing both squares: x² + y² + 4y − 21 = 0",
+      "given": "x² + y² + 4y − 21 = 0",
+      "answer": "x² + (y+2)² = 25",
+      "center": [
+        0,
+        -2
+      ],
+      "r2": 25,
+      "steps": "Group x and y terms. Add 0 to complete the x-square and 4 to complete the y-square. This gives x² + (y+2)² = 25. The center is (0, -2) and radius squared is 25."
+    },
+    {
+      "id": 4,
+      "group": "Core Practice",
+      "prompt": "Show the completed-square equation and identify its radius: x² + y² + 6x + 4y − 23 = 0",
+      "given": "x² + y² + 6x + 4y − 23 = 0",
+      "answer": "(x+3)² + (y+2)² = 36",
+      "center": [
+        -3,
+        -2
+      ],
+      "r2": 36,
+      "steps": "Group x and y terms. Add 9 to complete the x-square and 4 to complete the y-square. This gives (x+3)² + (y+2)² = 36. The center is (-3, -2) and radius squared is 36."
+    },
+    {
+      "id": 5,
+      "group": "Core Practice",
+      "prompt": "Which standard-form equation represents this circle? x² + y² − 8x + 9 = 0",
+      "given": "x² + y² − 8x + 9 = 0",
+      "answer": "(x−4)² + y² = 7",
+      "center": [
+        4,
+        0
+      ],
+      "r2": 7,
+      "steps": "Group x and y terms. Add 16 to complete the x-square and 0 to complete the y-square. This gives (x−4)² + y² = 7. The center is (4, 0) and radius squared is 7."
+    },
+    {
+      "id": 6,
+      "group": "Core Practice",
+      "prompt": "Determine the center and squared radius from: x² + y² − 2x + 10y + 13 = 0",
+      "given": "x² + y² − 2x + 10y + 13 = 0",
+      "answer": "(x−1)² + (y+5)² = 13",
+      "center": [
+        1,
+        -5
+      ],
+      "r2": 13,
+      "steps": "Group x and y terms. Add 1 to complete the x-square and 25 to complete the y-square. This gives (x−1)² + (y+5)² = 13. The center is (1, -5) and radius squared is 13."
+    },
+    {
+      "id": 7,
+      "group": "Core Practice",
+      "prompt": "Complete both squares and state the equation: x² + y² + 4x − 12y − 9 = 0",
+      "given": "x² + y² + 4x − 12y − 9 = 0",
+      "answer": "(x+2)² + (y−6)² = 49",
+      "center": [
+        -2,
+        6
+      ],
+      "r2": 49,
+      "steps": "Group x and y terms. Add 4 to complete the x-square and 36 to complete the y-square. This gives (x+2)² + (y−6)² = 49. The center is (-2, 6) and radius squared is 49."
+    },
+    {
+      "id": 8,
+      "group": "Core Practice",
+      "prompt": "Rewrite the equation and explain whether the circle passes through the origin: x² + y² − 6x + 8y = 0",
+      "given": "x² + y² − 6x + 8y = 0",
+      "answer": "(x−3)² + (y+4)² = 25",
+      "center": [
+        3,
+        -4
+      ],
+      "r2": 25,
+      "steps": "Group x and y terms. Add 9 to complete the x-square and 16 to complete the y-square. This gives (x−3)² + (y+4)² = 25. The center is (3, -4) and radius squared is 25."
+    },
+    {
+      "id": 9,
+      "group": "Core Practice",
+      "prompt": "Find the center and exact radius from: x² + y² + 10x − 2y + 16 = 0",
+      "given": "x² + y² + 10x − 2y + 16 = 0",
+      "answer": "(x+5)² + (y−1)² = 10",
+      "center": [
+        -5,
+        1
+      ],
+      "r2": 10,
+      "steps": "Group x and y terms. Add 25 to complete the x-square and 1 to complete the y-square. This gives (x+5)² + (y−1)² = 10. The center is (-5, 1) and radius squared is 10."
+    },
+    {
+      "id": 10,
+      "group": "Core Practice",
+      "prompt": "Rewrite this equation; do not confuse r with r²: x² + y² − 12x + 4y + 24 = 0",
+      "given": "x² + y² − 12x + 4y + 24 = 0",
+      "answer": "(x−6)² + (y+2)² = 16",
+      "center": [
+        6,
+        -2
+      ],
+      "r2": 16,
+      "steps": "Group x and y terms. Add 36 to complete the x-square and 4 to complete the y-square. This gives (x−6)² + (y+2)² = 16. The center is (6, -2) and radius squared is 16."
+    },
+    {
+      "id": 11,
+      "group": "Core Practice",
+      "prompt": "Identify the center and squared radius after completing the square: x² + y² + 8x + 6y + 20 = 0",
+      "given": "x² + y² + 8x + 6y + 20 = 0",
+      "answer": "(x+4)² + (y+3)² = 5",
+      "center": [
+        -4,
+        -3
+      ],
+      "r2": 5,
+      "steps": "Group x and y terms. Add 16 to complete the x-square and 9 to complete the y-square. This gives (x+4)² + (y+3)² = 5. The center is (-4, -3) and radius squared is 5."
+    },
+    {
+      "id": 12,
+      "group": "Exam-Style Practice",
+      "prompt": "Give the standard form and radius from: x² + y² − 4x + 14y − 11 = 0",
+      "given": "x² + y² − 4x + 14y − 11 = 0",
+      "answer": "(x−2)² + (y+7)² = 64",
+      "center": [
+        2,
+        -7
+      ],
+      "r2": 64,
+      "steps": "Group x and y terms. Add 4 to complete the x-square and 49 to complete the y-square. This gives (x−2)² + (y+7)² = 64. The center is (2, -7) and radius squared is 64."
+    },
+    {
+      "id": 13,
+      "group": "Exam-Style Practice",
+      "prompt": "Find the center and check the sign inside each square: x² + y² + 2x + 12y + 29 = 0",
+      "given": "x² + y² + 2x + 12y + 29 = 0",
+      "answer": "(x+1)² + (y+6)² = 8",
+      "center": [
+        -1,
+        -6
+      ],
+      "r2": 8,
+      "steps": "Group x and y terms. Add 1 to complete the x-square and 36 to complete the y-square. This gives (x+1)² + (y+6)² = 8. The center is (-1, -6) and radius squared is 8."
+    },
+    {
+      "id": 14,
+      "group": "Exam-Style Practice",
+      "prompt": "Complete squares when the constant on the right is zero: x² + y² − 10x − 10y = 0",
+      "given": "x² + y² − 10x − 10y = 0",
+      "answer": "(x−5)² + (y−5)² = 50",
+      "center": [
+        5,
+        5
+      ],
+      "r2": 50,
+      "steps": "Group x and y terms. Add 25 to complete the x-square and 25 to complete the y-square. This gives (x−5)² + (y−5)² = 50. The center is (5, 5) and radius squared is 50."
+    },
+    {
+      "id": 15,
+      "group": "Exam-Style Practice",
+      "prompt": "Find the radius squared and center from: x² + y² + 14x − 4y − 12 = 0",
+      "given": "x² + y² + 14x − 4y − 12 = 0",
+      "answer": "(x+7)² + (y−2)² = 65",
+      "center": [
+        -7,
+        2
+      ],
+      "r2": 65,
+      "steps": "Group x and y terms. Add 49 to complete the x-square and 4 to complete the y-square. This gives (x+7)² + (y−2)² = 65. The center is (-7, 2) and radius squared is 65."
+    },
+    {
+      "id": 16,
+      "group": "Exam-Style Practice",
+      "prompt": "Rewrite the circle equation and check the origin: x² + y² − 2x − 2y = 0",
+      "given": "x² + y² − 2x − 2y = 0",
+      "answer": "(x−1)² + (y−1)² = 2",
+      "center": [
+        1,
+        1
+      ],
+      "r2": 2,
+      "steps": "Group x and y terms. Add 1 to complete the x-square and 1 to complete the y-square. This gives (x−1)² + (y−1)² = 2. The center is (1, 1) and radius squared is 2."
+    },
+    {
+      "id": 17,
+      "group": "Challenge Problems",
+      "prompt": "Challenge: complete the squares even though the center has half-integer coordinates: x² + y² − x + 3y − 4 = 0",
+      "given": "x² + y² − x + 3y − 4 = 0",
+      "answer": "(x−1/2)² + (y+3/2)² = 13/2",
+      "center": [
+        0.5,
+        -1.5
+      ],
+      "r2": 6.5,
+      "steps": "Group x and y terms. Add 0.25 to complete the x-square and 2.25 to complete the y-square. This gives (x−1/2)² + (y+3/2)² = 13/2. The center is (1/2, −3/2) and radius squared is 13/2."
+    },
+    {
+      "id": 18,
+      "group": "Challenge Problems",
+      "prompt": "Challenge: recover the center and exact radius squared from odd linear coefficients: x² + y² + 3x − 5y − 3 = 0",
+      "given": "x² + y² + 3x − 5y − 3 = 0",
+      "answer": "(x+3/2)² + (y−5/2)² = 23/2",
+      "center": [
+        -1.5,
+        2.5
+      ],
+      "r2": 11.5,
+      "steps": "Group x and y terms. Add 2.25 to complete the x-square and 6.25 to complete the y-square. This gives (x+3/2)² + (y−5/2)² = 23/2. The center is (−3/2, 5/2) and radius squared is 23/2."
+    }
+  ],
+  "test": [
+    {
+      "id": 1,
+      "difficulty": "Easy",
+      "prompt": "Complete the square: x² + y² − 2x − 4y − 4 = 0",
+      "answer": "(x−1)² + (y−2)² = 9",
+      "center": [
+        1,
+        2
+      ],
+      "r2": 9,
+      "steps": "Half the x coefficient to get −h and the y coefficient to get −k; complete both squares to obtain (x−1)² + (y−2)² = 9."
+    },
+    {
+      "id": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "Complete the square: x² + y² + 6x + 5 = 0",
+      "answer": "(x+3)² + y² = 4",
+      "center": [
+        -3,
+        0
+      ],
+      "r2": 4,
+      "steps": "Half the x coefficient to get −h and the y coefficient to get −k; complete both squares to obtain (x+3)² + y² = 4."
+    },
+    {
+      "id": 3,
+      "difficulty": "Medium",
+      "prompt": "Complete the square: x² + y² − 4x + 6y + 8 = 0",
+      "answer": "(x−2)² + (y+3)² = 5",
+      "center": [
+        2,
+        -3
+      ],
+      "r2": 5,
+      "steps": "Half the x coefficient to get −h and the y coefficient to get −k; complete both squares to obtain (x−2)² + (y+3)² = 5."
+    },
+    {
+      "id": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "Complete the square: x² + y² + 4x − 8y = 0",
+      "answer": "(x+2)² + (y−4)² = 20",
+      "center": [
+        -2,
+        4
+      ],
+      "r2": 20,
+      "steps": "Half the x coefficient to get −h and the y coefficient to get −k; complete both squares to obtain (x+2)² + (y−4)² = 20."
+    },
+    {
+      "id": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "Complete the square: x² + y² − x + 5y − 3 = 0",
+      "answer": "(x−1/2)² + (y+5/2)² = 19/2",
+      "center": [
+        0.5,
+        -2.5
+      ],
+      "r2": 9.5,
+      "steps": "Half the x coefficient to get −h and the y coefficient to get −k; complete both squares to obtain (x−1/2)² + (y+5/2)² = 19/2."
+    }
+  ],
+  "videos": {
+    "english": [
+      "A circle equation can be rewritten by completing squares in x and y.",
+      "Group the x terms, group the y terms, and move the constant to the right.",
+      "For x² + Dx, add (D/2)² to form (x+D/2)². Do the same for y.",
+      "Add the same quantities to both sides. The right-hand side becomes r².",
+      "Example: x²+y²−4x−6y−3=0 becomes (x−2)²+(y−3)²=16.",
+      "The center is the opposite of the signs inside the squared brackets: (2,3). The radius is 4.",
+      "Odd linear coefficients give half-integer center coordinates. Fractions are valid.",
+      "Check by expanding your completed squares and recovering the original equation."
+    ],
+    "arabic": [
+      "يمكن إعادة كتابة معادلة الدائرة بإكمال المربع في س وص.",
+      "اجمع حدود س وحدود ص، وانقل الحد الثابت إلى الطرف الآخر.",
+      "لإكمال مربع س، أضف مربع نصف معامل س. كرر الخطوة مع ص.",
+      "أضف المقدارين نفسيهما إلى طرفي المعادلة، لتحصل على مربع نصف القطر.",
+      "مثال: س تربيع زائد ص تربيع ناقص أربعة س ناقص ستة ص ناقص ثلاثة يساوي صفر؛ المركز اثنان وثلاثة ومربع نصف القطر ستة عشر.",
+      "إشارة المركز عكس الإشارة داخل القوسين، ونصف القطر هو الجذر التربيعي للطرف الأيمن.",
+      "إذا كان المعامل فرديا فقد تظهر إحداثيات كسرية للمركز، وهذا صحيح.",
+      "تحقق من الحل بفك المربعات واستعادة المعادلة الأصلية."
+    ]
+  }
+}
