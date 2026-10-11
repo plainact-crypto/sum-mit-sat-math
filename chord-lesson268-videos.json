@@ -1,0 +1,166 @@
+{
+  "english": [
+    [
+      "Chord — Complete Lesson",
+      "Welcome to chords of a circle. We will identify chords and diameters, build a precise right triangle, and solve chord length, distance, and radius questions."
+    ],
+    [
+      "Lesson objective",
+      "By the end, you can recognize a chord, explain why a diameter is a special chord, and use the perpendicular bisector to calculate missing measurements."
+    ],
+    [
+      "What is a chord?",
+      "A chord is a straight line segment joining two points on the circumference. A curved piece of the circle is an arc, not a chord."
+    ],
+    [
+      "Radius and diameter",
+      "Every radius goes from the center to the circle. A diameter joins two circle points through the center, so its length is twice the radius."
+    ],
+    [
+      "Longest chord",
+      "The diameter is the longest chord in a given circle. A chord closer to the center is longer than one farther from the center, provided both are in the same circle."
+    ],
+    [
+      "Perpendicular bisector",
+      "Draw a perpendicular from the center to a chord. It meets the chord at its midpoint, splitting the chord into two equal halves."
+    ],
+    [
+      "The right triangle",
+      "Join the center to one chord endpoint. The radius is the hypotenuse, the center distance is one leg, and half the chord is the other leg."
+    ],
+    [
+      "Pythagorean equation",
+      "The relationship is radius squared equals center distance squared plus half-chord squared. Write r squared equals d squared plus open parenthesis L divided by two close parenthesis squared."
+    ],
+    [
+      "Example: diameter",
+      "For radius six centimeters, the diameter is twice six, which equals twelve centimeters. Both endpoints are on the circle."
+    ],
+    [
+      "Example: chord length",
+      "With radius five and center distance three, half the chord is the square root of twenty-five minus nine, which is four. The full chord is eight."
+    ],
+    [
+      "Example: distance",
+      "For radius ten and chord length sixteen, half the chord is eight. Center distance is the square root of one hundred minus sixty-four, which is six."
+    ],
+    [
+      "Example: radius",
+      "For a chord of twelve at center distance eight, half the chord is six. Radius is the square root of thirty-six plus sixty-four, which equals ten."
+    ],
+    [
+      "Equal chords",
+      "In the same circle, equal chords lie at equal perpendicular distances from the center. This fact can save an entire Pythagorean calculation."
+    ],
+    [
+      "Two chords",
+      "With radius thirteen, a chord five units from the center has length twenty-four, while a chord twelve units away has length ten. The closer chord is longer."
+    ],
+    [
+      "Verified diagram",
+      "Look at a circle of radius five centered at zero, zero. A is negative four, three and B is four, three. Their midpoint is zero, three, giving a three-four-five right triangle."
+    ],
+    [
+      "Common mistakes",
+      "Never confuse a chord with the arc between its endpoints. Use half the chord in the right triangle, not the whole chord. Check that chord length does not exceed diameter."
+    ],
+    [
+      "Exam strategy",
+      "Label the radius, center distance, and half-chord first. Choose the correct rearrangement of the Pythagorean equation, then double only if the question asks for the full chord."
+    ],
+    [
+      "Quick check",
+      "For radius thirteen and center distance twelve, half the chord is five and the full chord is ten. For radius seventeen and chord thirty, the center distance is eight."
+    ],
+    [
+      "Challenge: two chords",
+      "A radius-twenty-five circle has opposite-side chords of lengths forty-eight and fourteen. Their center distances are seven and twenty-four. Add to obtain thirty-one between chords."
+    ],
+    [
+      "Review and next steps",
+      "Remember chord endpoints, diameter, perpendicular bisection, and the right triangle. Now work through eighteen practice questions, review the matching solutions, and submit the five-question test."
+    ]
+  ],
+  "arabic": [
+    [
+      "الوتر — الدرس الكامل",
+      "أهلاً بك في درس أوتار الدائرة. سنتعرف إلى الوتر والقطر، ونرسم مثلثاً قائماً دقيقاً، ثم نحسب طول الوتر وبعده عن المركز ونصف القطر."
+    ],
+    [
+      "هدف الدرس",
+      "بنهاية الدرس تستطيع تمييز الوتر عن القطر، وشرح لماذا القطر وتر خاص، واستخدام العمود المنصف لإيجاد الأطوال المجهولة."
+    ],
+    [
+      "ما هو الوتر؟",
+      "الوتر قطعة مستقيمة تصل بين نقطتين على محيط الدائرة. أما الجزء المنحني من المحيط فيسمى قوساً، وليس وتراً."
+    ],
+    [
+      "نصف القطر والقطر",
+      "نصف القطر يصل المركز بنقطة على المحيط. القطر يصل نقطتين من المحيط ويمر بالمركز، ولذلك يساوي ضعف نصف القطر."
+    ],
+    [
+      "أطول وتر",
+      "القطر هو أطول وتر في الدائرة نفسها. والوتر الأقرب إلى المركز أطول من الوتر الأبعد عنه، بشرط أن يكونا في الدائرة نفسها."
+    ],
+    [
+      "العمود المنصف",
+      "إذا رسمنا من مركز الدائرة عموداً على وتر، فإنه يقسم الوتر إلى نصفين متساويين. نقطة التقاطع هي منتصف الوتر."
+    ],
+    [
+      "المثلث القائم",
+      "صل المركز بأحد طرفي الوتر. يكون نصف القطر هو الوتر في المثلث القائم، والمسافة من المركز ضلعاً، ونصف طول وتر الدائرة ضلعاً آخر."
+    ],
+    [
+      "معادلة فيثاغورس",
+      "مربع نصف القطر يساوي مربع البعد عن المركز زائد مربع نصف طول وتر الدائرة. اكتب المعادلة أولاً قبل التعويض بالأعداد."
+    ],
+    [
+      "مثال القطر",
+      "إذا كان نصف القطر ستة سنتيمترات، فالقطر يساوي اثنين في ستة، أي اثني عشر سنتيمتراً."
+    ],
+    [
+      "مثال طول الوتر",
+      "نصف القطر خمسة والبعد عن المركز ثلاثة. نصف طول الوتر يساوي الجذر التربيعي لخمسة وعشرين ناقص تسعة، أي أربعة. طول الوتر كله ثمانية."
+    ],
+    [
+      "مثال البعد عن المركز",
+      "نصف القطر عشرة وطول الوتر ستة عشر. نصف الوتر ثمانية، فيكون البعد هو الجذر التربيعي لمئة ناقص أربعة وستين، أي ستة."
+    ],
+    [
+      "مثال نصف القطر",
+      "وتر طوله اثنا عشر يبعد ثماني وحدات عن المركز. نصف الوتر ستة، فيكون نصف القطر الجذر التربيعي لستة وثلاثين زائد أربعة وستين، أي عشرة."
+    ],
+    [
+      "الأوتار المتساوية",
+      "في الدائرة نفسها، الأوتار المتساوية في الطول تبعد مسافات عمودية متساوية عن المركز. استخدم هذه الخاصية لتوفير الحساب."
+    ],
+    [
+      "مقارنة وترين",
+      "في دائرة نصف قطرها ثلاثة عشر، الوتر الذي يبعد خمس وحدات عن المركز طوله أربعة وعشرون، والذي يبعد اثنتي عشرة وحدة طوله عشرة. الأقرب أطول."
+    ],
+    [
+      "رسم متحقق حسابياً",
+      "في دائرة مركزها صفر وصفر ونصف قطرها خمسة، طرفا الوتر هما سالب أربعة وثلاثة، وأربعة وثلاثة. منتصفه صفر وثلاثة، فنحصل على مثلث ثلاثة وأربعة وخمسة."
+    ],
+    [
+      "أخطاء شائعة",
+      "لا تخلط بين الوتر والقوس. استخدم نصف طول الوتر في المثلث القائم وليس طوله كله. وتأكد أن طول أي وتر لا يزيد على القطر."
+    ],
+    [
+      "استراتيجية الاختبار",
+      "سم نصف القطر والبعد ونصف الوتر أولاً. طبق فيثاغورس ثم اعزل المطلوب، واضرب في اثنين فقط إذا كان السؤال عن طول الوتر كله."
+    ],
+    [
+      "تحقق سريع",
+      "إذا كان نصف القطر ثلاثة عشر والبعد اثني عشر، فإن نصف الوتر خمسة وطوله عشرة. وإذا كان نصف القطر سبعة عشر وطول الوتر ثلاثين، فالبعد ثمانية."
+    ],
+    [
+      "تحدي وترين",
+      "في دائرة نصف قطرها خمسة وعشرون، وتران على جانبي المركز طولهما ثمانية وأربعون وأربعة عشر. بعداهما سبعة وأربعة وعشرون، والمسافة بينهما واحد وثلاثون."
+    ],
+    [
+      "المراجعة والخطوة التالية",
+      "تذكر أن طرفي الوتر على المحيط، وأن القطر أطول وتر، وأن العمود من المركز ينصف الوتر. الآن حل ثمانية عشر تدريباً، وراجع الحلول، ثم أجب عن اختبار الأسئلة الخمسة."
+    ]
+  ]
+}
