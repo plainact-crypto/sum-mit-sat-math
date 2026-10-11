@@ -1,0 +1,9 @@
+{
+  "lesson_index": 278,
+  "slug": "finding-center-from-standard-form",
+  "worker": "SUMMIT Worker 3",
+  "branch": "worker3-lesson278-finding-center-from-standard-form-20261011",
+  "status": "CORE_CONTENT_COMMITTED_RELEASE_GATES_PENDING",
+  "date": "2026-10-11",
+  "notes": "23 mathematical checks locally verified. Explanation, practice, answers, test, and bilingual full lesson builders committed. Awaiting full repository build, explanation registry gate, and route validation. Do not mark LIVE_VERIFIED before production READY and six live route checks."
+}
