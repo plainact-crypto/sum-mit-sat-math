@@ -2,12 +2,20 @@
   "lesson_index": 273,
   "slug": "sector-area",
   "owner": "SUMMIT Worker 3",
-  "status": "CORE_COMMITTED_BUILD_UNVERIFIED",
+  "status": "CORE_QA_ISOLATED_PASS_RELEASE_BLOCKED",
   "mathematical_qa": "23/23 PASS",
   "practice": "18 (3/8/5/2)",
   "answers": "18 aligned",
   "test": "5 progressive",
   "video_scenes": "20 English + 20 Arabic",
   "manifest": "lesson-releases/sector-area.json",
-  "release_gate": "Full build, route validation, production READY and actual live routes required before LIVE_VERIFIED."
+  "release_gate": "Full build, route validation, production READY and actual live routes required before LIVE_VERIFIED.",
+  "builder_validation": "4/4 PASS in isolated execution",
+  "canonical_routes": "6/6 PASS in isolated execution; production unverified",
+  "page_alignment": "18 practice/18 answers/5 test aligned",
+  "release_manifest": "lesson-releases/sector-area.json",
+  "full_repository_build": "UNVERIFIED: Vercel HTTP 402 api-deployments-free-per-day, retry after 86400 seconds",
+  "pull_request": "BLOCKED: GitHub connector safety check",
+  "production": "NOT LIVE_VERIFIED",
+  "next_action": "Retry full build when deployment quota resets; do not merge or announce until release contract and live routes pass."
 }
