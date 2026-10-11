@@ -1,0 +1,102 @@
+{
+  "english": [
+    [
+      "01 — The shared solution",
+      "A system of inequalities is satisfied only where all individual shaded regions overlap. We are looking for the intersection of the solution sets, not the union."
+    ],
+    [
+      "02 — Test a point in both",
+      "Consider y greater than or equal to x plus 1 and y less than or equal to negative x plus 7. At the point 2 comma 4, four is at least three and at most five. Both are true, so the point lies in the overlap."
+    ],
+    [
+      "03 — Boundaries and inclusivity",
+      "First graph each equality as its boundary. Use a solid line for greater than or equal to or less than or equal to. Use a dashed line for strict inequalities. A boundary point is allowed only when every relevant inequality includes it."
+    ],
+    [
+      "04 — Shade one inequality at a time",
+      "For y greater than x plus 1, shade above its boundary. For y less than negative x plus 7, shade below its boundary. The final solution is only the area where both shadings coincide."
+    ],
+    [
+      "05 — Find where the lines cross",
+      "Solve x plus 1 equals negative x plus 7. Add x and subtract 1 to get 2x equals 6, so x equals 3 and y equals 4. The boundaries meet at 3 comma 4."
+    ],
+    [
+      "06 — When overlap is possible",
+      "If y must be greater than negative x plus 5 and less than x plus 1, the lower bound must be strictly smaller than the upper. Negative x plus 5 is less than x plus 1, so x must be greater than 2."
+    ],
+    [
+      "07 — Parallel boundary lines",
+      "The inequalities y greater than or equal to x minus 2 and y less than or equal to x plus 3 form a strip between two parallel lines. Both boundaries are included because both signs permit equality."
+    ],
+    [
+      "08 — Vertical and horizontal limits",
+      "The system x greater than or equal to negative one, y less than or equal to 3, and x plus y greater than or equal to 1 requires all three conditions. At 0 comma 2, all three are true. Testing one condition is not enough."
+    ],
+    [
+      "09 — Nonnegative feasible regions",
+      "For x greater than or equal to zero, y greater than or equal to zero, and y less than or equal to negative 2x plus 6, the largest x occurs at y equals zero. Solve zero less than or equal to negative 2x plus 6 to get x less than or equal to 3."
+    ],
+    [
+      "10 — Word problem with constraints",
+      "A workshop makes x small kits and y large kits. It needs at least five kits, but 4x plus 2y must be at most 24. Test 4 comma 1: the count is five and resource use is eighteen, so the point is feasible."
+    ],
+    [
+      "11 — A three-boundary challenge",
+      "Suppose y is at least 2x minus 1, at most negative x plus 8, and x plus y is at least 7. The first two give 3x less than or equal to 9, so x is at most 3. At x equals 3, y equals 5 satisfies all three conditions."
+    ],
+    [
+      "12 — Exam strategy and Desmos",
+      "Graph or enter each inequality in Desmos and look only for the shared shaded region. Verify independently by substituting a candidate point into every inequality. Remember: intersection means AND, strict inequalities exclude the boundary, and a feasible point must pass every test."
+    ]
+  ],
+  "arabic": [
+    [
+      "٠١ — منطقة الحل المشتركة",
+      "حل نظام المتباينات هو المنطقة التي تحقق جميع المتباينات في الوقت نفسه. نبحث عن تقاطع مناطق الحل، وليس اتحادها. كلمة جميع تعني أن كل شرط يجب أن يكون صحيحاً."
+    ],
+    [
+      "٠٢ — اختبار نقطة في متباينتين",
+      "انظر إلى ص أكبر من أو يساوي س زائد واحد، وص أصغر من أو يساوي سالب س زائد سبعة. عند النقطة اثنين وأربعة، نجد أربعة أكبر من أو يساوي ثلاثة، وأصغر من أو يساوي خمسة. إذن النقطة تحقق الشرطين."
+    ],
+    [
+      "٠٣ — خطوط الحدود",
+      "ارسم معادلة كل خط حد أولاً. استخدم الخط المتصل عندما تسمح المتباينة بالمساواة، والمتقطع عندما تكون المتباينة صارمة. لا تعتبر نقطة على الحد حلاً إلا إذا كانت كل الشروط المتعلقة بها تسمح بذلك."
+    ],
+    [
+      "٠٤ — التظليل خطوة بخطوة",
+      "في ص أكبر من س زائد واحد، ظلّل أعلى الخط. وفي ص أصغر من سالب س زائد سبعة، ظلّل أسفل الخط الآخر. المنطقة النهائية هي الجزء الذي يتداخل فيه التظليلان فقط."
+    ],
+    [
+      "٠٥ — نقطة تقاطع خطي الحد",
+      "ساوِ بين س زائد واحد وسالب س زائد سبعة. ينتج اثنان س يساوي ستة، إذن س يساوي ثلاثة. بالتعويض، ص يساوي أربعة. تتقاطع الحدود عند النقطة ثلاثة وأربعة."
+    ],
+    [
+      "٠٦ — متى توجد منطقة مشتركة؟",
+      "إذا كانت ص أكبر من سالب س زائد خمسة، وأصغر من س زائد واحد، فلا بد أن يكون الحد الأدنى أصغر من الحد الأعلى. بحل سالب س زائد خمسة أصغر من س زائد واحد، نجد س أكبر من اثنين."
+    ],
+    [
+      "٠٧ — حدود متوازية",
+      "المتباينتان ص أكبر من أو يساوي س ناقص اثنين، وص أصغر من أو يساوي س زائد ثلاثة، تصفان شريطاً بين خطين متوازيين. الحدّان داخل منطقة الحل لأن المساواة مسموحة في الحالتين."
+    ],
+    [
+      "٠٨ — حدود رأسية وأفقية",
+      "النظام س أكبر من أو يساوي سالب واحد، وص أصغر من أو يساوي ثلاثة، وس زائد ص أكبر من أو يساوي واحد، يفرض ثلاثة شروط. عند النقطة صفر واثنين تتحقق الشروط الثلاثة. لا يكفي اختبار شرط واحد فقط."
+    ],
+    [
+      "٠٩ — أكبر قيمة ممكنة",
+      "في النظام س أكبر من أو يساوي صفر، وص أكبر من أو يساوي صفر، وص أصغر من أو يساوي سالب اثنين س زائد ستة، تظهر أكبر قيمة لس عندما تكون ص صفراً. نجد س أصغر من أو يساوي ثلاثة."
+    ],
+    [
+      "١٠ — تطبيق على الموارد",
+      "ورشة تصنع س من الأطقم الصغيرة وص من الأطقم الكبيرة. يجب إنتاج خمسة أطقم على الأقل، مع استهلاك أربعة س زائد اثنين ص لا يزيد على أربعة وعشرين. النقطة أربعة وواحد تحقق عدد الأطقم والموارد معاً."
+    ],
+    [
+      "١١ — تحدي ثلاثة شروط",
+      "افترض أن ص أكبر من أو يساوي اثنين س ناقص واحد، وأصغر من أو يساوي سالب س زائد ثمانية، وأن س زائد ص أكبر من أو يساوي سبعة. من الشرطين الأولين نجد س أصغر من أو يساوي ثلاثة. عند س يساوي ثلاثة، ص يساوي خمسة يحقق الشروط الثلاثة."
+    ],
+    [
+      "١٢ — استراتيجية الاختبار وديسموس",
+      "أدخل كل متباينة في ديسموس وابحث عن المنطقة المشتركة بين التظليلات. ثم تحقق بالتعويض في جميع المتباينات. تذكر: التقاطع يعني و، والمتباينة الصارمة لا تشمل خط الحد، والنقطة المقبولة يجب أن تحقق كل شرط."
+    ]
+  ]
+}
