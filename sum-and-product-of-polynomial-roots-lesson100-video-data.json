@@ -1,0 +1,102 @@
+{
+  "english": [
+    [
+      "Goal",
+      "You will use polynomial coefficients to find the sum and product of roots without solving every equation. This powerful relationship is called Vieta's formulas. It applies to quadratic, cubic, and higher-degree polynomials when roots are counted with multiplicity."
+    ],
+    [
+      "Roots and factors",
+      "A root r makes the polynomial equal zero, so x minus r is a factor. If a monic quadratic has roots p and q, it can be written as the product of x minus p and x minus q. Expanding exposes both the sum and the product of those roots."
+    ],
+    [
+      "Quadratic rule",
+      "For a x squared plus b x plus c equals zero, with a not zero, the sum of roots is negative b divided by a, while their product is c divided by a. Remember to divide by a even when the equation is not monic."
+    ],
+    [
+      "Quadratic example",
+      "Consider two x squared minus seven x plus three equals zero. Here a equals two, b equals negative seven, and c equals three. The root sum is seven halves and their product is three halves. There is no need to apply the quadratic formula."
+    ],
+    [
+      "Build from roots",
+      "Suppose the roots are two and negative five. Their sum is negative three and their product is negative ten. The monic equation is x squared minus the sum times x plus the product, giving x squared plus three x minus ten equals zero."
+    ],
+    [
+      "Cubic sum",
+      "For a x cubed plus b x squared plus c x plus d equals zero, the sum of all three roots is negative b divided by a. This looks exactly like the quadratic sum rule because it comes from the next-to-leading coefficient."
+    ],
+    [
+      "Cubic pairwise products",
+      "For the same cubic, the sum of pairwise root products is c divided by a. If the roots are p, q, and r, calculate p q plus p r plus q r. Do not confuse this with the product of all three roots."
+    ],
+    [
+      "Cubic total product",
+      "The product of all three cubic roots is negative d divided by a. For two x cubed minus three x squared minus eight x plus twelve, the total root product is negative twelve divided by two, which equals negative six."
+    ],
+    [
+      "Worked cubic check",
+      "The equation x cubed minus six x squared plus eleven x minus six equals zero has roots one, two, and three. Their sum is six, their pairwise product sum is eleven, and their product is six. These match the coefficients exactly."
+    ],
+    [
+      "Higher degree signs",
+      "For a degree n polynomial, the product of all n complex roots, counting repeated roots, is negative one to the power n times the constant divided by the leading coefficient. The sign alternates between odd and even degrees."
+    ],
+    [
+      "Exam strategy",
+      "When the question asks only for a sum or product, read the coefficients first. If a parameter is unknown, write one equation from the requested root relationship. Watch negative signs and distinguish the sum of pairwise products from the total product."
+    ],
+    [
+      "Final review",
+      "Remember the quadratic sum negative b over a and product c over a. For a cubic, the pairwise sum is c over a and the total product is negative d over a. Continue with eighteen practice problems, worked solutions, and a five-question final test."
+    ]
+  ],
+  "arabic": [
+    [
+      "هدف الدرس",
+      "ستتعلم استخراج مجموع جذور كثيرات الحدود وحاصل ضربها من المعاملات مباشرة دون الحاجة إلى حل كل معادلة. تسمى هذه العلاقات قوانين فييتا، وتعمل مع المعادلات التربيعية والتكعيبية والدرجات الأعلى مع احتساب الجذور المكررة."
+    ],
+    [
+      "الجذور والعوامل",
+      "الجذر راء هو قيمة تجعل كثير الحدود يساوي صفراً، ولذلك يكون س ناقص راء عاملاً من عوامله. إذا كان جذرا معادلة تربيعية هما ألف وباء، فإن ضرب س ناقص ألف في س ناقص باء يكشف مجموع الجذرين وحاصل ضربهما."
+    ],
+    [
+      "قاعدة التربيعية",
+      "للمعادلة أ س تربيع زائد ب س زائد ج يساوي صفراً، بشرط ألا يساوي أ صفراً، يكون مجموع الجذرين سالب ب على أ، ويكون حاصل ضربهما ج على أ. تذكر القسمة على المعامل الرئيسي دائماً."
+    ],
+    [
+      "مثال تربيعي",
+      "في المعادلة اثنان س تربيع ناقص سبعة س زائد ثلاثة يساوي صفراً، أ يساوي اثنين وب يساوي سالب سبعة وج يساوي ثلاثة. إذن مجموع الجذرين سبعة على اثنين، وحاصل ضربهما ثلاثة على اثنين دون حل المعادلة."
+    ],
+    [
+      "تكوين معادلة",
+      "إذا كان الجذران اثنين وسالب خمسة، فمجموعهما سالب ثلاثة وحاصل ضربهما سالب عشرة. نكتب المعادلة الأحادية المعامل س تربيع ناقص مجموع الجذرين في س زائد حاصل ضربهما، فنحصل على س تربيع زائد ثلاثة س ناقص عشرة."
+    ],
+    [
+      "مجموع جذور التكعيبية",
+      "للمعادلة أ س تكعيب زائد ب س تربيع زائد ج س زائد د يساوي صفراً، يكون مجموع الجذور الثلاثة سالب ب على أ. القاعدة تشبه مجموع جذري التربيعية لأنها تعتمد على معامل القوة التي تسبق الدرجة العليا."
+    ],
+    [
+      "مجموع الضرب الثنائي",
+      "في المعادلة التكعيبية يكون مجموع حاصل ضرب كل زوج من الجذور مساوياً ج على أ. إذا كانت الجذور راء واحد وراء اثنين وراء ثلاثة، نجمع ضرب الأول في الثاني والأول في الثالث والثاني في الثالث."
+    ],
+    [
+      "حاصل ضرب الجذور الثلاثة",
+      "حاصل ضرب جذور المعادلة التكعيبية الثلاثة يساوي سالب د على أ. مثلاً في المعادلة اثنان س تكعيب ناقص ثلاثة س تربيع ناقص ثمانية س زائد اثني عشر، حاصل الضرب سالب ستة."
+    ],
+    [
+      "التحقق من التكعيبية",
+      "المعادلة س تكعيب ناقص ستة س تربيع زائد أحد عشر س ناقص ستة جذورها واحد واثنان وثلاثة. مجموعها ستة ومجموع الضرب الثنائي أحد عشر وحاصل ضرب الجذور الستة، وهي القيم المستنتجة من المعاملات."
+    ],
+    [
+      "الدرجات الأعلى",
+      "في كثير حدود درجته نون، يكون حاصل ضرب الجذور جميعاً مساوياً سالب واحد أس نون مضروباً في الحد الثابت ومقسوماً على المعامل الرئيسي. تتناوب الإشارة حسب كون الدرجة زوجية أو فردية."
+    ],
+    [
+      "استراتيجية الاختبار",
+      "إذا طلب السؤال مجموع الجذور أو حاصل ضربها فقط، فاستخدم المعاملات مباشرة. وعندما يكون أحد المعاملات مجهولاً، كوّن معادلة من علاقة فييتا المناسبة. انتبه إلى السالب والفرق بين الضرب الثنائي والضرب الكلي."
+    ],
+    [
+      "الخلاصة",
+      "للتربيعية: المجموع سالب ب على أ والضرب ج على أ. وللتكعيبية: مجموع الضرب الثنائي ج على أ والضرب الكلي سالب د على أ. الآن انتقل إلى ثمانية عشر تدريباً مع حلولها ثم اختبار نهائي من خمسة أسئلة."
+    ]
+  ]
+}
