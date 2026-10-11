@@ -1,0 +1,70 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Calculate trapezoid area and solve for a missing base or perpendicular height."
+  ],
+  [
+    "WHAT YOU NEED TO KNOW",
+    "A trapezoid has two parallel bases. Its area equals their average length multiplied by the perpendicular height."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "The bases b₁ and b₂ are parallel. Height h is perpendicular to them, not a sloping leg. Midsegment=(b₁+b₂)/2."
+  ],
+  [
+    "CORE RULE",
+    "A=(b₁+b₂)h/2. For height use h=2A/(b₁+b₂). For missing base use b₂=2A/h−b₁."
+  ],
+  [
+    "HOW IT WORKS",
+    "Mark parallel bases and perpendicular height; convert units; add bases; multiply by height; divide by two; report square units."
+  ],
+  [
+    "WORKED EXAMPLE 1",
+    "Bases 6 cm and 10 cm, height 4 cm: A=(6+10)×4/2=32 cm². Check the exact-scale diagram."
+  ],
+  [
+    "WORKED EXAMPLE 2",
+    "Bases 8 m and 12 m, height 5 m: average base 10 m, so A=10×5=50 m²."
+  ],
+  [
+    "WORKED EXAMPLE 3",
+    "Area 63 cm², bases 7 and 14 cm: h=2×63/(7+14)=6 cm. Check: 21×6/2=63."
+  ],
+  [
+    "WORKED EXAMPLE 4",
+    "Area 72 m², height 8 m, one base 6 m: base sum=2×72/8=18 m, so other base=12 m."
+  ],
+  [
+    "WORKED EXAMPLE 5",
+    "Trapezoid bases 10 and 18 m, height 7 m: area=98 m². Subtract a triangular bed of area 6 m² to leave 92 m²."
+  ],
+  [
+    "VERIFIED GEOMETRY DIAGRAM",
+    "The diagram uses a consistent scale: upper base 6, lower base 10, perpendicular height 4. Exact area is 32 square units."
+  ],
+  [
+    "MIDSEGMENT SHORTCUT",
+    "Midsegment is average base. With midsegment 11 cm and height 7 cm, area=77 cm²."
+  ],
+  [
+    "ALGEBRAIC BASES",
+    "Bases x+2 and x+8, height 6, area 90: 90=(2x+10)×3, so x=10. Both base lengths must be positive."
+  ],
+  [
+    "SIMILARITY",
+    "If every length is scaled by k, area is scaled by k². Area 96 scaled by 1.5 becomes 216."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Never use a sloping leg as the height; remember to divide by two and convert units; area uses squared units."
+  ],
+  [
+    "EXAM STRATEGY AND QUICK CHECK",
+    "Draw the perpendicular height first. Bases 4 and 8, height 5 give area 30. Area 84, bases 8 and 16 give height 7."
+  ],
+  [
+    "LESSON RECAP AND NEXT STEP",
+    "Area is average base times height. Complete 18 practice problems, study 18 aligned answers, and submit the five-question test."
+  ]
+]
