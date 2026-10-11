@@ -65,7 +65,7 @@
       "group": "Core Practice",
       "prompt": "If p ∥ q, ∠3=(2x+10)° and ∠5=70°. Find x.",
       "answer": "30",
-      "solution": "2x+10=70; 2x=60; x=30.",
+      "solution": "2x+10=70; 2x=60; x=30. These alternate interior angles have equal measures.",
       "verify": [
         "l",
         2,
@@ -79,7 +79,7 @@
       "group": "Core Practice",
       "prompt": "If p ∥ q, ∠4=(3x−8)° and ∠6=64°. Find x.",
       "answer": "24",
-      "solution": "3x−8=64; 3x=72; x=24.",
+      "solution": "3x−8=64; 3x=72; x=24. These alternate interior angles have equal measures.",
       "verify": [
         "l",
         3,
@@ -107,7 +107,7 @@
       "group": "Core Practice",
       "prompt": "If p ∥ q, ∠4=(4x+12)° and ∠6=(6x−14)°. Find x.",
       "answer": "13",
-      "solution": "4x+12=6x−14; 2x=26; x=13.",
+      "solution": "4x+12=6x−14; 2x=26; x=13. These alternate interior angles have equal measures.",
       "verify": [
         "l",
         4,
@@ -171,7 +171,7 @@
       "group": "Exam-Style",
       "prompt": "If p ∥ q, ∠4=(3x+15)° and ∠6=(5x−25)°. Find x.",
       "answer": "20",
-      "solution": "3x+15=5x−25; 2x=40; x=20.",
+      "solution": "3x+15=5x−25; 2x=40; x=20. These alternate interior angles have equal measures.",
       "verify": [
         "l",
         3,
@@ -185,7 +185,7 @@
       "group": "Exam-Style",
       "prompt": "If p ∥ q, ∠3=(2x+12)° and ∠5=(4x−34)°. Find x.",
       "answer": "23",
-      "solution": "2x+12=4x−34; 2x=46; x=23.",
+      "solution": "2x+12=4x−34; 2x=46; x=23. These alternate interior angles have equal measures.",
       "verify": [
         "l",
         2,
@@ -199,7 +199,7 @@
       "group": "Exam-Style",
       "prompt": "If p ∥ q, ∠3=(7x−11)° and ∠5=(3x+45)°. Find x.",
       "answer": "14",
-      "solution": "7x−11=3x+45; 4x=56; x=14.",
+      "solution": "7x−11=3x+45; 4x=56; x=14. These alternate interior angles have equal measures.",
       "verify": [
         "l",
         7,
@@ -256,7 +256,7 @@
       "difficulty": "Easy / Medium",
       "prompt": "If p ∥ q, ∠3=(x+19)° and ∠5=72°. Find x.",
       "answer": "53",
-      "solution": "x+19=72; x=53.",
+      "solution": "x+19=72; x=53. These alternate interior angles have equal measures.",
       "verify": [
         "l",
         1,
@@ -270,7 +270,7 @@
       "difficulty": "Medium",
       "prompt": "If p ∥ q, ∠4=(4x−3)° and ∠6=(2x+35)°. Find x.",
       "answer": "19",
-      "solution": "4x−3=2x+35; 2x=38; x=19.",
+      "solution": "4x−3=2x+35; 2x=38; x=19. These alternate interior angles have equal measures.",
       "verify": [
         "l",
         4,
