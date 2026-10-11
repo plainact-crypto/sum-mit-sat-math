@@ -1,0 +1,3 @@
+# Lesson 197 — No Association
+
+Status: BLOCKED_PENDING_CONTENT_WRITE. Canonical route: `/problem-solving-and-data-analysis/two-variable-data/no-association/`. A complete 18-question and five-test draft with bilingual scenes and mathematically plotted scatterpoint datasets was prepared, but the content upload was rejected. The scatterpoint correlations independently checked were approximately −0.029, +0.086, +0.029 for scattered clouds, +1 and −1 for linear trends, and 0 for a U-shaped nonlinear relationship. Neither the required builder nor a release manifest is committed. No full build, merge, deployment, or email. Next owned lesson is 202.
