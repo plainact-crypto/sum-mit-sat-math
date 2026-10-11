@@ -4,7 +4,7 @@
   "worker": "SUMMIT Worker 3",
   "status": "CONTENT_COMMITTED_BUILD_PENDING",
   "base": "/geometry-and-trigonometry/unit-circle/special-angles",
-  "checks": "23/23 independently solved; 15 standard angles checked; 18/18 aligned answers; 5 test questions; 20 English and 20 Arabic full-lesson scenes",
+  "checks": "23/23 independently solved; 16 standard-angle unit-circle points checked; 18/18 aligned answers; 5 test questions; 20 English and 20 Arabic full-lesson scenes",
   "release_manifest": "lesson-releases/special-angles.json",
   "note": "Do not mark LIVE_VERIFIED before required builders, full build, route checks, production READY and live-domain verification."
 }

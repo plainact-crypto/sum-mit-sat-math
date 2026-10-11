@@ -140,7 +140,7 @@
       "kind": "radians",
       "prompt": "Convert 135° to radians.",
       "answer": "3π/4",
-      "solution": "Multiply 135 by π/180: 135π/180 = 3π/4.",
+      "solution": "Convert degrees to radians using π radians = 180°. Multiply 135° by π/180° and simplify: 135π/180=3π/4. The angle is in Quadrant II.",
       "choices": [
         "2π/3",
         "3π/4",
@@ -202,7 +202,7 @@
       "kind": "trig",
       "prompt": "Find tan 60° exactly.",
       "answer": "√3",
-      "solution": "tan60°=sin60°/cos60°=(√3/2)/(1/2)=√3.",
+      "solution": "Tangent equals sine divided by cosine. Using exact 60° values, (√3/2)/(1/2)=√3. The denominator is nonzero, so tangent exists.",
       "choices": [
         "√3/3",
         "√3",
@@ -296,7 +296,7 @@
       "kind": "doubleProduct",
       "prompt": "Evaluate 2 sin 30° cos 30° exactly.",
       "answer": "√3/2",
-      "solution": "Use sin30°=1/2 and cos30°=√3/2. Then 2(1/2)(√3/2)=√3/2.",
+      "solution": "From the 30-60-90 triangle, sin30°=1/2 and cos30°=√3/2. Multiply: 2×(1/2)×(√3/2)=√3/2. Keep the radical exact.",
       "choices": [
         "1/2",
         "√3/2",
@@ -310,7 +310,7 @@
       "kind": "degrees",
       "prompt": "Convert 5π/3 radians to degrees.",
       "answer": "300°",
-      "solution": "Multiply by 180°/π: (5π/3)(180°/π)=5×60°=300°.",
+      "solution": "Radians convert to degrees by multiplying by 180°/π. Therefore (5π/3)×(180°/π)=5×60°=300°; the π factors cancel.",
       "choices": [
         "240°",
         "270°",
@@ -398,7 +398,7 @@
       "kind": "radians",
       "prompt": "Convert 225° to radians.",
       "answer": "5π/4",
-      "solution": "225π/180 simplifies to 5π/4.",
+      "solution": "Use π radians = 180°. Multiply 225° by π/180°, then divide numerator and denominator by 45: 225π/180=5π/4. This is a Quadrant III angle.",
       "choices": [
         "3π/4",
         "5π/4",
