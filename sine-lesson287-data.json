@@ -42,7 +42,7 @@
       "group": "Skill Check",
       "prompt": "The opposite leg is 7 and hypotenuse is 14. Simplify sin θ.",
       "answer": "1/2",
-      "solution": "sin θ=7/14=1/2.",
+      "solution": "The sine ratio is opposite divided by hypotenuse: 7/14 simplifies to 1/2.",
       "choices": [
         "1/2",
         "2",
@@ -93,7 +93,7 @@
       "group": "Core Practice",
       "prompt": "The hypotenuse is 35 and sin θ=4/7. Find the opposite leg.",
       "answer": "20",
-      "solution": "O=35·4/7=20.",
+      "solution": "Use the same sine ratio: opposite=35×(4/7)=20 units.",
       "choices": [
         "20",
         "28",
@@ -179,7 +179,7 @@
       "group": "Core Practice",
       "prompt": "If sin θ=0.6 and the opposite side is 18, find the hypotenuse.",
       "answer": "30",
-      "solution": "H=18/0.6=30.",
+      "solution": "Rearrange sin θ=opposite/hypotenuse: H=18/0.6=30.",
       "choices": [
         "30",
         "10.8",
@@ -194,9 +194,9 @@
     },
     {
       "group": "Exam-Style",
-      "prompt": "A right triangle has opposite leg 9 and hypotenuse 15. Find sin θ in simplest form.",
+      "prompt": "Two right triangles have opposite/hypotenuse pairs 9/15 and 12/20 for corresponding acute angles. What is their common sine ratio?",
       "answer": "3/5",
-      "solution": "9/15 reduces to 3/5.",
+      "solution": "The first ratio is 9/15=3/5; the second is 12/20=3/5. Corresponding angles therefore have sine 3/5.",
       "choices": [
         "3/5",
         "5/3",
@@ -338,7 +338,7 @@
       "group": "Easy / Medium",
       "prompt": "A right triangle has angle 30° and hypotenuse 32. Find the opposite leg.",
       "answer": "16",
-      "solution": "32·sin30°=16.",
+      "solution": "For a 30-degree angle, sine is 1/2; opposite=32×1/2=16.",
       "choices": [
         "16",
         "32",
@@ -354,7 +354,7 @@
       "group": "Medium",
       "prompt": "The opposite leg is 15 and sin θ=3/5. Find the hypotenuse.",
       "answer": "25",
-      "solution": "15/H=3/5, so H=25.",
+      "solution": "From opposite/hypotenuse=3/5, 15/H=3/5, so H=15×5/3=25.",
       "choices": [
         "25",
         "9",

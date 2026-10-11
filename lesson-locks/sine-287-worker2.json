@@ -1,12 +1,18 @@
 {
- "lesson_index":287,
- "lesson":"Sine",
- "slug":"sine",
- "canonical_base":"/geometry-and-trigonometry/right-triangle-trigonometry/sine",
- "owner":"SUMMIT Worker 2",
- "status":"BLOCKED",
- "branch":"worker2/sine-287-20261011",
- "explanation_sections":5,
- "blocker":"Repeated content upload rejections.",
- "next_owned_index":292
+  "lesson_index": 287,
+  "lesson": "Sine",
+  "slug": "sine",
+  "canonical_base": "/geometry-and-trigonometry/right-triangle-trigonometry/sine",
+  "owner": "SUMMIT Worker 2",
+  "status": "LOCAL_QA_PASSED",
+  "branch": "worker2/sine-287-20261011",
+  "explanation_sections": 17,
+  "practice": 18,
+  "answers": 18,
+  "test": 5,
+  "english_scenes": 12,
+  "arabic_scenes": 12,
+  "release_manifest": "lesson-releases/sine.json",
+  "remaining": "Authoritative repository build, Explanation retrofit gate, preview/production deployment, six live routes.",
+  "next_owned_index": 292
 }
