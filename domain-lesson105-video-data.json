@@ -1,0 +1,102 @@
+{
+  "english": [
+    [
+      "Domain",
+      "A function's domain is every real input for which its output is defined."
+    ],
+    [
+      "Polynomials",
+      "All real numbers belong to the domain of any polynomial."
+    ],
+    [
+      "Denominators",
+      "Exclude every input that makes a denominator zero."
+    ],
+    [
+      "Even roots",
+      "Require the expression under a real square root to be nonnegative."
+    ],
+    [
+      "Root denominator",
+      "A square root in a denominator must be strictly positive."
+    ],
+    [
+      "Linear radical",
+      "For √(7−2x), solve 7−2x≥0 to obtain x≤7/2."
+    ],
+    [
+      "Quadratic radical",
+      "For √(x²−9), require x≤−3 or x≥3."
+    ],
+    [
+      "Interval notation",
+      "Use square brackets for included endpoints, parentheses for excluded endpoints."
+    ],
+    [
+      "Sign charts",
+      "For √[(x−2)/(x+1)], test intervals around −1 and 2 to get x<−1 or x≥2."
+    ],
+    [
+      "Intersect",
+      "For √(x+2)/(x−4), require x≥−2 and x≠4."
+    ],
+    [
+      "Real context",
+      "For elapsed time t≥0 and √(100−t²), the physical domain is 0≤t≤10."
+    ],
+    [
+      "Recap",
+      "Exclude denominator zeros, restrict even roots, intersect conditions, and check endpoints."
+    ]
+  ],
+  "arabic": [
+    [
+      "المجال",
+      "مجال الدالة هو جميع المدخلات الحقيقية التي تعطي ناتجاً معرفاً."
+    ],
+    [
+      "كثيرات الحدود",
+      "مجال كل كثيرة حدود هو جميع الأعداد الحقيقية."
+    ],
+    [
+      "المقامات",
+      "استبعد أي قيمة تجعل المقام صفراً."
+    ],
+    [
+      "الجذور الزوجية",
+      "يجب أن يكون المقدار تحت الجذر التربيعي غير سالب."
+    ],
+    [
+      "الجذر في المقام",
+      "الجذر التربيعي الموجود في المقام يجب أن يكون موجباً تماماً."
+    ],
+    [
+      "متباينة خطية",
+      "في جذر سبعة ناقص اثنين س، نحصل على س أصغر من أو يساوي سبعة على اثنين."
+    ],
+    [
+      "متباينة تربيعية",
+      "في جذر س تربيع ناقص تسعة، س أصغر من أو يساوي سالب ثلاثة أو أكبر من أو يساوي ثلاثة."
+    ],
+    [
+      "الفترات",
+      "القوس المربع يشمل الطرف، والمستدير يستبعده."
+    ],
+    [
+      "جدول الإشارات",
+      "في جذر الكسر س ناقص اثنين على س زائد واحد، المجال س أصغر من سالب واحد أو أكبر من أو يساوي اثنين."
+    ],
+    [
+      "تقاطع الشروط",
+      "في جذر س زائد اثنين على س ناقص أربعة، نطلب س أكبر من أو يساوي سالب اثنين مع استبعاد أربعة."
+    ],
+    [
+      "سياق حقيقي",
+      "إذا كان الزمن غير سالب والارتفاع جذر مئة ناقص الزمن تربيع، فالمجال من صفر إلى عشرة."
+    ],
+    [
+      "الخلاصة",
+      "استبعد أصفار المقامات، وقيد الجذور الزوجية، ثم اجمع كل الشروط."
+    ]
+  ]
+}
