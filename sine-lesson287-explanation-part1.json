@@ -1,0 +1,22 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Find sine ratios in right triangles, solve missing side lengths, and interpret angles.",
+    "sin θ = opposite / hypotenuse."
+  ],
+  [
+    "WHAT YOU NEED TO KNOW",
+    "The hypotenuse is opposite the right angle and is the longest side.",
+    "Opposite is measured relative to the chosen acute angle."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Sine is the ratio of opposite leg to hypotenuse in a right triangle.",
+    "For acute θ, 0<sin θ<1."
+  ],
+  [
+    "CORE RULE",
+    "Use SOH: sine equals opposite divided by hypotenuse.",
+    "Opposite = hypotenuse × sin θ."
+  ]
+]
