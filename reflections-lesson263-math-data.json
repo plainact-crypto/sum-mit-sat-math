@@ -1,0 +1,400 @@
+{
+  "lesson_index": 263,
+  "slug": "reflections",
+  "title": "Reflections",
+  "base": "geometry-and-trigonometry/coordinate-geometry/reflections",
+  "subject": "Geometry and Trigonometry",
+  "section": "Coordinate Geometry",
+  "classification": "BOTH",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "prompt": "Reflect P(3, 4) across the x-axis. What is the y-coordinate of its image?",
+      "answer": "-4",
+      "solution": "Across the x-axis, x stays 3 and y changes sign: P'=(3,−4). The requested y-coordinate is −4.",
+      "qa": {
+        "type": "reflect",
+        "p": [
+          3,
+          4
+        ],
+        "axis": "x",
+        "component": 1
+      }
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "prompt": "Reflect P(−5, 2) across the y-axis. What is the x-coordinate of its image?",
+      "answer": "5",
+      "solution": "Across the y-axis, x changes sign while y stays 2: P'=(5,2), so x=5.",
+      "qa": {
+        "type": "reflect",
+        "p": [
+          -5,
+          2
+        ],
+        "axis": "y",
+        "component": 0
+      }
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "prompt": "Reflect P(2, −7) across the line y=x. Find the image's x-coordinate.",
+      "answer": "-7",
+      "solution": "Reflection over y=x swaps the coordinates: P'=(−7,2), so the new x-coordinate is −7.",
+      "qa": {
+        "type": "reflect",
+        "p": [
+          2,
+          -7
+        ],
+        "axis": "diag",
+        "component": 0
+      }
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "prompt": "Reflect A(−4, −6) across the x-axis. Find the image's y-coordinate.",
+      "answer": "6",
+      "solution": "The rule (x,y)→(x,−y) gives A'=(−4,6). Hence y=6.",
+      "qa": {
+        "type": "reflect",
+        "p": [
+          -4,
+          -6
+        ],
+        "axis": "x",
+        "component": 1
+      }
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "prompt": "Reflect B(8, −3) across the y-axis. Find the image's x-coordinate.",
+      "answer": "-8",
+      "solution": "The y-axis rule (x,y)→(−x,y) gives B'=(−8,−3). Hence x=−8.",
+      "qa": {
+        "type": "reflect",
+        "p": [
+          8,
+          -3
+        ],
+        "axis": "y",
+        "component": 0
+      }
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "prompt": "Reflect C(3, −5) across y=x. Find the image's y-coordinate.",
+      "answer": "3",
+      "solution": "Swapping the coordinates gives C'=(−5,3). The image's y-coordinate is 3.",
+      "qa": {
+        "type": "reflect",
+        "p": [
+          3,
+          -5
+        ],
+        "axis": "diag",
+        "component": 1
+      }
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "prompt": "Reflect D(−2, 7) across y=−x. Find the image's x-coordinate.",
+      "answer": "-7",
+      "solution": "For y=−x, use (x,y)→(−y,−x). D'=(−7,2), so x=−7.",
+      "qa": {
+        "type": "reflect",
+        "p": [
+          -2,
+          7
+        ],
+        "axis": "anti",
+        "component": 0
+      }
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "prompt": "Reflect E(6, −4) across y=−x. Find the image's y-coordinate.",
+      "answer": "-6",
+      "solution": "The image is E'=(4,−6), because (x,y)→(−y,−x). Its y-coordinate is −6.",
+      "qa": {
+        "type": "reflect",
+        "p": [
+          6,
+          -4
+        ],
+        "axis": "anti",
+        "component": 1
+      }
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "prompt": "Reflect F(5, 1) across the vertical line x=2. Find the new x-coordinate.",
+      "answer": "-1",
+      "solution": "A vertical mirror x=a sends x to 2a−x. Here x'=2(2)−5=−1; y remains 1.",
+      "qa": {
+        "type": "reflect",
+        "p": [
+          5,
+          1
+        ],
+        "axis": "vertical",
+        "a": 2,
+        "component": 0
+      }
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "prompt": "Reflect G(−3, 6) across the horizontal line y=1. Find the new y-coordinate.",
+      "answer": "-4",
+      "solution": "A horizontal mirror y=b sends y to 2b−y. Here y'=2(1)−6=−4; x remains −3.",
+      "qa": {
+        "type": "reflect",
+        "p": [
+          -3,
+          6
+        ],
+        "axis": "horizontal",
+        "a": 1,
+        "component": 1
+      }
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "prompt": "Reflect segment A(−2,1), B(4,1) across the x-axis. What is the length of its image?",
+      "answer": "6",
+      "solution": "The original horizontal segment has length |4−(−2)|=6. Reflection preserves distance, so the image is also 6 units long.",
+      "qa": {
+        "type": "segment",
+        "a": [
+          -2,
+          1
+        ],
+        "b": [
+          4,
+          1
+        ],
+        "axis": "x"
+      }
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "prompt": "Reflect triangle A(0,0), B(6,0), C(0,4) across the y-axis. Find its image's area.",
+      "answer": "12",
+      "solution": "Reflection preserves area. The right triangle has base 6 and height 4, so area=(6×4)/2=12 square units.",
+      "qa": {
+        "type": "triangle",
+        "a": [
+          0,
+          0
+        ],
+        "b": [
+          6,
+          0
+        ],
+        "c": [
+          0,
+          4
+        ],
+        "axis": "y"
+      }
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "prompt": "Reflect P(7,−2) across the vertical line x=3. Find the image's x-coordinate.",
+      "answer": "-1",
+      "solution": "The image is equally far on the other side of x=3: x'=2(3)−7=−1.",
+      "qa": {
+        "type": "reflect",
+        "p": [
+          7,
+          -2
+        ],
+        "axis": "vertical",
+        "a": 3,
+        "component": 0
+      }
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "prompt": "Reflect P(−4,8) across the horizontal line y=2. Find the image's y-coordinate.",
+      "answer": "-4",
+      "solution": "Use y'=2b−y=2(2)−8=−4. The x-coordinate stays −4.",
+      "qa": {
+        "type": "reflect",
+        "p": [
+          -4,
+          8
+        ],
+        "axis": "horizontal",
+        "a": 2,
+        "component": 1
+      }
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "prompt": "Reflection maps P(1,5) to P'(9,5) across a vertical line x=a. Find a.",
+      "answer": "5",
+      "solution": "The mirror lies midway between x=1 and x=9, so a=(1+9)/2=5.",
+      "qa": {
+        "type": "mirror",
+        "p": [
+          1,
+          5
+        ],
+        "q": [
+          9,
+          5
+        ],
+        "axis": "vertical"
+      }
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "prompt": "Reflection maps P(−3,2) to P'(−3,−6) across a horizontal line y=b. Find b.",
+      "answer": "-2",
+      "solution": "The mirror lies halfway between y=2 and y=−6: b=(2+(−6))/2=−2.",
+      "qa": {
+        "type": "mirror",
+        "p": [
+          -3,
+          2
+        ],
+        "q": [
+          -3,
+          -6
+        ],
+        "axis": "horizontal"
+      }
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "prompt": "Reflect P(2,5) across the x-axis, then across y=x. What is the final y-coordinate?",
+      "answer": "2",
+      "solution": "First P'=(2,−5) after the x-axis reflection. Then swap coordinates across y=x to get P''=(−5,2); final y=2.",
+      "qa": {
+        "type": "compose",
+        "p": [
+          2,
+          5
+        ],
+        "steps": [
+          [
+            "x"
+          ],
+          [
+            "diag"
+          ]
+        ],
+        "component": 1
+      }
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "prompt": "Point P(k,3) reflects across x=4 to P'(11,3). Find k.",
+      "answer": "-3",
+      "solution": "The vertical reflection rule is 11=2(4)−k, so 11=8−k and k=−3.",
+      "qa": {
+        "type": "originalX",
+        "imageX": 11,
+        "mirrorX": 4
+      }
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "difficulty": "Easy",
+      "prompt": "Reflect P(2,6) across the x-axis. What is the image's y-coordinate?",
+      "answer": "-6",
+      "solution": "The x-axis reflection changes y to −y: P'=(2,−6), so y=−6.",
+      "qa": {
+        "type": "reflect",
+        "p": [
+          2,
+          6
+        ],
+        "axis": "x",
+        "component": 1
+      }
+    },
+    {
+      "index": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "Reflect P(−4,7) across y=x. Find the image's x-coordinate.",
+      "answer": "7",
+      "solution": "Swap the coordinates: P'=(7,−4), so x=7.",
+      "qa": {
+        "type": "reflect",
+        "p": [
+          -4,
+          7
+        ],
+        "axis": "diag",
+        "component": 0
+      }
+    },
+    {
+      "index": 3,
+      "difficulty": "Medium",
+      "prompt": "Reflect P(3,−8) across y=−x. Find the image's y-coordinate.",
+      "answer": "-3",
+      "solution": "The rule (x,y)→(−y,−x) gives P'=(8,−3), so y=−3.",
+      "qa": {
+        "type": "reflect",
+        "p": [
+          3,
+          -8
+        ],
+        "axis": "anti",
+        "component": 1
+      }
+    },
+    {
+      "index": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "Reflect P(−5,2) across x=1. Find the image's x-coordinate.",
+      "answer": "7",
+      "solution": "For mirror x=1, x'=2(1)−(−5)=7. The reflected point is (7,2).",
+      "qa": {
+        "type": "reflect",
+        "p": [
+          -5,
+          2
+        ],
+        "axis": "vertical",
+        "a": 1,
+        "component": 0
+      }
+    },
+    {
+      "index": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "P(t,5) reflects across y=x, then across the x-axis. The final y-coordinate is 7. Find t.",
+      "answer": "-7",
+      "solution": "After y=x, P'=(5,t). Across the x-axis, P''=(5,−t). Since −t=7, t=−7.",
+      "qa": {
+        "type": "composeUnknown",
+        "finalY": 7
+      }
+    }
+  ]
+}
