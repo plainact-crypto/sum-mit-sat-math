@@ -1,0 +1,398 @@
+{
+  "slug": "corresponding-angles",
+  "title": "Corresponding Angles",
+  "base": "/geometry-and-trigonometry/parallel-lines-and-transversals/corresponding-angles",
+  "classification": "GRAPH",
+  "explanation": [
+    {
+      "heading": "LESSON OBJECTIVE",
+      "text": "Recognize corresponding angle pairs formed by a transversal and use their equality when two lines are parallel. Solve angle equations and justify when the converse proves parallelism."
+    },
+    {
+      "heading": "WHAT YOU NEED TO KNOW",
+      "text": "A transversal crosses two lines at different points. At each crossing, four angles occupy upper-left, upper-right, lower-left, and lower-right positions. Corresponding angles occupy the same relative position at the two crossings."
+    },
+    {
+      "heading": "KEY DEFINITIONS",
+      "text": "Parallel lines never meet in the plane. A transversal intersects both lines. Corresponding angles are in matching corners of the two intersections. A linear pair consists of adjacent angles forming a straight 180° angle."
+    },
+    {
+      "heading": "CORE RULE",
+      "text": "When two parallel lines are cut by a transversal, corresponding angles are congruent: m∠1=m∠5, m∠2=m∠6, m∠3=m∠7, m∠4=m∠8 for consistently labeled matching corners. Conversely, equal corresponding angles imply the lines are parallel."
+    },
+    {
+      "heading": "HOW IT WORKS",
+      "text": "Step 1: Confirm the lines are stated or marked parallel. Step 2: Find the same corner at each intersection. Step 3: Set corresponding angle expressions equal. Step 4: Solve and substitute. Step 5: Use 180° only for an adjacent linear pair, not for corresponding angles themselves."
+    },
+    {
+      "heading": "WORKED EXAMPLE 1 — MATCHING CORNERS",
+      "text": "The upper-right angle at the first intersection is 64°. The upper-right angle at the second intersection is also 64° because these are corresponding angles between parallel lines."
+    },
+    {
+      "heading": "WORKED EXAMPLE 2 — SOLVE AN EQUATION",
+      "text": "Corresponding angles are x+18 degrees and 73 degrees. Set x+18=73, so x=55. Substitute: 55+18=73 degrees."
+    },
+    {
+      "heading": "WORKED EXAMPLE 3 — EXPRESSIONS ON BOTH SIDES",
+      "text": "Two corresponding angles measure 3x+5 and 2x+25 degrees. Equality gives 3x+5=2x+25, hence x=20; both angles are 65 degrees."
+    },
+    {
+      "heading": "WORKED EXAMPLE 4 — ADJACENT THEN CORRESPONDING",
+      "text": "One obtuse angle is 128°. Its adjacent acute angle is 180−128=52°. The corresponding acute angle at the second intersection is 52°, not 128°."
+    },
+    {
+      "heading": "WORKED EXAMPLE 5 — CONVERSE",
+      "text": "Two lines crossed by the same transversal have equal upper-left angles of 72° at their intersections. Because a corresponding pair is equal, the converse theorem proves the lines are parallel."
+    },
+    {
+      "heading": "DETERMINISTIC DIAGRAM",
+      "text": "The diagram plots y=0 and y=4 (parallel horizontal lines) and y=x+1 (transversal). Their intersections are (−1,0) and (3,4). The transversal forms acute 45° and obtuse 135° angles with each horizontal line, so matching corners are equal."
+    },
+    {
+      "heading": "WHEN LINES ARE NOT PARALLEL",
+      "text": "Corresponding angles still describe matching positions, but equality is not guaranteed without parallelism. If a corresponding pair is shown equal, the converse can establish that the lines are parallel."
+    },
+    {
+      "heading": "COMMON MISTAKES",
+      "text": "Do not confuse corresponding angles (equal) with same-side interior angles (supplementary). Do not use 180° for two corresponding angles. Do not assume equal angles merely because a transversal crosses two lines with no parallel condition."
+    },
+    {
+      "heading": "EXAM STRATEGY",
+      "text": "Mark one corner at each crossing and follow the transversal to the matching corner. Use equality first, then a straight-angle subtraction if the target angle is adjacent. In algebra questions, substitute the solved x to check the angle remains between 0° and 180°."
+    },
+    {
+      "heading": "QUICK CHECK",
+      "text": "If matching upper-left angles are 39° and 39°, they are corresponding and equal. If corresponding angles are x+22° and 80°, x=58. If one angle is 121°, its adjacent angle is 59°. Attempt these before revealing the reasoning."
+    },
+    {
+      "heading": "LESSON RECAP / NEXT STEP",
+      "text": "Corresponding means same relative position. Parallel lines make corresponding angles equal; equal corresponding angles prove parallel lines. A linear pair totals 180°. Now complete 18 practice questions, review 18 aligned solutions, take the five-question test, and study the full English or Arabic lesson."
+    }
+  ],
+  "practice": [
+    {
+      "number": 1,
+      "group": "Skill Check",
+      "question": "At two intersections of a transversal, an upper-right angle at each intersection forms what type of angle pair?",
+      "answer": "Corresponding angles",
+      "solution": "Both angles occupy the same upper-right relative position at their crossings."
+    },
+    {
+      "number": 2,
+      "group": "Skill Check",
+      "question": "Two lines are parallel. An upper-left angle at the first intersection is 68°. What is its corresponding angle at the second intersection?",
+      "answer": "68°",
+      "solution": "Corresponding angles formed by parallel lines are congruent, so the matching angle is 68°."
+    },
+    {
+      "number": 3,
+      "group": "Skill Check",
+      "question": "Parallel lines have a corresponding pair with one angle measuring 122°. Find the other.",
+      "answer": "122°",
+      "solution": "Corresponding angles are equal when the lines are parallel."
+    },
+    {
+      "number": 4,
+      "group": "Core Practice",
+      "question": "Corresponding angles measure (x+18)° and 73°. Find x.",
+      "answer": "55",
+      "solution": "Set x+18=73 and subtract 18: x=55."
+    },
+    {
+      "number": 5,
+      "group": "Core Practice",
+      "question": "Corresponding angles measure (3x+5)° and (2x+25)°. Find x.",
+      "answer": "20",
+      "solution": "Set 3x+5=2x+25, subtract 2x and 5 to obtain x=20. Both angles then equal 65°."
+    },
+    {
+      "number": 6,
+      "group": "Core Practice",
+      "question": "Corresponding angles measure (2x+17)° and (5x−19)°. Find x.",
+      "answer": "12",
+      "solution": "2x+17=5x−19 gives 36=3x, so x=12. Both angles are 41°."
+    },
+    {
+      "number": 7,
+      "group": "Core Practice",
+      "question": "One angle at a crossing is 47°. Find the angle corresponding to its adjacent linear-pair angle at the other crossing, given parallel lines.",
+      "answer": "133°",
+      "solution": "The adjacent angle is 180−47=133°. Its corresponding angle is also 133°."
+    },
+    {
+      "number": 8,
+      "group": "Core Practice",
+      "question": "One obtuse angle is 128°. Find the angle corresponding to its adjacent acute angle at the second crossing of parallel lines.",
+      "answer": "52°",
+      "solution": "The adjacent angle is 180−128=52°, and its corresponding angle remains 52°."
+    },
+    {
+      "number": 9,
+      "group": "Core Practice",
+      "question": "Two corresponding angles measure (4x−9)° and (2x+25)°. Find x.",
+      "answer": "17",
+      "solution": "4x−9=2x+25 implies 2x=34 and x=17; both angles measure 59°."
+    },
+    {
+      "number": 10,
+      "group": "Core Practice",
+      "question": "Two corresponding angles measure (x+31)° and (3x−15)°. Find x.",
+      "answer": "23",
+      "solution": "x+31=3x−15 gives 46=2x, so x=23. Both angles measure 54°."
+    },
+    {
+      "number": 11,
+      "group": "Core Practice",
+      "question": "Corresponding angles measure (2x+15)° and (x+75)°. Find their common angle measure.",
+      "answer": "135°",
+      "solution": "2x+15=x+75 gives x=60, so each corresponding angle is 2(60)+15=135°."
+    },
+    {
+      "number": 12,
+      "group": "Exam-Style",
+      "question": "In a diagram of parallel lines, two corresponding angles are (7x−4)° and (3x+52)°. Find x and their measure.",
+      "answer": "x=14; 94°",
+      "solution": "7x−4=3x+52 gives 4x=56 and x=14; each angle is 7(14)−4=94°."
+    },
+    {
+      "number": 13,
+      "group": "Exam-Style",
+      "question": "An obtuse angle is 135° at the first crossing. Find the corresponding angle of its adjacent acute angle at the second crossing.",
+      "answer": "45°",
+      "solution": "The adjacent acute angle is 180−135=45°, and the matching corner at the second crossing is also 45°."
+    },
+    {
+      "number": 14,
+      "group": "Exam-Style",
+      "question": "An acute angle is (x+12)°. Its corresponding angle at the other crossing is adjacent to an obtuse angle of (4x+8)°. Find x.",
+      "answer": "32",
+      "solution": "Corresponding acute angles are equal, so the acute and adjacent obtuse expressions sum to 180: (x+12)+(4x+8)=180; 5x=160; x=32. The angles are 44° and 136°."
+    },
+    {
+      "number": 15,
+      "group": "Exam-Style",
+      "question": "Corresponding angles measure (5x−10)° and (3x+22)°. Find x and the angle measure.",
+      "answer": "x=16; 70°",
+      "solution": "5x−10=3x+22 gives 2x=32, x=16. Substitution yields 70° in both positions."
+    },
+    {
+      "number": 16,
+      "group": "Exam-Style",
+      "question": "A transversal makes two upper-right angles of 72° and 72° with two lines. What conclusion follows about the lines?",
+      "answer": "The lines are parallel",
+      "solution": "Equal corresponding angles imply the two lines are parallel by the converse of the corresponding angles theorem."
+    },
+    {
+      "number": 17,
+      "group": "Challenge",
+      "question": "Three parallel lines are cut by the same transversal. Corresponding angles on the top and bottom lines measure (5x+20)° and (8x−25)°. Find x and the common measure.",
+      "answer": "x=15; 95°",
+      "solution": "Because all three lines are parallel, matching angles are equal: 5x+20=8x−25. Thus 3x=45, x=15, and each angle is 95°."
+    },
+    {
+      "number": 18,
+      "group": "Challenge",
+      "question": "At two crossings of parallel lines, corresponding angles a=(2x+18)° and b=(4x−36)°. Angle c is adjacent to b on a straight line. Find x and c.",
+      "answer": "x=27; c=108°",
+      "solution": "Set 2x+18=4x−36, so 2x=54 and x=27. Then b=72° and its linear-pair angle c=180−72=108°."
+    }
+  ],
+  "test": [
+    {
+      "number": 1,
+      "difficulty": "Easy",
+      "question": "Parallel lines form a corresponding pair. One angle is 39°. What is the other?",
+      "choices": [
+        "39°",
+        "51°",
+        "141°",
+        "180°"
+      ],
+      "correct": 0,
+      "answer": "39°",
+      "solution": "Corresponding angles are equal, so the matching angle is 39°."
+    },
+    {
+      "number": 2,
+      "difficulty": "Easy / Medium",
+      "question": "Corresponding angles are (x+22)° and 80°. Find x.",
+      "choices": [
+        "102",
+        "58",
+        "40",
+        "62"
+      ],
+      "correct": 1,
+      "answer": "58",
+      "solution": "x+22=80, so x=58."
+    },
+    {
+      "number": 3,
+      "difficulty": "Medium",
+      "question": "Corresponding angles measure (4x+7)° and (3x+26)°. Find x.",
+      "choices": [
+        "19",
+        "26",
+        "33",
+        "7"
+      ],
+      "correct": 0,
+      "answer": "19",
+      "solution": "Set 4x+7=3x+26, giving x=19."
+    },
+    {
+      "number": 4,
+      "difficulty": "Medium / Hard",
+      "question": "An acute angle is (3x+6)°. An adjacent angle to its corresponding angle is (5x+14)°. Find x.",
+      "choices": [
+        "18",
+        "20",
+        "22",
+        "25"
+      ],
+      "correct": 1,
+      "answer": "20",
+      "solution": "The corresponding acute angle equals 3x+6. It and the adjacent angle form 180°: 3x+6+5x+14=180, so x=20."
+    },
+    {
+      "number": 5,
+      "difficulty": "Hard / Exam-Style",
+      "question": "Two corresponding angles measure (7x−5)° and (4x+49)°. Find the measure of an angle adjacent to either one.",
+      "choices": [
+        "121°",
+        "59°",
+        "18°",
+        "61°"
+      ],
+      "correct": 1,
+      "answer": "59°",
+      "solution": "7x−5=4x+49 gives x=18, so the corresponding angles are 121°. Their adjacent linear-pair angles measure 180−121=59°."
+    }
+  ],
+  "video": {
+    "english": [
+      {
+        "title": "LESSON OBJECTIVE",
+        "narration": "Recognize corresponding angle pairs formed by a transversal and use their equality when two lines are parallel. Solve angle equations and justify when the converse proves parallelism.",
+        "math": "same relative corner"
+      },
+      {
+        "title": "WHAT YOU NEED TO KNOW",
+        "narration": "A transversal crosses two lines at different points. At each crossing, four angles occupy upper-left, upper-right, lower-left, and lower-right positions. Corresponding angles occupy the same relative position at the two crossings.",
+        "math": "parallel ⇒ corresponding angles equal"
+      },
+      {
+        "title": "KEY DEFINITIONS",
+        "narration": "Parallel lines never meet in the plane. A transversal intersects both lines. Corresponding angles are in matching corners of the two intersections. A linear pair consists of adjacent angles forming a straight 180° angle.",
+        "math": "upper-left ↔ upper-left"
+      },
+      {
+        "title": "CORE RULE",
+        "narration": "When two parallel lines are cut by a transversal, corresponding angles are congruent: m∠1=m∠5, m∠2=m∠6, m∠3=m∠7, m∠4=m∠8 for consistently labeled matching corners. Conversely, equal corresponding angles imply the lines are parallel.",
+        "math": "∠1=∠5"
+      },
+      {
+        "title": "HOW IT WORKS",
+        "narration": "Step 1: Confirm the lines are stated or marked parallel. Step 2: Find the same corner at each intersection. Step 3: Set corresponding angle expressions equal. Step 4: Solve and substitute. Step 5: Use 180° only for an adjacent linear pair, not for corresponding angles themselves.",
+        "math": "x+18=73 ⇒ x=55"
+      },
+      {
+        "title": "WORKED EXAMPLE 1 — MATCHING CORNERS",
+        "narration": "The upper-right angle at the first intersection is 64°. The upper-right angle at the second intersection is also 64° because these are corresponding angles between parallel lines.",
+        "math": "64° ↔ 64°"
+      },
+      {
+        "title": "WORKED EXAMPLE 2 — SOLVE AN EQUATION",
+        "narration": "Corresponding angles are x+18 degrees and 73 degrees. Set x+18=73, so x=55. Substitute: 55+18=73 degrees.",
+        "math": "x=55"
+      },
+      {
+        "title": "WORKED EXAMPLE 3 — EXPRESSIONS ON BOTH SIDES",
+        "narration": "Two corresponding angles measure 3x+5 and 2x+25 degrees. Equality gives 3x+5=2x+25, hence x=20; both angles are 65 degrees.",
+        "math": "x=20; angle=65°"
+      },
+      {
+        "title": "WORKED EXAMPLE 4 — ADJACENT THEN CORRESPONDING",
+        "narration": "One obtuse angle is 128°. Its adjacent acute angle is 180−128=52°. The corresponding acute angle at the second intersection is 52°, not 128°.",
+        "math": "180−128=52°"
+      },
+      {
+        "title": "WORKED EXAMPLE 5 — CONVERSE",
+        "narration": "Two lines crossed by the same transversal have equal upper-left angles of 72° at their intersections. Because a corresponding pair is equal, the converse theorem proves the lines are parallel.",
+        "math": "72°=72° ⇒ parallel"
+      },
+      {
+        "title": "DETERMINISTIC DIAGRAM",
+        "narration": "The diagram plots y=0 and y=4 (parallel horizontal lines) and y=x+1 (transversal). Their intersections are (−1,0) and (3,4). The transversal forms acute 45° and obtuse 135° angles with each horizontal line, so matching corners are equal.",
+        "math": "y=0; y=4; y=x+1"
+      },
+      {
+        "title": "WHEN LINES ARE NOT PARALLEL",
+        "narration": "Corresponding angles still describe matching positions, but equality is not guaranteed without parallelism. If a corresponding pair is shown equal, the converse can establish that the lines are parallel.",
+        "math": "parallelism is required"
+      }
+    ],
+    "arabic": [
+      {
+        "title": "الهدف",
+        "narration": "هنتعرف على الزوايا المتناظرة، ونستخدم تساويها لما المستقيمين يكونوا متوازيين، ونحل المعادلات المرتبطة بيها.",
+        "math": "المتناظرة = نفس الموضع"
+      },
+      {
+        "title": "فكرة القاطع",
+        "narration": "القاطع بيقطع مستقيمين في نقطتين، وعند كل تقاطع أربع زوايا. الزاويتين اللي في نفس الركن النسبي متناظرتان.",
+        "math": "أعلى يمين ↔ أعلى يمين"
+      },
+      {
+        "title": "تعريف الزوايا",
+        "narration": "لو الزاوية أعلى يسار عند التقاطع الأول، فالمتناظرة معاها أعلى يسار عند التقاطع التاني.",
+        "math": "الموضع نفسه"
+      },
+      {
+        "title": "القاعدة الأساسية",
+        "narration": "لما المستقيمين متوازيين، كل زاويتين متناظرتين متساويتين في القياس.",
+        "math": "∠1 = ∠5"
+      },
+      {
+        "title": "خطوات الحل",
+        "narration": "اتأكد من التوازي، وحدد الركنين المتناظرين، وساوي التعبيرين، وحل المعادلة وراجع الناتج.",
+        "math": "x+18=73"
+      },
+      {
+        "title": "مثال مباشر",
+        "narration": "لو زاوية متناظرة قياسها أربعة وستين درجة، فالزاوية اللي بتناظرها قياسها أربعة وستين درجة.",
+        "math": "64° = 64°"
+      },
+      {
+        "title": "مثال جبري",
+        "narration": "لو الزاويتين المتناظرتين إكس زائد تمنتاشر وتلاتة وسبعين، يبقى إكس تساوي خمسة وخمسين.",
+        "math": "x=55"
+      },
+      {
+        "title": "معادلتان",
+        "narration": "لو الزاويتين تلاتة إكس زائد خمسة واتنين إكس زائد خمسة وعشرين، نساويهم فنلاقي إكس بعشرين.",
+        "math": "3x+5=2x+25"
+      },
+      {
+        "title": "الزاوية المجاورة",
+        "narration": "الزاويتين المتجاورتين على خط مستقيم مجموعهم مية وتمانين. لو واحدة مية وتمانية وعشرين، التانية اتنين وخمسين.",
+        "math": "180−128=52°"
+      },
+      {
+        "title": "عكس النظرية",
+        "narration": "لو زاويتين متناظرتين متساويتين، نقدر نستنتج إن المستقيمين متوازيين.",
+        "math": "72° = 72°"
+      },
+      {
+        "title": "الرسم الدقيق",
+        "narration": "هنرسم المستقيمين واي تساوي صفر وواي تساوي أربعة، والقاطع واي تساوي إكس زائد واحد. الزوايا الحادة خمسة وأربعين درجة في التقاطعين.",
+        "math": "y=0; y=4; y=x+1"
+      },
+      {
+        "title": "تحذير مهم",
+        "narration": "لو المستقيمين مش متوازيين، مجرد إن الزوايا في نفس الموضع مش معناه إنهم متساويين.",
+        "math": "التوازي شرط"
+      }
+    ]
+  }
+}
