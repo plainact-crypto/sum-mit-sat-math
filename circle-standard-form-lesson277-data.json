@@ -1,0 +1,460 @@
+{
+  "index": 277,
+  "slug": "standard-form",
+  "title": "Standard Form",
+  "base": "geometry-and-trigonometry/circles/circle-equation/standard-form",
+  "classification": "BOTH",
+  "practice": [
+    {
+      "group": "Skill Check",
+      "prompt": "Find the center of (x−3)²+(y+2)²=25.",
+      "answer": "(3, -2)",
+      "choices": [
+        "(3, -2)",
+        "(-3, 2)",
+        "(3, 2)",
+        "(-3, -2)"
+      ],
+      "solution": "Compare with (x−h)²+(y−k)²=r². The x term is x−3 and y term is y−(−2), so the center is (3,−2).",
+      "qa": {
+        "kind": "center",
+        "h": 3,
+        "k": -2,
+        "r2": 25
+      },
+      "number": 1
+    },
+    {
+      "group": "Skill Check",
+      "prompt": "Find the radius of (x+1)²+(y−4)²=64.",
+      "answer": "8",
+      "choices": [
+        "64",
+        "4",
+        "8",
+        "16"
+      ],
+      "solution": "The right side is r²=64. Taking the positive square root gives r=8.",
+      "qa": {
+        "kind": "radius",
+        "h": -1,
+        "k": 4,
+        "r2": 64
+      },
+      "number": 2
+    },
+    {
+      "group": "Skill Check",
+      "prompt": "Write the equation of a circle with center (0, 5) and radius 3.",
+      "answer": "x²+(y−5)²=9",
+      "choices": [
+        "x²+(y−5)²=9",
+        "x²+(y+5)²=9",
+        "x²+(y−5)²=81",
+        "(x−5)²+y²=9"
+      ],
+      "solution": "Use (x−h)²+(y−k)²=r² with h=0, k=5 and r²=9.",
+      "qa": {
+        "kind": "equation",
+        "h": 0,
+        "k": 5,
+        "r2": 9
+      },
+      "number": 3
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "Identify the center of (x+7)²+(y+6)²=49.",
+      "answer": "(-7, -6)",
+      "choices": [
+        "(7, 6)",
+        "(-7, -6)",
+        "(7, -6)",
+        "(-7, 6)"
+      ],
+      "solution": "x+7=x−(−7) and y+6=y−(−6), so the center is (−7,−6).",
+      "qa": {
+        "kind": "center",
+        "h": -7,
+        "k": -6,
+        "r2": 49
+      },
+      "number": 4
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "What is the radius of (x−8)²+y²=121?",
+      "answer": "11",
+      "choices": [
+        "121",
+        "22",
+        "11",
+        "8"
+      ],
+      "solution": "The equation equals 121=r², hence r=√121=11.",
+      "qa": {
+        "kind": "radius",
+        "h": 8,
+        "k": 0,
+        "r2": 121
+      },
+      "number": 5
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "Write the circle equation for center (-4, 2) and radius 6.",
+      "answer": "(x+4)²+(y−2)²=36",
+      "choices": [
+        "(x−4)²+(y−2)²=36",
+        "(x+4)²+(y−2)²=36",
+        "(x+4)²+(y+2)²=36",
+        "(x+4)²+(y−2)²=9"
+      ],
+      "solution": "Substitute h=−4, k=2, and r²=36 into standard form.",
+      "qa": {
+        "kind": "equation",
+        "h": -4,
+        "k": 2,
+        "r2": 36
+      },
+      "number": 6
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "Classify the point (4, 5) relative to (x−1)²+(y−1)²=25.",
+      "answer": "On the circle",
+      "choices": [
+        "Inside the circle",
+        "Outside the circle",
+        "On the circle",
+        "At the center"
+      ],
+      "solution": "Squared distance from (1,1) is (4−1)²+(5−1)²=9+16=25=r², so the point is on the circle.",
+      "qa": {
+        "kind": "point",
+        "h": 1,
+        "k": 1,
+        "r2": 25,
+        "x": 4,
+        "y": 5
+      },
+      "number": 7
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "A circle has center (2, -1) and passes through (5, 3). Write its equation.",
+      "answer": "(x−2)²+(y+1)²=25",
+      "choices": [
+        "(x−2)²+(y+1)²=25",
+        "(x−2)²+(y+1)²=49",
+        "(x+2)²+(y−1)²=25",
+        "(x−2)²+(y+1)²=16"
+      ],
+      "solution": "The squared radius is (5−2)²+(3+1)²=9+16=25. Substitute into standard form.",
+      "qa": {
+        "kind": "through",
+        "h": 2,
+        "k": -1,
+        "x": 5,
+        "y": 3
+      },
+      "number": 8
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "Is (1, 1) inside, on, or outside the circle x²+y²=9?",
+      "answer": "Inside the circle",
+      "choices": [
+        "On the circle",
+        "Outside the circle",
+        "Inside the circle",
+        "Cannot determine"
+      ],
+      "solution": "The squared distance is 1²+1²=2, which is less than r²=9, so the point is inside.",
+      "qa": {
+        "kind": "point",
+        "h": 0,
+        "k": 0,
+        "r2": 9,
+        "x": 1,
+        "y": 1
+      },
+      "number": 9
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "Rewrite x²+y²−6x+4y−12=0 in circle standard form.",
+      "answer": "(x−3)²+(y+2)²=25",
+      "choices": [
+        "(x−3)²+(y−2)²=25",
+        "(x−3)²+(y+2)²=25",
+        "(x+3)²+(y+2)²=25",
+        "(x−3)²+(y+2)²=49"
+      ],
+      "solution": "Group x²−6x and y²+4y. Add 9+4=13 to both sides after moving −12, giving (x−3)²+(y+2)²=25.",
+      "qa": {
+        "kind": "complete",
+        "A": -6,
+        "B": 4,
+        "C": -12
+      },
+      "number": 10
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "The circle (x−2)²+(y−3)²=16 is translated 5 units left and 1 unit down. What is its new equation?",
+      "answer": "(x+3)²+(y−2)²=16",
+      "choices": [
+        "(x+3)²+(y−2)²=16",
+        "(x−7)²+(y−4)²=16",
+        "(x+3)²+(y−2)²=25",
+        "(x−3)²+(y+2)²=16"
+      ],
+      "solution": "The center moves (2,3)→(−3,2), while the radius stays 4, so r² stays 16.",
+      "qa": {
+        "kind": "shift",
+        "h": 2,
+        "k": 3,
+        "r2": 16,
+        "dx": -5,
+        "dy": -1
+      },
+      "number": 11
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "A circle is centered at (2, -1) and passes through (6, 2). Find its radius.",
+      "answer": "5",
+      "choices": [
+        "7",
+        "4",
+        "5",
+        "25"
+      ],
+      "solution": "Use the distance formula: r=√[(6−2)²+(2+1)²]=√(16+9)=5.",
+      "qa": {
+        "kind": "radiuspoint",
+        "h": 2,
+        "k": -1,
+        "x": 6,
+        "y": 2
+      },
+      "number": 12
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "Find the center and radius of x²+y²+10x−2y+10=0.",
+      "answer": "(-5, 1), radius 4",
+      "choices": [
+        "(5, -1), radius 4",
+        "(-5, 1), radius 16",
+        "(-5, 1), radius 4",
+        "(-5, -1), radius 4"
+      ],
+      "solution": "Complete squares: (x+5)²+(y−1)²=25+1−10=16. Center (−5,1), radius 4.",
+      "qa": {
+        "kind": "completeCenterRadius",
+        "A": 10,
+        "B": -2,
+        "C": 10
+      },
+      "number": 13
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "Circle A has radius 5 and circle B is (x−1)²+(y+2)²=36. How much larger is B's radius?",
+      "answer": "1",
+      "choices": [
+        "1",
+        "6",
+        "11",
+        "31"
+      ],
+      "solution": "Circle B has radius √36=6. Subtract 6−5=1.",
+      "qa": {
+        "kind": "deltaRadius",
+        "rA": 5,
+        "r2": 36
+      },
+      "number": 14
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "Find a if (x−2)²+(y+1)²=a passes through (5,3).",
+      "answer": "25",
+      "choices": [
+        "12",
+        "16",
+        "25",
+        "36"
+      ],
+      "solution": "Substitute (5,3): a=(5−2)²+(3+1)²=9+16=25.",
+      "qa": {
+        "kind": "parameter",
+        "h": 2,
+        "k": -1,
+        "x": 5,
+        "y": 3
+      },
+      "number": 15
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "A circle has center (4, -3) and is tangent to the y-axis. Find its equation.",
+      "answer": "(x−4)²+(y+3)²=16",
+      "choices": [
+        "(x−4)²+(y+3)²=9",
+        "(x−4)²+(y+3)²=16",
+        "(x+4)²+(y+3)²=16",
+        "(x−4)²+(y+3)²=25"
+      ],
+      "solution": "The shortest distance from center (4,−3) to the y-axis x=0 is 4, so the radius is 4 and r²=16.",
+      "qa": {
+        "kind": "tangentY",
+        "h": 4,
+        "k": -3
+      },
+      "number": 16
+    },
+    {
+      "group": "Challenge Problems",
+      "prompt": "Find both x-intercepts of x²+y²−4x+8y−5=0.",
+      "answer": "(-1, 0) and (5, 0)",
+      "choices": [
+        "(-1, 0) and (5, 0)",
+        "(1, 0) and (3, 0)",
+        "(-3, 0) and (7, 0)",
+        "No x-intercepts"
+      ],
+      "solution": "Complete squares: (x−2)²+(y+4)²=25. Put y=0: (x−2)²=9, giving x=−1 or x=5.",
+      "qa": {
+        "kind": "intercepts",
+        "A": -4,
+        "B": 8,
+        "C": -5
+      },
+      "number": 17
+    },
+    {
+      "group": "Challenge Problems",
+      "prompt": "Circle A has center (1, 2) and passes through (4, 6). Circle B has radius 3. What is the ratio of their areas A:B?",
+      "answer": "25:9",
+      "choices": [
+        "5:3",
+        "25:9",
+        "9:25",
+        "10:3"
+      ],
+      "solution": "Circle A has r²=(4−1)²+(6−2)²=25. Areas are 25π and 9π, so the ratio is 25:9.",
+      "qa": {
+        "kind": "areaRatio",
+        "h": 1,
+        "k": 2,
+        "x": 4,
+        "y": 6,
+        "otherR2": 9
+      },
+      "number": 18
+    }
+  ],
+  "test": [
+    {
+      "group": "Easy",
+      "prompt": "Find the center of (x+2)²+(y−3)²=16.",
+      "answer": "(-2, 3)",
+      "choices": [
+        "(2, -3)",
+        "(-2, 3)",
+        "(-2, -3)",
+        "(2, 3)"
+      ],
+      "solution": "The factors are x+2 and y−3, so the center is (−2,3).",
+      "qa": {
+        "kind": "center",
+        "h": -2,
+        "k": 3,
+        "r2": 16
+      },
+      "number": 1
+    },
+    {
+      "group": "Easy / Medium",
+      "prompt": "Write the equation for a circle centered at (5, -2) with radius 7.",
+      "answer": "(x−5)²+(y+2)²=49",
+      "choices": [
+        "(x−5)²+(y+2)²=49",
+        "(x+5)²+(y−2)²=49",
+        "(x−5)²+(y+2)²=196",
+        "(x−5)²+(y−2)²=49"
+      ],
+      "solution": "Insert h=5, k=−2 and r²=49 into standard form.",
+      "qa": {
+        "kind": "equation",
+        "h": 5,
+        "k": -2,
+        "r2": 49
+      },
+      "number": 2
+    },
+    {
+      "group": "Medium",
+      "prompt": "Classify (-1, 4) relative to (x−2)²+y²=25.",
+      "answer": "On the circle",
+      "choices": [
+        "Outside the circle",
+        "Inside the circle",
+        "On the circle",
+        "At the center"
+      ],
+      "solution": "The squared distance from (2,0) is (−1−2)²+4²=9+16=25, exactly r².",
+      "qa": {
+        "kind": "point",
+        "h": 2,
+        "k": 0,
+        "r2": 25,
+        "x": -1,
+        "y": 4
+      },
+      "number": 3
+    },
+    {
+      "group": "Medium / Hard",
+      "prompt": "Find the center and radius of x²+y²+6x−8y+9=0.",
+      "answer": "(-3, 4), radius 4",
+      "choices": [
+        "(-3, 4), radius 4",
+        "(3, -4), radius 4",
+        "(-3, 4), radius 16",
+        "(-3, -4), radius 4"
+      ],
+      "solution": "Complete squares: (x+3)²+(y−4)²=9+16−9=16. Center (−3,4), radius 4.",
+      "qa": {
+        "kind": "completeCenterRadius",
+        "A": 6,
+        "B": -8,
+        "C": 9
+      },
+      "number": 4
+    },
+    {
+      "group": "Hard / Exam-Style",
+      "prompt": "A circle is centered at (-2, 1) and passes through (4, 9). What are its x-intercepts?",
+      "answer": "(−2−3√11, 0) and (−2+3√11, 0)",
+      "choices": [
+        "(−2−3√11, 0) and (−2+3√11, 0)",
+        "(−2−10, 0) and (−2+10, 0)",
+        "(−2−√101, 0) and (−2+√101, 0)",
+        "(−3√11, 0) and (3√11, 0)"
+      ],
+      "solution": "r²=(4+2)²+(9−1)²=36+64=100. On y=0, (x+2)²+1=100, so x+2=±√99=±3√11.",
+      "qa": {
+        "kind": "radicalIntercept",
+        "h": -2,
+        "k": 1,
+        "x": 4,
+        "y": 9
+      },
+      "number": 5
+    }
+  ]
+}
