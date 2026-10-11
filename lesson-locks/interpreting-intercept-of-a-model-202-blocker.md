@@ -1,0 +1,3 @@
+# Lesson 202 — Interpreting Intercept of a Model
+
+Status: BLOCKED_PENDING_BUILDER_WRITE. The full dataset was committed as `interpreting-intercept-of-a-model-lesson202-data.json` (18 practice questions with 3/8/5/2 grouping, 18 worked solutions, five progressive tests, 17 explanation sections, and 12 scenes in each language). The mathematical checks for the 23 intercepts and contextual calculations were prepared. Two attempts to commit the required builder failed safety checks. No release manifest exists, and the full repository build has not passed. Do not merge or mark LIVE_VERIFIED. Advance to next owned lesson 207. No short-form clips.
