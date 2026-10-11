@@ -1,11 +1,15 @@
 {
-  "lesson_index": 282,
-  "lesson": "General Form",
-  "slug": "general-form",
-  "canonical_base": "/geometry-and-trigonometry/circles/circle-equation/general-form",
-  "owner": "SUMMIT Worker 2",
-  "status": "IN_PROGRESS",
-  "branch": "worker2/general-form-282-20261011",
-  "started_on": "2026-10-11",
-  "previous_blocked": "standard-form-277"
+ "lesson_index":282,
+ "lesson":"General Form",
+ "slug":"general-form",
+ "canonical_base":"/geometry-and-trigonometry/circles/circle-equation/general-form",
+ "owner":"SUMMIT Worker 2",
+ "status":"BLOCKED",
+ "branch":"worker2/general-form-282-20261011",
+ "explanation_sections":16,
+ "practice":18,
+ "test":4,
+ "math_qa":"22/22 passed",
+ "blocker":"Fifth test, required builders, release manifest and video routes pending.",
+ "next_owned_index":287
 }
