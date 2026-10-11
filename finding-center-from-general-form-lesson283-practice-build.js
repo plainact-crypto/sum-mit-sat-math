@@ -1,0 +1,11 @@
+'use strict';
+const {data,esc,page,write}=require('./finding-center-from-general-form-lesson283-common.js');
+require('./finding-center-from-general-form-lesson283-math-qa.js');
+const headings={0:'Skill Check',3:'Core Practice',11:'Exam-Style Practice',16:'Challenge Problems'};
+const head=i=>headings[i]?'<h2>'+headings[i]+'</h2>':'';
+const problems=data.practice.map((q,i)=>head(i)+'<section class="lesson-section" data-question="'+q.index+'"><h3>Question '+q.index+'</h3><p>'+esc(q.prompt)+'</p><label>Center (x,y): <input type="text" placeholder="3,-2" data-answer="'+esc(q.answer)+'"></label> <button type="button">Check</button> <span role="status"></span></section>').join('');
+const feedback='<script>document.querySelectorAll("[data-question]").forEach(s=>{const inp=s.querySelector("input");s.querySelector("button").onclick=()=>{const nums=v=>v.replace(/[() ]/g,"").split(",").map(Number);const a=nums(inp.value),b=nums(inp.dataset.answer);s.querySelector("[role=status]").textContent=a.length===2&&a.every((v,i)=>Number.isFinite(v)&&Math.abs(v-b[i])<0.00001)?"Correct.":"Try again; reverse the binomial signs."}})</script>';
+write('problems',page('Practice Problems','<p>18 questions: 3 Skill Check, 8 Core Practice, 5 Exam-Style, 2 Challenge.</p>'+problems+feedback));
+const answers=data.practice.map((q,i)=>head(i)+'<section class="lesson-section"><h3>Solution '+q.index+'</h3><p>'+esc(q.prompt)+'</p><p>'+esc(q.solution)+'</p><strong>Answer: '+esc(q.answer)+'</strong></section>').join('');
+write('answers',page('Answers and Solutions',answers));
+console.log('Lesson 283 18 practice and 18 aligned worked solutions');
