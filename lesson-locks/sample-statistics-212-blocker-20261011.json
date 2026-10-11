@@ -1,0 +1,16 @@
+{
+  "worker": "SUMMIT Worker 2",
+  "lesson_index": 212,
+  "slug": "sample-statistics",
+  "state": "BLOCKED_FULL_BUILD_RATE_LIMIT",
+  "math_qa": "23/23 PASS",
+  "practice": "18 (3/8/5/2)",
+  "answers": "18 aligned",
+  "test": "5 progressive",
+  "builder": "isolated PASS",
+  "routes": "6 isolated PASS",
+  "registry_commit": "576b33d17dbedfe7ccefae3d454d584b5796c077",
+  "manifest": "lesson-releases/sample-statistics.json",
+  "blocker": "Vercel commit status failure: build-rate-limit; no authoritative full repo build or preview deployment",
+  "live_verified": false
+}
