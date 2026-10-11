@@ -48,6 +48,14 @@
       "x³·x^(−5)=x^(−2)=1/x². When multiplying like bases, add exponents."
     ],
     [
+      "WORKED EXAMPLE 7 — EXPONENT EQUATION",
+      "Solve 2^(−x)=1/32. Since 1/32=2^(−5), equal bases give −x=−5, so x=5. Check: 2^(−5)=1/32."
+    ],
+    [
+      "WORKED EXAMPLE 8 — SCIENTIFIC NOTATION",
+      "Write 0.00045 in scientific notation. Move the decimal four places to the right to get 4.5, so 0.00045=4.5×10^(−4). The negative exponent indicates a value smaller than 1."
+    ],
+    [
       "DOMAIN NOTE",
       "A negative power of zero is undefined. State all variables originally raised to negative powers are nonzero."
     ],
