@@ -1,0 +1,46 @@
+{
+  "lesson": 65,
+  "slug": "special-polynomial-products",
+  "qaDate": "2026-10-11",
+  "practiceCount": 18,
+  "distribution": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "answersCount": 18,
+  "testCount": 5,
+  "mathematicalExpectedPractice": [
+    "x² + 12x + 36",
+    "y² - 10y + 25",
+    "a² - 16",
+    "4x² + 12x + 9",
+    "9m² - 12m + 4",
+    "25p² - 1",
+    "16r² - 49",
+    "4x² - 20x + 25",
+    "9y² + 24y + 16",
+    "36a² - b²",
+    "(1/4)x² + 3x + 9",
+    "t² + 18t + 81",
+    "x² + 14x + 49 m²",
+    "5",
+    "(9x - 4)(9x + 4)",
+    "20x",
+    "7",
+    "24x"
+  ],
+  "mathematicalExpectedTest": [
+    "x² + 16x + 64",
+    "9y² - 16",
+    "4a² - 20a + 25",
+    "4n² + 12n + 9 m²",
+    "9"
+  ],
+  "practiceVerified": 18,
+  "answerAlignmentVerified": 18,
+  "testVerified": 5,
+  "failures": [],
+  "status": "CONTENT_MATH_QA_PASS_NOT_RELEASED"
+}
