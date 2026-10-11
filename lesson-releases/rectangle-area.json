@@ -1,0 +1,17 @@
+{
+  "lesson": "rectangle-area",
+  "builders": [
+    "rectangle-area-lesson243-explanation-build.js",
+    "rectangle-area-lesson243-practice-build.js",
+    "rectangle-area-lesson243-test-build.js",
+    "rectangle-area-lesson243-video-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/perimeter-and-area/rectangle-area/explanation/",
+    "/geometry-and-trigonometry/perimeter-and-area/rectangle-area/problems/",
+    "/geometry-and-trigonometry/perimeter-and-area/rectangle-area/answers/",
+    "/geometry-and-trigonometry/perimeter-and-area/rectangle-area/test/",
+    "/geometry-and-trigonometry/perimeter-and-area/rectangle-area/video/english/",
+    "/geometry-and-trigonometry/perimeter-and-area/rectangle-area/video/arabic/"
+  ]
+}
