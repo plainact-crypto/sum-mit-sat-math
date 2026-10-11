@@ -1,0 +1,82 @@
+[
+  [
+    "Goal",
+    "Calculate trapezoid area from bases and height."
+  ],
+  [
+    "Bases",
+    "The bases are the parallel sides."
+  ],
+  [
+    "Height",
+    "Height is perpendicular, not a slanted leg."
+  ],
+  [
+    "Formula",
+    "Add bases, multiply by height, divide by two."
+  ],
+  [
+    "Units",
+    "Area uses squared units."
+  ],
+  [
+    "Example one",
+    "Six and ten with height four gives thirty two."
+  ],
+  [
+    "Example two",
+    "Eight and twelve with height five gives fifty."
+  ],
+  [
+    "Average bases",
+    "Multiply average base length by height."
+  ],
+  [
+    "Missing height",
+    "Double the area and divide by the sum of bases."
+  ],
+  [
+    "Height calculation",
+    "One hundred twenty six divided by twenty one equals six."
+  ],
+  [
+    "Missing base",
+    "Subtract the known base from the sum of bases."
+  ],
+  [
+    "Base calculation",
+    "Eighteen minus six equals twelve."
+  ],
+  [
+    "Midsegment",
+    "The midsegment equals the average base length."
+  ],
+  [
+    "Composite areas",
+    "Subtract any excluded region from the whole area."
+  ],
+  [
+    "Algebra",
+    "Substitute algebraic base expressions into the formula."
+  ],
+  [
+    "Scaling",
+    "Area scales by the square of the length factor."
+  ],
+  [
+    "Perimeter challenge",
+    "Use Pythagoras for an isosceles trapezoid leg."
+  ],
+  [
+    "Common errors",
+    "Never use a slanted leg for perpendicular height."
+  ],
+  [
+    "Practice",
+    "Work through eighteen practice problems."
+  ],
+  [
+    "Test",
+    "Complete five questions and review your result."
+  ]
+]
