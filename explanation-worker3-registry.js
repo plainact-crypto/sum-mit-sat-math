@@ -57,3 +57,5 @@ module.exports=[
     )
   }
 ];
+
+module.exports.push(require('./reflections-lesson263-registry.js'));
