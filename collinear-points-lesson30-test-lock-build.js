@@ -1,0 +1,14 @@
+'use strict';
+const fs = require('fs');
+const path = require('path');
+const relative = 'algebra/linear-functions/collinear-points/test/index.html';
+const file = path.join(__dirname, 'dist', relative);
+if (!fs.existsSync(file)) throw new Error('Missing canonical test: ' + relative);
+let html = fs.readFileSync(file, 'utf8');
+const original = "document.getElementById('submit').onclick=()=>{let score=0;";
+const replacement = "let submitted=false;document.getElementById('submit').onclick=()=>{if(submitted)return;submitted=true;const button=document.getElementById('submit');button.disabled=true;button.textContent='Test Submitted';document.querySelectorAll('input[type=\"radio\"]').forEach(x=>x.disabled=true);let score=0;";
+if (html.includes(original)) html = html.replace(original, replacement);
+else if (!html.includes('if(submitted)return;submitted=true;')) throw new Error('Unexpected test submission hook; refusing to rewrite');
+if (!html.includes('const qs=') || !html.includes('Submit Test')) throw new Error('Unexpected lesson test content');
+fs.writeFileSync(file, html);
+console.log('Lesson 30 submit-once test protection verified');
