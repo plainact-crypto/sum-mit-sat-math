@@ -1,1 +1,1 @@
-{"lesson_index":218,"slug":"experiments","title":"Experiments","base":"problem-solving-and-data-analysis/statistical-studies/experiments","worker":"worker3","status":"IN_PROGRESS","date":"2026-10-11"}
+{"lesson_index":218,"slug":"experiments","worker":"worker3","status":"CORE_QA_PASSED_RELEASE_PENDING","qa":"23/23 answers; 4/4 isolated builders; 6/6 isolated routes","manifest":"lesson-releases/experiments.json","pending":"full repository build, CI, merge and production verification"}
