@@ -1,0 +1,171 @@
+{
+  "lesson_index": 105,
+  "lesson": "Domain",
+  "slug": "domain",
+  "base": "/advanced-math/functions/domain",
+  "practice": [
+    {
+      "number": 1,
+      "group": "Skill Check",
+      "question": "Find the domain of f(x)=3x−8.",
+      "answer": "all real numbers",
+      "solution": "A linear polynomial is defined for every real x."
+    },
+    {
+      "number": 2,
+      "group": "Skill Check",
+      "question": "Find the domain of f(x)=1/(x−3).",
+      "answer": "x≠3",
+      "solution": "The denominator cannot be zero; exclude x=3."
+    },
+    {
+      "number": 3,
+      "group": "Skill Check",
+      "question": "Find the domain of f(x)=√(x+4).",
+      "answer": "x≥−4",
+      "solution": "The radicand x+4 must be nonnegative."
+    },
+    {
+      "number": 4,
+      "group": "Core Practice",
+      "question": "Find the domain of f(x)=√(7−2x).",
+      "answer": "x≤7/2",
+      "solution": "7−2x≥0, so x≤7/2; reverse the inequality when dividing by −2."
+    },
+    {
+      "number": 5,
+      "group": "Core Practice",
+      "question": "Find the domain of f(x)=1/[(x+2)(x−5)].",
+      "answer": "x≠−2 and x≠5",
+      "solution": "Exclude both zeros of the denominator."
+    },
+    {
+      "number": 6,
+      "group": "Core Practice",
+      "question": "Find the domain of f(x)=√(2x−6).",
+      "answer": "x≥3",
+      "solution": "Require 2x−6≥0."
+    },
+    {
+      "number": 7,
+      "group": "Core Practice",
+      "question": "Find the domain of f(x)=√(x²−9).",
+      "answer": "x≤−3 or x≥3",
+      "solution": "(x−3)(x+3)≥0 outside the roots; include endpoints."
+    },
+    {
+      "number": 8,
+      "group": "Core Practice",
+      "question": "Find the domain of f(x)=(x²−1)/(x−1), before or after simplifying.",
+      "answer": "x≠1",
+      "solution": "The original denominator vanishes at x=1; cancellation does not restore the hole."
+    },
+    {
+      "number": 9,
+      "group": "Core Practice",
+      "question": "Find the domain of f(x)=1/√(x−4).",
+      "answer": "x>4",
+      "solution": "The denominator square root must be strictly positive."
+    },
+    {
+      "number": 10,
+      "group": "Core Practice",
+      "question": "Find the domain of f(x)=√[(x−1)(x+3)].",
+      "answer": "x≤−3 or x≥1",
+      "solution": "The product (x−1)(x+3)≥0 outside its zeros."
+    },
+    {
+      "number": 11,
+      "group": "Core Practice",
+      "question": "Find the domain of f(x)=√(9−x²).",
+      "answer": "−3≤x≤3",
+      "solution": "9−x²≥0 means x²≤9."
+    },
+    {
+      "number": 12,
+      "group": "Exam-Style",
+      "question": "Find the domain of f(x)=(x+1)/(x²−4x).",
+      "answer": "x≠0 and x≠4",
+      "solution": "Factor the denominator as x(x−4)."
+    },
+    {
+      "number": 13,
+      "group": "Exam-Style",
+      "question": "A model h(t)=√(100−t²) describes a nonnegative height for elapsed time t≥0. Find its physical domain.",
+      "answer": "0≤t≤10",
+      "solution": "The radical permits −10≤t≤10; intersect with t≥0."
+    },
+    {
+      "number": 14,
+      "group": "Exam-Style",
+      "question": "Find the domain of f(x)=1/√(5−x).",
+      "answer": "x<5",
+      "solution": "The denominator requires 5−x>0."
+    },
+    {
+      "number": 15,
+      "group": "Exam-Style",
+      "question": "Find the domain of f(x)=√(x+2)/(x−4).",
+      "answer": "x≥−2 and x≠4",
+      "solution": "Require x+2≥0 and x−4≠0."
+    },
+    {
+      "number": 16,
+      "group": "Exam-Style",
+      "question": "Find the domain of f(x)=√[(x−2)/(x+1)].",
+      "answer": "x<−1 or x≥2",
+      "solution": "A sign chart gives (−∞,−1)∪[2,∞); x=−1 is excluded."
+    },
+    {
+      "number": 17,
+      "group": "Challenge",
+      "question": "Find the domain of f(x)=1/√(x²−4).",
+      "answer": "x<−2 or x>2",
+      "solution": "Require x²−4>0, or |x|>2."
+    },
+    {
+      "number": 18,
+      "group": "Challenge",
+      "question": "Find the domain of f(x)=√[(x−1)/(x+2)]+1/(x−3).",
+      "answer": "x<−2 or 1≤x<3 or x>3",
+      "solution": "Radical: x<−2 or x≥1; also exclude x=3."
+    }
+  ],
+  "test": [
+    {
+      "number": 1,
+      "difficulty": "Easy",
+      "question": "Find the domain of g(x)=x²+4.",
+      "answer": "all real numbers",
+      "solution": "A polynomial is defined for every real x."
+    },
+    {
+      "number": 2,
+      "difficulty": "Easy / Medium",
+      "question": "Find the domain of g(x)=√(x−5).",
+      "answer": "x≥5",
+      "solution": "Require x−5≥0."
+    },
+    {
+      "number": 3,
+      "difficulty": "Medium",
+      "question": "Find the domain of g(x)=(x+2)/(x²−9).",
+      "answer": "x≠−3 and x≠3",
+      "solution": "Exclude zeros of (x−3)(x+3)."
+    },
+    {
+      "number": 4,
+      "difficulty": "Medium / Hard",
+      "question": "Find the domain of g(x)=√(4−x²).",
+      "answer": "−2≤x≤2",
+      "solution": "Require x²≤4."
+    },
+    {
+      "number": 5,
+      "difficulty": "Hard / Exam-Style",
+      "question": "Find the domain of g(x)=√[(x−2)/(x+1)]/(x−4).",
+      "answer": "x<−1 or 2≤x<4 or x>4",
+      "solution": "The radical requires x<−1 or x≥2, and the denominator excludes x=4."
+    }
+  ]
+}
