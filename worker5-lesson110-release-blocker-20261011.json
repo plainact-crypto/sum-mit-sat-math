@@ -1,0 +1,12 @@
+{
+  "lesson": 110,
+  "slug": "composite-functions-from-graphs",
+  "manifest_commit": "f950f557d4c0596bdf3123d2d6beb005f912ab4c",
+  "blockers": [
+    "Explanation GRAPH registry update repeatedly rejected by repository safety checks",
+    "Latest commit preview build blocked by Vercel build-rate limit",
+    "Full build and route QA not verified"
+  ],
+  "release_status": "NOT_LIVE",
+  "next": "Continue next owned lesson while retaining this candidate"
+}
