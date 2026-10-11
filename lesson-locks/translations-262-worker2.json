@@ -4,8 +4,10 @@
   "slug": "translations",
   "canonical_base": "/geometry-and-trigonometry/coordinate-geometry/translations",
   "owner": "SUMMIT Worker 2",
-  "status": "IN_PROGRESS",
+  "status": "BLOCKED_UPLOAD",
   "started_on": "2026-10-11",
   "branch": "worker2/translations-262-20261011",
-  "predecessor_blocked": "composite-solids-257"
+  "predecessor_blocked": "composite-solids-257",
+  "blocker": "Committed complete 16-section graph-aligned explanation with five worked examples and exactly 18 original practice questions with 18 aligned worked answers (3/8/5/2). Verified counts and coordinate arithmetic. Repeated GitHub safety checks rejected test JSON writes; test, graph builder, full-lesson routes, registry and release manifest remain incomplete. No merge/deployment.",
+  "blocked_on": "2026-10-11"
 }
