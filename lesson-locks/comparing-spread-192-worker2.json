@@ -1,0 +1,10 @@
+{
+  "worker": "SUMMIT Worker 2",
+  "lesson_index": 192,
+  "slug": "comparing-spread",
+  "title": "Comparing Spread",
+  "canonical_base": "/problem-solving-and-data-analysis/measures-of-spread/comparing-spread",
+  "state": "IN_PROGRESS",
+  "previous_lesson_187": "BLOCKED_INTEGRATION_WRITE",
+  "previous_lesson_187_clean_branch": "worker2/mode-187-release-20261011"
+}
