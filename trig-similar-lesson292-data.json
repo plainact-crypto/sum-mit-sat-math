@@ -1,0 +1,416 @@
+{
+  "index": 292,
+  "slug": "trigonometric-ratios-in-similar-triangles",
+  "title": "Trigonometric Ratios in Similar Triangles",
+  "base": "geometry-and-trigonometry/right-triangle-trigonometry/trigonometric-ratios-in-similar-triangles",
+  "classification": "BOTH",
+  "practice": [
+    {
+      "group": "Skill Check",
+      "prompt": "A 3–4–5 triangle and a 6–8–10 triangle have corresponding angles opposite 3 and 6. What is sine in either triangle?",
+      "answer": "3/5",
+      "solution": "sin θ=3/5 in the first triangle and 6/10=3/5 in the scaled triangle.",
+      "choices": [
+        "3/5",
+        "4/5",
+        "3/4",
+        "5/3"
+      ],
+      "qa": {
+        "kind": "ratio",
+        "a": 3,
+        "b": 5
+      }
+    },
+    {
+      "group": "Skill Check",
+      "prompt": "A 5–12–13 triangle is enlarged three times. What is cosine for the angle adjacent to the side of length 12?",
+      "answer": "12/13",
+      "solution": "cos θ=adjacent/hypotenuse=12/13; after enlargement 36/39=12/13.",
+      "choices": [
+        "12/13",
+        "5/13",
+        "5/12",
+        "13/12"
+      ],
+      "qa": {
+        "kind": "ratio",
+        "a": 12,
+        "b": 13
+      }
+    },
+    {
+      "group": "Skill Check",
+      "prompt": "A side of length 4 corresponds to a side of length 20 in a similar triangle. What is the scale factor?",
+      "answer": "5",
+      "solution": "The scale factor is new/old=20/4=5.",
+      "choices": [
+        "5",
+        "4",
+        "16",
+        "1/5"
+      ],
+      "qa": {
+        "kind": "factor",
+        "small": 4,
+        "large": 20
+      }
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "A 3–4–5 right triangle is enlarged by a factor of 4. What length corresponds to its side of length 3?",
+      "answer": "12",
+      "solution": "Multiply every side by the common factor: 3×4=12.",
+      "choices": [
+        "12",
+        "7",
+        "16",
+        "20"
+      ],
+      "qa": {
+        "kind": "scale",
+        "value": 3,
+        "k": 4
+      }
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "A 5–12–13 right triangle is doubled. What is the enlarged hypotenuse?",
+      "answer": "26",
+      "solution": "The hypotenuse scales by the same factor as the legs: 13×2=26.",
+      "choices": [
+        "26",
+        "13",
+        "24",
+        "30"
+      ],
+      "qa": {
+        "kind": "scale",
+        "value": 13,
+        "k": 2
+      }
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "Corresponding acute angles have tangent 2/3. In the larger triangle, the adjacent leg is 18. Find its opposite leg.",
+      "answer": "12",
+      "solution": "opposite/18=2/3, so opposite=18×2/3=12.",
+      "choices": [
+        "12",
+        "27",
+        "9",
+        "6"
+      ],
+      "qa": {
+        "kind": "oppTan",
+        "adj": 18,
+        "num": 2,
+        "den": 3
+      }
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "Two similar right triangles have sine 3/5 for corresponding angles. If the larger opposite leg is 24, find its hypotenuse.",
+      "answer": "40",
+      "solution": "24/H=3/5. Multiply by 5/3 to obtain H=40.",
+      "choices": [
+        "40",
+        "24",
+        "32",
+        "15"
+      ],
+      "qa": {
+        "kind": "hypSin",
+        "opp": 24,
+        "num": 3,
+        "den": 5
+      }
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "A right triangle has legs 8 and 15 and hypotenuse 17. For the angle adjacent to the side of length 15, find cosine in any similar triangle.",
+      "answer": "15/17",
+      "solution": "Cosine is adjacent/hypotenuse=15/17, unchanged by scaling.",
+      "choices": [
+        "15/17",
+        "8/17",
+        "8/15",
+        "17/15"
+      ],
+      "qa": {
+        "kind": "ratio",
+        "a": 15,
+        "b": 17
+      }
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "A small triangle has hypotenuse 10 and opposite leg 6. A similar triangle has hypotenuse 35. Find the corresponding opposite leg.",
+      "answer": "21",
+      "solution": "The scale factor is 35/10=3.5; opposite=6×3.5=21.",
+      "choices": [
+        "21",
+        "15",
+        "24",
+        "30"
+      ],
+      "qa": {
+        "kind": "proportion",
+        "small": 6,
+        "smallH": 10,
+        "largeH": 35
+      }
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "A 7–24–25 triangle is enlarged by a factor of 2. What is tangent for the angle opposite the side of length 7?",
+      "answer": "7/24",
+      "solution": "tan θ=7/24 in the small triangle and 14/48=7/24 in the large triangle.",
+      "choices": [
+        "7/24",
+        "7/25",
+        "24/25",
+        "24/7"
+      ],
+      "qa": {
+        "kind": "ratio",
+        "a": 7,
+        "b": 24
+      }
+    },
+    {
+      "group": "Core Practice",
+      "prompt": "A right triangle has area 18 square units. A similar triangle has side lengths three times as large. Find its area.",
+      "answer": "162",
+      "solution": "Area scales by the square of the side factor: 18×3²=162.",
+      "choices": [
+        "162",
+        "54",
+        "81",
+        "486"
+      ],
+      "qa": {
+        "kind": "area",
+        "area": 18,
+        "k": 3
+      }
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "Triangle A has opposite/hypotenuse 9/15, and a similar triangle B has 12/20. Compare their sine ratios.",
+      "answer": "Equal",
+      "solution": "9/15=3/5 and 12/20=3/5, so the ratios are equal.",
+      "choices": [
+        "Equal",
+        "A is larger",
+        "B is larger",
+        "Cannot compare"
+      ],
+      "qa": {
+        "kind": "compare",
+        "a": 9,
+        "b": 15,
+        "c": 12,
+        "d": 20
+      }
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "A 3–4–5 triangle is similar to a right triangle with hypotenuse 45. Find the side corresponding to the length-4 leg.",
+      "answer": "36",
+      "solution": "The scale factor is 45/5=9, so the corresponding leg is 4×9=36.",
+      "choices": [
+        "36",
+        "27",
+        "40",
+        "32"
+      ],
+      "qa": {
+        "kind": "proportion",
+        "small": 4,
+        "smallH": 5,
+        "largeH": 45
+      }
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "An 8–15–17 right triangle is similar to one with hypotenuse 68. Find the side corresponding to the length-8 leg.",
+      "answer": "32",
+      "solution": "The factor is 68/17=4; the leg is 8×4=32.",
+      "choices": [
+        "32",
+        "60",
+        "34",
+        "40"
+      ],
+      "qa": {
+        "kind": "proportion",
+        "small": 8,
+        "smallH": 17,
+        "largeH": 68
+      }
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "A 9–12–15 triangle is similar to a right triangle with hypotenuse 40. Find the side corresponding to its length-9 leg.",
+      "answer": "24",
+      "solution": "The scale factor is 40/15=8/3, giving 9×8/3=24.",
+      "choices": [
+        "24",
+        "32",
+        "30",
+        "27"
+      ],
+      "qa": {
+        "kind": "proportion",
+        "small": 9,
+        "smallH": 15,
+        "largeH": 40
+      }
+    },
+    {
+      "group": "Exam-Style",
+      "prompt": "A right triangle has opposite/hypotenuse 5/13. A similar triangle has hypotenuse 39 meters. Find the opposite leg.",
+      "answer": "15 m",
+      "solution": "The unchanged sine ratio gives opposite=39×5/13=15 meters.",
+      "choices": [
+        "15 m",
+        "13 m",
+        "20 m",
+        "25 m"
+      ],
+      "qa": {
+        "kind": "proportionUnit",
+        "small": 5,
+        "smallH": 13,
+        "largeH": 39,
+        "unit": " m"
+      }
+    },
+    {
+      "group": "Challenge Problems",
+      "prompt": "A 5–12–13 triangle is enlarged by a factor of 4. Find the area of the enlarged triangle.",
+      "answer": "480",
+      "solution": "Original area=(5×12)/2=30. New area=30×4²=480.",
+      "choices": [
+        "480",
+        "120",
+        "240",
+        "960"
+      ],
+      "qa": {
+        "kind": "area",
+        "area": 30,
+        "k": 4
+      }
+    },
+    {
+      "group": "Challenge Problems",
+      "prompt": "An 8–15–17 triangle is enlarged so its hypotenuse becomes 85. What is the difference between its two new legs?",
+      "answer": "35",
+      "solution": "Scale factor=85/17=5. Legs become 40 and 75; difference=75−40=35.",
+      "choices": [
+        "35",
+        "7",
+        "45",
+        "115"
+      ],
+      "qa": {
+        "kind": "diff",
+        "a": 8,
+        "b": 15,
+        "smallH": 17,
+        "largeH": 85
+      }
+    }
+  ],
+  "test": [
+    {
+      "group": "Easy",
+      "prompt": "A 4–3–5 triangle and an 8–6–10 triangle have corresponding angles opposite 4 and 8. What is sine?",
+      "answer": "4/5",
+      "solution": "Both sine ratios simplify to 4/5.",
+      "choices": [
+        "4/5",
+        "3/5",
+        "4/3",
+        "5/4"
+      ],
+      "qa": {
+        "kind": "ratio",
+        "a": 4,
+        "b": 5
+      }
+    },
+    {
+      "group": "Easy / Medium",
+      "prompt": "A 3–4–5 right triangle is enlarged by a factor of 7. Find the new hypotenuse.",
+      "answer": "35",
+      "solution": "The hypotenuse scales to 5×7=35.",
+      "choices": [
+        "35",
+        "21",
+        "28",
+        "12"
+      ],
+      "qa": {
+        "kind": "scale",
+        "value": 5,
+        "k": 7
+      }
+    },
+    {
+      "group": "Medium",
+      "prompt": "Corresponding angles have tangent 3/4. If a triangle's adjacent side is 28, find its opposite side.",
+      "answer": "21",
+      "solution": "opposite/28=3/4, so opposite=28×3/4=21.",
+      "choices": [
+        "21",
+        "37.3",
+        "24",
+        "12"
+      ],
+      "qa": {
+        "kind": "oppTan",
+        "adj": 28,
+        "num": 3,
+        "den": 4
+      }
+    },
+    {
+      "group": "Medium / Hard",
+      "prompt": "A 5–12–13 right triangle is similar to one with hypotenuse 65. Find the leg corresponding to 5.",
+      "answer": "25",
+      "solution": "Scale factor=65/13=5; leg=5×5=25.",
+      "choices": [
+        "25",
+        "60",
+        "13",
+        "20"
+      ],
+      "qa": {
+        "kind": "proportion",
+        "small": 5,
+        "smallH": 13,
+        "largeH": 65
+      }
+    },
+    {
+      "group": "Hard / Exam-Style",
+      "prompt": "A 7–24–25 right triangle is enlarged until its hypotenuse is 100. Find the enlarged triangle's area.",
+      "answer": "1344",
+      "solution": "Scale factor=100/25=4. Original area=7×24/2=84; enlarged area=84×4²=1344.",
+      "choices": [
+        "1344",
+        "336",
+        "672",
+        "1680"
+      ],
+      "qa": {
+        "kind": "area",
+        "area": 84,
+        "k": 4
+      }
+    }
+  ]
+}
