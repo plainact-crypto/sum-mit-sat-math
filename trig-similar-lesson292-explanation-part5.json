@@ -1,0 +1,47 @@
+[
+  [
+    "WORKED EXAMPLE 4 — SAME ANGLE, DIFFERENT SIZES",
+    "A 9–12–15 triangle and a 15–20–25 triangle have the same acute angle opposite their shorter leg. Compare sine and tangent.",
+    "Sine: 9/15=15/25=3/5. Tangent: 9/12=15/20=3/4. Both are unchanged."
+  ],
+  [
+    "WORKED EXAMPLE 5 — PYTHAGORAS AND SCALE",
+    "A right triangle has legs 8 and 15; a similar triangle has hypotenuse 51. Find the corresponding shorter leg.",
+    "Original hypotenuse is √(8²+15²)=17. Scale factor=51/17=3, so shorter leg=8×3=24."
+  ],
+  [
+    "DETERMINISTIC SIMILAR-TRIANGLE VISUAL",
+    "Compare the 3–4–5 right triangle with the 6–8–10 right triangle; both share an acute angle with opposite/adjacent=3/4.",
+    "Coordinates are generated using a scale factor of 2; both triangles have sine=3/5, cosine=4/5, tangent=3/4."
+  ],
+  [
+    "DESMOS STRATEGY",
+    "Check corresponding ratios numerically when sides have inconvenient lengths.",
+    "Enter 3/5 and 6/10, then 3/4 and 6/8. Each pair gives equal decimals; ratio cancellation is faster for simple numbers."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not compare unmatched angles or use different side labels across similar triangles. Hypotenuse always faces the right angle.",
+    "Area scales by k², lengths scale by k, but sine/cosine/tangent do not scale."
+  ],
+  [
+    "EXAM STRATEGY",
+    "Match the reference angles, identify the three sides, then cancel the common scale factor before calculating.",
+    "If one side is missing, find the scale factor from a known corresponding pair; use Pythagoras only when needed."
+  ],
+  [
+    "QUICK CHECK",
+    "A 5–12–13 triangle is scaled by 4. For the angle opposite 5, what are sine, cosine, and tangent in both triangles?",
+    "sin=5/13, cos=12/13, tan=5/12 in both; the scaled triangle is 20–48–52."
+  ],
+  [
+    "LESSON RECAP",
+    "Similar right triangles have identical acute angles and identical trig ratios, even though their corresponding sides have different lengths.",
+    "sin=O/H, cos=A/H, tan=O/A; a common positive scale factor cancels."
+  ],
+  [
+    "NEXT STEP",
+    "Practice 18 original questions, review 18 worked answers, complete the five-question test, and watch the full lesson in English or Arabic.",
+    "Use the four non-video routes plus both bilingual full-lesson routes."
+  ]
+]
