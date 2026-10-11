@@ -1,0 +1,19 @@
+{
+  "lesson": "special-polynomial-products",
+  "builders": [
+    "special-polynomial-products-explanation-build.js",
+    "special-polynomial-products-problems-build.js",
+    "special-polynomial-products-answers-build.js",
+    "polynomial-operations-tests-build.js",
+    "special-polynomial-products-lesson65-test-lock-build.js",
+    "special-polynomial-products-lesson65-full-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/polynomial-operations/special-polynomial-products/explanation/",
+    "/advanced-math/polynomial-operations/special-polynomial-products/problems/",
+    "/advanced-math/polynomial-operations/special-polynomial-products/answers/",
+    "/advanced-math/polynomial-operations/special-polynomial-products/test/",
+    "/advanced-math/polynomial-operations/special-polynomial-products/video/english/",
+    "/advanced-math/polynomial-operations/special-polynomial-products/video/arabic/"
+  ]
+}
