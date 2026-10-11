@@ -1,0 +1,70 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Identify chords and diameters, use the perpendicular-bisector theorem, and calculate chord lengths or center distances using right triangles."
+  ],
+  [
+    "WHAT YOU NEED TO KNOW",
+    "A chord is a straight segment whose two endpoints lie on the circle. A diameter is a special chord through the center, and is the longest chord in that circle."
+  ],
+  [
+    "KEY DEFINITIONS",
+    "Center O is equidistant from every point on the circle. A radius joins O to the circle; a diameter joins two circle points through O; a chord joins any two circle points."
+  ],
+  [
+    "CORE RULE — DIAMETER",
+    "Diameter D=2r. Every diameter is a chord, but most chords are not diameters. No chord can exceed 2r in length."
+  ],
+  [
+    "CORE RULE — BISECTION",
+    "A line from the center perpendicular to a chord bisects the chord. If chord AB has midpoint M, then AM=MB=AB/2 and OM is perpendicular to AB."
+  ],
+  [
+    "CORE RULE — PYTHAGORAS",
+    "With radius r, perpendicular center-to-chord distance d, and full chord length L, the right triangle gives r²=d²+(L/2)². Hence L=2√(r²−d²), d=√(r²−(L/2)²), and r=√(d²+(L/2)²)."
+  ],
+  [
+    "HOW IT WORKS",
+    "Draw the radius from O to a chord endpoint, draw the perpendicular OM to the chord, label half the chord L/2, then substitute into Pythagoras. Check 0≤d≤r and 0≤L≤2r."
+  ],
+  [
+    "WORKED EXAMPLE 1 — DIAMETER",
+    "A circle has radius 6 cm. The diameter is 2×6=12 cm. It is a chord because both endpoints lie on the circle, and it passes through O."
+  ],
+  [
+    "WORKED EXAMPLE 2 — FIND THE CHORD",
+    "A circle has radius 5 and center-to-chord distance 3. Half-chord=√(5²−3²)=√16=4, so the entire chord is 2×4=8."
+  ],
+  [
+    "WORKED EXAMPLE 3 — FIND THE DISTANCE",
+    "A circle has radius 10 and chord length 16. Half-chord=8, so center distance=√(10²−8²)=√36=6."
+  ],
+  [
+    "WORKED EXAMPLE 4 — FIND THE RADIUS",
+    "A chord measures 12 and is 8 units from the center. Half-chord=6; radius=√(6²+8²)=√100=10."
+  ],
+  [
+    "WORKED EXAMPLE 5 — EQUAL CHORDS",
+    "In the same circle, equal-length chords are equally far from the center. If chord AB is 9 units from O and CD=AB, CD is also 9 units from O."
+  ],
+  [
+    "WORKED EXAMPLE 6 — TWO CHORDS",
+    "In a circle of radius 13, chords 5 and 12 units from O have lengths 2√(169−25)=24 and 2√(169−144)=10. The chord closer to the center is longer."
+  ],
+  [
+    "VERIFIED CHORD DIAGRAM",
+    "For a radius-5 circle centered at O=(0,0), the chord endpoints A=(−4,3) and B=(4,3) are exactly 5 units from O. The midpoint M=(0,3) has OM=3 and AM=MB=4, so AB=8."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not confuse a chord with an arc. Do not use the full chord as a leg of the right triangle: use half. A perpendicular from the center is essential for the bisection theorem."
+  ],
+  [
+    "EXAM STRATEGY AND QUICK CHECK",
+    "Write r²=d²+(L/2)² first, then isolate the unknown. Quick checks: for r=13,d=12, L=10; for r=17,L=30, d=8. A chord length must not exceed the diameter."
+  ],
+  [
+    "LESSON RECAP AND NEXT STEP",
+    "A chord has both endpoints on the circle; a diameter is the longest chord. A perpendicular from the center bisects the chord, creating a right triangle. Continue to 18 practice questions, worked answers, and the five-question test."
+  ]
+]
