@@ -4,7 +4,8 @@
   "slug": "rectangle-perimeter",
   "canonical_base": "/geometry-and-trigonometry/perimeter-and-area/rectangle-perimeter",
   "owner": "SUMMIT Worker 2",
-  "status": "IN_PROGRESS",
+  "status": "BLOCKED_UPLOAD",
   "started_on": "2026-10-11",
-  "branch": "worker2/rectangle-perimeter-242-20261011"
+  "branch": "worker2/rectangle-perimeter-242-20261011",
+  "blocker": "Math QA passed. Video and builder incomplete; no release."
 }
