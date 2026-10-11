@@ -4,9 +4,8 @@
   "slug": "standard-form",
   "canonical_base": "/geometry-and-trigonometry/circles/circle-equation/standard-form",
   "owner": "SUMMIT Worker 2",
-  "status": "IN_PROGRESS",
+  "status": "BLOCKED",
   "branch": "worker2/circle-standard-form-277-20261011",
-  "started_on": "2026-10-11",
-  "prior_blocked": "arc-length-272",
-  "slug_collision_note": "Canonical slug standard-form is shared with an algebra lesson; do not duplicate explanation registry slug. Preserve exact canonical release slug and route."
+  "blocker": "Video routes, interactive test, registry, and authoritative build pending; connector writes rejected.",
+  "next_owned_index": 282
 }
