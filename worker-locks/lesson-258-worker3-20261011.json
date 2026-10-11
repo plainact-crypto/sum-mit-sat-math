@@ -1,0 +1,11 @@
+{
+  "lesson_index": 258,
+  "slug": "distance-formula",
+  "owner": "SUMMIT Worker 3",
+  "branch": "worker3-lesson258-distance-formula-20261011",
+  "started_at": "2026-10-11",
+  "status": "IN_PROGRESS",
+  "canonical_base": "/geometry-and-trigonometry/coordinate-geometry/distance-formula",
+  "release_manifest": "lesson-releases/distance-formula.json",
+  "notes": "Unique ownership lock; build and production verification required before release."
+}
