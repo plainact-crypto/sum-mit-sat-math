@@ -1,0 +1,18 @@
+{
+  "lesson": 35,
+  "slug": "linear-function-word-problems",
+  "worker": "worker5",
+  "status": "RELEASE_MANIFEST_UPDATE_BLOCKED",
+  "testLockBuilder": "linear-function-word-problems-lesson35-test-lock-build.js",
+  "builderCommit": "11ad9648f20742a769453817c90704050903fabc",
+  "verified": [
+    "Source test has five progressive multiple-choice questions.",
+    "Source submit handler permits resubmission.",
+    "Submit-once protection builder committed to lesson branch."
+  ],
+  "blockers": [
+    "Existing lesson-releases/linear-function-word-problems.json still omits the newly required test-lock builder; manifest update was rejected by repository safety checks.",
+    "Full build, six-route validation, Explanation gate, and production verification pending."
+  ],
+  "releaseRule": "Do not merge or mark LIVE_VERIFIED while the required builder is omitted from the unique release manifest."
+}
