@@ -1,0 +1,171 @@
+{
+  "lesson_index": 248,
+  "slug": "trapezoid-area",
+  "title": "Trapezoid Area",
+  "base": "geometry-and-trigonometry/perimeter-and-area/trapezoid-area",
+  "practice": [
+    {
+      "index": 1,
+      "group": "Skill Check",
+      "prompt": "Bases 6,10 cm; height 4 cm. Area in cm²?",
+      "answer": "32",
+      "solution": "A=(6+10)×4/2=32 cm²."
+    },
+    {
+      "index": 2,
+      "group": "Skill Check",
+      "prompt": "Bases 8,12 in; height 5 in. Area in in²?",
+      "answer": "50",
+      "solution": "A=(8+12)×5/2=50 in²."
+    },
+    {
+      "index": 3,
+      "group": "Skill Check",
+      "prompt": "Bases 5,9 m; height 6 m. Area in m²?",
+      "answer": "42",
+      "solution": "A=(5+9)×6/2=42 m²."
+    },
+    {
+      "index": 4,
+      "group": "Core Practice",
+      "prompt": "Bases 7,13 cm; height 8 cm. Area in cm²?",
+      "answer": "80",
+      "solution": "A=(7+13)×8/2=80 cm²."
+    },
+    {
+      "index": 5,
+      "group": "Core Practice",
+      "prompt": "Bases 3.5,8.5 ft; height 4 ft. Area in ft²?",
+      "answer": "24",
+      "solution": "A=(3.5+8.5)×4/2=24 ft²."
+    },
+    {
+      "index": 6,
+      "group": "Core Practice",
+      "prompt": "Area 63 cm²; bases 7,14 cm. Height in cm?",
+      "answer": "6",
+      "solution": "h=2×63/(7+14)=6 cm."
+    },
+    {
+      "index": 7,
+      "group": "Core Practice",
+      "prompt": "Area 72 m²; height 8 m; one base 6 m. Other base in m?",
+      "answer": "12",
+      "solution": "Base sum=2×72/8=18 m; other base=18−6=12 m."
+    },
+    {
+      "index": 8,
+      "group": "Core Practice",
+      "prompt": "Midsegment 11 cm; height 7 cm. Area in cm²?",
+      "answer": "77",
+      "solution": "A=midsegment×height=11×7=77 cm²."
+    },
+    {
+      "index": 9,
+      "group": "Core Practice",
+      "prompt": "Rectangle 20×6 m and trapezoid bases 12,20 m, height 6 m: area difference in m²?",
+      "answer": "24",
+      "solution": "Rectangle=120; trapezoid=96; difference=24 m²."
+    },
+    {
+      "index": 10,
+      "group": "Core Practice",
+      "prompt": "Bases 4,10 m; height 300 cm. Area in m²?",
+      "answer": "21",
+      "solution": "300 cm=3 m; A=(4+10)×3/2=21 m²."
+    },
+    {
+      "index": 11,
+      "group": "Core Practice",
+      "prompt": "Trapezoid bases 10,18 m, height 7 m; remove triangle base 4 m, height 3 m. Area left in m²?",
+      "answer": "92",
+      "solution": "Trapezoid=98; triangle=6; remaining=92 m²."
+    },
+    {
+      "index": 12,
+      "group": "Exam-Style",
+      "prompt": "Bases x+2 and x+8 cm; height 6 cm; area 90 cm². Find x.",
+      "answer": "10",
+      "solution": "90=(2x+10)×6/2=6x+30; x=10."
+    },
+    {
+      "index": 13,
+      "group": "Exam-Style",
+      "prompt": "Bases 9,15 cm; height 8 cm; enlarge lengths by 1.5. New area in cm²?",
+      "answer": "216",
+      "solution": "Original area=96; multiply by 1.5²=2.25 to get 216 cm²."
+    },
+    {
+      "index": 14,
+      "group": "Exam-Style",
+      "prompt": "Garden bases 18,26 m; height 10 m; subtract 4×5 m shed. Area left in m²?",
+      "answer": "200",
+      "solution": "Trapezoid=220; shed=20; remaining=200 m²."
+    },
+    {
+      "index": 15,
+      "group": "Exam-Style",
+      "prompt": "Bases 10,22 cm; area 192 cm². Height in cm?",
+      "answer": "12",
+      "solution": "h=2×192/(10+22)=12 cm."
+    },
+    {
+      "index": 16,
+      "group": "Exam-Style",
+      "prompt": "Bases 2x and x+6 cm; height 10 cm; area 180 cm². Find x.",
+      "answer": "10",
+      "solution": "180=(3x+6)×10/2=15x+30; x=10."
+    },
+    {
+      "index": 17,
+      "group": "Challenge",
+      "prompt": "Isosceles trapezoid bases 10,26 cm; height 6 cm. Perimeter in cm?",
+      "answer": "56",
+      "solution": "Each horizontal offset is 8; each leg=√(8²+6²)=10; perimeter=56 cm."
+    },
+    {
+      "index": 18,
+      "group": "Challenge",
+      "prompt": "Bases x+4 and 3x−2 cm; height 8 cm; area 120 cm². Larger base in cm?",
+      "answer": "19",
+      "solution": "120=(4x+2)×8/2=16x+8; x=7; larger base=19 cm."
+    }
+  ],
+  "test": [
+    {
+      "index": 1,
+      "difficulty": "Easy",
+      "prompt": "Bases 4,8 cm; height 5 cm. Area in cm²?",
+      "answer": "30",
+      "solution": "A=(4+8)×5/2=30 cm²."
+    },
+    {
+      "index": 2,
+      "difficulty": "Easy / Medium",
+      "prompt": "Area 84 m²; bases 8,16 m. Height in m?",
+      "answer": "7",
+      "solution": "h=168/(8+16)=7 m."
+    },
+    {
+      "index": 3,
+      "difficulty": "Medium",
+      "prompt": "Midsegment 13 cm; height 9 cm. Area in cm²?",
+      "answer": "117",
+      "solution": "A=13×9=117 cm²."
+    },
+    {
+      "index": 4,
+      "difficulty": "Medium / Hard",
+      "prompt": "Trapezoid bases 10,14 m, height 6 m; triangle cutout base 4 m, height 3 m. Area left in m²?",
+      "answer": "66",
+      "solution": "Trapezoid=72; triangle=6; remaining=66 m²."
+    },
+    {
+      "index": 5,
+      "difficulty": "Hard / Exam-Style",
+      "prompt": "Bases x+5 and 2x+7 cm; height 8 cm; area 144 cm². Longer base in cm?",
+      "answer": "23",
+      "solution": "144=(3x+12)×4; x=8; longer base=23 cm."
+    }
+  ]
+}
