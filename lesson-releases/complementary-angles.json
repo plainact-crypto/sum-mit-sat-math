@@ -1,0 +1,17 @@
+{
+  "lesson": "complementary-angles",
+  "builders": [
+    "complementary-angles-lesson223-explanation-build.js",
+    "complementary-angles-lesson223-practice-build.js",
+    "complementary-angles-lesson223-test-build.js",
+    "complementary-angles-lesson223-video-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/lines-and-angles/complementary-angles/explanation/",
+    "/geometry-and-trigonometry/lines-and-angles/complementary-angles/problems/",
+    "/geometry-and-trigonometry/lines-and-angles/complementary-angles/answers/",
+    "/geometry-and-trigonometry/lines-and-angles/complementary-angles/test/",
+    "/geometry-and-trigonometry/lines-and-angles/complementary-angles/video/english/",
+    "/geometry-and-trigonometry/lines-and-angles/complementary-angles/video/arabic/"
+  ]
+}
