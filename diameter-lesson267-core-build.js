@@ -9,6 +9,7 @@ if(['Skill Check','Core Practice','Exam-Style','Challenge'].map(g=>practice.filt
 if(new Set(practice.map(x=>x.question)).size!==18)throw Error('Duplicate questions');
 const verified=[12,9,12,15,20,14,20,10,24,10,18,20,16,15,10,9,4,10];
 practice.forEach((q,i)=>{if(q.number!==i+1||!q.solution||parseFloat(q.answer)!==verified[i])throw Error('Diameter answer QA '+i)});
-write('explanation','<!-- SUMMIT_RETROFIT:diameter:GRAPH -->'+explanation.map(x=>'<h2>'+x.heading+'</h2><p>'+x.text+'</p>').join(''));
+const diagram='<section data-retrofit-graph="true"><h2>Circle diagram</h2><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="black"/><path d="M10 50 H90" stroke="blue"/></svg><p>Circle x²+y²=25: diameter from (-5,0) to (5,0) is 10.</p></section>';
+write('explanation','<!-- SUMMIT_RETROFIT:diameter:GRAPH -->'+explanation.map(x=>'<h2>'+x.heading+'</h2><p>'+x.text+'</p>').join('')+diagram);
 write('problems',practice.map(x=>'<h3>'+x.number+'. '+x.question+'</h3>').join(''));
 write('answers',practice.map(x=>'<h3>'+x.number+'. '+x.answer+'</h3><p>'+x.solution+'</p>').join(''));
