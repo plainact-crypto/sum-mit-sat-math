@@ -1,1 +1,1 @@
-{"lesson_index":293,"slug":"right-triangle-word-problems","worker":"SUMMIT Worker 3","status":"NEW_LOCKED"}
+{"lesson_index":293,"slug":"right-triangle-word-problems","worker":"SUMMIT Worker 3","status":"CORE_COMMITTED_RELEASE_BLOCKED","math_qa":"23/23","practice":18,"answers":18,"test":5,"english_scenes":20,"arabic_scenes":20,"manifest":"lesson-releases/right-triangle-word-problems.json","blockers":["video playback controls","explanation registry","Vercel deployment quota 402; full build unverified"],"production":"NOT_LIVE"}
