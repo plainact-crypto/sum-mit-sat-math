@@ -1,0 +1,23 @@
+[
+  {
+    "number": 16,
+    "group": "Exam-Style",
+    "question": "Circumference is 18π ft. Find radius.",
+    "answer": "9 ft",
+    "solution": "d=18, r=9."
+  },
+  {
+    "number": 17,
+    "group": "Challenge",
+    "question": "Concentric circles have diameters 20 cm and 12 cm. Find radial ring width.",
+    "answer": "4 cm",
+    "solution": "Width=20/2-12/2=4."
+  },
+  {
+    "number": 18,
+    "group": "Challenge",
+    "question": "Diameter endpoints are (-6,8) and (6,-8). Find radius.",
+    "answer": "10 units",
+    "solution": "Diameter=√(12²+16²)=20; radius=10."
+  }
+]
