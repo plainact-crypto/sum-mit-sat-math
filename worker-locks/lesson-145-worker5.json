@@ -1,0 +1,9 @@
+{
+  "lesson_index": 145,
+  "lesson": "linear-quadratic-systems",
+  "worker": "worker5",
+  "branch": "automation/worker5-lesson145-linear-quadratic-systems-20261009",
+  "status": "IN_PROGRESS",
+  "release_gate": "Full repository build, canonical route validation, bilingual narration QA, and production verification required",
+  "updated_at": "2026-10-11"
+}
