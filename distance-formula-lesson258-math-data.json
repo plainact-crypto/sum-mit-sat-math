@@ -28,11 +28,11 @@
     {
       "index": 2,
       "group": "Skill Check",
-      "prompt": "Find the distance between A(1, 2) and B(4, 6).",
-      "answer": "5",
-      "solution": "The changes are Δx=4−1=3 and Δy=6−2=4. Distance=√(9+16)=5 units.",
+      "prompt": "Find the SQUARED distance between A(1, 2) and B(4, 6).",
+      "answer": "25",
+      "solution": "Δx=3 and Δy=4. Squared distance is 3²+4²=9+16=25; do not take the square root because the question asks for d².",
       "qa": {
-        "type": "dist",
+        "type": "dist2",
         "a": [
           1,
           2
@@ -136,9 +136,9 @@
     {
       "index": 8,
       "group": "Core Practice",
-      "prompt": "Find the distance between A(−6, −2) and B(2, 4).",
-      "answer": "10",
-      "solution": "Δx=8 and Δy=6. Distance=√(8²+6²)=√100=10 units.",
+      "prompt": "Find the distance between A(−6, −2) and B(2, 13).",
+      "answer": "17",
+      "solution": "Δx=2−(−6)=8 and Δy=13−(−2)=15. Distance=√(8²+15²)=√289=17 units.",
       "qa": {
         "type": "dist",
         "a": [
@@ -147,7 +147,7 @@
         ],
         "b": [
           2,
-          4
+          13
         ]
       }
     },
@@ -207,9 +207,9 @@
     {
       "index": 12,
       "group": "Exam-Style",
-      "prompt": "Find the distance between A(−5, 7) and B(7, 2).",
-      "answer": "13",
-      "solution": "Δx=7−(−5)=12, Δy=2−7=−5. Distance=√(144+25)=13 units.",
+      "prompt": "Find the distance between A(−5, 7) and B(7, 23).",
+      "answer": "20",
+      "solution": "Δx=7−(−5)=12 and Δy=23−7=16. Distance=√(144+256)=√400=20 units.",
       "qa": {
         "type": "dist",
         "a": [
@@ -218,7 +218,7 @@
         ],
         "b": [
           7,
-          2
+          23
         ]
       }
     },
@@ -368,9 +368,9 @@
     {
       "index": 3,
       "difficulty": "Medium",
-      "prompt": "Find the distance between (2, −3) and (9, 21).",
-      "answer": "25",
-      "solution": "Δx=7, Δy=24; √(49+576)=√625=25.",
+      "prompt": "Find the distance between (2, −3) and (22, 18).",
+      "answer": "29",
+      "solution": "Δx=20 and Δy=21; distance=√(400+441)=√841=29 units.",
       "qa": {
         "type": "dist",
         "a": [
@@ -378,8 +378,8 @@
           -3
         ],
         "b": [
-          9,
-          21
+          22,
+          18
         ]
       }
     },
