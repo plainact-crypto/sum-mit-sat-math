@@ -1,0 +1,12 @@
+[
+  [
+    "LESSON OBJECTIVE",
+    "Read cosine from the x-coordinate of a point on the unit circle.",
+    "For point (cos θ,sin θ), cosine equals x."
+  ],
+  [
+    "CORE IDEA",
+    "The unit circle has center (0,0) and radius 1.",
+    "Every point satisfies x²+y²=1."
+  ]
+]
