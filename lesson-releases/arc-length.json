@@ -1,0 +1,14 @@
+{
+  "lesson": "arc-length",
+  "builders": [
+    "arc-length-lesson272-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/circles/other-circle-leaves/arc-length/explanation/",
+    "/geometry-and-trigonometry/circles/other-circle-leaves/arc-length/problems/",
+    "/geometry-and-trigonometry/circles/other-circle-leaves/arc-length/answers/",
+    "/geometry-and-trigonometry/circles/other-circle-leaves/arc-length/test/",
+    "/geometry-and-trigonometry/circles/other-circle-leaves/arc-length/video/english/",
+    "/geometry-and-trigonometry/circles/other-circle-leaves/arc-length/video/arabic/"
+  ]
+}
