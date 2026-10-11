@@ -1,0 +1,14 @@
+{
+  "lesson": 258,
+  "slug": "distance-formula",
+  "status": "RELEASE_BLOCKED",
+  "math_qa": "23/23 PASS",
+  "build": "npm run build PASS",
+  "routes": "6/6 PASS",
+  "blockers": [
+    "Global retrofit gate fails for existing collinear-points classification marker",
+    "Draft pull request creation rejected by safety checks",
+    "Final commit not verified on production"
+  ],
+  "live_verified": false
+}
