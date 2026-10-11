@@ -1,0 +1,66 @@
+[
+  {
+    "heading": "LESSON OBJECTIVE",
+    "text": "Find a circle's diameter from radius, circumference, area, equation, or the endpoints of a diameter."
+  },
+  {
+    "heading": "WHAT YOU NEED TO KNOW",
+    "text": "A diameter joins two points on a circle and passes through its center. It is the longest chord and consists of two radii."
+  },
+  {
+    "heading": "KEY DEFINITIONS",
+    "text": "Radius r is the center-to-circle distance. Diameter d is the full center-crossing distance. Circumference C is the distance around the circle."
+  },
+  {
+    "heading": "CORE RULE",
+    "text": "d=2r, r=d/2, C=πd, and A=πr². Therefore d=C/π or d=2√(A/π)."
+  },
+  {
+    "heading": "HOW IT WORKS",
+    "text": "Identify whether the given measurement is radius, circumference, area, a circle equation, or two endpoints. Select the corresponding formula and keep units."
+  },
+  {
+    "heading": "WORKED EXAMPLE 1 — RADIUS",
+    "text": "If r=7 cm, d=2(7)=14 cm. The check is 14/2=7."
+  },
+  {
+    "heading": "WORKED EXAMPLE 2 — CIRCUMFERENCE",
+    "text": "If C=18π m, d=C/π=18 m."
+  },
+  {
+    "heading": "WORKED EXAMPLE 3 — AREA",
+    "text": "If A=81π square inches, r²=81, r=9 inches, and d=18 inches."
+  },
+  {
+    "heading": "WORKED EXAMPLE 4 — EQUATION",
+    "text": "For (x−3)²+(y+2)²=25, r=√25=5, so d=10. The center does not affect diameter."
+  },
+  {
+    "heading": "WORKED EXAMPLE 5 — ENDPOINTS",
+    "text": "Diameter endpoints (−3,−4) and (3,4) have distance √(6²+8²)=10. Their midpoint is the center (0,0)."
+  },
+  {
+    "heading": "DETERMINISTIC DIAGRAM",
+    "text": "The circle x²+y²=25 has center (0,0), radius 5, and diameter endpoints (−5,0) and (5,0). Their distance is exactly 10."
+  },
+  {
+    "heading": "COMMON MISTAKES",
+    "text": "Do not confuse radius with diameter or circumference. The diameter is twice the radius. Take the positive square root for radius."
+  },
+  {
+    "heading": "EXAM STRATEGY",
+    "text": "For circumference kπ, diameter is k. For area k²π, diameter is 2k. For endpoints, use the distance formula."
+  },
+  {
+    "heading": "QUICK CHECK",
+    "text": "Radius 4.5 gives diameter 9. Circumference 13π gives diameter 13. Area 36π gives diameter 12."
+  },
+  {
+    "heading": "LESSON RECAP",
+    "text": "The diameter is the longest chord through the center. Use d=2r=C/π=2√(A/π), or the endpoint distance formula."
+  },
+  {
+    "heading": "NEXT STEP",
+    "text": "Complete the 18 practice questions, review 18 aligned solutions, and submit the five-question test. Full English and Arabic lesson routes are provided."
+  }
+]
