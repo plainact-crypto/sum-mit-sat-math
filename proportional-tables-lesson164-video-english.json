@@ -1,0 +1,42 @@
+[
+  [
+    "Proportional tables",
+    "A proportional table uses one fixed multiplier from input x to output y. Today we find that multiplier and complete missing values.",
+    "y=kx"
+  ],
+  [
+    "Check each ratio",
+    "For every row with nonzero input, divide y by x. All ratios must equal the same k. If input is zero, output must be zero.",
+    "k=y/x"
+  ],
+  [
+    "Find the constant",
+    "For pairs (2,6), (4,12), and (7,21), the ratios are all three. So the table follows y equals three x.",
+    "6/2=12/4=21/7=3"
+  ],
+  [
+    "Missing output",
+    "If (3,12) and (5,?) are proportional, k is four and the missing output is twenty.",
+    "k=12/3=4; y=4(5)=20"
+  ],
+  [
+    "Missing input",
+    "If k is three point five and y is twenty-four point five, divide to find x equals seven.",
+    "x=24.5/3.5=7"
+  ],
+  [
+    "Detect an error",
+    "The first two pairs (2,6) and (4,12) give k three. For x six, the output must be eighteen, not nineteen.",
+    "6×3=18"
+  ],
+  [
+    "Desmos visual check",
+    "Enter (1,3), (2,6), and (4,12) into a Desmos table, then enter y equals three x. The points lie on the line through the origin.",
+    "(1,3), (2,6), (4,12); y=3x"
+  ],
+  [
+    "Exam checklist",
+    "Check constant ratios, handle zero rows separately, and use y equals k x. A constant difference alone does not prove proportionality.",
+    "same y/x; zero row (0,0)"
+  ]
+]
