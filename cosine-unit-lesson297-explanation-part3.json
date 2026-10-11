@@ -1,0 +1,37 @@
+[
+  [
+    "DETERMINISTIC UNIT-CIRCLE VISUAL",
+    "The circle x²+y²=1 has cardinal points (1,0),(0,1),(−1,0),(0,−1) and the 120° point (−1/2,√3/2).",
+    "All plotted points satisfy x²+y²=1; cosine is the horizontal coordinate."
+  ],
+  [
+    "DESMOS STRATEGY",
+    "Enter x²+y²=1 and y=√3 x only for a verified reference line, or evaluate cos(120°) directly.",
+    "Look for the 120° terminal x-coordinate −0.5. For exact values, reference-angle reasoning is faster."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not confuse cosine with y, mix radians and degrees, or lose the negative sign in Quadrants II and III.",
+    "The sign of cosine depends on x, not on whether the angle exceeds 90° alone."
+  ],
+  [
+    "EXAM STRATEGY",
+    "Reduce angles modulo 360°, identify the quadrant and reference angle, then select the x-coordinate sign.",
+    "For a known sine coordinate, use x²=1−y² and the quadrant to choose ±x."
+  ],
+  [
+    "QUICK CHECK",
+    "Find cos150° and cos300° without a calculator.",
+    "cos150°=−√3/2; cos300°=+1/2."
+  ],
+  [
+    "LESSON RECAP",
+    "Cosine is x on the unit circle. Quadrants I and IV have positive cosine; II and III have negative cosine.",
+    "x²+y²=1, cos²θ+sin²θ=1, and reference angles determine exact magnitudes."
+  ],
+  [
+    "NEXT STEP",
+    "Work 18 practice questions, review their 18 solutions, complete the five-question test, and watch the English or Arabic full lesson.",
+    "Use the explanation, problems, answers, test and both full-lesson routes."
+  ]
+]
