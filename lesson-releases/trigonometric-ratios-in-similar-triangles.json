@@ -1,5 +1,17 @@
 {
-"lesson":"trigonometric-ratios-in-similar-triangles",
-"builders":["trig-similar-lesson292-explanation-build.js","trig-similar-lesson292-practice-build.js","trig-similar-lesson292-video-build.js"],
-"routes":["/geometry-and-trigonometry/right-triangle-trigonometry/trigonometric-ratios-in-similar-triangles/explanation/","/geometry-and-trigonometry/right-triangle-trigonometry/trigonometric-ratios-in-similar-triangles/problems/","/geometry-and-trigonometry/right-triangle-trigonometry/trigonometric-ratios-in-similar-triangles/answers/","/geometry-and-trigonometry/right-triangle-trigonometry/trigonometric-ratios-in-similar-triangles/test/","/geometry-and-trigonometry/right-triangle-trigonometry/trigonometric-ratios-in-similar-triangles/video/english/","/geometry-and-trigonometry/right-triangle-trigonometry/trigonometric-ratios-in-similar-triangles/video/arabic/"]
+  "lesson": "trigonometric-ratios-in-similar-triangles",
+  "builders": [
+    "trig-similar-lesson292-qa-build.js",
+    "trig-similar-lesson292-explanation-build.js",
+    "trig-similar-lesson292-practice-build.js",
+    "trig-similar-lesson292-video-build.js"
+  ],
+  "routes": [
+    "/geometry-and-trigonometry/right-triangle-trigonometry/trigonometric-ratios-in-similar-triangles/explanation/",
+    "/geometry-and-trigonometry/right-triangle-trigonometry/trigonometric-ratios-in-similar-triangles/problems/",
+    "/geometry-and-trigonometry/right-triangle-trigonometry/trigonometric-ratios-in-similar-triangles/answers/",
+    "/geometry-and-trigonometry/right-triangle-trigonometry/trigonometric-ratios-in-similar-triangles/test/",
+    "/geometry-and-trigonometry/right-triangle-trigonometry/trigonometric-ratios-in-similar-triangles/video/english/",
+    "/geometry-and-trigonometry/right-triangle-trigonometry/trigonometric-ratios-in-similar-triangles/video/arabic/"
+  ]
 }

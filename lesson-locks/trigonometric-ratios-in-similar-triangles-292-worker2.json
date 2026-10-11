@@ -1,12 +1,18 @@
 {
- "lesson_index":292,
- "lesson":"Trigonometric Ratios in Similar Triangles",
- "slug":"trigonometric-ratios-in-similar-triangles",
- "canonical_base":"/geometry-and-trigonometry/right-triangle-trigonometry/trigonometric-ratios-in-similar-triangles",
- "owner":"SUMMIT Worker 2",
- "status":"BLOCKED",
- "branch":"worker2/trigonometric-ratios-in-similar-triangles-292-20261011",
- "explanation_sections":8,
- "blocker":"Repeated content upload rejections.",
- "next_owned_index":297
+  "lesson_index": 292,
+  "lesson": "Trigonometric Ratios in Similar Triangles",
+  "slug": "trigonometric-ratios-in-similar-triangles",
+  "canonical_base": "/geometry-and-trigonometry/right-triangle-trigonometry/trigonometric-ratios-in-similar-triangles",
+  "owner": "SUMMIT Worker 2",
+  "status": "LOCAL_QA_PASSED",
+  "branch": "worker2/trigonometric-ratios-in-similar-triangles-292-20261011",
+  "explanation_sections": 17,
+  "practice": 18,
+  "answers": 18,
+  "test": 5,
+  "english_scenes": 12,
+  "arabic_scenes": 12,
+  "release_manifest": "lesson-releases/trigonometric-ratios-in-similar-triangles.json",
+  "remaining": "Authoritative repository build, Explanation retrofit gate, deployment and live routes.",
+  "next_owned_index": 297
 }
