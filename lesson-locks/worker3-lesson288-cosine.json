@@ -1,0 +1,9 @@
+{
+  "lesson_index": 288,
+  "slug": "cosine",
+  "worker": "SUMMIT Worker 3",
+  "branch": "worker3-lesson288-cosine-20261011",
+  "status": "NEW_LOCKED",
+  "date": "2026-10-11",
+  "notes": "Next owned canonical lesson after 278 and 283 core packages. Required content not yet started; keep separate branch and unique manifest."
+}
