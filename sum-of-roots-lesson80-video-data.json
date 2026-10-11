@@ -1,0 +1,102 @@
+{
+  "english": [
+    [
+      "Goal: sum without solving",
+      "A quadratic equation in standard form is a x squared plus b x plus c equals zero, with a not equal to zero. The sum of its two roots, counted with multiplicity, is negative b divided by a. We can find the sum without calculating each root."
+    ],
+    [
+      "Identify the coefficients",
+      "First arrange the equation as a x squared plus b x plus c equals zero. Read a from the x squared term and b from the x term, including its sign. The constant c does not enter the root-sum formula."
+    ],
+    [
+      "Why the rule works",
+      "If the roots are r one and r two, factor the quadratic as a times x minus r one times x minus r two. Expanding gives the x coefficient negative a times the sum of the roots. Therefore b equals negative a times that sum, so the sum is negative b over a."
+    ],
+    [
+      "Example 1: a positive sum",
+      "For x squared minus seven x plus ten equals zero, a equals one and b equals negative seven. Negative b over a is seven. As a check, the equation factors into x minus two times x minus five, and two plus five is seven."
+    ],
+    [
+      "Example 2: a negative sum",
+      "For three x squared plus twelve x minus eight equals zero, a equals three and b equals twelve. The sum of the roots is negative twelve over three, or negative four. There is no need to calculate the individual roots."
+    ],
+    [
+      "Example 3: a fractional sum",
+      "For two x squared plus five x minus three equals zero, a equals two and b equals five. The sum is negative five halves. Keep the exact fraction rather than rounding to a decimal."
+    ],
+    [
+      "Rearrange before reading coefficients",
+      "If four x squared equals twelve x plus five, move every term to the left to obtain four x squared minus twelve x minus five equals zero. Here a is four and b is negative twelve, so the root sum is three."
+    ],
+    [
+      "Solve for an unknown coefficient",
+      "Suppose two x squared plus k x plus fifteen equals zero has root sum six. The rule gives negative k over two equals six. Multiply by two to get negative k equals twelve, so k equals negative twelve."
+    ],
+    [
+      "Build an equation from its roots",
+      "A monic quadratic has one root four and root sum nine. The other root is five. Multiply x minus four by x minus five to obtain x squared minus nine x plus twenty equals zero. The coefficient of x confirms the root sum."
+    ],
+    [
+      "Exam-style parameter problem",
+      "For p x squared minus eighteen x plus seven equals zero, suppose the sum of the roots is six. Then eighteen divided by p equals six, giving p equals three. Check p is not zero, so the equation remains quadratic."
+    ],
+    [
+      "Desmos as an independent check",
+      "In Desmos, enter y equals x squared minus seven x plus ten. Look for the x intercepts at two and five. Add their x coordinates to get seven. This confirms the rule, but negative b over a is faster when only the sum is needed."
+    ],
+    [
+      "Common mistakes and final check",
+      "Remember the negative sign in negative b over a. Do not use c over a: that gives the product, not the sum. Rewrite into standard form first, keep fractions exact, and verify a is nonzero. Now try eighteen practice questions and the five-question final test."
+    ]
+  ],
+  "arabic": [
+    [
+      "هدف الدرس: مجموع الجذرين",
+      "عندما تكون المعادلة التربيعية على الصورة أ س تربيع زائد ب س زائد ج يساوي صفر، بشرط أن أ لا تساوي صفر، فإن مجموع الجذرين يساوي سالب ب على أ. نستطيع إيجاد المجموع دون حساب كل جذر على حدة."
+    ],
+    [
+      "تحديد المعاملات بدقة",
+      "ابدأ بكتابة المعادلة على الصورة القياسية: أ س تربيع زائد ب س زائد ج يساوي صفر. المعامل أ هو معامل س تربيع، والمعامل ب هو معامل س بإشارته. الحد الثابت ج لا يدخل في قانون مجموع الجذرين."
+    ],
+    [
+      "لماذا يعمل القانون؟",
+      "إذا كان الجذران راء واحد وراء اثنين، يمكن كتابة المقدار التربيعي على صورة أ مضروبة في س ناقص راء واحد، ومضروبة في س ناقص راء اثنين. بعد التوسيع يكون معامل س هو سالب أ مضروباً في مجموع الجذرين؛ ولذلك المجموع يساوي سالب ب على أ."
+    ],
+    [
+      "مثال أول: مجموع موجب",
+      "في المعادلة س تربيع ناقص سبعة س زائد عشرة يساوي صفر، أ تساوي واحداً وب تساوي سالب سبعة. إذن مجموع الجذرين يساوي سبعة. للتحقق، الجذران هما اثنان وخمسة، ومجموعهما سبعة."
+    ],
+    [
+      "مثال ثان: مجموع سالب",
+      "في المعادلة ثلاثة س تربيع زائد اثني عشر س ناقص ثمانية يساوي صفر، أ تساوي ثلاثة وب تساوي اثني عشر. مجموع الجذرين هو سالب اثني عشر على ثلاثة، أي سالب أربعة، دون الحاجة إلى حل المعادلة بالكامل."
+    ],
+    [
+      "مثال ثالث: مجموع كسري",
+      "في المعادلة اثنان س تربيع زائد خمسة س ناقص ثلاثة يساوي صفر، أ تساوي اثنين وب تساوي خمسة. مجموع الجذرين يساوي سالب خمسة على اثنين. احتفظ بالكسر في صورته الدقيقة ولا تقربه إلى عدد عشري."
+    ],
+    [
+      "رتب المعادلة أولاً",
+      "إذا كانت أربعة س تربيع تساوي اثني عشر س زائد خمسة، انقل الحدود إلى طرف واحد. تصبح أربعة س تربيع ناقص اثني عشر س ناقص خمسة يساوي صفر. الآن أ تساوي أربعة وب تساوي سالب اثني عشر، فالمجموع يساوي ثلاثة."
+    ],
+    [
+      "إيجاد معامل مجهول",
+      "إذا كان مجموع جذري المعادلة اثنان س تربيع زائد كاف س زائد خمسة عشر يساوي صفر هو ستة، فإن سالب كاف على اثنين يساوي ستة. نضرب في اثنين فنحصل على سالب كاف يساوي اثني عشر، وبالتالي كاف تساوي سالب اثني عشر."
+    ],
+    [
+      "تكوين معادلة من الجذور",
+      "معادلة تربيعية معامل س تربيع فيها واحد، وأحد جذريها أربعة، ومجموع الجذرين تسعة. إذن الجذر الآخر خمسة. نضرب س ناقص أربعة في س ناقص خمسة فنحصل على س تربيع ناقص تسعة س زائد عشرين يساوي صفر."
+    ],
+    [
+      "مسألة امتحانية بمعامل مجهول",
+      "في المعادلة باء س تربيع ناقص ثمانية عشر س زائد سبعة يساوي صفر، إذا كان مجموع الجذرين ستة، فإن ثمانية عشر على باء يساوي ستة. إذن باء تساوي ثلاثة. تحقق أن المعامل ليس صفراً لتبقى المعادلة تربيعية."
+    ],
+    [
+      "استخدام ديسموس للتحقق",
+      "في ديسموس اكتب ص يساوي س تربيع ناقص سبعة س زائد عشرة. لاحظ نقطتي تقاطع المنحنى مع محور س عند اثنين وخمسة. مجموع الإحداثيين يساوي سبعة. هذا تحقق جيد، لكن قانون سالب ب على أ أسرع عندما يكون المطلوب المجموع فقط."
+    ],
+    [
+      "أخطاء شائعة ومراجعة نهائية",
+      "لا تنس إشارة السالب في القانون. ولا تستخدم ج على أ، فهذا يعبر عن حاصل ضرب الجذرين لا مجموعهما. رتب المعادلة أولاً، واحتفظ بالكسور الدقيقة، وتأكد أن أ لا تساوي صفراً. انتقل الآن إلى ثمانية عشر تدريباً ثم اختبار من خمسة أسئلة."
+    ]
+  ]
+}
