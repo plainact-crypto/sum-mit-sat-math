@@ -1,0 +1,5 @@
+{
+  "lesson": "sine",
+  "builders": ["sine-lesson287-qa-build.js", "sine-lesson287-core-build.js", "sine-lesson287-video-build.js"],
+  "routes": ["/geometry-and-trigonometry/right-triangle-trigonometry/sine/explanation/", "/geometry-and-trigonometry/right-triangle-trigonometry/sine/problems/", "/geometry-and-trigonometry/right-triangle-trigonometry/sine/answers/", "/geometry-and-trigonometry/right-triangle-trigonometry/sine/test/", "/geometry-and-trigonometry/right-triangle-trigonometry/sine/video/english/", "/geometry-and-trigonometry/right-triangle-trigonometry/sine/video/arabic/"]
+}
