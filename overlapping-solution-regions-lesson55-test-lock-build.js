@@ -1,0 +1,13 @@
+'use strict';
+const fs=require('fs'),path=require('path');
+const relative='algebra/systems-of-linear-inequalities/overlapping-solution-regions/test/index.html';
+const file=path.join(__dirname,'dist',relative);
+if(!fs.existsSync(file))throw Error('Missing lesson test: '+relative);
+let html=fs.readFileSync(file,'utf8');
+const original="document.getElementById('submit').onclick=()=>{let score=0;";
+const replacement="let submitted=false;document.getElementById('submit').onclick=()=>{if(submitted)return;submitted=true;const button=document.getElementById('submit');button.disabled=true;button.textContent='Test Submitted';document.querySelectorAll('input[type=\"radio\"]').forEach(x=>x.disabled=true);let score=0;";
+if(html.includes(original))html=html.replace(original,replacement);
+else if(!html.includes('if(submitted)return;submitted=true;'))throw Error('Unexpected test submission hook');
+if(!html.includes('const qs=')||!html.includes('Submit Test'))throw Error('Unexpected test content');
+fs.writeFileSync(file,html);
+console.log('Lesson 55 submit-once test verified');
