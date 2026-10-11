@@ -1,0 +1,61 @@
+{
+  "worker": "SUMMIT Worker 5",
+  "index": 90,
+  "slug": "y-intercept",
+  "checked": "2026-10-11",
+  "math": {
+    "practice": 18,
+    "groups": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answers": 18,
+    "test": 5,
+    "independent_checks_passed": 23,
+    "source": "content-qa/worker5-lesson90-y-intercept-20261011.json"
+  },
+  "explanation": {
+    "classification": "DESMOS",
+    "registry_entry": "explanation-retrofit-registry.js",
+    "desmos_cross_check": "f(0)=7 for 2x²-5x+7; y-intercept (0,7)",
+    "graph_required": false
+  },
+  "video": {
+    "english_chapters": 12,
+    "arabic_chapters": 12,
+    "player": "Browser speech synthesis with synchronized chapter captions",
+    "short_form": false
+  },
+  "test": {
+    "submit_once": true,
+    "disables_inputs": true,
+    "idempotence_runs": 2,
+    "fixture_passed": true
+  },
+  "release": {
+    "manifest": "lesson-releases/y-intercept.json",
+    "canonical_routes": [
+      "/advanced-math/quadratic-functions/standard-form/y-intercept/explanation/",
+      "/advanced-math/quadratic-functions/standard-form/y-intercept/problems/",
+      "/advanced-math/quadratic-functions/standard-form/y-intercept/answers/",
+      "/advanced-math/quadratic-functions/standard-form/y-intercept/test/",
+      "/advanced-math/quadratic-functions/standard-form/y-intercept/video/english/",
+      "/advanced-math/quadratic-functions/standard-form/y-intercept/video/arabic/"
+    ],
+    "isolated_fixture_routes_passed": 6,
+    "builder_syntax_passed": 4
+  },
+  "status": "ISOLATED_FIXTURE_PASS_FULL_REPOSITORY_BUILD_PENDING",
+  "pending": [
+    "npm run build on full repository",
+    "npm run qa on full repository",
+    "six generated dist routes verified in full build",
+    "Vercel preview checks",
+    "safe merge to main",
+    "Vercel production READY for merged SHA",
+    "six live routes on summit.plain-act.com",
+    "announcement email only after LIVE_VERIFIED"
+  ]
+}
