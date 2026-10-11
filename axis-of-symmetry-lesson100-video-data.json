@@ -1,0 +1,102 @@
+{
+  "english": [
+    [
+      "Objective",
+      "In this lesson you will find the axis of symmetry of a quadratic graph. For a parabola written as y equals a x squared plus b x plus c, with a not zero, the axis is the vertical line x equals negative b divided by two a. You will also identify it from roots and vertex form."
+    ],
+    [
+      "Why symmetry matters",
+      "A parabola has mirror symmetry. Points equally far to the left and right of the vertical axis have equal output values. The vertex lies on this line. The axis is an equation of a line, not merely the numerical x-coordinate of the vertex."
+    ],
+    [
+      "Read the coefficients",
+      "First arrange the quadratic in standard form: y equals a x squared plus b x plus c. The coefficient a belongs to x squared, b belongs to x, and c is the constant. Include each sign when identifying coefficients. The constant does not change the axis."
+    ],
+    [
+      "Derive the formula",
+      "Completing the square shows why the axis is x equals negative b over two a. Factor a from the quadratic and complete the square to get a times the square of x plus b over two a, plus a constant. The square is centered at negative b over two a."
+    ],
+    [
+      "First worked example",
+      "Consider y equals x squared minus six x plus five. Here a is one and b is negative six. Negative b divided by two a is positive six divided by two, which is three. The axis is x equals three. Check: at x two and x four, y is negative three in both cases."
+    ],
+    [
+      "Negative coefficient",
+      "For y equals negative two x squared plus eight x plus one, a is negative two and b is eight. The axis is x equals negative eight divided by negative four, which is two. The graph opens downward, but its axis is still a vertical line."
+    ],
+    [
+      "Fractional axis",
+      "For y equals three x squared plus five x minus four, the axis is x equals negative five over six. Do not round this fraction unless the question explicitly requests a decimal. A negative axis location is perfectly valid."
+    ],
+    [
+      "Roots midpoint",
+      "If a parabola has two real roots, the axis lies halfway between them. For roots negative one and seven, compute their average: negative one plus seven, divided by two, equals three. The axis is x equals three, whether the parabola opens upward or downward."
+    ],
+    [
+      "Vertex form",
+      "In vertex form y equals a times the square of x minus h, plus k, the axis is x equals h. For y equals seven times the square of x minus six, minus two, the axis is x equals six. For x plus five inside the square, h is negative five."
+    ],
+    [
+      "Unknown coefficient",
+      "Suppose y equals two x squared plus b x plus seven has axis x equals three. Substitute into the rule: three equals negative b divided by four. Multiply both sides by four to obtain twelve equals negative b, so b equals negative twelve."
+    ],
+    [
+      "Desmos and errors",
+      "In Desmos enter y equals x squared minus six x plus five. Look for the vertex at x equals three and the equal heights at x two and four. The formula is faster for a quadratic already in standard form. Common errors include losing the minus sign and writing only three instead of x equals three."
+    ],
+    [
+      "Review and next steps",
+      "Remember three equivalent methods: use negative b over two a in standard form, read h in vertex form, or average two real roots. Practice with positive, negative, and fractional answers. Then attempt eighteen practice questions, review their worked solutions, and complete the five-question test."
+    ]
+  ],
+  "arabic": [
+    [
+      "هدف الدرس",
+      "في هذا الدرس ستتعلم تحديد محور تماثل القطع المكافئ. عندما تكون الدالة التربيعية على الصورة ص = أ س تربيع + ب س + ج، وأ لا تساوي صفراً، يكون محور التماثل هو المستقيم الرأسي س = سالب ب مقسوماً على اثنين أ."
+    ],
+    [
+      "معنى التماثل",
+      "القطع المكافئ شكل متناظر حول مستقيم رأسي يمر برأس المنحنى. إذا اخترت نقطتين على البعد الأفقي نفسه يمين المحور ويساره فستحصل على القيمة نفسها للدالة. انتبه إلى أن الإجابة معادلة مستقيم وليست مجرد عدد."
+    ],
+    [
+      "تحديد المعاملات",
+      "ابدأ بكتابة المعادلة بالصورة القياسية ص = أ س تربيع + ب س + ج. أ هو معامل س تربيع، وب معامل س، وج الحد الثابت. احتفظ بالإشارة السالبة إن وجدت عند تحديد المعاملات؛ فالحد الثابت لا يؤثر في موضع المحور."
+    ],
+    [
+      "سبب القانون",
+      "يمكن فهم القانون بإكمال المربع؛ فعند تحويل الدالة التربيعية إلى صورة الرأس نجد أن مربع التعبير يتمركز عند س = سالب ب على اثنين أ. ولهذا يمر محور التماثل برأس المنحنى عند هذه القيمة من س."
+    ],
+    [
+      "مثال أول",
+      "للدالة ص = س تربيع ناقص ستة س زائد خمسة، لدينا أ يساوي واحداً وب يساوي سالب ستة. إذن س = سالب سالب ستة على اثنين، أي ثلاثة. للتحقق، عند س يساوي اثنين وأربعة نحصل في الحالتين على ص يساوي سالب ثلاثة."
+    ],
+    [
+      "معامل رئيسي سالب",
+      "للدالة ص = سالب اثنين س تربيع زائد ثمانية س زائد واحد، أ يساوي سالب اثنين وب يساوي ثمانية. نحسب سالب ثمانية على سالب أربعة فنحصل على اثنين. رغم أن المنحنى مفتوح لأسفل فإن محور التماثل يظل رأسياً."
+    ],
+    [
+      "محور كسري",
+      "للدالة ص = ثلاثة س تربيع زائد خمسة س ناقص أربعة، نجد أن محور التماثل هو س = سالب خمسة على ستة. احتفظ بالكسر في صورته الدقيقة ولا تقربه إلى عدد عشري إلا إذا طلب السؤال ذلك صراحة."
+    ],
+    [
+      "منتصف الجذرين",
+      "إذا كان للقطع المكافئ جذران حقيقيان، فإن محور التماثل يقع في منتصف المسافة بينهما. للجذرين سالب واحد وسبعة نحسب مجموعهما ستة ثم نقسم على اثنين، فنحصل على ثلاثة. إذن المحور هو س = ثلاثة."
+    ],
+    [
+      "صيغة الرأس",
+      "إذا كتبت الدالة على صورة ص = أ مضروباً في مربع س ناقص هـ، زائد ك، فإن المحور هو س = هـ مباشرة. مثلاً مربع س ناقص ستة يعطينا س = ستة، بينما مربع س زائد خمسة يعطينا س = سالب خمسة."
+    ],
+    [
+      "معامل مجهول",
+      "إذا كان محور الدالة ص = اثنان س تربيع زائد ب س زائد سبعة هو س = ثلاثة، فإن ثلاثة تساوي سالب ب على أربعة. بضرب الطرفين في أربعة نحصل على اثني عشر يساوي سالب ب، ومن ثم ب يساوي سالب اثني عشر."
+    ],
+    [
+      "ديسموس والأخطاء",
+      "اكتب في ديسموس الدالة ص = س تربيع ناقص ستة س زائد خمسة. لاحظ الرأس عند س = ثلاثة وتساوي الارتفاع عند س = اثنين وس = أربعة. الحساب المباشر بالقانون أسرع هنا. تجنب نسيان السالب، واكتب س = ثلاثة بدلاً من العدد وحده."
+    ],
+    [
+      "المراجعة والخطوة التالية",
+      "تذكر ثلاث طرق متكافئة: قانون سالب ب على اثنين أ في الصورة القياسية، أو قراءة هـ من صيغة الرأس، أو حساب متوسط الجذرين الحقيقيين. تدرب على إشارات المعاملات والكسور، ثم حل ثمانية عشر سؤالاً وراجع الحلول وأكمل اختبار الأسئلة الخمسة."
+    ]
+  ]
+}
