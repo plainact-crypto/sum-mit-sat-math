@@ -1,0 +1,62 @@
+[
+  [
+    "WORKED EXAMPLE 1 — FIND A SINE RATIO",
+    "A right triangle has an opposite leg of 6 and hypotenuse of 10 relative to angle θ.",
+    "sin θ=6/10=3/5=0.6. The adjacent leg is 8 because 6²+8²=10²."
+  ],
+  [
+    "WORKED EXAMPLE 2 — FIND THE OPPOSITE SIDE",
+    "An acute angle measures 30° and the hypotenuse is 14.",
+    "sin 30°=1/2, so opposite=14(1/2)=7. Check: 7/14=0.5."
+  ],
+  [
+    "WORKED EXAMPLE 3 — FIND THE HYPOTENUSE",
+    "The opposite side is 9 and sin θ=3/5.",
+    "9/H=3/5, so H=9·5/3=15. The ratio 9/15=3/5 verifies the result."
+  ],
+  [
+    "WORKED EXAMPLE 4 — ANGLE FROM A RATIO",
+    "A right triangle has opposite leg 12 and hypotenuse 13. Find θ to the nearest tenth of a degree.",
+    "sin θ=12/13, so θ=arcsin(12/13)≈67.4°. Check 0°<θ<90°."
+  ],
+  [
+    "WORKED EXAMPLE 5 — HEIGHT IN CONTEXT",
+    "A 20-meter ramp makes a 15° angle with horizontal ground. Find its vertical rise to the nearest tenth.",
+    "Rise=20 sin 15°≈20(0.258819)=5.2 meters. The ramp length is the hypotenuse."
+  ],
+  [
+    "DETERMINISTIC RIGHT-TRIANGLE VISUAL",
+    "Represent a 3–4–5 right triangle with exact vertices A=(0,0), B=(4,0), C=(4,3), right angle at B and θ at A.",
+    "Relative to θ, opposite BC=3 and hypotenuse AC=5, so sin θ=3/5. Render from these coordinates, not a decorative approximation."
+  ],
+  [
+    "DESMOS STRATEGY",
+    "Enter y=sin(x) in degree mode, or evaluate sin(30°) directly. For inverse sine, enter arcsin(12/13) in degree mode.",
+    "Look for sin(30°)=0.5 and arcsin(12/13)≈67.4°. Use the ratio to compute a side or verify an angle. Why: sine is opposite/hypotenuse. Faster or not? Exact 30° values are faster by memory; inverse sine is faster with a calculator."
+  ],
+  [
+    "COMMON MISTAKES",
+    "Do not divide by the adjacent side: that gives tangent, not sine. Identify the reference angle before naming the opposite side.",
+    "The hypotenuse is always opposite 90°. Ensure degree mode for degree answers; sin 30 radians is not 1/2."
+  ],
+  [
+    "EXAM STRATEGY",
+    "Sketch and label the angle, opposite leg, and hypotenuse; write sin θ=O/H before inserting numbers.",
+    "If solving for H, divide O by sin θ. If solving for O, multiply H by sin θ. Round only at the end."
+  ],
+  [
+    "QUICK CHECK",
+    "For a 5–12–13 right triangle, find sin θ when the opposite side is 5. For θ=30° and H=18, find the opposite side.",
+    "Answers: 5/13 and 9. Try both before revealing."
+  ],
+  [
+    "LESSON RECAP",
+    "Sine relates the opposite leg to the hypotenuse in a right triangle. It is positive and less than 1 for acute angles.",
+    "sin θ=O/H; O=H sin θ; H=O/sin θ; θ=arcsin(O/H) when the angle is unknown."
+  ],
+  [
+    "NEXT STEP",
+    "Apply the sine ratio to the 18 practice problems, check the 18 worked solutions, then take the five-question test.",
+    "Review the full English or Arabic lesson route if you need another walkthrough."
+  ]
+]
