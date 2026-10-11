@@ -1,0 +1,11 @@
+'use strict';
+const {data,esc,page,write}=require('./cosine-lesson288-common.js');
+require('./cosine-lesson288-math-qa.js');
+const headings={0:'Skill Check',3:'Core Practice',11:'Exam-Style Practice',16:'Challenge Problems'};
+const head=i=>headings[i]?'<h2>'+headings[i]+'</h2>':'';
+const problems=data.practice.map((q,i)=>head(i)+'<section class="lesson-section" data-question="'+q.index+'"><h3>Question '+q.index+'</h3><p>'+esc(q.prompt)+'</p><label>Answer: <input type="number" step="any" data-answer="'+q.answer+'"></label> <button type="button">Check</button> <span role="status"></span></section>').join('');
+const feedback='<script>document.querySelectorAll("[data-question]").forEach(s=>{const inp=s.querySelector("input");s.querySelector("button").onclick=()=>{const n=Number(inp.value);s.querySelector("[role=status]").textContent=inp.value.trim()!==""&&Number.isFinite(n)&&Math.abs(n-Number(inp.dataset.answer))<=0.00501?"Correct.":"Try again: apply cosine = adjacent / hypotenuse."}})</script>';
+write('problems',page('Practice Problems','<p>18 questions: 3 Skill Check, 8 Core, 5 Exam-Style, 2 Challenge. Round to hundredths.</p>'+problems+feedback));
+const answers=data.practice.map((q,i)=>head(i)+'<section class="lesson-section"><h3>Solution '+q.index+'</h3><p>'+esc(q.prompt)+'</p><p>'+esc(q.solution)+'</p><strong>Answer: '+q.answer+'</strong></section>').join('');
+write('answers',page('Answers and Solutions',answers));
+console.log('Lesson 288: 18 practice and 18 aligned solutions');
