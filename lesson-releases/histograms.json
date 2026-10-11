@@ -1,0 +1,14 @@
+{
+  "lesson": "histograms",
+  "builders": [
+    "histograms-lesson182-build.js"
+  ],
+  "routes": [
+    "/problem-solving-and-data-analysis/one-variable-data/histograms/explanation/",
+    "/problem-solving-and-data-analysis/one-variable-data/histograms/problems/",
+    "/problem-solving-and-data-analysis/one-variable-data/histograms/answers/",
+    "/problem-solving-and-data-analysis/one-variable-data/histograms/test/",
+    "/problem-solving-and-data-analysis/one-variable-data/histograms/video/english/",
+    "/problem-solving-and-data-analysis/one-variable-data/histograms/video/arabic/"
+  ]
+}
