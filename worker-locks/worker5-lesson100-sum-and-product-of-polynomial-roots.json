@@ -1,0 +1,10 @@
+{
+  "worker": "worker5",
+  "lesson_index": 100,
+  "lesson": "Sum and Product of Polynomial Roots",
+  "slug": "sum-and-product-of-polynomial-roots",
+  "branch": "automation/worker5-lesson100-sum-product-polynomial-roots-20261011",
+  "status": "IN_PROGRESS",
+  "created_at": "2026-10-11",
+  "note": "Canonical index verified against the 298-leaf curriculum; previous axis-of-symmetry lesson100 branch is not canonical index 100."
+}
