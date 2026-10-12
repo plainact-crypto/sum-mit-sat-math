@@ -1,0 +1,103 @@
+{
+  "lesson": "positive-slope",
+  "english": [
+    [
+      "Introduction",
+      "Positive slope means y increases as x increases; the line rises from left to right."
+    ],
+    [
+      "Sign",
+      "A positive slope is greater than zero. Horizontal lines have slope zero; descending lines have negative slope."
+    ],
+    [
+      "Formula",
+      "The slope is y two minus y one divided by x two minus x one. Keep point order consistent."
+    ],
+    [
+      "Example 1",
+      "Points (1,3) and (5,11) have rise 8 and run 4, so slope equals 2."
+    ],
+    [
+      "Example 2",
+      "Points (-2,1) and (4,4) have rise 3 and run 6, so slope equals one half."
+    ],
+    [
+      "Reverse order",
+      "From (6,9) to (2,1), both differences are negative. Negative 8 divided by negative 4 is positive 2."
+    ],
+    [
+      "Equation",
+      "In y equals m x plus b, the coefficient m is the slope. For y equals 3.5 x minus 8, m equals 3.5."
+    ],
+    [
+      "Table",
+      "From (0,7) to (2,13), rise is 6 and run is 2, giving slope 3. The next interval agrees."
+    ],
+    [
+      "Context",
+      "A tank grows from 18 liters at minute 2 to 42 liters at minute 8. The rate is 24 divided by 6, or 4 liters per minute."
+    ],
+    [
+      "Graph",
+      "For y equals 2x plus 1, verify points (0,1), (1,3), and (2,5). The line rises 2 for every 1 right."
+    ],
+    [
+      "Desmos and exams",
+      "Graph y equals 2x plus 1 in Desmos to confirm the positive direction. Predict the sign and check units before answering."
+    ],
+    [
+      "Quick check",
+      "From (0,1) to (3,10), slope equals 9 divided by 3, or 3. Continue to Practice, Answers, and the Test."
+    ]
+  ],
+  "arabic": [
+    [
+      "مقدمة",
+      "الميل الموجب معناه إن صاد بتزيد لما سين تزيد. الخط بيطلع من الشمال لليمين."
+    ],
+    [
+      "الإشارة",
+      "الميل الموجب أكبر من صفر. الخط الأفقي ميله صفر، والخط اللي بينزل ميله سالب."
+    ],
+    [
+      "القانون",
+      "الميل يساوي فرق صاد على فرق سين. لازم نحافظ على نفس ترتيب النقط في الطرح."
+    ],
+    [
+      "مثال أول",
+      "النقطتين واحد وثلاثة، وخمسة وحداشر. فرق صاد تمانية وفرق سين أربعة. الميل اتنين."
+    ],
+    [
+      "مثال تاني",
+      "من سالب اتنين وواحد لأربعة وأربعة، فرق صاد تلاتة وفرق سين ستة. الميل نص."
+    ],
+    [
+      "عكس الترتيب",
+      "من ستة وتسعة لاتنين وواحد، الفرقين سالب. سالب تمانية على سالب أربعة يساوي موجب اتنين."
+    ],
+    [
+      "المعادلة",
+      "في صاد يساوي ميم سين زائد باء، معامل سين هو الميل. لو المعامل تلاتة ونص، الميل موجب."
+    ],
+    [
+      "الجدول",
+      "من صفر وسبعة لاتنين وتلتاشر، فرق صاد ستة وفرق سين اتنين. الميل تلاتة."
+    ],
+    [
+      "المسألة الكلامية",
+      "الخزان زاد من تمنتاشر لتر بعد دقيقتين لاتنين وأربعين لتر بعد تمانية دقايق. المعدل أربعة لتر في الدقيقة."
+    ],
+    [
+      "الرسم",
+      "في صاد يساوي اتنين سين زائد واحد، راجع النقط صفر وواحد، وواحد وتلاتة، واتنين وخمسة."
+    ],
+    [
+      "ديزموس والامتحان",
+      "ارسم المعادلة في ديزموس للتأكد إن الخط بيطلع. توقع إشارة الميل وراجع الوحدة قبل الإجابة."
+    ],
+    [
+      "تدريب سريع",
+      "من صفر وواحد لتلاتة وعشرة، فرق صاد تسعة وفرق سين تلاتة. الميل تلاتة. كمل التدريب والحلول والاختبار."
+    ]
+  ]
+}
