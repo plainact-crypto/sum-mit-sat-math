@@ -1,0 +1,23 @@
+{
+  "lesson": "finding-x-intercept",
+  "index": 12,
+  "owner": "worker2",
+  "status": "INCOMPLETE",
+  "qa": {
+    "practice": 18,
+    "groups": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "aligned_answers": 18,
+    "test": 5,
+    "independent_math_checks": 23,
+    "english_chapters": 12,
+    "arabic_chapters": 12
+  },
+  "release_manifest": "lesson-releases/finding-x-intercept.json",
+  "blocker": "Vercel daily deployment quota 402; authoritative build and live route verification pending",
+  "live_verified": false
+}
