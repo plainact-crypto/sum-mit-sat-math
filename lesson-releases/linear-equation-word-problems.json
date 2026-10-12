@@ -1,0 +1,15 @@
+{
+  "lesson": "linear-equation-word-problems",
+  "builders": [
+    "linear-equation-word-problems-lesson7-math-qa-build.js",
+    "linear-equation-word-problems-lesson7-video-build.js"
+  ],
+  "routes": [
+    "/algebra/linear-equations-in-one-variable/linear-equation-word-problems/explanation/",
+    "/algebra/linear-equations-in-one-variable/linear-equation-word-problems/problems/",
+    "/algebra/linear-equations-in-one-variable/linear-equation-word-problems/answers/",
+    "/algebra/linear-equations-in-one-variable/linear-equation-word-problems/test/",
+    "/algebra/linear-equations-in-one-variable/linear-equation-word-problems/video/english/",
+    "/algebra/linear-equations-in-one-variable/linear-equation-word-problems/video/arabic/"
+  ]
+}
