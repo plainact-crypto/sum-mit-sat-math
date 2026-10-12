@@ -1,0 +1,50 @@
+[
+  [
+    "Why graph a system?",
+    "A system of linear equations asks for ordered pairs that satisfy both equations. On a coordinate plane, those pairs appear where the graphs meet. The intersection is a solution because it lies on both lines."
+  ],
+  [
+    "Read coordinates correctly",
+    "Read a plotted point as x comma y. First move horizontally to find x, then vertically to find y. A guessed crossing is not enough: always check the ordered pair in both original equations."
+  ],
+  [
+    "First worked intersection",
+    "Graph y equals x plus 1 and y equals negative x plus 5. Set the outputs equal: x plus 1 equals negative x plus 5. Then 2x equals 4, so x equals 2 and y equals 3."
+  ],
+  [
+    "Verify the first example",
+    "At x equals 2, the first line gives y equals 3. The second gives negative 2 plus 5 equals 3. Therefore 2 comma 3 is on both lines and is the exact solution."
+  ],
+  [
+    "Plot lines accurately",
+    "For y equals m x plus b, start at the y intercept b, then use slope m as rise over run. For each line, check three plotted points by substituting their x coordinates into the equation."
+  ],
+  [
+    "Second worked intersection",
+    "Graph y equals 2x minus 1 and y equals x plus 2. The graphs meet at 3 comma 5. Verify: 2 times 3 minus 1 equals 5, and 3 plus 2 equals 5."
+  ],
+  [
+    "When lines are parallel",
+    "Two distinct lines with equal slopes do not cross. For example, y equals 4x plus 1 and y equals 4x minus 6 have the same slope and different intercepts, so there is no solution."
+  ],
+  [
+    "When lines coincide",
+    "If the equations describe the same line, every point on that line is shared. For example, 2y equals 6x plus 4 simplifies to y equals 3x plus 2. With that same second equation, there are infinitely many solutions."
+  ],
+  [
+    "Fractional-slope example",
+    "Graph y equals one third x plus 2 and y equals negative two thirds x plus 5. Equate the outputs. One third x plus 2 equals negative two thirds x plus 5. Therefore x equals 3 and y equals 3."
+  ],
+  [
+    "Desmos strategy",
+    "Enter y equals 2x plus 1 and y equals negative x plus 7 on separate Desmos lines. Look for their intersection at 2 comma 5. Use the coordinate as the solution, then verify by substitution. Desmos is often faster for awkward graph scales; exact algebra can be faster for simple integers."
+  ],
+  [
+    "Avoid common mistakes",
+    "Do not confuse the x and y coordinates. Do not pick a point that lies on only one graph. Parallel lines have no intersection, while equivalent equations overlap everywhere. Verify exact coordinates rather than rounding a sketch."
+  ],
+  [
+    "Quick check and practice",
+    "The graphs y equals x plus 2 and y equals negative x plus 6 meet at 2 comma 4. Both equations give 4 when x is 2. Continue to the eighteen practice questions, aligned solutions, and five-question lesson test."
+  ]
+]
