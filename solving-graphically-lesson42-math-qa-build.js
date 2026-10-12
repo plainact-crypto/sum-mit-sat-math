@@ -11,7 +11,7 @@ const eq=(a,b)=>Math.abs(a-b)<1e-10;
 const proof=[eq(3,2+1)&&eq(3,-2+5),eq(5,2*3-1)&&eq(5,3+2),eq(2,-2+4)&&eq(2,.5*2+1),eq(5,3*3-4)&&eq(5,-3+8),eq(4,.5*4+2)&&eq(4,-4+8),eq(1,-2*3+7)&&eq(1,3-2),eq(3,3/3+2)&&eq(3,-2*3/3+5),4===4&&1!==-6,eq(2*(3*1+2),6*1+4),eq(2+4,6)&&eq(4,2*2),eq(2*3-5,1)&&eq(3+5,8),eq(15+4*6,27+2*6),eq(1.5*6+3,.5*6+9),eq(5,5)&&eq(-2,-2),eq(-.25*8+7,.5*8+1),eq((5-(-1))/(3-0),2)&&5!==-1,eq(.75*4-2,-.5*4+3),eq(1*2+4,6)&&eq(-2*2+10,6)];
 const testProof=[eq(2+2,-2+6),1===1&&2!==3,eq(2*3-3,-3+6),eq(.75*8+2,-.25*8+10),eq(12*6+18,8*6+42)];
 if(proof.some(x=>!x)||testProof.some(x=>!x))throw Error('Independent algebra QA failed');
-const answers=read('answers');const finals=[...answers.matchAll(/<div class="final">Answer:\s*([A-D])\)\s*([^<]+)<\/div>/g)];
+const answers=read('answers');const heads=[...answers.matchAll(/<div class="answer"><h3>(\d+)\.\s*([^<]+)<\/h3>/g)];if(heads.length!==18||heads.some((h,i)=>Number(h[1])!==i+1||h[2]!==practice[i][0]))throw Error('Practice/Answers exact statement alignment failed');const finals=[...answers.matchAll(/<div class="final">Answer:\s*([A-D])\)\s*([^<]+)<\/div>/g)];
 if(finals.length!==18)throw Error('18 aligned worked answers required; found '+finals.length);
 for(let i=0;i<18;i++){
  const [q,expectedAnswer]=[practice[i],expected[i]];const actual=q[1][q[2]];
