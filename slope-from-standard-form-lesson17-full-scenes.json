@@ -1,0 +1,105 @@
+{
+  "lesson": "slope-from-standard-form",
+  "index": 17,
+  "format": "full-lesson",
+  "english": [
+    [
+      "Objective",
+      "Find slope from Ax+By=C."
+    ],
+    [
+      "Meaning",
+      "Slope measures change in y per unit x."
+    ],
+    [
+      "Rule",
+      "The slope is -A/B when B is not zero."
+    ],
+    [
+      "Why",
+      "Rearrange as y=(-A/B)x+C/B."
+    ],
+    [
+      "Example 1",
+      "3x+4y=20 has slope -3/4."
+    ],
+    [
+      "Example 2",
+      "-5x+2y=8 has slope 5/2."
+    ],
+    [
+      "Signs",
+      "Same-sign coefficients give negative slope."
+    ],
+    [
+      "Special lines",
+      "2y=18 has slope zero; 5x=25 has undefined slope."
+    ],
+    [
+      "Fractions",
+      "(3/2)x-(9/4)y=6 has slope 2/3."
+    ],
+    [
+      "Application",
+      "5t+2T=60 gives slope -5/2 degrees per hour."
+    ],
+    [
+      "Desmos",
+      "Graph 3x+4y=20 and verify slope -3/4."
+    ],
+    [
+      "Recap",
+      "Find A and B, compute -A/B, check signs."
+    ]
+  ],
+  "arabic": [
+    [
+      "الهدف",
+      "إيجاد الميل من Ax+By=C."
+    ],
+    [
+      "المعنى",
+      "الميل هو تغير صاد لكل وحدة من سين."
+    ],
+    [
+      "القاعدة",
+      "الميل يساوي سالب ألف على باء إذا لم تكن باء صفراً."
+    ],
+    [
+      "السبب",
+      "أعد ترتيب المعادلة إلى صيغة صاد بدلالة سين."
+    ],
+    [
+      "مثال أول",
+      "3x+4y=20 ميلها سالب ثلاثة أرباع."
+    ],
+    [
+      "مثال ثان",
+      "-5x+2y=8 ميلها موجب خمسة أنصاف."
+    ],
+    [
+      "الإشارات",
+      "إذا اتفقت إشارتا المعاملين فالميل سالب."
+    ],
+    [
+      "حالات خاصة",
+      "2y=18 ميلها صفر، و5x=25 ميلها غير معرف."
+    ],
+    [
+      "الكسور",
+      "(3/2)x-(9/4)y=6 ميلها موجب ثلثين."
+    ],
+    [
+      "تطبيق",
+      "5t+2T=60 ميلها سالب خمسة أنصاف درجة في الساعة."
+    ],
+    [
+      "ديسموس",
+      "ارسم 3x+4y=20 وتحقق من الميل سالب ثلاثة أرباع."
+    ],
+    [
+      "الخلاصة",
+      "حدد ألف وباء واحسب سالب ألف على باء."
+    ]
+  ]
+}
