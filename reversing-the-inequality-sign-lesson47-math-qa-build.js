@@ -17,6 +17,7 @@ const tests=[[-4,0,'>',0,20,'<',-5],[-2,7,'<=',0,15,'>=',-4],[-6,15,'>',0,9,'<',
 const flip={'<':'>','>':'<','<=':'>=','>=':'<='};
 function prove(s){const [a,b,op,c,d,want,bound]=s;const coeff=a-c;if(coeff===0)throw Error('Degenerate inequality');const result=coeff<0?flip[op]:op;const value=(d-b)/coeff;if(result!==want||Math.abs(value-bound)>1e-9)throw Error('Independent inequality proof failed: '+JSON.stringify(s))}
 specs.forEach(prove);tests.forEach(prove);
+const esc=x=>x.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');const heads=[...read('answers').matchAll(/<div class="answer"><h3>(\d+)\.\s*([^<]+)<\/h3>/g)];if(heads.length!==18||heads.some((h,i)=>Number(h[1])!==i+1||h[2]!==esc(practice[i][0])))throw Error('Exact Practice/Answers statement alignment failed');
 const finals=[...read('answers').matchAll(/<div class="final">Answer:\s*([A-D])\)\s*([^<]+)<\/div>/g)];
 if(finals.length!==18)throw Error('Expected 18 aligned solutions');
 for(let i=0;i<18;i++)if(practice[i][2]!==keys[i]||finals[i][1]!==String.fromCharCode(65+keys[i]))throw Error('Practice/answers mismatch '+(i+1));
