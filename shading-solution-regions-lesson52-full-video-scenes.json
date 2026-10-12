@@ -1,0 +1,103 @@
+{
+  "lesson": "shading-solution-regions",
+  "english": [
+    [
+      "What a solution region means",
+      "A linear inequality in two variables describes infinitely many ordered pairs, not just one line. On a coordinate plane, its solutions form a half-plane. Every point in the shaded region makes the original inequality true when its x and y coordinates are substituted. Today we will turn an inequality into a boundary, decide whether that boundary belongs to the solution, and use a test point to choose the correct side."
+    ],
+    [
+      "The boundary and its line style",
+      "Replace the inequality sign with an equals sign to locate the boundary line. If the original symbol is less than or equal to, or greater than or equal to, the boundary is solid because points on it satisfy equality. If the symbol is strictly less than or strictly greater than, use a dashed line because points on the line are excluded. Remember that line style and shaded side are two separate decisions."
+    ],
+    [
+      "Plot a mathematically correct boundary",
+      "To graph y equals x plus one, use its slope one and y-intercept one. Three exact points are negative one comma zero, zero comma one, and two comma three. Substitute each pair to check: zero equals negative one plus one, one equals zero plus one, and three equals two plus one. Connect those collinear points. A plotted line should always come from its equation, not from a visual guess."
+    ],
+    [
+      "How the test-point method works",
+      "Pick any easy point that is not on the boundary, usually the origin. Substitute the coordinates into the original inequality, not the boundary equation. If the statement is true, shade the side containing your test point. If it is false, shade the opposite side. One valid test point is enough because a straight line separates the plane into two half-planes and the truth value does not change within either open half-plane."
+    ],
+    [
+      "Worked example: y at most x plus one",
+      "Consider y less than or equal to x plus one. The boundary y equals x plus one is solid. At the origin, zero is less than or equal to one, which is true. Therefore shade the side containing the origin, below the line. A second check at zero comma three gives three less than or equal to one, false, so that point must remain unshaded. The boundary itself belongs to the solution."
+    ],
+    [
+      "Worked example: two x plus y greater than four",
+      "For two x plus y greater than four, first rearrange to y greater than negative two x plus four. Graph the boundary through zero comma four and two comma zero. The greater-than sign is strict, so draw a dashed line. Testing the origin gives zero greater than four, false. Shade the opposite side, above the line. The point zero comma five gives five greater than four, true, confirming the chosen half-plane."
+    ],
+    [
+      "Watch negative coefficients when rearranging",
+      "Suppose three x minus y is greater than six. Subtract three x to get negative y greater than six minus three x. Dividing by negative one reverses the inequality: y is less than three x minus six. The boundary is dashed, and the region is below it. Failing to reverse the sign would shade the wrong side. When in doubt, test a point in the original form to catch the error."
+    ],
+    [
+      "Vertical and horizontal half-planes",
+      "For x less than negative three, draw the vertical line x equals negative three with a dashed stroke, then shade left because all smaller x-values are left of the line. For x less than or equal to two, use a solid vertical line and shade left. For y greater than or equal to four, use a solid horizontal line and shade above. These rules follow directly from comparing x-coordinates or y-coordinates."
+    ],
+    [
+      "When the origin is on the boundary",
+      "Do not test a point lying on the boundary, because equality does not distinguish the two sides. For y greater than two x, the origin lies on y equals two x. Instead choose zero comma one. Substitution gives one greater than zero, true, so shade the side containing zero comma one. If a selected test point makes the boundary equation true, choose a different point before shading."
+    ],
+    [
+      "Translate a real budget into a region",
+      "A club can spend at most one hundred twenty dollars on adult tickets costing twenty dollars and student tickets costing ten dollars. With x adult tickets and y student tickets, the budget constraint is twenty x plus ten y less than or equal to one hundred twenty. Also require x and y to be nonnegative. The boundary is solid and the origin satisfies the budget inequality. The actual feasible region is the shaded budget half-plane restricted to the first quadrant."
+    ],
+    [
+      "Desmos strategy and independent check",
+      "In Desmos, enter y less than or equal to x plus one. Look for the solid boundary and the shaded half-plane below it. Use the picture to confirm that zero comma zero is shaded while zero comma three is not. Why it works: Desmos colors exactly the coordinates that satisfy the inequality. For a simple straight boundary, drawing and testing a point by hand is often faster; Desmos is especially useful for checking a complex graph."
+    ],
+    [
+      "Exam routine and final recap",
+      "On the exam, work in this order: first find the boundary, second choose solid or dashed, third test a point not on the line, and fourth shade the correct side. If you divide by a negative number, reverse the inequality sign. Check one point on the shaded side and one point outside it when time allows. Then practice eighteen questions, compare all eighteen worked solutions, and complete the five-question test without checking answers before submission."
+    ]
+  ],
+  "arabic": [
+    [
+      "يعني إيه منطقة حل",
+      "المتباينة الخطية في متغيرين مش بتحدد نقطة واحدة أو خط واحد، لكنها بتحدد عدد لا نهائي من الأزواج المرتبة. الحلول بتظهر كنصف مستوى على الرسم. أي نقطة في المنطقة المظللة لازم تحقق المتباينة الأصلية لما نعوض بإحداثياتها. في الدرس ده هنحدد خط الحد الفاصل، ونقرر إذا كان الخط نفسه جزء من الحل، وبعدها نختار جهة التظليل باستخدام نقطة اختبار."
+    ],
+    [
+      "الخط المتصل والخط المتقطع",
+      "عشان نرسم الحد الفاصل بنستبدل علامة المتباينة بعلامة يساوي. لو العلامة أصغر من أو يساوي، أو أكبر من أو يساوي، نرسم خط متصل لأن نقاط الخط داخلة في الحل. أما لو العلامة أصغر من فقط أو أكبر من فقط، فالخط يكون متقطع لأن نقاطه غير داخلة. خلي بالك إن اختيار نوع الخط مختلف عن اختيار جهة التظليل."
+    ],
+    [
+      "رسم الحد الفاصل بالحساب",
+      "لما يكون عندنا ص يساوي س زائد واحد، الميل واحد والجزء المقطوع من محور الصادات واحد. نقدر نستخدم ثلاث نقاط دقيقة: سالب واحد وصفر، وصفر وواحد، واتنين وثلاثة. نعوض في المعادلة للتأكد: صفر يساوي سالب واحد زائد واحد، وواحد يساوي صفر زائد واحد، وثلاثة يساوي اتنين زائد واحد. نوصل النقاط بخط مستقيم بدل ما نخمن مكانه من الشكل."
+    ],
+    [
+      "طريقة نقطة الاختبار",
+      "اختار نقطة سهلة مش واقعة على خط الحد الفاصل، وغالبا نقطة الأصل صفر وصفر. عوض بإحداثيات النقطة في المتباينة الأصلية. لو العبارة صحيحة، ظلل الناحية اللي فيها نقطة الاختبار. لو العبارة غلط، ظلل الناحية التانية. نقطة واحدة مناسبة كفاية لأن الخط المستقيم بيقسم المستوى لنصين، وكل نقطة داخل نفس الناحية المفتوحة ليها نفس نتيجة الاختبار."
+    ],
+    [
+      "مثال ص أصغر من أو يساوي س زائد واحد",
+      "الحد الفاصل هو ص يساوي س زائد واحد، وهنرسمه متصل لأن المساواة مسموحة. عند نقطة الأصل صفر أصغر من أو يساوي واحد، وده صحيح. إذن نظلل الناحية اللي فيها الأصل، يعني تحت الخط. وللتأكيد النقطة صفر وثلاثة مش حل، لأن ثلاثة أصغر من أو يساوي واحد عبارة خاطئة. أي نقطة على الخط نفسه تعتبر من الحل."
+    ],
+    [
+      "مثال اتنين س زائد ص أكبر من أربعة",
+      "نرتب المتباينة فتبقى ص أكبر من سالب اتنين س زائد أربعة. الخط الفاصل بيمر بالنقطتين صفر وأربعة، واتنين وصفر. بما إن العلامة أكبر من فقط فالخط متقطع. لما نجرب نقطة الأصل نلاقي صفر أكبر من أربعة، وده غلط. إذن نظلل الناحية العكسية، وهي فوق الخط. النقطة صفر وخمسة تحقق المتباينة، وده تأكيد إضافي."
+    ],
+    [
+      "قلب العلامة عند القسمة على سالب",
+      "لو ثلاثة س ناقص ص أكبر من ستة، ننقل ثلاثة س فنحصل على سالب ص أكبر من ستة ناقص ثلاثة س. لما نقسم على سالب واحد لازم نعكس علامة المتباينة، فتصبح ص أصغر من ثلاثة س ناقص ستة. الحد الفاصل متقطع والتظليل تحته. نسيان قلب العلامة من أشهر الأخطاء، ونقطة الاختبار في الصيغة الأصلية بتكشفه."
+    ],
+    [
+      "المناطق الرأسية والأفقية",
+      "لو س أصغر من سالب ثلاثة، ارسم الخط الرأسي س يساوي سالب ثلاثة بشكل متقطع، وظلل ناحية الشمال لأن قيم س الأصغر موجودة هناك. ولو س أصغر من أو يساوي اتنين، ارسم خط رأسي متصل وظلل الشمال. ولو ص أكبر من أو يساوي أربعة، ارسم خط أفقي متصل وظلل فوقه. كل ده ناتج عن مقارنة إحداثيات س أو ص مباشرة."
+    ],
+    [
+      "لو نقطة الأصل على الخط",
+      "ممنوع تستخدم نقطة على خط الحد الفاصل للاختبار، لأنها مش هتحدد الناحية الصحيحة. في المتباينة ص أكبر من اتنين س، نقطة الأصل واقعة على الخط ص يساوي اتنين س. اختار بدلها النقطة صفر وواحد. التعويض يعطي واحد أكبر من صفر، وده صحيح، فنظلل الناحية اللي فيها النقطة دي. لو نقطة الاختبار حققت معادلة الحد الفاصل اختار غيرها."
+    ],
+    [
+      "مسألة ميزانية حقيقية",
+      "نادي معاه مية وعشرين دولار بحد أقصى، وتذكرة الكبار بعشرين دولار وتذكرة الطلبة بعشرة. لو س عدد تذاكر الكبار وص عدد تذاكر الطلبة، يبقى عشرين س زائد عشرة ص أصغر من أو يساوي مية وعشرين. وكمان س وص لازم يكونوا غير سالبين. الخط متصل ونقطة الأصل تحقق شرط الميزانية. المنطقة الممكنة هي الجزء المظلل الموجود في الربع الأول فقط."
+    ],
+    [
+      "استراتيجية ديسموس",
+      "افتح ديسموس واكتب ص أصغر من أو يساوي س زائد واحد باستخدام الرموز الرياضية. هتشوف خط متصل والمنطقة اللي تحته مظللة. تأكد إن صفر وصفر داخل التظليل وإن صفر وثلاثة خارجه. السبب إن ديسموس بيعرض كل الأزواج المرتبة اللي تحقق المتباينة. في المثال البسيط الرسم اليدوي ونقطة الاختبار غالبا أسرع، لكن ديسموس مفيد لمراجعة الرسومات المعقدة."
+    ],
+    [
+      "ملخص وخطة الامتحان",
+      "في الامتحان امشي بأربع خطوات ثابتة: حدد معادلة الخط الفاصل، ثم اختار متصل أو متقطع، وبعدها جرب نقطة مش على الخط، وأخيرا ظلل الناحية الصحيحة. لو قسمت على عدد سالب اقلب علامة المتباينة. ولو الوقت يسمح اختبر نقطة من جوه التظليل ونقطة من بره. بعد الشرح حل تمنتاشر مسألة، وراجع تمنتاشر حلا، وبعدها اختبر نفسك بخمس أسئلة من غير ما تكشف الإجابات قبل التسليم."
+    ]
+  ]
+}
