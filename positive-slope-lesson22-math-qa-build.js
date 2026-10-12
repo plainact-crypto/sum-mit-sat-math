@@ -12,3 +12,5 @@ questions.forEach((q,i)=>{assert.equal(q[2],correct[i]);assert.equal(q[1][q[2]],
 const keys=[...t.matchAll(/,a:(\d+),why:/g)].map(x=>Number(x[1]));
 assert.equal(keys.join(','),'1,2,1,2,1');
 console.log('Lesson 22: 18 practice math + 18 aligned answers + 5 test keys PASS');
+
+require('./explanation-retrofit-build.js');
