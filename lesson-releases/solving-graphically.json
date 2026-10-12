@@ -1,0 +1,5 @@
+{
+  "lesson": "solving-graphically",
+  "builders": ["explanation-retrofit-build.js", "solving-graphically-lesson42-test-fix-build.js", "solving-graphically-lesson42-math-qa-build.js", "solving-graphically-lesson42-video-build.js", "explanation-retrofit-gate.js"],
+  "routes": ["/algebra/systems-of-linear-equations/solving-graphically/explanation/", "/algebra/systems-of-linear-equations/solving-graphically/problems/", "/algebra/systems-of-linear-equations/solving-graphically/answers/", "/algebra/systems-of-linear-equations/solving-graphically/test/", "/algebra/systems-of-linear-equations/solving-graphically/video/english/", "/algebra/systems-of-linear-equations/solving-graphically/video/arabic/"]
+}
