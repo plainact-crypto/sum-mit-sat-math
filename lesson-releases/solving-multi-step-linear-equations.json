@@ -1,0 +1,16 @@
+{
+  "lesson": "solving-multi-step-linear-equations",
+  "builders": [
+    "video-overrides.js",
+    "solving-multi-step-linear-equations-lesson2-arabic-build.js",
+    "solving-multi-step-linear-equations-lesson2-math-qa-build.js"
+  ],
+  "routes": [
+    "/algebra/linear-equations-in-one-variable/solving-multi-step-linear-equations/explanation/",
+    "/algebra/linear-equations-in-one-variable/solving-multi-step-linear-equations/problems/",
+    "/algebra/linear-equations-in-one-variable/solving-multi-step-linear-equations/answers/",
+    "/algebra/linear-equations-in-one-variable/solving-multi-step-linear-equations/test/",
+    "/algebra/linear-equations-in-one-variable/solving-multi-step-linear-equations/video/english/",
+    "/algebra/linear-equations-in-one-variable/solving-multi-step-linear-equations/video/arabic/"
+  ]
+}
