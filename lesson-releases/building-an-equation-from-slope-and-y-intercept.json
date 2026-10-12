@@ -1,6 +1,7 @@
 {
   "lesson": "building-an-equation-from-slope-and-y-intercept",
   "builders": [
+    "building-equation-slope-y-intercept-lesson27-math-qa-build.js",
     "building-equation-slope-y-intercept-lesson27-video-build.js"
   ],
   "routes": [
