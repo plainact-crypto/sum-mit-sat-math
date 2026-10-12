@@ -2,6 +2,7 @@
   "lesson": "one-solution",
   "builders": [
     "explanation-retrofit-build.js",
+    "one-solution-lesson37-test-fix-build.js",
     "one-solution-lesson37-math-qa-build.js",
     "one-solution-lesson37-video-build.js",
     "one-solution-lesson37-final-retrofit-build.js",
