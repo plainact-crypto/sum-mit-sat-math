@@ -2,8 +2,10 @@
   "lesson": "solving-multi-step-linear-equations",
   "builders": [
     "video-overrides.js",
+    "explanation-retrofit-build.js",
     "solving-multi-step-linear-equations-lesson2-arabic-build.js",
-    "solving-multi-step-linear-equations-lesson2-math-qa-build.js"
+    "solving-multi-step-linear-equations-lesson2-math-qa-build.js",
+    "explanation-retrofit-gate.js"
   ],
   "routes": [
     "/algebra/linear-equations-in-one-variable/solving-multi-step-linear-equations/explanation/",
