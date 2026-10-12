@@ -1,1 +1,9 @@
-{"lesson":"one-solution","index":37,"owner":"worker2","branch":"worker2/one-solution-37-20261012","status":"INCOMPLETE"}
+{
+  "lesson": "one-solution",
+  "index": 37,
+  "owner": "worker2",
+  "branch": "worker2/one-solution-37-20261012",
+  "status": "INCOMPLETE",
+  "mathematicalQA": "23/23 passed; 18 answers aligned; 3/8/5/2 groups",
+  "blockingIssue": "Lesson Test Q3 duplicates Practice Q5 exactly (2x+y=11; x-y=1). Replace with distinct medium problem before release. Repository code writes currently rejected by safety checks."
+}
