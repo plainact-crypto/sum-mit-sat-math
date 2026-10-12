@@ -6,3 +6,5 @@ Scope: explanation, 18 problems, 18 aligned answers, 5-question test, full Engli
 Do not merge until authoritative build and six-route validation pass.
 
 2026-10-12: QA strengthened and committed: 18 exact answer prompts, five independently solved tests, 23 unique Practice/Test questions, progressive difficulty. Release manifest and bilingual full lesson builders present. Vercel preview verification blocked by 402 daily deployment quota; status INCOMPLETE and NOT LIVE_VERIFIED.
+
+2026-10-12 release-gate preparation: synced validated canonical Vertex resolver, replaced duplicate inherited special-polynomial-products leaf registry entry with Positive Slope BOTH classification. Deterministic y=2x+1 graph verified at (0,1),(1,3),(2,5), m=2, x-intercept -0.5, y-intercept 1; complete Desmos strategy. Added final post-publish retrofit builder and updated unique release manifest to all five mandatory builders and six routes. Static 5/5 builder presence and graph mathematical QA PASS. Vercel authoritative preview blocked by 402 api-deployments-free-per-day; NOT MERGED / NOT LIVE_VERIFIED.
