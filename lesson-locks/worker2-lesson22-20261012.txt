@@ -1,0 +1,6 @@
+Worker 2 owns canonical lesson index 22 of 298: Positive Slope.
+Canonical slug: positive-slope
+Canonical base: /algebra/linear-functions/positive-slope/
+Dedicated branch: worker2/positive-slope-22-20261012
+Scope: explanation, 18 problems, 18 aligned answers, 5-question test, full English and Arabic video routes, mathematical QA, unique release manifest.
+Do not merge until authoritative build and six-route validation pass.
