@@ -1,0 +1,15 @@
+{
+  "lesson": "perpendicular-lines",
+  "builders": [
+    "perpendicular-lines-lesson32-math-qa-build.js",
+    "perpendicular-lines-lesson32-video-build.js"
+  ],
+  "routes": [
+    "/algebra/linear-functions/perpendicular-lines/explanation/",
+    "/algebra/linear-functions/perpendicular-lines/problems/",
+    "/algebra/linear-functions/perpendicular-lines/answers/",
+    "/algebra/linear-functions/perpendicular-lines/test/",
+    "/algebra/linear-functions/perpendicular-lines/video/english/",
+    "/algebra/linear-functions/perpendicular-lines/video/arabic/"
+  ]
+}
