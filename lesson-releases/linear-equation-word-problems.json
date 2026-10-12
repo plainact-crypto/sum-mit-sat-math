@@ -1,8 +1,11 @@
 {
   "lesson": "linear-equation-word-problems",
   "builders": [
+    "explanation-retrofit-build.js",
+    "linear-equation-word-problems-lesson7-video-build.js",
     "linear-equation-word-problems-lesson7-math-qa-build.js",
-    "linear-equation-word-problems-lesson7-video-build.js"
+    "linear-equation-word-problems-lesson7-final-retrofit-build.js",
+    "explanation-retrofit-gate.js"
   ],
   "routes": [
     "/algebra/linear-equations-in-one-variable/linear-equation-word-problems/explanation/",
