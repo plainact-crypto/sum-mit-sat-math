@@ -3,3 +3,5 @@ Core package: Explanation per EXPLANATION_STANDARD.md, 18 Practice (3/8/5/2), 18
 QA: 23/23 mathematical checks, 18 exact practice-to-answer question statements, and 23 unique practice/test prompts; committed automated QA assertions.
 Full lesson video routes: English and Arabic 12-chapter player builder committed. Unique lesson-releases/finding-x-intercept.json lists required builders and six canonical HTML routes.
 Status: INCOMPLETE — authoritative preview/build and six-route validation pending Vercel deployment availability (402 quota reported 2026-10-12). No main merge, no LIVE_VERIFIED, no announcement email.
+
+2026-10-12: Added exact Finding X-Intercept BOTH registry entry with deterministic y=2x-10 graph; independently verified x-intercept (5,0) and three plotted points. Synced validated Vertex resolver, added post-publish retrofit builder, and updated unique release manifest to require five builders and six routes. Static checks PASS; authoritative build remains pending Vercel 402 daily quota. Status INCOMPLETE / NOT LIVE_VERIFIED; do not merge or announce until mandatory build, route checks and production verification pass.
