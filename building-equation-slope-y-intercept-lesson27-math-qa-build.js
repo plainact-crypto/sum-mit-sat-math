@@ -1,0 +1,14 @@
+const fs=require('fs'),assert=require('assert');
+const read=x=>fs.readFileSync('building-equation-slope-y-intercept-'+x+'.html','utf8');
+const p=read('problems'),a=read('answers'),t=read('test');
+const groups=JSON.parse(p.match(/const groups=(\[[\s\S]*?\]);let n=0;/)[1]);
+const questions=groups.flatMap(g=>g[2]);
+assert.equal(groups.map(g=>g[2].length).join(','),'3,8,5,2');
+const correct=[1,0,2,0,2,1,1,2,0,0,2,1,1,1,2,0,1,0];
+const expected=['2x + 5','−3x + 4','(1/2)x − 6','9','−5x − 2','7x + 30','−4x + 18','−(2/3)x + 5','6x − 8','x − 12','−0.5x + 3.5','8m + 25','−6t + 140','(3/2)x − 7','−(5/2)x + 11','(4/3)x − 5','4x + 13','−3x + 12'];
+const labels=[...a.matchAll(/class="final">Answer: ([A-D])\)/g)].map(x=>x[1]);
+assert.equal(questions.length,18);assert.equal(labels.length,18);
+questions.forEach((q,i)=>{assert.equal(q[2],correct[i]);assert(q[1][q[2]].endsWith(expected[i]));assert.equal(labels[i],'ABCD'[correct[i]])});
+const keys=[...t.matchAll(/,a:(\d+),why:/g)].map(x=>Number(x[1]));
+assert.equal(keys.join(','),'0,1,1,0,1');
+console.log('Lesson 27: 18 practice + 18 answers + 5 test keys PASS');
