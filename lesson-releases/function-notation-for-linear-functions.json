@@ -1,6 +1,7 @@
 {
   "lesson": "function-notation-for-linear-functions",
   "builders": [
+    "function-notation-linear-functions-explanation-build.js",
     "function-notation-lesson15-video-build.js"
   ],
   "routes": [
