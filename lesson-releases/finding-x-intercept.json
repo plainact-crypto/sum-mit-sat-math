@@ -1,7 +1,7 @@
 {
   "lesson": "finding-x-intercept",
   "builders": [
-    "finding-x-intercept-lesson12-math-qa-build.js",
+    "finding-x-intercept-lesson12-qa-v2-build.js",
     "finding-x-intercept-lesson12-video-build.js"
   ],
   "routes": [
