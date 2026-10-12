@@ -1,0 +1,16 @@
+'use strict';
+const fs=require('fs');
+const path=require('path');
+const data=require('./building-an-equation-from-slope-and-y-intercept-lesson27-scenes.json');
+const base='algebra/linear-functions/building-an-equation-from-slope-and-y-intercept';
+for(const lang of ['english','arabic']){
+ const scenes=data[lang];
+ if(!Array.isArray(scenes)||scenes.length!==12||scenes.some(s=>!Array.isArray(s)||s.length!==2||!s[1].trim()))throw Error('Expected 12 substantive chapters for '+lang);
+ const locale=lang==='arabic'?'ar-EG':'en-US';
+ const payload=JSON.stringify(scenes).replace(/</g,'\\u003c');
+ const script=`<script>(()=>{const chapters=${payload};let index=0,paused=false;const $=id=>document.getElementById(id);const stop=()=>{speechSynthesis.cancel();paused=false};function render(){ $('chapter').textContent=(index+1)+' / '+chapters.length+' — '+chapters[index][0];$('caption').textContent=chapters[index][1];$('progress').value=index+1; }function speak(){stop();render();const utterance=new SpeechSynthesisUtterance(chapters[index][1]);utterance.lang='${locale}';utterance.rate=.94;utterance.onend=()=>{if(!paused&&index<chapters.length-1){index++;speak()}};speechSynthesis.speak(utterance)}$('play').onclick=()=>{if(paused){paused=false;speechSynthesis.resume()}else speak()};$('pause').onclick=()=>{if(speechSynthesis.speaking){speechSynthesis.pause();paused=true}};$('stop').onclick=stop;$('next').onclick=()=>{stop();index=Math.min(chapters.length-1,index+1);render()};$('prev').onclick=()=>{stop();index=Math.max(0,index-1);render()};window.addEventListener('pagehide',stop);render()})();</script>`;
+ const title='Building an Equation from Slope and Y-Intercept';
+ const html=`<!doctype html><html lang="${locale.slice(0,2)}" dir="${lang==='arabic'?'rtl':'ltr'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/styles.css"><title>${title} — ${lang} full lesson | SUMMIT</title></head><body><main class="page-shell"><h1>${title} — ${lang==='arabic'?'الدرس الكامل':'Full Lesson'}</h1><section aria-label="Full lesson player" style="max-width:900px;margin:2rem auto;padding:2rem;border:1px solid #ccc;border-radius:18px"><div style="min-height:260px;display:flex;flex-direction:column;justify-content:center"><h2 id="chapter"></h2><p id="caption" aria-live="polite" style="font-size:1.3rem;line-height:1.8"></p></div><progress id="progress" value="1" max="12" style="width:100%"></progress><div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1rem"><button id="prev">Previous</button><button id="play">Play / Resume</button><button id="pause">Pause</button><button id="stop">Stop</button><button id="next">Next</button></div><p>Audio narration uses your browser speech voices. Select Play to begin the complete 12-chapter lesson.</p></section><nav><a href="/${base}/explanation/">Explanation</a> · <a href="/${base}/problems/">Problems</a> · <a href="/${base}/answers/">Answers</a> · <a href="/${base}/test/">Test</a></nav></main>${script}</body></html>`;
+ const target=path.join(__dirname,'dist',base,'video',lang,'index.html');
+ fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,html);
+}
