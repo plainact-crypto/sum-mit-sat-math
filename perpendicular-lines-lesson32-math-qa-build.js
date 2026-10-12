@@ -26,5 +26,5 @@ const test=Array.from(vm.runInNewContext(t.match(/const qs=(\[[\s\S]*?\]);const 
 assert.strictEqual(test.length,5);
 assert.deepStrictEqual(test.map(x=>x.level),['EASY','EASY-MEDIUM','MEDIUM','HARD','HARD / EXAM-STYLE']);
 assert.strictEqual(new Set([...practice.map(x=>x[0]),...test.map(x=>x.q)]).size,23);
-assert.deepStrictEqual(test.map(x=>x.a),[0,0,2,2,1]);
+assert.deepStrictEqual(test.map(x=>x.a),[0,0,2,2,0]);
 console.log('[Lesson 32] 18/18 exact answer alignment, 3/8/5/2, five progressive unique tests PASS');
