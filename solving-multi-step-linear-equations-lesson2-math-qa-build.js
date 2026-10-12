@@ -7,3 +7,6 @@ answers.forEach((x,i)=>{assert(eq[i](x),'Practice '+(i+1));assert(!eq[i](x+1),'U
 const t=[6,7,5,10,10],te=[x=>2*x+3===15,x=>5*x-7===2*x+14,x=>4*(x-2)+6===18,x=>.6*x+4.2===10.2,x=>18+2.5*x===43];
 t.forEach((x,i)=>{assert(te[i](x),'Test '+(i+1));assert(!te[i](x+1),'Test uniqueness '+(i+1))});
 console.log('[Lesson 2] 23/23 independent math checks PASS');
+
+// Reapply registry markers after publish-existing-content.js overwrites Explanation HTML.
+require('./explanation-retrofit-build.js');
