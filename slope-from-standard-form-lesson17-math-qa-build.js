@@ -11,3 +11,5 @@ const slope=(a,b)=>b===0?null:-a/b;
 q.forEach((item,i)=>{const [a,b]=data.practice.ab[i],m=data.practice.slopes[i];assert(item[2]===data.practice.choices[i]&&letters[i]==='ABCD'[item[2]]);assert(m===null?slope(a,b)===null:Math.abs(m-slope(a,b))<1e-9)});
 tests.forEach((item,i)=>{const [a,b]=data.test.ab[i];assert(item.a===data.test.choices[i]&&Math.abs(data.test.slopes[i]-slope(a,b))<1e-9)});
 console.log('[Lesson 17] 23/23 mathematical QA and 18 aligned answers PASS');
+
+require('./explanation-retrofit-build.js');
