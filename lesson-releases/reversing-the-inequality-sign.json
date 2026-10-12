@@ -2,6 +2,7 @@
   "lesson": "reversing-the-inequality-sign",
   "builders": [
     "explanation-retrofit-build.js",
+    "reversing-the-inequality-sign-lesson47-alignment-build.js",
     "reversing-the-inequality-sign-lesson47-math-qa-build.js",
     "reversing-the-inequality-sign-lesson47-video-build.js",
     "explanation-retrofit-gate.js"
