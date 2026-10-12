@@ -1,1 +1,12 @@
-{"lesson":5,"slug":"equations-with-decimals","worker":"worker5","status":"IN_PROGRESS"}
+{
+  "lesson": 5,
+  "slug": "equations-with-decimals",
+  "worker": "worker5",
+  "status": "BLOCKED",
+  "mathematicalQA": "23/23 exact symbolic solutions verified 2026-10-12",
+  "blockers": [
+    "Required explanation-retrofit-registry.js entry absent; attempted update rejected by repository safety checks",
+    "Full repository build and production route verification not completed"
+  ],
+  "lastContentCommit": "fd1c181717640897c46d40426699b3462412eae5"
+}
