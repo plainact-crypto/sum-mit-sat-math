@@ -10,3 +10,6 @@ assert(q.length===18&&letters.length===18&&tests.length===5);
 q.forEach((item,i)=>{const [m,b]=data.practice.coeff[i],x=data.practice.values[i];assert(item[2]===data.practice.choice[i]&&letters[i]==='ABCD'[item[2]]);assert(x===null?m===0&&(i===9?b!==0:b===0):Math.abs(m*x+b)<1e-9)});
 tests.forEach((item,i)=>{const [m,b]=data.test.coeff[i];assert(item.a===data.test.choice[i]&&Math.abs(m*data.test.values[i]+b)<1e-9)});
 console.log('[Lesson 12] 23/23 mathematical QA and 18 aligned answers PASS');
+
+// Reapply Explanation markers after publish-existing-content.js.
+require('./explanation-retrofit-build.js');
