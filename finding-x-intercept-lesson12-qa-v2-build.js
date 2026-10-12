@@ -9,4 +9,9 @@ const letters=Array.from(a.matchAll(/class="final">Answer: ([A-D])\)/g),m=>m[1])
 assert(q.length===18&&letters.length===18&&tests.length===5);
 q.forEach((item,i)=>{const [m,b]=data.practice.coeff[i],x=data.practice.values[i];assert(item[2]===data.practice.choice[i]&&letters[i]==='ABCD'[item[2]]);assert(x===null?m===0&&(i===9?b!==0:b===0):Math.abs(m*x+b)<1e-9)});
 tests.forEach((item,i)=>{const [m,b]=data.test.coeff[i];assert(item.a===data.test.choice[i]&&Math.abs(m*data.test.values[i]+b)<1e-9)});
+const practicePrompts=q.map(item=>item[0]);
+const answerPrompts=[...a.matchAll(/<div class="answer"[\s\S]*?<h3>([^<]+)<\/h3>/g)].map(m=>m[1].replace(/^\d+\.\s*/,''));
+const testPrompts=tests.map(item=>item.q);
+assert.deepStrictEqual(answerPrompts,practicePrompts,'All 18 answer prompts must match Practice exactly');
+assert.strictEqual(new Set([...practicePrompts,...testPrompts]).size,23,'Practice/Test questions must be unique');
 console.log('[Lesson 12] 23/23 mathematical QA and 18 aligned answers PASS');
