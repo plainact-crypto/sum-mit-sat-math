@@ -2,7 +2,7 @@
   "lesson": "linear-equation-word-problems",
   "index": 7,
   "owner": "worker2",
-  "status": "INCOMPLETE",
+  "status": "INCOMPLETE_RELEASE_BLOCKED",
   "qa": {
     "practice": 18,
     "groups": [
@@ -18,6 +18,8 @@
     "arabic_chapters": 12
   },
   "release_manifest": "lesson-releases/linear-equation-word-problems.json",
-  "blocker": "Vercel 402 api-deployments-free-per-day: authoritative build and production route verification pending",
-  "live_verified": false
+  "blocker": "Vercel 402 api-deployments-free-per-day: authoritative build, manifest gate and production routes pending",
+  "live_verified": false,
+  "alignment_fix": "14 previously paraphrased Answer prompts now replaced with verbatim Practice prompts by required video builder",
+  "last_commit": "fec19342721435ad2c6f6f2f9c088979d5b6034e"
 }
