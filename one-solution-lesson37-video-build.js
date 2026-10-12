@@ -1,0 +1,10 @@
+const fs=require('fs'),path=require('path');
+const base='algebra/systems-of-linear-equations/one-solution';
+for(const lang of ['english','arabic']){
+ const scenes=require('./one-solution-lesson37-'+lang+'-scenes.json');
+ if(scenes.length!==12)throw Error('Expected 12 chapters');
+ const data=JSON.stringify(scenes).replace(/</g,'\\u003c');
+ const script=`<script>const scenes=${data};let i=0;const $=x=>document.getElementById(x);function show(){ $('chapter').textContent=(i+1)+'/12 '+scenes[i][0];$('text').textContent=scenes[i][1]}function stop(){speechSynthesis.cancel()}function play(){stop();show();let u=new SpeechSynthesisUtterance(scenes[i][1]);u.lang='${lang==='arabic'?'ar-EG':'en-US'}';u.onend=()=>{if(i<11){i++;play()}};speechSynthesis.speak(u)}$('play').onclick=play;$('pause').onclick=()=>speechSynthesis.pause();$('resume').onclick=()=>speechSynthesis.resume();$('stop').onclick=stop;$('prev').onclick=()=>{stop();i=Math.max(0,i-1);show()};$('next').onclick=()=>{stop();i=Math.min(11,i+1);show()};show()</script>`;
+ const html=`<!doctype html><html lang="${lang==='arabic'?'ar':'en'}" dir="${lang==='arabic'?'rtl':'ltr'}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/styles.css"><title>One Solution — ${lang} full lesson</title></head><body><main class="page-shell"><h1>One Solution — ${lang} Full Lesson</h1><section><h2 id="chapter"></h2><p id="text" aria-live="polite"></p><button id="prev">Previous</button><button id="play">Play</button><button id="pause">Pause</button><button id="resume">Resume</button><button id="stop">Stop</button><button id="next">Next</button></section><nav><a href="/${base}/explanation/">Explanation</a> · <a href="/${base}/problems/">Problems</a> · <a href="/${base}/answers/">Answers</a> · <a href="/${base}/test/">Test</a></nav></main>${script}</body></html>`;
+ const dir=path.join(__dirname,'dist',base,'video',lang);fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,'index.html'),html);
+}
