@@ -1,0 +1,20 @@
+{
+  "lesson": "shading-solution-regions",
+  "builders": [
+    "shading-solution-regions-build.js",
+    "shading-solution-regions-test-build.js",
+    "explanation-retrofit-build.js",
+    "shading-solution-regions-lesson52-answers-final-build.js",
+    "shading-solution-regions-lesson52-math-and-alignment-build.js",
+    "shading-solution-regions-lesson52-video-build.js",
+    "explanation-retrofit-gate.js"
+  ],
+  "routes": [
+    "/algebra/linear-inequalities/shading-solution-regions/explanation/",
+    "/algebra/linear-inequalities/shading-solution-regions/problems/",
+    "/algebra/linear-inequalities/shading-solution-regions/answers/",
+    "/algebra/linear-inequalities/shading-solution-regions/test/",
+    "/algebra/linear-inequalities/shading-solution-regions/video/english/",
+    "/algebra/linear-inequalities/shading-solution-regions/video/arabic/"
+  ]
+}
