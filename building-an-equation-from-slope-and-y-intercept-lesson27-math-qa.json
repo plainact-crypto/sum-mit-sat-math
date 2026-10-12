@@ -1,0 +1,219 @@
+{
+  "index": 27,
+  "lesson": "building-an-equation-from-slope-and-y-intercept",
+  "base": "/algebra/linear-functions/building-an-equation-from-slope-and-y-intercept/",
+  "practiceDistribution": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "method": "Independent slope/intercept reconstruction and numeric substitution with floating-point tolerance",
+  "practice": [
+    {
+      "number": 1,
+      "m": 2,
+      "b": 5,
+      "correctChoice": "B",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 2,
+      "m": -3,
+      "b": 4,
+      "correctChoice": "A",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 3,
+      "m": 0.5,
+      "b": -6,
+      "correctChoice": "C",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 4,
+      "m": 0,
+      "b": 9,
+      "correctChoice": "A",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 5,
+      "m": -5,
+      "b": -2,
+      "correctChoice": "C",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 6,
+      "m": 7,
+      "b": 30,
+      "correctChoice": "B",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 7,
+      "m": -4,
+      "b": 18,
+      "correctChoice": "B",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 8,
+      "m": -0.6666666666666666,
+      "b": 5,
+      "correctChoice": "C",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 9,
+      "m": 6,
+      "b": -8,
+      "correctChoice": "A",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 10,
+      "m": 1,
+      "b": -12,
+      "correctChoice": "A",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 11,
+      "m": -0.5,
+      "b": 3.5,
+      "correctChoice": "C",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 12,
+      "m": 8,
+      "b": 25,
+      "correctChoice": "B",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 13,
+      "m": -6,
+      "b": 140,
+      "correctChoice": "B",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 14,
+      "m": 1.5,
+      "b": -7,
+      "correctChoice": "B",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 15,
+      "m": -2.5,
+      "b": 11,
+      "correctChoice": "C",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 16,
+      "m": 1.3333333333333333,
+      "b": -5,
+      "correctChoice": "A",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 17,
+      "m": 4,
+      "b": 13,
+      "correctChoice": "B",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 18,
+      "m": -3,
+      "b": 12,
+      "correctChoice": "A",
+      "checkIntercept": true,
+      "checkRate": true
+    }
+  ],
+  "test": [
+    {
+      "number": 1,
+      "m": 3,
+      "b": -4,
+      "correctChoice": "A",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 2,
+      "m": -2,
+      "b": 12,
+      "correctChoice": "B",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 3,
+      "m": 2.5,
+      "b": 6,
+      "correctChoice": "B",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 4,
+      "m": 7,
+      "b": 14,
+      "correctChoice": "A",
+      "checkIntercept": true,
+      "checkRate": true
+    },
+    {
+      "number": 5,
+      "m": -12.5,
+      "b": 250,
+      "correctChoice": "B",
+      "checkIntercept": true,
+      "checkRate": true
+    }
+  ],
+  "graph": {
+    "equation": "y=3x-4",
+    "points": [
+      [
+        0,
+        -4
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "verified": true
+  },
+  "status": "INDEPENDENT_MATH_QA_23_OF_23_PASSED; RELEASE_NOT_VERIFIED"
+}
