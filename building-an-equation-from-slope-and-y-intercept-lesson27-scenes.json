@@ -1,0 +1,103 @@
+{
+  "lesson": "building-an-equation-from-slope-and-y-intercept",
+  "english": [
+    [
+      "Objective",
+      "Build a linear equation when you know its slope and y intercept. Use y equals m x plus b."
+    ],
+    [
+      "Meaning of slope",
+      "Slope m tells how much y changes when x increases by one. Positive slopes rise; negative slopes fall."
+    ],
+    [
+      "Meaning of intercept",
+      "The y intercept b is the value of y when x is zero. It is the starting value in a real-world model."
+    ],
+    [
+      "Core formula",
+      "Put the given slope in place of m and the given y intercept in place of b. Simplify signs."
+    ],
+    [
+      "Basic example",
+      "A line has slope two and y intercept five. The equation is y equals two x plus five."
+    ],
+    [
+      "Negative slope",
+      "Slope negative three and y intercept four gives y equals negative three x plus four."
+    ],
+    [
+      "Fractional slope",
+      "Slope one half and y intercept negative six gives y equals one half x minus six."
+    ],
+    [
+      "Zero slope",
+      "When slope is zero and the y intercept is nine, the equation is simply y equals nine."
+    ],
+    [
+      "Context example",
+      "A service charges twenty five dollars initially and eight dollars each month. Total cost C equals eight m plus twenty five."
+    ],
+    [
+      "Rate from changes",
+      "When x rises by two and y rises by three, slope is three halves. With intercept negative seven, y equals three halves x minus seven."
+    ],
+    [
+      "Desmos check",
+      "Enter y equals three x minus four. Confirm the line crosses the y axis at negative four and rises three units for every one unit right."
+    ],
+    [
+      "Exam recap",
+      "Read slope and intercept separately. Put the rate beside the variable and the initial value at the end. Verify by setting x equal to zero."
+    ]
+  ],
+  "arabic": [
+    [
+      "الهدف",
+      "هنتعلم نكتب معادلة خط مستقيم لما نعرف الميل والجزء المقطوع من محور صاد. القانون صاد يساوي ميم سين زائد باء."
+    ],
+    [
+      "معنى الميل",
+      "الميل ميم هو مقدار تغير صاد لما سين تزيد وحدة واحدة. الموجب بيطلع والسالب بينزل."
+    ],
+    [
+      "الجزء المقطوع",
+      "باء هي قيمة صاد لما سين تساوي صفر. وفي المسائل الكلامية دي القيمة الابتدائية."
+    ],
+    [
+      "القانون",
+      "حط الميل مكان ميم والجزء المقطوع مكان باء في صاد يساوي ميم سين زائد باء، وبعد كده بسّط الإشارات."
+    ],
+    [
+      "مثال بسيط",
+      "لو الميل اتنين والجزء المقطوع خمسة، المعادلة صاد يساوي اتنين سين زائد خمسة."
+    ],
+    [
+      "ميل سالب",
+      "لو الميل سالب تلاتة والجزء المقطوع أربعة، المعادلة صاد يساوي سالب تلاتة سين زائد أربعة."
+    ],
+    [
+      "ميل كسري",
+      "لو الميل نص والجزء المقطوع سالب ستة، المعادلة صاد يساوي نص سين ناقص ستة."
+    ],
+    [
+      "ميل صفر",
+      "لو الميل صفر والجزء المقطوع تسعة، المعادلة ببساطة صاد يساوي تسعة."
+    ],
+    [
+      "مسألة كلامية",
+      "خدمة بتاخد خمسة وعشرين دولار رسوم أولية وتمانية دولار كل شهر. التكلفة تساوي تمانية في عدد الشهور زائد خمسة وعشرين."
+    ],
+    [
+      "الميل من التغير",
+      "لو سين زادت اتنين وصاد زادت تلاتة، الميل تلاتة على اتنين. ومع الجزء المقطوع سالب سبعة، المعادلة تلاتة على اتنين سين ناقص سبعة."
+    ],
+    [
+      "التحقق بديزموس",
+      "ارسم صاد يساوي تلاتة سين ناقص أربعة. الخط بيقطع محور صاد عند سالب أربعة وبيطلع تلاتة لكل خطوة يمين."
+    ],
+    [
+      "مراجعة الامتحان",
+      "حدد الميل والقيمة الابتدائية كل واحدة لوحدها. الميل جنب المتغير، والقيمة الابتدائية في الآخر. راجع بتعويض سين بصفر."
+    ]
+  ]
+}
