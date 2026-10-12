@@ -1,0 +1,18 @@
+{
+  "lesson": "one-solution",
+  "builders": [
+    "explanation-retrofit-build.js",
+    "one-solution-lesson37-math-qa-build.js",
+    "one-solution-lesson37-video-build.js",
+    "one-solution-lesson37-final-retrofit-build.js",
+    "explanation-retrofit-gate.js"
+  ],
+  "routes": [
+    "/algebra/systems-of-linear-equations/one-solution/explanation/",
+    "/algebra/systems-of-linear-equations/one-solution/problems/",
+    "/algebra/systems-of-linear-equations/one-solution/answers/",
+    "/algebra/systems-of-linear-equations/one-solution/test/",
+    "/algebra/systems-of-linear-equations/one-solution/video/english/",
+    "/algebra/systems-of-linear-equations/one-solution/video/arabic/"
+  ]
+}
