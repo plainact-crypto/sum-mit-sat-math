@@ -2,8 +2,8 @@
   "lesson": "solving-multi-step-linear-equations",
   "index": 2,
   "owner": "worker2",
-  "status": "INCOMPLETE",
-  "blocker": "Vercel preview build 402 deployment quota; required Explanation gate fixed for late-published pages, pending authoritative build and six-route validation",
-  "qa": "23/23 mathematical checks; 18 aligned practice and answers; five unique test questions",
-  "last_commit": "b7dfdfadecf28b4d1b4afabe207c1fd152bfa198"
+  "status": "RELEASE_READY_PR_BLOCKED",
+  "blocker": "Authoritative preview READY at 4a03632976aabe5bcddbf3bdb22273ef1b639556; release verified six routes and Explanation gate PASS; GitHub PR creation blocked by repository safety checks. Production not verified.",
+  "qa": "23/23 independent mathematical checks PASS; 18/18 practice-answer alignment 3/8/5/2; 5 progressive unique tests; 6/6 canonical HTML routes validated by production-build.js",
+  "last_commit": "4a03632976aabe5bcddbf3bdb22273ef1b639556"
 }
