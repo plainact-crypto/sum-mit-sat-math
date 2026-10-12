@@ -1,0 +1,50 @@
+[
+  [
+    "Objective",
+    "This lesson teaches how to identify a system of two linear equations with one solution, calculate the ordered pair, and verify it."
+  ],
+  [
+    "Meaning",
+    "A solution satisfies both equations at once. Two distinct nonparallel lines meet at exactly one point, which is their unique solution."
+  ],
+  [
+    "Slope test",
+    "Different slopes guarantee one intersection. Equal slopes require checking whether the lines are parallel or identical."
+  ],
+  [
+    "Choose a method",
+    "Use substitution when a variable is isolated. Use elimination when coefficients cancel. Graphing is useful to check the result."
+  ],
+  [
+    "Example one",
+    "Set two x plus one equal to negative x plus seven. Three x equals six, so x equals two and y equals five."
+  ],
+  [
+    "Check example",
+    "At x equals two, both equations give y equals five. Checking both originals confirms that two comma five is the solution."
+  ],
+  [
+    "Elimination",
+    "Add two x plus y equals nine to x minus y equals zero. Three x equals nine, so x equals three and y equals three."
+  ],
+  [
+    "Substitution",
+    "For three x plus two y equals twelve and x plus y equals five, substitute x equals five minus y to get y equals three."
+  ],
+  [
+    "Word problem",
+    "Set four h plus eighteen equal to seven h plus six. Solve twelve equals three h, giving four hours and thirty-four dollars."
+  ],
+  [
+    "Graph strategy",
+    "Graph both lines in Desmos and locate their shared point. Substitute its coordinates into both equations to verify the answer."
+  ],
+  [
+    "Common mistakes",
+    "Do not report only x or only y. Check both equations. Equal slopes do not always mean the same number of solutions."
+  ],
+  [
+    "Next steps",
+    "Identify the relationship, solve by substitution or elimination, verify the ordered pair, then practice and take the lesson test."
+  ]
+]
