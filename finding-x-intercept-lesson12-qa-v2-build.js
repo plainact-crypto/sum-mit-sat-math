@@ -1,0 +1,12 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert'),data=require('./finding-x-intercept-lesson12-qa-data.json');
+const read=f=>fs.readFileSync(require('path').join(__dirname,f),'utf8');
+const p=read('finding-x-intercept-problems.html'),a=read('finding-x-intercept-answers.html'),t=read('finding-x-intercept-test.html');
+const groups=vm.runInNewContext(p.match(/const groups=(\[[\s\S]*?\]);let n=0;/)[1]);
+const tests=vm.runInNewContext(t.match(/const qs=(\[[\s\S]*?\]);const root=/)[1]);
+assert.deepStrictEqual(Array.from(groups,g=>g[2].length),[3,8,5,2]);
+const q=Array.from(groups).flatMap(g=>Array.from(g[2]));
+const letters=Array.from(a.matchAll(/class="final">Answer: ([A-D])\)/g),m=>m[1]);
+assert(q.length===18&&letters.length===18&&tests.length===5);
+q.forEach((item,i)=>{const [m,b]=data.practice.coeff[i],x=data.practice.values[i];assert(item[2]===data.practice.choice[i]&&letters[i]==='ABCD'[item[2]]);assert(x===null?m===0&&(i===9?b!==0:b===0):Math.abs(m*x+b)<1e-9)});
+tests.forEach((item,i)=>{const [m,b]=data.test.coeff[i];assert(item.a===data.test.choice[i]&&Math.abs(m*data.test.values[i]+b)<1e-9)});
+console.log('[Lesson 12] 23/23 mathematical QA and 18 aligned answers PASS');
