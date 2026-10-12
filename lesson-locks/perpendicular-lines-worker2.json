@@ -3,8 +3,10 @@
   "index": 32,
   "owner": "worker2",
   "branch": "worker2/perpendicular-lines-32-20261012",
-  "status": "CONTENT_QA_ADVANCED_RELEASE_INCOMPLETE",
+  "status": "INCOMPLETE_AWAITING_AUTHORITATIVE_BUILD",
   "blocker": "Vercel preview quota 402 and release manifest still needs mandatory Explanation retrofit/gate builders and authoritative build; no production verification",
   "commit": "a57cdbf63ab39101dd4950f1f49653bddc3a31b9",
-  "note": "2026-10-12: exact 18/18 Practice–Answers headings aligned, 3/8/5/2 and five unique progressive test checks added; mathematical 23-check script preserved."
+  "note": "2026-10-12: exact 18/18 Practice–Answers headings aligned, 3/8/5/2 and five unique progressive test checks added; mathematical 23-check script preserved.",
+  "lastAttempt": "2026-10-13",
+  "remaining": "Fixed inherited duplicate special-polynomial-products registry entry and Desmos useIt/crossCheck fields in commit 4c01eb49; required release manifest has five builders and six canonical routes. Vercel authoritative preview attempt failed with 402 api-deployments-free-per-day (retry after 24 hours). Mathematical QA and production route checks remain required; no merge or LIVE_VERIFIED."
 }
