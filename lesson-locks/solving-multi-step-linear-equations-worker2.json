@@ -1,1 +1,7 @@
-{"lesson":"solving-multi-step-linear-equations","index":2,"owner":"worker2","status":"INCOMPLETE"}
+{
+  "lesson": "solving-multi-step-linear-equations",
+  "index": 2,
+  "owner": "worker2",
+  "status": "INCOMPLETE",
+  "blocker": "Mandatory explanation-retrofit-build.js fails on missing vertex-standard-form explanation in preview commit de14f73a; release not verified."
+}
