@@ -1,0 +1,9 @@
+{
+  "lesson": "solving-multi-step-linear-equations",
+  "index": 2,
+  "owner": "worker2",
+  "status": "RELEASE_READY_PR_BLOCKED",
+  "blocker": "Authoritative preview READY at 4a03632976aabe5bcddbf3bdb22273ef1b639556; release verified six routes and Explanation gate PASS; GitHub PR creation blocked by repository safety checks. Production not verified.",
+  "qa": "23/23 independent mathematical checks PASS; 18/18 practice-answer alignment 3/8/5/2; 5 progressive unique tests; 6/6 canonical HTML routes validated by production-build.js",
+  "last_commit": "4a03632976aabe5bcddbf3bdb22273ef1b639556"
+}
