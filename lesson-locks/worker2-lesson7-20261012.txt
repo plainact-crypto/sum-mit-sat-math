@@ -1,1 +1,6 @@
-Worker 2 owns canonical lesson index 7 (linear-equation-word-problems). Core QA: 18/18 practice, 18/18 aligned answers, 5/5 test; explanation includes deterministic graph and Desmos strategy. Bilingual 12-scene narration JSON, independent QA builder, and registry entry committed. Content route builder write rejected by safety checks. Release manifest and video route builders not yet committed. Do not merge or mark LIVE_VERIFIED; advance to lesson 12 if blocked.
+Worker 2 owns canonical index 7: linear-equation-word-problems.
+Content: 18 Practice questions (3/8/5/2), 18 matched solutions, 5 independent test questions, Explanation with verified graph and Desmos strategy.
+Mathematical QA: 18 Practice equations and 5 test equations independently checked; exact 18/18 Practice-to-Answers question wording and no Practice/Test duplicates validated.
+English and Arabic full lesson routes: 12 substantive narration chapters each, dedicated video builder committed.
+Unique release manifest: lesson-releases/linear-equation-word-problems.json committed with required builders and all six canonical routes.
+Release state: INCOMPLETE; authoritative preview/build/route validation blocked by Vercel 402 daily deployment quota on 2026-10-12. No merge, no LIVE_VERIFIED, no announcement email.
