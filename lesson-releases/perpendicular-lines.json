@@ -1,8 +1,11 @@
 {
   "lesson": "perpendicular-lines",
   "builders": [
+    "explanation-retrofit-build.js",
     "perpendicular-lines-lesson32-math-qa-build.js",
-    "perpendicular-lines-lesson32-video-build.js"
+    "perpendicular-lines-lesson32-video-build.js",
+    "perpendicular-lines-lesson32-final-retrofit-build.js",
+    "explanation-retrofit-gate.js"
   ],
   "routes": [
     "/algebra/linear-functions/perpendicular-lines/explanation/",
