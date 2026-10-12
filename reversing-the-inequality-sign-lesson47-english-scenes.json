@@ -1,0 +1,50 @@
+[
+  [
+    "Objective",
+    "Learn when a negative factor reverses an inequality, how to isolate the variable, and how to check each answer."
+  ],
+  [
+    "Number line",
+    "Three is less than five. After multiplying by negative one, negative three is greater than negative five; order flips."
+  ],
+  [
+    "Rule",
+    "Addition and subtraction preserve comparisons. Negative multiplication or division reverses them; positive factors do not."
+  ],
+  [
+    "Example 1",
+    "Negative three x greater than twelve means x less than negative four. Check x equals negative five: fifteen exceeds twelve."
+  ],
+  [
+    "Example 2",
+    "If x divided by negative five is at most two, multiply by negative five and reverse: x is at least negative ten."
+  ],
+  [
+    "Distribute",
+    "Negative two times x minus one at least eight becomes negative two x plus two at least eight, then x at most negative three."
+  ],
+  [
+    "Multi-step",
+    "Negative four x plus seven less than nineteen becomes negative four x less than twelve, then x greater than negative three."
+  ],
+  [
+    "Both sides",
+    "Two x minus five less than negative x plus seven becomes three x less than twelve, so x less than four."
+  ],
+  [
+    "Context",
+    "Fifty liters minus three point five liters each minute must exceed fifteen liters; time is less than ten minutes."
+  ],
+  [
+    "Boundaries",
+    "Strict less than excludes the boundary and uses an open circle. Less than or equal includes it and uses a closed circle."
+  ],
+  [
+    "Check",
+    "Simplify, isolate, reverse only after a negative multiplication or division, then test a value in the original inequality."
+  ],
+  [
+    "Recap",
+    "Negative five x less than ten gives x greater than negative two. Practice eighteen questions, then take the five-question test."
+  ]
+]
