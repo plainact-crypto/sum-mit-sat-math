@@ -3,9 +3,10 @@
   "index": 37,
   "owner": "worker2",
   "branch": "worker2/one-solution-37-20261012",
-  "status": "INCOMPLETE",
+  "status": "INCOMPLETE_RELEASE_BLOCKED",
   "mathQA": "23/23 PASS using independent v3 builder and in-memory execution after test fix",
   "testFix": "Committed at ad174c2e; new Q3 solution (4,4).",
-  "blocker": "Video-route builder write repeatedly blocked by repository safety checks; release manifest, authoritative build, and six-route validation pending.",
-  "narration": "12 English and 12 Arabic chapters committed"
+  "blocker": "Five required builders and unique six-route manifest committed; English/Arabic 12-chapter video builder and verified graph/Desmos explanation added. QA found 18 paraphrased Answer headings and a repeated Test item; Test corrected, answer headings 1–3 aligned. Further answer-heading writes blocked by repository safety checks. Vercel preview creation rejected with 402 daily deployment quota. Do not merge or mark LIVE_VERIFIED.",
+  "narration": "12 English and 12 Arabic chapters committed",
+  "commit": "fc511f5d439d71e75984b927a4e55c3eaa6f8c32"
 }
