@@ -1,1 +1,12 @@
-{"lesson":"solving-graphically","index":42,"owner":"worker2","branch":"worker2/solving-graphically-42-20261012","status":"INCOMPLETE"}
+{
+  "lesson": "solving-graphically",
+  "index": 42,
+  "owner": "worker2",
+  "branch": "worker2/solving-graphically-42-20261012",
+  "status": "INCOMPLETE",
+  "release_manifest": "lesson-releases/solving-graphically.json",
+  "release_commit": "ebf5c6dc0eb42ed48e2123e31a5c5aec22e3b238",
+  "validation": "FAILED",
+  "blocking_error": "Mandatory explanation-retrofit-build.js cannot find vertex-standard-form / Vertex from Standard Form: title hits 0, slug hits 0; shared canonical route is advanced-math/quadratic-functions/standard-form/vertex/explanation. Vercel preview dpl_4QQhBnkLkxgtPXKL5Hv7Xn4kxV7x ERROR.",
+  "next_action": "Coordinate a safe shared Explanation retrofit canonical route resolver fix, rerun authoritative release build and mathematical QA, then PR; do not merge or announce before production verification."
+}
