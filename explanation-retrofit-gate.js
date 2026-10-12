@@ -2,6 +2,8 @@ const fs=require('fs');
 const path=require('path');
 const registry=[...require('./explanation-retrofit-registry'),...require('./explanation-content-registry'),...require('./explanation-worker3-registry')];
 const tools=require('./explanation-tools');
+// Validate the final published markup, not a pre-publication retrofit snapshot.
+require('./explanation-retrofit-build.js');
 const root=__dirname;
 const dist=path.join(root,'dist');
 function walk(dir,out=[]){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())walk(p,out);else if(e.name==='index.html')out.push(p)}return out}
