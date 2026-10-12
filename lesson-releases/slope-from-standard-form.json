@@ -1,0 +1,15 @@
+{
+  "lesson": "slope-from-standard-form",
+  "builders": [
+    "slope-from-standard-form-lesson17-math-qa-build.js",
+    "slope-from-standard-form-lesson17-video-build.js"
+  ],
+  "routes": [
+    "/algebra/linear-functions/slope-from-standard-form/explanation/",
+    "/algebra/linear-functions/slope-from-standard-form/problems/",
+    "/algebra/linear-functions/slope-from-standard-form/answers/",
+    "/algebra/linear-functions/slope-from-standard-form/test/",
+    "/algebra/linear-functions/slope-from-standard-form/video/english/",
+    "/algebra/linear-functions/slope-from-standard-form/video/arabic/"
+  ]
+}
