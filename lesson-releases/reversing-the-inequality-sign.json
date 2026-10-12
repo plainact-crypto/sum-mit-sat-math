@@ -1,0 +1,17 @@
+{
+  "lesson": "reversing-the-inequality-sign",
+  "builders": [
+    "explanation-retrofit-build.js",
+    "reversing-the-inequality-sign-lesson47-math-qa-build.js",
+    "reversing-the-inequality-sign-lesson47-video-build.js",
+    "explanation-retrofit-gate.js"
+  ],
+  "routes": [
+    "/algebra/linear-inequalities/reversing-the-inequality-sign/explanation/",
+    "/algebra/linear-inequalities/reversing-the-inequality-sign/problems/",
+    "/algebra/linear-inequalities/reversing-the-inequality-sign/answers/",
+    "/algebra/linear-inequalities/reversing-the-inequality-sign/test/",
+    "/algebra/linear-inequalities/reversing-the-inequality-sign/video/english/",
+    "/algebra/linear-inequalities/reversing-the-inequality-sign/video/arabic/"
+  ]
+}
