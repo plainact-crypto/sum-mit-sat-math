@@ -1,0 +1,103 @@
+{
+  "lesson": "systems-of-inequalities-word-problems",
+  "english": [
+    [
+      "Systems represent several simultaneous limits",
+      "A system of linear inequalities models a decision that must satisfy two or more conditions at the same time. A point that satisfies only one inequality is not feasible. Our goal is to define meaningful variables, translate each sentence into a constraint, graph or test the overlap, and interpret the resulting ordered pairs. We will also work with integer restrictions, strict inequalities, and optimization."
+    ],
+    [
+      "Define variables and nonnegative domains",
+      "Before writing a formula, decide what x and y count and record the units. For example, let x be adult tickets and y be student tickets. Counts cannot be negative, so x is at least zero and y is at least zero. If whole items are counted, x and y must also be integers. These domain restrictions are part of the mathematical model, not optional decorations."
+    ],
+    [
+      "Translate at most and at least correctly",
+      "At most means less than or equal to. At least means greater than or equal to. Fewer than means strictly less than, and more than means strictly greater than. If a theater seats at most one hundred twenty people, write x plus y less than or equal to one hundred twenty. If at least thirty adult tickets must be sold, write x greater than or equal to thirty. Both conditions must hold."
+    ],
+    [
+      "Worked model: tickets and revenue",
+      "Suppose adult passes cost eight dollars, student passes cost five dollars, attendance cannot exceed seventy, and revenue must reach four hundred forty dollars. Write x plus y less than or equal to seventy, and eight x plus five y greater than or equal to four hundred forty. Include x and y nonnegative. Check a candidate such as sixty adults and ten students: attendance is seventy and revenue is five hundred thirty dollars, so both limits are satisfied."
+    ],
+    [
+      "Check a purchase against two limits",
+      "A student buys notebooks for three dollars each and folders for two dollars each, spends at most forty-two dollars, and wants at least ten items. The inequalities are three x plus two y less than or equal to forty-two, and x plus y greater than or equal to ten. Eight notebooks and six folders cost thirty-six dollars and total fourteen items, so this point is feasible. Checking only the spending limit would miss the second requirement."
+    ],
+    [
+      "Transportation constraints with units",
+      "A field trip uses vans with eight seats and buses with twenty seats. At least one hundred twenty seats are needed, with at most eight vehicles. Let x be vans and y be buses. The system is eight x plus twenty y greater than or equal to one hundred twenty, and x plus y less than or equal to eight. Two vans and six buses provide one hundred thirty-six seats using eight vehicles, so the plan is feasible."
+    ],
+    [
+      "Strict limits exclude the boundary",
+      "If a room must hold fewer than fifty people, write x plus y less than fifty, not less than or equal to fifty. A plan with exactly fifty people fails, even if its revenue requirement is met. When graphing, a strict inequality has a dashed boundary. A solid boundary means equality is allowed. In word problems, one wrong symbol can turn an infeasible plan into an apparently valid one."
+    ],
+    [
+      "Find the overlapping feasible region",
+      "Graph every inequality separately. Each one shades a half-plane, but the system solution is only the intersection of all shaded regions. For the constraints x plus y less than or equal to ten and x plus two y greater than or equal to twelve, the boundary lines intersect at eight comma two. Verify by substitution: eight plus two equals ten, and eight plus twice two equals twelve. Both boundary lines are solid because equality is permitted."
+    ],
+    [
+      "Parameters: greatest allowed integer",
+      "Suppose a shipping plan uses twenty standard boxes and ten express boxes, with two x plus k y less than or equal to seventy. Substitute x equals twenty and y equals ten. This gives forty plus ten k less than or equal to seventy, so k is at most three. The greatest allowed integer k is three. Always check the other constraints too; here the total thirty boxes is within the limit of thirty-five."
+    ],
+    [
+      "Count integer feasible pairs",
+      "Count nonnegative integer pairs satisfying x plus y less than or equal to ten, x at least four, and y at least three. Set u equals x minus four and v equals y minus three. Then u and v are nonnegative integers with u plus v at most three. There are four pairs when u is zero, three when u is one, two when u is two, and one when u is three. The total is ten."
+    ],
+    [
+      "Optimize within the feasible region",
+      "Maximize three x plus four y subject to x plus y at most twelve and two x plus three y at most thirty, with nonnegative integers. The two active boundaries meet at x equals six, y equals six, giving objective value forty-two. Check the axis corners: twelve comma zero gives thirty-six, and zero comma ten gives forty. The intersection is feasible and provides the maximum, forty-two."
+    ],
+    [
+      "Desmos strategy and exam recap",
+      "In Desmos, enter each inequality on a separate line, for example x plus y less than or equal to ten and x plus two y greater than or equal to twelve. Look for the overlapping shaded region, then check candidate integer points algebraically. Desmos is helpful for visualizing multiple boundaries, but exact substitution is faster for a single candidate and safer for strict limits. On the exam, define variables, translate every condition, enforce the domain, test all constraints, and interpret the answer in context."
+    ]
+  ],
+  "arabic": [
+    [
+      "القيود المتزامنة في مسألة واحدة",
+      "نظام المتباينات الخطية بيمثل قرار لازم يحقق شرطين أو أكتر في نفس الوقت. النقطة اللي تحقق شرط واحد بس مش حل مقبول. هدفنا نحدد المتغيرات ومعناها، ونترجم كل جملة لقيد رياضي، ونلاقي المنطقة المشتركة بين القيود، وبعدها نفسر الحل في سياق المسألة. هنتعامل كمان مع الأعداد الصحيحة والمتباينات الصارمة ومسائل إيجاد أكبر قيمة."
+    ],
+    [
+      "تعريف المتغيرات والمجال",
+      "قبل ما تكتب أي معادلة لازم تحدد س وص بيمثلوا إيه ووحداتهم إيه. مثلا س عدد تذاكر الكبار وص عدد تذاكر الطلبة. الأعداد دي ماينفعش تكون سالبة، وبالتالي س أكبر من أو يساوي صفر وص أكبر من أو يساوي صفر. ولو بنتكلم عن قطع كاملة يبقى المتغيران أعداد صحيحة. الشروط دي جزء أساسي من النموذج مش مجرد تفاصيل إضافية."
+    ],
+    [
+      "الفرق بين على الأكثر وعلى الأقل",
+      "عبارة على الأكثر معناها أصغر من أو يساوي، وعلى الأقل معناها أكبر من أو يساوي. أقل من معناها علامة صارمة، وأكتر من برضه علامة صارمة. لو المسرح يسع على الأكثر مية وعشرين شخص، نكتب س زائد ص أصغر من أو يساوي مية وعشرين. ولو لازم نبيع على الأقل تلاتين تذكرة كبار، نكتب س أكبر من أو يساوي تلاتين. الشرطين لازم يتحققوا معا."
+    ],
+    [
+      "مثال التذاكر والإيراد",
+      "لو تذكرة الكبار بتمانية دولار والطلبة بخمسة، والحضور بحد أقصى سبعين شخص، والإيراد المطلوب على الأقل أربعمية وأربعين دولار، نكتب س زائد ص أصغر من أو يساوي سبعين، وتمانية س زائد خمسة ص أكبر من أو يساوي أربعمية وأربعين. ومعاهم س وص غير سالبين. خطة ستين كبير وعشرة طلبة تحقق العدد سبعين والإيراد خمسمية وتلاتين، فتبقى خطة مقبولة."
+    ],
+    [
+      "اختبار عملية شراء بشرطين",
+      "طالب بيشتري كراسات بثلاثة دولار للواحدة وملفات بدولارين للواحد، وميزانيته على الأكثر اتنين وأربعين دولار وعايز على الأقل عشرة قطع. نكتب ثلاثة س زائد اتنين ص أصغر من أو يساوي اتنين وأربعين، وس زائد ص أكبر من أو يساوي عشرة. تمانية كراسات وست ملفات تكلف ستة وتلاتين دولار ومجموعها أربعة عشر، فبتحقق الشرطين. ماتكتفيش باختبار الميزانية لوحدها."
+    ],
+    [
+      "مثال المواصلات والسعة",
+      "رحلة مدرسية فيها عربيات صغيرة كل واحدة بتمانية كراسي وأتوبيسات كل واحد بعشرين كرسي. المطلوب على الأقل مية وعشرين كرسي، وبحد أقصى تمانية مركبات. لو س عدد العربيات وص عدد الأتوبيسات، نكتب تمانية س زائد عشرين ص أكبر من أو يساوي مية وعشرين، وس زائد ص أصغر من أو يساوي تمانية. عربيتين وست أتوبيسات يوفروا مية ستة وتلاتين كرسي باستخدام تمانية مركبات، فالحل صحيح."
+    ],
+    [
+      "الشرط الصارم لا يشمل الحد",
+      "لو القاعة لازم يكون فيها أقل من خمسين شخص، نكتب س زائد ص أصغر من خمسين من غير علامة يساوي. خطة فيها خمسين شخص بالضبط مرفوضة حتى لو حققت شرط الإيراد. على الرسم الحد الفاصل للمتباينة الصارمة بيكون متقطع، أما لو المساواة مسموحة فيكون متصل. تغيير علامة واحدة ممكن يحول خطة غير مقبولة لخطة تبدو صحيحة."
+    ],
+    [
+      "المنطقة المشتركة بين التظليلات",
+      "ارسم كل متباينة لوحدها، وكل واحدة هتظلل نصف مستوى. حل النظام هو الجزء المشترك بين كل المناطق المظللة. لو عندنا س زائد ص أصغر من أو يساوي عشرة، وس زائد اتنين ص أكبر من أو يساوي اتناشر، الخطين الفاصلين بيتقابلوا عند النقطة تمانية واتنين. بالتعويض تمانية زائد اتنين يساوي عشرة، وتمانية زائد ضعف اتنين يساوي اتناشر. الخطان متصلان لأن المساواة مسموحة."
+    ],
+    [
+      "إيجاد أكبر قيمة صحيحة لمعامل",
+      "خطة شحن فيها عشرين صندوق عادي وعشرة صناديق سريعة، والشرط اتنين س زائد كاف ص أصغر من أو يساوي سبعين. نعوض بس يساوي عشرين وص يساوي عشرة، فنحصل على أربعين زائد عشرة كاف أصغر من أو يساوي سبعين. إذن كاف أصغر من أو يساوي ثلاثة، وأكبر قيمة صحيحة هي ثلاثة. لازم كمان نتأكد من باقي القيود، وهنا عدد الصناديق تلاتين وهو أقل من الحد خمسة وتلاتين."
+    ],
+    [
+      "عد الحلول الصحيحة الممكنة",
+      "عايزين نعد الأزواج الصحيحة غير السالبة اللي تحقق س زائد ص أصغر من أو يساوي عشرة، وس على الأقل أربعة، وص على الأقل ثلاثة. نعرف متغيرين جديدين: ع يساوي س ناقص أربعة، وف يساوي ص ناقص ثلاثة. يبقى ع وف غير سالبين ومجموعهم على الأكثر ثلاثة. لما ع صفر فيه أربع قيم لف، ولما ع واحد فيه ثلاثة، ولما ع اتنين فيه اتنين، ولما ع ثلاثة فيه قيمة واحدة. المجموع عشرة حلول."
+    ],
+    [
+      "إيجاد أكبر قيمة داخل المنطقة",
+      "نريد تعظيم ثلاثة س زائد أربعة ص تحت الشرطين س زائد ص أصغر من أو يساوي اتناشر، واتنين س زائد ثلاثة ص أصغر من أو يساوي تلاتين، مع متغيرات صحيحة غير سالبة. تقاطع الحدين الفاصلين عند س يساوي ستة وص يساوي ستة، وقيمة الهدف اتنين وأربعين. عند النقطة اتناشر وصفر القيمة ستة وتلاتين، وعند صفر وعشرة القيمة أربعين. إذن أكبر قيمة هي اتنين وأربعين."
+    ],
+    [
+      "ديسموس وخطوات الامتحان",
+      "في ديسموس اكتب كل متباينة في سطر مستقل، مثلا س زائد ص أصغر من أو يساوي عشرة، وس زائد اتنين ص أكبر من أو يساوي اتناشر. ركز على المنطقة المشتركة، وبعدها اختبر النقاط الصحيحة بالتعويض. ديسموس مفيد جدا لرؤية تداخل القيود، لكن التعويض أسرع لو بتختبر خطة واحدة. في الامتحان حدد المتغيرات، ترجم كل شرط، أضف قيود المجال، اختبر كل المتباينات، وفسر النتيجة في سياق المسألة."
+    ]
+  ]
+}
