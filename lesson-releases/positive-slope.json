@@ -1,1 +1,18 @@
-{"lesson":"positive-slope","builders":["positive-slope-lesson22-math-qa-build.js","positive-slope-lesson22-video-build.js"],"routes":["/algebra/linear-functions/positive-slope/explanation/","/algebra/linear-functions/positive-slope/problems/","/algebra/linear-functions/positive-slope/answers/","/algebra/linear-functions/positive-slope/test/","/algebra/linear-functions/positive-slope/video/english/","/algebra/linear-functions/positive-slope/video/arabic/"]}
+{
+  "lesson": "positive-slope",
+  "builders": [
+    "explanation-retrofit-build.js",
+    "positive-slope-lesson22-video-build.js",
+    "positive-slope-lesson22-math-qa-build.js",
+    "positive-slope-lesson22-final-retrofit-build.js",
+    "explanation-retrofit-gate.js"
+  ],
+  "routes": [
+    "/algebra/linear-functions/positive-slope/explanation/",
+    "/algebra/linear-functions/positive-slope/problems/",
+    "/algebra/linear-functions/positive-slope/answers/",
+    "/algebra/linear-functions/positive-slope/test/",
+    "/algebra/linear-functions/positive-slope/video/english/",
+    "/algebra/linear-functions/positive-slope/video/arabic/"
+  ]
+}
