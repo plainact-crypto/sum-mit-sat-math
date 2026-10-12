@@ -38,7 +38,9 @@ tests.forEach((q,i)=>verify([q.q,q.c,q.a],data.test[i],i+19));
 assert.strictEqual(new Set([...questions.map(q=>q[0]),...tests.map(q=>q.q)]).size,23,'Practice/Test prompts must be unique');
 const title='Building an Equation from Slope and Y-Intercept';
 for(const [type,html] of [['explanation',e],['problems',p],['answers',a],['test',t]]){
- assert(html.includes('<div class="lesson-title">'+title+'</div>'),'Canonical title missing on '+type);
+ const matches=html.includes('<div class="lesson-title">'+title+'</div>')||html.includes('<h1>'+title+'</h1>');
+ assert(matches,'Canonical visible title missing on '+type);
+ assert(html.includes('<div class="crumb">Algebra · Linear Functions</div>'),'Canonical breadcrumb missing on '+type);
 }
 assert(e.includes('data-summit-graph'),'Deterministic graph missing');
 for(const [x,y] of [[0,-4],[1,-1],[2,2]])assert.strictEqual(3*x-4,y,'Graph point substitution');
