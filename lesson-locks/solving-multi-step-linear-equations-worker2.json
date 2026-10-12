@@ -1,0 +1,19 @@
+{
+  "lesson": "solving-multi-step-linear-equations",
+  "index": 2,
+  "owner": "worker2",
+  "status": "RELEASE_VALIDATION_PENDING",
+  "base": "main",
+  "release_manifest": "lesson-releases/solving-multi-step-linear-equations.json",
+  "required_routes": 6,
+  "practice_questions": 18,
+  "practice_groups": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "answers": 18,
+  "test_questions": 5,
+  "notes": "Previous Vertex explanation blocker corrected in main. Lesson 2 release assembled on fresh branch; do not mark complete until authoritative build, route validation, mathematical QA, production READY and live routes verified."
+}
