@@ -1,1 +1,12 @@
-{"lesson":10,"slug":"point-slope-form","worker":"worker5","status":"IN_PROGRESS"}
+{
+  "lesson": 10,
+  "slug": "point-slope-form",
+  "worker": "worker5",
+  "status": "BLOCKED",
+  "blockers": [
+    "Required explanation registry entry for BOTH graph/Desmos absent",
+    "Attempt to update explanation source marker and graph release metadata rejected by repository safety checks",
+    "Full build, mathematical QA, and production route verification remain pending"
+  ],
+  "next": "Continue next earliest owned lesson without merging this branch"
+}
