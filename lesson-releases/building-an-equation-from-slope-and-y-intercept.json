@@ -1,0 +1,18 @@
+{
+  "lesson": "building-an-equation-from-slope-and-y-intercept",
+  "builders": [
+    "explanation-retrofit-build.js",
+    "building-equation-slope-y-intercept-lesson27-math-qa-build.js",
+    "building-equation-slope-y-intercept-lesson27-video-build.js",
+    "building-equation-slope-y-intercept-lesson27-final-retrofit-build.js",
+    "explanation-retrofit-gate.js"
+  ],
+  "routes": [
+    "/algebra/linear-functions/building-an-equation-from-slope-and-y-intercept/explanation/",
+    "/algebra/linear-functions/building-an-equation-from-slope-and-y-intercept/problems/",
+    "/algebra/linear-functions/building-an-equation-from-slope-and-y-intercept/answers/",
+    "/algebra/linear-functions/building-an-equation-from-slope-and-y-intercept/test/",
+    "/algebra/linear-functions/building-an-equation-from-slope-and-y-intercept/video/english/",
+    "/algebra/linear-functions/building-an-equation-from-slope-and-y-intercept/video/arabic/"
+  ]
+}
