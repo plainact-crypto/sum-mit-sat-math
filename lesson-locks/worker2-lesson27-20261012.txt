@@ -1,0 +1,6 @@
+Canonical index: 27/298
+Title: Building an Equation from Slope and Y-Intercept
+Slug: building-an-equation-from-slope-and-y-intercept
+Base: /algebra/linear-functions/building-an-equation-from-slope-and-y-intercept/
+Worker: 2
+Scope: full six-route package, 18/18 practice and aligned answers, five-question test, independent mathematical QA, unique release manifest, and release gates.
