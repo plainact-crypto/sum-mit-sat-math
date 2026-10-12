@@ -1,6 +1,10 @@
 {
   "lesson": "overlapping-solution-regions",
   "builders": [
+    "overlapping-solution-regions-explanation-build.js",
+    "overlapping-solution-regions-problems-build.js",
+    "overlapping-solution-regions-answers-build.js",
+    "overlapping-solution-regions-test-build.js",
     "overlapping-solution-regions-lesson55-test-lock-build.js",
     "overlapping-solution-regions-lesson55-full-video-build.js"
   ],
