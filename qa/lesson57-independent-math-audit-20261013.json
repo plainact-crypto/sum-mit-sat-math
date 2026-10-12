@@ -1,0 +1,30 @@
+{
+  "lesson": 57,
+  "slug": "systems-of-inequalities-word-problems",
+  "checked": "2026-10-13",
+  "practice": {
+    "count": 18,
+    "groups": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answer_keys": "18/18 verified",
+    "challenge17_integer_pairs": 10,
+    "challenge18_maximum": 42
+  },
+  "test": {
+    "count": 5,
+    "answer_keys": [
+      "A",
+      "B",
+      "B",
+      "B",
+      "D"
+    ],
+    "question5_maximum": 44
+  },
+  "status": "STATIC_MATH_QA_ONLY",
+  "remaining": "Exact Practice-Answers question text alignment, bilingual full video builders, release manifest and authoritative build pending."
+}
