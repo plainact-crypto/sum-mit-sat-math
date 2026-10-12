@@ -1,0 +1,15 @@
+{
+  "lesson": "finding-x-intercept",
+  "builders": [
+    "finding-x-intercept-lesson12-math-qa-build.js",
+    "finding-x-intercept-lesson12-video-build.js"
+  ],
+  "routes": [
+    "/algebra/linear-equations-in-two-variables/finding-x-intercept/explanation/",
+    "/algebra/linear-equations-in-two-variables/finding-x-intercept/problems/",
+    "/algebra/linear-equations-in-two-variables/finding-x-intercept/answers/",
+    "/algebra/linear-equations-in-two-variables/finding-x-intercept/test/",
+    "/algebra/linear-equations-in-two-variables/finding-x-intercept/video/english/",
+    "/algebra/linear-equations-in-two-variables/finding-x-intercept/video/arabic/"
+  ]
+}
