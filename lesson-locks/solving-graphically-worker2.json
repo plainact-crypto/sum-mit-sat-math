@@ -3,10 +3,10 @@
   "index": 42,
   "owner": "worker2",
   "branch": "worker2/solving-graphically-42-20261012",
-  "status": "INCOMPLETE",
-  "release_manifest": "lesson-releases/solving-graphically.json",
-  "release_commit": "ebf5c6dc0eb42ed48e2123e31a5c5aec22e3b238",
-  "validation": "FAILED",
-  "blocking_error": "Mandatory explanation-retrofit-build.js cannot find vertex-standard-form / Vertex from Standard Form: title hits 0, slug hits 0; shared canonical route is advanced-math/quadratic-functions/standard-form/vertex/explanation. Vercel preview dpl_4QQhBnkLkxgtPXKL5Hv7Xn4kxV7x ERROR.",
-  "next_action": "Coordinate a safe shared Explanation retrofit canonical route resolver fix, rerun authoritative release build and mathematical QA, then PR; do not merge or announce before production verification."
+  "status": "INCOMPLETE_AWAITING_AUTHORITATIVE_BUILD",
+  "release_manifest": "lesson-releases/solving-graphically.json (6 required builders, 6 canonical routes)",
+  "release_commit": "1f73f2e6bca9e0cb6030bbcd3348ee28e77e4210",
+  "validation": "Static checks PASS: 18/18 exact Practice/Answers statements, 18/18 correct answer letters and final values, 3/8/5/2 distribution, 18 distinct practice prompts, 12 English and 12 Arabic chapters. Required build not yet run.",
+  "blocking_error": "Vercel preview creation rejected 402 api-deployments-free-per-day (2026-10-12), retryAfter 86400. Previous shared Vertex resolver blocker resolved in branch by adopting already-merged main fix.",
+  "next_action": "After quota reset, run authoritative preview and verify mandatory Explanation registry/graph/Desmos gate, 23 math checks, and six HTML outputs. Do not merge, announce or mark LIVE_VERIFIED until production READY and live routes checked."
 }
