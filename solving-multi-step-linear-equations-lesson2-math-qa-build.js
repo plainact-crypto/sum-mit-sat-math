@@ -10,3 +10,20 @@ console.log('[Lesson 2] 23/23 independent math checks PASS');
 
 // Reapply registry markers after publish-existing-content.js overwrites Explanation HTML.
 require('./explanation-retrofit-build.js');
+
+
+const fs=require('fs'),path=require('path');
+const lessonRoot=path.join(__dirname,'dist','algebra','linear-equations-in-one-variable','solving-multi-step-linear-equations');
+const readRoute=n=>fs.readFileSync(path.join(lessonRoot,n,'index.html'),'utf8');
+const [practicePage,answersPage,testPage]=['problems','answers','test'].map(readRoute);
+const headings=s=>[...s.matchAll(/<h3>([^<]+)<\/h3>/g)].map(m=>m[1]);
+const groupCounts=(s,sec,item)=>[...s.matchAll(new RegExp('<section class="'+sec+'">([\\s\\S]*?)<\\/section>','g'))].map(m=>(m[1].match(new RegExp('class="'+item+'"','g'))||[]).length);
+assert.deepEqual(groupCounts(practicePage,'practice-section','question'),[3,8,5,2]);
+assert.deepEqual(groupCounts(answersPage,'answers-section','solution'),[3,8,5,2]);
+const practiceTitles=headings(practicePage),answerTitles=headings(answersPage),testTitles=headings(testPage);
+assert.equal(practiceTitles.length,18);assert.deepEqual(answerTitles,practiceTitles);
+assert.equal(testTitles.length,5);assert.equal(new Set([...practiceTitles,...testTitles]).size,23);
+assert.equal((practicePage.match(/<div class="question" data-answer=/g)||[]).length,18);
+assert.equal((answersPage.match(/class="answer-badge"/g)||[]).length,18);
+assert.equal((testPage.match(/<section class="test-card" data-answer=/g)||[]).length,5);
+console.log('[Lesson 2] source-to-dist page alignment, 3/8/5/2 practice/answers, 5 unique tests PASS');
