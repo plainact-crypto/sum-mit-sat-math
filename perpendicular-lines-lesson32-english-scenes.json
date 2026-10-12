@@ -1,0 +1,50 @@
+[
+  [
+    "Objective",
+    "Perpendicular lines meet at a right angle. This lesson teaches you to recognize perpendicular slopes, write the equation of a perpendicular line through a point, and solve missing-coordinate questions. Always verify both the slope relationship and the required point."
+  ],
+  [
+    "Negative reciprocal",
+    "For nonzero finite slopes, two lines are perpendicular exactly when their slopes multiply to negative one. Change a slope of three to negative one third. Change negative two fifths to positive five halves. You must flip the fraction and change the sign."
+  ],
+  [
+    "Read standard form",
+    "For A x plus B y equals C, the slope is negative A divided by B when B is not zero. Three x minus two y equals eight has slope three halves. A perpendicular line therefore has slope negative two thirds."
+  ],
+  [
+    "Recognize perpendicular lines",
+    "Compare y equals three x plus four with y equals negative one third x plus seven. Multiply their slopes: three times negative one third is negative one. The lines are perpendicular. Their different intercepts do not affect this result."
+  ],
+  [
+    "Write a line through a point",
+    "Find the line perpendicular to y equals two x plus one through four comma three. The new slope is negative one half. In y equals m x plus b, substitute the point: three equals negative two plus b. Therefore b equals five."
+  ],
+  [
+    "Verify the equation",
+    "The answer y equals negative one half x plus five passes through four comma three, because negative two plus five equals three. Its slope multiplied by the original slope two equals negative one. Always perform both checks."
+  ],
+  [
+    "Find a hidden ordinate",
+    "The line through zero comma one and four comma nine has slope two. A perpendicular line through two comma three and six comma k must have slope negative one half. Thus k minus three divided by four equals negative one half, giving k equals one."
+  ],
+  [
+    "Horizontal and vertical",
+    "A horizontal line such as y equals six has zero slope, so its perpendicular is vertical. Through four comma negative two, write x equals four. A line perpendicular to the vertical line x equals three through negative five comma seven is y equals seven."
+  ],
+  [
+    "Solve for a coefficient",
+    "Suppose k x plus four y equals seven is perpendicular to three x minus two y equals five. Their slopes are negative k over four and positive three halves. Set their product to negative one and solve: k equals eight thirds."
+  ],
+  [
+    "Challenge with coordinates",
+    "The line through a comma two and six comma ten is perpendicular to slope four thirds. Its slope is eight over six minus a. Set that equal to negative three quarters. Cross multiply and solve: thirty-two equals negative eighteen plus three a, so a equals fifty thirds."
+  ],
+  [
+    "Graph and Desmos",
+    "Graph y equals two x plus one and y equals negative one half x plus one. They intersect at zero comma one and their slopes multiply to negative one. Check points for x equals negative one, zero, and one. Algebra is faster for exact answers; Desmos confirms the picture."
+  ],
+  [
+    "Final exam strategy",
+    "Read or calculate the given slope, take its negative reciprocal, then use the point or parameter to write the new line. Handle horizontal and vertical lines separately. The practice set has eighteen questions, and the five-question test reveals feedback after submission."
+  ]
+]
