@@ -1,0 +1,105 @@
+{
+  "lesson": "finding-x-intercept",
+  "index": 12,
+  "format": "full-lesson",
+  "english": [
+    [
+      "Objective",
+      "Find where a line meets the x-axis."
+    ],
+    [
+      "Core rule",
+      "Set y equal to zero and solve for x."
+    ],
+    [
+      "Standard form",
+      "For Ax+By=C, the intercept has x=C/A when A is nonzero."
+    ],
+    [
+      "Example 1",
+      "3x+2y=18 gives x=6 and point (6,0)."
+    ],
+    [
+      "Slope-intercept form",
+      "For y=mx+b, set 0=mx+b."
+    ],
+    [
+      "Example 2",
+      "y=-4x+12 gives x=3 and point (3,0)."
+    ],
+    [
+      "Fraction example",
+      "8x+6y=7 gives point (7/8,0)."
+    ],
+    [
+      "Vertical line",
+      "x=4 crosses at (4,0)."
+    ],
+    [
+      "Horizontal lines",
+      "y=5 never crosses; y=0 lies on the x-axis."
+    ],
+    [
+      "Application",
+      "120-8x=0 means a tank empties after 15 minutes."
+    ],
+    [
+      "Graph and Desmos",
+      "y=2x-10 crosses at (5,0); verify algebraically."
+    ],
+    [
+      "Recap",
+      "Set y=0, solve, check, and give the coordinate."
+    ]
+  ],
+  "arabic": [
+    [
+      "الهدف",
+      "إيجاد تقاطع المستقيم مع محور السينات."
+    ],
+    [
+      "القاعدة",
+      "ضع صاد تساوي صفر ثم أوجد سين."
+    ],
+    [
+      "الصيغة القياسية",
+      "في Ax+By=C تكون سين مساوية C/A إذا كان A غير صفر."
+    ],
+    [
+      "مثال أول",
+      "3x+2y=18 يعطي سين تساوي ستة، والنقطة ستة وصفر."
+    ],
+    [
+      "الميل والمقطع",
+      "في y=mx+b نضع صفر بدلاً من صاد."
+    ],
+    [
+      "مثال ثان",
+      "y=-4x+12 يعطي النقطة ثلاثة وصفر."
+    ],
+    [
+      "مثال الكسر",
+      "8x+6y=7 يعطي النقطة سبعة على ثمانية وصفر."
+    ],
+    [
+      "المستقيم الرأسي",
+      "x=4 يقطع المحور عند أربعة وصفر."
+    ],
+    [
+      "المستقيم الأفقي",
+      "y=5 لا يقطع المحور، أما y=0 فهو المحور نفسه."
+    ],
+    [
+      "تطبيق",
+      "120-8x=0 يعني أن الخزان يفرغ بعد خمس عشرة دقيقة."
+    ],
+    [
+      "الرسم وديسموس",
+      "y=2x-10 يقطع المحور عند خمسة وصفر. تحقق جبرياً."
+    ],
+    [
+      "الخلاصة",
+      "ضع صاد صفراً، حل، تحقق، ثم اكتب النقطة."
+    ]
+  ]
+}
