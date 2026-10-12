@@ -1,0 +1,8 @@
+Worker 2 — canonical lesson index 27 / 298
+Title: Building an Equation from Slope and Y-Intercept
+Slug: building-an-equation-from-slope-and-y-intercept
+Canonical base: /algebra/linear-functions/building-an-equation-from-slope-and-y-intercept/
+Release branch: worker2/lesson27-release-clean-20261012
+Scope: complete Explanation (BOTH: deterministic graph + Desmos), 18 practice (3/8/5/2), 18 exactly aligned worked answers, five progressive independent test questions, 12-chapter English/Arabic full lesson players.
+2026-10-12: Rebased cleanly on main. Replaced 16 paraphrased answer headings with verbatim Practice prompts. Independent algebra QA: 23/23 choice equations re-solved by evaluating slope and y-intercept, 18/18 answer headings aligned, test levels verified, 3 graph points checked. Added canonical Explanation registry entry, five mandatory builders and unique six-route release manifest.
+STATUS: INCOMPLETE until authoritative build and six routes verified. No merge, no LIVE_VERIFIED, no announcement until production READY and live routes checked.
