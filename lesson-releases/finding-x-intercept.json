@@ -1,8 +1,11 @@
 {
   "lesson": "finding-x-intercept",
   "builders": [
+    "explanation-retrofit-build.js",
+    "finding-x-intercept-lesson12-video-build.js",
     "finding-x-intercept-lesson12-qa-v2-build.js",
-    "finding-x-intercept-lesson12-video-build.js"
+    "finding-x-intercept-lesson12-final-retrofit-build.js",
+    "explanation-retrofit-gate.js"
   ],
   "routes": [
     "/algebra/linear-equations-in-two-variables/finding-x-intercept/explanation/",
