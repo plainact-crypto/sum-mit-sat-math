@@ -1,8 +1,11 @@
 {
   "lesson": "slope-from-standard-form",
   "builders": [
+    "explanation-retrofit-build.js",
+    "slope-from-standard-form-lesson17-video-build.js",
     "slope-from-standard-form-lesson17-math-qa-build.js",
-    "slope-from-standard-form-lesson17-video-build.js"
+    "slope-from-standard-form-lesson17-final-retrofit-build.js",
+    "explanation-retrofit-gate.js"
   ],
   "routes": [
     "/algebra/linear-functions/slope-from-standard-form/explanation/",
