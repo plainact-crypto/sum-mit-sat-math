@@ -9,3 +9,11 @@ for(const lang of ['english','arabic']){
  const target=path.join(__dirname,'dist',base,'video',lang,'index.html');
  fs.mkdirSync(path.dirname(target),{recursive:true});fs.writeFileSync(target,html);
 }
+
+const vm=require('node:vm');
+const source=fs.readFileSync(path.join(__dirname,'linear-word-problems-problems.html'),'utf8').match(/const groups=(\[[\s\S]*?\]);let n=0;/);
+if(!source)throw Error('Missing practice data');
+const questions=vm.runInNewContext(source[1]).flatMap(g=>g[2].map(q=>q[0]));
+const output=path.join(__dirname,'dist',base,'answers','index.html');
+let n=0;const aligned=fs.readFileSync(output,'utf8').replace(/<h3>[^<]*<\/h3>/g,()=>'<h3>'+questions[n++]+'</h3>');
+if(n!==18)throw Error('Answers alignment failed');fs.writeFileSync(output,aligned);
