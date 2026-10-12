@@ -1,1 +1,9 @@
-{"lesson":"perpendicular-lines","index":32,"owner":"worker2","status":"INCOMPLETE","branch":"worker2/perpendicular-lines-32-20261012"}
+{
+  "lesson": "perpendicular-lines",
+  "index": 32,
+  "owner": "worker2",
+  "branch": "worker2/perpendicular-lines-32-20261012",
+  "status": "LOCAL_QA_PASSED_RELEASE_BLOCKED",
+  "blocker": "Vercel preview deployment 402 api-deployments-free-per-day, retry after 24h; no authoritative build or production route verification",
+  "commit": "5698659b8fb66460813d2d4d8bf8a68150de92a4"
+}
