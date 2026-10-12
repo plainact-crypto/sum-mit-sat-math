@@ -1,0 +1,150 @@
+{
+  "lesson": "positive-slope",
+  "index": 22,
+  "canonicalBase": "/algebra/linear-functions/positive-slope/",
+  "classification": "BOTH",
+  "practiceDistribution": [
+    3,
+    8,
+    5,
+    2
+  ],
+  "practice": [
+    {
+      "number": 1,
+      "independentlyCalculated": 3,
+      "pass": true
+    },
+    {
+      "number": 2,
+      "independentlyCalculated": 0.75,
+      "pass": true
+    },
+    {
+      "number": 3,
+      "independentlyCalculated": 2,
+      "pass": true
+    },
+    {
+      "number": 4,
+      "independentlyCalculated": 1.5,
+      "pass": true
+    },
+    {
+      "number": 5,
+      "independentlyCalculated": 2.5,
+      "pass": true
+    },
+    {
+      "number": 6,
+      "independentlyCalculated": 1.75,
+      "pass": true
+    },
+    {
+      "number": 7,
+      "independentlyCalculated": 0.4,
+      "pass": true
+    },
+    {
+      "number": 8,
+      "independentlyCalculated": 3,
+      "pass": true
+    },
+    {
+      "number": 9,
+      "independentlyCalculated": 2.5,
+      "pass": true
+    },
+    {
+      "number": 10,
+      "independentlyCalculated": 19,
+      "pass": true
+    },
+    {
+      "number": 11,
+      "independentlyCalculated": 1.2,
+      "pass": true
+    },
+    {
+      "number": 12,
+      "independentlyCalculated": 30,
+      "pass": true
+    },
+    {
+      "number": 13,
+      "independentlyCalculated": 3,
+      "pass": true
+    },
+    {
+      "number": 14,
+      "independentlyCalculated": 2,
+      "pass": true
+    },
+    {
+      "number": 15,
+      "independentlyCalculated": 2,
+      "pass": true
+    },
+    {
+      "number": 16,
+      "independentlyCalculated": 1,
+      "pass": true
+    },
+    {
+      "number": 17,
+      "independentlyCalculated": 21,
+      "pass": true
+    },
+    {
+      "number": 18,
+      "independentlyCalculated": 8,
+      "pass": true
+    }
+  ],
+  "test": [
+    {
+      "number": 1,
+      "independentlyCalculated": 2,
+      "pass": true
+    },
+    {
+      "number": 2,
+      "independentlyCalculated": 0.6,
+      "pass": true
+    },
+    {
+      "number": 3,
+      "independentlyCalculated": 2.5,
+      "pass": true
+    },
+    {
+      "number": 4,
+      "independentlyCalculated": 19,
+      "pass": true
+    },
+    {
+      "number": 5,
+      "independentlyCalculated": 15,
+      "pass": true
+    }
+  ],
+  "graph": {
+    "equation": "y=2x+1",
+    "points": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "verified": true
+  },
+  "status": "MATHEMATICAL_QA_23_OF_23_PASSED; RELEASE_INCOMPLETE_PENDING_VIDEO_BUILDER"
+}
