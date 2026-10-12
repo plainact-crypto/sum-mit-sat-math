@@ -18,12 +18,12 @@ const proofs=[
   2*(5/3)+7===-(5/3)+12,12*4+18===15*4+6,
   (8+1)*2-2===5*2+6,2/3*(45/8)+13/4===7&&45/8-13/8===4
 ];
-const testProofs=[3+4===-3+10,1!==-3,3*4+2*4===20&&2*4-4===4,5*4+18===8*4+6,3-1===2];
+const testProofs=[3+4===-3+10,1!==-3,3*4+2===14&&4-2===2,5*4+18===8*4+6,3-1===2];
 if(proofs.some(x=>!x)||testProofs.some(x=>!x))throw Error('Independent algebra QA failed');
-const answers=read('answers');const finals=[...answers.matchAll(/<div class="final">Answer:\\s*([A-D])\\)\\s*([^<]+)<\\/div>/g)];
+const answers=read('answers');const answerHeads=[...answers.matchAll(/<div class="answer"><h3>(\d+)\.\s*([^<]+)<\/h3>/g)];if(answerHeads.length!==18||answerHeads.some((h,i)=>Number(h[1])!==i+1||h[2]!==practice[i][0]))throw Error('Practice and Answers statement alignment failed');const finals=[...answers.matchAll(/<div class="final">Answer:\\s*([A-D])\\)\\s*([^<]+)<\\/div>/g)];
 if(finals.length!==18)throw Error('Expected 18 worked answers, got '+finals.length);
 for(let i=0;i<18;i++){if(practice[i][2]!==expected[i]||finals[i][1]!==String.fromCharCode(65+expected[i]))throw Error('Practice/answers mismatch Q'+(i+1))}
 for(let i=0;i<5;i++)if(test[i].a!==testExpected[i])throw Error('Test answer mismatch Q'+(i+1));
-if(!test[2].q.includes('3x + 2y = 20')||!test[2].why.includes('7x = 28'))throw Error('Independent test correction not applied');
+if(!test[2].q.includes('3x + y = 14')||!test[2].why.includes('4x = 16'))throw Error('Independent test correction not applied');
 if(practice.some(q=>test.some(t=>t.q===q[0]&&t.c.join('|')===q[1].join('|'))))throw Error('Practice/test item duplicated');
 console.log('Lesson 37 mathematical QA PASS: 18 practice, 18 aligned answers, 5 tests; independently checked');
