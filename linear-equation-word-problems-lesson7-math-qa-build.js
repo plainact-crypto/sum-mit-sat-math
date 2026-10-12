@@ -27,3 +27,5 @@ const tv=[4,12,18,31,7],te=[x=>6+4*x===22,x=>x+(x+3)===27,x=>2*(x+9)===54,x=>x+(
 tv.forEach((x,j)=>assert(te[j](x)&&!te[j](x+1),'Test '+(j+1)));
 assert.deepEqual(Array.from(test.matchAll(/data-answer="([A-D])"/g),m=>m[1]),['B','C','D','A','C']);
 console.log('[Lesson 7] 18 practice + 5 test mathematical QA PASS');
+// Reapply Explanation registry after the late existing-content publisher.
+require('./explanation-retrofit-build.js');
