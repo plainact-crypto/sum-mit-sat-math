@@ -1,0 +1,14 @@
+const fs=require('fs'),assert=require('assert');
+const read=x=>fs.readFileSync('positive-slope-'+x+'.html','utf8');
+const p=read('problems'),a=read('answers'),t=read('test');
+const groups=JSON.parse(p.match(/const groups=(\[[\s\S]*?\]);let n=0;/)[1]);
+const questions=groups.flatMap(g=>g[2]);
+assert.equal(groups.map(g=>g[2].length).join(','),'3,8,5,2');
+const correct=[1,2,1,1,1,2,0,1,3,2,1,1,1,1,1,0,2,1];
+const expected=['3','0.75','2','3/2','5/2','7/4','2/5','3','5/2','19','1.2','$30 per week','3 cm/day','y = 2x − 2','The output increases by 2 per input unit.','1','21','8'];
+const labels=[...a.matchAll(/class="final">Answer: ([A-D])\)/g)].map(x=>x[1]);
+assert.equal(questions.length,18);assert.equal(labels.length,18);
+questions.forEach((q,i)=>{assert.equal(q[2],correct[i]);assert.equal(q[1][q[2]],expected[i]);assert.equal(labels[i],'ABCD'[correct[i]])});
+const keys=[...t.matchAll(/,a:(\d+),why:/g)].map(x=>Number(x[1]));
+assert.equal(keys.join(','),'1,2,1,2,1');
+console.log('Lesson 22: 18 practice math + 18 aligned answers + 5 test keys PASS');
