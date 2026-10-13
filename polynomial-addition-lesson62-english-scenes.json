@@ -1,0 +1,50 @@
+[
+  [
+    "Objective",
+    "Learn to add polynomials by matching terms with identical variable powers. You will combine coefficients and keep each exponent unchanged."
+  ],
+  [
+    "Like terms",
+    "Three x squared and five x squared are like terms, but three x squared and five x are not. Compare the variable part before adding."
+  ],
+  [
+    "Core rule",
+    "Add the coefficients of like terms and copy the common variable power. For example, two x cubed plus four x cubed equals six x cubed."
+  ],
+  [
+    "Linear example",
+    "Add three x plus four to two x minus seven. The variable terms give five x and the constants give negative three, so the answer is five x minus three."
+  ],
+  [
+    "Quadratic example",
+    "Add three x squared minus two x plus five to x squared plus seven x minus nine. The sum is four x squared plus five x minus four."
+  ],
+  [
+    "Missing powers",
+    "If a polynomial has no x squared term, treat its coefficient as zero. This helps align different powers without accidentally dropping a term."
+  ],
+  [
+    "Negative signs",
+    "When adding negative coefficients, keep their signs. Six m squared plus negative two m squared is four m squared, not eight m squared."
+  ],
+  [
+    "Fractions",
+    "One half x squared plus one third x squared is five sixths x squared. Use a common denominator before adding fractional coefficients."
+  ],
+  [
+    "Context",
+    "Adding two trail lengths means adding their polynomial expressions. Keep the same units and combine the quadratic, linear, and constant terms."
+  ],
+  [
+    "Multivariable terms",
+    "Two a to the fourth b and negative seven a to the fourth b combine to negative five a to the fourth b. Other exponent patterns remain separate."
+  ],
+  [
+    "Exam strategy",
+    "Group terms by exponent, add signed coefficients, and write the result in descending powers. Substitute a test value to check the identity."
+  ],
+  [
+    "Recap",
+    "Polynomial addition never adds exponents. Match like terms, add coefficients, preserve unmatched terms, and practice the eighteen questions before the test."
+  ]
+]
