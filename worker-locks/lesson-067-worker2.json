@@ -1,0 +1,23 @@
+{
+  "lessonIndex": 67,
+  "slug": "greatest-common-factor",
+  "owner": "SUMMIT Worker 2",
+  "branch": "worker2/greatest-common-factor-67-20261013",
+  "status": "INCOMPLETE",
+  "updatedAt": "2026-10-13",
+  "completed": [
+    "18 practice items in 3/8/5/2 groups",
+    "18 aligned answers",
+    "5 progressive test questions",
+    "12 English and 12 Arabic full-lesson narration chapters",
+    "full-lesson video route builder",
+    "unique six-route release manifest",
+    "23 independent mathematical result checks in worker audit"
+  ],
+  "blockers": [
+    "Practice Challenge 18 distractor B is a necessary condition as worded ('a ≥ 3 and b ≥ 2'), so 'what must hold?' has two true answers. Replace B with an unequivocally false distractor; repeated GitHub update_file attempts blocked by safety checks.",
+    "Latest READY preview is at commit dd0b57b6, before the subsequent Challenge 18 edit; authoritative validation of final commit remains pending.",
+    "Do not merge or announce until math ambiguity corrected, manifest build and six routes verified, production READY and live URLs verified."
+  ],
+  "next": "Retry authorized Challenge 18 correction once; if blocked continue Lesson 72."
+}
