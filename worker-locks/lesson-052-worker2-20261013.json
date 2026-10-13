@@ -9,6 +9,9 @@
     "Canonical 18 Practice questions exist in four groups 3/8/5/2, and 18 Answer letters agree with current source.",
     "Answers source builder has been changed to include exact question statements and grouping (commit 3a200263), but a source-extraction expression needs correction before build.",
     "Attempts to correct the Answers builder and diversify the five Test questions were rejected by GitHub connector safety checks; do not claim release-ready.",
-    "Release manifest, English/Arabic full video builder, mathematical QA and authoritative Vercel build remain pending."
+    "Release manifest, English/Arabic full video builder, mathematical QA and authoritative Vercel build remain pending.",
+    "Authoritative latest-head Vercel preview a94d7621: 18/18 exact Answer alignment, 23/23 math proofs, five progressive Test, bilingual full routes all passed.",
+    "Build blocked by shared Explanation retrofit gate: collinear-points missing classification marker. Root cause: publish-existing-content.js copies legacy Explanation source after explanation-retrofit-build.js, overwriting the injected marker. Fix requires final retrofit after publishing before the gate, not disabling validation.",
+    "Two attempts to commit the required final retrofit builder were rejected by repository safety checks. No merge or live announcement."
   ]
 }
