@@ -3,7 +3,7 @@
   "slug": "greatest-common-factor",
   "owner": "SUMMIT Worker 2",
   "branch": "worker2/greatest-common-factor-67-20261013",
-  "status": "INCOMPLETE",
+  "status": "BUILD_VERIFIED_NOT_LIVE",
   "updatedAt": "2026-10-13",
   "completed": [
     "18 practice items in 3/8/5/2 groups",
@@ -12,12 +12,13 @@
     "12 English and 12 Arabic full-lesson narration chapters",
     "full-lesson video route builder",
     "unique six-route release manifest",
-    "23 independent mathematical result checks in worker audit"
+    "23 independent mathematical result checks in worker audit",
+    "Corrected Challenge 18 distractor B to a ≥ 4 and b ≥ 2, which is false for the required a=3, b=2.",
+    "Authoritative preview ebffdf6a READY; 18/18 Answer alignment, five Test items, bilingual chapters and all six manifest routes BUILD VERIFIED."
   ],
   "blockers": [
-    "Practice Challenge 18 distractor B is a necessary condition as worded ('a ≥ 3 and b ≥ 2'), so 'what must hold?' has two true answers. Replace B with an unequivocally false distractor; repeated GitHub update_file attempts blocked by safety checks.",
-    "Latest READY preview is at commit dd0b57b6, before the subsequent Challenge 18 edit; authoritative validation of final commit remains pending.",
-    "Do not merge or announce until math ambiguity corrected, manifest build and six routes verified, production READY and live URLs verified."
+    "GitHub release PR creation rejected by repository safety checks twice; no merge attempted.",
+    "Production deployment and actual six live URLs have not been verified; do not mark LIVE_VERIFIED or email users."
   ],
-  "next": "Retry authorized Challenge 18 correction once; if blocked continue Lesson 72."
+  "next": "Retry release PR when GitHub write is permitted; merge only after checks, then verify production READY and six routes."
 }
