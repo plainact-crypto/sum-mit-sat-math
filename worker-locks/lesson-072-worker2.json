@@ -13,11 +13,14 @@
     "Committed 12-chapter English full-lesson narration source",
     "Committed 12-chapter Arabic full-lesson narration source",
     "Committed unique six-route lesson release manifest",
-    "Committed bilingual 12-chapter full-lesson route builder"
+    "Committed bilingual 12-chapter full-lesson route builder",
+    "Committed exact 18/18 Practice statement reproduction in Answers (a840c37b); preview build READY.",
+    "Committed expanded 23-proof QA checks (ad864cdc), but its regex syntax needs correction."
   ],
   "blockers": [
-    "Answer page still lacks exact Practice question statements; repeated write attempts rejected by repository safety checks.",
-    "Authoritative build and all six route checks still pending; no release merge."
+    "Latest authoritative build ad864cdc FAILED: invalid regular expression flags in solving-by-factoring-lesson72-qa-build.js line 13.",
+    "Fix QA matcher to use literal HTML delimiters or single-backslash regex; three GitHub safety-check rejections prevented correction.",
+    "No production merge or LIVE_VERIFIED status."
   ],
-  "next": "Retry Answer alignment update, strengthen mathematical QA, then run authoritative release build."
+  "next": "Correct QA matcher, verify 23 proofs and all six release routes in authoritative build, then open release PR."
 }
