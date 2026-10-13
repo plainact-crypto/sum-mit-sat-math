@@ -9,12 +9,14 @@
     "Confirmed canonical slug and route under Advanced Math / Quadratic Equations",
     "Independent mathematical substitution checks passed for 18 Practice and 5 Test items",
     "Verified 3/8/5/2 Practice distribution and 18 Answers and five Test items",
-    "Committed initial structural QA builder"
+    "Committed initial structural QA builder",
+    "Committed 12-chapter English full-lesson narration source",
+    "Committed 12-chapter Arabic full-lesson narration source"
   ],
   "blockers": [
     "Answers page does not reproduce exact Practice statements in its 18 solutions; needs alignment builder.",
-    "English/Arabic full-lesson video builder and narration sources not committed; repeated GitHub create_file attempts blocked by safety checks.",
+    "Bilingual narration sources committed; video route builder still blocked by repository safety checks.",
     "Unique release manifest and authoritative build/route verification pending."
   ],
-  "next": "Finish 18 exact Answer statement alignment, bilingual 12-chapter video routes, release manifest, mathematical QA builder and authoritative build."
+  "next": "Build English/Arabic video routes, align 18 Answers to exact Practice statements, add unique release manifest, and run authoritative build."
 }
