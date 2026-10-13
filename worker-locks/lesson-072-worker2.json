@@ -1,0 +1,20 @@
+{
+  "lessonIndex": 72,
+  "slug": "solving-by-factoring",
+  "owner": "SUMMIT Worker 2",
+  "branch": "worker2/solving-by-factoring-72-20261013",
+  "status": "INCOMPLETE",
+  "updatedAt": "2026-10-13",
+  "completed": [
+    "Confirmed canonical slug and route under Advanced Math / Quadratic Equations",
+    "Independent mathematical substitution checks passed for 18 Practice and 5 Test items",
+    "Verified 3/8/5/2 Practice distribution and 18 Answers and five Test items",
+    "Committed initial structural QA builder"
+  ],
+  "blockers": [
+    "Answers page does not reproduce exact Practice statements in its 18 solutions; needs alignment builder.",
+    "English/Arabic full-lesson video builder and narration sources not committed; repeated GitHub create_file attempts blocked by safety checks.",
+    "Unique release manifest and authoritative build/route verification pending."
+  ],
+  "next": "Finish 18 exact Answer statement alignment, bilingual 12-chapter video routes, release manifest, mathematical QA builder and authoritative build."
+}
