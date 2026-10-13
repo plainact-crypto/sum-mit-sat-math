@@ -1,0 +1,35 @@
+{
+  "lessonIndex": 57,
+  "slug": "systems-of-inequalities-word-problems",
+  "owner": "SUMMIT Worker 2",
+  "branch": "worker2/systems-of-inequalities-word-problems-57-20261013",
+  "status": "INCOMPLETE",
+  "updated": "2026-10-13",
+  "content": {
+    "practice": 18,
+    "groups": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answersAligned": 18,
+    "test": 5,
+    "fullVideoRoutes": [
+      "english",
+      "arabic"
+    ],
+    "independentMathChecks": 23,
+    "localStaticMathQA": "PASS"
+  },
+  "release": {
+    "manifest": "lesson-releases/systems-of-inequalities-word-problems.json",
+    "requiredBuilders": 9,
+    "canonicalRoutes": 6,
+    "authoritativeBuild": "BLOCKED",
+    "reason": "Vercel 402 api-deployments-free-per-day; inherited Explanation registry duplicate special-polynomial-products and legacy Desmos field names need resolution; direct registry write rejected by safety checks",
+    "productionVerified": false,
+    "announcementSent": false
+  },
+  "next": "Retry authoritative build after quota reset; resolve mandatory registry errors with authorized repository update; verify build and routes before PR/merge."
+}
