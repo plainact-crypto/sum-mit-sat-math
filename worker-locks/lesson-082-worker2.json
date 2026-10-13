@@ -1,0 +1,13 @@
+{
+  "lessonIndex": 82,
+  "slug": "quadratic-equations-with-parameters",
+  "owner": "SUMMIT Worker 2",
+  "branch": "worker2/quadratic-equations-with-parameters-82-20261013",
+  "status": "INCOMPLETE",
+  "updatedAt": "2026-10-13",
+  "mathBlocker": "Challenge Q18 is false: for x²+(k+2)x+k=0, discriminant (k+2)²−4k=k²+4>0 for every real k. No real parameter yields a repeated root.",
+  "testBlocker": "The current Test HTML uses <details><summary>Show answer</summary>, revealing answers before Submit Test. Replace with five progressive questions and a single final submission.",
+  "alignmentBlocker": "Answers page shows 18 numbered solutions without exact Practice prompts or 3/8/5/2 groups.",
+  "attempts": "An authorized source correction to quadratic-parameters-full-build.js was rejected by GitHub safety checks on 2026-10-13.",
+  "next": "Correct Challenge Q18 and its solution; implement final-only Test scoring; align all 18 Answers and groups; add English/Arabic full lesson video routes, independent math QA and unique release manifest; run required build and six-route validation."
+}
