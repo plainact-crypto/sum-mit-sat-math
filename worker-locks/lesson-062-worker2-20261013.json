@@ -1,0 +1,37 @@
+{
+  "lessonIndex": 62,
+  "slug": "polynomial-addition",
+  "owner": "SUMMIT Worker 2",
+  "branch": "worker2/polynomial-addition-62-20261013",
+  "status": "INCOMPLETE",
+  "updated": "2026-10-13",
+  "content": {
+    "explanation": "Existing NEITHER-classified lesson reviewed",
+    "practice": 18,
+    "groups": [
+      3,
+      8,
+      5,
+      2
+    ],
+    "answersAligned": "QA builder committed; authoritative build pending",
+    "test": 5,
+    "fullVideoChapters": {
+      "english": 12,
+      "arabic": 12
+    }
+  },
+  "release": {
+    "manifest": "lesson-releases/polynomial-addition.json",
+    "requiredBuilders": 6,
+    "canonicalRoutes": 6,
+    "authoritativeBuild": "PENDING",
+    "productionVerified": false,
+    "announcementSent": false
+  },
+  "notes": [
+    "Lesson 52 mandatory Answers builder write rejected; recorded prior blocker and advanced.",
+    "Lesson 57 mandatory Explanation gate failed; prior lock records blocker.",
+    "Do not merge until build and all six routes pass."
+  ]
+}
