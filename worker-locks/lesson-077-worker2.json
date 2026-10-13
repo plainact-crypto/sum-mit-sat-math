@@ -9,12 +9,13 @@
     "Confirmed canonical index 77 and route from 298-lesson curriculum",
     "Existing Explanation includes DESMOS_USEFUL strategy and worked examples",
     "Existing Practice 18 questions in 3/8/5/2 groups and 18 corresponding Answers",
-    "Existing Test five questions; corrected Test Q1 to avoid exact Practice Q1 duplication in commit 563f5db4"
+    "Existing Test five questions; corrected Test Q1 to avoid exact Practice Q1 duplication in commit 563f5db4",
+    "Committed 12-chapter English full-lesson narration (2dedb2da) and 12-chapter Arabic narration (500102b6)."
   ],
   "blockers": [
-    "Independent mathematical QA builder write rejected by GitHub safety checks",
-    "Arabic 12-chapter full-lesson route and video builder not yet committed",
-    "Unique release manifest and authoritative validation pending"
+    "GitHub safety checks rejected the mathematical QA builder and full-lesson video route builder writes; do not claim content complete.",
+    "Unique release manifest cannot be finalized until required builders exist and authoritative build passes.",
+    "Production release and six live routes not verified."
   ],
-  "next": "Add mathematical QA and bilingual full-lesson video sources/routes; create unique lesson manifest and validate authoritative build before PR."
+  "next": "Retry authorized QA/video builder writes; create unique release manifest, validate all six routes, then release."
 }
