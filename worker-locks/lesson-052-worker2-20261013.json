@@ -14,6 +14,8 @@
     "Build blocked by shared Explanation retrofit gate: collinear-points missing classification marker. Root cause: publish-existing-content.js copies legacy Explanation source after explanation-retrofit-build.js, overwriting the injected marker. Fix requires final retrofit after publishing before the gate, not disabling validation.",
     "Two attempts to commit the required final retrofit builder were rejected by repository safety checks. No merge or live announcement.",
     "Commit a272632ba3670419501d643278a4b116e0c303f1 preserved previously retrofitted pages during legacy publishing; authoritative build passed Lesson 52 18/18 answers, 23/23 proofs, and both full-lesson routes but still failed mandatory gate: decimals missing classification marker.",
-    "A final retrofit pass after publish-existing-content.js remains required before the mandatory gate. Attempt to commit production-build.js build-order correction was rejected by GitHub safety checks. Lesson remains INCOMPLETE, not live."
+    "A final retrofit pass after publish-existing-content.js remains required before the mandatory gate. Attempt to commit production-build.js build-order correction was rejected by GitHub safety checks. Lesson remains INCOMPLETE, not live.",
+    "2026-10-13: Committed standalone final Explanation retrofit builder 243ec45c to rerun the canonical registry retrofit after legacy publishing. The required manifest update was rejected by GitHub safety checks, so the builder is not yet part of the mandatory release and no build/route validation is claimed.",
+    "Shared production-build.js build-order fix also rejected by safety checks; keep lesson INCOMPLETE and advance to another owned lesson while blocked."
   ]
 }
