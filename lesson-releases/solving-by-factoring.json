@@ -1,0 +1,19 @@
+{
+  "lesson": "solving-by-factoring",
+  "builders": [
+    "solving-by-factoring-explanation-build.js",
+    "solving-by-factoring-problems-build.js",
+    "solving-by-factoring-answers-build.js",
+    "solving-by-factoring-test-build.js",
+    "solving-by-factoring-lesson72-qa-build.js",
+    "solving-by-factoring-lesson72-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/quadratic-equations/solving-by-factoring/explanation/",
+    "/advanced-math/quadratic-equations/solving-by-factoring/problems/",
+    "/advanced-math/quadratic-equations/solving-by-factoring/answers/",
+    "/advanced-math/quadratic-equations/solving-by-factoring/test/",
+    "/advanced-math/quadratic-equations/solving-by-factoring/video/english/",
+    "/advanced-math/quadratic-equations/solving-by-factoring/video/arabic/"
+  ]
+}
