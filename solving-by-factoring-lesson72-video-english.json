@@ -1,0 +1,50 @@
+[
+  [
+    "Lesson objective",
+    "Solve quadratic equations by rewriting them as a product equal to zero. Every root must satisfy the original equation."
+  ],
+  [
+    "Zero-product property",
+    "If A times B equals zero, then at least one factor is zero. This is why factoring can turn a quadratic into two simpler equations."
+  ],
+  [
+    "Put everything on one side",
+    "Before factoring, move all terms so the equation equals zero. For example x squared plus two x equals fifteen becomes x squared plus two x minus fifteen equals zero."
+  ],
+  [
+    "Find integer factors",
+    "To factor x squared minus five x plus six, choose numbers that multiply to six and add to negative five. Negative two and negative three work."
+  ],
+  [
+    "Solve both factors",
+    "Write x minus two times x minus three equals zero. Solve x minus two equals zero and x minus three equals zero to get two and three."
+  ],
+  [
+    "Check by substitution",
+    "At x equals two, four minus ten plus six is zero. At x equals three, nine minus fifteen plus six is also zero."
+  ],
+  [
+    "Greatest common factor first",
+    "For three x squared minus twelve x equals zero, factor three x times x minus four. The roots are zero and four; never divide away the x factor."
+  ],
+  [
+    "Difference of squares",
+    "Four x squared minus thirty-six equals zero factors as four times x minus three times x plus three. The solutions are negative three and three."
+  ],
+  [
+    "Nonmonic trinomials",
+    "Two x squared plus seven x plus three factors as two x plus one times x plus three. The solutions are negative one half and negative three."
+  ],
+  [
+    "Word problem",
+    "If a rectangle has sides x plus two and x plus five and area fifty-four, form x squared plus seven x minus forty-four equals zero. Factor x plus eleven times x minus four, and keep the positive root four."
+  ],
+  [
+    "Advanced challenge",
+    "Treat x to the fourth minus thirteen x squared plus thirty-six as a quadratic in u equals x squared. Solve u equals four or nine, then take both positive and negative square roots."
+  ],
+  [
+    "Exam recap",
+    "Set the equation equal to zero, factor completely, solve every factor, check the original equation, and apply any restrictions from the question."
+  ]
+]
