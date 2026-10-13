@@ -14,7 +14,7 @@
       5,
       2
     ],
-    "answersAligned": "QA builder committed; authoritative build pending",
+    "answersAligned": "18/18 PASS in authoritative builder",
     "test": 5,
     "fullVideoChapters": {
       "english": 12,
@@ -25,13 +25,15 @@
     "manifest": "lesson-releases/polynomial-addition.json",
     "requiredBuilders": 6,
     "canonicalRoutes": 6,
-    "authoritativeBuild": "PENDING",
+    "authoritativeBuild": "FAILED",
     "productionVerified": false,
-    "announcementSent": false
+    "announcementSent": false,
+    "reason": "Vercel preview dpl_EEt3ZAgYnkwpdSs72beUMAiDTJxE: mandatory Explanation gate fails at collinear-points missing classification marker; Lesson 62 builders passed before global gate"
   },
   "notes": [
     "Lesson 52 mandatory Answers builder write rejected; recorded prior blocker and advanced.",
     "Lesson 57 mandatory Explanation gate failed; prior lock records blocker.",
     "Do not merge until build and all six routes pass."
-  ]
+  ],
+  "next": "Resolve inherited Explanation gate blocker without bypass; rerun authoritative build, validate six routes, then PR/merge and production verification."
 }
