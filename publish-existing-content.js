@@ -51,8 +51,16 @@ for(const item of leaves){
     if(!validSource(html,item,type,file)) continue;
     const target=path.join(dist,base.replace(/^\//,''),type);
     fs.mkdirSync(target,{recursive:true});
-    fs.copyFileSync(src,path.join(target,'index.html'));
     const route=`${base}/${type}/`;
+    const output=path.join(target,'index.html');
+    // Preserve the verified retrofit already applied earlier in production-build.js.
+    // Recopying the legacy source would remove its classification marker and graph/Desmos blocks.
+    if(type==='explanation' && fs.existsSync(output) &&
+       fs.readFileSync(output,'utf8').includes('SUMMIT_RETROFIT:')){
+      publishedRoutes.add(route);
+      continue;
+    }
+    fs.copyFileSync(src,output);
     publishedRoutes.add(route);
     copied.push({route,file});
   }
