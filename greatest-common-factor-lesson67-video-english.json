@@ -1,0 +1,50 @@
+[
+  [
+    "Objective",
+    "Factor the greatest common factor, or GCF, from every term in a polynomial."
+  ],
+  [
+    "Factoring reverses distribution",
+    "Twelve x plus eighteen equals six times the quantity two x plus three. Expanding checks the answer."
+  ],
+  [
+    "Numerical factor",
+    "The greatest common divisor of eighteen and twenty four is six. Choose the largest shared coefficient."
+  ],
+  [
+    "Variables",
+    "For x cubed and x squared, keep x squared. Use the smaller shared exponent."
+  ],
+  [
+    "Two variables",
+    "Eighteen x cubed y squared plus twenty four x squared y cubed equals six x squared y squared times three x plus four y."
+  ],
+  [
+    "Three terms",
+    "Twenty a cubed b minus thirty a squared b squared plus ten a b equals ten a b times two a squared minus three a b plus one."
+  ],
+  [
+    "Missing variables",
+    "Fourteen m squared n plus twenty one m n squared plus thirty five m has GCF seven m. The last term has no n."
+  ],
+  [
+    "Negative coefficients",
+    "Negative fifteen a squared b plus twenty five a b squared equals five a b times negative three a plus five b."
+  ],
+  [
+    "Check by expanding",
+    "Distribute the common factor back into every term. The original coefficients, variables, exponents and signs must return."
+  ],
+  [
+    "Geometry application",
+    "Area eighteen x squared plus thirty x, divided by width six x, gives rectangle length three x plus five."
+  ],
+  [
+    "Unknown exponents",
+    "If the GCF contains x cubed, the smaller exponent among the original terms must be three."
+  ],
+  [
+    "Exam recap",
+    "Find the coefficient GCF, use variables common to every term with minimum exponents, divide, then expand to check."
+  ]
+]

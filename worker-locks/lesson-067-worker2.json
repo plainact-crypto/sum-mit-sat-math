@@ -1,0 +1,24 @@
+{
+  "lessonIndex": 67,
+  "slug": "greatest-common-factor",
+  "owner": "SUMMIT Worker 2",
+  "branch": "worker2/greatest-common-factor-67-20261013",
+  "status": "BUILD_VERIFIED_NOT_LIVE",
+  "updatedAt": "2026-10-13",
+  "completed": [
+    "18 practice items in 3/8/5/2 groups",
+    "18 aligned answers",
+    "5 progressive test questions",
+    "12 English and 12 Arabic full-lesson narration chapters",
+    "full-lesson video route builder",
+    "unique six-route release manifest",
+    "23 independent mathematical result checks in worker audit",
+    "Corrected Challenge 18 distractor B to a ≥ 4 and b ≥ 2, which is false for the required a=3, b=2.",
+    "Authoritative preview ebffdf6a READY; 18/18 Answer alignment, five Test items, bilingual chapters and all six manifest routes BUILD VERIFIED."
+  ],
+  "blockers": [
+    "GitHub release PR creation rejected by repository safety checks twice; no merge attempted.",
+    "Production deployment and actual six live URLs have not been verified; do not mark LIVE_VERIFIED or email users."
+  ],
+  "next": "Retry release PR when GitHub write is permitted; merge only after checks, then verify production READY and six routes."
+}

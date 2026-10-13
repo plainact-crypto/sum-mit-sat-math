@@ -1,0 +1,19 @@
+{
+  "lesson": "greatest-common-factor",
+  "builders": [
+    "greatest-common-factor-explanation-build.js",
+    "greatest-common-factor-problems-build.js",
+    "greatest-common-factor-answers-build.js",
+    "greatest-common-factor-test-build.js",
+    "greatest-common-factor-lesson67-qa-build.js",
+    "greatest-common-factor-lesson67-video-build.js"
+  ],
+  "routes": [
+    "/advanced-math/factoring/greatest-common-factor/explanation/",
+    "/advanced-math/factoring/greatest-common-factor/problems/",
+    "/advanced-math/factoring/greatest-common-factor/answers/",
+    "/advanced-math/factoring/greatest-common-factor/test/",
+    "/advanced-math/factoring/greatest-common-factor/video/english/",
+    "/advanced-math/factoring/greatest-common-factor/video/arabic/"
+  ]
+}
