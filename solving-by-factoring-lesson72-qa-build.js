@@ -10,7 +10,7 @@ if((a.match(/class="answer"/g)||[]).length!==18)throw Error('Lesson72 answers');
 if(tests.length!==5||tests.some(x=>qs.some(y=>y[0]===x.q)))throw Error('Lesson72 test');
 
 const decode=s=>String(s).replace(/&gt;/g,'>').replace(/&lt;/g,'<').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'");
-const answerPrompts=[...a.matchAll(/<p class="practice-question"><strong>Practice (\\d+):<\\/strong>\\s*([\\s\\S]*?)<\\/p>/g)];
+const answerPrompts=[...a.matchAll(/<p class="practice-question"><strong>Practice (\d+):<\/strong>\s*([\s\S]*?)<\/p>/g)];
 if(answerPrompts.length!==18)throw Error('Lesson72 missing exact Practice prompts in Answers');
 for(let i=0;i<18;i++){
   if(Number(answerPrompts[i][1])!==i+1||decode(answerPrompts[i][2])!==qs[i][0])
