@@ -1,0 +1,21 @@
+{
+  "lesson": "one-real-solution",
+  "builders": [
+    "one-real-solution-explanation-build.js",
+    "one-real-solution-problems-build.js",
+    "one-real-solution-test-build.js",
+    "one-real-solution-content-build.js",
+    "one-real-solution-lesson77-math-qa-build.js",
+    "one-real-solution-lesson77-video-build.js",
+    "explanation-retrofit-build.js",
+    "explanation-retrofit-gate.js"
+  ],
+  "routes": [
+    "/advanced-math/quadratic-equations/one-real-solution/explanation/",
+    "/advanced-math/quadratic-equations/one-real-solution/problems/",
+    "/advanced-math/quadratic-equations/one-real-solution/answers/",
+    "/advanced-math/quadratic-equations/one-real-solution/test/",
+    "/advanced-math/quadratic-equations/one-real-solution/video/english/",
+    "/advanced-math/quadratic-equations/one-real-solution/video/arabic/"
+  ]
+}
