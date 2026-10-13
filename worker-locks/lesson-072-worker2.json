@@ -3,7 +3,7 @@
   "slug": "solving-by-factoring",
   "owner": "SUMMIT Worker 2",
   "branch": "worker2/solving-by-factoring-72-20261013",
-  "status": "INCOMPLETE",
+  "status": "BUILD_VERIFIED_NOT_LIVE",
   "updatedAt": "2026-10-13",
   "completed": [
     "Confirmed canonical slug and route under Advanced Math / Quadratic Equations",
@@ -15,12 +15,12 @@
     "Committed unique six-route lesson release manifest",
     "Committed bilingual 12-chapter full-lesson route builder",
     "Committed exact 18/18 Practice statement reproduction in Answers (a840c37b); preview build READY.",
-    "Committed expanded 23-proof QA checks (ad864cdc), but its regex syntax needs correction."
+    "Committed expanded 23-proof QA checks (ad864cdc), but its regex syntax needs correction.",
+    "Fixed QA regex in commit 5d09536871c7926e9c35c62c5ca2c14fdad0ee8f; authoritative Vercel preview READY, 18/18 exact Answers, 18/18 Practice proofs, 5/5 Test proofs, English/Arabic full lesson routes, and six-route release manifest verified."
   ],
   "blockers": [
-    "Latest authoritative build ad864cdc FAILED: invalid regular expression flags in solving-by-factoring-lesson72-qa-build.js line 13.",
-    "Fix QA matcher to use literal HTML delimiters or single-backslash regex; three GitHub safety-check rejections prevented correction.",
-    "No production merge or LIVE_VERIFIED status."
+    "Release PR creation was rejected by GitHub safety checks; no production merge.",
+    "Production READY for a merged commit and actual six summit.plain-act.com routes not yet verified; do not mark LIVE_VERIFIED or email users."
   ],
-  "next": "Correct QA matcher, verify 23 proofs and all six release routes in authoritative build, then open release PR."
+  "next": "Retry release PR when permitted, verify latest commit build and merge only after checks; verify production READY and all six live routes."
 }
