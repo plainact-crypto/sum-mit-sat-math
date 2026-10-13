@@ -1,0 +1,11 @@
+const fs=require('fs'),path=require('path');
+const base='advanced-math/quadratic-equations/one-real-solution';
+for(const lang of ['english','arabic']){
+const scenes=require('./one-real-solution-lesson77-video-'+lang+'.json');
+if(scenes.length!==12||scenes.some(x=>x.length!==2||!x[0]||!x[1]))throw Error('12 full chapters required: '+lang);
+const locale=lang==='arabic'?'ar-EG':'en-US';
+const dir=path.join(__dirname,'dist',base,'video',lang);fs.mkdirSync(dir,{recursive:true});
+const html=`<!doctype html><html lang="${locale.slice(0,2)}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/styles.css"><title>One Real Solution — ${lang} Full Lesson</title></head><body><main class="page-shell"><section class="lesson-card"><h1>One Real Solution — ${lang}</h1><div style="aspect-ratio:16/9;background:#102e52;color:white;padding:2rem"><h2 id="title"></h2><p id="text"></p><small id="count"></small></div><button id="previous">Previous</button> <button id="play">Play Full Lesson</button> <button id="stop">Stop</button> <button id="next">Next</button><p><a href="/${base}/explanation/">Explanation</a> · <a href="/${base}/problems/">Practice</a> · <a href="/${base}/answers/">Answers</a> · <a href="/${base}/test/">Test</a></p></section></main><script>const scenes=${JSON.stringify(scenes)};let i=0,active=false;function show(){document.getElementById('title').textContent=scenes[i][0];document.getElementById('text').textContent=scenes[i][1];document.getElementById('count').textContent=(i+1)+'/12'}function stop(){active=false;speechSynthesis.cancel()}function play(){if(!active)return;show();const u=new SpeechSynthesisUtterance(scenes[i].join('. '));u.lang='${locale}';u.rate=.88;u.onend=()=>{if(active&&i<11){i++;play()}else active=false};u.onerror=stop;speechSynthesis.speak(u)}document.getElementById('play').onclick=()=>{stop();active=true;play()};document.getElementById('stop').onclick=stop;document.getElementById('previous').onclick=()=>{stop();i=Math.max(0,i-1);show()};document.getElementById('next').onclick=()=>{stop();i=Math.min(11,i+1);show()};show();</script></body></html>`;
+fs.writeFileSync(path.join(dir,'index.html'),html);
+console.log('[lesson77] '+lang+' full lesson: 12 chapters');
+}
