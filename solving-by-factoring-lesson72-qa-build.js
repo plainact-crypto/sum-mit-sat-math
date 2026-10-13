@@ -1,0 +1,11 @@
+const fs=require('fs'),vm=require('vm');
+const p=fs.readFileSync('solving-by-factoring-problems.html','utf8');
+const groups=vm.runInNewContext(p.split('const groups=')[1].split(';let n=')[0]);
+const qs=groups.flatMap(g=>g[1]);
+const a=fs.readFileSync('solving-by-factoring-answers.html','utf8');
+const t=fs.readFileSync('solving-by-factoring-test.html','utf8');
+const tests=vm.runInNewContext(t.split('const qs=')[1].split(';const root=')[0]);
+if(groups.map(g=>g[1].length).join('/')!=='3/8/5/2'||qs.length!==18)throw Error('Lesson72 practice');
+if((a.match(/class="answer"/g)||[]).length!==18)throw Error('Lesson72 answers');
+if(tests.length!==5||tests.some(x=>qs.some(y=>y[0]===x.q)))throw Error('Lesson72 test');
+console.log('[lesson72] 18 practice, 18 answers, 5 independent test prompts: PASS');
