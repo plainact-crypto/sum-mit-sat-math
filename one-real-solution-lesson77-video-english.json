@@ -1,0 +1,50 @@
+[
+  [
+    "Objective",
+    "Learn to recognize and solve a quadratic equation with exactly one distinct real solution. The root occurs twice algebraically, but represents only one x-value."
+  ],
+  [
+    "Repeated root",
+    "The equation x squared minus six x plus nine equals zero factors into x minus three squared. The only real root is x equals three."
+  ],
+  [
+    "Discriminant",
+    "For a x squared plus b x plus c equals zero, compute D equals b squared minus four a c. Exactly one real solution means D equals zero."
+  ],
+  [
+    "Why the formula agrees",
+    "The quadratic formula is negative b plus or minus square root D, divided by two a. When D is zero, both signs produce the same root."
+  ],
+  [
+    "Worked example",
+    "For x squared minus eight x plus sixteen equals zero, D equals sixty four minus sixty four, or zero. The repeated root is four."
+  ],
+  [
+    "Factoring check",
+    "The same equation is x minus four squared equals zero. Substitute x equals four to verify sixteen minus thirty two plus sixteen equals zero."
+  ],
+  [
+    "Unknown middle coefficient",
+    "If x squared plus k x plus sixteen has one real solution, set k squared minus sixty four equal to zero. Both k equals eight and k equals negative eight work."
+  ],
+  [
+    "Unknown constant",
+    "For two x squared minus twelve x plus c, set one hundred forty four minus eight c equal to zero. The answer is c equals eighteen."
+  ],
+  [
+    "Graph meaning",
+    "A quadratic with one repeated real root touches the x-axis at its vertex and turns around. It does not cross the axis at two different points."
+  ],
+  [
+    "Desmos strategy",
+    "Enter y equals x squared minus eight x plus sixteen. Look for the single x-axis touch at four. The discriminant is faster for exact parameter questions."
+  ],
+  [
+    "Common exam traps",
+    "Do not confuse D equals zero with D greater than zero. If a parameter is squared, check both positive and negative branches and keep a nonzero."
+  ],
+  [
+    "Recap and next steps",
+    "Write the equation in standard form. Set b squared minus four a c equal to zero. Solve for the unknown and verify the repeated root using negative b divided by two a."
+  ]
+]
