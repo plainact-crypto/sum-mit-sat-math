@@ -1,0 +1,21 @@
+const fs=require('fs'),path=require('path');
+const slug='systems-of-inequalities-word-problems';
+const route='algebra/systems-of-linear-inequalities/'+slug;
+const problems=fs.readFileSync(path.join(__dirname,slug+'-problems.html'),'utf8');
+const start=problems.indexOf('const groups='),end=problems.indexOf(';let n=0;',start);
+if(start<0||end<0)throw Error('Canonical Practice data missing');
+const groups=JSON.parse(problems.slice(start+'const groups='.length,end));
+if(groups.length!==4||groups.map(g=>g[2].length).join('/')!=='3/8/5/2')throw Error('Practice distribution invalid');
+const questions=groups.flatMap(g=>g[2]);if(questions.length!==18||new Set(questions.map(q=>q[0])).size!==18)throw Error('Practice questions missing or duplicated');
+const file=path.join(__dirname,'dist',route,'answers','index.html');
+let html=fs.readFileSync(file,'utf8'),count=0;
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+html=html.replace(/(<div class="answer"><h3>)(\d+)\. [\s\S]*?(<\/h3>)/g,(whole,open,n,close)=>{
+ const i=count++,q=questions[i];if(!q||Number(n)!==i+1)throw Error('Answer numbering differs from Practice at '+n);
+ return open+n+'. '+esc(q[0])+close;
+});
+if(count!==18)throw Error('Expected exactly 18 Answer cards, got '+count);
+const finals=[...html.matchAll(/<div class="final">Answer: ([A-D])\)/g)];
+if(finals.length!==18||finals.some((m,i)=>m[1]!==String.fromCharCode(65+questions[i][2])))throw Error('Answer key differs from Practice');
+fs.writeFileSync(file,html);
+console.log('[lesson57] 18 exact Practice headings and 18 correct answer letters aligned');
