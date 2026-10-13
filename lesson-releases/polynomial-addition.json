@@ -1,0 +1,19 @@
+{
+  "lesson": "polynomial-addition",
+  "builders": [
+    "polynomial-addition-explanation-build.js",
+    "polynomial-addition-problems-build.js",
+    "explanation-retrofit-build.js",
+    "polynomial-addition-lesson62-qa-build.js",
+    "polynomial-addition-lesson62-video-build.js",
+    "explanation-retrofit-gate.js"
+  ],
+  "routes": [
+    "/advanced-math/polynomial-operations/polynomial-addition/explanation/",
+    "/advanced-math/polynomial-operations/polynomial-addition/problems/",
+    "/advanced-math/polynomial-operations/polynomial-addition/answers/",
+    "/advanced-math/polynomial-operations/polynomial-addition/test/",
+    "/advanced-math/polynomial-operations/polynomial-addition/video/english/",
+    "/advanced-math/polynomial-operations/polynomial-addition/video/arabic/"
+  ]
+}
